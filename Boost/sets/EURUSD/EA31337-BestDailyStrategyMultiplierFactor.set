@@ -1,0 +1,10 @@
+# Overridden params.
+Boosting_Enabled=1
+Account_Conditions_Active=0
+ProfitFactorMaxToTrade=0
+# Optimization params.
+BestDailyStrategyMultiplierFactor=0.3
+BestDailyStrategyMultiplierFactor,F=0
+BestDailyStrategyMultiplierFactor,1=0
+BestDailyStrategyMultiplierFactor,2=0
+BestDailyStrategyMultiplierFactor,3=0
