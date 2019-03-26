@@ -1,0 +1,12 @@
+# Overridden params.
+LotSize=0.01
+Account_Conditions_Active=0
+CloseOrderAfterXHours=24
+ProfitFactorMinToTrade=0
+ProfitFactorMaxToTrade=0
+# Optimization params.
+SmartQueueMethod=0
+SmartQueueMethod,F=0
+SmartQueueMethod,1=0
+SmartQueueMethod,2=0
+SmartQueueMethod,3=0

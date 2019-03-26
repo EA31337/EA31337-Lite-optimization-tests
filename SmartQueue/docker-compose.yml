@@ -1,0 +1,50 @@
+version: '3.4'
+services:
+  SmartQueueActive:
+    command: run_backtest -v
+    image: ea31337:eurusd-2018
+    build:
+      context: ..
+      target: eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      SET_PARAMS: SmartQueueActive
+      RUN_ON_SET: set_opt_params SmartQueueActive 0 1
+      SETFILE: /opt/sets/EURUSD/EA31337-SmartQueueActive.set
+      TEST_REPORT_NAME: EA31337-SmartQueueActive
+      BT_DEST: /opt/_results/EURUSD
+  SmartQueueMethod:
+    command: run_backtest -v
+    image: ea31337:eurusd-2018
+    build:
+      context: ..
+      target: eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      SET_PARAMS: SmartQueueMethod
+      RUN_ON_SET: set_opt_params SmartQueueMethod 0 15
+      SETFILE: /opt/sets/EURUSD/EA31337-SmartQueueMethod.set
+      TEST_REPORT_NAME: EA31337-SmartQueueMethod
+      BT_DEST: /opt/_results/EURUSD
+  SmartQueueFilter:
+    command: run_backtest -v
+    image: ea31337:eurusd-2018
+    build:
+      context: ..
+      target: eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      SET_PARAMS: SmartQueueFilter
+      RUN_ON_SET: set_opt_params SmartQueueFilter 0 255
+      SETFILE: /opt/sets/EURUSD/EA31337-SmartQueueFilter.set
+      TEST_REPORT_NAME: EA31337-SmartQueueFilter
+      BT_DEST: /opt/_results/EURUSD
