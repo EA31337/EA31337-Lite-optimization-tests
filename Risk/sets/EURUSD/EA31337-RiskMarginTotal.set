@@ -1,0 +1,6 @@
+# Optimization params.
+RiskMarginTotal=0
+RiskMarginTotal,F=0
+RiskMarginTotal,1=0
+RiskMarginTotal,2=0
+RiskMarginTotal,3=0
