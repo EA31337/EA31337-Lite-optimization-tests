@@ -1,0 +1,18 @@
+# Overridden params.
+Account_Conditions_Active=1
+# Optimization params.
+Account_Condition_5=23
+Account_Condition_5,F=0
+Account_Condition_5,1=0
+Account_Condition_5,2=0
+Account_Condition_5,3=0
+Market_Condition_5=0
+Market_Condition_5,F=1
+Market_Condition_5,1=1
+Market_Condition_5,2=1
+Market_Condition_5,3=19
+Action_On_Condition_5=0
+Action_On_Condition_5,F=1
+Action_On_Condition_5,1=0
+Action_On_Condition_5,2=1
+Action_On_Condition_5,3=13
