@@ -1,6 +1,6 @@
 version: '3.4'
 services:
-  InitNoOfDaysToWarmUp:
+  EURUSD_InitNoOfDaysToWarmUp:
     command: run_backtest -v
     image: ea31337:eurusd-2018
     build:
@@ -16,7 +16,7 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-InitNoOfDaysToWarmUp.set
       TEST_REPORT_NAME: EA31337-InitNoOfDaysToWarmUp
       BT_DEST: /opt/_results/EURUSD
-  RiskMarginPerOrder:
+  EURUSD_RiskMarginPerOrder:
     command: run_backtest -v
     image: ea31337:eurusd-2018
     build:
@@ -32,7 +32,7 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-RiskMarginPerOrder.set
       TEST_REPORT_NAME: EA31337-RiskMarginPerOrder
       BT_DEST: /opt/_results/EURUSD
-  RiskMarginTotal:
+  EURUSD_RiskMarginTotal:
     command: run_backtest -v
     image: ea31337:eurusd-2018
     build:
@@ -49,7 +49,7 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-RiskMarginTotal.set
       TEST_REPORT_NAME: EA31337-RiskMarginTotal
       BT_DEST: /opt/_results/EURUSD
-  RiskRatio:
+  EURUSD_RiskRatio:
     command: run_backtest -v
     image: ea31337:eurusd-2018
     build:
@@ -65,7 +65,7 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-RiskRatio.set
       TEST_REPORT_NAME: EA31337-RiskRatio
       BT_DEST: /opt/_results/EURUSD
-  RiskRatioDecreaseMethod:
+  EURUSD_RiskRatioDecreaseMethod:
     command: run_backtest -v
     image: ea31337:eurusd-2018
     build:
@@ -81,7 +81,7 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-RiskRatioDecreaseMethod.set
       TEST_REPORT_NAME: EA31337-RiskRatioDecreaseMethod
       BT_DEST: /opt/_results/EURUSD
-  RiskRatioIncreaseMethod:
+  EURUSD_RiskRatioIncreaseMethod:
     command: run_backtest -v
     image: ea31337:eurusd-2018
     build:

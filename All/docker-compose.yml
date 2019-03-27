@@ -2,10 +2,10 @@ version: '3.4'
 services:
   EURUSD_CloseOrderAfterXHours:
     command: run_backtest -v
-    image: ea31337:eurusd-2018
     build:
       context: ..
       target: eurusd-2018
+    image: ea31337:eurusd-2018
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -18,10 +18,10 @@ services:
       BT_DEST: /opt/_results/EURUSD
   EURUSD_InitNoOfOrdersToCalcPF:
     command: run_backtest -v
-    image: ea31337:eurusd-2018
     build:
       context: ..
       target: eurusd-2018
+    image: ea31337:eurusd-2018
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -33,10 +33,10 @@ services:
       BT_DEST: /opt/_results/EURUSD
   EURUSD_LotSize:
     command: run_backtest -v
-    image: ea31337:eurusd-2018
     build:
       context: ..
       target: eurusd-2018
+    image: ea31337:eurusd-2018
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -50,10 +50,10 @@ services:
       BT_DEST: /opt/_results/EURUSD
   EURUSD_MaxOrders:
     command: run_backtest -v
-    image: ea31337:eurusd-2018
     build:
       context: ..
       target: eurusd-2018
+    image: ea31337:eurusd-2018
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -66,10 +66,10 @@ services:
       BT_DEST: /opt/_results/EURUSD
   EURUSD_MaxOrdersPerType:
     command: run_backtest -v
-    image: ea31337:eurusd-2018
     build:
       context: ..
       target: eurusd-2018
+    image: ea31337:eurusd-2018
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -82,10 +82,10 @@ services:
       BT_DEST: /opt/_results/EURUSD
   EURUSD_MinPipChangeToTrade:
     command: run_backtest -v
-    image: ea31337:eurusd-2018
     build:
       context: ..
       target: eurusd-2018
+    image: ea31337:eurusd-2018
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw

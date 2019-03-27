@@ -11,6 +11,7 @@ env:
   - DOCKER_BUILDKIT=1
   matrix:
   - CMD='cd         All; for task in $(grep -o "^\s\s\w[^:]\+" docker-compose.yml); do docker-compose build --build-arg UID=$UID $task; docker-compose run $task; done'
+  - CMD='cd All-NoBoost; for task in $(grep -o "^\s\s\w[^:]\+" docker-compose.yml); do docker-compose build --build-arg UID=$UID $task; docker-compose run $task; done'
   - CMD='cd       Boost; for task in $(grep -o "^\s\s\w[^:]\+" docker-compose.yml); do docker-compose build --build-arg UID=$UID $task; docker-compose run $task; done'
   - CMD='cd        Risk; for task in $(grep -o "^\s\s\w[^:]\+" docker-compose.yml); do docker-compose build --build-arg UID=$UID $task; docker-compose run $task; done'
   - CMD='cd  SmartQueue; for task in $(grep -o "^\s\s\w[^:]\+" docker-compose.yml); do docker-compose build --build-arg UID=$UID $task; docker-compose run $task; done'
