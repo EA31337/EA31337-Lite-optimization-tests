@@ -1,0 +1,72 @@
+version: '3.4'
+services:
+  SAR_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: SAR1_Active,SAR5_Active,SAR15_Active,SAR30_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-SAR_Active.set
+      TEST_REPORT_NAME: EA31337-SAR_Active
+  SAR1_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: SAR1_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-SAR1_Active.set
+      TEST_REPORT_NAME: EA31337-SAR1_Active
+  SAR5_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: SAR5_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-SAR5_Active.set
+      TEST_REPORT_NAME: EA31337-SAR5_Active
+  SAR15_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: SAR15_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-SAR15_Active.set
+      TEST_REPORT_NAME: EA31337-SAR15_Active
+  SAR30_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: SAR30_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-SAR30_Active.set
+      TEST_REPORT_NAME: EA31337-SAR30_Active

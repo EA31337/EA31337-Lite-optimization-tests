@@ -2,10 +2,10 @@ version: '3.4'
 services:
   EURUSD_InitNoOfDaysToWarmUp:
     command: run_backtest -v
-    image: ea31337:eurusd-2018
     build:
       context: ..
       target: eurusd-2018
+    image: ea31337:eurusd-2018
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -18,10 +18,10 @@ services:
       BT_DEST: /opt/_results/EURUSD
   EURUSD_RiskMarginPerOrder:
     command: run_backtest -v
-    image: ea31337:eurusd-2018
     build:
       context: ..
       target: eurusd-2018
+    image: ea31337:eurusd-2018
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -34,10 +34,10 @@ services:
       BT_DEST: /opt/_results/EURUSD
   EURUSD_RiskMarginTotal:
     command: run_backtest -v
-    image: ea31337:eurusd-2018
     build:
       context: ..
       target: eurusd-2018
+    image: ea31337:eurusd-2018
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -51,10 +51,10 @@ services:
       BT_DEST: /opt/_results/EURUSD
   EURUSD_RiskRatio:
     command: run_backtest -v
-    image: ea31337:eurusd-2018
     build:
       context: ..
       target: eurusd-2018
+    image: ea31337:eurusd-2018
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -67,10 +67,10 @@ services:
       BT_DEST: /opt/_results/EURUSD
   EURUSD_RiskRatioDecreaseMethod:
     command: run_backtest -v
-    image: ea31337:eurusd-2018
     build:
       context: ..
       target: eurusd-2018
+    image: ea31337:eurusd-2018
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -83,10 +83,10 @@ services:
       BT_DEST: /opt/_results/EURUSD
   EURUSD_RiskRatioIncreaseMethod:
     command: run_backtest -v
-    image: ea31337:eurusd-2018
     build:
       context: ..
       target: eurusd-2018
+    image: ea31337:eurusd-2018
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw

@@ -1,0 +1,72 @@
+version: '3.4'
+services:
+  Alligator_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Alligator1_Active,Alligator5_Active,Alligator15_Active,Alligator30_ActiveAlligator_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-Alligator_Active.set
+      TEST_REPORT_NAME: EA31337-Alligator_Active
+  Alligator1_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Alligator1_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-Alligator1_Active.set
+      TEST_REPORT_NAME: EA31337-Alligator1_Active
+  Alligator5_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Alligator5_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-Alligator5_Active.set
+      TEST_REPORT_NAME: EA31337-Alligator5_Active
+  Alligator15_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Alligator15_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-Alligator15_Active.set
+      TEST_REPORT_NAME: EA31337-Alligator15_Active
+  Alligator30_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Alligator30_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-Alligator30_Active.set
+      TEST_REPORT_NAME: EA31337-Alligator30_Active

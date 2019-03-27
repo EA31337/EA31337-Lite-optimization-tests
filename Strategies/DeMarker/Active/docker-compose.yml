@@ -1,0 +1,72 @@
+version: '3.4'
+services:
+  DeMarker_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: DeMarker1_Active,DeMarker5_Active,DeMarker15_Active,DeMarker30_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-DeMarker_Active.set
+      TEST_REPORT_NAME: EA31337-DeMarker_Active
+  DeMarker1_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: DeMarker1_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-DeMarker1_Active.set
+      TEST_REPORT_NAME: EA31337-DeMarker1_Active
+  DeMarker5_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: DeMarker5_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-DeMarker5_Active.set
+      TEST_REPORT_NAME: EA31337-DeMarker5_Active
+  DeMarker15_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: DeMarker15_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-DeMarker15_Active.set
+      TEST_REPORT_NAME: EA31337-DeMarker15_Active
+  DeMarker30_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: DeMarker30_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-DeMarker30_Active.set
+      TEST_REPORT_NAME: EA31337-DeMarker30_Active

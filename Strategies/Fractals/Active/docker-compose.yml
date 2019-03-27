@@ -1,0 +1,72 @@
+version: '3.4'
+services:
+  Fractals_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Fractals1_Active,Fractals5_Active,Fractals15_Active,Fractals30_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-Fractals_Active.set
+      TEST_REPORT_NAME: EA31337-Fractals_Active
+  Fractals1_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Fractals1_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-Fractals1_Active.set
+      TEST_REPORT_NAME: EA31337-Fractals1_Active
+  Fractals5_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Fractals5_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-Fractals5_Active.set
+      TEST_REPORT_NAME: EA31337-Fractals5_Active
+  Fractals15_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Fractals15_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-Fractals15_Active.set
+      TEST_REPORT_NAME: EA31337-Fractals15_Active
+  Fractals30_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Fractals30_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-Fractals30_Active.set
+      TEST_REPORT_NAME: EA31337-Fractals30_Active

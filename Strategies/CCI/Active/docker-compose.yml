@@ -1,0 +1,72 @@
+version: '3.4'
+services:
+  CCI_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: CCI1_Active,CCI5_Active,CCI15_Active,CCI30_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-CCI_Active.set
+      TEST_REPORT_NAME: EA31337-CCI_Active
+  CCI1_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: CCI1_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-CCI1_Active.set
+      TEST_REPORT_NAME: EA31337-CCI1_Active
+  CCI5_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: CCI5_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-CCI5_Active.set
+      TEST_REPORT_NAME: EA31337-CCI5_Active
+  CCI15_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: CCI15_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-CCI15_Active.set
+      TEST_REPORT_NAME: EA31337-CCI15_Active
+  CCI30_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: CCI30_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-CCI30_Active.set
+      TEST_REPORT_NAME: EA31337-CCI30_Active

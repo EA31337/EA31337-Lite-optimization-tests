@@ -16,10 +16,21 @@ env:
   - CMD='cd       Boost; for task in $(grep -o "^\s\s\w[^:]\+" docker-compose.yml); do docker-compose build --build-arg UID=$UID $task; docker-compose run $task; done'
   - CMD='cd        Risk; for task in $(grep -o "^\s\s\w[^:]\+" docker-compose.yml); do docker-compose build --build-arg UID=$UID $task; docker-compose run $task; done'
   - CMD='cd  SmartQueue; for task in $(grep -o "^\s\s\w[^:]\+" docker-compose.yml); do docker-compose build --build-arg UID=$UID $task; docker-compose run $task; done'
+  - CMD="find Strategies/Alligator -name docker-compose.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" docker-compose.yml); do df -h; docker-compose build --build-arg UID=$UID \$task; df -h; docker-compose run \$task || exit 1; done' ';'"
+  - CMD="find Strategies/Bands     -name docker-compose.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" docker-compose.yml); do df -h; docker-compose build --build-arg UID=$UID \$task; df -h; docker-compose run \$task || exit 1; done' ';'"
+  - CMD="find Strategies/CCI       -name docker-compose.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" docker-compose.yml); do df -h; docker-compose build --build-arg UID=$UID \$task; df -h; docker-compose run \$task || exit 1; done' ';'"
+  - CMD="find Strategies/DeMarker  -name docker-compose.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" docker-compose.yml); do df -h; docker-compose build --build-arg UID=$UID \$task; df -h; docker-compose run \$task || exit 1; done' ';'"
+  - CMD="find Strategies/Envelopes -name docker-compose.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" docker-compose.yml); do df -h; docker-compose build --build-arg UID=$UID \$task; df -h; docker-compose run \$task || exit 1; done' ';'"
+  - CMD="find Strategies/Fractals  -name docker-compose.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" docker-compose.yml); do df -h; docker-compose build --build-arg UID=$UID \$task; df -h; docker-compose run \$task || exit 1; done' ';'"
+  - CMD="find Strategies/MA        -name docker-compose.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" docker-compose.yml); do df -h; docker-compose build --build-arg UID=$UID \$task; df -h; docker-compose run \$task || exit 1; done' ';'"
+  - CMD="find Strategies/MACD      -name docker-compose.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" docker-compose.yml); do df -h; docker-compose build --build-arg UID=$UID \$task; df -h; docker-compose run \$task || exit 1; done' ';'"
+  - CMD="find Strategies/RSI       -name docker-compose.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" docker-compose.yml); do df -h; docker-compose build --build-arg UID=$UID \$task; df -h; docker-compose run \$task || exit 1; done' ';'"
+  - CMD="find Strategies/SAR       -name docker-compose.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" docker-compose.yml); do df -h; docker-compose build --build-arg UID=$UID \$task; df -h; docker-compose run \$task || exit 1; done' ';'"
+  - CMD="find Strategies/WPR       -name docker-compose.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" docker-compose.yml); do df -h; docker-compose build --build-arg UID=$UID \$task; df -h; docker-compose run \$task || exit 1; done' ';'"
 matrix:
   fast_finish: true
 before_install:
-- ulimit -a && free -m
+- df -h && ulimit -a && free -m
 - docker --version
 - docker images
 install:

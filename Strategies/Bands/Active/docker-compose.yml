@@ -1,0 +1,73 @@
+version: '3.4'
+services:
+  Bands_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Bands1_Active,Bands5_Active,Bands15_Active,Bands30_Active
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=60
+      SETFILE: /opt/sets/EURUSD/EA31337-Bands_Active.set
+      TEST_REPORT_NAME: EA31337-Bands_Active
+  Bands1_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Bands1_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-Bands1_Active.set
+      TEST_REPORT_NAME: EA31337-Bands1_Active
+  Bands5_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Bands5_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-Bands5_Active.set
+      TEST_REPORT_NAME: EA31337-Bands5_Active
+  Bands15_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Bands15_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-Bands15_Active.set
+      TEST_REPORT_NAME: EA31337-Bands15_Active
+  Bands30_Active:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Bands30_Active
+      SETFILE: /opt/sets/EURUSD/EA31337-Bands30_Active.set
+      TEST_REPORT_NAME: EA31337-Bands30_Active
