@@ -1,0 +1,84 @@
+version: '3.4'
+services:
+  MACD_Periods:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: MACD_Periods
+      RUN_ON_SET: set_opt_params MACD_Periods 0 1
+      SETFILE: /opt/sets/EURUSD/EA31337-MACD_Periods.set
+      TEST_REPORT_NAME: EA31337-MACD_Periods
+      BT_DEST: /opt/_results/EURUSD
+  MACD_Period_Ratio:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: MACD_Period_Ratio
+      RUN_ON_SET: set_opt_params MACD_Period_Ratio $$(bc <<< "$$(input_get MACD_Period_Ratio) - 0.1 * 2") $$(bc <<< "$$(input_get MACD_Period_Ratio) + 0.1 * 2") 0.1
+      SETFILE: /opt/sets/EURUSD/EA31337-MACD_Period_Ratio.set
+      TEST_REPORT_NAME: EA31337-MACD_Period_Ratio
+      BT_DEST: /opt/_results/EURUSD
+  MACD_Applied_Price:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: MACD_Applied_Price
+      RUN_ON_SET: set_opt_params MACD_Applied_Price 0 6
+      SETFILE: /opt/sets/EURUSD/EA31337-MACD_Applied_Price.set
+      TEST_REPORT_NAME: EA31337-MACD_Applied_Price
+      BT_DEST: /opt/_results/EURUSD
+# @todo
+# MACD_SignalLevel:
+#   command: run_backtest -v
+#   build:
+#     context: ../../..
+#     target: eurusd-2018
+#   image: ea31337:eurusd-2018
+#   volumes:
+#   - ./sets:/opt/sets:rw
+#   - ./_results/EURUSD:/opt/_results/EURUSD:rw
+#   env_file: ../../../EA-Tester.ini
+#   environment:
+#     SET_PARAMS: MACD_SignalLevel
+#     RUN_ON_SET: set_opt_params MACD_SignalLevel $$(bc <<< "$$(input_get MACD_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get MACD_SignalLevel) + 0.1 * 2") 0.1
+#     SETFILE: /opt/sets/EURUSD/EA31337-MACD_SignalLevel.set
+#     TEST_REPORT_NAME: EA31337-MACD_SignalLevel
+#     BT_DEST: /opt/_results/EURUSD
+  MACD_Shift:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: MACD_Shift
+      RUN_ON_SET: set_opt_params MACD_Shift $$(bc <<< "$$(input_get MACD_Shift) - 1 * 2") $$(bc <<< "$$(input_get MACD_Shift) + 1 * 2")
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      SETFILE: /opt/sets/EURUSD/EA31337-MACD_Shift.set
+      TEST_REPORT_NAME: EA31337-MACD_Shift
+      BT_DEST: /opt/_results/EURUSD

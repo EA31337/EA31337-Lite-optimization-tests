@@ -14,6 +14,7 @@ services:
       SET_PARAMS: SAR1_Active,SAR5_Active,SAR15_Active,SAR30_Active
       SETFILE: /opt/sets/EURUSD/EA31337-SAR_Active.set
       TEST_REPORT_NAME: EA31337-SAR_Active
+      BT_DEST: /opt/_results/EURUSD
   SAR1_Active:
     command: run_backtest -v
     build:
@@ -28,6 +29,7 @@ services:
       SET_PARAMS: SAR1_Active
       SETFILE: /opt/sets/EURUSD/EA31337-SAR1_Active.set
       TEST_REPORT_NAME: EA31337-SAR1_Active
+      BT_DEST: /opt/_results/EURUSD
   SAR5_Active:
     command: run_backtest -v
     build:
@@ -42,6 +44,7 @@ services:
       SET_PARAMS: SAR5_Active
       SETFILE: /opt/sets/EURUSD/EA31337-SAR5_Active.set
       TEST_REPORT_NAME: EA31337-SAR5_Active
+      BT_DEST: /opt/_results/EURUSD
   SAR15_Active:
     command: run_backtest -v
     build:
@@ -56,6 +59,7 @@ services:
       SET_PARAMS: SAR15_Active
       SETFILE: /opt/sets/EURUSD/EA31337-SAR15_Active.set
       TEST_REPORT_NAME: EA31337-SAR15_Active
+      BT_DEST: /opt/_results/EURUSD
   SAR30_Active:
     command: run_backtest -v
     build:
@@ -70,3 +74,4 @@ services:
       SET_PARAMS: SAR30_Active
       SETFILE: /opt/sets/EURUSD/EA31337-SAR30_Active.set
       TEST_REPORT_NAME: EA31337-SAR30_Active
+      BT_DEST: /opt/_results/EURUSD

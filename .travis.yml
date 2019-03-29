@@ -1,6 +1,11 @@
 language: generic
 services:
   - docker
+branches:
+  only:
+    - master
+    - ci
+    - dev
 addons:
   apt:
     packages:

@@ -14,6 +14,7 @@ services:
       SET_PARAMS: MA1_Active,MA5_Active,MA15_Active,MA30_Active
       SETFILE: /opt/sets/EURUSD/EA31337-MA_Active.set
       TEST_REPORT_NAME: EA31337-MA_Active
+      BT_DEST: /opt/_results/EURUSD
   MA1_Active:
     command: run_backtest -v
     build:
@@ -28,6 +29,7 @@ services:
       SET_PARAMS: MA1_Active
       SETFILE: /opt/sets/EURUSD/EA31337-MA1_Active.set
       TEST_REPORT_NAME: EA31337-MA1_Active
+      BT_DEST: /opt/_results/EURUSD
   MA5_Active:
     command: run_backtest -v
     build:
@@ -42,6 +44,7 @@ services:
       SET_PARAMS: MA5_Active
       SETFILE: /opt/sets/EURUSD/EA31337-MA5_Active.set
       TEST_REPORT_NAME: EA31337-MA5_Active
+      BT_DEST: /opt/_results/EURUSD
   MA15_Active:
     command: run_backtest -v
     build:
@@ -56,6 +59,7 @@ services:
       SET_PARAMS: MA15_Active
       SETFILE: /opt/sets/EURUSD/EA31337-MA15_Active.set
       TEST_REPORT_NAME: EA31337-MA15_Active
+      BT_DEST: /opt/_results/EURUSD
   MA30_Active:
     command: run_backtest -v
     build:
@@ -70,3 +74,4 @@ services:
       SET_PARAMS: MA30_Active
       SETFILE: /opt/sets/EURUSD/EA31337-MA30_Active.set
       TEST_REPORT_NAME: EA31337-MA30_Active
+      BT_DEST: /opt/_results/EURUSD

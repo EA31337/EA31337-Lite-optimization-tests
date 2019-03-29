@@ -1,0 +1,82 @@
+version: '3.4'
+services:
+  RSI_Period:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: RSI_Period
+      RUN_ON_SET: set_opt_params RSI_Period $$(bc <<< "$$(input_get RSI_Period) - 2 * 4") $$(bc <<< "$$(input_get RSI_Period) + 2 * 4") 2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      SETFILE: /opt/sets/EURUSD/EA31337-RSI_Period.set
+      TEST_REPORT_NAME: EA31337-RSI_Period
+      BT_DEST: /opt/_results/EURUSD
+# RSI_Period_Ratio:
+#   command: run_backtest -v
+#   build:
+#     context: ../../..
+#     target: eurusd-2018
+#   image: ea31337:eurusd-2018
+#   volumes:
+#   - ./sets:/opt/sets:rw
+#   - ./_results/EURUSD:/opt/_results/EURUSD:rw
+#   environment:
+#     SET_PARAMS: RSI_Period_Ratio
+#     RUN_ON_SET: set_opt_params RSI_Period_Ratio $$(bc <<< "$$(input_get RSI_Period_Ratio) - 0.1 * 2") $$(bc <<< "$$(input_get RSI_Period_Ratio) + 0.1 * 2") 0.1
+#     SETFILE: /opt/sets/EURUSD/EA31337-RSI_Period_Ratio.set
+#     TEST_REPORT_NAME: EA31337-RSI_Period_Ratio
+#     BT_DEST: /opt/_results/EURUSD
+  RSI_Applied_Price:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: RSI_Applied_Price
+      RUN_ON_SET: set_opt_params RSI_Applied_Price 0 6
+      SETFILE: /opt/sets/EURUSD/EA31337-RSI_Applied_Price.set
+      TEST_REPORT_NAME: EA31337-RSI_Applied_Price
+      BT_DEST: /opt/_results/EURUSD
+  RSI_SignalLevel:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: RSI_SignalLevel
+      RUN_ON_SET: set_opt_params RSI_SignalLevel $$(bc <<< "$$(input_get RSI_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get RSI_SignalLevel) + 0.1 * 2") 0.1
+      SETFILE: /opt/sets/EURUSD/EA31337-RSI_SignalLevel.set
+      TEST_REPORT_NAME: EA31337-RSI_SignalLevel
+      BT_DEST: /opt/_results/EURUSD
+  RSI_Shift:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: RSI_Shift
+      RUN_ON_SET: set_opt_params RSI_Shift $$(bc <<< "$$(input_get RSI_Shift) - 1 * 2") $$(bc <<< "$$(input_get RSI_Shift) + 1 * 2")
+      SETFILE: /opt/sets/EURUSD/EA31337-RSI_Shift.set
+      TEST_REPORT_NAME: EA31337-RSI_Shift
+      BT_DEST: /opt/_results/EURUSD

@@ -1,0 +1,63 @@
+version: '3.4'
+services:
+  SAR_Step:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: SAR_Step
+      RUN_ON_SET: set_opt_params SAR_Step $$(bc <<< "$$(input_get SAR_Step) - 0.01 * 10") $$(bc <<< "$$(input_get SAR_Step) + 0.01 * 10") 0.01
+      SETFILE: /opt/sets/EURUSD/EA31337-SAR_Step.set
+      TEST_REPORT_NAME: EA31337-SAR_Step
+      BT_DEST: /opt/_results/EURUSD
+  SAR_Step_Ratio:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    environment:
+      SET_PARAMS: SAR_Step_Ratio
+      RUN_ON_SET: set_opt_params SAR_Step_Ratio $$(bc <<< "$$(input_get SAR_Step_Ratio) - 0.1 * 2") $$(bc <<< "$$(input_get SAR_Step_Ratio) + 0.1 * 2") 0.1
+      SETFILE: /opt/sets/EURUSD/EA31337-SAR_Step_Ratio.set
+      TEST_REPORT_NAME: EA31337-SAR_Step_Ratio
+      BT_DEST: /opt/_results/EURUSD
+  SAR_Maximum_Stop:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    environment:
+      SET_PARAMS: SAR_Maximum_Stop
+      RUN_ON_SET: set_opt_params SAR_Maximum_Stop $$(bc <<< "$$(input_get SAR_SignalLevel) - 0.1 * 10") $$(bc <<< "$$(input_get SAR_SignalLevel) + 0.1 * 10") 0.1
+      SETFILE: /opt/sets/EURUSD/EA31337-SAR_Maximum_Stop.set
+      TEST_REPORT_NAME: EA31337-SAR_Maximum_Stop
+      BT_DEST: /opt/_results/EURUSD
+  SAR_Shift:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    environment:
+      SET_PARAMS: SAR_Shift
+      RUN_ON_SET: set_opt_params SAR_Shift $$(bc <<< "$$(input_get SAR_Shift) - 1 * 2") $$(bc <<< "$$(input_get SAR_Shift) + 1 * 2")
+      SETFILE: /opt/sets/EURUSD/EA31337-SAR_Shift.set
+      TEST_REPORT_NAME: EA31337-SAR_Shift
+      BT_DEST: /opt/_results/EURUSD

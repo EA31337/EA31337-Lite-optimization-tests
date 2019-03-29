@@ -1,0 +1,64 @@
+version: '3.4'
+services:
+  WPR_Period:
+    command: run_backtest -v
+    image: ea31337:eurusd-2018
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: WPR_Period
+      RUN_ON_SET: set_opt_params WPR_Period $$(bc <<< "$$(input_get WPR_Period) - 2 * 4") $$(bc <<< "$$(input_get WPR_Period) + 2 * 4") 2
+      SETFILE: /opt/sets/EURUSD/EA31337-WPR_Period.set
+      TEST_REPORT_NAME: EA31337-WPR_Period
+      BT_DEST: /opt/_results/EURUSD
+# WPR_Period_Ratio:
+#   command: run_backtest -v
+#   build:
+#     context: ../../..
+#     target: eurusd-2018
+#   image: ea31337:eurusd-2018
+#   volumes:
+#   - ./sets:/opt/sets:rw
+#   - ./_results/EURUSD:/opt/_results/EURUSD:rw
+#   environment:
+#     SET_PARAMS: WPR_Period_Ratio
+#     RUN_ON_SET: set_opt_params WPR_Period_Ratio $$(bc <<< "$$(input_get WPR_Period_Ratio) - 0.1 * 2") $$(bc <<< "$$(input_get WPR_Period_Ratio) + 0.1 * 2") 0.1
+#     SETFILE: /opt/sets/EURUSD/EA31337-WPR_Period_Ratio.set
+#     TEST_REPORT_NAME: EA31337-WPR_Period_Ratio
+#     BT_DEST: /opt/_results/EURUSD
+  WPR_SignalLevel:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    environment:
+      SET_PARAMS: WPR_SignalLevel
+      RUN_ON_SET: set_opt_params WPR_SignalLevel $$(bc <<< "$$(input_get WPR_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get WPR_SignalLevel) + 0.1 * 2") 0.1
+      SETFILE: /opt/sets/EURUSD/EA31337-WPR_SignalLevel.set
+      TEST_REPORT_NAME: EA31337-WPR_SignalLevel
+      BT_DEST: /opt/_results/EURUSD
+  WPR_Shift:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    environment:
+      SET_PARAMS: WPR_Shift
+      RUN_ON_SET: set_opt_params WPR_Shift $$(bc <<< "$$(input_get WPR_Shift) - 1 * 2") $$(bc <<< "$$(input_get WPR_Shift) + 1 * 2")
+      SETFILE: /opt/sets/EURUSD/EA31337-WPR_Shift.set
+      TEST_REPORT_NAME: EA31337-WPR_Shift
+      BT_DEST: /opt/_results/EURUSD

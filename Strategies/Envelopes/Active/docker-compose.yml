@@ -14,6 +14,7 @@ services:
       SET_PARAMS: Envelopes1_Active,Envelopes5_Active,Envelopes15_Active,Envelopes30_Active
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes_Active.set
       TEST_REPORT_NAME: EA31337-Envelopes_Active
+      BT_DEST: /opt/_results/EURUSD
   Envelopes1_Active:
     command: run_backtest -v
     build:
@@ -28,6 +29,7 @@ services:
       SET_PARAMS: Envelopes1_Active
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes1_Active.set
       TEST_REPORT_NAME: EA31337-Envelopes1_Active
+      BT_DEST: /opt/_results/EURUSD
   Envelopes5_Active:
     command: run_backtest -v
     build:
@@ -42,6 +44,7 @@ services:
       SET_PARAMS: Envelopes5_Active
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes5_Active.set
       TEST_REPORT_NAME: EA31337-Envelopes5_Active
+      BT_DEST: /opt/_results/EURUSD
   Envelopes15_Active:
     command: run_backtest -v
     build:
@@ -56,6 +59,7 @@ services:
       SET_PARAMS: Envelopes15_Active
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes15_Active.set
       TEST_REPORT_NAME: EA31337-Envelopes15_Active
+      BT_DEST: /opt/_results/EURUSD
   Envelopes30_Active:
     command: run_backtest -v
     build:
@@ -70,3 +74,4 @@ services:
       SET_PARAMS: Envelopes30_Active
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes30_Active.set
       TEST_REPORT_NAME: EA31337-Envelopes30_Active
+      BT_DEST: /opt/_results/EURUSD

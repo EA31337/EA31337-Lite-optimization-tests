@@ -14,6 +14,7 @@ services:
       SET_PARAMS: CCI1_Active,CCI5_Active,CCI15_Active,CCI30_Active
       SETFILE: /opt/sets/EURUSD/EA31337-CCI_Active.set
       TEST_REPORT_NAME: EA31337-CCI_Active
+      BT_DEST: /opt/_results/EURUSD
   CCI1_Active:
     command: run_backtest -v
     build:
@@ -28,6 +29,7 @@ services:
       SET_PARAMS: CCI1_Active
       SETFILE: /opt/sets/EURUSD/EA31337-CCI1_Active.set
       TEST_REPORT_NAME: EA31337-CCI1_Active
+      BT_DEST: /opt/_results/EURUSD
   CCI5_Active:
     command: run_backtest -v
     build:
@@ -42,6 +44,7 @@ services:
       SET_PARAMS: CCI5_Active
       SETFILE: /opt/sets/EURUSD/EA31337-CCI5_Active.set
       TEST_REPORT_NAME: EA31337-CCI5_Active
+      BT_DEST: /opt/_results/EURUSD
   CCI15_Active:
     command: run_backtest -v
     build:
@@ -56,6 +59,7 @@ services:
       SET_PARAMS: CCI15_Active
       SETFILE: /opt/sets/EURUSD/EA31337-CCI15_Active.set
       TEST_REPORT_NAME: EA31337-CCI15_Active
+      BT_DEST: /opt/_results/EURUSD
   CCI30_Active:
     command: run_backtest -v
     build:
@@ -70,3 +74,4 @@ services:
       SET_PARAMS: CCI30_Active
       SETFILE: /opt/sets/EURUSD/EA31337-CCI30_Active.set
       TEST_REPORT_NAME: EA31337-CCI30_Active
+      BT_DEST: /opt/_results/EURUSD

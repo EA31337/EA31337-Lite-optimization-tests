@@ -14,6 +14,7 @@ services:
       SET_PARAMS: RSI1_Active,RSI5_Active,RSI15_Active,RSI30_Active
       SETFILE: /opt/sets/EURUSD/EA31337-RSI_Active.set
       TEST_REPORT_NAME: EA31337-RSI_Active
+      BT_DEST: /opt/_results/EURUSD
   RSI1_Active:
     command: run_backtest -v
     build:
@@ -28,6 +29,7 @@ services:
       SET_PARAMS: RSI1_Active
       SETFILE: /opt/sets/EURUSD/EA31337-RSI1_Active.set
       TEST_REPORT_NAME: EA31337-RSI1_Active
+      BT_DEST: /opt/_results/EURUSD
   RSI5_Active:
     command: run_backtest -v
     build:
@@ -42,6 +44,7 @@ services:
       SET_PARAMS: RSI5_Active
       SETFILE: /opt/sets/EURUSD/EA31337-RSI5_Active.set
       TEST_REPORT_NAME: EA31337-RSI5_Active
+      BT_DEST: /opt/_results/EURUSD
   RSI15_Active:
     command: run_backtest -v
     build:
@@ -56,6 +59,7 @@ services:
       SET_PARAMS: RSI15_Active
       SETFILE: /opt/sets/EURUSD/EA31337-RSI15_Active.set
       TEST_REPORT_NAME: EA31337-RSI15_Active
+      BT_DEST: /opt/_results/EURUSD
   RSI30_Active:
     command: run_backtest -v
     build:
@@ -70,3 +74,4 @@ services:
       SET_PARAMS: RSI30_Active
       SETFILE: /opt/sets/EURUSD/EA31337-RSI30_Active.set
       TEST_REPORT_NAME: EA31337-RSI30_Active
+      BT_DEST: /opt/_results/EURUSD

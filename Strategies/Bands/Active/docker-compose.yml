@@ -15,6 +15,7 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=60
       SETFILE: /opt/sets/EURUSD/EA31337-Bands_Active.set
       TEST_REPORT_NAME: EA31337-Bands_Active
+      BT_DEST: /opt/_results/EURUSD
   Bands1_Active:
     command: run_backtest -v
     build:
@@ -29,6 +30,7 @@ services:
       SET_PARAMS: Bands1_Active
       SETFILE: /opt/sets/EURUSD/EA31337-Bands1_Active.set
       TEST_REPORT_NAME: EA31337-Bands1_Active
+      BT_DEST: /opt/_results/EURUSD
   Bands5_Active:
     command: run_backtest -v
     build:
@@ -43,6 +45,7 @@ services:
       SET_PARAMS: Bands5_Active
       SETFILE: /opt/sets/EURUSD/EA31337-Bands5_Active.set
       TEST_REPORT_NAME: EA31337-Bands5_Active
+      BT_DEST: /opt/_results/EURUSD
   Bands15_Active:
     command: run_backtest -v
     build:
@@ -57,6 +60,7 @@ services:
       SET_PARAMS: Bands15_Active
       SETFILE: /opt/sets/EURUSD/EA31337-Bands15_Active.set
       TEST_REPORT_NAME: EA31337-Bands15_Active
+      BT_DEST: /opt/_results/EURUSD
   Bands30_Active:
     command: run_backtest -v
     build:
@@ -71,3 +75,4 @@ services:
       SET_PARAMS: Bands30_Active
       SETFILE: /opt/sets/EURUSD/EA31337-Bands30_Active.set
       TEST_REPORT_NAME: EA31337-Bands30_Active
+      BT_DEST: /opt/_results/EURUSD
