@@ -1,0 +1,62 @@
+version: '3.4'
+services:
+  RSI1_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: RSI1_SignalMethod
+      RUN_ON_SET: set_opt_params RSI1_SignalMethod -63 63
+      SETFILE: /opt/sets/EURUSD/EA31337-RSI1_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-RSI1_SignalMethod
+  RSI5_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: RSI5_SignalMethod
+      RUN_ON_SET: set_opt_params RSI5_SignalMethod -63 63
+      SETFILE: /opt/sets/EURUSD/EA31337-RSI5_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-RSI5_SignalMethod
+  RSI15_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: RSI15_SignalMethod
+      RUN_ON_SET: set_opt_params RSI15_SignalMethod -63 63
+      SETFILE: /opt/sets/EURUSD/EA31337-RSI15_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-RSI15_SignalMethod
+  RSI30_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: RSI30_SignalMethod
+      RUN_ON_SET: set_opt_params RSI30_SignalMethod -63 63
+      SETFILE: /opt/sets/EURUSD/EA31337-RSI30_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-RSI30_SignalMethod

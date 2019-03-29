@@ -1,0 +1,63 @@
+version: '3.4'
+services:
+  DeMarker1_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: DeMarker1_SignalMethod
+      RUN_ON_SET: set_opt_params DeMarker1_SignalMethod -31 31
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
+      SETFILE: /opt/sets/EURUSD/EA31337-DeMarker1_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-DeMarker1_SignalMethod
+  DeMarker5_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: DeMarker5_SignalMethod
+      RUN_ON_SET: set_opt_params DeMarker5_SignalMethod -31 31
+      SETFILE: /opt/sets/EURUSD/EA31337-DeMarker5_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-DeMarker5_SignalMethod
+  DeMarker15_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: DeMarker15_SignalMethod
+      RUN_ON_SET: set_opt_params DeMarker15_SignalMethod -31 31
+      SETFILE: /opt/sets/EURUSD/EA31337-DeMarker15_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-DeMarker15_SignalMethod
+  DeMarker30_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: DeMarker30_SignalMethod
+      RUN_ON_SET: set_opt_params DeMarker30_SignalMethod -31 31
+      SETFILE: /opt/sets/EURUSD/EA31337-DeMarker30_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-DeMarker30_SignalMethod

@@ -1,0 +1,66 @@
+version: '3.4'
+services:
+  MACD1_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: MACD1_SignalMethod
+      RUN_ON_SET: set_opt_params MACD1_SignalMethod -31 31
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
+      SETFILE: /opt/sets/EURUSD/EA31337-MACD1_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-MACD1_SignalMethod
+  MACD5_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: MACD5_SignalMethod
+      RUN_ON_SET: set_opt_params MACD5_SignalMethod -31 31
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
+      SETFILE: /opt/sets/EURUSD/EA31337-MACD5_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-MACD5_SignalMethod
+  MACD15_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: MACD15_SignalMethod
+      RUN_ON_SET: set_opt_params MACD15_SignalMethod -31 31
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      SETFILE: /opt/sets/EURUSD/EA31337-MACD15_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-MACD15_SignalMethod
+  MACD30_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: MACD30_SignalMethod
+      RUN_ON_SET: set_opt_params MACD30_SignalMethod -31 31
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      SETFILE: /opt/sets/EURUSD/EA31337-MACD30_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-MACD30_SignalMethod

@@ -1,0 +1,62 @@
+version: '3.4'
+services:
+  Fractals1_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Fractals1_SignalMethod
+      RUN_ON_SET: set_opt_params Fractals1_SignalMethod -3 3
+      SETFILE: /opt/sets/EURUSD/EA31337-Fractals1_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-Fractals1_SignalMethod
+  Fractals5_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Fractals5_SignalMethod
+      RUN_ON_SET: set_opt_params Fractals5_SignalMethod -3 3
+      SETFILE: /opt/sets/EURUSD/EA31337-Fractals5_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-Fractals5_SignalMethod
+  Fractals15_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Fractals15_SignalMethod
+      RUN_ON_SET: set_opt_params Fractals15_SignalMethod -3 3
+      SETFILE: /opt/sets/EURUSD/EA31337-Fractals15_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-Fractals15_SignalMethod
+  Fractals30_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Fractals30_SignalMethod
+      RUN_ON_SET: set_opt_params Fractals30_SignalMethod -3 3
+      SETFILE: /opt/sets/EURUSD/EA31337-Fractals30_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-Fractals30_SignalMethod

@@ -1,0 +1,62 @@
+version: '3.4'
+services:
+  CCI1_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: CCI1_SignalMethod
+      RUN_ON_SET: set_opt_params CCI1_SignalMethod -63 63
+      SETFILE: /opt/sets/EURUSD/EA31337-CCI1_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-CCI1_SignalMethod
+  CCI5_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: CCI5_SignalMethod
+      RUN_ON_SET: set_opt_params CCI5_SignalMethod -63 63
+      SETFILE: /opt/sets/EURUSD/EA31337-CCI5_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-CCI5_SignalMethod
+  CCI15_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: CCI15_SignalMethod
+      RUN_ON_SET: set_opt_params CCI15_SignalMethod -63 63
+      SETFILE: /opt/sets/EURUSD/EA31337-CCI15_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-CCI15_SignalMethod
+  CCI30_SignalMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: CCI30_SignalMethod
+      RUN_ON_SET: set_opt_params CCI30_SignalMethod -63 63
+      SETFILE: /opt/sets/EURUSD/EA31337-CCI30_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-CCI30_SignalMethod
