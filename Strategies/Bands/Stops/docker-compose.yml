@@ -1,0 +1,32 @@
+version: '3.4'
+services:
+  Bands_TrailingStopMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Bands_TrailingStopMethod
+      RUN_ON_SET: set_opt_params Bands_TrailingStopMethod 1 -27 0
+      SETFILE: /opt/sets/EURUSD/EA31337-Bands_TrailingStopMethod.set
+      TEST_REPORT_NAME: EA31337-Bands_TrailingStopMethod
+  Bands_TrailingProfitMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Bands_TrailingProfitMethod
+      RUN_ON_SET: set_opt_params Bands_TrailingProfitMethod 1 -27 0
+      SETFILE: /opt/sets/EURUSD/EA31337-Bands_TrailingProfitMethod.set
+      TEST_REPORT_NAME: EA31337-Bands_TrailingProfitMethod

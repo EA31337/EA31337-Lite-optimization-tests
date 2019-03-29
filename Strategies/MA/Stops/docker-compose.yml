@@ -1,0 +1,32 @@
+version: '3.4'
+services:
+  MA_TrailingStopMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: MA_TrailingStopMethod
+      RUN_ON_SET: set_opt_params MA_TrailingStopMethod 1 -27 0
+      SETFILE: /opt/sets/EURUSD/EA31337-MA_TrailingStopMethod.set
+      TEST_REPORT_NAME: EA31337-MA_TrailingStopMethod
+  MA_TrailingProfitMethod:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: MA_TrailingProfitMethod
+      RUN_ON_SET: set_opt_params MA_TrailingProfitMethod 1 -27 0
+      SETFILE: /opt/sets/EURUSD/EA31337-MA_TrailingProfitMethod.set
+      TEST_REPORT_NAME: EA31337-MA_TrailingProfitMethod
