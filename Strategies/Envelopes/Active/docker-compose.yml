@@ -2,10 +2,7 @@ version: '3.4'
 services:
   Envelopes_Active:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -17,10 +14,7 @@ services:
       BT_DEST: /opt/_results/EURUSD
   Envelopes1_Active:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -32,10 +26,7 @@ services:
       BT_DEST: /opt/_results/EURUSD
   Envelopes5_Active:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -47,10 +38,7 @@ services:
       BT_DEST: /opt/_results/EURUSD
   Envelopes15_Active:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -62,10 +50,7 @@ services:
       BT_DEST: /opt/_results/EURUSD
   Envelopes30_Active:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw

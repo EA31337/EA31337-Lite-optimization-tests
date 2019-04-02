@@ -2,10 +2,7 @@ version: '3.4'
 services:
   SAR_Step:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -18,10 +15,7 @@ services:
       BT_DEST: /opt/_results/EURUSD
   SAR_Step_Ratio:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -33,10 +27,7 @@ services:
       BT_DEST: /opt/_results/EURUSD
   SAR_Maximum_Stop:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -48,10 +39,7 @@ services:
       BT_DEST: /opt/_results/EURUSD
   SAR_Shift:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw

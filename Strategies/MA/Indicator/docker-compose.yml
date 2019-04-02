@@ -2,10 +2,7 @@ version: '3.4'
 services:
   MA_Periods:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -18,10 +15,7 @@ services:
       BT_DEST: /opt/_results/EURUSD
   MA_Period_Ratio:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -33,10 +27,7 @@ services:
       BT_DEST: /opt/_results/EURUSD
   MA_Applied_Price:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -48,10 +39,7 @@ services:
       BT_DEST: /opt/_results/EURUSD
   MA_SignalLevel:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -63,10 +51,7 @@ services:
       BT_DEST: /opt/_results/EURUSD
   MA_Shift:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -79,10 +64,7 @@ services:
       BT_DEST: /opt/_results/EURUSD
   MA_Shift_Fast:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -95,10 +77,7 @@ services:
       BT_DEST: /opt/_results/EURUSD
   MA_Shift_Medium:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
@@ -111,10 +90,7 @@ services:
       BT_DEST: /opt/_results/EURUSD
   MA_Shift_Slow:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results/EURUSD:rw
