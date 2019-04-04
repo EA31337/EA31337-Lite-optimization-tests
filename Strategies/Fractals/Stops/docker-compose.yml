@@ -12,6 +12,9 @@ services:
       RUN_ON_SET: set_opt_params Fractals_TrailingStopMethod 1 -27 0
       SETFILE: /opt/sets/EURUSD/EA31337-Fractals_TrailingStopMethod.set
       TEST_REPORT_NAME: EA31337-Fractals_TrailingStopMethod
+    deploy:
+      restart_policy:
+        condition: none
   Fractals_TrailingProfitMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -24,3 +27,6 @@ services:
       RUN_ON_SET: set_opt_params Fractals_TrailingProfitMethod 1 -27 0
       SETFILE: /opt/sets/EURUSD/EA31337-Fractals_TrailingProfitMethod.set
       TEST_REPORT_NAME: EA31337-Fractals_TrailingProfitMethod
+    deploy:
+      restart_policy:
+        condition: none

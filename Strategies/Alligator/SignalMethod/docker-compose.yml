@@ -12,6 +12,9 @@ services:
       RUN_ON_SET: set_opt_params Alligator1_SignalMethod -31 31
       SETFILE: /opt/sets/EURUSD/EA31337-Alligator1_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Alligator1_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
   Alligator5_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -24,6 +27,9 @@ services:
       RUN_ON_SET: set_opt_params Alligator5_SignalMethod -31 31
       SETFILE: /opt/sets/EURUSD/EA31337-Alligator5_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Alligator5_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
   Alligator15_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -36,6 +42,9 @@ services:
       RUN_ON_SET: set_opt_params Alligator15_SignalMethod -31 31
       SETFILE: /opt/sets/EURUSD/EA31337-Alligator15_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Alligator15_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
   Alligator30_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -48,3 +57,6 @@ services:
       RUN_ON_SET: set_opt_params Alligator30_SignalMethod -31 31
       SETFILE: /opt/sets/EURUSD/EA31337-Alligator30_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Alligator30_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none

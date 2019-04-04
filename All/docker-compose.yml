@@ -13,6 +13,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-CloseOrderAfterXHours.set
       TEST_REPORT_NAME: EA31337-CloseOrderAfterXHours
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_InitNoOfOrdersToCalcPF:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -25,6 +28,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-InitNoOfOrdersToCalcPF.set
       TEST_REPORT_NAME: EA31337-InitNoOfOrdersToCalcPF
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_LotSize:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -39,6 +45,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-LotSize.set
       TEST_REPORT_NAME: EA31337-LotSize
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_MaxOrders:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -52,6 +61,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-MaxOrders.set
       TEST_REPORT_NAME: EA31337-MaxOrders
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_MaxOrdersPerType:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -65,6 +77,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-MaxOrdersPerType.set
       TEST_REPORT_NAME: EA31337-MaxOrdersPerType
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_MinPipChangeToTrade:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -78,3 +93,6 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-MinPipChangeToTrade.set
       TEST_REPORT_NAME: EA31337-MinPipChangeToTrade
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none

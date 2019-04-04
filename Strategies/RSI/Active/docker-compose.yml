@@ -12,6 +12,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-RSI_Active.set
       TEST_REPORT_NAME: EA31337-RSI_Active
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   RSI1_Active:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -24,6 +27,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-RSI1_Active.set
       TEST_REPORT_NAME: EA31337-RSI1_Active
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   RSI5_Active:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -36,6 +42,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-RSI5_Active.set
       TEST_REPORT_NAME: EA31337-RSI5_Active
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   RSI15_Active:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -48,6 +57,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-RSI15_Active.set
       TEST_REPORT_NAME: EA31337-RSI15_Active
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   RSI30_Active:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -60,3 +72,6 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-RSI30_Active.set
       TEST_REPORT_NAME: EA31337-RSI30_Active
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none

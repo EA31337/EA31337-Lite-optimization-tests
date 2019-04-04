@@ -13,6 +13,9 @@ services:
       RUN_ON_SET: set_opt_params Account_Conditions_Active 0 1
       SETFILE: /opt/sets/EURUSD/EA31337-Account_Conditions_Active.set
       TEST_REPORT_NAME: EA31337-Account_Conditions_Active
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_Action_On_Condition_1:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -25,6 +28,9 @@ services:
       RUN_ON_SET: set_opt_params Market_Condition_1 1 19; set_opt_params Action_On_Condition_1 0 13
       SETFILE: /opt/sets/EURUSD/EA31337-Action_On_Condition_01.set
       TEST_REPORT_NAME: EA31337-Action_On_Condition_01
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_Action_On_Condition_2:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -37,6 +43,9 @@ services:
       RUN_ON_SET: set_opt_params Market_Condition_2 1 19; set_opt_params Action_On_Condition_2 0 13
       SETFILE: /opt/sets/EURUSD/EA31337-Action_On_Condition_02.set
       TEST_REPORT_NAME: EA31337-Action_On_Condition_02
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_Action_On_Condition_3:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -49,6 +58,9 @@ services:
       RUN_ON_SET: set_opt_params Market_Condition_3 1 19; set_opt_params Action_On_Condition_3 0 13
       SETFILE: /opt/sets/EURUSD/EA31337-Action_On_Condition_03.set
       TEST_REPORT_NAME: EA31337-Action_On_Condition_03
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_Action_On_Condition_4:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -61,6 +73,9 @@ services:
       RUN_ON_SET: set_opt_params Market_Condition_4 1 19; set_opt_params Action_On_Condition_4 0 13
       SETFILE: /opt/sets/EURUSD/EA31337-Action_On_Condition_04.set
       TEST_REPORT_NAME: EA31337-Action_On_Condition_04
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_Action_On_Condition_5:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -73,3 +88,6 @@ services:
       RUN_ON_SET: set_opt_params Market_Condition_5 1 19; set_opt_params Action_On_Condition_5 0 13
       SETFILE: /opt/sets/EURUSD/EA31337-Action_On_Condition_05.set
       TEST_REPORT_NAME: EA31337-Action_On_Condition_05
+    deploy:
+      restart_policy:
+        condition: none

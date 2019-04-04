@@ -13,6 +13,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Boosting_Enabled.set
       TEST_REPORT_NAME: EA31337-Boosting_Enabled
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_BoostTrendFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -26,6 +29,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-BoostTrendFactor.set
       TEST_REPORT_NAME: EA31337-BoostTrendFactor
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_ConWinsIncreaseFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -39,6 +45,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-ConWinsIncreaseFactor.set
       TEST_REPORT_NAME: EA31337-ConWinsIncreaseFactor
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_ConLossesIncreaseFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -52,6 +61,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-ConLossesIncreaseFactor.set
       TEST_REPORT_NAME: EA31337-ConLossesIncreaseFactor
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_ConFactorOrdersLimit:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -67,6 +79,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-ConFactorOrdersLimit.set
       TEST_REPORT_NAME: EA31337-ConFactorOrdersLimit
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_BestDailyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -81,6 +96,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-BestDailyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-BestDailyStrategyMultiplierFactor
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_BestMonthlyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -95,6 +113,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-BestMonthlyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-BestMonthlyStrategyMultiplierFactor
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_BestWeeklyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -109,6 +130,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-BestWeeklyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-BestWeeklyStrategyMultiplierFactor
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_WorseDailyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -123,6 +147,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-WorseDailyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-WorseDailyStrategyMultiplierFactor
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_WorseMonthlyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -137,6 +164,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-WorseMonthlyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-WorseMonthlyStrategyMultiplierFactor
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_WorseWeeklyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -151,3 +181,6 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-WorseWeeklyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-WorseWeeklyStrategyMultiplierFactor
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none

@@ -12,6 +12,9 @@ services:
       RUN_ON_SET: set_opt_params Envelopes_TrailingStopMethod 1 -27 0
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes_TrailingStopMethod.set
       TEST_REPORT_NAME: EA31337-Envelopes_TrailingStopMethod
+    deploy:
+      restart_policy:
+        condition: none
   Envelopes_TrailingProfitMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -24,3 +27,6 @@ services:
       RUN_ON_SET: set_opt_params Envelopes_TrailingProfitMethod 1 -27 0
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes_TrailingProfitMethod.set
       TEST_REPORT_NAME: EA31337-Envelopes_TrailingProfitMethod
+    deploy:
+      restart_policy:
+        condition: none

@@ -12,6 +12,9 @@ services:
       RUN_ON_SET: set_opt_params Envelopes1_SignalMethod -127 127
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes1_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Envelopes1_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
   Envelopes5_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -24,6 +27,9 @@ services:
       RUN_ON_SET: set_opt_params Envelopes5_SignalMethod -127 127
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes5_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Envelopes5_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
   Envelopes15_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -36,6 +42,9 @@ services:
       RUN_ON_SET: set_opt_params Envelopes15_SignalMethod -127 127
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes15_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Envelopes15_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
   Envelopes30_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -48,3 +57,6 @@ services:
       RUN_ON_SET: set_opt_params Envelopes30_SignalMethod -127 127
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes30_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Envelopes30_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none

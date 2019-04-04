@@ -13,6 +13,9 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
       SETFILE: /opt/sets/EURUSD/EA31337-MACD1_SignalMethod.set
       TEST_REPORT_NAME: EA31337-MACD1_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
   MACD5_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -26,6 +29,9 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
       SETFILE: /opt/sets/EURUSD/EA31337-MACD5_SignalMethod.set
       TEST_REPORT_NAME: EA31337-MACD5_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
   MACD15_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -39,6 +45,9 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SETFILE: /opt/sets/EURUSD/EA31337-MACD15_SignalMethod.set
       TEST_REPORT_NAME: EA31337-MACD15_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
   MACD30_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -52,3 +61,6 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SETFILE: /opt/sets/EURUSD/EA31337-MACD30_SignalMethod.set
       TEST_REPORT_NAME: EA31337-MACD30_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none

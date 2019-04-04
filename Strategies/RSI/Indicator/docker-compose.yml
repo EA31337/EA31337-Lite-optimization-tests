@@ -26,6 +26,9 @@ services:
 #     SETFILE: /opt/sets/EURUSD/EA31337-RSI_Period_Ratio.set
 #     TEST_REPORT_NAME: EA31337-RSI_Period_Ratio
 #     BT_DEST: /opt/_results/EURUSD
+#   deploy:
+#     restart_policy:
+#       condition: none
   RSI_Applied_Price:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -39,6 +42,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-RSI_Applied_Price.set
       TEST_REPORT_NAME: EA31337-RSI_Applied_Price
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   RSI_SignalLevel:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -52,6 +58,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-RSI_SignalLevel.set
       TEST_REPORT_NAME: EA31337-RSI_SignalLevel
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   RSI_Shift:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -65,3 +74,6 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-RSI_Shift.set
       TEST_REPORT_NAME: EA31337-RSI_Shift
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none

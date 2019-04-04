@@ -13,6 +13,9 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EURUSD/EA31337-RSI_TrailingStopMethod.set
       TEST_REPORT_NAME: EA31337-RSI_TrailingStopMethod
+    deploy:
+      restart_policy:
+        condition: none
   RSI_TrailingProfitMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -26,3 +29,6 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EURUSD/EA31337-RSI_TrailingProfitMethod.set
       TEST_REPORT_NAME: EA31337-RSI_TrailingProfitMethod
+    deploy:
+      restart_policy:
+        condition: none

@@ -13,6 +13,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes_MA_Period.set
       TEST_REPORT_NAME: EA31337-Envelopes_MA_Period
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   Envelopes_MA_Period_Ratio:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -26,6 +29,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes_MA_Period_Ratio.set
       TEST_REPORT_NAME: EA31337-Envelopes_MA_Period_Ratio
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   Envelopes_MA_Method:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -39,6 +45,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes_MA_Method.set
       TEST_REPORT_NAME: EA31337-Envelopes_MA_Method
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   Envelopes_Shift:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -52,6 +61,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes_Shift.set
       TEST_REPORT_NAME: EA31337-Envelopes_Shift
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   Envelopes_Applied_Price:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -65,6 +77,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes_Applied_Price.set
       TEST_REPORT_NAME: EA31337-Envelopes_Applied_Price
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   Envelopes_Deviation:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -78,6 +93,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes_Deviation.set
       TEST_REPORT_NAME: EA31337-Envelopes_Deviation
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   Envelopes_Deviation_Ratio:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -104,6 +122,9 @@ services:
 #     SETFILE: /opt/sets/EURUSD/EA31337-Envelopes_SignalLevel.set
 #     TEST_REPORT_NAME: EA31337-Envelopes_SignalLevel
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   Envelopes_Shift:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -117,6 +138,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes_Shift.set
       TEST_REPORT_NAME: EA31337-Envelopes_Shift
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   Envelopes_Deviation:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -130,6 +154,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes_Deviation.set
       TEST_REPORT_NAME: EA31337-Envelopes_Deviation
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   Envelopes_Deviation_Ratio:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -143,3 +170,6 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Envelopes_Deviation_Ratio.set
       TEST_REPORT_NAME: EA31337-Envelopes_Deviation_Ratio
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none

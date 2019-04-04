@@ -13,6 +13,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Bands_Active.set
       TEST_REPORT_NAME: EA31337-Bands_Active
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   Bands1_Active:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -25,6 +28,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Bands1_Active.set
       TEST_REPORT_NAME: EA31337-Bands1_Active
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   Bands5_Active:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -37,6 +43,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Bands5_Active.set
       TEST_REPORT_NAME: EA31337-Bands5_Active
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   Bands15_Active:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -49,6 +58,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Bands15_Active.set
       TEST_REPORT_NAME: EA31337-Bands15_Active
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   Bands30_Active:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -61,3 +73,6 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Bands30_Active.set
       TEST_REPORT_NAME: EA31337-Bands30_Active
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none

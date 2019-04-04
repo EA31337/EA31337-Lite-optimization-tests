@@ -13,3 +13,6 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-Fractals_Shift.set
       TEST_REPORT_NAME: EA31337-Fractals_Shift
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none

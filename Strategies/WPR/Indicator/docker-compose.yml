@@ -26,6 +26,9 @@ services:
 #     SETFILE: /opt/sets/EURUSD/EA31337-WPR_Period_Ratio.set
 #     TEST_REPORT_NAME: EA31337-WPR_Period_Ratio
 #     BT_DEST: /opt/_results/EURUSD
+#   deploy:
+#     restart_policy:
+#       condition: none
   WPR_SignalLevel:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -38,6 +41,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_SignalLevel
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   WPR_Shift:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -50,3 +56,6 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-WPR_Shift.set
       TEST_REPORT_NAME: EA31337-WPR_Shift
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none

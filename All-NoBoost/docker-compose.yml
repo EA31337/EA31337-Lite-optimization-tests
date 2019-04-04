@@ -13,6 +13,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-DefaultTrailingProfitMethod.set
       TEST_REPORT_NAME: EA31337-DefaultTrailingProfitMethod
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_DefaultTrailingStopMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -26,6 +29,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-DefaultTrailingStopMethod.set
       TEST_REPORT_NAME: EA31337-DefaultTrailingStopMethod
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_MinPipGap:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -53,6 +59,9 @@ services:
 #     SETFILE: /opt/sets/EURUSD/EA31337-ProfitFactorMaxToTrade.set
 #     TEST_REPORT_NAME: EA31337-ProfitFactorMaxToTrade
 #     BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_ProfitFactorMinToTrade:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -67,6 +76,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-ProfitFactorMinToTrade.set
       TEST_REPORT_NAME: EA31337-ProfitFactorMinToTrade
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_StopLossMax:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -80,6 +92,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-StopLossMax.set
       TEST_REPORT_NAME: EA31337-StopLossMax
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_TakeProfitMax:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -93,6 +108,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-TakeProfitMax.set
       TEST_REPORT_NAME: EA31337-TakeProfitMax
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_TrailingProfit:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -106,6 +124,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-TrailingProfit.set
       TEST_REPORT_NAME: EA31337-TrailingProfit
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_TrailingStop:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -119,6 +140,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-TrailingStop.set
       TEST_REPORT_NAME: EA31337-TrailingStop
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_TrailingStopAddPerMinute:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -132,6 +156,9 @@ services:
       SETFILE: /opt/sets/EURUSD/EA31337-TrailingStopAddPerMinute.set
       TEST_REPORT_NAME: EA31337-TrailingStopAddPerMinute
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
 # EURUSD_TrendMethod:
 #   command: run_backtest -v
 #   image: ea31337/ea-tester:EURUSD-2018-DS
@@ -145,6 +172,9 @@ services:
 #     SETFILE: /opt/sets/EURUSD/EA31337-TrendMethod.set
 #     TEST_REPORT_NAME: EA31337-TrendMethod
 #     BT_DEST: /opt/_results/EURUSD
+#   deploy:
+#     restart_policy:
+#       condition: none
   EURUSD_TrendPeriod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -159,3 +189,6 @@ services:
       TEST_REPORT_NAME: EA31337-TrendPeriod
       SET_PARAMS: TrendPeriod
       BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
