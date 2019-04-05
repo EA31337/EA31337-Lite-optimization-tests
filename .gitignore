@@ -1,0 +1,12 @@
+# Ignores log files.
+*.log
+
+# Ignores test results in HTML format.
+*.htm
+
+# Ignores binary files.
+*.ex?
+
+# Ignores Finder metadata files on Mac
+.DS_Store
+
