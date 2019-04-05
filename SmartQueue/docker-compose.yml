@@ -41,7 +41,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: SmartQueueFilter
-      RUN_ON_SET: set_opt_params SmartQueueFilter 0 255 19
+      RUN_ON_SET: set_opt_params SmartQueueFilter 0 255 7
       SETFILE: /opt/sets/EURUSD/EA31337-SmartQueueFilter.set
       TEST_REPORT_NAME: EA31337-SmartQueueFilter
       BT_DEST: /opt/_results/EURUSD
