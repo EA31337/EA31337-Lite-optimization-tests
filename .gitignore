@@ -5,6 +5,7 @@
 *.htm
 
 # Ignores binary files.
+*.gif
 *.ex?
 
 # Ignores Finder metadata files on Mac
