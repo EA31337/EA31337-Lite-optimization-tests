@@ -1,0 +1,51 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.077
+                                                            Tripleafx-FX-Demo (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          17  320.00         4515          1.12            0.07     268.44       2.66 SmartQueueFilter=112; MaxOrders=10; MaxOrdersPerType=0;
+           1  188.21         3271          1.06            0.06     272.43       2.70   SmartQueueFilter=0; MaxOrders=10; MaxOrdersPerType=0;
+          11   71.76         2308          1.05            0.03     227.58       2.26  SmartQueueFilter=70; MaxOrders=10; MaxOrdersPerType=0;
+          18   25.11         2049          1.02            0.01     269.81       2.67 SmartQueueFilter=119; MaxOrders=10; MaxOrdersPerType=0;
+          16  -40.61         1226          0.97           -0.03     285.83       2.83 SmartQueueFilter=105; MaxOrders=10; MaxOrdersPerType=0;
+          14  -43.20         1358          0.97           -0.03     271.99       2.70  SmartQueueFilter=91; MaxOrders=10; MaxOrdersPerType=0;
+           7  -46.71         1171          0.97           -0.04     292.73       2.90  SmartQueueFilter=42; MaxOrders=10; MaxOrdersPerType=0;
+           6  -67.23         1274          0.96           -0.05     283.52       2.81  SmartQueueFilter=35; MaxOrders=10; MaxOrdersPerType=0;
+          13  -68.18         4215          0.97           -0.02     246.75       2.45  SmartQueueFilter=84; MaxOrders=10; MaxOrdersPerType=0;
+           8  -76.69         1536          0.95           -0.05     270.59       2.69  SmartQueueFilter=49; MaxOrders=10; MaxOrdersPerType=0;
+          12  -87.77          677          0.87           -0.13     287.12       2.84  SmartQueueFilter=77; MaxOrders=10; MaxOrdersPerType=0;
+          15  -87.68         1218          0.94           -0.07     284.81       2.83  SmartQueueFilter=98; MaxOrders=10; MaxOrdersPerType=0;
+           9 -112.14         1176          0.93           -0.10     359.56       3.56  SmartQueueFilter=56; MaxOrders=10; MaxOrdersPerType=0;
+           4 -114.46         1663          0.89           -0.07     248.44       2.47  SmartQueueFilter=21; MaxOrders=10; MaxOrdersPerType=0;
+           3 -126.28          926          0.87           -0.14     269.40       2.67  SmartQueueFilter=14; MaxOrders=10; MaxOrdersPerType=0;
+          10 -140.30          925          0.85           -0.15     289.01       2.86  SmartQueueFilter=63; MaxOrders=10; MaxOrdersPerType=0;
+          19 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=126; MaxOrders=10; MaxOrdersPerType=0;
+          20 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=133; MaxOrders=10; MaxOrdersPerType=0;
+          21 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=140; MaxOrders=10; MaxOrdersPerType=0;
+          22 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=147; MaxOrders=10; MaxOrdersPerType=0;
+          23 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=154; MaxOrders=10; MaxOrdersPerType=0;
+          24 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=161; MaxOrders=10; MaxOrdersPerType=0;
+          25 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=168; MaxOrders=10; MaxOrdersPerType=0;
+          26 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=175; MaxOrders=10; MaxOrdersPerType=0;
+          27 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=182; MaxOrders=10; MaxOrdersPerType=0;
+          28 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=189; MaxOrders=10; MaxOrdersPerType=0;
+          29 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=196; MaxOrders=10; MaxOrdersPerType=0;
+          30 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=203; MaxOrders=10; MaxOrdersPerType=0;
+          31 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=210; MaxOrders=10; MaxOrdersPerType=0;
+          32 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=217; MaxOrders=10; MaxOrdersPerType=0;
+          33 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=224; MaxOrders=10; MaxOrdersPerType=0;
+          34 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=231; MaxOrders=10; MaxOrdersPerType=0;
+          35 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=238; MaxOrders=10; MaxOrdersPerType=0;
+          36 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=245; MaxOrders=10; MaxOrdersPerType=0;
+          37 -140.30          925          0.85           -0.15     289.01       2.86 SmartQueueFilter=252; MaxOrders=10; MaxOrdersPerType=0;
+           5 -140.28          921          0.85           -0.15     292.32       2.90  SmartQueueFilter=28; MaxOrders=10; MaxOrdersPerType=0;
+           2 -140.02          907          0.83           -0.15     333.06       3.30   SmartQueueFilter=7; MaxOrders=10; MaxOrdersPerType=0;
