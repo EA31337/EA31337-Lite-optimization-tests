@@ -1,5 +1,8 @@
 # Overridden params.
-RiskRatio=1.0
+LotSize=0
+RiskRatio=0
+ProfitFactorMinToTrade=0.5
+ProfitFactorMaxToTrade=0
 # Optimization params.
 RiskRatioDecreaseMethod=1
 RiskRatioDecreaseMethod,F=1
