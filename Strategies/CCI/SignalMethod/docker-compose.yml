@@ -4,13 +4,13 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: CCI1_SignalMethod
       RUN_ON_SET: set_opt_params CCI1_SignalMethod -63 63
-      SETFILE: /opt/sets/EURUSD/EA31337-CCI1_SignalMethod.set
+      SETFILE: /opt/sets/EA31337-CCI1_SignalMethod.set
       TEST_REPORT_NAME: EA31337-CCI1_SignalMethod
     deploy:
       restart_policy:
@@ -19,13 +19,13 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: CCI5_SignalMethod
       RUN_ON_SET: set_opt_params CCI5_SignalMethod -63 63
-      SETFILE: /opt/sets/EURUSD/EA31337-CCI5_SignalMethod.set
+      SETFILE: /opt/sets/EA31337-CCI5_SignalMethod.set
       TEST_REPORT_NAME: EA31337-CCI5_SignalMethod
     deploy:
       restart_policy:
@@ -34,13 +34,13 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: CCI15_SignalMethod
       RUN_ON_SET: set_opt_params CCI15_SignalMethod -63 63
-      SETFILE: /opt/sets/EURUSD/EA31337-CCI15_SignalMethod.set
+      SETFILE: /opt/sets/EA31337-CCI15_SignalMethod.set
       TEST_REPORT_NAME: EA31337-CCI15_SignalMethod
     deploy:
       restart_policy:
@@ -49,13 +49,13 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: CCI30_SignalMethod
       RUN_ON_SET: set_opt_params CCI30_SignalMethod -63 63
-      SETFILE: /opt/sets/EURUSD/EA31337-CCI30_SignalMethod.set
+      SETFILE: /opt/sets/EA31337-CCI30_SignalMethod.set
       TEST_REPORT_NAME: EA31337-CCI30_SignalMethod
     deploy:
       restart_policy:

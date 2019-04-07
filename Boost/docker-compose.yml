@@ -1,186 +1,176 @@
 version: '3.4'
 services:
-  EURUSD_Boosting_Enabled:
+  Boosting_Enabled:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: Boosting_Enabled
       RUN_ON_SET: set_opt_params Boosting_Enabled 0 1
-      SETFILE: /opt/sets/EURUSD/EA31337-Boosting_Enabled.set
+      SETFILE: /opt/sets/EA31337-Boosting_Enabled.set
       TEST_REPORT_NAME: EA31337-Boosting_Enabled
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
-  EURUSD_BoostTrendFactor:
+  BoostTrendFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      BT_TESTMODEL: 0
       SET_PARAMS: BoostTrendFactor
       RUN_ON_SET: set_opt_params BoostTrendFactor $$(bc <<< "$$(input_get BoostTrendFactor) - 0.1 * 2") $$(bc <<< "$$(input_get BoostTrendFactor) + 0.1 * 2") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-BoostTrendFactor.set
+      SETFILE: /opt/sets/EA31337-BoostTrendFactor.set
       TEST_REPORT_NAME: EA31337-BoostTrendFactor
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
-  EURUSD_ConWinsIncreaseFactor:
+  ConWinsIncreaseFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: ConWinsIncreaseFactor
       RUN_ON_SET: set_opt_params ConWinsIncreaseFactor $$(bc <<< "$$(input_get ConWinsIncreaseFactor) - 0.1 * 10") $$(bc <<< "$$(input_get ConWinsIncreaseFactor) + 0.1 * 10") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-ConWinsIncreaseFactor.set
+      SETFILE: /opt/sets/EA31337-ConWinsIncreaseFactor.set
       TEST_REPORT_NAME: EA31337-ConWinsIncreaseFactor
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
-  EURUSD_ConLossesIncreaseFactor:
+  ConLossesIncreaseFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: ConLossesIncreaseFactor
       RUN_ON_SET: set_opt_params ConLossesIncreaseFactor $$(bc <<< "$$(input_get ConLossesIncreaseFactor) - 0.1 * 10") $$(bc <<< "$$(input_get ConLossesIncreaseFactor) + 0.1 * 10") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-ConLossesIncreaseFactor.set
+      SETFILE: /opt/sets/EA31337-ConLossesIncreaseFactor.set
       TEST_REPORT_NAME: EA31337-ConLossesIncreaseFactor
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
-  EURUSD_ConFactorOrdersLimit:
+  ConFactorOrdersLimit:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: ConFactorOrdersLimit
       INCLUDE: /opt/rules/All-Boosting/All-ConFactorOrdersLimit.rule
 # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params ConFactorOrdersLimit $$(bc <<< "$$(input_get ConFactorOrdersLimit) - 100 * 10") $$(bc <<< "$$(input_get ConFactorOrdersLimit) + 100 * 10") 100
-      SETFILE: /opt/sets/EURUSD/EA31337-ConFactorOrdersLimit.set
+      SETFILE: /opt/sets/EA31337-ConFactorOrdersLimit.set
       TEST_REPORT_NAME: EA31337-ConFactorOrdersLimit
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
-  EURUSD_BestDailyStrategyMultiplierFactor:
+  BestDailyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: BestDailyStrategyMultiplierFactor
 # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params BestDailyStrategyMultiplierFactor $$(bc <<< "$$(input_get BestDailyStrategyMultiplierFactor) - 0.1 * 10") $$(bc <<< "$$(input_get BestDailyStrategyMultiplierFactor) + 0.1 * 10") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-BestDailyStrategyMultiplierFactor.set
+      SETFILE: /opt/sets/EA31337-BestDailyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-BestDailyStrategyMultiplierFactor
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
-  EURUSD_BestMonthlyStrategyMultiplierFactor:
+  BestMonthlyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: BestMonthlyStrategyMultiplierFactor
 # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params BestMonthlyStrategyMultiplierFactor $$(bc <<< "$$(input_get BestMonthlyStrategyMultiplierFactor) - 0.1 * 10") $$(bc <<< "$$(input_get BestMonthlyStrategyMultiplierFactor) + 0.1 * 10") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-BestMonthlyStrategyMultiplierFactor.set
+      SETFILE: /opt/sets/EA31337-BestMonthlyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-BestMonthlyStrategyMultiplierFactor
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
-  EURUSD_BestWeeklyStrategyMultiplierFactor:
+  BestWeeklyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: BestWeeklyStrategyMultiplierFactor
 # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params BestWeeklyStrategyMultiplierFactor $$(bc <<< "$$(input_get BestWeeklyStrategyMultiplierFactor) - 0.1 * 10") $$(bc <<< "$$(input_get BestWeeklyStrategyMultiplierFactor) + 0.1 * 10") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-BestWeeklyStrategyMultiplierFactor.set
+      SETFILE: /opt/sets/EA31337-BestWeeklyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-BestWeeklyStrategyMultiplierFactor
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
-  EURUSD_WorseDailyStrategyMultiplierFactor:
+  WorseDailyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: WorseDailyStrategyMultiplierFactor
 # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params WorseDailyStrategyMultiplierFactor $$(bc <<< "$$(input_get WorseDailyStrategyMultiplierFactor) - 0.1 * 10") $$(bc <<< "$$(input_get WorseDailyStrategyMultiplierFactor) + 0.1 * 10") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-WorseDailyStrategyMultiplierFactor.set
+      SETFILE: /opt/sets/EA31337-WorseDailyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-WorseDailyStrategyMultiplierFactor
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
-  EURUSD_WorseMonthlyStrategyMultiplierFactor:
+  WorseMonthlyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: WorseMonthlyStrategyMultiplierFactor
 # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params WorseMonthlyStrategyMultiplierFactor $$(bc <<< "$$(input_get WorseMonthlyStrategyMultiplierFactor) - 0.1 * 10") $$(bc <<< "$$(input_get WorseMonthlyStrategyMultiplierFactor) + 0.1 * 10") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-WorseMonthlyStrategyMultiplierFactor.set
+      SETFILE: /opt/sets/EA31337-WorseMonthlyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-WorseMonthlyStrategyMultiplierFactor
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
-  EURUSD_WorseWeeklyStrategyMultiplierFactor:
+  WorseWeeklyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: WorseWeeklyStrategyMultiplierFactor
 # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params WorseWeeklyStrategyMultiplierFactor $$(bc <<< "$$(input_get WorseWeeklyStrategyMultiplierFactor) - 0.1 * 10") $$(bc <<< "$$(input_get WorseWeeklyStrategyMultiplierFactor) + 0.1 * 10") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-WorseWeeklyStrategyMultiplierFactor.set
+      SETFILE: /opt/sets/EA31337-WorseWeeklyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-WorseWeeklyStrategyMultiplierFactor
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none

@@ -4,13 +4,13 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: Alligator1_SignalMethod
       RUN_ON_SET: set_opt_params Alligator1_SignalMethod -31 31
-      SETFILE: /opt/sets/EURUSD/EA31337-Alligator1_SignalMethod.set
+      SETFILE: /opt/sets/EA31337-Alligator1_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Alligator1_SignalMethod
     deploy:
       restart_policy:
@@ -19,13 +19,13 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: Alligator5_SignalMethod
       RUN_ON_SET: set_opt_params Alligator5_SignalMethod -31 31
-      SETFILE: /opt/sets/EURUSD/EA31337-Alligator5_SignalMethod.set
+      SETFILE: /opt/sets/EA31337-Alligator5_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Alligator5_SignalMethod
     deploy:
       restart_policy:
@@ -34,13 +34,13 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: Alligator15_SignalMethod
       RUN_ON_SET: set_opt_params Alligator15_SignalMethod -31 31
-      SETFILE: /opt/sets/EURUSD/EA31337-Alligator15_SignalMethod.set
+      SETFILE: /opt/sets/EA31337-Alligator15_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Alligator15_SignalMethod
     deploy:
       restart_policy:
@@ -49,13 +49,13 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: Alligator30_SignalMethod
       RUN_ON_SET: set_opt_params Alligator30_SignalMethod -31 31
-      SETFILE: /opt/sets/EURUSD/EA31337-Alligator30_SignalMethod.set
+      SETFILE: /opt/sets/EA31337-Alligator30_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Alligator30_SignalMethod
     deploy:
       restart_policy:

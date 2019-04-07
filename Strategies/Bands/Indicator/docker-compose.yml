@@ -4,15 +4,14 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: Bands_Period
       RUN_ON_SET: set_opt_params Bands_Period $$(bc <<< "$$(input_get Bands_Period) - 2 * 4") $$(bc <<< "$$(input_get Bands_Period) + 2 * 4") 2
-      SETFILE: /opt/sets/EURUSD/EA31337-Bands_Period.set
+      SETFILE: /opt/sets/EA31337-Bands_Period.set
       TEST_REPORT_NAME: EA31337-Bands_Period
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
@@ -20,15 +19,14 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: Bands_Applied_Price
       RUN_ON_SET: set_opt_params Bands_Applied_Price 0 6
-      SETFILE: /opt/sets/EURUSD/EA31337-Bands_Applied_Price.set
+      SETFILE: /opt/sets/EA31337-Bands_Applied_Price.set
       TEST_REPORT_NAME: EA31337-Bands_Applied_Price
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
@@ -36,28 +34,26 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: Bands_Deviation
       RUN_ON_SET: set_opt_params Bands_Deviation $$(bc <<< "$$(input_get Bands_Deviation) - 0.1 * 5") $$(bc <<< "$$(input_get Bands_Deviation) + 0.1 * 5") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-Bands_Deviation.set
+      SETFILE: /opt/sets/EA31337-Bands_Deviation.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation
-      BT_DEST: /opt/_results/EURUSD
 # @redundant
 # Bands_Deviation_Ratio:
 #   command: run_backtest -v
 #   image: ea31337/ea-tester:EURUSD-2018-DS
 #   volumes:
-#   - ./sets:/opt/sets:rw
-#   - ./_results/EURUSD:/opt/_results/EURUSD:rw
+#   - ./sets/EURUSD:/opt/sets:rw
+#   - ./_results/EURUSD:/opt/_results:rw
 #   environment:
 #     SET_PARAMS: Bands_Deviation_Ratio $$(bc <<< "$$(input_get Bands_Deviation_Ratio) - 0.1 * 2") $$(bc <<< "$$(input_get Bands_Deviation_Ratio) + 0.1 * 2") 0.1
 #     RUN_ON_SET: set_opt_params Bands_Deviation_Ratio 
-#     SETFILE: /opt/sets/EURUSD/EA31337-Bands_Deviation_Ratio.set
+#     SETFILE: /opt/sets/EA31337-Bands_Deviation_Ratio.set
 #     TEST_REPORT_NAME: EA31337-Bands_Deviation_Ratio
-#     BT_DEST: /opt/_results/EURUSD
 #   deploy:
 #     restart_policy:
 #       condition: none
@@ -65,15 +61,14 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: Bands_SignalLevel
       RUN_ON_SET: set_opt_params Bands_SignalLevel $$(bc <<< "$$(input_get Bands_SignalLevel) - 0.1 * 5") $$(bc <<< "$$(input_get Bands_SignalLevel) + 0.1 * 5") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-Bands_SignalLevel.set
+      SETFILE: /opt/sets/EA31337-Bands_SignalLevel.set
       TEST_REPORT_NAME: EA31337-Bands_SignalLevel
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
@@ -81,14 +76,13 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     environment:
       SET_PARAMS: Bands_Shift
       RUN_ON_SET: set_opt_params Bands_Shift $$(bc <<< "$$(input_get Bands_Shift) - 1 * 2") $$(bc <<< "$$(input_get Bands_Shift) + 1 * 2")
-      SETFILE: /opt/sets/EURUSD/EA31337-Bands_Shift.set
+      SETFILE: /opt/sets/EA31337-Bands_Shift.set
       TEST_REPORT_NAME: EA31337-Bands_Shift
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none

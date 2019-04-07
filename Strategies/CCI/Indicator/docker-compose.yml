@@ -4,29 +4,27 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: CCI_Period
       RUN_ON_SET: set_opt_params CCI_Period $$(bc <<< "$$(input_get CCI_Period) - 2 * 4") $$(bc <<< "$$(input_get CCI_Period) + 2 * 4") 2
-      SETFILE: /opt/sets/EURUSD/EA31337-CCI_Period.set
+      SETFILE: /opt/sets/EA31337-CCI_Period.set
       TEST_REPORT_NAME: EA31337-CCI_Period
-      BT_DEST: /opt/_results/EURUSD
 # @todo
 # CCI_Period_Ratio:
 #   command: run_backtest -v
 #   image: ea31337/ea-tester:EURUSD-2018-DS
 #   volumes:
-#   - ./sets:/opt/sets:rw
-#   - ./_results/EURUSD:/opt/_results/EURUSD:rw
+#   - ./sets/EURUSD:/opt/sets:rw
+#   - ./_results/EURUSD:/opt/_results:rw
 #   env_file: ../../../EA-Tester.ini
 #   environment:
 #     SET_PARAMS: CCI_Period_Ratio
 #     RUN_ON_SET: set_opt_params CCI_Period_Ratio $$(bc <<< "$$(input_get CCI_Period_Ratio) - 0.1 * 2") $$(bc <<< "$$(input_get CCI_Period_Ratio) + 0.1 * 2") 0.1
-#     SETFILE: /opt/sets/EURUSD/EA31337-CCI_Period_Ratio.set
+#     SETFILE: /opt/sets/EA31337-CCI_Period_Ratio.set
 #     TEST_REPORT_NAME: EA31337-CCI_Period_Ratio
-#     BT_DEST: /opt/_results/EURUSD
 #   deploy:
 #     restart_policy:
 #       condition: none
@@ -34,15 +32,14 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: CCI_Applied_Price
       RUN_ON_SET: set_opt_params CCI_Applied_Price 0 6
-      SETFILE: /opt/sets/EURUSD/EA31337-CCI_Applied_Price.set
+      SETFILE: /opt/sets/EA31337-CCI_Applied_Price.set
       TEST_REPORT_NAME: EA31337-CCI_Applied_Price
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
@@ -50,15 +47,14 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: CCI_SignalLevel
       RUN_ON_SET: set_opt_params CCI_SignalLevel $$(bc <<< "$$(input_get CCI_SignalLevel) - 0.1 * 5") $$(bc <<< "$$(input_get CCI_SignalLevel) + 0.1 * 5") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-CCI_SignalLevel.set
+      SETFILE: /opt/sets/EA31337-CCI_SignalLevel.set
       TEST_REPORT_NAME: EA31337-CCI_SignalLevel
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
@@ -66,15 +62,14 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: CCI_Shift
       RUN_ON_SET: set_opt_params CCI_Shift $$(bc <<< "$$(input_get CCI_Shift) - 1 * 2") $$(bc <<< "$$(input_get CCI_Shift) + 1 * 2")
-      SETFILE: /opt/sets/EURUSD/EA31337-CCI_Shift.set
+      SETFILE: /opt/sets/EA31337-CCI_Shift.set
       TEST_REPORT_NAME: EA31337-CCI_Shift
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none

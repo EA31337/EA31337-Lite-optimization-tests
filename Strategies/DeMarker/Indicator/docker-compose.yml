@@ -4,15 +4,14 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: DeMarker_Period
       RUN_ON_SET: set_opt_params DeMarker_Period $$(bc <<< "$$(input_get DeMarker_Period) - 2 * 4") $$(bc <<< "$$(input_get DeMarker_Period) + 2 * 4") 2
-      SETFILE: /opt/sets/EURUSD/EA31337-DeMarker_Period.set
+      SETFILE: /opt/sets/EA31337-DeMarker_Period.set
       TEST_REPORT_NAME: EA31337-DeMarker_Period
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
@@ -20,15 +19,14 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: DeMarker_Period_Ratio
       RUN_ON_SET: set_opt_params DeMarker_Period_Ratio $$(bc <<< "$$(input_get DeMarker_Period_Ratio) - 0.1 * 2") $$(bc <<< "$$(input_get DeMarker_Period_Ratio) + 0.1 * 2") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-DeMarker_Period_Ratio.set
+      SETFILE: /opt/sets/EA31337-DeMarker_Period_Ratio.set
       TEST_REPORT_NAME: EA31337-DeMarker_Period_Ratio
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
@@ -36,15 +34,14 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: DeMarker_SignalLevel
       RUN_ON_SET: set_opt_params DeMarker_SignalLevel $$(bc <<< "$$(input_get DeMarker_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get DeMarker_SignalLevel) + 0.1 * 2") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-DeMarker_SignalLevel.set
+      SETFILE: /opt/sets/EA31337-DeMarker_SignalLevel.set
       TEST_REPORT_NAME: EA31337-DeMarker_SignalLevel
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
@@ -52,15 +49,14 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: DeMarker_Shift
       RUN_ON_SET: set_opt_params DeMarker_Shift $$(bc <<< "$$(input_get DeMarker_Shift) - 1 * 2") $$(bc <<< "$$(input_get DeMarker_Shift) + 1 * 2")
-      SETFILE: /opt/sets/EURUSD/EA31337-DeMarker_Shift.set
+      SETFILE: /opt/sets/EA31337-DeMarker_Shift.set
       TEST_REPORT_NAME: EA31337-DeMarker_Shift
-      BT_DEST: /opt/_results/EURUSD
     deploy:
       restart_policy:
         condition: none
