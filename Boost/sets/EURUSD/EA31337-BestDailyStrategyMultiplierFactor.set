@@ -1,4 +1,5 @@
 # Overridden params.
+LotSize=0
 Boosting_Enabled=1
 Account_Conditions_Active=0
 ProfitFactorMaxToTrade=0

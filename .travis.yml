@@ -43,7 +43,6 @@ before_script:
 - echo OPT_DRY_RUN=1 >> EA-Tester.ini
 - echo OPT_TRACE=$OPT_TRACE >> EA-Tester.ini
 - shopt -s globstar
-- ex +"bufdo! g/BT_DEST/d" -scxa **/docker-compose.yml
 script:
 - echo $CMD
 - eval $CMD
