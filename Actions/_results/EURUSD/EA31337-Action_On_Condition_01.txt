@@ -1,0 +1,28 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.077
+                                                            Tripleafx-FX-Demo (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          2 1533.14          539          1.80            2.84     819.64       7.59  Action_On_Condition_1=1; MaxOrders=0; MaxOrdersPerType=0;
+         12   80.95          112          1.57            0.72      97.64       0.98 Action_On_Condition_1=11; MaxOrders=0; MaxOrdersPerType=0;
+          1 -196.87          428          0.74           -0.46     347.01       3.42  Action_On_Condition_1=0; MaxOrders=0; MaxOrdersPerType=0;
+          3 -196.87          428          0.74           -0.46     347.01       3.42  Action_On_Condition_1=2; MaxOrders=0; MaxOrdersPerType=0;
+         13 -196.87          428          0.74           -0.46     347.01       3.42 Action_On_Condition_1=12; MaxOrders=0; MaxOrdersPerType=0;
+         11 -243.95          414          0.66           -0.59     330.65       3.28 Action_On_Condition_1=10; MaxOrders=0; MaxOrdersPerType=0;
+         14 -245.70          525          0.72           -0.47     397.72       3.92 Action_On_Condition_1=13; MaxOrders=0; MaxOrdersPerType=0;
+          6 -287.52          510          0.69           -0.56     434.94       4.29  Action_On_Condition_1=5; MaxOrders=0; MaxOrdersPerType=0;
+          8 -288.44          495          0.68           -0.58     413.96       4.09  Action_On_Condition_1=7; MaxOrders=0; MaxOrdersPerType=0;
+         10 -288.44          495          0.68           -0.58     413.96       4.09  Action_On_Condition_1=9; MaxOrders=0; MaxOrdersPerType=0;
+          4 -305.00          457          0.63           -0.67     430.91       4.26  Action_On_Condition_1=3; MaxOrders=0; MaxOrdersPerType=0;
+          7 -344.70          428          0.53           -0.81     385.97       3.84  Action_On_Condition_1=6; MaxOrders=0; MaxOrdersPerType=0;
+          9 -344.70          428          0.53           -0.81     385.97       3.84  Action_On_Condition_1=8; MaxOrders=0; MaxOrdersPerType=0;
+          5 -345.17          430          0.52           -0.80     393.62       3.92  Action_On_Condition_1=4; MaxOrders=0; MaxOrdersPerType=0;

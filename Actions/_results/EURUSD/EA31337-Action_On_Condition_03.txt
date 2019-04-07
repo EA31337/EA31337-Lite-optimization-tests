@@ -1,0 +1,28 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.077
+                                                            Tripleafx-FX-Demo (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         1 1360.25         8201          1.06            0.17    3929.86      35.84  Action_On_Condition_3=0; MaxOrders=999; MaxOrdersPerType=0;
+         2 1360.25         8201          1.06            0.17    3929.86      35.84  Action_On_Condition_3=1; MaxOrders=999; MaxOrdersPerType=0;
+         3 1360.25         8201          1.06            0.17    3929.86      35.84  Action_On_Condition_3=2; MaxOrders=999; MaxOrdersPerType=0;
+         4 1360.25         8201          1.06            0.17    3929.86      35.84  Action_On_Condition_3=3; MaxOrders=999; MaxOrdersPerType=0;
+         5 1360.25         8201          1.06            0.17    3929.86      35.84  Action_On_Condition_3=4; MaxOrders=999; MaxOrdersPerType=0;
+         6 1360.25         8201          1.06            0.17    3929.86      35.84  Action_On_Condition_3=5; MaxOrders=999; MaxOrdersPerType=0;
+         7 1360.25         8201          1.06            0.17    3929.86      35.84  Action_On_Condition_3=6; MaxOrders=999; MaxOrdersPerType=0;
+         8 1360.25         8201          1.06            0.17    3929.86      35.84  Action_On_Condition_3=7; MaxOrders=999; MaxOrdersPerType=0;
+         9 1360.25         8201          1.06            0.17    3929.86      35.84  Action_On_Condition_3=8; MaxOrders=999; MaxOrdersPerType=0;
+        10 1360.25         8201          1.06            0.17    3929.86      35.84  Action_On_Condition_3=9; MaxOrders=999; MaxOrdersPerType=0;
+        11 1360.25         8201          1.06            0.17    3929.86      35.84 Action_On_Condition_3=10; MaxOrders=999; MaxOrdersPerType=0;
+        12 1360.25         8201          1.06            0.17    3929.86      35.84 Action_On_Condition_3=11; MaxOrders=999; MaxOrdersPerType=0;
+        13 1360.25         8201          1.06            0.17    3929.86      35.84 Action_On_Condition_3=12; MaxOrders=999; MaxOrdersPerType=0;
+        14 1360.25         8201          1.06            0.17    3929.86      35.84 Action_On_Condition_3=13; MaxOrders=999; MaxOrdersPerType=0;

@@ -1,0 +1,33 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.077
+                                                            Tripleafx-FX-Demo (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           9 1294.37          614          1.68            2.11     707.86       6.71  Market_Condition_4=9; MaxOrders=0; MaxOrdersPerType=0;
+          15 1274.89          591          1.66            2.16     707.86       6.72 Market_Condition_4=15; MaxOrders=0; MaxOrdersPerType=0;
+           5 1273.58          599          1.66            2.13     707.86       6.72  Market_Condition_4=5; MaxOrders=0; MaxOrdersPerType=0;
+          16 1268.04          597          1.66            2.12     707.86       6.73 Market_Condition_4=16; MaxOrders=0; MaxOrdersPerType=0;
+           1 1267.68          599          1.65            2.12     707.86       6.73  Market_Condition_4=1; MaxOrders=0; MaxOrdersPerType=0;
+          12  199.16          510          1.16            0.39     560.80       5.37 Market_Condition_4=12; MaxOrders=0; MaxOrdersPerType=0;
+          17  145.64          544          1.11            0.27     560.80       5.40 Market_Condition_4=17; MaxOrders=0; MaxOrdersPerType=0;
+           4  143.78          546          1.11            0.26     560.80       5.45  Market_Condition_4=4; MaxOrders=0; MaxOrdersPerType=0;
+          18   88.30          571          1.06            0.15     591.75       5.83 Market_Condition_4=18; MaxOrders=0; MaxOrdersPerType=0;
+          10   80.53          576          1.06            0.14     603.52       5.94 Market_Condition_4=10; MaxOrders=0; MaxOrdersPerType=0;
+          13 -196.87          428          0.74           -0.46     347.01       3.42 Market_Condition_4=13; MaxOrders=0; MaxOrdersPerType=0;
+          14 -196.87          428          0.74           -0.46     347.01       3.42 Market_Condition_4=14; MaxOrders=0; MaxOrdersPerType=0;
+          19 -196.87          428          0.74           -0.46     347.01       3.42 Market_Condition_4=19; MaxOrders=0; MaxOrdersPerType=0;
+           3 -202.48          458          0.75           -0.44     365.04       3.59  Market_Condition_4=3; MaxOrders=0; MaxOrdersPerType=0;
+           2 -209.20          461          0.74           -0.45     357.71       3.52  Market_Condition_4=2; MaxOrders=0; MaxOrdersPerType=0;
+           6 -209.20          461          0.74           -0.45     357.71       3.52  Market_Condition_4=6; MaxOrders=0; MaxOrdersPerType=0;
+           7 -213.21          462          0.74           -0.46     361.72       3.56  Market_Condition_4=7; MaxOrders=0; MaxOrdersPerType=0;
+           8 -225.22          513          0.76           -0.44     543.50       5.36  Market_Condition_4=8; MaxOrders=0; MaxOrdersPerType=0;
+          11 -294.22          616          0.71           -0.48     617.71       6.09 Market_Condition_4=11; MaxOrders=0; MaxOrdersPerType=0;
