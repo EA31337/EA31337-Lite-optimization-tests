@@ -1,19 +1,5 @@
 version: '3.4'
 services:
-  DeMarker_Active:
-    command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
-    volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
-    env_file: ../../../EA-Tester.ini
-    environment:
-      SET_PARAMS: DeMarker1_Active,DeMarker5_Active,DeMarker15_Active,DeMarker30_Active
-      SETFILE: /opt/sets/EA31337-DeMarker_Active.set
-      TEST_REPORT_NAME: EA31337-DeMarker_Active
-    deploy:
-      restart_policy:
-        condition: none
   DeMarker1_Active:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS

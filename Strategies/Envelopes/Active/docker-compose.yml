@@ -1,19 +1,5 @@
 version: '3.4'
 services:
-  Envelopes_Active:
-    command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
-    volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
-    env_file: ../../../EA-Tester.ini
-    environment:
-      SET_PARAMS: Envelopes1_Active,Envelopes5_Active,Envelopes15_Active,Envelopes30_Active
-      SETFILE: /opt/sets/EA31337-Envelopes_Active.set
-      TEST_REPORT_NAME: EA31337-Envelopes_Active
-    deploy:
-      restart_policy:
-        condition: none
   Envelopes1_Active:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
