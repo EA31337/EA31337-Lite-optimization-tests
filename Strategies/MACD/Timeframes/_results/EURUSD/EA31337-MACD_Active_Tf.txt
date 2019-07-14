@@ -1,0 +1,30 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            10   742.90         1502          1.07            0.49    1595.51      12.93  MACD_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+            14   502.45         1542          1.04            0.33    1695.39      13.90 MACD_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+             2    39.85         1090          1.00            0.04    1290.70      11.50  MACD_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+             1     0.00            0          0.00            0.00       0.00       0.00  MACD_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
+             5   -68.95           46          0.87           -1.50     294.50       2.89  MACD_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+             6  -234.49         1132          0.97           -0.21    1336.99      12.05  MACD_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+             3  -656.50         1398          0.94           -0.47    1545.43      14.20  MACD_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
+             9  -866.60          389          0.76           -2.23    1426.95      13.53  MACD_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+            13  -878.31          469          0.79           -1.87    1499.87      14.18 MACD_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+             7  -965.65         1439          0.92           -0.67    1852.79      17.03  MACD_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+            11 -1035.43         1731          0.93           -0.60    2062.15      18.71 MACD_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+            15 -1300.47         1749          0.92           -0.74    2245.91      20.56 MACD_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+            12 -1375.38         2711          0.94           -0.51    4570.66      34.64 MACD_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+             4 -1784.59         2554          0.91           -0.70    4024.59      32.88  MACD_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+            16 -1827.03         2741          0.93           -0.67    4915.27      37.56 MACD_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+             8 -2071.90         2589          0.90           -0.80    4171.58      34.48  MACD_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
