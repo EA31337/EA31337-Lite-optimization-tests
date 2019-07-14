@@ -32,7 +32,6 @@ env:
   - CMD="find Strategies/RSI       -name docker-compose.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" {}); do docker-compose run --rm \$task || exit 1; done' ';'"
   - CMD="find Strategies/SAR       -name docker-compose.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" {}); do docker-compose run --rm \$task || exit 1; done' ';'"
   - CMD="find Strategies/WPR       -name docker-compose.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" {}); do docker-compose run --rm \$task || exit 1; done' ';'"
-  - CMD="find Strategies           -name docker-compose.all.yml -execdir bash -c 'for task in \$(grep -o \"^\s\s\w[^:]\+\" {}); do docker-compose -f {} run --rm \$task || exit 1; done' ';'"
 matrix:
   fast_finish: true
 before_install:
