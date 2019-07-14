@@ -51,7 +51,6 @@ WPR5_Active=0
 WPR15_Active=0
 WPR30_Active=0
 # Required strategy params
-Bands_Period_Ratio=1.0
 Bands1_SignalMethod=0
 Bands5_SignalMethod=0
 Bands15_SignalMethod=0
