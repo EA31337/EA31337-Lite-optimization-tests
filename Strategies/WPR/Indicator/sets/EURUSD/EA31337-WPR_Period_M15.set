@@ -27,8 +27,10 @@ WPR1_SignalMethod=0
 WPR5_SignalMethod=0
 WPR15_SignalMethod=0
 WPR30_SignalMethod=0
+WPR_TrailingProfitMethod=0
+WPR_TrailingProfitMethod=0
 # Optimization params.
-WPR_Period_M15=3
+WPR_Period_M15=2
 WPR_Period_M15,F=0
 WPR_Period_M15,1=0
 WPR_Period_M15,2=0

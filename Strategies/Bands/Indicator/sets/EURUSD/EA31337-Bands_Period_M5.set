@@ -23,10 +23,13 @@ RSI_Active_Tf=0
 SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Fixed strategy params.
+Bands_Shift=0
 Bands1_SignalMethod=0
 Bands5_SignalMethod=0
 Bands15_SignalMethod=0
 Bands30_SignalMethod=0
+Bands_TrailingStopMethod=0
+Bands_TrailingProfitMethod=0
 # Optimization params.
 Bands_Period_M5=26
 Bands_Period_M5,F=0

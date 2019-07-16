@@ -28,6 +28,8 @@ Force_MA1_SignalMethod=0
 Force_MA5_SignalMethod=0
 Force_MA15_SignalMethod=0
 Force_MA30_SignalMethod=0
+Force_TrailingStopMethod=0
+Force_TrailingProfitMethod=0
 # Optimization params.
 Force_Period_M1=22
 Force_Period_M1,F=0

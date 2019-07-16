@@ -27,6 +27,8 @@ Alligator1_SignalMethod=0
 Alligator5_SignalMethod=0
 Alligator15_SignalMethod=0
 Alligator30_SignalMethod=0
+Alligator_TrailingStopMethod=0
+Alligator_TrailingProfitMethod=0
 # Optimization params.
 Alligator_Applied_Price=3
 Alligator_Applied_Price,F=0

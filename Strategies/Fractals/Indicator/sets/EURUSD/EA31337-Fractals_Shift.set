@@ -27,6 +27,8 @@ Fractals1_SignalMethod=0
 Fractals5_SignalMethod=0
 Fractals15_SignalMethod=0
 Fractals30_SignalMethod=0
+Fractals_TrailingStopMethod=0
+Fractals_TrailingProfitMethod=0
 # Optimization params.
 Fractals_Shift=0
 Fractals_Shift,F=0

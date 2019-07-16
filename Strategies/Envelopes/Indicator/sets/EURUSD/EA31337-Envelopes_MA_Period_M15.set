@@ -28,6 +28,8 @@ Envelopes_MA1_SignalMethod=0
 Envelopes_MA5_SignalMethod=0
 Envelopes_MA15_SignalMethod=0
 Envelopes_MA30_SignalMethod=0
+Envelopes_TrailingStopMethod=0
+Envelopes_TrailingProfitMethod=0
 # Optimization params.
 Envelopes_MA_Period_M15=30
 Envelopes_MA_Period_M15,F=1
