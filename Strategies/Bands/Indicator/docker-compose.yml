@@ -1,6 +1,6 @@
 version: '3.4'
 services:
-  Bands_Period:
+  Bands_Period_M1:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
@@ -8,10 +8,63 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Bands_Period
-      RUN_ON_SET: set_opt_params Bands_Period $$(bc <<< "$$(input_get Bands_Period) - 2 * 4") $$(bc <<< "$$(input_get Bands_Period) + 2 * 4") 2
-      SETFILE: /opt/sets/EA31337-Bands_Period.set
-      TEST_REPORT_NAME: EA31337-Bands_Period
+      BT_PERIOD: M1
+      SETFILE: /opt/sets/EA31337-Bands_Period_M1.set
+      SET_PARAMS: Bands_Period_M1
+      RUN_ON_SET: set_opt_params Bands_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M1) - 2 * 4")) $$(bc <<< "$$(input_get Bands_Period_M1) + 2 * 4") 2
+#     RUN_ON_SUCCESS: input_copy Bands_Period_M1 "$${SETFILE}" /opt/sets/EA31337-Bands_Applied_Price.set /opt/sets/EA31337-Bands_Deviation.set /opt/sets/EA31337-Bands_Shift.set /opt/sets/EA31337-Bands_SignalLevel.set
+      TEST_REPORT_NAME: EA31337-Bands_Period_M1
+    deploy:
+      restart_policy:
+        condition: none
+  Bands_Period_M5:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_PERIOD: M5
+      SET_PARAMS: Bands_Period_M5
+      SETFILE: /opt/sets/EA31337-Bands_Period_M5.set
+      RUN_ON_SET: set_opt_params Bands_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M5) - 2 * 4")) $$(bc <<< "$$(input_get Bands_Period_M5) + 2 * 4") 2
+#     RUN_ON_SUCCESS: input_copy Bands_Period_M5 "$${SETFILE}" /opt/sets/EA31337-Bands_Applied_Price.set /opt/sets/EA31337-Bands_Deviation.set /opt/sets/EA31337-Bands_Shift.set /opt/sets/EA31337-Bands_SignalLevel.set
+      TEST_REPORT_NAME: EA31337-Bands_Period_M5
+    deploy:
+      restart_policy:
+        condition: none
+  Bands_Period_M15:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_PERIOD: M15
+      SET_PARAMS: Bands_Period_M15
+      SETFILE: /opt/sets/EA31337-Bands_Period_M15.set
+#     RUN_ON_SET: set_opt_params Bands_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M15) - 2 * 4")) $$(bc <<< "$$(input_get Bands_Period_M15) + 2 * 4") 2
+      RUN_ON_SUCCESS: input_copy Bands_Period_M15 "$${SETFILE}" /opt/sets/EA31337-Bands_Applied_Price.set /opt/sets/EA31337-Bands_Deviation.set /opt/sets/EA31337-Bands_Shift.set /opt/sets/EA31337-Bands_SignalLevel.set
+      TEST_REPORT_NAME: EA31337-Bands_Period_M15
+    deploy:
+      restart_policy:
+        condition: none
+  Bands_Period_M30:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_PERIOD: M30
+      SET_PARAMS: Bands_Period_M30
+      SETFILE: /opt/sets/EA31337-Bands_Period_M30.set
+      RUN_ON_SET: set_opt_params Bands_Period_M30 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M30) - 2 * 4")) $$(bc <<< "$$(input_get Bands_Period_M30) + 2 * 4") 2
+#     RUN_ON_SUCCESS: input_copy Bands_Period_M30 "$${SETFILE}" /opt/sets/EA31337-Bands_Applied_Price.set /opt/sets/EA31337-Bands_Deviation.set /opt/sets/EA31337-Bands_Shift.set /opt/sets/EA31337-Bands_SignalLevel.set
+      TEST_REPORT_NAME: EA31337-Bands_Period_M30
     deploy:
       restart_policy:
         condition: none

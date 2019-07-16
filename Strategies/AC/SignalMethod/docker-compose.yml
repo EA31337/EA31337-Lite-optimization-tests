@@ -1,0 +1,66 @@
+version: '3.4'
+services:
+  AC1_SignalMethod:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: AC1_SignalMethod
+      RUN_ON_SET: set_opt_params AC1_SignalMethod -1 1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      SETFILE: /opt/sets/EA31337-AC1_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-AC1_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
+  AC5_SignalMethod:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: AC5_SignalMethod
+      RUN_ON_SET: set_opt_params AC5_SignalMethod -1 1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=30
+      SETFILE: /opt/sets/EA31337-AC5_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-AC5_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
+  AC15_SignalMethod:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: AC15_SignalMethod
+      RUN_ON_SET: set_opt_params AC15_SignalMethod -1 1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      SETFILE: /opt/sets/EA31337-AC15_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-AC15_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
+  AC30_SignalMethod:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: AC30_SignalMethod
+      RUN_ON_SET: set_opt_params AC30_SignalMethod -1 1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      SETFILE: /opt/sets/EA31337-AC30_SignalMethod.set
+      TEST_REPORT_NAME: EA31337-AC30_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none

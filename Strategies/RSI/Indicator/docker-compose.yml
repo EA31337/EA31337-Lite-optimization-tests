@@ -1,6 +1,6 @@
 version: '3.4'
 services:
-  RSI_Period:
+  RSI_Period_M1:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
@@ -8,11 +8,54 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: RSI_Period
-      RUN_ON_SET: set_opt_params RSI_Period $$(bc <<< "$$(input_get RSI_Period) - 2 * 4") $$(bc <<< "$$(input_get RSI_Period) + 2 * 4") 2
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
-      SETFILE: /opt/sets/EA31337-RSI_Period.set
-      TEST_REPORT_NAME: EA31337-RSI_Period
+      BT_PERIOD: M1
+      SET_PARAMS: RSI_Period_M1
+      RUN_ON_SET: set_opt_params RSI_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get RSI_Period_M1) - 2 * 4")) $$(bc <<< "$$(input_get RSI_Period_M1) + 2 * 4") 2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
+      SETFILE: /opt/sets/EA31337-RSI_Period_M1.set
+      TEST_REPORT_NAME: EA31337-RSI_Period_M1
+  RSI_Period_M5:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_PERIOD: M5
+      SET_PARAMS: RSI_Period_M5
+      RUN_ON_SET: set_opt_params RSI_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get RSI_Period_M5) - 2 * 4")) $$(bc <<< "$$(input_get RSI_Period_M5) + 2 * 4") 2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
+      SETFILE: /opt/sets/EA31337-RSI_Period_M5.set
+      TEST_REPORT_NAME: EA31337-RSI_Period_M5
+  RSI_Period_M15:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_PERIOD: M15
+      SET_PARAMS: RSI_Period_M15
+      RUN_ON_SET: set_opt_params RSI_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get RSI_Period_M15) - 2 * 4")) $$(bc <<< "$$(input_get RSI_Period_M15) + 2 * 4") 2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
+      SETFILE: /opt/sets/EA31337-RSI_Period_M15.set
+      TEST_REPORT_NAME: EA31337-RSI_Period_M15
+  RSI_Period_M30:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_PERIOD: M30
+      SET_PARAMS: RSI_Period_M30
+      RUN_ON_SET: set_opt_params RSI_Period_M30 $$(get_max 2 $$(bc <<< "$$(input_get RSI_Period_M30) - 2 * 4")) $$(bc <<< "$$(input_get RSI_Period_M30) + 2 * 4") 2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
+      SETFILE: /opt/sets/EA31337-RSI_Period_M30.set
+      TEST_REPORT_NAME: EA31337-RSI_Period_M30
   RSI_Applied_Price:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
