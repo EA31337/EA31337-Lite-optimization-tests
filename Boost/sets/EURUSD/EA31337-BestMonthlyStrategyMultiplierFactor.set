@@ -4,7 +4,7 @@ Boosting_Enabled=1
 Account_Conditions_Active=0
 ProfitFactorMaxToTrade=0
 # Optimization params.
-BestMonthlyStrategyMultiplierFactor=0.1
+BestMonthlyStrategyMultiplierFactor=1.0
 BestMonthlyStrategyMultiplierFactor,F=0
 BestMonthlyStrategyMultiplierFactor,1=0
 BestMonthlyStrategyMultiplierFactor,2=0

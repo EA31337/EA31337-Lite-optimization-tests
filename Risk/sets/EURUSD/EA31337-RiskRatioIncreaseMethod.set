@@ -4,7 +4,7 @@ RiskRatio=0
 ProfitFactorMinToTrade=0.5
 ProfitFactorMaxToTrade=0
 # Optimization params.
-RiskRatioIncreaseMethod=1
+RiskRatioIncreaseMethod=0
 RiskRatioIncreaseMethod,F=1
 RiskRatioIncreaseMethod,1=0
 RiskRatioIncreaseMethod,2=1
