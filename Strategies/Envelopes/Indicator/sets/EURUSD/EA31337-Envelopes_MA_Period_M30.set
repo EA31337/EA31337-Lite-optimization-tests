@@ -2,7 +2,7 @@
 LotSize=0.01
 Boosting_Enabled=0
 Account_Conditions_Active=0
-CloseOrderAfterXHours=12
+CloseOrderAfterXHours=30
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Strategy params.
@@ -29,7 +29,7 @@ Envelopes_MA5_SignalMethod=0
 Envelopes_MA15_SignalMethod=0
 Envelopes_MA30_SignalMethod=0
 # Optimization params.
-Envelopes_MA_Period_M30=22
+Envelopes_MA_Period_M30=14
 Envelopes_MA_Period_M30,F=1
 Envelopes_MA_Period_M30,1=0
 Envelopes_MA_Period_M30,2=0

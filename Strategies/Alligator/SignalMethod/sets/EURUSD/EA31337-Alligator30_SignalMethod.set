@@ -2,7 +2,7 @@
 LotSize=0.01
 Boosting_Enabled=0
 Account_Conditions_Active=0
-CloseOrderAfterXHours=24
+CloseOrderAfterXHours=30
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Strategy params.

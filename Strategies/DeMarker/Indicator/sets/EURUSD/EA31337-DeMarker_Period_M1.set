@@ -30,7 +30,7 @@ DeMarker5_SignalMethod=0
 DeMarker15_SignalMethod=0
 DeMarker30_SignalMethod=0
 # Optimization params.
-DeMarker_Period_M1=4
+DeMarker_Period_M1=20
 DeMarker_Period_M1,F=0
 DeMarker_Period_M1,1=0
 DeMarker_Period_M1,2=0

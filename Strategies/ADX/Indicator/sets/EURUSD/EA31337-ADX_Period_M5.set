@@ -2,7 +2,7 @@
 LotSize=0.01
 Boosting_Enabled=0
 Account_Conditions_Active=0
-CloseOrderAfterXHours=12
+CloseOrderAfterXHours=5
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Strategy params.
@@ -28,7 +28,7 @@ ADX5_SignalMethod=0
 ADX15_SignalMethod=0
 ADX30_SignalMethod=0
 # Optimization params.
-ADX_Period_M5=22
+ADX_Period_M5=14
 ADX_Period_M5,F=0
 ADX_Period_M5,1=0
 ADX_Period_M5,2=0

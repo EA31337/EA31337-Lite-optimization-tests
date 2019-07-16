@@ -2,7 +2,7 @@
 LotSize=0.01
 Boosting_Enabled=0
 Account_Conditions_Active=0
-CloseOrderAfterXHours=48
+CloseOrderAfterXHours=24
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Strategy params.
@@ -28,7 +28,7 @@ RSI5_SignalMethod=0
 RSI15_SignalMethod=0
 RSI30_SignalMethod=0
 # Optimization params.
-RSI_TrailingStopMethod=24
+RSI_TrailingStopMethod=-7
 RSI_TrailingStopMethod,F=0
 RSI_TrailingStopMethod,1=0
 RSI_TrailingStopMethod,2=0
