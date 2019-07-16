@@ -43,7 +43,7 @@ services:
       BT_PERIOD: M15
       SET_PARAMS: Envelopes_MA_Period_M15
       SETFILE: /opt/sets/EA31337-Envelopes_MA_Period_M15.set
-      RUN_ON_SUCCESS: input_copy Envelopes_MA_Period_M15 "$${SETFILE}" /opt/sets/EA31337-Bands_Applied_Price.set /opt/sets/EA31337-Bands_Deviation.set /opt/sets/EA31337-Bands_Shift.set /opt/sets/EA31337-Bands_SignalLevel.set
+      RUN_ON_SET: set_opt_params Envelopes_MA_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get Envelopes_MA_Period_M15) - 2 * 4")) $$(bc <<< "$$(input_get Envelopes_MA_Period_M15) + 2 * 4") 2
       TEST_REPORT_NAME: EA31337-Envelopes_MA_Period_M15
     deploy:
       restart_policy:
@@ -88,7 +88,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: Envelopes_Shift
-      RUN_ON_SET: set_opt_params Envelopes_Shift $$(bc <<< "$$(input_get DeMarker_Shift) - 1 * 2") $$(bc <<< "$$(input_get DeMarker_Shift) + 1 * 2")
+      RUN_ON_SET: set_opt_params Envelopes_Shift $$(bc <<< "$$(input_get Envelopes_Shift) - 1 * 2") $$(bc <<< "$$(input_get Envelopes_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-Envelopes_Shift.set
       TEST_REPORT_NAME: EA31337-Envelopes_Shift
     deploy:
@@ -124,48 +124,17 @@ services:
     deploy:
       restart_policy:
         condition: none
-# @todo
-#  Envelopes_SignalLevel:
-#    command: run_backtest -v
-#   image: ea31337/ea-tester:EURUSD-2018-DS
-#   volumes:
-#   - ./sets/EURUSD:/opt/sets:rw
-#   - ./_results/EURUSD:/opt/_results:rw
-#   environment:
-#     SET_PARAMS: Envelopes_SignalLevel 
-#     RUN_ON_SET: set_opt_params Envelopes_SignalLevel $$(bc <<< "$$(input_get Envelopes_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get Envelopes_SignalLevel) + 0.1 * 2") 0.1
-#     SETFILE: /opt/sets/EA31337-Envelopes_SignalLevel.set
-#     TEST_REPORT_NAME: EA31337-Envelopes_SignalLevel
-    deploy:
-      restart_policy:
-        condition: none
-  Envelopes_Shift:
+  Envelopes_SignalLevel:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
     - ./sets/EURUSD:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results:rw
-    env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Envelopes_Shift
-      RUN_ON_SET: set_opt_params Envelopes_Shift $$(bc <<< "$$(input_get Envelopes_Shift) - 1 * 2") $$(bc <<< "$$(input_get Envelopes_Shift) + 1 * 2")
-      SETFILE: /opt/sets/EA31337-Envelopes_Shift.set
-      TEST_REPORT_NAME: EA31337-Envelopes_Shift
-    deploy:
-      restart_policy:
-        condition: none
-  Envelopes_Deviation:
-    command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
-    volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
-    env_file: ../../../EA-Tester.ini
-    environment:
-      SET_PARAMS: Envelopes_Deviation
-      RUN_ON_SET: set_opt_params Envelopes_Deviation $$(bc <<< "$$(input_get Envelopes_Deviation) - 0.1 * 5") $$(bc <<< "$$(input_get Envelopes_Deviation) + 0.1 * 5") 0.1
-      SETFILE: /opt/sets/EA31337-Envelopes_Deviation.set
-      TEST_REPORT_NAME: EA31337-Envelopes_Deviation
+      SET_PARAMS: Envelopes_SignalLevel
+      RUN_ON_SET: set_opt_params Envelopes_SignalLevel $$(bc <<< "$$(input_get Envelopes_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get Envelopes_SignalLevel) + 0.1 * 2") 0.1
+      SETFILE: /opt/sets/EA31337-Envelopes_SignalLevel.set
+      TEST_REPORT_NAME: EA31337-Envelopes_SignalLevel
     deploy:
       restart_policy:
         condition: none
