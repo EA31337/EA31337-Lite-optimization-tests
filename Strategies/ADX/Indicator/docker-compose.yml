@@ -1,0 +1,114 @@
+version: '3.4'
+services:
+  ADX_Period_M1:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_PERIOD: M1
+      SET_PARAMS: ADX_Period_M1
+      RUN_ON_SET: set_opt_params ADX_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M1) - 2 * 4")) $$(bc <<< "$$(input_get ADX_Period_M1) + 2 * 4") 2
+#     RUN_ON_SUCCESS: input_copy ADX_Period_M1 "$${SETFILE}" /opt/sets/EA31337-ADX_Applied_Price.set /opt/sets/EA31337-ADX_Shift.set /opt/sets/EA31337-ADX_SignalLevel.set
+      SETFILE: /opt/sets/EA31337-ADX_Period_M1.set
+      TEST_REPORT_NAME: EA31337-ADX_Period_M1
+    deploy:
+      restart_policy:
+        condition: none
+  ADX_Period_M5:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_PERIOD: M5
+      SET_PARAMS: ADX_Period_M5
+      SETFILE: /opt/sets/EA31337-ADX_Period_M5.set
+      RUN_ON_SET: set_opt_params ADX_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M5) - 2 * 4")) $$(bc <<< "$$(input_get ADX_Period_M5) + 2 * 4") 2
+#     RUN_ON_SUCCESS: input_copy ADX_Period_M5 "$${SETFILE}" /opt/sets/EA31337-ADX_Applied_Price.set /opt/sets/EA31337-ADX_Shift.set /opt/sets/EA31337-ADX_SignalLevel.set
+      TEST_REPORT_NAME: EA31337-ADX_Period_M5
+    deploy:
+      restart_policy:
+        condition: none
+  ADX_Period_M15:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_PERIOD: M15
+      SET_PARAMS: ADX_Period_M15
+      SETFILE: /opt/sets/EA31337-ADX_Period_M15.set
+      RUN_ON_SET: set_opt_params ADX_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M15) - 2 * 4")) $$(bc <<< "$$(input_get ADX_Period_M15) + 2 * 4") 2
+#     RUN_ON_SUCCESS: input_copy ADX_Period_M15 "$${SETFILE}" /opt/sets/EA31337-ADX_Applied_Price.set /opt/sets/EA31337-ADX_Shift.set /opt/sets/EA31337-ADX_SignalLevel.set
+      TEST_REPORT_NAME: EA31337-ADX_Period_M15
+    deploy:
+      restart_policy:
+        condition: none
+  ADX_Period_M30:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_PERIOD: M30
+      SET_PARAMS: ADX_Period_M30
+      SETFILE: /opt/sets/EA31337-ADX_Period_M30.set
+      RUN_ON_SET: set_opt_params ADX_Period_M30 $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M30) - 2 * 4")) $$(bc <<< "$$(input_get ADX_Period_M30) + 2 * 4") 2
+#     RUN_ON_SUCCESS: input_copy ADX_Period_M30 "$${SETFILE}" /opt/sets/EA31337-ADX_Applied_Price.set /opt/sets/EA31337-ADX_Shift.set /opt/sets/EA31337-ADX_SignalLevel.set
+      TEST_REPORT_NAME: EA31337-ADX_Period_M30
+    deploy:
+      restart_policy:
+        condition: none
+  ADX_Applied_Price:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: ADX_Applied_Price
+      RUN_ON_SET: set_opt_params ADX_Applied_Price 0 6
+      SETFILE: /opt/sets/EA31337-ADX_Applied_Price.set
+      TEST_REPORT_NAME: EA31337-ADX_Applied_Price
+    deploy:
+      restart_policy:
+        condition: none
+  ADX_SignalLevel:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: ADX_SignalLevel
+      RUN_ON_SET: set_opt_params ADX_SignalLevel $$(bc <<< "$$(input_get ADX_SignalLevel) - 0.1 * 5") $$(bc <<< "$$(input_get ADX_SignalLevel) + 0.1 * 5") 0.1
+      SETFILE: /opt/sets/EA31337-ADX_SignalLevel.set
+      TEST_REPORT_NAME: EA31337-ADX_SignalLevel
+    deploy:
+      restart_policy:
+        condition: none
+  ADX_Shift:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    environment:
+      SET_PARAMS: ADX_Shift
+      RUN_ON_SET: set_opt_params ADX_Shift $$(bc <<< "$$(input_get ADX_Shift) - 1 * 2") $$(bc <<< "$$(input_get ADX_Shift) + 1 * 2")
+      SETFILE: /opt/sets/EA31337-ADX_Shift.set
+      TEST_REPORT_NAME: EA31337-ADX_Shift
+    deploy:
+      restart_policy:
+        condition: none
