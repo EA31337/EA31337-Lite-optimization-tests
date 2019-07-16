@@ -10,7 +10,7 @@ services:
     environment:
       SET_PARAMS: RSI_TrailingStopMethod
       RUN_ON_SET: set_opt_params RSI_TrailingStopMethod 1 -25 0
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SETFILE: /opt/sets/EA31337-RSI_TrailingStopMethod.set
       TEST_REPORT_NAME: EA31337-RSI_TrailingStopMethod
     deploy:
@@ -26,7 +26,7 @@ services:
     environment:
       SET_PARAMS: RSI_TrailingProfitMethod
       RUN_ON_SET: set_opt_params RSI_TrailingProfitMethod 1 -25 0
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SETFILE: /opt/sets/EA31337-RSI_TrailingProfitMethod.set
       TEST_REPORT_NAME: EA31337-RSI_TrailingProfitMethod
     deploy:
