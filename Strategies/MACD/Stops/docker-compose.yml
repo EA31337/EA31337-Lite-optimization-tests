@@ -9,7 +9,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: MACD_TrailingStopMethod
-      RUN_ON_SET: set_opt_params MACD_TrailingStopMethod 1 -27 0
+      RUN_ON_SET: set_opt_params MACD_TrailingStopMethod 1 -25 0
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=8
       SETFILE: /opt/sets/EA31337-MACD_TrailingStopMethod.set
       TEST_REPORT_NAME: EA31337-MACD_TrailingStopMethod
@@ -25,7 +25,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: MACD_TrailingProfitMethod
-      RUN_ON_SET: set_opt_params MACD_TrailingProfitMethod 1 -27 0
+      RUN_ON_SET: set_opt_params MACD_TrailingProfitMethod 1 -25 0
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=8
       SETFILE: /opt/sets/EA31337-MACD_TrailingProfitMethod.set
       TEST_REPORT_NAME: EA31337-MACD_TrailingProfitMethod

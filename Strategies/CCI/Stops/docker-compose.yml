@@ -9,7 +9,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: CCI_TrailingStopMethod
-      RUN_ON_SET: set_opt_params CCI_TrailingStopMethod 1 -27 0
+      RUN_ON_SET: set_opt_params CCI_TrailingStopMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-CCI_TrailingStopMethod.set
       TEST_REPORT_NAME: EA31337-CCI_TrailingStopMethod
     deploy:
@@ -24,7 +24,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: CCI_TrailingProfitMethod
-      RUN_ON_SET: set_opt_params CCI_TrailingProfitMethod 1 -27 0
+      RUN_ON_SET: set_opt_params CCI_TrailingProfitMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-CCI_TrailingProfitMethod.set
       TEST_REPORT_NAME: EA31337-CCI_TrailingProfitMethod
     deploy:

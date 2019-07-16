@@ -1,6 +1,6 @@
 version: '3.4'
 services:
-  WPR_TrailingStopMethod:
+  ADX_TrailingStopMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
@@ -8,14 +8,14 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: WPR_TrailingStopMethod
-      RUN_ON_SET: set_opt_params WPR_TrailingStopMethod 1 -25 0
-      SETFILE: /opt/sets/EA31337-WPR_TrailingStopMethod.set
-      TEST_REPORT_NAME: EA31337-WPR_TrailingStopMethod
+      SET_PARAMS: ADX_TrailingStopMethod
+      RUN_ON_SET: set_opt_params ADX_TrailingStopMethod 1 -25 0
+      SETFILE: /opt/sets/EA31337-ADX_TrailingStopMethod.set
+      TEST_REPORT_NAME: EA31337-ADX_TrailingStopMethod
     deploy:
       restart_policy:
         condition: none
-  WPR_TrailingProfitMethod:
+  ADX_TrailingProfitMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
@@ -23,10 +23,10 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: WPR_TrailingProfitMethod
-      RUN_ON_SET: set_opt_params WPR_TrailingProfitMethod 1 -25 0
-      SETFILE: /opt/sets/EA31337-WPR_TrailingProfitMethod.set
-      TEST_REPORT_NAME: EA31337-WPR_TrailingProfitMethod
+      SET_PARAMS: ADX_TrailingProfitMethod
+      RUN_ON_SET: set_opt_params ADX_TrailingProfitMethod 1 -25 0
+      SETFILE: /opt/sets/EA31337-ADX_TrailingProfitMethod.set
+      TEST_REPORT_NAME: EA31337-ADX_TrailingProfitMethod
     deploy:
       restart_policy:
         condition: none

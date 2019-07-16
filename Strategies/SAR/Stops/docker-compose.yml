@@ -9,7 +9,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: SAR_TrailingStopMethod
-      RUN_ON_SET: set_opt_params SAR_TrailingStopMethod 1 -27 0
+      RUN_ON_SET: set_opt_params SAR_TrailingStopMethod 1 -25 0
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-SAR_TrailingStopMethod.set
       TEST_REPORT_NAME: EA31337-SAR_TrailingStopMethod
@@ -25,7 +25,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: SAR_TrailingProfitMethod
-      RUN_ON_SET: set_opt_params SAR_TrailingProfitMethod 1 -27 0
+      RUN_ON_SET: set_opt_params SAR_TrailingProfitMethod 1 -25 0
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-SAR_TrailingProfitMethod.set
       TEST_REPORT_NAME: EA31337-SAR_TrailingProfitMethod
