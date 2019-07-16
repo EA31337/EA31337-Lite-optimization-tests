@@ -10,7 +10,7 @@ AC_Active_Tf=0
 AD_Active_Tf=0
 ADX_Active_Tf=0
 Alligator_Active_Tf=0
-Bands_Active_Tf=0
+Bands_Active_Tf=15
 CCI_Active_Tf=0
 DeMarker_Active_Tf=0
 Envelopes_Active_Tf=0
@@ -28,7 +28,7 @@ Bands5_SignalMethod=0
 Bands15_SignalMethod=0
 Bands30_SignalMethod=0
 # Optimization params.
-Bands_TrailingProfitMethod=27
+Bands_TrailingProfitMethod=22
 Bands_TrailingProfitMethod,F=0
 Bands_TrailingProfitMethod,1=0
 Bands_TrailingProfitMethod,2=0

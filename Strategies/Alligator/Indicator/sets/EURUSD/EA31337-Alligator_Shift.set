@@ -9,7 +9,7 @@ ProfitFactorMaxToTrade=0
 AC_Active_Tf=0
 AD_Active_Tf=0
 ADX_Active_Tf=0
-Alligator_Active_Tf=0
+Alligator_Active_Tf=15
 Bands_Active_Tf=0
 CCI_Active_Tf=0
 DeMarker_Active_Tf=0
@@ -22,7 +22,7 @@ MFI_Active_Tf=0
 RSI_Active_Tf=0
 SAR_Active_Tf=0
 WPR_Active_Tf=0
-# Other strategy params.
+# Fixed strategy params.
 Alligator1_SignalMethod=0
 Alligator5_SignalMethod=0
 Alligator15_SignalMethod=0
@@ -48,8 +48,3 @@ Alligator_Shift,F=0
 Alligator_Shift,1=0
 Alligator_Shift,2=0
 Alligator_Shift,3=0
-Alligator_Shift_Far=0
-Alligator_Shift_Far,F=0
-Alligator_Shift_Far,1=0
-Alligator_Shift_Far,2=0
-Alligator_Shift_Far,3=0

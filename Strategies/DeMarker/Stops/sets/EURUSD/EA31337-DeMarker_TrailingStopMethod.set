@@ -12,7 +12,7 @@ ADX_Active_Tf=0
 Alligator_Active_Tf=0
 Bands_Active_Tf=0
 CCI_Active_Tf=0
-DeMarker_Active_Tf=0
+DeMarker_Active_Tf=15
 Envelopes_Active_Tf=0
 Force_Active_Tf=0
 Fractals_Active_Tf=0
@@ -28,7 +28,7 @@ DeMarker5_SignalMethod=0
 DeMarker15_SignalMethod=0
 DeMarker30_SignalMethod=0
 # Optimization params.
-DeMarker_TrailingStopMethod=26
+DeMarker_TrailingStopMethod=22
 DeMarker_TrailingStopMethod,F=0
 DeMarker_TrailingStopMethod,1=0
 DeMarker_TrailingStopMethod,2=0

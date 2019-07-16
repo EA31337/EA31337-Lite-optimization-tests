@@ -6,7 +6,7 @@ CloseOrderAfterXHours=24
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Strategy params.
-AC_Active_Tf=0
+AC_Active_Tf=8
 AD_Active_Tf=0
 ADX_Active_Tf=0
 Alligator_Active_Tf=0
@@ -21,10 +21,10 @@ MACD_Active_Tf=0
 MFI_Active_Tf=0
 RSI_Active_Tf=0
 SAR_Active_Tf=0
-WPR_Active_Tf=1
+WPR_Active_Tf=0
 # Optimization params.
-WPR1_SignalMethod=-46
-WPR1_SignalMethod,F=0
-WPR1_SignalMethod,1=0
-WPR1_SignalMethod,2=0
-WPR1_SignalMethod,3=0
+AC30_SignalMethod=-127
+AC30_SignalMethod,F=0
+AC30_SignalMethod,1=0
+AC30_SignalMethod,2=0
+AC30_SignalMethod,3=0
