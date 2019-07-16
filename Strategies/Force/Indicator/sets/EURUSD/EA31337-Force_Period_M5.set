@@ -29,8 +29,8 @@ Force_MA5_SignalMethod=0
 Force_MA15_SignalMethod=0
 Force_MA30_SignalMethod=0
 # Optimization params.
-Force_MA_Period_M5=22
-Force_MA_Period_M5,F=0
-Force_MA_Period_M5,1=0
-Force_MA_Period_M5,2=0
-Force_MA_Period_M5,3=0
+Force_Period_M5=22
+Force_Period_M5,F=0
+Force_Period_M5,1=0
+Force_Period_M5,2=0
+Force_Period_M5,3=0
