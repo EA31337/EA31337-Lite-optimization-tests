@@ -2,7 +2,7 @@
 LotSize=0.01
 Boosting_Enabled=0
 Account_Conditions_Active=0
-CloseOrderAfterXHours=48
+CloseOrderAfterXHours=2
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Strategy params.
@@ -27,6 +27,7 @@ MFI1_SignalMethod=0
 MFI5_SignalMethod=0
 MFI15_SignalMethod=0
 MFI30_SignalMethod=0
+MFI_TrailingStopMethod=0
 # Optimization params.
 MFI_TrailingProfitMethod=22
 MFI_TrailingProfitMethod,F=0

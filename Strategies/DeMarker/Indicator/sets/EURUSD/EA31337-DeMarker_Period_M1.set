@@ -2,7 +2,7 @@
 LotSize=0.01
 Boosting_Enabled=0
 Account_Conditions_Active=0
-CloseOrderAfterXHours=24
+CloseOrderAfterXHours=1
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Strategy params.
@@ -24,13 +24,13 @@ SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Fixed strategy params.
 DeMarker_Shift=0
-DeMarker_SignalLevel=-0.2
+DeMarker_SignalLevel=0.2
 DeMarker1_SignalMethod=0
 DeMarker5_SignalMethod=0
 DeMarker15_SignalMethod=0
 DeMarker30_SignalMethod=0
 # Optimization params.
-DeMarker_Period_M1=10
+DeMarker_Period_M1=4
 DeMarker_Period_M1,F=0
 DeMarker_Period_M1,1=0
 DeMarker_Period_M1,2=0
