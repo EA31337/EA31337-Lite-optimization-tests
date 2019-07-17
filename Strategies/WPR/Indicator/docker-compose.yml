@@ -9,9 +9,10 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SET_PARAMS: WPR_Period_M1
       SETFILE: /opt/sets/EA31337-WPR_Period_M1.set
-      RUN_ON_SET: set_opt_params WPR_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M1) - 1 * 4")) $$(bc <<< "$$(input_get WPR_Period_M1) + 1 * 4") 1
+      RUN_ON_SET: set_opt_params WPR_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M1) - 1 * 8")) $$(bc <<< "$$(input_get WPR_Period_M1) + 1 * 8") 1
 #     RUN_ON_SUCCESS: input_copy WPR_Period_M1 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_Period_M1
     deploy:

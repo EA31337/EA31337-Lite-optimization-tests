@@ -9,9 +9,10 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SETFILE: /opt/sets/EA31337-Bands_Period_M1.set
       SET_PARAMS: Bands_Period_M1
-      RUN_ON_SET: set_opt_params Bands_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M1) - 2 * 4")) $$(bc <<< "$$(input_get Bands_Period_M1) + 2 * 4") 2
+      RUN_ON_SET: set_opt_params Bands_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M1) - 2 * 8")) $$(bc <<< "$$(input_get Bands_Period_M1) + 2 * 8") 2
 #     RUN_ON_SUCCESS: input_copy Bands_Period_M1 "$${SETFILE}" /opt/sets/EA31337-Bands_Applied_Price.set /opt/sets/EA31337-Bands_Deviation.set /opt/sets/EA31337-Bands_Shift.set /opt/sets/EA31337-Bands_SignalLevel.set
       TEST_REPORT_NAME: EA31337-Bands_Period_M1
     deploy:
@@ -26,9 +27,10 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SET_PARAMS: Bands_Period_M5
       SETFILE: /opt/sets/EA31337-Bands_Period_M5.set
-      RUN_ON_SET: set_opt_params Bands_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M5) - 2 * 4")) $$(bc <<< "$$(input_get Bands_Period_M5) + 2 * 4") 2
+      RUN_ON_SET: set_opt_params Bands_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M5) - 2 * 8")) $$(bc <<< "$$(input_get Bands_Period_M5) + 2 * 8") 2
 #     RUN_ON_SUCCESS: input_copy Bands_Period_M5 "$${SETFILE}" /opt/sets/EA31337-Bands_Applied_Price.set /opt/sets/EA31337-Bands_Deviation.set /opt/sets/EA31337-Bands_Shift.set /opt/sets/EA31337-Bands_SignalLevel.set
       TEST_REPORT_NAME: EA31337-Bands_Period_M5
     deploy:
@@ -43,10 +45,11 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M15
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SET_PARAMS: Bands_Period_M15
       SETFILE: /opt/sets/EA31337-Bands_Period_M15.set
-#     RUN_ON_SET: set_opt_params Bands_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M15) - 2 * 4")) $$(bc <<< "$$(input_get Bands_Period_M15) + 2 * 4") 2
-      RUN_ON_SUCCESS: input_copy Bands_Period_M15 "$${SETFILE}" /opt/sets/EA31337-Bands_Applied_Price.set /opt/sets/EA31337-Bands_Deviation.set /opt/sets/EA31337-Bands_Shift.set /opt/sets/EA31337-Bands_SignalLevel.set
+      RUN_ON_SET: set_opt_params Bands_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M15) - 2 * 8")) $$(bc <<< "$$(input_get Bands_Period_M15) + 2 * 8") 2
+#     RUN_ON_SUCCESS: input_copy Bands_Period_M15 "$${SETFILE}" /opt/sets/EA31337-Bands_Applied_Price.set /opt/sets/EA31337-Bands_Deviation.set /opt/sets/EA31337-Bands_Shift.set /opt/sets/EA31337-Bands_SignalLevel.set
       TEST_REPORT_NAME: EA31337-Bands_Period_M15
     deploy:
       restart_policy:
@@ -60,6 +63,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M30
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SET_PARAMS: Bands_Period_M30
       SETFILE: /opt/sets/EA31337-Bands_Period_M30.set
       RUN_ON_SET: set_opt_params Bands_Period_M30 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M30) - 2 * 4")) $$(bc <<< "$$(input_get Bands_Period_M30) + 2 * 4") 2

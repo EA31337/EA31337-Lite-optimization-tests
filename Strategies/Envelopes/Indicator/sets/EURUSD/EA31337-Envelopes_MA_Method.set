@@ -30,7 +30,7 @@ Envelopes30_SignalMethod=0
 Envelopes_TrailingStopMethod=0
 Envelopes_TrailingProfitMethod=0
 # Optimization params.
-Envelopes_MA_Method=1
+Envelopes_MA_Method=2
 Envelopes_MA_Method,F=0
 Envelopes_MA_Method,1=0
 Envelopes_MA_Method,2=0

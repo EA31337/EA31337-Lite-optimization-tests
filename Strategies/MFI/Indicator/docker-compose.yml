@@ -43,7 +43,6 @@ services:
       BT_PERIOD: M15
       SET_PARAMS: MFI_Period_M15
       SETFILE: /opt/sets/EA31337-MFI_Period_M15.set
-      RUN_ON_SUCCESS: input_copy MFI_Period_M15 "$${SETFILE}" /opt/sets/EA31337-MFI_Applied_Price.set /opt/sets/EA31337-MFI_Deviation.set /opt/sets/EA31337-MFI_Shift.set /opt/sets/EA31337-MFI_SignalLevel.set
       TEST_REPORT_NAME: EA31337-MFI_Period_M15
     deploy:
       restart_policy:
