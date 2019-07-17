@@ -31,7 +31,7 @@ Bands30_SignalMethod=0
 Bands_TrailingStopMethod=0
 Bands_TrailingProfitMethod=0
 # Optimization params.
-Bands_Period_M15=4
+Bands_Period_M15=2
 Bands_Period_M15,F=0
 Bands_Period_M15,1=0
 Bands_Period_M15,2=0

@@ -1,5 +1,65 @@
 version: '3.4'
 services:
+  Envelopes_Deviation_M1:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Envelopes_Deviation_M1
+      RUN_ON_SET: set_opt_params Envelopes_Deviation_M1 $$(bc <<< "$$(input_get Envelopes_Deviation_M1) - 0.1 * 2") $$(bc <<< "$$(input_get Envelopes_Deviation_M1) + 0.1 * 2") 0.1
+      SETFILE: /opt/sets/EA31337-Envelopes_Deviation_M1.set
+      TEST_REPORT_NAME: EA31337-Envelopes_Deviation_M1
+    deploy:
+      restart_policy:
+        condition: none
+  Envelopes_Deviation_M5:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Envelopes_Deviation_M5
+      RUN_ON_SET: set_opt_params Envelopes_Deviation_M5 $$(bc <<< "$$(input_get Envelopes_Deviation_M5) - 0.1 * 2") $$(bc <<< "$$(input_get Envelopes_Deviation_M5) + 0.1 * 2") 0.1
+      SETFILE: /opt/sets/EA31337-Envelopes_Deviation_M5.set
+      TEST_REPORT_NAME: EA31337-Envelopes_Deviation_M5
+    deploy:
+      restart_policy:
+        condition: none
+  Envelopes_Deviation_M15:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Envelopes_Deviation_M15
+      RUN_ON_SET: set_opt_params Envelopes_Deviation_M15 $$(bc <<< "$$(input_get Envelopes_Deviation_M15) - 0.1 * 2") $$(bc <<< "$$(input_get Envelopes_Deviation_M15) + 0.1 * 2") 0.1
+      SETFILE: /opt/sets/EA31337-Envelopes_Deviation_M15.set
+      TEST_REPORT_NAME: EA31337-Envelopes_Deviation_M15
+    deploy:
+      restart_policy:
+        condition: none
+  Envelopes_Deviation_M30:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Envelopes_Deviation_M30
+      RUN_ON_SET: set_opt_params Envelopes_Deviation_M30 $$(bc <<< "$$(input_get Envelopes_Deviation_M30) - 0.1 * 2") $$(bc <<< "$$(input_get Envelopes_Deviation_M30) + 0.1 * 2") 0.1
+      SETFILE: /opt/sets/EA31337-Envelopes_Deviation_M30.set
+      TEST_REPORT_NAME: EA31337-Envelopes_Deviation_M30
+    deploy:
+      restart_policy:
+        condition: none
   Envelopes_MA_Period_M1:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -121,21 +181,6 @@ services:
       RUN_ON_SET: set_opt_params Envelopes_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-Envelopes_Applied_Price.set
       TEST_REPORT_NAME: EA31337-Envelopes_Applied_Price
-    deploy:
-      restart_policy:
-        condition: none
-  Envelopes_Deviation:
-    command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
-    volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
-    env_file: ../../../EA-Tester.ini
-    environment:
-      SET_PARAMS: Envelopes_Deviation
-      RUN_ON_SET: set_opt_params Envelopes_Deviation $$(bc <<< "$$(input_get Envelopes_Deviation) - 0.1 * 2") $$(bc <<< "$$(input_get Envelopes_Deviation) + 0.1 * 2") 0.1
-      SETFILE: /opt/sets/EA31337-Envelopes_Deviation.set
-      TEST_REPORT_NAME: EA31337-Envelopes_Deviation
     deploy:
       restart_policy:
         condition: none
