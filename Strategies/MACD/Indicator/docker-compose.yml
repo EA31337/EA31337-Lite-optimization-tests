@@ -9,7 +9,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: MACD_Period_Fast,MACD_Period_Slow,MACD_Period_Signal
-      RUN_ON_SET: for p in Fast Slow Signal; do set_opt_params "MACD_Period_$${p}" $$(bc <<< "$$(input_get MACD_Period_$${p}) - 8") $$(bc <<< "$$(input_get MACD_Period_$${p}) + 8") 4; done
+      RUN_ON_SET: for p in Fast Slow Signal; do set_opt_params "MACD_Period_$${p}" $$(get_max 1 $$(bc <<< "$$(input_get MACD_Period_$${p}) - 8")) $$(get_max 1 $$(bc <<< "$$(input_get MACD_Period_$${p}) + 8")) 4; done
       SETFILE: /opt/sets/EA31337-MACD_Periods.set
       TEST_REPORT_NAME: EA31337-MACD_Periods
     deploy:
