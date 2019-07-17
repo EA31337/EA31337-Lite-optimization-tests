@@ -8,6 +8,7 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_DEPOSIT: 100000
       BT_PERIOD: M1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SETFILE: /opt/sets/EA31337-Bands_Period_M1.set
@@ -26,6 +27,7 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_DEPOSIT: 100000
       BT_PERIOD: M5
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SET_PARAMS: Bands_Period_M5
@@ -44,6 +46,7 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_DEPOSIT: 100000
       BT_PERIOD: M15
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SET_PARAMS: Bands_Period_M15
@@ -62,6 +65,7 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_DEPOSIT: 100000
       BT_PERIOD: M30
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SET_PARAMS: Bands_Period_M30
@@ -80,6 +84,7 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_DEPOSIT: 100000
       SET_PARAMS: Bands_Applied_Price
       RUN_ON_SET: set_opt_params Bands_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-Bands_Applied_Price.set
@@ -95,10 +100,26 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_DEPOSIT: 100000
       SET_PARAMS: Bands_Deviation
       RUN_ON_SET: set_opt_params Bands_Deviation $$(bc <<< "$$(input_get Bands_Deviation) - 0.1 * 5") $$(bc <<< "$$(input_get Bands_Deviation) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-Bands_Deviation.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation
+  Bands_HShift:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    environment:
+      BT_DEPOSIT: 100000
+      SET_PARAMS: Bands_HShift
+      RUN_ON_SET: set_opt_params Bands_HShift $$(get_max 0 $$(bc <<< "$$(input_get Bands_HShift) - 1 * 2")) $$(bc <<< "$$(input_get Bands_HShift) + 1 * 2")
+      SETFILE: /opt/sets/EA31337-Bands_HShift.set
+      TEST_REPORT_NAME: EA31337-Bands_HShift
+    deploy:
+      restart_policy:
+        condition: none
   Bands_SignalLevel:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -107,6 +128,7 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_DEPOSIT: 100000
       SET_PARAMS: Bands_SignalLevel
       RUN_ON_SET: set_opt_params Bands_SignalLevel $$(bc <<< "$$(input_get Bands_SignalLevel) - 0.1 * 5") $$(bc <<< "$$(input_get Bands_SignalLevel) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-Bands_SignalLevel.set
@@ -121,8 +143,9 @@ services:
     - ./sets/EURUSD:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results:rw
     environment:
+      BT_DEPOSIT: 100000
       SET_PARAMS: Bands_Shift
-      RUN_ON_SET: set_opt_params Bands_Shift $$(bc <<< "$$(input_get Bands_Shift) - 1 * 2") $$(bc <<< "$$(input_get Bands_Shift) + 1 * 2")
+      RUN_ON_SET: set_opt_params Bands_Shift $$(get_max 0 $$(bc <<< "$$(input_get Bands_Shift) - 1 * 2")) $$(bc <<< "$$(input_get Bands_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-Bands_Shift.set
       TEST_REPORT_NAME: EA31337-Bands_Shift
     deploy:

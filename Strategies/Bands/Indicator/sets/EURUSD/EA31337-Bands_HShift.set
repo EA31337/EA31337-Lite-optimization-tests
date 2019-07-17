@@ -28,6 +28,7 @@ WPR_Active_Tf=0
 #Bands_Period_M15=10
 #Bands_Period_M30=10
 # Fixed strategy params.
+Bands_Shift=0
 Bands1_SignalMethod=0
 Bands5_SignalMethod=0
 Bands15_SignalMethod=0
@@ -35,8 +36,8 @@ Bands30_SignalMethod=0
 Bands_TrailingStopMethod=0
 Bands_TrailingProfitMethod=0
 # Optimization params.
-Bands_Shift=0
-Bands_Shift,F=0
-Bands_Shift,1=0
-Bands_Shift,2=0
-Bands_Shift,3=0
+Bands_HShift=0
+Bands_HShift,F=0
+Bands_HShift,1=0
+Bands_HShift,2=0
+Bands_HShift,3=0
