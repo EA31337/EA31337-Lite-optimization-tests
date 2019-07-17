@@ -1,0 +1,20 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          15 Minutes (M15) 2018.01.03 01:00 - 2018.12.30 23:45 (2018.01.01 - 2018.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1   775.72         2604          1.04            0.30    2137.77      21.33 WPR_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
+             2   386.97         2919          1.02            0.13    1714.58      17.05 WPR_Period_M15=3; MaxOrders=0; MaxOrdersPerType=0;
+             4  -932.25         3347          0.96           -0.28    1921.45      19.16 WPR_Period_M15=5; MaxOrders=0; MaxOrdersPerType=0;
+             5 -1123.35         3557          0.95           -0.32    2241.13      22.38 WPR_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
+             3 -1328.41         3181          0.94           -0.42    2633.17      26.29 WPR_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
+             6 -1360.70         3673          0.94           -0.37    1949.57      19.46 WPR_Period_M15=7; MaxOrders=0; MaxOrdersPerType=0;

@@ -1,0 +1,23 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         1   0.00            0          0.00            0.00       0.00       0.00  Envelopes_MA_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
+         2   0.00            0          0.00            0.00       0.00       0.00  Envelopes_MA_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
+         3   0.00            0          0.00            0.00       0.00       0.00 Envelopes_MA_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
+         4   0.00            0          0.00            0.00       0.00       0.00 Envelopes_MA_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
+         5   0.00            0          0.00            0.00       0.00       0.00 Envelopes_MA_Period_M30=14; MaxOrders=0; MaxOrdersPerType=0;
+         6   0.00            0          0.00            0.00       0.00       0.00 Envelopes_MA_Period_M30=16; MaxOrders=0; MaxOrdersPerType=0;
+         7   0.00            0          0.00            0.00       0.00       0.00 Envelopes_MA_Period_M30=18; MaxOrders=0; MaxOrdersPerType=0;
+         8   0.00            0          0.00            0.00       0.00       0.00 Envelopes_MA_Period_M30=20; MaxOrders=0; MaxOrdersPerType=0;
+         9   0.00            0          0.00            0.00       0.00       0.00 Envelopes_MA_Period_M30=22; MaxOrders=0; MaxOrdersPerType=0;

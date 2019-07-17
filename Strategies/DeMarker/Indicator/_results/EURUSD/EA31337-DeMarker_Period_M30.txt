@@ -1,0 +1,30 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          7    68.35         1757          1.01            0.04     990.08       9.22 DeMarker_Period_M30=14; MaxOrders=0; MaxOrdersPerType=0;
+         16  -122.99          824          0.98           -0.15    1044.68      10.33 DeMarker_Period_M30=32; MaxOrders=0; MaxOrdersPerType=0;
+          8  -314.07         1564          0.97           -0.20    1073.58      10.30 DeMarker_Period_M30=16; MaxOrders=0; MaxOrdersPerType=0;
+         14  -502.37          965          0.92           -0.52    1598.49      15.95 DeMarker_Period_M30=28; MaxOrders=0; MaxOrdersPerType=0;
+          6  -506.87         1930          0.96           -0.26    1334.80      12.55 DeMarker_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
+         12  -550.97         1097          0.92           -0.50    1409.19      13.86 DeMarker_Period_M30=24; MaxOrders=0; MaxOrdersPerType=0;
+          4  -628.93         2422          0.96           -0.26    1194.07      11.50  DeMarker_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
+          9  -640.25         1426          0.93           -0.45    1287.52      12.40 DeMarker_Period_M30=18; MaxOrders=0; MaxOrdersPerType=0;
+         13  -659.90         1016          0.90           -0.65    1611.13      16.09 DeMarker_Period_M30=26; MaxOrders=0; MaxOrdersPerType=0;
+          5  -692.30         2131          0.95           -0.32    1120.40      10.86 DeMarker_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
+         15  -802.23          888          0.87           -0.90    1619.24      16.01 DeMarker_Period_M30=30; MaxOrders=0; MaxOrdersPerType=0;
+          2  -970.75         2876          0.94           -0.34    1448.06      13.92  DeMarker_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
+         11  -986.21         1203          0.88           -0.82    1497.58      14.92 DeMarker_Period_M30=22; MaxOrders=0; MaxOrdersPerType=0;
+         10 -1337.06         1291          0.85           -1.04    1561.57      15.50 DeMarker_Period_M30=20; MaxOrders=0; MaxOrdersPerType=0;
+          1 -1426.80         3080          0.92           -0.46    1791.05      17.74  DeMarker_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
+          3 -1965.21         2639          0.88           -0.74    2404.27      23.40  DeMarker_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
