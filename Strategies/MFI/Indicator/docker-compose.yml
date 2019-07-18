@@ -43,6 +43,7 @@ services:
       BT_PERIOD: M15
       SET_PARAMS: MFI_Period_M15
       SETFILE: /opt/sets/EA31337-MFI_Period_M15.set
+      RUN_ON_SET: set_opt_params MFI_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get MFI_Period_M15) - 2 * 4")) $$(bc <<< "$$(input_get MFI_Period_M15) + 2 * 4") 2
       TEST_REPORT_NAME: EA31337-MFI_Period_M15
     deploy:
       restart_policy:
@@ -85,6 +86,7 @@ services:
     - ./sets/EURUSD:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results:rw
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SET_PARAMS: MFI_Shift
       RUN_ON_SET: set_opt_params MFI_Shift $$(bc <<< "$$(input_get MFI_Shift) - 1 * 2") $$(bc <<< "$$(input_get MFI_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-MFI_Shift.set

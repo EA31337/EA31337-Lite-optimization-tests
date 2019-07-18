@@ -70,7 +70,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: RiskRatioDecreaseMethod
-      RUN_ON_SET: set_opt_params RiskRatioDecreaseMethod 0 255 5
+      RUN_ON_SET: set_opt_params RiskRatioDecreaseMethod 0 255 9
       SETFILE: /opt/sets/EA31337-RiskRatioDecreaseMethod.set
       TEST_REPORT_NAME: EA31337-RiskRatioDecreaseMethod
     deploy:
@@ -85,7 +85,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: RiskRatioIncreaseMethod
-      RUN_ON_SET: set_opt_params RiskRatioIncreaseMethod 0 255 5
+      RUN_ON_SET: set_opt_params RiskRatioIncreaseMethod 0 255 9
       SETFILE: /opt/sets/EA31337-RiskRatioIncreaseMethod.set
       TEST_REPORT_NAME: EA31337-RiskRatioIncreaseMethod
     deploy:

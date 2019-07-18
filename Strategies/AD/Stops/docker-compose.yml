@@ -9,6 +9,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: AD_TrailingStopMethod
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
       RUN_ON_SET: set_opt_params AD_TrailingStopMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-AD_TrailingStopMethod.set
       TEST_REPORT_NAME: EA31337-AD_TrailingStopMethod
@@ -24,6 +25,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: AD_TrailingProfitMethod
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
       RUN_ON_SET: set_opt_params AD_TrailingProfitMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-AD_TrailingProfitMethod.set
       TEST_REPORT_NAME: EA31337-AD_TrailingProfitMethod
