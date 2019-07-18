@@ -23,6 +23,11 @@ RSI_Active_Tf=0
 SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Fixed strategy params.
+Alligator_Shift_Jaw=0
+Alligator_Shift_Teeth=0
+Alligator_Shift_Lips=0
+Alligator_Shift=0
+Alligator_SignalLevel=0.0
 Alligator1_SignalMethod=0
 Alligator5_SignalMethod=0
 Alligator15_SignalMethod=0
@@ -30,7 +35,7 @@ Alligator30_SignalMethod=0
 Alligator_TrailingStopMethod=0
 Alligator_TrailingProfitMethod=0
 # Optimization params.
-Alligator_Period_Jaw=12
+Alligator_Period_Jaw=16
 Alligator_Period_Jaw,F=0
 Alligator_Period_Jaw,1=0
 Alligator_Period_Jaw,2=0

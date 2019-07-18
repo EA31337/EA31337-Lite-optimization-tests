@@ -23,6 +23,7 @@ RSI_Active_Tf=0
 SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Fixed strategy params
+MACD_Shift=0
 MACD_SignalLevel=0.0
 MACD1_SignalMethod=0
 MACD5_SignalMethod=0
