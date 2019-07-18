@@ -162,6 +162,7 @@ services:
     volumes:
     - ./sets/EURUSD:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
     environment:
       BT_DEPOSIT: 100000
       SET_PARAMS: Bands_HShift
@@ -193,6 +194,7 @@ services:
     volumes:
     - ./sets/EURUSD:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
     environment:
       BT_DEPOSIT: 100000
       SET_PARAMS: Bands_Shift
