@@ -7,7 +7,7 @@ ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Optimization params.
 DefaultTrailingStopMethod=0
-DefaultTrailingStopMethod,F=0
+DefaultTrailingStopMethod,F=1
 DefaultTrailingStopMethod,1=0
 DefaultTrailingStopMethod,2=0
 DefaultTrailingStopMethod,3=0

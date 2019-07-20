@@ -7,7 +7,7 @@ ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Optimization params.
 TakeProfitMax=0
-TakeProfitMax,F=0
+TakeProfitMax,F=1
 TakeProfitMax,1=0
 TakeProfitMax,2=0
 TakeProfitMax,3=0

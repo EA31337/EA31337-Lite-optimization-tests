@@ -66,8 +66,8 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
       SET_PARAMS: ProfitFactorMinToTrade
-# Set min to 0, max to 1.0.
       RUN_ON_SET: set_opt_params ProfitFactorMinToTrade $$(bc <<< "$$(input_get ProfitFactorMinToTrade) - 0.1 * 4") $$(bc <<< "$$(input_get ProfitFactorMinToTrade) + 0.1 * 4") 0.1
       SETFILE: /opt/sets/EA31337-ProfitFactorMinToTrade.set
       TEST_REPORT_NAME: EA31337-ProfitFactorMinToTrade
@@ -142,6 +142,7 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
       SET_PARAMS: TrailingStopAddPerMinute
       RUN_ON_SET: set_opt_params TrailingStopAddPerMinute $$(bc <<< "$$(input_get TrailingStopAddPerMinute) - 0.1 * 2") $$(bc <<< "$$(input_get TrailingStopAddPerMinute) + 0.1 * 2") 0.1
       SETFILE: /opt/sets/EA31337-TrailingStopAddPerMinute.set
@@ -172,6 +173,7 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SET_PARAMS: TrendPeriod
       RUN_ON_SET: set_opt_params TrendPeriod 5 1440 0
       SETFILE: /opt/sets/EA31337-TrendPeriod.set

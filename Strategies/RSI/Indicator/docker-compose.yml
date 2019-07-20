@@ -80,7 +80,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: RSI_SignalLevel
-      RUN_ON_SET: set_opt_params RSI_SignalLevel $$(bc <<< "$$(input_get RSI_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get RSI_SignalLevel) + 0.1 * 2") 0.1
+      RUN_ON_SET: set_opt_params RSI_SignalLevel $$(bc <<< "$$(input_get RSI_SignalLevel) - 2 * 4") $$(bc <<< "$$(input_get RSI_SignalLevel) + 2 * 4") 2
       SETFILE: /opt/sets/EA31337-RSI_SignalLevel.set
       TEST_REPORT_NAME: EA31337-RSI_SignalLevel
     deploy:
@@ -95,7 +95,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: RSI_Shift
-      RUN_ON_SET: set_opt_params RSI_Shift $$(bc <<< "$$(input_get RSI_Shift) - 1 * 2") $$(bc <<< "$$(input_get RSI_Shift) + 1 * 2")
+      RUN_ON_SET: set_opt_params RSI_Shift $$(get_max 2 $$(bc <<< "$$(input_get RSI_Shift) - 1 * 2")) $$(bc <<< "$$(input_get RSI_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-RSI_Shift.set
       TEST_REPORT_NAME: EA31337-RSI_Shift
     deploy:

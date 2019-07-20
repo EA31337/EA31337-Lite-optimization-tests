@@ -37,7 +37,7 @@ Bands_TrailingStopMethod=0
 Bands_TrailingProfitMethod=0
 # Optimization params.
 Bands_HShift=0
-Bands_HShift,F=0
+Bands_HShift,F=1
 Bands_HShift,1=0
 Bands_HShift,2=0
 Bands_HShift,3=0

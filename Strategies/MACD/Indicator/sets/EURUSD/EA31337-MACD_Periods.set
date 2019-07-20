@@ -32,12 +32,12 @@ MACD30_SignalMethod=0
 MACD_TrailingStopMethod=0
 MACD_TrailingProfitMethod=0
 # Optimization params.
-MACD_Period_Fast=15
+MACD_Period_Fast=23
 MACD_Period_Fast,F=0
 MACD_Period_Fast,1=0
 MACD_Period_Fast,2=0
 MACD_Period_Fast,3=0
-MACD_Period_Slow=29
+MACD_Period_Slow=21
 MACD_Period_Slow,F=0
 MACD_Period_Slow,1=0
 MACD_Period_Slow,2=0

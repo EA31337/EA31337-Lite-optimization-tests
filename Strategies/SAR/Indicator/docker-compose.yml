@@ -8,8 +8,10 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
       SET_PARAMS: SAR_Step
-      RUN_ON_SET: set_opt_params SAR_Step $$(bc <<< "$$(input_get SAR_Step) - 0.01 * 10") $$(bc <<< "$$(input_get SAR_Step) + 0.01 * 10") 0.01
+      RUN_ON_SET: set_opt_params SAR_Step 0.01 0.10 0.01
+#     RUN_ON_SET: set_opt_params SAR_Step $$(bc <<< "$$(input_get SAR_Step) - 0.01 * 10") $$(bc <<< "$$(input_get SAR_Step) + 0.01 * 10") 0.01
       SETFILE: /opt/sets/EA31337-SAR_Step.set
       TEST_REPORT_NAME: EA31337-SAR_Step
     deploy:

@@ -29,7 +29,7 @@ ADX15_SignalMethod=0
 ADX30_SignalMethod=0
 ADX_TrailingProfitMethod=0
 # Optimization params.
-ADX_TrailingStopMethod=25
+ADX_TrailingStopMethod=11
 ADX_TrailingStopMethod,F=0
 ADX_TrailingStopMethod,1=0
 ADX_TrailingStopMethod,2=0
