@@ -1,0 +1,23 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          15 Minutes (M15) 2018.01.03 01:00 - 2018.12.30 23:45 (2018.01.01 - 2018.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 100000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            2  940.72         4254          1.04            0.22    1627.83       1.63 Force_Period_M15=12; MaxOrders=0; MaxOrdersPerType=0;
+            8  854.82         4137          1.04            0.21    1393.16       1.39 Force_Period_M15=24; MaxOrders=0; MaxOrdersPerType=0;
+            1  482.19         4188          1.02            0.12    1758.97       1.76 Force_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
+            7  467.81         4149          1.02            0.11    1487.17       1.49 Force_Period_M15=22; MaxOrders=0; MaxOrdersPerType=0;
+            3  400.73         4243          1.02            0.09    1478.07       1.48 Force_Period_M15=14; MaxOrders=0; MaxOrdersPerType=0;
+            9  218.56         4070          1.01            0.05    1756.48       1.76 Force_Period_M15=26; MaxOrders=0; MaxOrdersPerType=0;
+            6  169.86         4176          1.01            0.04    1487.76       1.49 Force_Period_M15=20; MaxOrders=0; MaxOrdersPerType=0;
+            4 -162.97         4261          0.99           -0.04    1727.60       1.73 Force_Period_M15=16; MaxOrders=0; MaxOrdersPerType=0;
+            5 -209.33         4198          0.99           -0.05    1869.28       1.87 Force_Period_M15=18; MaxOrders=0; MaxOrdersPerType=0;

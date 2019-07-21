@@ -1,0 +1,23 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 100000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            7 1354.02         2813          1.06            0.48    1156.10       1.16 Force_Period_M30=30; MaxOrders=0; MaxOrdersPerType=0;
+            6 1199.71         2824          1.06            0.42    1312.74       1.31 Force_Period_M30=28; MaxOrders=0; MaxOrdersPerType=0;
+            8 1024.69         2780          1.05            0.37    1343.65       1.33 Force_Period_M30=32; MaxOrders=0; MaxOrdersPerType=0;
+            5  998.43         2835          1.05            0.35    1180.25       1.18 Force_Period_M30=26; MaxOrders=0; MaxOrdersPerType=0;
+            2  921.10         2886          1.04            0.32    1164.71       1.16 Force_Period_M30=20; MaxOrders=0; MaxOrdersPerType=0;
+            1  879.50         2923          1.04            0.30    1099.82       1.09 Force_Period_M30=18; MaxOrders=0; MaxOrdersPerType=0;
+            4  849.51         2838          1.04            0.30    1156.01       1.15 Force_Period_M30=24; MaxOrders=0; MaxOrdersPerType=0;
+            9  814.69         2702          1.04            0.30    1294.40       1.28 Force_Period_M30=34; MaxOrders=0; MaxOrdersPerType=0;
+            3  414.48         2848          1.02            0.15    1284.94       1.28 Force_Period_M30=22; MaxOrders=0; MaxOrdersPerType=0;

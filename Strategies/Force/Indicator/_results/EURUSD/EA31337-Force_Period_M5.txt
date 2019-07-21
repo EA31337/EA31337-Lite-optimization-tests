@@ -1,0 +1,23 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          5 Minutes (M5) 2018.01.02 07:20 - 2018.12.30 23:55 (2018.01.01 - 2018.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
+                                                                 [Optimization Graph]
+         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            9 -3953.39         6807          0.87           -0.58    4487.65       4.47 Force_Period_M5=30; MaxOrders=0; MaxOrdersPerType=0;
+            7 -4132.80         6838          0.87           -0.60    4541.92       4.53 Force_Period_M5=26; MaxOrders=0; MaxOrdersPerType=0;
+            8 -4332.36         6872          0.86           -0.63    4776.18       4.77 Force_Period_M5=28; MaxOrders=0; MaxOrdersPerType=0;
+            2 -4659.03         6953          0.85           -0.67    4949.58       4.95 Force_Period_M5=16; MaxOrders=0; MaxOrdersPerType=0;
+            1 -4683.55         6903          0.85           -0.68    5111.37       5.11 Force_Period_M5=14; MaxOrders=0; MaxOrdersPerType=0;
+            3 -4743.92         6958          0.85           -0.68    5034.47       5.03 Force_Period_M5=18; MaxOrders=0; MaxOrdersPerType=0;
+            6 -4930.41         6869          0.84           -0.72    5189.41       5.19 Force_Period_M5=24; MaxOrders=0; MaxOrdersPerType=0;
+            5 -5087.73         6881          0.84           -0.74    5346.73       5.35 Force_Period_M5=22; MaxOrders=0; MaxOrdersPerType=0;
+            4 -5581.21         6852          0.82           -0.81    5784.43       5.78 Force_Period_M5=20; MaxOrders=0; MaxOrdersPerType=0;
