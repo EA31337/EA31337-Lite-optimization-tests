@@ -38,8 +38,9 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SET_PARAMS: SmartQueueFilter
-      RUN_ON_SET: set_opt_params SmartQueueFilter 0 255 7
+      RUN_ON_SET: set_opt_params SmartQueueFilter 0 255 1
       SETFILE: /opt/sets/EA31337-SmartQueueFilter.set
       TEST_REPORT_NAME: EA31337-SmartQueueFilter
     deploy:

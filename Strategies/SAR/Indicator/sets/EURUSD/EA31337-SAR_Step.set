@@ -31,7 +31,7 @@ SAR30_SignalMethod=0
 SAR_TrailingStopMethod=0
 SAR_TrailingProfitMethod=0
 # Optimization params.
-SAR_Step=0.02
+SAR_Step=0.05
 SAR_Step,F=1
 SAR_Step,1=0
 SAR_Step,2=0

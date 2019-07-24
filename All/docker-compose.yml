@@ -35,7 +35,6 @@ services:
     volumes:
     - ./sets/EURUSD:/opt/sets:rw
     - ./_results/EURUSD:/opt/_results:rw
-    - ../../EA-Tester/scripts:/opt/scripts
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: LotSize

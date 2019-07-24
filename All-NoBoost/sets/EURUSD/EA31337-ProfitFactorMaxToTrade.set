@@ -3,23 +3,6 @@ LotSize=0.01
 Boosting_Enabled=0
 Account_Conditions_Active=0
 CloseOrderAfterXHours=48
-# Strategy params.
-AC_Active_Tf=15
-AD_Active_Tf=15
-ADX_Active_Tf=15
-Alligator_Active_Tf=15
-Bands_Active_Tf=15
-CCI_Active_Tf=15
-DeMarker_Active_Tf=15
-Envelopes_Active_Tf=15
-Force_Active_Tf=15
-Fractals_Active_Tf=15
-MA_Active_Tf=15
-MACD_Active_Tf=15
-MFI_Active_Tf=15
-RSI_Active_Tf=15
-SAR_Active_Tf=15
-WPR_Active_Tf=15
 # Fixed params.
 ProfitFactorMinToTrade=0
 # Optimization params.
