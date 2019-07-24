@@ -7,24 +7,24 @@
 
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
-                            Model           Control points (a very crude method, the results must not be considered)
-                            Initial deposit 10000.00
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             4   225.46          246          1.64            0.92      57.60       0.57  CCI_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
-            12   225.46          246          1.64            0.92      57.60       0.57 CCI_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
-             2   170.48          187          1.71            0.91      31.10       0.31  CCI_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
-            10   170.48          187          1.71            0.91      31.10       0.31  CCI_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
-             7    52.44         1392          1.01            0.04     338.11       3.33  CCI_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
-            15    52.44         1392          1.01            0.04     338.11       3.33 CCI_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
-             1     0.00            0          0.00            0.00       0.00       0.00  CCI_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
-             9     0.00            0          0.00            0.00       0.00       0.00  CCI_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
-             3    -8.32           56          0.95           -0.15      68.40       0.68  CCI_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
-            11    -8.32           56          0.95           -0.15      68.40       0.68 CCI_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
-             5  -167.64         1018          0.97           -0.16     626.86       6.21  CCI_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
-            13  -167.64         1018          0.97           -0.16     626.86       6.21 CCI_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
-             8 -1348.40         2371          0.77           -0.57    1389.00      13.89  CCI_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
-            16 -1348.40         2371          0.77           -0.57    1389.00      13.89 CCI_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
-             6 -1403.09         2312          0.75           -0.61    1443.69      14.44  CCI_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
-            14 -1403.09         2312          0.75           -0.61    1443.69      14.44 CCI_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             16 2197.02          786          1.13            2.80    1501.91       1.50 CCI_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+             15 2117.22          764          1.13            2.77    1429.01       1.43 CCI_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+             14 2091.47          770          1.13            2.72    1501.91       1.50 CCI_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+              8 2054.95          771          1.13            2.67    1501.91       1.50  CCI_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
+              7 1981.75          749          1.13            2.65    1429.01       1.43  CCI_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+              6 1949.40          755          1.12            2.58    1501.91       1.50  CCI_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+             13 1715.59          748          1.11            2.29    1576.30       1.57 CCI_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+              5 1508.12          733          1.10            2.06    1536.30       1.53  CCI_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+             10  278.67           37          1.40            7.53     206.14       0.21  CCI_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+             12  260.31           53          1.25            4.91     321.53       0.32 CCI_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+              9  207.47           15          1.86           13.83      92.00       0.09  CCI_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+             11  166.30           31          1.28            5.36     221.91       0.22 CCI_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+              2  136.60           22          1.31            6.21     292.73       0.29  CCI_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+              4  118.02           38          1.15            3.11     354.25       0.35  CCI_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+              3   30.62           16          1.09            1.91     171.73       0.17  CCI_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
+              1    0.00            0          0.00            0.00       0.00       0.00  CCI_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;

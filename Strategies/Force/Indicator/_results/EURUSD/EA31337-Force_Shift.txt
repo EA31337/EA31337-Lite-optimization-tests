@@ -8,8 +8,12 @@
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-             Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                1 107.34         8573          1.00            0.01    4585.92      45.26 MaxOrders=0; MaxOrdersPerType=0; LotSize=0.01;
+           Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              1      0.00            0          0.00            0.00       0.00       0.00 Force_Shift=-1; MaxOrders=0; MaxOrdersPerType=0;
+              5 -26219.36        33926          0.79           -0.77   27115.22      27.11  Force_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
+              2 -26645.08        36173          0.79           -0.74   27594.22      27.59  Force_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+              3 -27032.95        34820          0.79           -0.78   27900.21      27.90  Force_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+              4 -27300.91        33975          0.79           -0.80   27958.98      27.95  Force_Shift=2; MaxOrders=0; MaxOrdersPerType=0;

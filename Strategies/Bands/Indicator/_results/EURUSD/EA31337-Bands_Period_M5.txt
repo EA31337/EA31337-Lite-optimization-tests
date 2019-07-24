@@ -8,16 +8,16 @@
                              Symbol          EURUSD (Euro vs US Dollar)
                              Period          5 Minutes (M5) 2018.01.02 07:20 - 2018.12.30 23:55 (2018.01.01 - 2018.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
-                             Initial deposit 10000.00
+                             Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            1 -5943.14         3462          0.81           -1.72    6955.23      64.60 Bands_Period_M5=18; MaxOrders=0; MaxOrdersPerType=0;
-            2 -5943.14         3462          0.81           -1.72    6955.23      64.60 Bands_Period_M5=20; MaxOrders=0; MaxOrdersPerType=0;
-            3 -5943.14         3462          0.81           -1.72    6955.23      64.60 Bands_Period_M5=22; MaxOrders=0; MaxOrdersPerType=0;
-            4 -5943.14         3462          0.81           -1.72    6955.23      64.60 Bands_Period_M5=24; MaxOrders=0; MaxOrdersPerType=0;
-            5 -5943.14         3462          0.81           -1.72    6955.23      64.60 Bands_Period_M5=26; MaxOrders=0; MaxOrdersPerType=0;
-            6 -5943.14         3462          0.81           -1.72    6955.23      64.60 Bands_Period_M5=28; MaxOrders=0; MaxOrdersPerType=0;
-            7 -5943.14         3462          0.81           -1.72    6955.23      64.60 Bands_Period_M5=30; MaxOrders=0; MaxOrdersPerType=0;
-            8 -5943.14         3462          0.81           -1.72    6955.23      64.60 Bands_Period_M5=32; MaxOrders=0; MaxOrdersPerType=0;
-            9 -5943.14         3462          0.81           -1.72    6955.23      64.60 Bands_Period_M5=34; MaxOrders=0; MaxOrdersPerType=0;
+         Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            1 -11718.01        11380          0.67           -1.03   11869.98      11.87  Bands_Period_M5=2; MaxOrders=0; MaxOrdersPerType=0;
+            2 -11718.01        11380          0.67           -1.03   11869.98      11.87  Bands_Period_M5=4; MaxOrders=0; MaxOrdersPerType=0;
+            3 -11718.01        11380          0.67           -1.03   11869.98      11.87  Bands_Period_M5=6; MaxOrders=0; MaxOrdersPerType=0;
+            4 -11718.01        11380          0.67           -1.03   11869.98      11.87  Bands_Period_M5=8; MaxOrders=0; MaxOrdersPerType=0;
+            5 -11718.01        11380          0.67           -1.03   11869.98      11.87 Bands_Period_M5=10; MaxOrders=0; MaxOrdersPerType=0;
+            6 -11718.01        11380          0.67           -1.03   11869.98      11.87 Bands_Period_M5=12; MaxOrders=0; MaxOrdersPerType=0;
+            7 -11718.01        11380          0.67           -1.03   11869.98      11.87 Bands_Period_M5=14; MaxOrders=0; MaxOrdersPerType=0;
+            8 -11718.01        11380          0.67           -1.03   11869.98      11.87 Bands_Period_M5=16; MaxOrders=0; MaxOrdersPerType=0;
+            9 -11718.01        11380          0.67           -1.03   11869.98      11.87 Bands_Period_M5=18; MaxOrders=0; MaxOrdersPerType=0;

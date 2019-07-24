@@ -8,16 +8,12 @@
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1  972.24          668          1.11            1.46    1147.12      11.34  RSI_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
-             6  209.96          133          1.11            1.58     684.98       6.75 RSI_Period_M30=18; MaxOrders=0; MaxOrdersPerType=0;
-             7   28.23           94          1.02            0.30     614.47       6.10 RSI_Period_M30=20; MaxOrders=0; MaxOrdersPerType=0;
-             5   19.51          184          1.01            0.11     854.16       8.37 RSI_Period_M30=16; MaxOrders=0; MaxOrdersPerType=0;
-             4  -13.65          259          1.00           -0.05     986.58       9.71 RSI_Period_M30=14; MaxOrders=0; MaxOrdersPerType=0;
-             8  -89.69           70          0.90           -1.28     442.36       4.42 RSI_Period_M30=22; MaxOrders=0; MaxOrdersPerType=0;
-             9 -161.65           41          0.77           -3.94     356.20       3.55 RSI_Period_M30=24; MaxOrders=0; MaxOrdersPerType=0;
-             3 -457.35          355          0.92           -1.29     982.69       9.69 RSI_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
-             2 -619.87          474          0.92           -1.31    1207.31      11.91 RSI_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
+             1 2955.78         1031          1.19            2.87    1545.39       1.54  RSI_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
+             2  590.71          581          1.06            1.02    1232.45       1.23  RSI_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
+             3   74.11          291          1.01            0.25     944.00       0.94  RSI_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
+             5  -15.19           72          0.99           -0.21     438.58       0.44 RSI_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
+             4  -81.54          139          0.96           -0.59     586.91       0.59  RSI_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;

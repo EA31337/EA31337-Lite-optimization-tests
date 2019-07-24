@@ -8,16 +8,12 @@
                              Symbol          EURUSD (Euro vs US Dollar)
                              Period          1 Minute (M1) 2018.01.01 23:40 - 2018.12.30 23:59 (2018.01.01 - 2018.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
-                             Initial deposit 10000.00
+                             Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1   813.03         1587          1.03            0.51    2862.18      27.52  MFI_Period_M1=2; MaxOrders=0; MaxOrdersPerType=0;
-             3  -616.88         4225          0.98           -0.15    2334.42      22.25  MFI_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
-             5  -919.21         3875          0.96           -0.24    1928.39      18.69 MFI_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
-             2  -946.18         2465          0.97           -0.38    3243.33      31.12  MFI_Period_M1=4; MaxOrders=0; MaxOrdersPerType=0;
-             7 -1197.03         2884          0.94           -0.42    2355.89      23.10 MFI_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
-             9 -1352.42         2097          0.91           -0.64    1480.02      14.79 MFI_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;
-             8 -1868.57         2590          0.89           -0.72    2155.54      21.45 MFI_Period_M1=16; MaxOrders=0; MaxOrdersPerType=0;
-             4 -2047.96         3919          0.92           -0.52    2738.69      26.47  MFI_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
-             6 -2287.03         3306          0.90           -0.69    3328.30      32.81 MFI_Period_M1=12; MaxOrders=0; MaxOrdersPerType=0;
+          Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1 -21678.21        26527          0.58           -0.82   21698.84      21.70  MFI_Period_M1=2; MaxOrders=0; MaxOrdersPerType=0;
+             5 -21934.52        28032          0.60           -0.78   21991.35      21.99 MFI_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
+             3 -23817.06        30877          0.58           -0.77   23873.40      23.87  MFI_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
+             4 -23899.28        29526          0.58           -0.81   23955.62      23.95  MFI_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
+             2 -25154.96        31929          0.55           -0.79   25183.00      25.18  MFI_Period_M1=4; MaxOrders=0; MaxOrdersPerType=0;

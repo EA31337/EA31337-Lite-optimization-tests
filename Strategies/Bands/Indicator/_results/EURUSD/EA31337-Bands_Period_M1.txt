@@ -8,7 +8,16 @@
                              Symbol          EURUSD (Euro vs US Dollar)
                              Period          1 Minute (M1) 2018.01.01 23:40 - 2018.12.30 23:59 (2018.01.01 - 2018.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
-                             Initial deposit 10000.00
+                             Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            1 -26040.06        26280          0.50           -0.99   26057.99      26.05  Bands_Period_M1=2; MaxOrders=0; MaxOrdersPerType=0;
+            2 -26040.06        26280          0.50           -0.99   26057.99      26.05  Bands_Period_M1=4; MaxOrders=0; MaxOrdersPerType=0;
+            3 -26040.06        26280          0.50           -0.99   26057.99      26.05  Bands_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
+            4 -26040.06        26280          0.50           -0.99   26057.99      26.05  Bands_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
+            5 -26040.06        26280          0.50           -0.99   26057.99      26.05 Bands_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
+            6 -26040.06        26280          0.50           -0.99   26057.99      26.05 Bands_Period_M1=12; MaxOrders=0; MaxOrdersPerType=0;
+            7 -26040.06        26280          0.50           -0.99   26057.99      26.05 Bands_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
+            8 -26040.06        26280          0.50           -0.99   26057.99      26.05 Bands_Period_M1=16; MaxOrders=0; MaxOrdersPerType=0;
+            9 -26040.06        26280          0.50           -0.99   26057.99      26.05 Bands_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;

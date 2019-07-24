@@ -11,4 +11,24 @@
                             Initial deposit 10000.00
                             Spread          10
                                                                  [Optimization Graph]
-                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        7 -2524.26         8932          0.97           -0.28    8488.31      56.35  ADX_TrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+        5 -2686.14         8932          0.97           -0.30    8488.31      56.56   ADX_TrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+        6 -2686.14         8932          0.97           -0.30    8488.31      56.56  ADX_TrailingStopMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
+        8 -2686.14         8932          0.97           -0.30    8488.31      56.56 ADX_TrailingStopMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
+       19 -2750.03         8934          0.97           -0.31    8557.20      57.00  ADX_TrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+       20 -2750.03         8934          0.97           -0.31    8557.20      57.00 ADX_TrailingStopMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
+       14 -2763.60         8987          0.97           -0.31    8493.10      56.90 ADX_TrailingStopMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+        1 -2921.23         8943          0.97           -0.33    8621.98      57.99   ADX_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+        2 -2921.23         8943          0.97           -0.33    8621.98      57.99  ADX_TrailingStopMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+       13 -3111.15         8970          0.97           -0.35    8493.10      58.26  ADX_TrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+       15 -3276.55         8949          0.97           -0.37    8939.63      60.16  ADX_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+       16 -3276.55         8949          0.97           -0.37    8939.63      60.16 ADX_TrailingStopMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+       17 -3326.29         8945          0.97           -0.37    8927.13      60.33  ADX_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+       18 -3326.29         8945          0.97           -0.37    8927.13      60.33 ADX_TrailingStopMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
+        9 -3368.61         8965          0.97           -0.38    9005.40      60.73  ADX_TrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+       10 -3368.61         8965          0.97           -0.38    9005.40      60.73 ADX_TrailingStopMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+       11 -4457.93         8973          0.95           -0.50    8976.49      65.68  ADX_TrailingStopMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+       12 -4457.93         8973          0.95           -0.50    8976.49      65.68 ADX_TrailingStopMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
+        3 -5802.04        10193          0.94           -0.57    8927.05      68.77   ADX_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+        4 -5802.04        10193          0.94           -0.57    8927.05      68.77  ADX_TrailingStopMethod=-7; MaxOrders=0; MaxOrdersPerType=0;

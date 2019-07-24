@@ -11,20 +11,4 @@
                             Initial deposit 10000.00
                             Spread          10
                                                                  [Optimization Graph]
-     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       15  8595.25         6855          1.09            1.25    3069.23      25.61  WPR_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=0;
-       16  8072.48         6851          1.08            1.18    3069.23      25.61 WPR_TrailingStopMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
-        2  6910.12         6876          1.07            1.00    3903.29      31.95  WPR_TrailingStopMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-       14  6873.85         6869          1.07            1.00    3063.93      25.56 WPR_TrailingStopMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
-        1  6853.43         6889          1.07            0.99    3778.89      30.68   WPR_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-        9  6835.80         7107          1.07            0.96    3496.78      30.18  WPR_TrailingStopMethod=16; MaxOrders=0; MaxOrdersPerType=0;
-       13  6613.86         6871          1.06            0.96    3079.60      25.69  WPR_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-       10  6314.13         7095          1.06            0.89    3496.78      30.18 WPR_TrailingStopMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
-        5  6222.73         6850          1.06            0.91    3423.54      28.59  WPR_TrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=0;
-        6  5799.17         6824          1.06            0.85    3085.80      25.77 WPR_TrailingStopMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
-        7  3763.00         7108          1.04            0.53    3922.80      33.86  WPR_TrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=0;
-       12  3523.76         7003          1.03            0.50    4179.33      35.29 WPR_TrailingStopMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
-       11  3341.00         7013          1.03            0.48    3893.73      32.88  WPR_TrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=0;
-        8  3085.68         7087          1.03            0.44    4186.36      36.14 WPR_TrailingStopMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
-        4  2988.84         8515          1.03            0.35    3703.89      33.35   WPR_TrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=0;
-        3 -2750.41        17636          0.97           -0.16    4967.60      47.91   WPR_TrailingStopMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %

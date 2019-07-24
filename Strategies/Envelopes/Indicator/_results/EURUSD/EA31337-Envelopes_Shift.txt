@@ -8,12 +8,12 @@
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
           Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1 -1155.71          972          0.61           -1.19    1234.91      12.30 Envelopes_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
-             2 -1344.45         1085          0.60           -1.24    1420.35      14.15 Envelopes_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
-             5 -1790.90         1555          0.60           -1.15    1912.30      19.00 Envelopes_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
-             4 -1895.28         1388          0.56           -1.37    2005.78      19.93 Envelopes_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
-             3 -1910.24         1245          0.54           -1.53    2009.44      19.98 Envelopes_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+             1 -1215.69          546          0.84           -2.23    2174.65       2.17 Envelopes_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+             5 -1265.06         1345          0.93           -0.94    4839.88       4.71 Envelopes_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
+             3 -1849.04          983          0.87           -1.88    4084.67       4.02 Envelopes_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+             4 -1959.31         1161          0.88           -1.69    4893.88       4.78 Envelopes_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
+             2 -2312.80          776          0.80           -2.98    4187.86       4.14 Envelopes_Shift=1; MaxOrders=0; MaxOrdersPerType=0;

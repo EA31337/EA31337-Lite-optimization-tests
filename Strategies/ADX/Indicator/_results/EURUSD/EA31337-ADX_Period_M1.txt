@@ -8,7 +8,16 @@
                              Symbol          EURUSD (Euro vs US Dollar)
                              Period          1 Minute (M1) 2018.01.01 23:40 - 2018.12.30 23:59 (2018.01.01 - 2018.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
-                             Initial deposit 10000.00
+                             Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             9 -10200.40        10347          0.72           -0.99   10421.55      10.40 ADX_Period_M1=32; MaxOrders=0; MaxOrdersPerType=0;
+             8 -10550.46        11041          0.72           -0.96   10693.56      10.68 ADX_Period_M1=30; MaxOrders=0; MaxOrdersPerType=0;
+             7 -11252.20        11810          0.71           -0.95   11337.83      11.33 ADX_Period_M1=28; MaxOrders=0; MaxOrdersPerType=0;
+             6 -11889.08        12625          0.70           -0.94   11913.07      11.91 ADX_Period_M1=26; MaxOrders=0; MaxOrdersPerType=0;
+             5 -12987.93        13490          0.68           -0.96   13011.82      13.01 ADX_Period_M1=24; MaxOrders=0; MaxOrdersPerType=0;
+             4 -14105.59        14702          0.67           -0.96   14140.48      14.14 ADX_Period_M1=22; MaxOrders=0; MaxOrdersPerType=0;
+             3 -14319.13        15576          0.67           -0.92   14362.32      14.36 ADX_Period_M1=20; MaxOrders=0; MaxOrdersPerType=0;
+             2 -15320.16        16979          0.66           -0.90   15355.36      15.35 ADX_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;
+             1 -17430.82        18300          0.63           -0.95   17464.51      17.46 ADX_Period_M1=16; MaxOrders=0; MaxOrdersPerType=0;

@@ -8,8 +8,16 @@
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          15 Minutes (M15) 2018.01.03 01:00 - 2018.12.30 23:45 (2018.01.01 - 2018.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-            Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-               1 -5374.67         2344          0.80           -2.29    7019.60      61.70 MaxOrders=0; MaxOrdersPerType=0; LotSize=0.01;
+         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            1 -6638.79         6416          0.77           -1.03    7508.64       7.46  Bands_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
+            2 -6638.79         6416          0.77           -1.03    7508.64       7.46  Bands_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
+            3 -6638.79         6416          0.77           -1.03    7508.64       7.46  Bands_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
+            4 -6638.79         6416          0.77           -1.03    7508.64       7.46  Bands_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
+            5 -6638.79         6416          0.77           -1.03    7508.64       7.46 Bands_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
+            6 -6638.79         6416          0.77           -1.03    7508.64       7.46 Bands_Period_M15=12; MaxOrders=0; MaxOrdersPerType=0;
+            7 -6638.79         6416          0.77           -1.03    7508.64       7.46 Bands_Period_M15=14; MaxOrders=0; MaxOrdersPerType=0;
+            8 -6638.79         6416          0.77           -1.03    7508.64       7.46 Bands_Period_M15=16; MaxOrders=0; MaxOrdersPerType=0;
+            9 -6638.79         6416          0.77           -1.03    7508.64       7.46 Bands_Period_M15=18; MaxOrders=0; MaxOrdersPerType=0;

@@ -2,8 +2,8 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.076
-                                                            Tripleafx-FX-Demo (Build 1010)
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
@@ -11,11 +11,11 @@
                             Initial deposit 10000.00
                             Spread          10
                                                                  [Optimization Graph]
-      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         2    0.00            0          0.00            0.00       0.00       0.00 Fractals30_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
-         3    0.00            0          0.00            0.00       0.00       0.00 Fractals30_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-         6    0.00            0          0.00            0.00       0.00       0.00  Fractals30_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-         7    0.00            0          0.00            0.00       0.00       0.00  Fractals30_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-         5  -30.80          259          0.80           -0.12      43.04       0.43  Fractals30_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-         1 -136.71         1244          0.79           -0.11     154.83       1.55 Fractals30_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
-         4 -382.61         3952          0.79           -0.10     410.14       4.10  Fractals30_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        2     0.00            0          0.00            0.00       0.00       0.00 Fractals30_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+        6     0.00            0          0.00            0.00       0.00       0.00  Fractals30_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+        7     0.00            0          0.00            0.00       0.00       0.00  Fractals30_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+        1   -96.43          298          0.93           -0.32     369.56       3.63 Fractals30_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
+        5   -96.43          298          0.93           -0.32     369.56       3.63  Fractals30_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+        3 -1949.08         2308          0.83           -0.84    2130.70      21.06 Fractals30_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+        4 -1949.08         2308          0.83           -0.84    2130.70      21.06  Fractals30_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;

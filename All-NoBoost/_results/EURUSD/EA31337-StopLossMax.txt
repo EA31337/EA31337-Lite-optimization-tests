@@ -2,13 +2,18 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.076
-                                                            Tripleafx-FX-Demo (Build 1010)
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              3 -13890.49        19866          0.94           -0.70   19698.18      18.74 StopLossMax=40; MaxOrders=0; MaxOrdersPerType=0;
+              1 -19855.92        17421          0.92           -1.14   28084.91      26.28  StopLossMax=0; MaxOrders=0; MaxOrdersPerType=0;
+              2 -23472.18        27878          0.90           -0.84   29296.33      27.99 StopLossMax=20; MaxOrders=0; MaxOrdersPerType=0;
+              5 -26144.93        17676          0.90           -1.48   29636.41      28.96 StopLossMax=80; MaxOrders=0; MaxOrdersPerType=0;
+              4 -26456.95        18110          0.90           -1.46   30424.66      29.61 StopLossMax=60; MaxOrders=0; MaxOrdersPerType=0;
