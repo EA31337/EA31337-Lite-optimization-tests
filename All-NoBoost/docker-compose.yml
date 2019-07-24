@@ -1,35 +1,5 @@
 version: '3.4'
 services:
-  EURUSD_DefaultTrailingProfitMethod:
-    command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
-    volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
-    env_file: ../EA-Tester.ini
-    environment:
-      SET_PARAMS: DefaultTrailingProfitMethod
-      RUN_ON_SET: set_opt_params DefaultTrailingProfitMethod -27 27
-      SETFILE: /opt/sets/EA31337-DefaultTrailingProfitMethod.set
-      TEST_REPORT_NAME: EA31337-DefaultTrailingProfitMethod
-    deploy:
-      restart_policy:
-        condition: none
-  EURUSD_DefaultTrailingStopMethod:
-    command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
-    volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
-    env_file: ../EA-Tester.ini
-    environment:
-      SET_PARAMS: DefaultTrailingStopMethod
-      RUN_ON_SET: set_opt_params DefaultTrailingStopMethod -27 27
-      SETFILE: /opt/sets/EA31337-DefaultTrailingStopMethod.set
-      TEST_REPORT_NAME: EA31337-DefaultTrailingStopMethod
-    deploy:
-      restart_policy:
-        condition: none
   EURUSD_MinPipGap:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
