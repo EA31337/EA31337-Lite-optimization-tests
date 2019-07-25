@@ -1,3 +1,6 @@
+# Overridden params.
+LotSize=0
+Boosting_Enabled=0
 # Optimization params.
 Account_Conditions_Active=0
 Account_Conditions_Active,F=0

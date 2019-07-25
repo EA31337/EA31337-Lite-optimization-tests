@@ -6,8 +6,8 @@ CloseOrderAfterXHours=48
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Optimization params.
-TrailingStopAddPerMinute=0.1
-TrailingStopAddPerMinute,F=0
+TrailingStopAddPerMinute=0.3
+TrailingStopAddPerMinute,F=1
 TrailingStopAddPerMinute,1=0
 TrailingStopAddPerMinute,2=0
 TrailingStopAddPerMinute,3=0

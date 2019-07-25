@@ -2,49 +2,47 @@ version: '3.4'
 services:
   EURUSD_SmartQueueActive:
     command: run_backtest -v
-    build:
-      context: ..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: SmartQueueActive
       RUN_ON_SET: set_opt_params SmartQueueActive 0 1
-      SETFILE: /opt/sets/EURUSD/EA31337-SmartQueueActive.set
+      SETFILE: /opt/sets/EA31337-SmartQueueActive.set
       TEST_REPORT_NAME: EA31337-SmartQueueActive
-      BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_SmartQueueMethod:
     command: run_backtest -v
-    build:
-      context: ..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: SmartQueueMethod
       RUN_ON_SET: set_opt_params SmartQueueMethod 0 15
-      SETFILE: /opt/sets/EURUSD/EA31337-SmartQueueMethod.set
+      SETFILE: /opt/sets/EA31337-SmartQueueMethod.set
       TEST_REPORT_NAME: EA31337-SmartQueueMethod
-      BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_SmartQueueFilter:
     command: run_backtest -v
-    build:
-      context: ..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SET_PARAMS: SmartQueueFilter
-      RUN_ON_SET: set_opt_params SmartQueueFilter 0 255
-      SETFILE: /opt/sets/EURUSD/EA31337-SmartQueueFilter.set
+      RUN_ON_SET: set_opt_params SmartQueueFilter 0 255 1
+      SETFILE: /opt/sets/EA31337-SmartQueueFilter.set
       TEST_REPORT_NAME: EA31337-SmartQueueFilter
-      BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none

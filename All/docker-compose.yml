@@ -2,97 +2,90 @@ version: '3.4'
 services:
   EURUSD_CloseOrderAfterXHours:
     command: run_backtest -v
-    build:
-      context: ..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: CloseOrderAfterXHours
       RUN_ON_SET: set_opt_params CloseOrderAfterXHours 0 120 24
-      SETFILE: /opt/sets/EURUSD/EA31337-CloseOrderAfterXHours.set
+      SETFILE: /opt/sets/EA31337-CloseOrderAfterXHours.set
       TEST_REPORT_NAME: EA31337-CloseOrderAfterXHours
-      BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_InitNoOfOrdersToCalcPF:
     command: run_backtest -v
-    build:
-      context: ..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: InitNoOfOrdersToCalcPF
-      SETFILE: /opt/sets/EURUSD/EA31337-InitNoOfOrdersToCalcPF.set
+      SETFILE: /opt/sets/EA31337-InitNoOfOrdersToCalcPF.set
       TEST_REPORT_NAME: EA31337-InitNoOfOrdersToCalcPF
-      BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_LotSize:
     command: run_backtest -v
-    build:
-      context: ..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
-    - ../../EA-Tester/scripts:/opt/scripts
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: LotSize
       RUN_ON_SET: set_opt_params LotSize 0 0.01 0.01
-      SETFILE: /opt/sets/EURUSD/EA31337-LotSize.set
+      SETFILE: /opt/sets/EA31337-LotSize.set
       TEST_REPORT_NAME: EA31337-LotSize
-      BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_MaxOrders:
     command: run_backtest -v
-    build:
-      context: ..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: MaxOrders
       RUN_ON_SET: set_opt_params MaxOrders 0 40 5
-      SETFILE: /opt/sets/EURUSD/EA31337-MaxOrders.set
+      SETFILE: /opt/sets/EA31337-MaxOrders.set
       TEST_REPORT_NAME: EA31337-MaxOrders
-      BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_MaxOrdersPerType:
     command: run_backtest -v
-    build:
-      context: ..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: MaxOrdersPerType
       RUN_ON_SET: set_opt_params MaxOrdersPerType 0 20 2
-      SETFILE: /opt/sets/EURUSD/EA31337-MaxOrdersPerType.set
+      SETFILE: /opt/sets/EA31337-MaxOrdersPerType.set
       TEST_REPORT_NAME: EA31337-MaxOrdersPerType
-      BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none
   EURUSD_MinPipChangeToTrade:
     command: run_backtest -v
-    build:
-      context: ..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: MinPipChangeToTrade
       RUN_ON_SET: set_opt_params MinPipChangeToTrade $$(bc <<< "$$(input_get MinPipChangeToTrade) - 0.2") $$(bc <<< "$$(input_get MinPipChangeToTrade) + 0.2") 0.1
-      SETFILE: /opt/sets/EURUSD/EA31337-MinPipChangeToTrade.set
+      SETFILE: /opt/sets/EA31337-MinPipChangeToTrade.set
       TEST_REPORT_NAME: EA31337-MinPipChangeToTrade
-      BT_DEST: /opt/_results/EURUSD
+    deploy:
+      restart_policy:
+        condition: none

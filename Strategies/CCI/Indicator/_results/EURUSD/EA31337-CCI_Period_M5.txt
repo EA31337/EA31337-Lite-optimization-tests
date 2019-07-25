@@ -1,0 +1,23 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          5 Minutes (M5) 2018.01.02 07:20 - 2018.12.30 23:55 (2018.01.01 - 2018.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 10000.00
+                             Spread          10
+                                                                 [Optimization Graph]
+           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              5 943.13         1457          1.07            0.65    1207.33      10.44 CCI_Period_M5=22; MaxOrders=0; MaxOrdersPerType=0;
+              6 764.26         1438          1.06            0.53    1289.76      11.09 CCI_Period_M5=24; MaxOrders=0; MaxOrdersPerType=0;
+              8 742.52         1408          1.06            0.53    1273.54      10.95 CCI_Period_M5=28; MaxOrders=0; MaxOrdersPerType=0;
+              9 735.23         1390          1.06            0.53    1306.23      11.17 CCI_Period_M5=30; MaxOrders=0; MaxOrdersPerType=0;
+              4 638.57         1482          1.05            0.43    1107.03       9.81 CCI_Period_M5=20; MaxOrders=0; MaxOrdersPerType=0;
+              7 635.31         1416          1.05            0.45    1194.75      10.42 CCI_Period_M5=26; MaxOrders=0; MaxOrdersPerType=0;
+              1 561.60         1520          1.04            0.37    1036.90       9.24 CCI_Period_M5=14; MaxOrders=0; MaxOrdersPerType=0;
+              3 309.07         1490          1.02            0.21    1251.42      11.06 CCI_Period_M5=18; MaxOrders=0; MaxOrdersPerType=0;
+              2  81.98         1507          1.01            0.05    1358.40      12.10 CCI_Period_M5=16; MaxOrders=0; MaxOrdersPerType=0;

@@ -7,7 +7,7 @@ ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Optimization params.
 TrailingProfit=0
-TrailingProfit,F=0
+TrailingProfit,F=1
 TrailingProfit,1=0
 TrailingProfit,2=0
 TrailingProfit,3=0

@@ -1,0 +1,40 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       11  3550.29         9548          1.03            0.37    4259.11      41.51  AD_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+        1  3455.46        10050          1.03            0.34    4377.72      42.90   AD_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+       19  3353.14         9615          1.03            0.35    4446.75      43.57  AD_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+       21  2647.57         9566          1.02            0.28    4339.28      40.13  AD_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+       25  2340.03         9810          1.02            0.24    4245.04      38.64  AD_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+       10  1851.80        13216          1.02            0.14    5299.24      51.15  AD_TrailingProfitMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
+        6  1445.58        11239          1.01            0.13    4529.24      43.18   AD_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+       15   926.28         9554          1.01            0.10    4390.93      43.01  AD_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+       23   914.59         9514          1.01            0.10    4441.19      43.00  AD_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+       26  -216.53        10277          1.00           -0.02    4002.34      39.13 AD_TrailingProfitMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
+        4  -249.37        12875          1.00           -0.02    4963.92      40.94   AD_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+       24  -638.18        10423          0.99           -0.06    4668.88      41.23 AD_TrailingProfitMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
+       17  -771.80         9574          0.99           -0.08    4523.04      44.30  AD_TrailingProfitMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+       22  -932.33        10418          0.99           -0.09    4677.79      45.51 AD_TrailingProfitMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+       12 -1284.39        10007          0.99           -0.13    4866.09      46.72 AD_TrailingProfitMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
+       16 -1617.21        10244          0.99           -0.16    5055.51      46.98 AD_TrailingProfitMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+       20 -1857.39        10391          0.98           -0.18    5755.56      56.17 AD_TrailingProfitMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+        2 -2267.30        10381          0.98           -0.22    5446.41      52.24  AD_TrailingProfitMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+        8 -2279.66        13182          0.98           -0.17    5993.79      52.64   AD_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+        7 -2485.54        11848          0.98           -0.21    5381.66      51.64  AD_TrailingProfitMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
+        5 -3537.88        14266          0.97           -0.25    6156.76      59.23  AD_TrailingProfitMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+        3 -3787.57        17234          0.96           -0.22    5979.31      57.55   AD_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+        9 -3871.33        14260          0.96           -0.27    7892.48      67.23  AD_TrailingProfitMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
+       18 -4029.82        10381          0.96           -0.39    6251.86      59.81 AD_TrailingProfitMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
+       13 -4668.00        18228          0.96           -0.26    6009.37      58.60  AD_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+       14 -4869.39        19259          0.95           -0.25    7350.28      65.95 AD_TrailingProfitMethod=-13; MaxOrders=0; MaxOrdersPerType=0;

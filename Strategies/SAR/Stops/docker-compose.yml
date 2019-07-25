@@ -2,33 +2,33 @@ version: '3.4'
 services:
   SAR_TrailingStopMethod:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: SAR_TrailingStopMethod
-      RUN_ON_SET: set_opt_params SAR_TrailingStopMethod 1 -27 0
+      RUN_ON_SET: set_opt_params SAR_TrailingStopMethod 1 -25 0
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
-      SETFILE: /opt/sets/EURUSD/EA31337-SAR_TrailingStopMethod.set
+      SETFILE: /opt/sets/EA31337-SAR_TrailingStopMethod.set
       TEST_REPORT_NAME: EA31337-SAR_TrailingStopMethod
+    deploy:
+      restart_policy:
+        condition: none
   SAR_TrailingProfitMethod:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: SAR_TrailingProfitMethod
-      RUN_ON_SET: set_opt_params SAR_TrailingProfitMethod 1 -27 0
+      RUN_ON_SET: set_opt_params SAR_TrailingProfitMethod 1 -25 0
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
-      SETFILE: /opt/sets/EURUSD/EA31337-SAR_TrailingProfitMethod.set
+      SETFILE: /opt/sets/EA31337-SAR_TrailingProfitMethod.set
       TEST_REPORT_NAME: EA31337-SAR_TrailingProfitMethod
+    deploy:
+      restart_policy:
+        condition: none

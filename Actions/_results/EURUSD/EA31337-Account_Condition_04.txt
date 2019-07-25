@@ -1,0 +1,70 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 100000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+     Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       53 6943.31          264          2.06           26.30    2170.99       2.11 Account_Condition_4=17; Action_On_Condition_4=13; MaxOrders=0;
+       55 5441.64          433          1.45           12.57    4361.57       4.22 Account_Condition_4=19; Action_On_Condition_4=13; MaxOrders=0;
+       29 5121.54          435          1.45           11.77    4660.76       4.50  Account_Condition_4=17; Action_On_Condition_4=7; MaxOrders=0;
+        9 4837.84          283          1.83           17.09    2486.75       2.44  Account_Condition_4=17; Action_On_Condition_4=2; MaxOrders=0;
+       37 4740.70          516          1.29            9.19    6043.78       5.77  Account_Condition_4=17; Action_On_Condition_4=9; MaxOrders=0;
+        6 4706.94          425          1.36           11.08    7017.54       6.66  Account_Condition_4=18; Action_On_Condition_4=1; MaxOrders=0;
+       10 4706.94          425          1.36           11.08    7017.54       6.66  Account_Condition_4=18; Action_On_Condition_4=2; MaxOrders=0;
+       18 4706.94          425          1.36           11.08    7017.54       6.66  Account_Condition_4=18; Action_On_Condition_4=4; MaxOrders=0;
+       26 4706.94          425          1.36           11.08    7017.54       6.66  Account_Condition_4=18; Action_On_Condition_4=6; MaxOrders=0;
+       34 4706.94          425          1.36           11.08    7017.54       6.66  Account_Condition_4=18; Action_On_Condition_4=8; MaxOrders=0;
+       42 4706.94          425          1.36           11.08    7017.54       6.66 Account_Condition_4=18; Action_On_Condition_4=10; MaxOrders=0;
+       17 4692.06          233          2.10           20.14    1342.12       1.31  Account_Condition_4=17; Action_On_Condition_4=4; MaxOrders=0;
+        1 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=17; Action_On_Condition_4=0; MaxOrders=0;
+        2 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=18; Action_On_Condition_4=0; MaxOrders=0;
+        3 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=19; Action_On_Condition_4=0; MaxOrders=0;
+        4 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=20; Action_On_Condition_4=0; MaxOrders=0;
+        8 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=20; Action_On_Condition_4=1; MaxOrders=0;
+       12 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=20; Action_On_Condition_4=2; MaxOrders=0;
+       14 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=18; Action_On_Condition_4=3; MaxOrders=0;
+       16 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=20; Action_On_Condition_4=3; MaxOrders=0;
+       20 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=20; Action_On_Condition_4=4; MaxOrders=0;
+       22 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=18; Action_On_Condition_4=5; MaxOrders=0;
+       24 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=20; Action_On_Condition_4=5; MaxOrders=0;
+       28 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=20; Action_On_Condition_4=6; MaxOrders=0;
+       30 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=18; Action_On_Condition_4=7; MaxOrders=0;
+       32 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=20; Action_On_Condition_4=7; MaxOrders=0;
+       36 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=20; Action_On_Condition_4=8; MaxOrders=0;
+       38 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=18; Action_On_Condition_4=9; MaxOrders=0;
+       40 4541.71          425          1.35           10.69    7017.54       6.66  Account_Condition_4=20; Action_On_Condition_4=9; MaxOrders=0;
+       44 4541.71          425          1.35           10.69    7017.54       6.66 Account_Condition_4=20; Action_On_Condition_4=10; MaxOrders=0;
+       54 4541.71          425          1.35           10.69    7017.54       6.66 Account_Condition_4=18; Action_On_Condition_4=13; MaxOrders=0;
+       56 4541.71          425          1.35           10.69    7017.54       6.66 Account_Condition_4=20; Action_On_Condition_4=13; MaxOrders=0;
+       31 4519.12          416          1.35           10.86    7120.90       6.76  Account_Condition_4=19; Action_On_Condition_4=7; MaxOrders=0;
+       39 4513.52          416          1.35           10.85    7120.90       6.76  Account_Condition_4=19; Action_On_Condition_4=9; MaxOrders=0;
+       49 4316.01          434          1.32            9.94    7170.44       6.81 Account_Condition_4=17; Action_On_Condition_4=12; MaxOrders=0;
+       50 4275.68          430          1.32            9.94    7074.44       6.72 Account_Condition_4=18; Action_On_Condition_4=12; MaxOrders=0;
+       51 4263.05          428          1.32            9.96    7296.20       6.93 Account_Condition_4=19; Action_On_Condition_4=12; MaxOrders=0;
+       11 4259.25          273          1.72           15.60    2609.97       2.57  Account_Condition_4=19; Action_On_Condition_4=2; MaxOrders=0;
+        7 4219.65          279          1.74           15.12    2593.15       2.55  Account_Condition_4=19; Action_On_Condition_4=1; MaxOrders=0;
+       43 4190.98          285          1.77           14.71    2503.85       2.47 Account_Condition_4=19; Action_On_Condition_4=10; MaxOrders=0;
+       19 4172.06          291          1.71           14.34    2690.25       2.64  Account_Condition_4=19; Action_On_Condition_4=4; MaxOrders=0;
+       21 4154.19          275          1.84           15.11    1538.67       1.52  Account_Condition_4=17; Action_On_Condition_4=5; MaxOrders=0;
+       35 4119.55          285          1.73           14.45    2503.85       2.47  Account_Condition_4=19; Action_On_Condition_4=8; MaxOrders=0;
+       27 3998.55          285          1.70           14.03    2503.85       2.47  Account_Condition_4=19; Action_On_Condition_4=6; MaxOrders=0;
+       13 3983.19          277          1.81           14.38    1574.99       1.56  Account_Condition_4=17; Action_On_Condition_4=3; MaxOrders=0;
+       33 3610.07          388          1.38            9.30    5344.80       5.14  Account_Condition_4=17; Action_On_Condition_4=8; MaxOrders=0;
+       52 3395.83          432          1.24            7.86    7017.54       6.66 Account_Condition_4=20; Action_On_Condition_4=12; MaxOrders=0;
+       25 3381.29          370          1.41            9.14    4931.40       4.75  Account_Condition_4=17; Action_On_Condition_4=6; MaxOrders=0;
+        5 3349.32          377          1.37            8.88    3934.20       3.83  Account_Condition_4=17; Action_On_Condition_4=1; MaxOrders=0;
+       23 3265.99          481          1.30            6.79    2975.45       2.91  Account_Condition_4=19; Action_On_Condition_4=5; MaxOrders=0;
+       15 3262.50          481          1.30            6.78    2975.45       2.91  Account_Condition_4=19; Action_On_Condition_4=3; MaxOrders=0;
+       41 3016.85          257          1.73           11.74    1342.12       1.32 Account_Condition_4=17; Action_On_Condition_4=10; MaxOrders=0;
+       47 1503.01           62          3.95           24.24     662.99       0.66 Account_Condition_4=19; Action_On_Condition_4=11; MaxOrders=0;
+       48  279.53          395          1.03            0.71    7017.54       6.66 Account_Condition_4=20; Action_On_Condition_4=11; MaxOrders=0;
+       45  223.11           43          1.45            5.19     307.19       0.31 Account_Condition_4=17; Action_On_Condition_4=11; MaxOrders=0;
+       46 -774.17          380          0.92           -2.04    7017.54       6.66 Account_Condition_4=18; Action_On_Condition_4=11; MaxOrders=0;

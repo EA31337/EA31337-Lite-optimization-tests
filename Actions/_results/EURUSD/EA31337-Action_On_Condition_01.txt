@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 100000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         11 4919.37          288          1.67           17.08    2323.75       2.29 Action_On_Condition_1=10; MaxOrders=0; MaxOrdersPerType=0;
+          5 4912.87          288          1.67           17.06    2323.75       2.29  Action_On_Condition_1=4; MaxOrders=0; MaxOrdersPerType=0;
+          7 4912.87          288          1.67           17.06    2323.75       2.29  Action_On_Condition_1=6; MaxOrders=0; MaxOrdersPerType=0;
+          9 4912.87          288          1.67           17.06    2323.75       2.29  Action_On_Condition_1=8; MaxOrders=0; MaxOrdersPerType=0;
+          1 4541.71          425          1.35           10.69    7017.54       6.66  Action_On_Condition_1=0; MaxOrders=0; MaxOrdersPerType=0;
+          4 4280.88          602          1.26            7.11    5156.24       4.99  Action_On_Condition_1=3; MaxOrders=0; MaxOrdersPerType=0;
+          6 4210.34          606          1.25            6.95    5197.04       5.03  Action_On_Condition_1=5; MaxOrders=0; MaxOrdersPerType=0;
+          2 3494.81          423          1.26            8.26    7015.23       6.69  Action_On_Condition_1=1; MaxOrders=0; MaxOrdersPerType=0;
+          3 3494.81          423          1.26            8.26    7015.23       6.69  Action_On_Condition_1=2; MaxOrders=0; MaxOrdersPerType=0;
+          8 3460.21          549          1.19            6.30    6185.34       5.97  Action_On_Condition_1=7; MaxOrders=0; MaxOrdersPerType=0;
+         10 3449.78          549          1.19            6.28    6185.34       5.97  Action_On_Condition_1=9; MaxOrders=0; MaxOrdersPerType=0;

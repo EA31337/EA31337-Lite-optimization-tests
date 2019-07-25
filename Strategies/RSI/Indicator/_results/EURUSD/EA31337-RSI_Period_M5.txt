@@ -1,0 +1,23 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          5 Minutes (M5) 2018.01.02 07:20 - 2018.12.30 23:55 (2018.01.01 - 2018.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
+                                                                 [Optimization Graph]
+           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              1 1046.32         3647          1.05            0.29     984.95       0.97  RSI_Period_M5=2; MaxOrders=0; MaxOrdersPerType=0;
+              4  665.25          647          1.13            1.03     442.48       0.44  RSI_Period_M5=8; MaxOrders=0; MaxOrdersPerType=0;
+              5  496.98          352          1.18            1.41     445.84       0.44 RSI_Period_M5=10; MaxOrders=0; MaxOrdersPerType=0;
+              7  444.60           90          1.64            4.94     196.10       0.20 RSI_Period_M5=14; MaxOrders=0; MaxOrdersPerType=0;
+              6  427.72          172          1.29            2.49     426.31       0.42 RSI_Period_M5=12; MaxOrders=0; MaxOrdersPerType=0;
+              8  404.89           47          2.85            8.61     118.20       0.12 RSI_Period_M5=16; MaxOrders=0; MaxOrdersPerType=0;
+              2  358.42         2214          1.02            0.16    1131.50       1.12  RSI_Period_M5=4; MaxOrders=0; MaxOrdersPerType=0;
+              9  177.80           25          2.29            7.11      91.30       0.09 RSI_Period_M5=18; MaxOrders=0; MaxOrdersPerType=0;
+              3 -388.46         1199          0.96           -0.32     888.00       0.89  RSI_Period_M5=6; MaxOrders=0; MaxOrdersPerType=0;

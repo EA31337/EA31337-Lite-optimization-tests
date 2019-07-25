@@ -1,0 +1,31 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      16 -1411.98        10013          0.99           -0.14    7373.18      48.65  ADX_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+      17 -1881.05        10109          0.98           -0.19    7525.35      50.15 ADX_TrailingProfitMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
+       3 -3041.15        10025          0.97           -0.30    8296.79      57.46  ADX_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+       1 -3112.25        10056          0.97           -0.31    8044.45      55.22   ADX_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+      11 -3153.57        10223          0.97           -0.31    7551.65      55.04 ADX_TrailingProfitMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+       2 -3174.27        10161          0.97           -0.31    7751.03      54.56  ADX_TrailingProfitMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+       4 -3227.14        10174          0.97           -0.32    7578.02      55.56 ADX_TrailingProfitMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
+      14 -3716.08        10130          0.96           -0.37    8022.51      58.33  ADX_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+      12 -3805.26        10119          0.96           -0.38    7977.40      58.56  ADX_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+      15 -3857.06        10223          0.96           -0.38    7603.53      57.86 ADX_TrailingProfitMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
+      10 -3982.28        10145          0.96           -0.39    8091.44      59.20  ADX_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+       8 -4307.09        10243          0.96           -0.42    8543.64      62.33  ADX_TrailingProfitMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+       6 -4316.62        10220          0.96           -0.42    8808.12      64.53  ADX_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+       9 -4445.99        10316          0.95           -0.43    8720.06      64.59 ADX_TrailingProfitMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
+      13 -4485.92        10194          0.95           -0.44    8208.26      62.69 ADX_TrailingProfitMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+       7 -4773.30        10305          0.95           -0.46    8243.23      64.73 ADX_TrailingProfitMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+       5 -8677.40        15648          0.91           -0.55   10749.96      89.41 ADX_TrailingProfitMethod=-12; MaxOrders=0; MaxOrdersPerType=0;

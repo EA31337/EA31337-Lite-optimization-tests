@@ -2,15 +2,19 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.076
-                                                            Tripleafx-FX-Demo (Build 1010)
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-            Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-               1 -1191.76        43064          0.97           -0.03    1999.35      19.68 MinPipGap=10; MaxOrders=0; MaxOrdersPerType=0;
-               2 -1305.51        31143          0.95           -0.04    1611.19      15.90 MinPipGap=20; MaxOrders=0; MaxOrdersPerType=0;
+            Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+               6 -13890.49        19866          0.94           -0.70   19698.18      18.74 MinPipGap=10; MaxOrders=0; MaxOrdersPerType=0;
+               5 -18621.96        21347          0.93           -0.87   24271.91      23.13  MinPipGap=9; MaxOrders=0; MaxOrdersPerType=0;
+               4 -25551.55        23580          0.91           -1.08   32224.24      30.35  MinPipGap=8; MaxOrders=0; MaxOrdersPerType=0;
+               3 -31289.90        25369          0.91           -1.23   37923.11      35.85  MinPipGap=7; MaxOrders=0; MaxOrdersPerType=0;
+               2 -33077.90        27966          0.91           -1.18   41221.89      38.36  MinPipGap=6; MaxOrders=0; MaxOrdersPerType=0;
+               1 -43014.06        31633          0.90           -1.36   50970.57      47.58  MinPipGap=5; MaxOrders=0; MaxOrdersPerType=0;

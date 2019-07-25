@@ -2,65 +2,65 @@ version: '3.4'
 services:
   WPR1_SignalMethod:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: WPR1_SignalMethod
       RUN_ON_SET: set_opt_params WPR1_SignalMethod -63 63
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=15
-      SETFILE: /opt/sets/EURUSD/EA31337-WPR1_SignalMethod.set
+      SETFILE: /opt/sets/EA31337-WPR1_SignalMethod.set
       TEST_REPORT_NAME: EA31337-WPR1_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
   WPR5_SignalMethod:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: WPR5_SignalMethod
       RUN_ON_SET: set_opt_params WPR5_SignalMethod -63 63
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=15
-      SETFILE: /opt/sets/EURUSD/EA31337-WPR5_SignalMethod.set
+      SETFILE: /opt/sets/EA31337-WPR5_SignalMethod.set
       TEST_REPORT_NAME: EA31337-WPR5_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
   WPR15_SignalMethod:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: WPR15_SignalMethod
       RUN_ON_SET: set_opt_params WPR15_SignalMethod -63 63
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=15
-      SETFILE: /opt/sets/EURUSD/EA31337-WPR15_SignalMethod.set
+      SETFILE: /opt/sets/EA31337-WPR15_SignalMethod.set
       TEST_REPORT_NAME: EA31337-WPR15_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none
   WPR30_SignalMethod:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: WPR30_SignalMethod
       RUN_ON_SET: set_opt_params WPR30_SignalMethod -63 63
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=15
-      SETFILE: /opt/sets/EURUSD/EA31337-WPR30_SignalMethod.set
+      SETFILE: /opt/sets/EA31337-WPR30_SignalMethod.set
       TEST_REPORT_NAME: EA31337-WPR30_SignalMethod
+    deploy:
+      restart_policy:
+        condition: none

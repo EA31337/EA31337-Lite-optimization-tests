@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 100000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+        Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          10 -22518.01        32875          0.81           -0.68   22804.51      22.80 MFI_SignalLevel=0.9; MaxOrders=0; MaxOrdersPerType=0;
+           8 -22636.89        33227          0.80           -0.68   22921.19      22.92 MFI_SignalLevel=0.7; MaxOrders=0; MaxOrdersPerType=0;
+           9 -22646.80        32987          0.80           -0.69   22933.30      22.93 MFI_SignalLevel=0.8; MaxOrders=0; MaxOrdersPerType=0;
+           7 -22665.10        33398          0.80           -0.68   22955.92      22.95 MFI_SignalLevel=0.6; MaxOrders=0; MaxOrdersPerType=0;
+           6 -23009.26        33589          0.80           -0.69   23295.76      23.29 MFI_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=0;
+          11 -23201.55        32665          0.80           -0.71   23488.05      23.49   MFI_SignalLevel=1; MaxOrders=0; MaxOrdersPerType=0;
+           5 -23835.77        33838          0.80           -0.70   24253.59      24.25 MFI_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
+           1 -24335.48        34667          0.79           -0.70   24749.58      24.75   MFI_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
+           2 -24437.99        34479          0.79           -0.71   24842.79      24.84 MFI_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
+           4 -24689.49        34009          0.79           -0.73   25095.29      25.09 MFI_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
+           3 -25032.33        34308          0.79           -0.73   25420.33      25.42 MFI_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;

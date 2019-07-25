@@ -1,0 +1,28 @@
+version: '3.4'
+services:
+  # Test which optimized actions should be enabled.
+  Action_On_Condition_All:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      BT_MONTHS: 1-4
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=18
+      SET_PARAMS: Action_On_Condition_1,Action_On_Condition_2,Action_On_Condition_3,Action_On_Condition_4,Action_On_Condition_5
+      RUN_ON_SET: |
+                  action01=$$(input_get Action_On_Condition_1 /opt/sets/EA31337-Action_On_Condition_01.set);
+                  action02=$$(input_get Action_On_Condition_2 /opt/sets/EA31337-Action_On_Condition_02.set);
+                  action03=$$(input_get Action_On_Condition_3 /opt/sets/EA31337-Action_On_Condition_03.set);
+                  action04=$$(input_get Action_On_Condition_4 /opt/sets/EA31337-Action_On_Condition_04.set);
+                  set_opt_params Action_On_Condition_1 0 $$action01 $$action01;
+                  set_opt_params Action_On_Condition_2 0 $$action02 $$action02;
+                  set_opt_params Action_On_Condition_3 0 $$action03 $$action03;
+                  set_opt_params Action_On_Condition_4 0 $$action04 $$action04;
+      SETFILE: /opt/sets/EA31337-Action_On_Condition_All.set
+      TEST_REPORT_NAME: EA31337-Action_On_Condition_All
+    deploy:
+      restart_policy:
+        condition: none
