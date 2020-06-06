@@ -60,7 +60,7 @@ services:
     environment:
       SET_PARAMS: ConFactorOrdersLimit
       INCLUDE: /opt/rules/All-Boosting/All-ConFactorOrdersLimit.rule
-# @todo: Set minimum start to 0.
+      # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params ConFactorOrdersLimit $$(bc <<< "$$(input_get ConFactorOrdersLimit) - 100 * 10") $$(bc <<< "$$(input_get ConFactorOrdersLimit) + 100 * 10") 100
       SETFILE: /opt/sets/EA31337-ConFactorOrdersLimit.set
       TEST_REPORT_NAME: EA31337-ConFactorOrdersLimit
@@ -73,7 +73,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: BestDailyStrategyMultiplierFactor
-# @todo: Set minimum start to 0.
+      # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params BestDailyStrategyMultiplierFactor $$(bc <<< "$$(input_get BestDailyStrategyMultiplierFactor) - 0.1 * 5") $$(bc <<< "$$(input_get BestDailyStrategyMultiplierFactor) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-BestDailyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-BestDailyStrategyMultiplierFactor
@@ -86,7 +86,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: BestMonthlyStrategyMultiplierFactor
-# @todo: Set minimum start to 0.
+      # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params BestMonthlyStrategyMultiplierFactor $$(bc <<< "$$(input_get BestMonthlyStrategyMultiplierFactor) - 0.1 * 5") $$(bc <<< "$$(input_get BestMonthlyStrategyMultiplierFactor) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-BestMonthlyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-BestMonthlyStrategyMultiplierFactor
@@ -99,7 +99,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: BestWeeklyStrategyMultiplierFactor
-# @todo: Set minimum start to 0.
+      # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params BestWeeklyStrategyMultiplierFactor $$(bc <<< "$$(input_get BestWeeklyStrategyMultiplierFactor) - 0.1 * 5") $$(bc <<< "$$(input_get BestWeeklyStrategyMultiplierFactor) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-BestWeeklyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-BestWeeklyStrategyMultiplierFactor
@@ -112,7 +112,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: WorseDailyStrategyMultiplierFactor
-# @todo: Set minimum start to 0.
+      # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params WorseDailyStrategyMultiplierFactor $$(bc <<< "$$(input_get WorseDailyStrategyMultiplierFactor) - 0.1 * 10") $$(bc <<< "$$(input_get WorseDailyStrategyMultiplierFactor) + 0.1 * 10") 0.1
       SETFILE: /opt/sets/EA31337-WorseDailyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-WorseDailyStrategyMultiplierFactor
@@ -125,7 +125,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: WorseMonthlyStrategyMultiplierFactor
-# @todo: Set minimum start to 0.
+      # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params WorseMonthlyStrategyMultiplierFactor $$(bc <<< "$$(input_get WorseMonthlyStrategyMultiplierFactor) - 0.1 * 10") $$(bc <<< "$$(input_get WorseMonthlyStrategyMultiplierFactor) + 0.1 * 10") 0.1
       SETFILE: /opt/sets/EA31337-WorseMonthlyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-WorseMonthlyStrategyMultiplierFactor
@@ -138,7 +138,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: WorseWeeklyStrategyMultiplierFactor
-# @todo: Set minimum start to 0.
+      # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params WorseWeeklyStrategyMultiplierFactor $$(bc <<< "$$(input_get WorseWeeklyStrategyMultiplierFactor) - 0.1 * 10") $$(bc <<< "$$(input_get WorseWeeklyStrategyMultiplierFactor) + 0.1 * 10") 0.1
       SETFILE: /opt/sets/EA31337-WorseWeeklyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-WorseWeeklyStrategyMultiplierFactor

@@ -57,7 +57,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-#     BT_MONTHS: 1-2
+      # BT_MONTHS: 1-2
       BT_PERIOD: M1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SETFILE: /opt/sets/EA31337-Bands_Period_M1.set
@@ -72,7 +72,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-#     BT_MONTHS: 1-2
+      # BT_MONTHS: 1-2
       BT_PERIOD: M5
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SET_PARAMS: Bands_Period_M5
@@ -87,7 +87,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-#     BT_MONTHS: 1-2
+      # BT_MONTHS: 1-2
       BT_PERIOD: M15
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SET_PARAMS: Bands_Period_M15
@@ -102,7 +102,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-#     BT_MONTHS: 1-2
+      # BT_MONTHS: 1-2
       BT_PERIOD: M30
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SET_PARAMS: Bands_Period_M30

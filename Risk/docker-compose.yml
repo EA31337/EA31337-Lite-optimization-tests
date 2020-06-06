@@ -34,7 +34,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: RiskMarginTotal
-# @todo: Set minimum start to 0.
+      # @todo: Set minimum start to 0.
       RUN_ON_SET: set_opt_params RiskMarginTotal 5 12
       SETFILE: /opt/sets/EA31337-RiskMarginTotal.set
       TEST_REPORT_NAME: EA31337-RiskMarginTotal

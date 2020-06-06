@@ -14,7 +14,7 @@ services:
       SET_PARAMS: WPR_Period_M1
       SETFILE: /opt/sets/EA31337-WPR_Period_M1.set
       RUN_ON_SET: set_opt_params WPR_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M1) - 1 * 8")) $$(bc <<< "$$(input_get WPR_Period_M1) + 1 * 8") 1
-#     RUN_ON_SUCCESS: input_copy WPR_Period_M1 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
+      # RUN_ON_SUCCESS: input_copy WPR_Period_M1 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_Period_M1
   WPR_Period_M5:
     command: run_backtest -v
@@ -28,7 +28,7 @@ services:
       SET_PARAMS: WPR_Period_M5
       SETFILE: /opt/sets/EA31337-WPR_Period_M5.set
       RUN_ON_SET: set_opt_params WPR_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M5) - 1 * 4")) $$(bc <<< "$$(input_get WPR_Period_M5) + 1 * 4") 1
-#     RUN_ON_SUCCESS: input_copy WPR_Period_M5 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
+      # RUN_ON_SUCCESS: input_copy WPR_Period_M5 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_Period_M5
   WPR_Period_M15:
     command: run_backtest -v
@@ -42,7 +42,7 @@ services:
       SET_PARAMS: WPR_Period_M15
       SETFILE: /opt/sets/EA31337-WPR_Period_M15.set
       RUN_ON_SET: set_opt_params WPR_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M15) - 1 * 4")) $$(bc <<< "$$(input_get WPR_Period_M15) + 1 * 4") 1
-#     RUN_ON_SUCCESS: input_copy WPR_Period_M15 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
+      # RUN_ON_SUCCESS: input_copy WPR_Period_M15 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_Period_M15
   WPR_Period_M30:
     command: run_backtest -v
@@ -56,7 +56,7 @@ services:
       SET_PARAMS: WPR_Period_M30
       SETFILE: /opt/sets/EA31337-WPR_Period_M30.set
       RUN_ON_SET: set_opt_params WPR_Period_M30 $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M30) - 2 * 4")) $$(bc <<< "$$(input_get WPR_Period_M30) + 2 * 4") 2
-#     RUN_ON_SUCCESS: input_copy WPR_Period_M30 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
+      # RUN_ON_SUCCESS: input_copy WPR_Period_M30 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_Period_M30
   WPR_SignalLevel:
     command: run_backtest -v
