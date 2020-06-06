@@ -96,7 +96,7 @@ services:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
     environment:
-      SET_PARAMS: Force_SignalLevel 
+      SET_PARAMS: Force_SignalLevel
       RUN_ON_SET: set_opt_params Force_SignalLevel $$(bc <<< "$$(input_get Force_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get Force_SignalLevel) + 0.1 * 2") 0.1
       SETFILE: /opt/sets/EA31337-Force_SignalLevel.set
       TEST_REPORT_NAME: EA31337-Force_SignalLevel

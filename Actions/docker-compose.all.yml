@@ -1,3 +1,5 @@
+# yamllint disable rule:line-length
+---
 version: '3.4'
 services:
   # Test which optimized actions should be enabled.
@@ -5,8 +7,8 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       BT_MONTHS: 1-4
