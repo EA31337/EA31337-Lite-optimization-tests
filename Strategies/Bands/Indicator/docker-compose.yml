@@ -1,3 +1,4 @@
+---
 version: '3.4'
 services:
   Bands_Deviation_M1:
@@ -12,9 +13,6 @@ services:
       RUN_ON_SET: set_opt_params Bands_Deviation_M1 $$(bc <<< "$$(input_get Bands_Deviation_M1) - 0.1 * 5") $$(bc <<< "$$(input_get Bands_Deviation_M1) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M1.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M1
-    deploy:
-      restart_policy:
-        condition: none
   Bands_Deviation_M5:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -27,9 +25,6 @@ services:
       RUN_ON_SET: set_opt_params Bands_Deviation_M5 $$(bc <<< "$$(input_get Bands_Deviation_M5) - 0.1 * 5") $$(bc <<< "$$(input_get Bands_Deviation_M5) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M5.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M5
-    deploy:
-      restart_policy:
-        condition: none
   Bands_Deviation_M15:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -42,9 +37,6 @@ services:
       RUN_ON_SET: set_opt_params Bands_Deviation_M15 $$(bc <<< "$$(input_get Bands_Deviation_M15) - 0.1 * 5") $$(bc <<< "$$(input_get Bands_Deviation_M15) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M15.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M15
-    deploy:
-      restart_policy:
-        condition: none
   Bands_Deviation_M30:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -57,9 +49,6 @@ services:
       RUN_ON_SET: set_opt_params Bands_Deviation_M30 $$(bc <<< "$$(input_get Bands_Deviation_M30) - 0.1 * 5") $$(bc <<< "$$(input_get Bands_Deviation_M30) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M30.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M30
-    deploy:
-      restart_policy:
-        condition: none
   Bands_Period_M1:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -75,9 +64,6 @@ services:
       SET_PARAMS: Bands_Period_M1
       RUN_ON_SET: set_opt_params Bands_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M1) - 2 * 8")) $$(bc <<< "$$(input_get Bands_Period_M1) + 2 * 8") 2
       TEST_REPORT_NAME: EA31337-Bands_Period_M1
-    deploy:
-      restart_policy:
-        condition: none
   Bands_Period_M5:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -93,9 +79,6 @@ services:
       SETFILE: /opt/sets/EA31337-Bands_Period_M5.set
       RUN_ON_SET: set_opt_params Bands_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M5) - 2 * 8")) $$(bc <<< "$$(input_get Bands_Period_M5) + 2 * 8") 2
       TEST_REPORT_NAME: EA31337-Bands_Period_M5
-    deploy:
-      restart_policy:
-        condition: none
   Bands_Period_M15:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -111,9 +94,6 @@ services:
       SETFILE: /opt/sets/EA31337-Bands_Period_M15.set
       RUN_ON_SET: set_opt_params Bands_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M15) - 2 * 8")) $$(bc <<< "$$(input_get Bands_Period_M15) + 2 * 8") 2
       TEST_REPORT_NAME: EA31337-Bands_Period_M15
-    deploy:
-      restart_policy:
-        condition: none
   Bands_Period_M30:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -129,9 +109,6 @@ services:
       SETFILE: /opt/sets/EA31337-Bands_Period_M30.set
       RUN_ON_SET: set_opt_params Bands_Period_M30 $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M30) - 2 * 4")) $$(bc <<< "$$(input_get Bands_Period_M30) + 2 * 4") 2
       TEST_REPORT_NAME: EA31337-Bands_Period_M30
-    deploy:
-      restart_policy:
-        condition: none
   Bands_Applied_Price:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -144,9 +121,6 @@ services:
       RUN_ON_SET: set_opt_params Bands_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-Bands_Applied_Price.set
       TEST_REPORT_NAME: EA31337-Bands_Applied_Price
-    deploy:
-      restart_policy:
-        condition: none
   Bands_HShift:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -159,9 +133,6 @@ services:
       RUN_ON_SET: set_opt_params Bands_HShift $$(get_max 0 $$(bc <<< "$$(input_get Bands_HShift) - 1 * 2")) $$(bc <<< "$$(input_get Bands_HShift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-Bands_HShift.set
       TEST_REPORT_NAME: EA31337-Bands_HShift
-    deploy:
-      restart_policy:
-        condition: none
   Bands_SignalLevel:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -174,9 +145,6 @@ services:
       RUN_ON_SET: set_opt_params Bands_SignalLevel $$(bc <<< "$$(input_get Bands_SignalLevel) - 0.1 * 5") $$(bc <<< "$$(input_get Bands_SignalLevel) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-Bands_SignalLevel.set
       TEST_REPORT_NAME: EA31337-Bands_SignalLevel
-    deploy:
-      restart_policy:
-        condition: none
   Bands_Shift:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -189,6 +157,3 @@ services:
       RUN_ON_SET: set_opt_params Bands_Shift $$(get_max 0 $$(bc <<< "$$(input_get Bands_Shift) - 1 * 2")) $$(bc <<< "$$(input_get Bands_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-Bands_Shift.set
       TEST_REPORT_NAME: EA31337-Bands_Shift
-    deploy:
-      restart_policy:
-        condition: none

@@ -1,3 +1,4 @@
+---
 version: '3.4'
 services:
   DeMarker1_SignalMethod:
@@ -13,9 +14,6 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
       SETFILE: /opt/sets/EA31337-DeMarker1_SignalMethod.set
       TEST_REPORT_NAME: EA31337-DeMarker1_SignalMethod
-    deploy:
-      restart_policy:
-        condition: none
   DeMarker5_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -28,9 +26,6 @@ services:
       RUN_ON_SET: set_opt_params DeMarker5_SignalMethod -31 31
       SETFILE: /opt/sets/EA31337-DeMarker5_SignalMethod.set
       TEST_REPORT_NAME: EA31337-DeMarker5_SignalMethod
-    deploy:
-      restart_policy:
-        condition: none
   DeMarker15_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -43,9 +38,6 @@ services:
       RUN_ON_SET: set_opt_params DeMarker15_SignalMethod -31 31
       SETFILE: /opt/sets/EA31337-DeMarker15_SignalMethod.set
       TEST_REPORT_NAME: EA31337-DeMarker15_SignalMethod
-    deploy:
-      restart_policy:
-        condition: none
   DeMarker30_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -58,6 +50,3 @@ services:
       RUN_ON_SET: set_opt_params DeMarker30_SignalMethod -31 31
       SETFILE: /opt/sets/EA31337-DeMarker30_SignalMethod.set
       TEST_REPORT_NAME: EA31337-DeMarker30_SignalMethod
-    deploy:
-      restart_policy:
-        condition: none

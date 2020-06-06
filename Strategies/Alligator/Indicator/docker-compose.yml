@@ -1,3 +1,4 @@
+---
 version: '3.4'
 services:
   Alligator_Periods:
@@ -12,9 +13,6 @@ services:
       RUN_ON_SET: for p in Jaw Teeth Lips; do set_opt_params "Alligator_Period_$${p}" $$(bc <<< "$$(input_get Alligator_Period_$${p}) - 8") $$(bc <<< "$$(input_get Alligator_Period_$${p}) + 8") 4; done
       SETFILE: /opt/sets/EA31337-Alligator_Periods.set
       TEST_REPORT_NAME: EA31337-Alligator_Periods
-    deploy:
-      restart_policy:
-        condition: none
   Alligator_Applied_Price:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -27,9 +25,6 @@ services:
       RUN_ON_SET: set_opt_params Alligator_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-Alligator_Applied_Price.set
       TEST_REPORT_NAME: EA31337-Alligator_Applied_Price
-    deploy:
-      restart_policy:
-        condition: none
   Alligator_SignalLevel:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -42,9 +37,6 @@ services:
       RUN_ON_SET: set_opt_params Alligator_SignalLevel $$(bc <<< "$$(input_get Alligator_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get Alligator_SignalLevel) + 0.1 * 2") 0.1
       SETFILE: /opt/sets/EA31337-Alligator_SignalLevel.set
       TEST_REPORT_NAME: EA31337-Alligator_SignalLevel
-    deploy:
-      restart_policy:
-        condition: none
   Alligator_Shift:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -58,6 +50,3 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=1
       SETFILE: /opt/sets/EA31337-Alligator_Shift.set
       TEST_REPORT_NAME: EA31337-Alligator_Shift
-    deploy:
-      restart_policy:
-        condition: none

@@ -1,3 +1,4 @@
+---
 version: '3.4'
 services:
   WPR_Period_M1:
@@ -15,9 +16,6 @@ services:
       RUN_ON_SET: set_opt_params WPR_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M1) - 1 * 8")) $$(bc <<< "$$(input_get WPR_Period_M1) + 1 * 8") 1
 #     RUN_ON_SUCCESS: input_copy WPR_Period_M1 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_Period_M1
-    deploy:
-      restart_policy:
-        condition: none
   WPR_Period_M5:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -32,9 +30,6 @@ services:
       RUN_ON_SET: set_opt_params WPR_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M5) - 1 * 4")) $$(bc <<< "$$(input_get WPR_Period_M5) + 1 * 4") 1
 #     RUN_ON_SUCCESS: input_copy WPR_Period_M5 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_Period_M5
-    deploy:
-      restart_policy:
-        condition: none
   WPR_Period_M15:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -49,9 +44,6 @@ services:
       RUN_ON_SET: set_opt_params WPR_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M15) - 1 * 4")) $$(bc <<< "$$(input_get WPR_Period_M15) + 1 * 4") 1
 #     RUN_ON_SUCCESS: input_copy WPR_Period_M15 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_Period_M15
-    deploy:
-      restart_policy:
-        condition: none
   WPR_Period_M30:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -66,9 +58,6 @@ services:
       RUN_ON_SET: set_opt_params WPR_Period_M30 $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M30) - 2 * 4")) $$(bc <<< "$$(input_get WPR_Period_M30) + 2 * 4") 2
 #     RUN_ON_SUCCESS: input_copy WPR_Period_M30 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_Period_M30
-    deploy:
-      restart_policy:
-        condition: none
   WPR_SignalLevel:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -80,9 +69,6 @@ services:
       RUN_ON_SET: set_opt_params WPR_SignalLevel $$(bc <<< "$$(input_get WPR_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get WPR_SignalLevel) + 0.1 * 2") 0.1
       SETFILE: /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_SignalLevel
-    deploy:
-      restart_policy:
-        condition: none
   WPR_Shift:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -94,6 +80,3 @@ services:
       RUN_ON_SET: set_opt_params WPR_Shift $$(bc <<< "$$(input_get WPR_Shift) - 1 * 2") $$(bc <<< "$$(input_get WPR_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-WPR_Shift.set
       TEST_REPORT_NAME: EA31337-WPR_Shift
-    deploy:
-      restart_policy:
-        condition: none

@@ -1,3 +1,4 @@
+---
 version: '3.4'
 services:
   Fractals_Shift:
@@ -12,6 +13,3 @@ services:
       RUN_ON_SET: set_opt_params Fractals_Shift $$(bc <<< "$$(input_get Fractals_Shift) - 1 * 2") $$(bc <<< "$$(input_get Fractals_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-Fractals_Shift.set
       TEST_REPORT_NAME: EA31337-Fractals_Shift
-    deploy:
-      restart_policy:
-        condition: none

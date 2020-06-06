@@ -1,3 +1,4 @@
+---
 version: '3.4'
 services:
   MFI_Period_M1:
@@ -13,9 +14,6 @@ services:
       SET_PARAMS: MFI_Period_M1
       RUN_ON_SET: set_opt_params MFI_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get MFI_Period_M1) - 2 * 4")) $$(bc <<< "$$(input_get MFI_Period_M1) + 2 * 4") 2
       TEST_REPORT_NAME: EA31337-MFI_Period_M1
-    deploy:
-      restart_policy:
-        condition: none
   MFI_Period_M5:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -29,9 +27,6 @@ services:
       SETFILE: /opt/sets/EA31337-MFI_Period_M5.set
       RUN_ON_SET: set_opt_params MFI_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get MFI_Period_M5) - 2 * 4")) $$(bc <<< "$$(input_get MFI_Period_M5) + 2 * 4") 2
       TEST_REPORT_NAME: EA31337-MFI_Period_M5
-    deploy:
-      restart_policy:
-        condition: none
   MFI_Period_M15:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -45,9 +40,6 @@ services:
       SETFILE: /opt/sets/EA31337-MFI_Period_M15.set
       RUN_ON_SET: set_opt_params MFI_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get MFI_Period_M15) - 2 * 4")) $$(bc <<< "$$(input_get MFI_Period_M15) + 2 * 4") 2
       TEST_REPORT_NAME: EA31337-MFI_Period_M15
-    deploy:
-      restart_policy:
-        condition: none
   MFI_Period_M30:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -61,9 +53,6 @@ services:
       SETFILE: /opt/sets/EA31337-MFI_Period_M30.set
       RUN_ON_SET: set_opt_params MFI_Period_M30 $$(get_max 2 $$(bc <<< "$$(input_get MFI_Period_M30) - 2 * 4")) $$(bc <<< "$$(input_get MFI_Period_M30) + 2 * 4") 2
       TEST_REPORT_NAME: EA31337-MFI_Period_M30
-    deploy:
-      restart_policy:
-        condition: none
   MFI_SignalLevel:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -76,9 +65,6 @@ services:
       RUN_ON_SET: set_opt_params MFI_SignalLevel $$(bc <<< "$$(input_get MFI_SignalLevel) - 0.1 * 5") $$(bc <<< "$$(input_get MFI_SignalLevel) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-MFI_SignalLevel.set
       TEST_REPORT_NAME: EA31337-MFI_SignalLevel
-    deploy:
-      restart_policy:
-        condition: none
   MFI_Shift:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -91,6 +77,3 @@ services:
       RUN_ON_SET: set_opt_params MFI_Shift $$(bc <<< "$$(input_get MFI_Shift) - 1 * 2") $$(bc <<< "$$(input_get MFI_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-MFI_Shift.set
       TEST_REPORT_NAME: EA31337-MFI_Shift
-    deploy:
-      restart_policy:
-        condition: none

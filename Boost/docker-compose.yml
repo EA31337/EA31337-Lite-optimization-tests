@@ -1,3 +1,4 @@
+---
 version: '3.4'
 services:
   Boosting_Enabled:
@@ -12,9 +13,6 @@ services:
       RUN_ON_SET: set_opt_params Boosting_Enabled 0 1
       SETFILE: /opt/sets/EA31337-Boosting_Enabled.set
       TEST_REPORT_NAME: EA31337-Boosting_Enabled
-    deploy:
-      restart_policy:
-        condition: none
   BoostTrendFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -28,9 +26,6 @@ services:
       RUN_ON_SET: set_opt_params BoostTrendFactor $$(bc <<< "$$(input_get BoostTrendFactor) - 0.1 * 2") $$(bc <<< "$$(input_get BoostTrendFactor) + 0.1 * 2") 0.1
       SETFILE: /opt/sets/EA31337-BoostTrendFactor.set
       TEST_REPORT_NAME: EA31337-BoostTrendFactor
-    deploy:
-      restart_policy:
-        condition: none
   ConWinsIncreaseFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -43,9 +38,6 @@ services:
       RUN_ON_SET: set_opt_params ConWinsIncreaseFactor $$(bc <<< "$$(input_get ConWinsIncreaseFactor) - 0.1 * 5") $$(bc <<< "$$(input_get ConWinsIncreaseFactor) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-ConWinsIncreaseFactor.set
       TEST_REPORT_NAME: EA31337-ConWinsIncreaseFactor
-    deploy:
-      restart_policy:
-        condition: none
   ConLossesIncreaseFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -58,9 +50,6 @@ services:
       RUN_ON_SET: set_opt_params ConLossesIncreaseFactor $$(bc <<< "$$(input_get ConLossesIncreaseFactor) - 0.1 * 5") $$(bc <<< "$$(input_get ConLossesIncreaseFactor) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-ConLossesIncreaseFactor.set
       TEST_REPORT_NAME: EA31337-ConLossesIncreaseFactor
-    deploy:
-      restart_policy:
-        condition: none
   ConFactorOrdersLimit:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -75,9 +64,6 @@ services:
       RUN_ON_SET: set_opt_params ConFactorOrdersLimit $$(bc <<< "$$(input_get ConFactorOrdersLimit) - 100 * 10") $$(bc <<< "$$(input_get ConFactorOrdersLimit) + 100 * 10") 100
       SETFILE: /opt/sets/EA31337-ConFactorOrdersLimit.set
       TEST_REPORT_NAME: EA31337-ConFactorOrdersLimit
-    deploy:
-      restart_policy:
-        condition: none
   BestDailyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -91,9 +77,6 @@ services:
       RUN_ON_SET: set_opt_params BestDailyStrategyMultiplierFactor $$(bc <<< "$$(input_get BestDailyStrategyMultiplierFactor) - 0.1 * 5") $$(bc <<< "$$(input_get BestDailyStrategyMultiplierFactor) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-BestDailyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-BestDailyStrategyMultiplierFactor
-    deploy:
-      restart_policy:
-        condition: none
   BestMonthlyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -107,9 +90,6 @@ services:
       RUN_ON_SET: set_opt_params BestMonthlyStrategyMultiplierFactor $$(bc <<< "$$(input_get BestMonthlyStrategyMultiplierFactor) - 0.1 * 5") $$(bc <<< "$$(input_get BestMonthlyStrategyMultiplierFactor) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-BestMonthlyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-BestMonthlyStrategyMultiplierFactor
-    deploy:
-      restart_policy:
-        condition: none
   BestWeeklyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -123,9 +103,6 @@ services:
       RUN_ON_SET: set_opt_params BestWeeklyStrategyMultiplierFactor $$(bc <<< "$$(input_get BestWeeklyStrategyMultiplierFactor) - 0.1 * 5") $$(bc <<< "$$(input_get BestWeeklyStrategyMultiplierFactor) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-BestWeeklyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-BestWeeklyStrategyMultiplierFactor
-    deploy:
-      restart_policy:
-        condition: none
   WorseDailyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -139,9 +116,6 @@ services:
       RUN_ON_SET: set_opt_params WorseDailyStrategyMultiplierFactor $$(bc <<< "$$(input_get WorseDailyStrategyMultiplierFactor) - 0.1 * 10") $$(bc <<< "$$(input_get WorseDailyStrategyMultiplierFactor) + 0.1 * 10") 0.1
       SETFILE: /opt/sets/EA31337-WorseDailyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-WorseDailyStrategyMultiplierFactor
-    deploy:
-      restart_policy:
-        condition: none
   WorseMonthlyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -155,9 +129,6 @@ services:
       RUN_ON_SET: set_opt_params WorseMonthlyStrategyMultiplierFactor $$(bc <<< "$$(input_get WorseMonthlyStrategyMultiplierFactor) - 0.1 * 10") $$(bc <<< "$$(input_get WorseMonthlyStrategyMultiplierFactor) + 0.1 * 10") 0.1
       SETFILE: /opt/sets/EA31337-WorseMonthlyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-WorseMonthlyStrategyMultiplierFactor
-    deploy:
-      restart_policy:
-        condition: none
   WorseWeeklyStrategyMultiplierFactor:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -171,6 +142,3 @@ services:
       RUN_ON_SET: set_opt_params WorseWeeklyStrategyMultiplierFactor $$(bc <<< "$$(input_get WorseWeeklyStrategyMultiplierFactor) - 0.1 * 10") $$(bc <<< "$$(input_get WorseWeeklyStrategyMultiplierFactor) + 0.1 * 10") 0.1
       SETFILE: /opt/sets/EA31337-WorseWeeklyStrategyMultiplierFactor.set
       TEST_REPORT_NAME: EA31337-WorseWeeklyStrategyMultiplierFactor
-    deploy:
-      restart_policy:
-        condition: none

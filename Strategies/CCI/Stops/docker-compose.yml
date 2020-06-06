@@ -1,3 +1,4 @@
+---
 version: '3.4'
 services:
   CCI_TrailingStopMethod:
@@ -12,9 +13,6 @@ services:
       RUN_ON_SET: set_opt_params CCI_TrailingStopMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-CCI_TrailingStopMethod.set
       TEST_REPORT_NAME: EA31337-CCI_TrailingStopMethod
-    deploy:
-      restart_policy:
-        condition: none
   CCI_TrailingProfitMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -27,6 +25,3 @@ services:
       RUN_ON_SET: set_opt_params CCI_TrailingProfitMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-CCI_TrailingProfitMethod.set
       TEST_REPORT_NAME: EA31337-CCI_TrailingProfitMethod
-    deploy:
-      restart_policy:
-        condition: none

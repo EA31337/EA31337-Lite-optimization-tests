@@ -1,3 +1,4 @@
+---
 version: '3.4'
 services:
   CCI_Period_M1:
@@ -14,9 +15,6 @@ services:
       RUN_ON_SET: set_opt_params CCI_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M1) - 2 * 8")) $$(bc <<< "$$(input_get CCI_Period_M1) + 2 * 8") 2
       SETFILE: /opt/sets/EA31337-CCI_Period_M1.set
       TEST_REPORT_NAME: EA31337-CCI_Period_M1
-    deploy:
-      restart_policy:
-        condition: none
   CCI_Period_M5:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -31,9 +29,6 @@ services:
       RUN_ON_SET: set_opt_params CCI_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M5) - 2 * 4")) $$(bc <<< "$$(input_get CCI_Period_M5) + 2 * 4") 2
       SETFILE: /opt/sets/EA31337-CCI_Period_M5.set
       TEST_REPORT_NAME: EA31337-CCI_Period_M5
-    deploy:
-      restart_policy:
-        condition: none
   CCI_Period_M15:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -48,9 +43,6 @@ services:
       RUN_ON_SET: set_opt_params CCI_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M15) - 2 * 4")) $$(bc <<< "$$(input_get CCI_Period_M15) + 2 * 4") 2
       SETFILE: /opt/sets/EA31337-CCI_Period_M15.set
       TEST_REPORT_NAME: EA31337-CCI_Period_M15
-    deploy:
-      restart_policy:
-        condition: none
   CCI_Period_M30:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -64,9 +56,6 @@ services:
       RUN_ON_SET: set_opt_params CCI_Period_M30 $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M30) - 2 * 4")) $$(bc <<< "$$(input_get CCI_Period_M30) + 2 * 4") 2
       SETFILE: /opt/sets/EA31337-CCI_Period_M30.set
       TEST_REPORT_NAME: EA31337-CCI_Period_M30
-    deploy:
-      restart_policy:
-        condition: none
   CCI_Applied_Price:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -80,9 +69,6 @@ services:
       RUN_ON_SET: set_opt_params CCI_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-CCI_Applied_Price.set
       TEST_REPORT_NAME: EA31337-CCI_Applied_Price
-    deploy:
-      restart_policy:
-        condition: none
   CCI_SignalLevel:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -96,9 +82,6 @@ services:
       RUN_ON_SET: set_opt_params CCI_SignalLevel $$(bc <<< "$$(input_get CCI_SignalLevel) - 0.1 * 5") $$(bc <<< "$$(input_get CCI_SignalLevel) + 0.1 * 5") 0.1
       SETFILE: /opt/sets/EA31337-CCI_SignalLevel.set
       TEST_REPORT_NAME: EA31337-CCI_SignalLevel
-    deploy:
-      restart_policy:
-        condition: none
   CCI_Shift:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -112,6 +95,3 @@ services:
       RUN_ON_SET: set_opt_params CCI_Shift $$(get_max 1 $$(bc <<< "$$(input_get CCI_Shift) - 1 * 2")) $$(bc <<< "$$(input_get CCI_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-CCI_Shift.set
       TEST_REPORT_NAME: EA31337-CCI_Shift
-    deploy:
-      restart_policy:
-        condition: none

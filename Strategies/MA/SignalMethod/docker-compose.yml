@@ -1,3 +1,4 @@
+---
 version: '3.4'
 services:
   MA1_SignalMethod:
@@ -12,9 +13,6 @@ services:
       RUN_ON_SET: set_opt_params MA1_SignalMethod -127 127
       SETFILE: /opt/sets/EA31337-MA1_SignalMethod.set
       TEST_REPORT_NAME: EA31337-MA1_SignalMethod
-    deploy:
-      restart_policy:
-        condition: none
   MA5_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -27,9 +25,6 @@ services:
       RUN_ON_SET: set_opt_params MA5_SignalMethod -127 127
       SETFILE: /opt/sets/EA31337-MA5_SignalMethod.set
       TEST_REPORT_NAME: EA31337-MA5_SignalMethod
-    deploy:
-      restart_policy:
-        condition: none
   MA15_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -42,9 +37,6 @@ services:
       RUN_ON_SET: set_opt_params MA15_SignalMethod -127 127
       SETFILE: /opt/sets/EA31337-MA15_SignalMethod.set
       TEST_REPORT_NAME: EA31337-MA15_SignalMethod
-    deploy:
-      restart_policy:
-        condition: none
   MA30_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -57,6 +49,3 @@ services:
       RUN_ON_SET: set_opt_params MA30_SignalMethod -127 127
       SETFILE: /opt/sets/EA31337-MA30_SignalMethod.set
       TEST_REPORT_NAME: EA31337-MA30_SignalMethod
-    deploy:
-      restart_policy:
-        condition: none

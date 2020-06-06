@@ -1,3 +1,4 @@
+---
 version: '3.4'
 services:
   EURUSD_SmartQueueActive:
@@ -12,9 +13,6 @@ services:
       RUN_ON_SET: set_opt_params SmartQueueActive 0 1
       SETFILE: /opt/sets/EA31337-SmartQueueActive.set
       TEST_REPORT_NAME: EA31337-SmartQueueActive
-    deploy:
-      restart_policy:
-        condition: none
   EURUSD_SmartQueueMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -27,9 +25,6 @@ services:
       RUN_ON_SET: set_opt_params SmartQueueMethod 0 15
       SETFILE: /opt/sets/EA31337-SmartQueueMethod.set
       TEST_REPORT_NAME: EA31337-SmartQueueMethod
-    deploy:
-      restart_policy:
-        condition: none
   EURUSD_SmartQueueFilter:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -43,6 +38,3 @@ services:
       RUN_ON_SET: set_opt_params SmartQueueFilter 0 255 1
       SETFILE: /opt/sets/EA31337-SmartQueueFilter.set
       TEST_REPORT_NAME: EA31337-SmartQueueFilter
-    deploy:
-      restart_policy:
-        condition: none

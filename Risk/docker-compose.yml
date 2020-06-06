@@ -1,3 +1,4 @@
+---
 version: '3.4'
 services:
   InitNoOfDaysToWarmUp:
@@ -12,9 +13,6 @@ services:
       RUN_ON_SET: set_opt_params InitNoOfDaysToWarmUp 0 28 7
       SETFILE: /opt/sets/EA31337-InitNoOfDaysToWarmUp.set
       TEST_REPORT_NAME: EA31337-InitNoOfDaysToWarmUp
-    deploy:
-      restart_policy:
-        condition: none
   RiskMarginPerOrder:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -27,9 +25,6 @@ services:
       RUN_ON_SET: set_opt_params RiskMarginPerOrder 0 5
       SETFILE: /opt/sets/EA31337-RiskMarginPerOrder.set
       TEST_REPORT_NAME: EA31337-RiskMarginPerOrder
-    deploy:
-      restart_policy:
-        condition: none
   RiskMarginTotal:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -43,9 +38,6 @@ services:
       RUN_ON_SET: set_opt_params RiskMarginTotal 5 12
       SETFILE: /opt/sets/EA31337-RiskMarginTotal.set
       TEST_REPORT_NAME: EA31337-RiskMarginTotal
-    deploy:
-      restart_policy:
-        condition: none
   RiskRatio:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -58,9 +50,6 @@ services:
       RUN_ON_SET: set_opt_params RiskRatio 0 2.0 0.5
       SETFILE: /opt/sets/EA31337-RiskRatio.set
       TEST_REPORT_NAME: EA31337-RiskRatio
-    deploy:
-      restart_policy:
-        condition: none
   RiskRatioDecreaseMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -73,9 +62,6 @@ services:
       RUN_ON_SET: set_opt_params RiskRatioDecreaseMethod 0 255 9
       SETFILE: /opt/sets/EA31337-RiskRatioDecreaseMethod.set
       TEST_REPORT_NAME: EA31337-RiskRatioDecreaseMethod
-    deploy:
-      restart_policy:
-        condition: none
   RiskRatioIncreaseMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -88,6 +74,3 @@ services:
       RUN_ON_SET: set_opt_params RiskRatioIncreaseMethod 0 255 9
       SETFILE: /opt/sets/EA31337-RiskRatioIncreaseMethod.set
       TEST_REPORT_NAME: EA31337-RiskRatioIncreaseMethod
-    deploy:
-      restart_policy:
-        condition: none

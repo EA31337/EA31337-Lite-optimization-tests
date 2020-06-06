@@ -1,3 +1,4 @@
+---
 version: '3.4'
 services:
   SAR_Step:
@@ -14,9 +15,6 @@ services:
 #     RUN_ON_SET: set_opt_params SAR_Step $$(bc <<< "$$(input_get SAR_Step) - 0.01 * 10") $$(bc <<< "$$(input_get SAR_Step) + 0.01 * 10") 0.01
       SETFILE: /opt/sets/EA31337-SAR_Step.set
       TEST_REPORT_NAME: EA31337-SAR_Step
-    deploy:
-      restart_policy:
-        condition: none
   SAR_Maximum_Stop:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -28,9 +26,6 @@ services:
       RUN_ON_SET: set_opt_params SAR_Maximum_Stop $$(bc <<< "$$(input_get SAR_SignalLevel) - 0.1 * 10") $$(bc <<< "$$(input_get SAR_SignalLevel) + 0.1 * 10") 0.1
       SETFILE: /opt/sets/EA31337-SAR_Maximum_Stop.set
       TEST_REPORT_NAME: EA31337-SAR_Maximum_Stop
-    deploy:
-      restart_policy:
-        condition: none
   SAR_Shift:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -42,6 +37,3 @@ services:
       RUN_ON_SET: set_opt_params SAR_Shift $$(bc <<< "$$(input_get SAR_Shift) - 1 * 2") $$(bc <<< "$$(input_get SAR_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-SAR_Shift.set
       TEST_REPORT_NAME: EA31337-SAR_Shift
-    deploy:
-      restart_policy:
-        condition: none
