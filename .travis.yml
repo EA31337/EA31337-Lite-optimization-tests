@@ -8,10 +8,6 @@ branches:
     - master
     - ci
     - dev
-addons:
-  apt:
-    packages:
-      - shellcheck
 env:
   global:
     - CWD=$TRAVIS_BUILD_DIR
