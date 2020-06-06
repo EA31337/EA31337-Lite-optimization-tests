@@ -1,26 +1,24 @@
+---
 version: '3.4'
 services:
   MACD_Periods:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: MACD_Period_Fast,MACD_Period_Slow,MACD_Period_Signal
       RUN_ON_SET: for p in Fast Slow Signal; do set_opt_params "MACD_Period_$${p}" $$(get_max 1 $$(bc <<< "$$(input_get MACD_Period_$${p}) - 8")) $$(get_max 1 $$(bc <<< "$$(input_get MACD_Period_$${p}) + 8")) 4; done
       SETFILE: /opt/sets/EA31337-MACD_Periods.set
       TEST_REPORT_NAME: EA31337-MACD_Periods
-    deploy:
-      restart_policy:
-        condition: none
   MACD_Applied_Price:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: MACD_Applied_Price
@@ -32,23 +30,20 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: MACD_SignalLevel
       RUN_ON_SET: set_opt_params MACD_SignalLevel $$(bc <<< "$$(input_get MACD_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get MACD_SignalLevel) + 0.1 * 2") 0.1
       SETFILE: /opt/sets/EA31337-MACD_SignalLevel.set
       TEST_REPORT_NAME: EA31337-MACD_SignalLevel
-    deploy:
-      restart_policy:
-        condition: none
   MACD_Shift:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: MACD_Shift
@@ -56,6 +51,3 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SETFILE: /opt/sets/EA31337-MACD_Shift.set
       TEST_REPORT_NAME: EA31337-MACD_Shift
-    deploy:
-      restart_policy:
-        condition: none

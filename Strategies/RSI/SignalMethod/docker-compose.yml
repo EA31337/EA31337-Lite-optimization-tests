@@ -1,62 +1,51 @@
+---
 version: '3.4'
 services:
   RSI1_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: RSI1_SignalMethod
       RUN_ON_SET: set_opt_params RSI1_SignalMethod -63 63
       SETFILE: /opt/sets/EA31337-RSI1_SignalMethod.set
       TEST_REPORT_NAME: EA31337-RSI1_SignalMethod
-    deploy:
-      restart_policy:
-        condition: none
   RSI5_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: RSI5_SignalMethod
       RUN_ON_SET: set_opt_params RSI5_SignalMethod -63 63
       SETFILE: /opt/sets/EA31337-RSI5_SignalMethod.set
       TEST_REPORT_NAME: EA31337-RSI5_SignalMethod
-    deploy:
-      restart_policy:
-        condition: none
   RSI15_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: RSI15_SignalMethod
       RUN_ON_SET: set_opt_params RSI15_SignalMethod -63 63
       SETFILE: /opt/sets/EA31337-RSI15_SignalMethod.set
       TEST_REPORT_NAME: EA31337-RSI15_SignalMethod
-    deploy:
-      restart_policy:
-        condition: none
   RSI30_SignalMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: RSI30_SignalMethod
       RUN_ON_SET: set_opt_params RSI30_SignalMethod -63 63
       SETFILE: /opt/sets/EA31337-RSI30_SignalMethod.set
       TEST_REPORT_NAME: EA31337-RSI30_SignalMethod
-    deploy:
-      restart_policy:
-        condition: none

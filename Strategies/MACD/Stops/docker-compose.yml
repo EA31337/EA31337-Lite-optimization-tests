@@ -1,11 +1,12 @@
+---
 version: '3.4'
 services:
   MACD_TrailingStopMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: MACD_TrailingStopMethod
@@ -13,15 +14,12 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=8
       SETFILE: /opt/sets/EA31337-MACD_TrailingStopMethod.set
       TEST_REPORT_NAME: EA31337-MACD_TrailingStopMethod
-    deploy:
-      restart_policy:
-        condition: none
   MACD_TrailingProfitMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: MACD_TrailingProfitMethod
@@ -29,6 +27,3 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=8
       SETFILE: /opt/sets/EA31337-MACD_TrailingProfitMethod.set
       TEST_REPORT_NAME: EA31337-MACD_TrailingProfitMethod
-    deploy:
-      restart_policy:
-        condition: none

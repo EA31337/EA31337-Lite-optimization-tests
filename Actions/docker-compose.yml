@@ -1,201 +1,163 @@
+---
 version: '3.4'
 services:
   Account_Conditions_Active:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: Account_Conditions_Active
       RUN_ON_SET: set_opt_params Account_Conditions_Active 0 1
       SETFILE: /opt/sets/EA31337-Account_Conditions_Active.set
       TEST_REPORT_NAME: EA31337-Account_Conditions_Active
-    deploy:
-      restart_policy:
-        condition: none
   # Test equity above balance actions.
   Account_Condition_1:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: Account_Condition_1
       RUN_ON_SET: set_opt_params Account_Condition_1 2 5
       SETFILE: /opt/sets/EA31337-Action_On_Condition_01.set
       TEST_REPORT_NAME: EA31337-Account_Condition_01
-    deploy:
-      restart_policy:
-        condition: none
   Market_Condition_1:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: Market_Condition_1
       RUN_ON_SET: set_opt_params Market_Condition_1 1 19
       SETFILE: /opt/sets/EA31337-Action_On_Condition_01.set
       TEST_REPORT_NAME: EA31337-Market_Condition_01
-    deploy:
-      restart_policy:
-        condition: none
   Action_On_Condition_1:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: Action_On_Condition_1
       RUN_ON_SET: set_opt_params Action_On_Condition_1 0 10
       SETFILE: /opt/sets/EA31337-Action_On_Condition_01.set
       TEST_REPORT_NAME: EA31337-Action_On_Condition_01
-    deploy:
-      restart_policy:
-        condition: none
   # Test equity below balance actions.
   Account_Condition_2:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: Account_Condition_2
       RUN_ON_SET: set_opt_params Account_Condition_2 6 9
       SETFILE: /opt/sets/EA31337-Action_On_Condition_02.set
       TEST_REPORT_NAME: EA31337-Account_Condition_02
-    deploy:
-      restart_policy:
-        condition: none
   Market_Condition_2:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: Market_Condition_2
       RUN_ON_SET: set_opt_params Market_Condition_2 1 19
       SETFILE: /opt/sets/EA31337-Action_On_Condition_02.set
       TEST_REPORT_NAME: EA31337-Market_Condition_02
-    deploy:
-      restart_policy:
-        condition: none
   Action_On_Condition_2:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: Action_On_Condition_2
       RUN_ON_SET: set_opt_params Action_On_Condition_2 0 10
       SETFILE: /opt/sets/EA31337-Action_On_Condition_02.set
       TEST_REPORT_NAME: EA31337-Action_On_Condition_02
-    deploy:
-      restart_policy:
-        condition: none
   # Test margin used actions.
   Account_Condition_3:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: Account_Condition_3
       RUN_ON_SET: set_opt_params Account_Condition_3 10 10
       SETFILE: /opt/sets/EA31337-Action_On_Condition_03.set
       TEST_REPORT_NAME: EA31337-Account_Condition_03
-    deploy:
-      restart_policy:
-        condition: none
   Market_Condition_3:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: Market_Condition_3
       RUN_ON_SET: set_opt_params Market_Condition_3 1 19
       SETFILE: /opt/sets/EA31337-Action_On_Condition_03.set
       TEST_REPORT_NAME: EA31337-Market_Condition_03
-    deploy:
-      restart_policy:
-        condition: none
   Action_On_Condition_3:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: Action_On_Condition_3
       RUN_ON_SET: set_opt_params Action_On_Condition_3 0 10
       SETFILE: /opt/sets/EA31337-Action_On_Condition_03.set
       TEST_REPORT_NAME: EA31337-Action_On_Condition_03
-    deploy:
-      restart_policy:
-        condition: none
   # Test max daily/weekly balance vs weekly/monthly actions.
   Account_Condition_4:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: Account_Condition_4
       RUN_ON_SET: set_opt_params Account_Condition_4 17 20
       SETFILE: /opt/sets/EA31337-Action_On_Condition_04.set
       TEST_REPORT_NAME: EA31337-Account_Condition_04
-    deploy:
-      restart_policy:
-        condition: none
   Market_Condition_4:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: Market_Condition_4
       RUN_ON_SET: set_opt_params Market_Condition_4 1 19
       SETFILE: /opt/sets/EA31337-Action_On_Condition_04.set
       TEST_REPORT_NAME: EA31337-Market_Condition_04
-    deploy:
-      restart_policy:
-        condition: none
   Action_On_Condition_4:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: Action_On_Condition_4
       RUN_ON_SET: set_opt_params Action_On_Condition_4 0 10
       SETFILE: /opt/sets/EA31337-Action_On_Condition_04.set
       TEST_REPORT_NAME: EA31337-Action_On_Condition_04
-    deploy:
-      restart_policy:
-        condition: none

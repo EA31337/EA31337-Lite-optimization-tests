@@ -1,105 +1,85 @@
+---
 version: '3.4'
 services:
   MA_Periods:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: MA_Periods
       RUN_ON_SET: for p in Fast Medium Slow; do set_opt_params "MA_Period_$${p}" $$(bc <<< "$$(input_get MA_Period_$${p}) - 2") $$(bc <<< "$$(input_get MA_Period_$${p}) + 2") 2; done
       SETFILE: /opt/sets/EA31337-MA_Periods.set
       TEST_REPORT_NAME: EA31337-MA_Periods
-    deploy:
-      restart_policy:
-        condition: none
   MA_Applied_Price:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     environment:
       SET_PARAMS: MA_Applied_Price
       RUN_ON_SET: set_opt_params MA_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-MA_Applied_Price.set
       TEST_REPORT_NAME: EA31337-MA_Applied_Price
-    deploy:
-      restart_policy:
-        condition: none
   MA_SignalLevel:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     environment:
       SET_PARAMS: MA_SignalLevel
       RUN_ON_SET: set_opt_params MA_SignalLevel $$(bc <<< "$$(input_get MA_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get MA_SignalLevel) + 0.1 * 2") 0.1
       SETFILE: /opt/sets/EA31337-MA_SignalLevel.set
       TEST_REPORT_NAME: EA31337-MA_SignalLevel
-    deploy:
-      restart_policy:
-        condition: none
   MA_Shift:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     environment:
       SET_PARAMS: MA_Shift
       RUN_ON_SET: set_opt_params MA_Shift $$(bc <<< "$$(input_get MA_Shift) - 1 * 2") $$(bc <<< "$$(input_get MA_Shift) + 1 * 2")
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SETFILE: /opt/sets/EA31337-MA_Shift.set
       TEST_REPORT_NAME: EA31337-MA_Shift
-    deploy:
-      restart_policy:
-        condition: none
   MA_Shift_Fast:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     environment:
       SET_PARAMS: MA_Shift_Fast
       RUN_ON_SET: set_opt_params MA_Shift_Fast $$(bc <<< "$$(input_get MA_Shift_Fast) - 1 * 2") $$(bc <<< "$$(input_get MA_Shift_Fast) + 1 * 2")
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SETFILE: /opt/sets/EA31337-MA_Shift_Fast.set
       TEST_REPORT_NAME: EA31337-MA_Shift_Fast
-    deploy:
-      restart_policy:
-        condition: none
   MA_Shift_Medium:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     environment:
       SET_PARAMS: MA_Shift_Medium
       RUN_ON_SET: set_opt_params MA_Shift_Medium $$(bc <<< "$$(input_get MA_Shift_Medium) - 1 * 2") $$(bc <<< "$$(input_get MA_Shift_Medium) + 1 * 2")
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SETFILE: /opt/sets/EA31337-MA_Shift_Medium.set
       TEST_REPORT_NAME: EA31337-MA_Shift_Medium
-    deploy:
-      restart_policy:
-        condition: none
   MA_Shift_Slow:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     environment:
       SET_PARAMS: MA_Shift_Slow
       RUN_ON_SET: set_opt_params MA_Shift_Slow $$(bc <<< "$$(input_get MA_Shift_Slow) - 1 * 2") $$(bc <<< "$$(input_get MA_Shift_Slow) + 1 * 2")
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SETFILE: /opt/sets/EA31337-MA_Shift_Slow.set
       TEST_REPORT_NAME: EA31337-MA_Shift_Slow
-    deploy:
-      restart_policy:
-        condition: none
