@@ -5,8 +5,8 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: MA_Periods
@@ -17,8 +17,8 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     environment:
       SET_PARAMS: MA_Applied_Price
       RUN_ON_SET: set_opt_params MA_Applied_Price 0 6
@@ -28,8 +28,8 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     environment:
       SET_PARAMS: MA_SignalLevel
       RUN_ON_SET: set_opt_params MA_SignalLevel $$(bc <<< "$$(input_get MA_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get MA_SignalLevel) + 0.1 * 2") 0.1
@@ -39,8 +39,8 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     environment:
       SET_PARAMS: MA_Shift
       RUN_ON_SET: set_opt_params MA_Shift $$(bc <<< "$$(input_get MA_Shift) - 1 * 2") $$(bc <<< "$$(input_get MA_Shift) + 1 * 2")
@@ -51,8 +51,8 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     environment:
       SET_PARAMS: MA_Shift_Fast
       RUN_ON_SET: set_opt_params MA_Shift_Fast $$(bc <<< "$$(input_get MA_Shift_Fast) - 1 * 2") $$(bc <<< "$$(input_get MA_Shift_Fast) + 1 * 2")
@@ -63,8 +63,8 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     environment:
       SET_PARAMS: MA_Shift_Medium
       RUN_ON_SET: set_opt_params MA_Shift_Medium $$(bc <<< "$$(input_get MA_Shift_Medium) - 1 * 2") $$(bc <<< "$$(input_get MA_Shift_Medium) + 1 * 2")
@@ -75,8 +75,8 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     environment:
       SET_PARAMS: MA_Shift_Slow
       RUN_ON_SET: set_opt_params MA_Shift_Slow $$(bc <<< "$$(input_get MA_Shift_Slow) - 1 * 2") $$(bc <<< "$$(input_get MA_Shift_Slow) + 1 * 2")
