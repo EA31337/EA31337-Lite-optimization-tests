@@ -3,7 +3,7 @@ version: '3.4'
 services:
   Bands_Deviation_M1:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -15,7 +15,7 @@ services:
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M1
   Bands_Deviation_M5:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -27,7 +27,7 @@ services:
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M5
   Bands_Deviation_M15:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -39,7 +39,7 @@ services:
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M15
   Bands_Deviation_M30:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -51,7 +51,7 @@ services:
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M30
   Bands_Period_M1:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -66,7 +66,7 @@ services:
       TEST_REPORT_NAME: EA31337-Bands_Period_M1
   Bands_Period_M5:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -81,7 +81,7 @@ services:
       TEST_REPORT_NAME: EA31337-Bands_Period_M5
   Bands_Period_M15:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -96,7 +96,7 @@ services:
       TEST_REPORT_NAME: EA31337-Bands_Period_M15
   Bands_Period_M30:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -111,7 +111,7 @@ services:
       TEST_REPORT_NAME: EA31337-Bands_Period_M30
   Bands_Applied_Price:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -123,7 +123,7 @@ services:
       TEST_REPORT_NAME: EA31337-Bands_Applied_Price
   Bands_HShift:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -135,7 +135,7 @@ services:
       TEST_REPORT_NAME: EA31337-Bands_HShift
   Bands_SignalLevel:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -147,7 +147,7 @@ services:
       TEST_REPORT_NAME: EA31337-Bands_SignalLevel
   Bands_Shift:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw

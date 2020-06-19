@@ -3,7 +3,7 @@ version: '3.4'
 services:
   EURUSD_MinPipGap:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -15,7 +15,7 @@ services:
       TEST_REPORT_NAME: EA31337-MinPipGap
   # EURUSD_ProfitFactorMaxToTrade:
   #   command: run_backtest -v
-  #   image: ea31337/ea-tester:EURUSD-2018-DS
+  #   image: ea31337/ea-tester:EURUSD-2019-DS
   #   volumes:
   #   - ./sets/EURUSD:/opt/sets:rw
   #   - ./_results/EURUSD:/opt/_results:rw
@@ -28,7 +28,7 @@ services:
   #     TEST_REPORT_NAME: EA31337-ProfitFactorMaxToTrade
   EURUSD_ProfitFactorMinToTrade:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -41,7 +41,7 @@ services:
       TEST_REPORT_NAME: EA31337-ProfitFactorMinToTrade
   EURUSD_StopLossMax:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -53,7 +53,7 @@ services:
       TEST_REPORT_NAME: EA31337-StopLossMax
   EURUSD_TakeProfitMax:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -65,7 +65,7 @@ services:
       TEST_REPORT_NAME: EA31337-TakeProfitMax
   EURUSD_TrailingProfit:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -77,7 +77,7 @@ services:
       TEST_REPORT_NAME: EA31337-TrailingProfit
   EURUSD_TrailingStop:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -89,7 +89,7 @@ services:
       TEST_REPORT_NAME: EA31337-TrailingStop
   EURUSD_TrailingStopAddPerMinute:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -102,7 +102,7 @@ services:
       TEST_REPORT_NAME: EA31337-TrailingStopAddPerMinute
   # EURUSD_TrendMethod:
   #   command: run_backtest -v
-  #   image: ea31337/ea-tester:EURUSD-2018-DS
+  #   image: ea31337/ea-tester:EURUSD-2019-DS
   #   volumes:
   #   - ./sets/EURUSD:/opt/sets:rw
   #   - ./_results/EURUSD:/opt/_results:rw
@@ -114,7 +114,7 @@ services:
   #     TEST_REPORT_NAME: EA31337-TrendMethod
   EURUSD_TrendPeriod:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw

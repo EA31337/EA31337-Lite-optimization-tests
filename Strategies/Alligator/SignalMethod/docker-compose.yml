@@ -3,7 +3,7 @@ version: '3.4'
 services:
   Alligator1_SignalMethod:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -15,7 +15,7 @@ services:
       TEST_REPORT_NAME: EA31337-Alligator1_SignalMethod
   Alligator5_SignalMethod:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -27,7 +27,7 @@ services:
       TEST_REPORT_NAME: EA31337-Alligator5_SignalMethod
   Alligator15_SignalMethod:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -39,7 +39,7 @@ services:
       TEST_REPORT_NAME: EA31337-Alligator15_SignalMethod
   Alligator30_SignalMethod:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw

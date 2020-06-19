@@ -3,7 +3,7 @@ version: '3.4'
 services:
   RSI_Period_M1:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -17,7 +17,7 @@ services:
       TEST_REPORT_NAME: EA31337-RSI_Period_M1
   RSI_Period_M5:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -31,7 +31,7 @@ services:
       TEST_REPORT_NAME: EA31337-RSI_Period_M5
   RSI_Period_M15:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -45,7 +45,7 @@ services:
       TEST_REPORT_NAME: EA31337-RSI_Period_M15
   RSI_Period_M30:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -59,7 +59,7 @@ services:
       TEST_REPORT_NAME: EA31337-RSI_Period_M30
   RSI_Applied_Price:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -71,7 +71,7 @@ services:
       TEST_REPORT_NAME: EA31337-RSI_Applied_Price
   RSI_SignalLevel:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -83,7 +83,7 @@ services:
       TEST_REPORT_NAME: EA31337-RSI_SignalLevel
   RSI_Shift:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw

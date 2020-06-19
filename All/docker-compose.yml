@@ -3,7 +3,7 @@ version: '3.4'
 services:
   EURUSD_CloseOrderAfterXHours:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -15,7 +15,7 @@ services:
       TEST_REPORT_NAME: EA31337-CloseOrderAfterXHours
   EURUSD_InitNoOfOrdersToCalcPF:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -26,7 +26,7 @@ services:
       TEST_REPORT_NAME: EA31337-InitNoOfOrdersToCalcPF
   EURUSD_LotSize:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -38,7 +38,7 @@ services:
       TEST_REPORT_NAME: EA31337-LotSize
   EURUSD_MaxOrders:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -50,7 +50,7 @@ services:
       TEST_REPORT_NAME: EA31337-MaxOrders
   EURUSD_MaxOrdersPerType:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
@@ -62,7 +62,7 @@ services:
       TEST_REPORT_NAME: EA31337-MaxOrdersPerType
   EURUSD_MinPipChangeToTrade:
     command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2018-DS
+    image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
