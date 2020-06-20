@@ -11,7 +11,8 @@ services:
     environment:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
       SET_PARAMS: SAR_Step
-      RUN_ON_SET: set_opt_params SAR_Step 0.01 0.10 0.01
+      RUN_ON_SET: >
+        set_opt_params SAR_Step 0.01 0.10 0.01
       # RUN_ON_SET: set_opt_params SAR_Step $$(bc <<< "$$(input_get SAR_Step) - 0.01 * 10") $$(bc <<< "$$(input_get SAR_Step) + 0.01 * 10") 0.01
       SETFILE: /opt/sets/EA31337-SAR_Step.set
       TEST_REPORT_NAME: EA31337-SAR_Step
@@ -21,9 +22,14 @@ services:
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: SAR_Maximum_Stop
-      RUN_ON_SET: set_opt_params SAR_Maximum_Stop $$(bc <<< "$$(input_get SAR_SignalLevel) - 0.1 * 10") $$(bc <<< "$$(input_get SAR_SignalLevel) + 0.1 * 10") 0.1
+      RUN_ON_SET: >
+        set_opt_params SAR_Maximum_Stop
+        $$(get_max 0 $$(bc <<< "$$(input_get SAR_SignalLevel) - 0.1 * 5"))
+        $$(bc <<< "$$(input_get SAR_SignalLevel) + 0.1 * 5")
+        0.1
       SETFILE: /opt/sets/EA31337-SAR_Maximum_Stop.set
       TEST_REPORT_NAME: EA31337-SAR_Maximum_Stop
   SAR_Shift:
@@ -32,8 +38,12 @@ services:
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: SAR_Shift
-      RUN_ON_SET: set_opt_params SAR_Shift $$(bc <<< "$$(input_get SAR_Shift) - 1 * 2") $$(bc <<< "$$(input_get SAR_Shift) + 1 * 2")
+      RUN_ON_SET: >
+        set_opt_params SAR_Shift
+        $$(get_max 0 $$(bc <<< "$$(input_get SAR_Shift) - 1 * 5"))
+        $$(bc <<< "$$(input_get SAR_Shift) + 1 * 5")
       SETFILE: /opt/sets/EA31337-SAR_Shift.set
       TEST_REPORT_NAME: EA31337-SAR_Shift

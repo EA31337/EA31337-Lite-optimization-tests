@@ -10,6 +10,9 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: Fractals_Shift
-      RUN_ON_SET: set_opt_params Fractals_Shift $$(bc <<< "$$(input_get Fractals_Shift) - 1 * 2") $$(bc <<< "$$(input_get Fractals_Shift) + 1 * 2")
+      RUN_ON_SET:
+        set_opt_params Fractals_Shift
+        $$(get_max 0 $$(bc <<< "$$(input_get Fractals_Shift) - 1 * 2"))
+        $$(bc <<< "$$(input_get Fractals_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-Fractals_Shift.set
       TEST_REPORT_NAME: EA31337-Fractals_Shift

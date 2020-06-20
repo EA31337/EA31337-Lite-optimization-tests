@@ -1,7 +1,7 @@
 ---
 version: '3.4'
 services:
-  EURUSD_CloseOrderAfterXHours:
+  CloseOrderAfterXHours:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -13,7 +13,7 @@ services:
       RUN_ON_SET: set_opt_params CloseOrderAfterXHours 0 120 24
       SETFILE: /opt/sets/EA31337-CloseOrderAfterXHours.set
       TEST_REPORT_NAME: EA31337-CloseOrderAfterXHours
-  EURUSD_InitNoOfOrdersToCalcPF:
+  InitNoOfOrdersToCalcPF:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -24,7 +24,7 @@ services:
       SET_PARAMS: InitNoOfOrdersToCalcPF
       SETFILE: /opt/sets/EA31337-InitNoOfOrdersToCalcPF.set
       TEST_REPORT_NAME: EA31337-InitNoOfOrdersToCalcPF
-  EURUSD_LotSize:
+  LotSize:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -36,7 +36,7 @@ services:
       RUN_ON_SET: set_opt_params LotSize 0 0.01 0.01
       SETFILE: /opt/sets/EA31337-LotSize.set
       TEST_REPORT_NAME: EA31337-LotSize
-  EURUSD_MaxOrders:
+  MaxOrders:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -48,7 +48,7 @@ services:
       RUN_ON_SET: set_opt_params MaxOrders 0 40 5
       SETFILE: /opt/sets/EA31337-MaxOrders.set
       TEST_REPORT_NAME: EA31337-MaxOrders
-  EURUSD_MaxOrdersPerType:
+  MaxOrdersPerType:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -60,7 +60,7 @@ services:
       RUN_ON_SET: set_opt_params MaxOrdersPerType 0 20 2
       SETFILE: /opt/sets/EA31337-MaxOrdersPerType.set
       TEST_REPORT_NAME: EA31337-MaxOrdersPerType
-  EURUSD_MinPipChangeToTrade:
+  MinPipChangeToTrade:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -69,6 +69,9 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: MinPipChangeToTrade
-      RUN_ON_SET: set_opt_params MinPipChangeToTrade $$(bc <<< "$$(input_get MinPipChangeToTrade) - 0.2") $$(bc <<< "$$(input_get MinPipChangeToTrade) + 0.2") 0.1
+      RUN_ON_SET: >
+        set_opt_params MinPipChangeToTrade
+        $$(bc <<< "$$(input_get MinPipChangeToTrade) - 0.2")
+        $$(bc <<< "$$(input_get MinPipChangeToTrade) + 0.2") 0.1
       SETFILE: /opt/sets/EA31337-MinPipChangeToTrade.set
       TEST_REPORT_NAME: EA31337-MinPipChangeToTrade

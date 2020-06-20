@@ -1,7 +1,7 @@
 ---
 version: '3.4'
 services:
-  EURUSD_SmartQueueActive:
+  SmartQueueActive:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -13,7 +13,7 @@ services:
       RUN_ON_SET: set_opt_params SmartQueueActive 0 1
       SETFILE: /opt/sets/EA31337-SmartQueueActive.set
       TEST_REPORT_NAME: EA31337-SmartQueueActive
-  EURUSD_SmartQueueMethod:
+  SmartQueueMethod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -25,7 +25,7 @@ services:
       RUN_ON_SET: set_opt_params SmartQueueMethod 0 15
       SETFILE: /opt/sets/EA31337-SmartQueueMethod.set
       TEST_REPORT_NAME: EA31337-SmartQueueMethod
-  EURUSD_SmartQueueFilter:
+  SmartQueueFilter:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -35,6 +35,6 @@ services:
     environment:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SET_PARAMS: SmartQueueFilter
-      RUN_ON_SET: set_opt_params SmartQueueFilter 0 255 1
+      RUN_ON_SET: set_opt_params SmartQueueFilter 0 255 7
       SETFILE: /opt/sets/EA31337-SmartQueueFilter.set
       TEST_REPORT_NAME: EA31337-SmartQueueFilter

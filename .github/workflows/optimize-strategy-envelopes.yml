@@ -1,0 +1,118 @@
+---
+name: Optimize Strategy Envelopes
+
+# yamllint disable rule:truthy
+on:
+  push:
+    branches:
+      - 'optimize-strategy-envelopes'
+      - 'optimize-strategy-envelopes-*'
+
+jobs:
+  Optimize-Indicator:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - name: Run optimization period tests
+        run: >
+          docker-compose up
+          Envelopes_MA_Period_M1 Envelopes_MA_Period_M5 Envelopes_MA_Period_M15 Envelopes_MA_Period_M30
+        working-directory: Strategies/Envelopes/Indicator
+      - name: Run optimization deviation tests
+        run: >
+          docker-compose up
+          Envelopes_Deviation_M1 Envelopes_Deviation_M5 Envelopes_Deviation_M15 Envelopes_Deviation_M30
+      - name: Run other optimization tests
+        run:
+          docker-compose up
+          Envelopes_MA_Method Envelopes_MA_Shift Envelopes_Shift Envelopes_Applied_Price Envelopes_SignalLevel
+        working-directory: Strategies/Envelopes/Indicator
+      - name: Run optimization tests
+        run: docker-compose up
+        working-directory: Strategies/Envelopes/Indicator
+      - name: Commit files
+        run: |
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git commit -m "Adds test results" -a
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  Optimize-Stops:
+    needs: Optimize-Indicator
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
+      - name: Run optimization tests
+        run: docker-compose up
+        working-directory: Strategies/Envelopes/Stops
+      - name: Commit files
+        run: |
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git commit -m "Adds test results" -a
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  Optimize-SignalMethod:
+    needs: Optimize-Stops
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
+      - name: Run optimization tests
+        run: docker-compose up
+        working-directory: Strategies/Envelopes/SignalMethod
+      - name: Commit files
+        run: |
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git commit -m "Adds test results" -a
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  Optimize-Timeframes:
+    needs: Optimize-SignalMethod
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
+      - name: Run optimization tests
+        run: docker-compose up
+        working-directory: Strategies/Envelopes/Timeframes
+      - name: Commit files
+        run: |
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git commit -m "Adds test results" -a
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}

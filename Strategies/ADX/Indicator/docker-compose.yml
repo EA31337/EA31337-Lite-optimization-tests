@@ -87,6 +87,7 @@ services:
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: ADX_Shift
       RUN_ON_SET: set_opt_params ADX_Shift $$(bc <<< "$$(input_get ADX_Shift) - 1 * 2") $$(bc <<< "$$(input_get ADX_Shift) + 1 * 2")
