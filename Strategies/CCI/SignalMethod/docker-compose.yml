@@ -10,7 +10,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: CCI1_SignalMethod
-      RUN_ON_SET: set_opt_params CCI1_SignalMethod -63 63
+      RUN_ON_SET: set_opt_params CCI1_SignalMethod -63 63 3
       SETFILE: /opt/sets/EA31337-CCI1_SignalMethod.set
       TEST_REPORT_NAME: EA31337-CCI1_SignalMethod
   CCI5_SignalMethod:
@@ -22,7 +22,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: CCI5_SignalMethod
-      RUN_ON_SET: set_opt_params CCI5_SignalMethod -63 63
+      RUN_ON_SET: set_opt_params CCI5_SignalMethod -63 63 3
       SETFILE: /opt/sets/EA31337-CCI5_SignalMethod.set
       TEST_REPORT_NAME: EA31337-CCI5_SignalMethod
   CCI15_SignalMethod:
@@ -34,7 +34,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: CCI15_SignalMethod
-      RUN_ON_SET: set_opt_params CCI15_SignalMethod -63 63
+      RUN_ON_SET: set_opt_params CCI15_SignalMethod -63 63 3
       SETFILE: /opt/sets/EA31337-CCI15_SignalMethod.set
       TEST_REPORT_NAME: EA31337-CCI15_SignalMethod
   CCI30_SignalMethod:
@@ -46,6 +46,6 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: CCI30_SignalMethod
-      RUN_ON_SET: set_opt_params CCI30_SignalMethod -63 63
+      RUN_ON_SET: set_opt_params CCI30_SignalMethod -63 63 3
       SETFILE: /opt/sets/EA31337-CCI30_SignalMethod.set
       TEST_REPORT_NAME: EA31337-CCI30_SignalMethod
