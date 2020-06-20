@@ -1,0 +1,102 @@
+# yamllint disable rule:line-length
+---
+name: Optimize Strategy Alligator
+
+on:
+  push:
+    branches:
+      - 'optimize-strategy-alligator'
+      - 'optimize-strategy-alligator-*'
+
+jobs:
+  Optimize-Indicator:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
+      - name: Run optimization tests
+        run: docker-compose up
+        working-directory: Strategies/Alligator/Indicator
+      - name: Commit files
+        run: |
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git commit -m "Adds test results" -a
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  Optimize-SignalMethod:
+    needs: Optimize-Indicator
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
+      - name: Run optimization tests
+        run: docker-compose up
+        working-directory: Strategies/Alligator/SignalMethod
+      - name: Commit files
+        run: |
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git commit -m "Adds test results" -a
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  Optimize-Stops:
+    needs: Optimize-SignalMethod
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
+      - name: Run optimization tests
+        run: docker-compose up
+        working-directory: Strategies/Alligator/Stops
+      - name: Commit files
+        run: |
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git commit -m "Adds test results" -a
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  Optimize-Timeframes:
+    needs: Optimize-Stops
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
+      - name: Run optimization tests
+        run: docker-compose up
+        working-directory: Strategies/Alligator/Timeframes
+      - name: Commit files
+        run: |
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git commit -m "Adds test results" -a
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
