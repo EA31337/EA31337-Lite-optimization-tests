@@ -18,12 +18,15 @@ jobs:
       - name: Run RSI_Period_M1
         run: docker-compose run -e BT_MONTHS=1 RSI_Period_M1
         working-directory: Strategies/RSI/Indicator
-      - name: Git Diff
-        run: |
-          git diff
-          git diff --stat
       - name: Commit files
         run: |
-          git config --local user.email "action@@users.noreply.github.com"
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git commit -m "Add changes" -a
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
