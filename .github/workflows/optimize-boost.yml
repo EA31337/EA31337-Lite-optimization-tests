@@ -1,7 +1,7 @@
-# yamllint disable rule:line-length
 ---
 name: Optimize Boost
 
+# yamllint disable rule:truthy
 on:
   push:
     branches:
@@ -14,8 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
-          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
+          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
       - name: Run optimization tests
         run: docker-compose up
         working-directory: Boost
