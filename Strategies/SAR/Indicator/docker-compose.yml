@@ -22,11 +22,12 @@ services:
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: SAR_Maximum_Stop
       RUN_ON_SET: >
         set_opt_params SAR_Maximum_Stop
-        $$(get_max 0 $$$(bc <<< "$$(input_get SAR_SignalLevel) - 0.1 * 5"))
+        $$(get_max 0 $$(bc <<< "$$(input_get SAR_SignalLevel) - 0.1 * 5"))
         $$(bc <<< "$$(input_get SAR_SignalLevel) + 0.1 * 5")
         0.1
       SETFILE: /opt/sets/EA31337-SAR_Maximum_Stop.set
@@ -37,6 +38,7 @@ services:
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: SAR_Shift
       RUN_ON_SET: >

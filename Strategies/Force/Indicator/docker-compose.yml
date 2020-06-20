@@ -95,6 +95,7 @@ services:
     volumes:
       - ./sets/EURUSD:/opt/sets:rw
       - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: Force_SignalLevel
       RUN_ON_SET: set_opt_params Force_SignalLevel $$(bc <<< "$$(input_get Force_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get Force_SignalLevel) + 0.1 * 2") 0.1
