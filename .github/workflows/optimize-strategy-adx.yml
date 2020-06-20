@@ -5,7 +5,8 @@ name: Optimize Strategy ADX
 on:
   push:
     branches:
-      - 'optimize-strategy-adx*'
+      - 'optimize-strategy-adx'
+      - 'optimize-strategy-adx-*'
 
 jobs:
   Optimize-Indicator:
