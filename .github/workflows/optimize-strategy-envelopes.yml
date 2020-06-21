@@ -22,10 +22,12 @@ jobs:
       - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_MA_Period_M5}
       - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_MA_Period_M15}
       - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_MA_Period_M30}
+      - run: docker system prune --force --volumes
       - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_Deviation_M1}
       - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_Deviation_M5}
       - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_Deviation_M15}
       - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_Deviation_M30}
+      - run: docker system prune --force --volumes
       - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_Applied_Price}
       - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_SignalLevel}
       - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_MA_Shift}
