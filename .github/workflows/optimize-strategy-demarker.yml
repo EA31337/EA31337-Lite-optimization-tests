@@ -18,12 +18,12 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - {working-directory: Strategies/DeMarker/Indicator, run: docker-compose run $DCA DeMarker_Period_M1}
-      - {working-directory: Strategies/DeMarker/Indicator, run: docker-compose run $DCA DeMarker_Period_M5}
-      - {working-directory: Strategies/DeMarker/Indicator, run: docker-compose run $DCA DeMarker_Period_M15}
-      - {working-directory: Strategies/DeMarker/Indicator, run: docker-compose run $DCA DeMarker_Period_M30}
-      - {working-directory: Strategies/DeMarker/Indicator, run: docker-compose run $DCA DeMarker_SignalLevel}
-      - {working-directory: Strategies/DeMarker/Indicator, run: docker-compose run $DCA DeMarker_Shift}
+      - {working-directory: Strategies/DeMarker/Indicator, run: docker-compose run DeMarker_Period_M1}
+      - {working-directory: Strategies/DeMarker/Indicator, run: docker-compose run DeMarker_Period_M5}
+      - {working-directory: Strategies/DeMarker/Indicator, run: docker-compose run DeMarker_Period_M15}
+      - {working-directory: Strategies/DeMarker/Indicator, run: docker-compose run DeMarker_Period_M30}
+      - {working-directory: Strategies/DeMarker/Indicator, run: docker-compose run DeMarker_SignalLevel}
+      - {working-directory: Strategies/DeMarker/Indicator, run: docker-compose run DeMarker_Shift}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -36,8 +36,6 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-    env:
-      DCA: "-e OPT_TRACE=1"
   Optimize-Stops:
     needs: Optimize-Indicator
     runs-on: ubuntu-latest
@@ -46,8 +44,8 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - {working-directory: Strategies/DeMarker/Stops, run: docker-compose run $DCA DeMarker_TrailingStopMethod}
-      - {working-directory: Strategies/DeMarker/Stops, run: docker-compose run $DCA DeMarker_TrailingProfitMethod}
+      - {working-directory: Strategies/DeMarker/Stops, run: docker-compose run DeMarker_TrailingStopMethod}
+      - {working-directory: Strategies/DeMarker/Stops, run: docker-compose run DeMarker_TrailingProfitMethod}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -60,8 +58,6 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-    env:
-      DCA: "-e OPT_TRACE=1"
   Optimize-SignalMethod:
     needs: Optimize-Stops
     runs-on: ubuntu-latest
@@ -70,10 +66,10 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - {working-directory: Strategies/DeMarker/SignalMethod, run: docker-compose run $DCA DeMarker1_SignalMethod}
-      - {working-directory: Strategies/DeMarker/SignalMethod, run: docker-compose run $DCA DeMarker5_SignalMethod}
-      - {working-directory: Strategies/DeMarker/SignalMethod, run: docker-compose run $DCA DeMarker15_SignalMethod}
-      - {working-directory: Strategies/DeMarker/SignalMethod, run: docker-compose run $DCA DeMarker30_SignalMethod}
+      - {working-directory: Strategies/DeMarker/SignalMethod, run: docker-compose run DeMarker1_SignalMethod}
+      - {working-directory: Strategies/DeMarker/SignalMethod, run: docker-compose run DeMarker5_SignalMethod}
+      - {working-directory: Strategies/DeMarker/SignalMethod, run: docker-compose run DeMarker15_SignalMethod}
+      - {working-directory: Strategies/DeMarker/SignalMethod, run: docker-compose run DeMarker30_SignalMethod}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -86,8 +82,6 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-    env:
-      DCA: "-e OPT_TRACE=1"
   Optimize-Timeframes:
     needs: Optimize-SignalMethod
     runs-on: ubuntu-latest
@@ -96,7 +90,7 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - {working-directory: Strategies/DeMarker/Timeframes, run: docker-compose run $DCA DeMarker_Active_Tf}
+      - {working-directory: Strategies/DeMarker/Timeframes, run: docker-compose run DeMarker_Active_Tf}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -109,5 +103,3 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-    env:
-      DCA: "-e OPT_TRACE=1"
