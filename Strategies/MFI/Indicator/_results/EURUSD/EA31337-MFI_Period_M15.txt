@@ -2,19 +2,21 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          15 Minutes (M15) 2018.01.03 01:00 - 2018.12.30 23:45 (2018.01.01 - 2018.12.31)
+                            Period          15 Minutes (M15) 2019.01.02 23:00 - 2019.01.11 21:45 (2019.01.01 - 2019.01.12)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             4 -2301.21         4987          0.91           -0.46    2577.59       2.57  MFI_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
-             5 -2393.13         4800          0.91           -0.50    3742.25       3.70 MFI_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
-             1 -2675.18         4336          0.88           -0.62    2887.03       2.88  MFI_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
-             3 -2880.69         5252          0.88           -0.55    3037.60       3.04  MFI_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
-             2 -3489.16         5582          0.86           -0.63    3721.56       3.72  MFI_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
-             6 -3759.61         4575          0.86           -0.82    4072.67       4.07 MFI_Period_M15=12; MaxOrders=0; MaxOrdersPerType=0;
+           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              8  68.60           47          1.20            1.46     351.58       0.35 MFI_Period_M15=16; MaxOrders=0; MaxOrdersPerType=0;
+              6  44.00           49          1.11            0.90     381.49       0.38 MFI_Period_M15=12; MaxOrders=0; MaxOrdersPerType=0;
+              7  29.00           47          1.07            0.62     395.39       0.40 MFI_Period_M15=14; MaxOrders=0; MaxOrdersPerType=0;
+              5   5.60           48          1.01            0.12     418.79       0.42 MFI_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
+              3  -2.91           49          0.99           -0.06     428.40       0.43  MFI_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
+              4  -8.61           49          0.98           -0.18     433.00       0.43  MFI_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
+              1 -11.21           49          0.97           -0.23     438.80       0.44  MFI_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
+              2 -49.80           50          0.90           -1.00     467.59       0.47  MFI_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
