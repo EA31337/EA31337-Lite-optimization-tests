@@ -18,9 +18,10 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/AC/SignalMethod
+      - {working-directory: Strategies/AC/SignalMethod, run: docker-compose run $DCA AC1_SignalMethod}
+      - {working-directory: Strategies/AC/SignalMethod, run: docker-compose run $DCA AC5_SignalMethod}
+      - {working-directory: Strategies/AC/SignalMethod, run: docker-compose run $DCA AC15_SignalMethod}
+      - {working-directory: Strategies/AC/SignalMethod, run: docker-compose run $DCA AC30_SignalMethod}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -34,6 +35,8 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-Stops:
     needs: Optimize-SignalMethod
     runs-on: ubuntu-latest
