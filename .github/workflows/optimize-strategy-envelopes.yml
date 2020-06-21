@@ -18,20 +18,18 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_MA_Period_M1}
-      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_MA_Period_M5}
-      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_MA_Period_M15}
-      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_MA_Period_M30}
-      - run: docker system prune --force --volumes
-      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_Deviation_M1}
-      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_Deviation_M5}
-      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_Deviation_M15}
-      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_Deviation_M30}
-      - run: docker system prune --force --volumes
-      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_Applied_Price}
-      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_SignalLevel}
-      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_MA_Shift}
-      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run Envelopes_Shift}
+      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run $DCA Envelopes_MA_Period_M1}
+      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run $DCA Envelopes_MA_Period_M5}
+      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run $DCA Envelopes_MA_Period_M15}
+      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run $DCA Envelopes_MA_Period_M30}
+      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run $DCA Envelopes_Deviation_M1}
+      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run $DCA Envelopes_Deviation_M5}
+      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run $DCA Envelopes_Deviation_M15}
+      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run $DCA Envelopes_Deviation_M30}
+      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run $DCA Envelopes_Applied_Price}
+      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run $DCA Envelopes_SignalLevel}
+      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run $DCA Envelopes_MA_Shift}
+      - {working-directory: Strategies/Envelopes/Indicator, run: docker-compose run $DCA Envelopes_Shift}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -45,6 +43,8 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-Stops:
     needs: Optimize-Indicator
     runs-on: ubuntu-latest
@@ -53,8 +53,8 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - {working-directory: Strategies/Envelopes/Stops, run: docker-compose run Envelopes_TrailingStopMethod}
-      - {working-directory: Strategies/Envelopes/Stops, run: docker-compose run Envelopes_TrailingProfitMethod}
+      - {working-directory: Strategies/Envelopes/Stops, run: docker-compose run $DCA Envelopes_TrailingStopMethod}
+      - {working-directory: Strategies/Envelopes/Stops, run: docker-compose run $DCA Envelopes_TrailingProfitMethod}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -68,6 +68,8 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-SignalMethod:
     needs: Optimize-Stops
     runs-on: ubuntu-latest
@@ -76,10 +78,10 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - {working-directory: Strategies/Envelopes/SignalMethod, run: docker-compose run Envelopes1_SignalMethod}
-      - {working-directory: Strategies/Envelopes/SignalMethod, run: docker-compose run Envelopes5_SignalMethod}
-      - {working-directory: Strategies/Envelopes/SignalMethod, run: docker-compose run Envelopes15_SignalMethod}
-      - {working-directory: Strategies/Envelopes/SignalMethod, run: docker-compose run Envelopes30_SignalMethod}
+      - {working-directory: Strategies/Envelopes/SignalMethod, run: docker-compose run $DCA Envelopes1_SignalMethod}
+      - {working-directory: Strategies/Envelopes/SignalMethod, run: docker-compose run $DCA Envelopes5_SignalMethod}
+      - {working-directory: Strategies/Envelopes/SignalMethod, run: docker-compose run $DCA Envelopes15_SignalMethod}
+      - {working-directory: Strategies/Envelopes/SignalMethod, run: docker-compose run $DCA Envelopes30_SignalMethod}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -101,7 +103,7 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - {working-directory: Strategies/Envelopes/Timeframes, run: docker-compose run Envelopes_Active_Tf}
+      - {working-directory: Strategies/Envelopes/Timeframes, run: docker-compose run $DCA Envelopes_Active_Tf}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -115,3 +117,5 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
