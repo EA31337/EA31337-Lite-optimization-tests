@@ -22,10 +22,12 @@ jobs:
       - {working-directory: Strategies/Bands/Indicator, run: docker-compose run Bands_Period_M5}
       - {working-directory: Strategies/Bands/Indicator, run: docker-compose run Bands_Period_M15}
       - {working-directory: Strategies/Bands/Indicator, run: docker-compose run Bands_Period_M30}
+      - run: docker system prune --force --volumes
       - {working-directory: Strategies/Bands/Indicator, run: docker-compose run Bands_Deviation_M1}
       - {working-directory: Strategies/Bands/Indicator, run: docker-compose run Bands_Deviation_M5}
       - {working-directory: Strategies/Bands/Indicator, run: docker-compose run Bands_Deviation_M15}
       - {working-directory: Strategies/Bands/Indicator, run: docker-compose run Bands_Deviation_M30}
+      - run: docker system prune --force --volumes
       - {working-directory: Strategies/Bands/Indicator, run: docker-compose run Bands_Applied_Price}
       - {working-directory: Strategies/Bands/Indicator, run: docker-compose run Bands_SignalLevel}
       - {working-directory: Strategies/Bands/Indicator, run: docker-compose run Bands_HShift}
