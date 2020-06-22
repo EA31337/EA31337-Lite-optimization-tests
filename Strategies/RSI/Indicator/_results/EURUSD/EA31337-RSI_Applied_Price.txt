@@ -2,20 +2,20 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            4  4284.41         2281          1.13            1.88    3200.69       3.19 RSI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-            6 -3084.63         4439          0.93           -0.69    3500.61       3.50 RSI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-            5 -3476.02         4356          0.92           -0.80    3944.04       3.94 RSI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-            1 -3478.93         3113          0.89           -1.12    3957.27       3.95 RSI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-            2 -3773.88         3257          0.89           -1.16    4102.37       4.10 RSI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-            7 -3917.90         4268          0.91           -0.92    4401.72       4.39 RSI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-            3 -6863.63         2713          0.82           -2.53    9378.74       9.19 RSI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+            4  -469.96         3299          0.97           -0.14    2212.43       2.18 RSI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+            1 -1551.21         3997          0.92           -0.39    2343.26       2.33 RSI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+            2 -1654.27         4338          0.92           -0.38    2673.76       2.65 RSI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            5 -1977.51         4595          0.91           -0.43    2969.71       2.94 RSI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+            6 -2400.08         4715          0.89           -0.51    3393.60       3.36 RSI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+            7 -2575.51         4660          0.88           -0.55    3534.67       3.50 RSI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+            3 -2897.06         5300          0.85           -0.55    3307.92       3.30 RSI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
