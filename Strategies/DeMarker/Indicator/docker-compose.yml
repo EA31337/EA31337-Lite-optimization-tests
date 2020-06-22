@@ -9,8 +9,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M1
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params DeMarker_Period_M1
         $$(get_max 2 $$(bc <<< "$$(input_get DeMarker_Period_M1) - 2 * 8"))
@@ -27,8 +28,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M5
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params DeMarker_Period_M5
         $$(get_max 2 $$(bc <<< "$$(input_get DeMarker_Period_M5) - 2 * 8"))
@@ -45,8 +47,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M15
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params DeMarker_Period_M15
         $$(get_max 2 $$(bc <<< "$$(input_get DeMarker_Period_M15) - 2 * 8"))
@@ -63,8 +66,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M30
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params DeMarker_Period_M30
         $$(get_max 2 $$(bc <<< "$$(input_get DeMarker_Period_M30) - 2 * 8"))
@@ -81,7 +85,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params DeMarker_SignalLevel
         $$(bc <<< "$$(input_get DeMarker_SignalLevel) - 0.1 * 5")
@@ -98,7 +103,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params DeMarker_Shift
         $$(bc <<< "$$(input_get DeMarker_Shift) - 1 * 4")
