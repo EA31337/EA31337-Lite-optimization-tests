@@ -30,7 +30,7 @@ services:
       BT_PERIOD: M5
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: >
-        set_opt_paramsADX_Period_M5
+        set_opt_params ADX_Period_M5
         $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M5) - 2 * 4"))
         $$(bc <<< "$$(input_get ADX_Period_M5) + 2 * 4")
         2
