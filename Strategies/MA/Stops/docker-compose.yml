@@ -9,9 +9,10 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: MA_TrailingStopMethod
+      BT_MONTHS: 6-12
       RUN_ON_SET: set_opt_params MA_TrailingStopMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-MA_TrailingStopMethod.set
+      SET_PARAMS: MA_TrailingStopMethod
       TEST_REPORT_NAME: EA31337-MA_TrailingStopMethod
   MA_TrailingProfitMethod:
     command: run_backtest -v
@@ -21,6 +22,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: MA_TrailingProfitMethod
       RUN_ON_SET: set_opt_params MA_TrailingProfitMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-MA_TrailingProfitMethod.set

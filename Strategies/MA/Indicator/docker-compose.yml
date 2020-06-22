@@ -9,9 +9,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: MA_Periods
-      RUN_ON_SET: for p in Fast Medium Slow; do set_opt_params "MA_Period_$${p}" $$(bc <<< "$$(input_get MA_Period_$${p}) - 2") $$(bc <<< "$$(input_get MA_Period_$${p}) + 2") 2; done
+      BT_MONTHS: 8-12
+      RUN_ON_SET: >
+        for p in Fast Medium Slow; do
+          set_opt_params "MA_Period_$${p}"
+            $$(bc <<< "$$(input_get MA_Period_$${p}) - 2")
+            $$(bc <<< "$$(input_get MA_Period_$${p}) + 2")
+            2;
+        done
       SETFILE: /opt/sets/EA31337-MA_Periods.set
+      SET_PARAMS: MA_Periods
       TEST_REPORT_NAME: EA31337-MA_Periods
   MA_Applied_Price:
     command: run_backtest -v
@@ -21,9 +28,10 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: MA_Applied_Price
+      BT_MONTHS: 6-12
       RUN_ON_SET: set_opt_params MA_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-MA_Applied_Price.set
+      SET_PARAMS: MA_Applied_Price
       TEST_REPORT_NAME: EA31337-MA_Applied_Price
   MA_SignalLevel:
     command: run_backtest -v
@@ -33,9 +41,14 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: MA_SignalLevel
-      RUN_ON_SET: set_opt_params MA_SignalLevel $$(bc <<< "$$(input_get MA_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get MA_SignalLevel) + 0.1 * 2") 0.1
+      BT_MONTHS: 6-12
+      RUN_ON_SET: >
+        set_opt_params MA_SignalLevel
+          $$(bc <<< "$$(input_get MA_SignalLevel) - 0.1 * 2")
+          $$(bc <<< "$$(input_get MA_SignalLevel) + 0.1 * 2")
+          0.1
       SETFILE: /opt/sets/EA31337-MA_SignalLevel.set
+      SET_PARAMS: MA_SignalLevel
       TEST_REPORT_NAME: EA31337-MA_SignalLevel
   MA_Shift:
     command: run_backtest -v
@@ -45,10 +58,14 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: MA_Shift
-      RUN_ON_SET: set_opt_params MA_Shift $$(bc <<< "$$(input_get MA_Shift) - 1 * 2") $$(bc <<< "$$(input_get MA_Shift) + 1 * 2")
+      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      RUN_ON_SET: >
+        set_opt_params MA_Shift
+        $$(bc <<< "$$(input_get MA_Shift) - 1 * 2")
+        $$(bc <<< "$$(input_get MA_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-MA_Shift.set
+      SET_PARAMS: MA_Shift
       TEST_REPORT_NAME: EA31337-MA_Shift
   MA_Shift_Fast:
     command: run_backtest -v
@@ -58,10 +75,14 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: MA_Shift_Fast
-      RUN_ON_SET: set_opt_params MA_Shift_Fast $$(bc <<< "$$(input_get MA_Shift_Fast) - 1 * 2") $$(bc <<< "$$(input_get MA_Shift_Fast) + 1 * 2")
+      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      RUN_ON_SET: >
+        set_opt_params MA_Shift_Fast
+        $$(bc <<< "$$(input_get MA_Shift_Fast) - 1 * 2")
+        $$(bc <<< "$$(input_get MA_Shift_Fast) + 1 * 2")
       SETFILE: /opt/sets/EA31337-MA_Shift_Fast.set
+      SET_PARAMS: MA_Shift_Fast
       TEST_REPORT_NAME: EA31337-MA_Shift_Fast
   MA_Shift_Medium:
     command: run_backtest -v
@@ -71,10 +92,14 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: MA_Shift_Medium
-      RUN_ON_SET: set_opt_params MA_Shift_Medium $$(bc <<< "$$(input_get MA_Shift_Medium) - 1 * 2") $$(bc <<< "$$(input_get MA_Shift_Medium) + 1 * 2")
+      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      RUN_ON_SET: >
+        set_opt_params MA_Shift_Medium
+        $$(bc <<< "$$(input_get MA_Shift_Medium) - 1 * 2")
+        $$(bc <<< "$$(input_get MA_Shift_Medium) + 1 * 2")
       SETFILE: /opt/sets/EA31337-MA_Shift_Medium.set
+      SET_PARAMS: MA_Shift_Medium
       TEST_REPORT_NAME: EA31337-MA_Shift_Medium
   MA_Shift_Slow:
     command: run_backtest -v
@@ -84,8 +109,12 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: MA_Shift_Slow
-      RUN_ON_SET: set_opt_params MA_Shift_Slow $$(bc <<< "$$(input_get MA_Shift_Slow) - 1 * 2") $$(bc <<< "$$(input_get MA_Shift_Slow) + 1 * 2")
+      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      RUN_ON_SET: >
+        set_opt_params MA_Shift_Slow
+        $$(bc <<< "$$(input_get MA_Shift_Slow) - 1 * 2")
+        $$(bc <<< "$$(input_get MA_Shift_Slow) + 1 * 2")
       SETFILE: /opt/sets/EA31337-MA_Shift_Slow.set
+      SET_PARAMS: MA_Shift_Slow
       TEST_REPORT_NAME: EA31337-MA_Shift_Slow
