@@ -9,8 +9,10 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: Bands_TrailingStopMethod
       RUN_ON_SET: set_opt_params Bands_TrailingStopMethod 1 -25 0
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       SETFILE: /opt/sets/EA31337-Bands_TrailingStopMethod.set
       TEST_REPORT_NAME: EA31337-Bands_TrailingStopMethod
   Bands_TrailingProfitMethod:
@@ -21,7 +23,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: Bands_TrailingProfitMethod
       RUN_ON_SET: set_opt_params Bands_TrailingProfitMethod 1 -25 0
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       SETFILE: /opt/sets/EA31337-Bands_TrailingProfitMethod.set
       TEST_REPORT_NAME: EA31337-Bands_TrailingProfitMethod
