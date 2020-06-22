@@ -9,9 +9,11 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: CCI_TrailingStopMethod
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: set_opt_params CCI_TrailingStopMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-CCI_TrailingStopMethod.set
+      SET_PARAMS: CCI_TrailingStopMethod
       TEST_REPORT_NAME: EA31337-CCI_TrailingStopMethod
   CCI_TrailingProfitMethod:
     command: run_backtest -v
@@ -21,7 +23,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: CCI_TrailingProfitMethod
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: set_opt_params CCI_TrailingProfitMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-CCI_TrailingProfitMethod.set
+      SET_PARAMS: CCI_TrailingProfitMethod
       TEST_REPORT_NAME: EA31337-CCI_TrailingProfitMethod
