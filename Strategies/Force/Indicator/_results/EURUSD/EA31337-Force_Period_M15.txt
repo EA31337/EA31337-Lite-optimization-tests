@@ -2,22 +2,22 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          15 Minutes (M15) 2018.01.03 01:00 - 2018.12.30 23:45 (2018.01.01 - 2018.12.31)
+                            Period          15 Minutes (M15) 2019.01.02 23:00 - 2019.12.30 23:45 (2019.01.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            5 -4218.77         5066          0.84           -0.83    4343.97       4.34 Force_Period_M15=12; MaxOrders=0; MaxOrdersPerType=0;
-            9 -4221.69         4305          0.84           -0.98    4463.91       4.46 Force_Period_M15=20; MaxOrders=0; MaxOrdersPerType=0;
-            8 -4273.89         4435          0.84           -0.96    4462.00       4.46 Force_Period_M15=18; MaxOrders=0; MaxOrdersPerType=0;
-            7 -4305.98         4619          0.84           -0.93    4423.99       4.42 Force_Period_M15=16; MaxOrders=0; MaxOrdersPerType=0;
-            6 -4551.45         4859          0.83           -0.94    4681.25       4.68 Force_Period_M15=14; MaxOrders=0; MaxOrdersPerType=0;
-            4 -4831.27         5235          0.82           -0.92    5008.11       5.01 Force_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
-            2 -5123.36         5975          0.81           -0.86    5285.88       5.28  Force_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
-            3 -5300.77         5626          0.80           -0.94    5472.98       5.47  Force_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
-            1 -5415.16         6552          0.80           -0.83    5501.15       5.50  Force_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            5 -296.69         1059          0.96           -0.28    1000.61       1.00 Force_Period_M15=12; MaxOrders=0; MaxOrdersPerType=0;
+            6 -338.77         1051          0.96           -0.32     907.92       0.90 Force_Period_M15=14; MaxOrders=0; MaxOrdersPerType=0;
+            7 -348.25         1063          0.96           -0.33     898.88       0.90 Force_Period_M15=16; MaxOrders=0; MaxOrdersPerType=0;
+            4 -376.41         1049          0.95           -0.36     988.83       0.98 Force_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
+            3 -376.34         1052          0.95           -0.36     920.12       0.92  Force_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
+            8 -424.06         1063          0.95           -0.40     936.06       0.93 Force_Period_M15=18; MaxOrders=0; MaxOrdersPerType=0;
+            9 -456.55         1081          0.94           -0.42     992.23       0.99 Force_Period_M15=20; MaxOrders=0; MaxOrdersPerType=0;
+            1 -609.63         1066          0.93           -0.57     944.66       0.94  Force_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
+            2 -628.02         1062          0.92           -0.59     978.23       0.98  Force_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
