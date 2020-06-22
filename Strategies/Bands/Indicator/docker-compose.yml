@@ -13,8 +13,8 @@ services:
       SET_PARAMS: Bands_Deviation_M1
       RUN_ON_SET: >
         set_opt_params Bands_Deviation_M1
-        $$(bc <<< "$$(input_get Bands_Deviation_M1) - 0.1 * 5")
-        $$(bc <<< "$$(input_get Bands_Deviation_M1) + 0.1 * 5")
+        $$(bc <<< "$$(input_get Bands_Deviation_M1) - 0.1 * 4")
+        $$(bc <<< "$$(input_get Bands_Deviation_M1) + 0.1 * 4")
         0.1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M1.set
@@ -32,8 +32,8 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params Bands_Deviation_M5
-        $$(bc <<< "$$(input_get Bands_Deviation_M5) - 0.1 * 5")
-        $$(bc <<< "$$(input_get Bands_Deviation_M5) + 0.1 * 5")
+        $$(bc <<< "$$(input_get Bands_Deviation_M5) - 0.1 * 4")
+        $$(bc <<< "$$(input_get Bands_Deviation_M5) + 0.1 * 4")
         0.1
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M5.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M5
@@ -49,8 +49,8 @@ services:
       SET_PARAMS: Bands_Deviation_M15
       RUN_ON_SET: >
         set_opt_params Bands_Deviation_M15
-        $$(bc <<< "$$(input_get Bands_Deviation_M15) - 0.1 * 5")
-        $$(bc <<< "$$(input_get Bands_Deviation_M15) + 0.1 * 5")
+        $$(bc <<< "$$(input_get Bands_Deviation_M15) - 0.1 * 4")
+        $$(bc <<< "$$(input_get Bands_Deviation_M15) + 0.1 * 4")
         0.1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M15.set
@@ -66,8 +66,8 @@ services:
       SET_PARAMS: Bands_Deviation_M30
       RUN_ON_SET: >
         set_opt_params Bands_Deviation_M30
-        $$(bc <<< "$$(input_get Bands_Deviation_M30) - 0.1 * 5")
-        $$(bc <<< "$$(input_get Bands_Deviation_M30) + 0.1 * 5")
+        $$(bc <<< "$$(input_get Bands_Deviation_M30) - 0.1 * 4")
+        $$(bc <<< "$$(input_get Bands_Deviation_M30) + 0.1 * 4")
         0.1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M30.set
