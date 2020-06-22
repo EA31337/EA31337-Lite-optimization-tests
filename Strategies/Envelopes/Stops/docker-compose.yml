@@ -9,6 +9,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       SET_PARAMS: Envelopes_TrailingStopMethod
       RUN_ON_SET: set_opt_params Envelopes_TrailingStopMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-Envelopes_TrailingStopMethod.set
@@ -21,6 +23,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       SET_PARAMS: Envelopes_TrailingProfitMethod
       RUN_ON_SET: set_opt_params Envelopes_TrailingProfitMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-Envelopes_TrailingProfitMethod.set

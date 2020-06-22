@@ -9,6 +9,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      BT_PERIOD: M1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params Envelopes_Deviation_M1
         $$(bc <<< "$$(input_get Envelopes_Deviation_M1) - 0.1 * 2")
@@ -25,6 +28,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      BT_PERIOD: M5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params Envelopes_Deviation_M5
         $$(bc <<< "$$(input_get Envelopes_Deviation_M5) - 0.1 * 2")
@@ -41,6 +47,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      BT_PERIOD: M15
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params Envelopes_Deviation_M15
         $$(bc <<< "$$(input_get Envelopes_Deviation_M15) - 0.1 * 2")
@@ -57,6 +66,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      BT_PERIOD: M30
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params Envelopes_Deviation_M30
         $$(bc <<< "$$(input_get Envelopes_Deviation_M30) - 0.1 * 2")
@@ -73,7 +85,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params Envelopes_MA_Period_M1
         $$(get_max 2 $$(bc <<< "$$(input_get Envelopes_MA_Period_M1) - 2 * 4"))
@@ -90,7 +104,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params Envelopes_MA_Period_M5
         $$(get_max 2 $$(bc <<< "$$(input_get Envelopes_MA_Period_M5) - 2 * 4"))
@@ -107,7 +123,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M15
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params Envelopes_MA_Period_M15
         $$(get_max 2 $$(bc <<< "$$(input_get Envelopes_MA_Period_M15) - 2 * 4"))
@@ -124,7 +142,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M30
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params Envelopes_MA_Period_M30
         $$(get_max 2 $$(bc <<< "$$(input_get Envelopes_MA_Period_M30) - 2 * 4"))
@@ -141,6 +161,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: set_opt_params Envelopes_MA_Method 0 3
       SETFILE: /opt/sets/EA31337-Envelopes_MA_Method.set
       SET_PARAMS: Envelopes_MA_Method
@@ -153,6 +175,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params Envelopes_MA_Shift
         $$(get_max 0 $$(bc <<< "$$(input_get Envelopes_MA_Shift) - 1 * 4"))
@@ -168,6 +192,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params Envelopes_Shift
         $$(get_max 0 $$(bc <<< "$$(input_get Envelopes_Shift) - 1 * 4"))
@@ -183,6 +209,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: set_opt_params Envelopes_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-Envelopes_Applied_Price.set
       SET_PARAMS: Envelopes_Applied_Price
@@ -195,6 +223,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params Envelopes_SignalLevel
         $$(bc <<< "$$(input_get Envelopes_SignalLevel) - 0.1 * 2")
