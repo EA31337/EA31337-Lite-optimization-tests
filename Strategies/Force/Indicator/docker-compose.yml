@@ -12,7 +12,11 @@ services:
       BT_PERIOD: M1
       SETFILE: /opt/sets/EA31337-Force_Period_M1.set
       SET_PARAMS: Force_Period_M1
-      RUN_ON_SET: set_opt_params Force_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get Force_Period_M1) - 2 * 4")) $$(bc <<< "$$(input_get Force_Period_M1) + 2 * 4") 2
+      RUN_ON_SET: >
+        set_opt_params Force_Period_M1
+        $$(get_max 2 $$(bc <<< "$$(input_get Force_Period_M1) - 2 * 4"))
+        $$(bc <<< "$$(input_get Force_Period_M1) + 2 * 4")
+        2
       TEST_REPORT_NAME: EA31337-Force_Period_M1
   Force_Period_M5:
     command: run_backtest -v
@@ -25,7 +29,11 @@ services:
       BT_PERIOD: M5
       SET_PARAMS: Force_Period_M5
       SETFILE: /opt/sets/EA31337-Force_Period_M5.set
-      RUN_ON_SET: set_opt_params Force_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get Force_Period_M5) - 2 * 4")) $$(bc <<< "$$(input_get Force_Period_M5) + 2 * 4") 2
+      RUN_ON_SET: >
+        set_opt_params Force_Period_M5
+        $$(get_max 2 $$(bc <<< "$$(input_get Force_Period_M5) - 2 * 4"))
+        $$(bc <<< "$$(input_get Force_Period_M5) + 2 * 4")
+        2
       TEST_REPORT_NAME: EA31337-Force_Period_M5
   Force_Period_M15:
     command: run_backtest -v
@@ -38,7 +46,11 @@ services:
       BT_PERIOD: M15
       SET_PARAMS: Force_Period_M15
       SETFILE: /opt/sets/EA31337-Force_Period_M15.set
-      RUN_ON_SET: set_opt_params Force_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get Force_Period_M15) - 2 * 4")) $$(bc <<< "$$(input_get Force_Period_M15) + 2 * 4") 2
+      RUN_ON_SET: >
+        set_opt_params Force_Period_M15
+        $$(get_max 2 $$(bc <<< "$$(input_get Force_Period_M15) - 2 * 4"))
+        $$(bc <<< "$$(input_get Force_Period_M15) + 2 * 4")
+        2
       TEST_REPORT_NAME: EA31337-Force_Period_M15
   Force_Period_M30:
     command: run_backtest -v
@@ -51,7 +63,11 @@ services:
       BT_PERIOD: M30
       SET_PARAMS: Force_Period_M30
       SETFILE: /opt/sets/EA31337-Force_Period_M30.set
-      RUN_ON_SET: set_opt_params Force_Period_M30 $$(get_max 2 $$(bc <<< "$$(input_get Force_Period_M30) - 2 * 4")) $$(bc <<< "$$(input_get Force_Period_M30) + 2 * 4") 2
+      RUN_ON_SET: >
+        set_opt_params Force_Period_M30
+        $$(get_max 2 $$(bc <<< "$$(input_get Force_Period_M30) - 2 * 4"))
+        $$(bc <<< "$$(input_get Force_Period_M30) + 2 * 4")
+        2
       TEST_REPORT_NAME: EA31337-Force_Period_M30
   Force_MA_Method:
     command: run_backtest -v
@@ -74,7 +90,10 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: Force_Shift
-      RUN_ON_SET: set_opt_params Force_Shift $$(bc <<< "$$(input_get Force_Shift) - 1 * 2") $$(bc <<< "$$(input_get Force_Shift) + 1 * 2")
+      RUN_ON_SET: >
+        set_opt_params Force_Shift
+        $$(bc <<< "$$(input_get Force_Shift) - 1 * 2")
+        $$(bc <<< "$$(input_get Force_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-Force_Shift.set
       TEST_REPORT_NAME: EA31337-Force_Shift
   Force_Applied_Price:
@@ -98,6 +117,10 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: Force_SignalLevel
-      RUN_ON_SET: set_opt_params Force_SignalLevel $$(bc <<< "$$(input_get Force_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get Force_SignalLevel) + 0.1 * 2") 0.1
+      RUN_ON_SET: >
+        set_opt_params Force_SignalLevel
+        $$(bc <<< "$$(input_get Force_SignalLevel) - 0.1 * 2")
+        $$(bc <<< "$$(input_get Force_SignalLevel) + 0.1 * 2")
+        0.1
       SETFILE: /opt/sets/EA31337-Force_SignalLevel.set
       TEST_REPORT_NAME: EA31337-Force_SignalLevel
