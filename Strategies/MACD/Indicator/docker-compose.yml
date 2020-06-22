@@ -13,10 +13,10 @@ services:
       SET_PARAMS: MACD_Period_Fast,MACD_Period_Slow,MACD_Period_Signal
       RUN_ON_SET: >
         for p in Fast Slow Signal; do
-          set_opt_params "MACD_Period_$${p}"
-            $$(get_max 1 $$(bc <<< "$$(input_get MACD_Period_$${p}) - 8"))
-            $$(get_max 1 $$(bc <<< "$$(input_get MACD_Period_$${p}) + 8"))
-            4;
+        set_opt_params "MACD_Period_$${p}"
+        $$(get_max 1 $$(bc <<< "$$(input_get MACD_Period_$${p}) - 8"))
+        $$(get_max 1 $$(bc <<< "$$(input_get MACD_Period_$${p}) + 8"))
+        4;
         done
       SETFILE: /opt/sets/EA31337-MACD_Periods.set
       TEST_REPORT_NAME: EA31337-MACD_Periods
@@ -46,9 +46,9 @@ services:
       SET_PARAMS: MACD_SignalLevel
       RUN_ON_SET: >
         set_opt_params MACD_SignalLevel
-          $$(bc <<< "$$(input_get MACD_SignalLevel) - 0.1 * 2")
-          $$(bc <<< "$$(input_get MACD_SignalLevel) + 0.1 * 2")
-          0.1
+        $$(bc <<< "$$(input_get MACD_SignalLevel) - 0.1 * 2")
+        $$(bc <<< "$$(input_get MACD_SignalLevel) + 0.1 * 2")
+        0.1
       SETFILE: /opt/sets/EA31337-MACD_SignalLevel.set
       TEST_REPORT_NAME: EA31337-MACD_SignalLevel
   MACD_Shift:
@@ -63,8 +63,8 @@ services:
       SET_PARAMS: MACD_Shift
       RUN_ON_SET: >
         set_opt_params MACD_Shift
-          $$(bc <<< "$$(input_get MACD_Shift) - 1 * 2")
-          $$(bc <<< "$$(input_get MACD_Shift) + 1 * 2")
+        $$(bc <<< "$$(input_get MACD_Shift) - 1 * 2")
+        $$(bc <<< "$$(input_get MACD_Shift) + 1 * 2")
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SETFILE: /opt/sets/EA31337-MACD_Shift.set
       TEST_REPORT_NAME: EA31337-MACD_Shift

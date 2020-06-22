@@ -12,10 +12,10 @@ services:
       BT_MONTHS: 8-12
       RUN_ON_SET: >
         for p in Jaw Teeth Lips; do
-          set_opt_params "Alligator_Period_$${p}"
-            $$(bc <<< "$$(input_get Alligator_Period_$${p}) - 8")
-            $$(bc <<< "$$(input_get Alligator_Period_$${p}) + 8")
-            4;
+        set_opt_params "Alligator_Period_$${p}"
+        $$(bc <<< "$$(input_get Alligator_Period_$${p}) - 8")
+        $$(bc <<< "$$(input_get Alligator_Period_$${p}) + 8")
+        4;
         done
       SETFILE: /opt/sets/EA31337-Alligator_Periods.set
       SET_PARAMS: Alligator_Period_Jaw,Alligator_Period_Teeth,Alligator_Lips
@@ -44,9 +44,9 @@ services:
       BT_MONTHS: 6-12
       RUN_ON_SET: >
         set_opt_params Alligator_SignalLevel
-          $$(bc <<< "$$(input_get Alligator_SignalLevel) - 0.1 * 2")
-          $$(bc <<< "$$(input_get Alligator_SignalLevel) + 0.1 * 2")
-          0.1
+        $$(bc <<< "$$(input_get Alligator_SignalLevel) - 0.1 * 2")
+        $$(bc <<< "$$(input_get Alligator_SignalLevel) + 0.1 * 2")
+        0.1
       SETFILE: /opt/sets/EA31337-Alligator_SignalLevel.set
       SET_PARAMS: Alligator_SignalLevel
       TEST_REPORT_NAME: EA31337-Alligator_SignalLevel
@@ -61,10 +61,10 @@ services:
       BT_MONTHS: 6-12
       RUN_ON_SET: >
         for p in Shift_Jaw Shift_Teeth Shift_Lips Shift; do
-          set_opt_params "Alligator_$${p}"
-            $$(bc <<< "$$(input_get Alligator_$${p}) - 1")
-            $$(bc <<< "$$(input_get Alligator_$${p}) + 1")
-            1;
+        set_opt_params "Alligator_$${p}"
+        $$(bc <<< "$$(input_get Alligator_$${p}) - 1")
+        $$(bc <<< "$$(input_get Alligator_$${p}) + 1")
+        1;
         done
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=1
       SETFILE: /opt/sets/EA31337-Alligator_Shift.set

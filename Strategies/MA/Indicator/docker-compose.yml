@@ -12,10 +12,10 @@ services:
       BT_MONTHS: 8-12
       RUN_ON_SET: >
         for p in Fast Medium Slow; do
-          set_opt_params "MA_Period_$${p}"
-            $$(bc <<< "$$(input_get MA_Period_$${p}) - 2")
-            $$(bc <<< "$$(input_get MA_Period_$${p}) + 2")
-            2;
+        set_opt_params "MA_Period_$${p}"
+        $$(bc <<< "$$(input_get MA_Period_$${p}) - 2")
+        $$(bc <<< "$$(input_get MA_Period_$${p}) + 2")
+        2;
         done
       SETFILE: /opt/sets/EA31337-MA_Periods.set
       SET_PARAMS: MA_Periods
@@ -44,9 +44,9 @@ services:
       BT_MONTHS: 6-12
       RUN_ON_SET: >
         set_opt_params MA_SignalLevel
-          $$(bc <<< "$$(input_get MA_SignalLevel) - 0.1 * 2")
-          $$(bc <<< "$$(input_get MA_SignalLevel) + 0.1 * 2")
-          0.1
+        $$(bc <<< "$$(input_get MA_SignalLevel) - 0.1 * 2")
+        $$(bc <<< "$$(input_get MA_SignalLevel) + 0.1 * 2")
+        0.1
       SETFILE: /opt/sets/EA31337-MA_SignalLevel.set
       SET_PARAMS: MA_SignalLevel
       TEST_REPORT_NAME: EA31337-MA_SignalLevel
