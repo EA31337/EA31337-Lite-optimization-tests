@@ -30,7 +30,7 @@ RSI30_SignalMethod=0
 RSI_TrailingStopMethod=0
 RSI_TrailingProfitMethod=0
 # Optimization params.
-RSI_Shift=2
+RSI_Shift=4
 RSI_Shift,F=1
 RSI_Shift,1=0
 RSI_Shift,2=0
