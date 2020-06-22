@@ -10,12 +10,12 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M1
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params CCI_Period_M1
         $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M1) - 2 * 8"))
         $$(bc <<< "$$(input_get CCI_Period_M1) + 2 * 8")
-        2
+        4
       SETFILE: /opt/sets/EA31337-CCI_Period_M1.set
       SET_PARAMS: CCI_Period_M1
       TEST_REPORT_NAME: EA31337-CCI_Period_M1
@@ -28,12 +28,12 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M5
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET:
         set_opt_params CCI_Period_M5
         $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M5) - 2 * 4"))
         $$(bc <<< "$$(input_get CCI_Period_M5) + 2 * 4")
-        2
+        4
       SETFILE: /opt/sets/EA31337-CCI_Period_M5.set
       SET_PARAMS: CCI_Period_M5
       TEST_REPORT_NAME: EA31337-CCI_Period_M5
@@ -46,12 +46,12 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M15
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params CCI_Period_M15
         $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M15) - 2 * 4"))
         $$(bc <<< "$$(input_get CCI_Period_M15) + 2 * 4")
-        2
+        4
       SETFILE: /opt/sets/EA31337-CCI_Period_M15.set
       SET_PARAMS: CCI_Period_M15
       TEST_REPORT_NAME: EA31337-CCI_Period_M15
@@ -64,11 +64,12 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M30
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params CCI_Period_M30
         $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M30) - 2 * 4"))
         $$(bc <<< "$$(input_get CCI_Period_M30) + 2 * 4")
-        2
+        4
       SETFILE: /opt/sets/EA31337-CCI_Period_M30.set
       SET_PARAMS: CCI_Period_M30
       TEST_REPORT_NAME: EA31337-CCI_Period_M30
@@ -80,7 +81,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       RUN_ON_SET: set_opt_params CCI_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-CCI_Applied_Price.set
       SET_PARAMS: CCI_Applied_Price
@@ -93,12 +95,13 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       RUN_ON_SET: >
         set_opt_params CCI_SignalLevel
-        $$(bc <<< "$$(input_get CCI_SignalLevel) - 0.1 * 5")
-        $$(bc <<< "$$(input_get CCI_SignalLevel) + 0.1 * 5")
-        0.1
+        $$(bc <<< "$$(input_get CCI_SignalLevel) - 0.1 * 4")
+        $$(bc <<< "$$(input_get CCI_SignalLevel) + 0.1 * 4")
+        0.2
       SETFILE: /opt/sets/EA31337-CCI_SignalLevel.set
       SET_PARAMS: CCI_SignalLevel
       TEST_REPORT_NAME: EA31337-CCI_SignalLevel
@@ -110,10 +113,11 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       RUN_ON_SET: >
         set_opt_params CCI_Shift
-        $$(get_max 1 $$(bc <<< "$$(input_get CCI_Shift) - 1 * 2"))
+        $$(get_max 0 $$(bc <<< "$$(input_get CCI_Shift) - 1 * 2"))
         $$(bc <<< "$$(input_get CCI_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-CCI_Shift.set
       SET_PARAMS: CCI_Shift
