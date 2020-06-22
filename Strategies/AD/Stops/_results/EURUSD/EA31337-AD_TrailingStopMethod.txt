@@ -2,19 +2,25 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         4 -2346.64         7905          0.98           -0.30    6530.22      62.06 AD_TrailingStopMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
-         5 -2402.32         7912          0.98           -0.30    6544.03      62.20  AD_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=0;
-         6 -2402.32         7912          0.98           -0.30    6544.03      62.20 AD_TrailingStopMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
-         1 -3159.72         7889          0.97           -0.40    6768.14      64.38   AD_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-         2 -3159.72         7889          0.97           -0.40    6768.14      64.38  AD_TrailingStopMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-         3 -4154.23         8076          0.96           -0.51    7388.26      71.13  AD_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+         1 -2196.39         3131          0.87           -0.70    2525.21       2.52   AD_TrailingStopMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+         2 -2196.39         3131          0.87           -0.70    2525.21       2.52  AD_TrailingStopMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+        11 -2623.01         2948          0.85           -0.89    2949.80       2.95  AD_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+        12 -2623.01         2948          0.85           -0.89    2949.80       2.95 AD_TrailingStopMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
+         9 -2669.18         2718          0.85           -0.98    2981.56       2.98  AD_TrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+        10 -2669.18         2718          0.85           -0.98    2981.56       2.98 AD_TrailingStopMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+         5 -2685.87         2719          0.85           -0.99    2998.26       3.00  AD_TrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+         6 -2685.87         2719          0.85           -0.99    2998.26       3.00 AD_TrailingStopMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+         7 -2689.07         2719          0.85           -0.99    3001.46       3.00  AD_TrailingStopMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+         8 -2689.07         2719          0.85           -0.99    3001.46       3.00 AD_TrailingStopMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
+         3 -2774.91         3367          0.83           -0.82    2886.30       2.89   AD_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+         4 -2774.91         3367          0.83           -0.82    2886.30       2.89  AD_TrailingStopMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
