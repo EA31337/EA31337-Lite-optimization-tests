@@ -10,7 +10,11 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: set_opt_params MA_TrailingStopMethod 1 -25 0
+      RUN_ON_SUCCESS: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-MA_TrailingProfitMethod.set
       SETFILE: /opt/sets/EA31337-MA_TrailingStopMethod.set
       SET_PARAMS: MA_TrailingStopMethod
       TEST_REPORT_NAME: EA31337-MA_TrailingStopMethod
@@ -23,7 +27,8 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      SET_PARAMS: MA_TrailingProfitMethod
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: set_opt_params MA_TrailingProfitMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-MA_TrailingProfitMethod.set
+      SET_PARAMS: MA_TrailingProfitMethod
       TEST_REPORT_NAME: EA31337-MA_TrailingProfitMethod

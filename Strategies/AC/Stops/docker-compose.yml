@@ -11,6 +11,9 @@ services:
     environment:
       BT_MONTHS: 6-12
       RUN_ON_SET: set_opt_params AC_TrailingStopMethod 1 -25 0
+      RUN_ON_SUCCESS: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-AC_TrailingProfitMethod.set
       SETFILE: /opt/sets/EA31337-AC_TrailingStopMethod.set
       SET_PARAMS: AC_TrailingStopMethod
       TEST_REPORT_NAME: EA31337-AC_TrailingStopMethod

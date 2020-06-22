@@ -10,8 +10,11 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: set_opt_params DeMarker_TrailingStopMethod 1 -25 0
+      RUN_ON_SUCCESS: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-DeMarker_TrailingProfitMethod.set
       SETFILE: /opt/sets/EA31337-DeMarker_TrailingStopMethod.set
       SET_PARAMS: DeMarker_TrailingStopMethod
       TEST_REPORT_NAME: EA31337-DeMarker_TrailingStopMethod
@@ -24,7 +27,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: set_opt_params DeMarker_TrailingProfitMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-DeMarker_TrailingProfitMethod.set
       SET_PARAMS: DeMarker_TrailingProfitMethod
