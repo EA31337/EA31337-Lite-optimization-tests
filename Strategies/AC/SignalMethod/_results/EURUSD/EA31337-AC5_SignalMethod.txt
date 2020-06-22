@@ -2,16 +2,16 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            3 -1180.04          805          0.70           -1.47    1501.54      14.75  AC5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-            1 -2850.84         2010          0.72           -1.42    3048.37      29.91 AC5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-            2 -2850.84         2010          0.72           -1.42    3048.37      29.91  AC5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+            1 -3127.64         3732          0.52           -0.84    3145.84       3.15 AC5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+            2 -3127.64         3732          0.52           -0.84    3145.84       3.15  AC5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+            3 -3127.64         3732          0.52           -0.84    3145.84       3.15  AC5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;

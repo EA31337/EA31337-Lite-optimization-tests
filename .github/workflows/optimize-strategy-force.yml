@@ -18,13 +18,19 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/Force/Indicator
+      - {working-directory: Strategies/Force/Indicator, run: docker-compose run $DCA Force_Period_M1}
+      - {working-directory: Strategies/Force/Indicator, run: docker-compose run $DCA Force_Period_M5}
+      - {working-directory: Strategies/Force/Indicator, run: docker-compose run $DCA Force_Period_M15}
+      - {working-directory: Strategies/Force/Indicator, run: docker-compose run $DCA Force_Period_M30}
+      - {working-directory: Strategies/Force/Indicator, run: docker-compose run $DCA Force_MA_Method}
+      - {working-directory: Strategies/Force/Indicator, run: docker-compose run $DCA Force_Applied_Price}
+      - {working-directory: Strategies/Force/Indicator, run: docker-compose run $DCA Force_SignalLevel}
+      - {working-directory: Strategies/Force/Indicator, run: docker-compose run $DCA Force_Shift}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
+          git pull origin ${{ github.ref }} --rebase --autostash
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -33,6 +39,8 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-Stops:
     needs: Optimize-Indicator
     runs-on: ubuntu-latest
@@ -41,13 +49,13 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/Force/Stops
+      - {working-directory: Strategies/Force/Stops, run: docker-compose run $DCA Force_TrailingStopMethod}
+      - {working-directory: Strategies/Force/Stops, run: docker-compose run $DCA Force_TrailingProfitMethod}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
+          git pull origin ${{ github.ref }} --rebase --autostash
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -56,6 +64,8 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-Timeframes:
     needs: Optimize-Stops
     runs-on: ubuntu-latest
@@ -64,13 +74,12 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/Force/Timeframes
+      - {working-directory: Strategies/Force/Timeframes, run: docker-compose run $DCA Force_Active_Tf}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
+          git pull origin ${{ github.ref }} --rebase --autostash
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -79,3 +88,5 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"

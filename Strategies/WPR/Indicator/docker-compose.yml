@@ -9,11 +9,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SET_PARAMS: WPR_Period_M1
       SETFILE: /opt/sets/EA31337-WPR_Period_M1.set
-      RUN_ON_SET: set_opt_params WPR_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M1) - 1 * 8")) $$(bc <<< "$$(input_get WPR_Period_M1) + 1 * 8") 1
+      RUN_ON_SET: >
+        set_opt_params WPR_Period_M1
+        $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M1) - 1 * 8"))
+        $$(bc <<< "$$(input_get WPR_Period_M1) + 1 * 8")
+        1
       # RUN_ON_SUCCESS: input_copy WPR_Period_M1 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_Period_M1
   WPR_Period_M5:
@@ -24,10 +29,15 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M5
       SET_PARAMS: WPR_Period_M5
       SETFILE: /opt/sets/EA31337-WPR_Period_M5.set
-      RUN_ON_SET: set_opt_params WPR_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M5) - 1 * 4")) $$(bc <<< "$$(input_get WPR_Period_M5) + 1 * 4") 1
+      RUN_ON_SET: >
+        set_opt_params WPR_Period_M5
+        $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M5) - 1 * 4"))
+        $$(bc <<< "$$(input_get WPR_Period_M5) + 1 * 4")
+        1
       # RUN_ON_SUCCESS: input_copy WPR_Period_M5 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_Period_M5
   WPR_Period_M15:
@@ -38,10 +48,15 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M15
       SET_PARAMS: WPR_Period_M15
       SETFILE: /opt/sets/EA31337-WPR_Period_M15.set
-      RUN_ON_SET: set_opt_params WPR_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M15) - 1 * 4")) $$(bc <<< "$$(input_get WPR_Period_M15) + 1 * 4") 1
+      RUN_ON_SET: >
+        set_opt_params WPR_Period_M15
+        $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M15) - 1 * 4"))
+        $$(bc <<< "$$(input_get WPR_Period_M15) + 1 * 4")
+        1
       # RUN_ON_SUCCESS: input_copy WPR_Period_M15 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_Period_M15
   WPR_Period_M30:
@@ -52,10 +67,15 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M30
       SET_PARAMS: WPR_Period_M30
       SETFILE: /opt/sets/EA31337-WPR_Period_M30.set
-      RUN_ON_SET: set_opt_params WPR_Period_M30 $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M30) - 2 * 4")) $$(bc <<< "$$(input_get WPR_Period_M30) + 2 * 4") 2
+      RUN_ON_SET: >
+        set_opt_params WPR_Period_M30
+        $$(get_max 2 $$(bc <<< "$$(input_get WPR_Period_M30) - 2 * 4"))
+        $$(bc <<< "$$(input_get WPR_Period_M30) + 2 * 4")
+        2
       # RUN_ON_SUCCESS: input_copy WPR_Period_M30 "$${SETFILE}" /opt/sets/EA31337-WPR_Shift.set /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_Period_M30
   WPR_SignalLevel:
@@ -66,8 +86,13 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: WPR_SignalLevel
-      RUN_ON_SET: set_opt_params WPR_SignalLevel $$(bc <<< "$$(input_get WPR_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get WPR_SignalLevel) + 0.1 * 2") 0.1
+      RUN_ON_SET: >
+        set_opt_params WPR_SignalLevel
+        $$(bc <<< "$$(input_get WPR_SignalLevel) - 0.1 * 2")
+        $$(bc <<< "$$(input_get WPR_SignalLevel) + 0.1 * 2")
+        0.1
       SETFILE: /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_SignalLevel
   WPR_Shift:
@@ -78,7 +103,11 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: WPR_Shift
-      RUN_ON_SET: set_opt_params WPR_Shift $$(bc <<< "$$(input_get WPR_Shift) - 1 * 2") $$(bc <<< "$$(input_get WPR_Shift) + 1 * 2")
+      RUN_ON_SET: >
+        set_opt_params WPR_Shift
+        $$(bc <<< "$$(input_get WPR_Shift) - 1 * 2")
+        $$(bc <<< "$$(input_get WPR_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-WPR_Shift.set
       TEST_REPORT_NAME: EA31337-WPR_Shift

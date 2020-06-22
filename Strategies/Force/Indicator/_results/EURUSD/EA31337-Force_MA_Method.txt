@@ -2,17 +2,17 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-         Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            1 -22790.66        31764          0.82           -0.72   23506.87      23.50 Force_MA_Method=0; MaxOrders=0; MaxOrdersPerType=0;
-            3 -25249.98        30002          0.80           -0.84   26098.06      26.09 Force_MA_Method=2; MaxOrders=0; MaxOrdersPerType=0;
-            4 -26103.23        34692          0.80           -0.75   26931.42      26.93 Force_MA_Method=3; MaxOrders=0; MaxOrdersPerType=0;
-            2 -27032.95        34820          0.79           -0.78   27900.21      27.90 Force_MA_Method=1; MaxOrders=0; MaxOrdersPerType=0;
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1 -1583.74         4353          0.94           -0.36    3584.74       3.52 Force_MA_Method=0; MaxOrders=0; MaxOrdersPerType=0;
+             3 -1681.78         4330          0.93           -0.39    3466.37       3.41 Force_MA_Method=2; MaxOrders=0; MaxOrdersPerType=0;
+             2 -1782.25         4253          0.93           -0.42    3635.14       3.58 Force_MA_Method=1; MaxOrders=0; MaxOrdersPerType=0;
+             4 -1787.76         4244          0.93           -0.42    3718.90       3.66 Force_MA_Method=3; MaxOrders=0; MaxOrdersPerType=0;

@@ -2,22 +2,22 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          15 Minutes (M15) 2018.01.03 01:00 - 2018.12.30 23:45 (2018.01.01 - 2018.12.31)
+                            Period          15 Minutes (M15) 2019.01.02 23:00 - 2019.12.30 23:45 (2019.01.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             5 1427.21          724          1.13            1.97    1397.66      13.83 CCI_Period_M15=18; MaxOrders=0; MaxOrdersPerType=0;
-             6 1158.29          720          1.11            1.61    1204.63      11.91 CCI_Period_M15=20; MaxOrders=0; MaxOrdersPerType=0;
-             7  951.09          709          1.09            1.34    1458.28      14.50 CCI_Period_M15=22; MaxOrders=0; MaxOrdersPerType=0;
-             4  829.29          732          1.07            1.13    1282.22      12.70 CCI_Period_M15=16; MaxOrders=0; MaxOrdersPerType=0;
-             1  825.97          636          1.09            1.30     785.68       7.40 CCI_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
-             3  823.12          710          1.08            1.16    1233.26      12.24 CCI_Period_M15=14; MaxOrders=0; MaxOrdersPerType=0;
-             2  809.31          685          1.08            1.18     974.73       9.65 CCI_Period_M15=12; MaxOrders=0; MaxOrdersPerType=0;
-             9  602.72          709          1.05            0.85    1422.79      14.22 CCI_Period_M15=26; MaxOrders=0; MaxOrdersPerType=0;
-             8  571.17          714          1.05            0.80    1433.98      14.33 CCI_Period_M15=24; MaxOrders=0; MaxOrdersPerType=0;
+             3 -257.02          852          0.96           -0.30     922.82       0.92 CCI_Period_M15=14; MaxOrders=0; MaxOrdersPerType=0;
+             9 -354.81          892          0.95           -0.40     808.93       0.81 CCI_Period_M15=26; MaxOrders=0; MaxOrdersPerType=0;
+             4 -449.72          861          0.94           -0.52     862.25       0.86 CCI_Period_M15=16; MaxOrders=0; MaxOrdersPerType=0;
+             5 -468.23          875          0.94           -0.54     841.67       0.84 CCI_Period_M15=18; MaxOrders=0; MaxOrdersPerType=0;
+             7 -473.23          889          0.93           -0.53     877.23       0.87 CCI_Period_M15=22; MaxOrders=0; MaxOrdersPerType=0;
+             8 -474.81          892          0.94           -0.53     851.03       0.85 CCI_Period_M15=24; MaxOrders=0; MaxOrdersPerType=0;
+             6 -515.18          883          0.93           -0.58     870.20       0.87 CCI_Period_M15=20; MaxOrders=0; MaxOrdersPerType=0;
+             2 -517.08          826          0.92           -0.63    1053.98       1.05 CCI_Period_M15=12; MaxOrders=0; MaxOrdersPerType=0;
+             1 -805.37          782          0.87           -1.03    1064.33       1.06 CCI_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;

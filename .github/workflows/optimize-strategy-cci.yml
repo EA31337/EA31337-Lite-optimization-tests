@@ -18,13 +18,18 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/CCI/Indicator
+      - {working-directory: Strategies/CCI/Indicator, run: docker-compose run $DCA CCI_Period_M1}
+      - {working-directory: Strategies/CCI/Indicator, run: docker-compose run $DCA CCI_Period_M5}
+      - {working-directory: Strategies/CCI/Indicator, run: docker-compose run $DCA CCI_Period_M15}
+      - {working-directory: Strategies/CCI/Indicator, run: docker-compose run $DCA CCI_Period_M30}
+      - {working-directory: Strategies/CCI/Indicator, run: docker-compose run $DCA CCI_Applied_Price}
+      - {working-directory: Strategies/CCI/Indicator, run: docker-compose run $DCA CCI_SignalLevel}
+      - {working-directory: Strategies/CCI/Indicator, run: docker-compose run $DCA CCI_Shift}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
+          git pull origin ${{ github.ref }} --rebase --autostash
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -33,6 +38,8 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-Stops:
     needs: Optimize-Indicator
     runs-on: ubuntu-latest
@@ -41,13 +48,13 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/CCI/Stops
+      - {working-directory: Strategies/CCI/Stops, run: docker-compose run $DCA CCI_TrailingStopMethod}
+      - {working-directory: Strategies/CCI/Stops, run: docker-compose run $DCA CCI_TrailingProfitMethod}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
+          git pull origin ${{ github.ref }} --rebase --autostash
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -56,6 +63,8 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-SignalMethod:
     needs: Optimize-Stops
     runs-on: ubuntu-latest
@@ -64,13 +73,15 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/CCI/SignalMethod
+      - {working-directory: Strategies/CCI/SignalMethod, run: docker-compose run $DCA CCI1_SignalMethod}
+      - {working-directory: Strategies/CCI/SignalMethod, run: docker-compose run $DCA CCI5_SignalMethod}
+      - {working-directory: Strategies/CCI/SignalMethod, run: docker-compose run $DCA CCI15_SignalMethod}
+      - {working-directory: Strategies/CCI/SignalMethod, run: docker-compose run $DCA CCI30_SignalMethod}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
+          git pull origin ${{ github.ref }} --rebase --autostash
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -79,6 +90,8 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-Timeframes:
     needs: Optimize-SignalMethod
     runs-on: ubuntu-latest
@@ -87,13 +100,12 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/CCI/Timeframes
+      - {working-directory: Strategies/CCI/Timeframes, run: docker-compose run $DCA CCI_Active_Tf}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
+          git pull origin ${{ github.ref }} --rebase --autostash
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -102,3 +114,5 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"

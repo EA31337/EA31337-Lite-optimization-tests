@@ -2,22 +2,22 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             5 4284.41         2281          1.13            1.88    3200.69       3.19 RSI_SignalLevel=36; MaxOrders=0; MaxOrdersPerType=0;
-             6 3131.10         1903          1.11            1.65    3081.79       3.07 RSI_SignalLevel=38; MaxOrders=0; MaxOrdersPerType=0;
-             4 3087.77         2641          1.08            1.17    3588.90       3.57 RSI_SignalLevel=34; MaxOrders=0; MaxOrdersPerType=0;
-             3 2098.98         3086          1.05            0.68    4123.33       4.10 RSI_SignalLevel=32; MaxOrders=0; MaxOrdersPerType=0;
-             7  963.52         1594          1.04            0.60    2871.68       2.87 RSI_SignalLevel=40; MaxOrders=0; MaxOrdersPerType=0;
-             8  855.17         1354          1.04            0.63    2538.76       2.53 RSI_SignalLevel=42; MaxOrders=0; MaxOrdersPerType=0;
-             1  811.00         4125          1.02            0.20    4076.27       4.05 RSI_SignalLevel=28; MaxOrders=0; MaxOrdersPerType=0;
-             2  724.22         3543          1.02            0.20    4474.52       4.45 RSI_SignalLevel=30; MaxOrders=0; MaxOrdersPerType=0;
-             9  572.81         1047          1.03            0.55    1845.26       1.82 RSI_SignalLevel=44; MaxOrders=0; MaxOrdersPerType=0;
+             6 -191.90         3187          0.99           -0.06    2005.77       1.97 RSI_SignalLevel=38; MaxOrders=0; MaxOrdersPerType=0;
+             7 -346.00         3055          0.98           -0.11    1938.88       1.91 RSI_SignalLevel=40; MaxOrders=0; MaxOrdersPerType=0;
+             9 -405.35         2707          0.97           -0.15    1829.20       1.81 RSI_SignalLevel=44; MaxOrders=0; MaxOrdersPerType=0;
+             5 -469.96         3299          0.97           -0.14    2212.43       2.18 RSI_SignalLevel=36; MaxOrders=0; MaxOrdersPerType=0;
+             3 -507.11         3501          0.97           -0.14    2410.83       2.37 RSI_SignalLevel=32; MaxOrders=0; MaxOrdersPerType=0;
+             8 -661.03         2898          0.96           -0.23    1960.63       1.94 RSI_SignalLevel=42; MaxOrders=0; MaxOrdersPerType=0;
+             2 -704.62         3594          0.96           -0.20    2355.42       2.32 RSI_SignalLevel=30; MaxOrders=0; MaxOrdersPerType=0;
+             4 -731.59         3386          0.96           -0.22    2375.25       2.34 RSI_SignalLevel=34; MaxOrders=0; MaxOrdersPerType=0;
+             1 -889.64         3705          0.96           -0.24    2579.75       2.54 RSI_SignalLevel=28; MaxOrders=0; MaxOrdersPerType=0;
