@@ -35,7 +35,7 @@ ADX30_SignalMethod=0
 ADX_TrailingStopMethod=0
 ADX_TrailingProfitMethod=0
 # Optimization params.
-ADX_SignalLevel=18.5
+ADX_SignalLevel=18.2
 ADX_SignalLevel,F=0
 ADX_SignalLevel,1=0
 ADX_SignalLevel,2=0
