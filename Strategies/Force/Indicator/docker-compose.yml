@@ -92,7 +92,7 @@ services:
       SET_PARAMS: Force_Shift
       RUN_ON_SET: >
         set_opt_params Force_Shift
-        $$(bc <<< "$$(input_get Force_Shift) - 1 * 2")
+        $$(get_max 0 $$(bc <<< "$$(input_get Force_Shift) - 1 * 2"))
         $$(bc <<< "$$(input_get Force_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-Force_Shift.set
       TEST_REPORT_NAME: EA31337-Force_Shift

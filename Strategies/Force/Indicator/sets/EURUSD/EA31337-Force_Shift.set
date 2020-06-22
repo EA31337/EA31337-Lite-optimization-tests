@@ -30,7 +30,7 @@ Force30_SignalMethod=0
 Force_TrailingStopMethod=0
 Force_TrailingProfitMethod=0
 # Optimization params.
-Force_Shift=-3
+Force_Shift=0
 Force_Shift,F=0
 Force_Shift,1=0
 Force_Shift,2=0
