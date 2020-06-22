@@ -18,9 +18,8 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/ATR/Stops
+      - {working-directory: Strategies/ATR/Stops, run: docker-compose run $DCA ATR_TrailingStopMethod}
+      - {working-directory: Strategies/ATR/Stops, run: docker-compose run $DCA ATR_TrailingProfitMethod}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -34,6 +33,8 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-Timeframes:
     needs: Optimize-Stops
     runs-on: ubuntu-latest
