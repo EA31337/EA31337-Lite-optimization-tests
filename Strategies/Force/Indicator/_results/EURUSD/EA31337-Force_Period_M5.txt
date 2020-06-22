@@ -12,12 +12,12 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            9 -1272.32         2939          0.89           -0.43    1770.98       1.76 Force_Period_M5=46; MaxOrders=0; MaxOrdersPerType=0;
-            7 -1283.59         2943          0.88           -0.44    1779.56       1.77 Force_Period_M5=42; MaxOrders=0; MaxOrdersPerType=0;
-            8 -1313.82         2930          0.88           -0.45    1786.50       1.78 Force_Period_M5=44; MaxOrders=0; MaxOrdersPerType=0;
-            2 -1349.74         2919          0.88           -0.46    1892.53       1.88 Force_Period_M5=32; MaxOrders=0; MaxOrdersPerType=0;
-            3 -1358.20         2943          0.88           -0.46    1920.81       1.91 Force_Period_M5=34; MaxOrders=0; MaxOrdersPerType=0;
-            4 -1409.81         2937          0.87           -0.48    1995.30       1.98 Force_Period_M5=36; MaxOrders=0; MaxOrdersPerType=0;
-            5 -1454.99         2940          0.87           -0.49    2012.48       2.00 Force_Period_M5=38; MaxOrders=0; MaxOrdersPerType=0;
-            1 -1505.23         2910          0.86           -0.52    1947.02       1.94 Force_Period_M5=30; MaxOrders=0; MaxOrdersPerType=0;
-            6 -1532.39         2948          0.86           -0.52    2100.59       2.09 Force_Period_M5=40; MaxOrders=0; MaxOrdersPerType=0;
+            8 -1174.28         2943          0.89           -0.40    1841.07       1.83 Force_Period_M5=52; MaxOrders=0; MaxOrdersPerType=0;
+            7 -1212.46         2941          0.89           -0.41    1720.61       1.71 Force_Period_M5=50; MaxOrders=0; MaxOrdersPerType=0;
+            5 -1272.32         2939          0.89           -0.43    1770.98       1.76 Force_Period_M5=46; MaxOrders=0; MaxOrdersPerType=0;
+            3 -1283.59         2943          0.88           -0.44    1779.56       1.77 Force_Period_M5=42; MaxOrders=0; MaxOrdersPerType=0;
+            4 -1313.82         2930          0.88           -0.45    1786.50       1.78 Force_Period_M5=44; MaxOrders=0; MaxOrdersPerType=0;
+            6 -1315.73         2933          0.88           -0.45    1740.70       1.73 Force_Period_M5=48; MaxOrders=0; MaxOrdersPerType=0;
+            9 -1368.45         2930          0.88           -0.47    1980.33       1.97 Force_Period_M5=54; MaxOrders=0; MaxOrdersPerType=0;
+            1 -1454.99         2940          0.87           -0.49    2012.48       2.00 Force_Period_M5=38; MaxOrders=0; MaxOrdersPerType=0;
+            2 -1532.39         2948          0.86           -0.52    2100.59       2.09 Force_Period_M5=40; MaxOrders=0; MaxOrdersPerType=0;
