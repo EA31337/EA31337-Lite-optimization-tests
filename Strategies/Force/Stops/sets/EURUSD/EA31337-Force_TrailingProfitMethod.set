@@ -29,7 +29,7 @@ Force15_SignalMethod=0
 Force30_SignalMethod=0
 Force_TrailingStopMethod=0
 # Optimization params.
-Force_TrailingProfitMethod=22
+Force_TrailingProfitMethod=-8
 Force_TrailingProfitMethod,F=0
 Force_TrailingProfitMethod,1=0
 Force_TrailingProfitMethod,2=0
