@@ -10,9 +10,13 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params ADX_Period_M1
+        $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M1) - 2 * 4"))
+        $$(bc <<< "$$(input_get ADX_Period_M1) + 2 * 4")
+        2
       SET_PARAMS: ADX_Period_M1
-      RUN_ON_SET: set_opt_params ADX_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M1) - 2 * 4")) $$(bc <<< "$$(input_get ADX_Period_M1) + 2 * 4") 2
-      # RUN_ON_SUCCESS: input_copy ADX_Period_M1 "$${SETFILE}" /opt/sets/EA31337-ADX_Applied_Price.set /opt/sets/EA31337-ADX_Shift.set /opt/sets/EA31337-ADX_SignalLevel.set
       SETFILE: /opt/sets/EA31337-ADX_Period_M1.set
       TEST_REPORT_NAME: EA31337-ADX_Period_M1
   ADX_Period_M5:
@@ -24,10 +28,14 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_paramsADX_Period_M5
+        $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M5) - 2 * 4"))
+        $$(bc <<< "$$(input_get ADX_Period_M5) + 2 * 4")
+        2
       SET_PARAMS: ADX_Period_M5
       SETFILE: /opt/sets/EA31337-ADX_Period_M5.set
-      RUN_ON_SET: set_opt_params ADX_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M5) - 2 * 4")) $$(bc <<< "$$(input_get ADX_Period_M5) + 2 * 4") 2
-      # RUN_ON_SUCCESS: input_copy ADX_Period_M5 "$${SETFILE}" /opt/sets/EA31337-ADX_Applied_Price.set /opt/sets/EA31337-ADX_Shift.set /opt/sets/EA31337-ADX_SignalLevel.set
       TEST_REPORT_NAME: EA31337-ADX_Period_M5
   ADX_Period_M15:
     command: run_backtest -v
@@ -38,10 +46,14 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M15
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params ADX_Period_M15
+        $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M15) - 2 * 4"))
+        $$(bc <<< "$$(input_get ADX_Period_M15) + 2 * 4")
+        2
       SET_PARAMS: ADX_Period_M15
       SETFILE: /opt/sets/EA31337-ADX_Period_M15.set
-      RUN_ON_SET: set_opt_params ADX_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M15) - 2 * 4")) $$(bc <<< "$$(input_get ADX_Period_M15) + 2 * 4") 2
-      # RUN_ON_SUCCESS: input_copy ADX_Period_M15 "$${SETFILE}" /opt/sets/EA31337-ADX_Applied_Price.set /opt/sets/EA31337-ADX_Shift.set /opt/sets/EA31337-ADX_SignalLevel.set
       TEST_REPORT_NAME: EA31337-ADX_Period_M15
   ADX_Period_M30:
     command: run_backtest -v
@@ -52,10 +64,14 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M30
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params ADX_Period_M30
+        $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M30) - 2 * 4"))
+        $$(bc <<< "$$(input_get ADX_Period_M30) + 2 * 4")
+        2
       SET_PARAMS: ADX_Period_M30
       SETFILE: /opt/sets/EA31337-ADX_Period_M30.set
-      RUN_ON_SET: set_opt_params ADX_Period_M30 $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M30) - 2 * 4")) $$(bc <<< "$$(input_get ADX_Period_M30) + 2 * 4") 2
-      # RUN_ON_SUCCESS: input_copy ADX_Period_M30 "$${SETFILE}" /opt/sets/EA31337-ADX_Applied_Price.set /opt/sets/EA31337-ADX_Shift.set /opt/sets/EA31337-ADX_SignalLevel.set
       TEST_REPORT_NAME: EA31337-ADX_Period_M30
   ADX_Applied_Price:
     command: run_backtest -v
@@ -65,9 +81,10 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: ADX_Applied_Price
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: set_opt_params ADX_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-ADX_Applied_Price.set
+      SET_PARAMS: ADX_Applied_Price
       TEST_REPORT_NAME: EA31337-ADX_Applied_Price
   ADX_SignalLevel:
     command: run_backtest -v
@@ -77,9 +94,14 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: ADX_SignalLevel
-      RUN_ON_SET: set_opt_params ADX_SignalLevel $$(bc <<< "$$(input_get ADX_SignalLevel) - 0.1 * 5") $$(bc <<< "$$(input_get ADX_SignalLevel) + 0.1 * 5") 0.1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params ADX_SignalLevel
+        $$(bc <<< "$$(input_get ADX_SignalLevel) - 0.1 * 5")
+        $$(bc <<< "$$(input_get ADX_SignalLevel) + 0.1 * 5")
+        0.1
       SETFILE: /opt/sets/EA31337-ADX_SignalLevel.set
+      SET_PARAMS: ADX_SignalLevel
       TEST_REPORT_NAME: EA31337-ADX_SignalLevel
   ADX_Shift:
     command: run_backtest -v
@@ -89,7 +111,11 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: ADX_Shift
-      RUN_ON_SET: set_opt_params ADX_Shift $$(bc <<< "$$(input_get ADX_Shift) - 1 * 2") $$(bc <<< "$$(input_get ADX_Shift) + 1 * 2")
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params ADX_Shift
+        $$(bc <<< "$$(input_get ADX_Shift) - 1 * 2")
+        $$(bc <<< "$$(input_get ADX_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-ADX_Shift.set
+      SET_PARAMS: ADX_Shift
       TEST_REPORT_NAME: EA31337-ADX_Shift
