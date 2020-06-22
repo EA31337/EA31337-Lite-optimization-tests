@@ -9,9 +9,14 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Envelopes_TrailingStopMethod
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: set_opt_params Envelopes_TrailingStopMethod 1 -25 0
+      RUN_ON_SUCCESS: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-Envelopes_TrailingProfitMethod.set
       SETFILE: /opt/sets/EA31337-Envelopes_TrailingStopMethod.set
+      SET_PARAMS: Envelopes_TrailingStopMethod
       TEST_REPORT_NAME: EA31337-Envelopes_TrailingStopMethod
   Envelopes_TrailingProfitMethod:
     command: run_backtest -v
@@ -21,7 +26,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Envelopes_TrailingProfitMethod
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: set_opt_params Envelopes_TrailingProfitMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-Envelopes_TrailingProfitMethod.set
+      SET_PARAMS: Envelopes_TrailingProfitMethod
       TEST_REPORT_NAME: EA31337-Envelopes_TrailingProfitMethod

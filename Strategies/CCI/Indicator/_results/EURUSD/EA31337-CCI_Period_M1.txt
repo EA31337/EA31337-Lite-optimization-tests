@@ -12,12 +12,20 @@
                              Spread          10
                                                                  [Optimization Graph]
            Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              1  11.60            8          2.14            1.45       8.70       0.01 CCI_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
-              2   0.00            0          0.00            0.00       0.00       0.00 CCI_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;
-              3   0.00            0          0.00            0.00       0.00       0.00 CCI_Period_M1=22; MaxOrders=0; MaxOrdersPerType=0;
-              4   0.00            0          0.00            0.00       0.00       0.00 CCI_Period_M1=26; MaxOrders=0; MaxOrdersPerType=0;
-              5   0.00            0          0.00            0.00       0.00       0.00 CCI_Period_M1=30; MaxOrders=0; MaxOrdersPerType=0;
-              6   0.00            0          0.00            0.00       0.00       0.00 CCI_Period_M1=34; MaxOrders=0; MaxOrdersPerType=0;
-              7   0.00            0          0.00            0.00       0.00       0.00 CCI_Period_M1=38; MaxOrders=0; MaxOrdersPerType=0;
-              8   0.00            0          0.00            0.00       0.00       0.00 CCI_Period_M1=42; MaxOrders=0; MaxOrdersPerType=0;
-              9  -1.20            1          0.00           -1.20       4.70       0.00 CCI_Period_M1=46; MaxOrders=0; MaxOrdersPerType=0;
+             10  13.80            3         12.50            4.60       9.60       0.01 CCI_Period_M1=60; MaxOrders=0; MaxOrdersPerType=0;
+              6   1.70            2          2.42            0.85       8.70       0.01 CCI_Period_M1=52; MaxOrders=0; MaxOrdersPerType=0;
+              7   1.70            2          2.42            0.85       8.70       0.01 CCI_Period_M1=54; MaxOrders=0; MaxOrdersPerType=0;
+              8   1.70            2          2.42            0.85       8.70       0.01 CCI_Period_M1=56; MaxOrders=0; MaxOrdersPerType=0;
+              9   1.70            2          2.42            0.85       8.70       0.01 CCI_Period_M1=58; MaxOrders=0; MaxOrdersPerType=0;
+              1   0.00            0          0.00            0.00       0.00       0.00 CCI_Period_M1=42; MaxOrders=0; MaxOrdersPerType=0;
+             11   0.20            4          1.01            0.05      20.70       0.02 CCI_Period_M1=62; MaxOrders=0; MaxOrdersPerType=0;
+             12   0.20            5          1.01            0.04      21.70       0.02 CCI_Period_M1=64; MaxOrders=0; MaxOrdersPerType=0;
+              2  -1.20            1          0.00           -1.20       4.70       0.00 CCI_Period_M1=44; MaxOrders=0; MaxOrdersPerType=0;
+              3  -1.20            1          0.00           -1.20       4.70       0.00 CCI_Period_M1=46; MaxOrders=0; MaxOrdersPerType=0;
+              4  -1.20            1          0.00           -1.20       4.70       0.00 CCI_Period_M1=48; MaxOrders=0; MaxOrdersPerType=0;
+              5  -1.20            1          0.00           -1.20       4.70       0.00 CCI_Period_M1=50; MaxOrders=0; MaxOrdersPerType=0;
+             14 -23.00           10          0.59           -2.30      50.90       0.05 CCI_Period_M1=68; MaxOrders=0; MaxOrdersPerType=0;
+             16 -37.50           23          0.70           -1.63      95.60       0.10 CCI_Period_M1=72; MaxOrders=0; MaxOrdersPerType=0;
+             13 -39.80            6          0.29           -6.63      50.20       0.05 CCI_Period_M1=66; MaxOrders=0; MaxOrdersPerType=0;
+             15 -43.40           15          0.56           -2.89      89.60       0.09 CCI_Period_M1=70; MaxOrders=0; MaxOrdersPerType=0;
+             17 -51.00           29          0.65           -1.76     114.00       0.11 CCI_Period_M1=74; MaxOrders=0; MaxOrdersPerType=0;

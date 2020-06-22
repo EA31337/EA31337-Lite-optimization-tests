@@ -9,9 +9,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Envelopes_Deviation_M1
-      RUN_ON_SET: set_opt_params Envelopes_Deviation_M1 $$(bc <<< "$$(input_get Envelopes_Deviation_M1) - 0.1 * 2") $$(bc <<< "$$(input_get Envelopes_Deviation_M1) + 0.1 * 2") 0.1
+      BT_MONTHS: 6-12
+      BT_PERIOD: M1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      RUN_ON_SET: >
+        set_opt_params Envelopes_Deviation_M1
+        $$(bc <<< "$$(input_get Envelopes_Deviation_M1) - 0.1 * 2")
+        $$(bc <<< "$$(input_get Envelopes_Deviation_M1) + 0.1 * 2")
+        0.1
       SETFILE: /opt/sets/EA31337-Envelopes_Deviation_M1.set
+      SET_PARAMS: Envelopes_Deviation_M1
       TEST_REPORT_NAME: EA31337-Envelopes_Deviation_M1
   Envelopes_Deviation_M5:
     command: run_backtest -v
@@ -21,9 +28,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Envelopes_Deviation_M5
-      RUN_ON_SET: set_opt_params Envelopes_Deviation_M5 $$(bc <<< "$$(input_get Envelopes_Deviation_M5) - 0.1 * 2") $$(bc <<< "$$(input_get Envelopes_Deviation_M5) + 0.1 * 2") 0.1
+      BT_MONTHS: 6-12
+      BT_PERIOD: M5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      RUN_ON_SET: >
+        set_opt_params Envelopes_Deviation_M5
+        $$(bc <<< "$$(input_get Envelopes_Deviation_M5) - 0.1 * 2")
+        $$(bc <<< "$$(input_get Envelopes_Deviation_M5) + 0.1 * 2")
+        0.1
       SETFILE: /opt/sets/EA31337-Envelopes_Deviation_M5.set
+      SET_PARAMS: Envelopes_Deviation_M5
       TEST_REPORT_NAME: EA31337-Envelopes_Deviation_M5
   Envelopes_Deviation_M15:
     command: run_backtest -v
@@ -33,9 +47,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Envelopes_Deviation_M15
-      RUN_ON_SET: set_opt_params Envelopes_Deviation_M15 $$(bc <<< "$$(input_get Envelopes_Deviation_M15) - 0.1 * 2") $$(bc <<< "$$(input_get Envelopes_Deviation_M15) + 0.1 * 2") 0.1
+      BT_MONTHS: 6-12
+      BT_PERIOD: M15
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      RUN_ON_SET: >
+        set_opt_params Envelopes_Deviation_M15
+        $$(bc <<< "$$(input_get Envelopes_Deviation_M15) - 0.1 * 2")
+        $$(bc <<< "$$(input_get Envelopes_Deviation_M15) + 0.1 * 2")
+        0.1
       SETFILE: /opt/sets/EA31337-Envelopes_Deviation_M15.set
+      SET_PARAMS: Envelopes_Deviation_M15
       TEST_REPORT_NAME: EA31337-Envelopes_Deviation_M15
   Envelopes_Deviation_M30:
     command: run_backtest -v
@@ -45,9 +66,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Envelopes_Deviation_M30
-      RUN_ON_SET: set_opt_params Envelopes_Deviation_M30 $$(bc <<< "$$(input_get Envelopes_Deviation_M30) - 0.1 * 2") $$(bc <<< "$$(input_get Envelopes_Deviation_M30) + 0.1 * 2") 0.1
+      BT_MONTHS: 6-12
+      BT_PERIOD: M30
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      RUN_ON_SET: >
+        set_opt_params Envelopes_Deviation_M30
+        $$(bc <<< "$$(input_get Envelopes_Deviation_M30) - 0.1 * 2")
+        $$(bc <<< "$$(input_get Envelopes_Deviation_M30) + 0.1 * 2")
+        0.1
       SETFILE: /opt/sets/EA31337-Envelopes_Deviation_M30.set
+      SET_PARAMS: Envelopes_Deviation_M30
       TEST_REPORT_NAME: EA31337-Envelopes_Deviation_M30
   Envelopes_MA_Period_M1:
     command: run_backtest -v
@@ -57,10 +85,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      RUN_ON_SET: >
+        set_opt_params Envelopes_MA_Period_M1
+        $$(get_max 2 $$(bc <<< "$$(input_get Envelopes_MA_Period_M1) - 2 * 4"))
+        $$(bc <<< "$$(input_get Envelopes_MA_Period_M1) + 2 * 4")
+        2
       SETFILE: /opt/sets/EA31337-Envelopes_MA_Period_M1.set
       SET_PARAMS: Envelopes_MA_Period_M1
-      RUN_ON_SET: set_opt_params Envelopes_MA_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get Envelopes_MA_Period_M1) - 2 * 4")) $$(bc <<< "$$(input_get Envelopes_MA_Period_M1) + 2 * 4") 2
       TEST_REPORT_NAME: EA31337-Envelopes_MA_Period_M1
   Envelopes_MA_Period_M5:
     command: run_backtest -v
@@ -70,10 +104,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M5
-      SET_PARAMS: Envelopes_MA_Period_M5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      RUN_ON_SET: >
+        set_opt_params Envelopes_MA_Period_M5
+        $$(get_max 2 $$(bc <<< "$$(input_get Envelopes_MA_Period_M5) - 2 * 4"))
+        $$(bc <<< "$$(input_get Envelopes_MA_Period_M5) + 2 * 4")
+        2
       SETFILE: /opt/sets/EA31337-Envelopes_MA_Period_M5.set
-      RUN_ON_SET: set_opt_params Envelopes_MA_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get Envelopes_MA_Period_M5) - 2 * 4")) $$(bc <<< "$$(input_get Envelopes_MA_Period_M5) + 2 * 4") 2
+      SET_PARAMS: Envelopes_MA_Period_M5
       TEST_REPORT_NAME: EA31337-Envelopes_MA_Period_M5
   Envelopes_MA_Period_M15:
     command: run_backtest -v
@@ -83,10 +123,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M15
-      SET_PARAMS: Envelopes_MA_Period_M15
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      RUN_ON_SET: >
+        set_opt_params Envelopes_MA_Period_M15
+        $$(get_max 2 $$(bc <<< "$$(input_get Envelopes_MA_Period_M15) - 2 * 4"))
+        $$(bc <<< "$$(input_get Envelopes_MA_Period_M15) + 2 * 4")
+        2
       SETFILE: /opt/sets/EA31337-Envelopes_MA_Period_M15.set
-      RUN_ON_SET: set_opt_params Envelopes_MA_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get Envelopes_MA_Period_M15) - 2 * 4")) $$(bc <<< "$$(input_get Envelopes_MA_Period_M15) + 2 * 4") 2
+      SET_PARAMS: Envelopes_MA_Period_M15
       TEST_REPORT_NAME: EA31337-Envelopes_MA_Period_M15
   Envelopes_MA_Period_M30:
     command: run_backtest -v
@@ -96,10 +142,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M30
-      SET_PARAMS: Envelopes_MA_Period_M30
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      RUN_ON_SET: >
+        set_opt_params Envelopes_MA_Period_M30
+        $$(get_max 2 $$(bc <<< "$$(input_get Envelopes_MA_Period_M30) - 2 * 4"))
+        $$(bc <<< "$$(input_get Envelopes_MA_Period_M30) + 2 * 4")
+        2
       SETFILE: /opt/sets/EA31337-Envelopes_MA_Period_M30.set
-      RUN_ON_SET: set_opt_params Envelopes_MA_Period_M30 $$(get_max 2 $$(bc <<< "$$(input_get Envelopes_MA_Period_M30) - 2 * 4")) $$(bc <<< "$$(input_get Envelopes_MA_Period_M30) + 2 * 4") 2
+      SET_PARAMS: Envelopes_MA_Period_M30
       TEST_REPORT_NAME: EA31337-Envelopes_MA_Period_M30
   Envelopes_MA_Method:
     command: run_backtest -v
@@ -109,9 +161,11 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Envelopes_MA_Method
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: set_opt_params Envelopes_MA_Method 0 3
       SETFILE: /opt/sets/EA31337-Envelopes_MA_Method.set
+      SET_PARAMS: Envelopes_MA_Method
       TEST_REPORT_NAME: EA31337-Envelopes_MA_Method
   Envelopes_MA_Shift:
     command: run_backtest -v
@@ -121,9 +175,14 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Envelopes_MA_Shift
-      RUN_ON_SET: set_opt_params Envelopes_MA_Shift $$(get_max 0 $$(bc <<< "$$(input_get Envelopes_MA_Shift) - 1 * 4")) $$(bc <<< "$$(input_get Envelopes_MA_Shift) + 1 * 4")
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      RUN_ON_SET: >
+        set_opt_params Envelopes_MA_Shift
+        $$(get_max 0 $$(bc <<< "$$(input_get Envelopes_MA_Shift) - 1 * 4"))
+        $$(bc <<< "$$(input_get Envelopes_MA_Shift) + 1 * 4")
       SETFILE: /opt/sets/EA31337-Envelopes_MA_Shift.set
+      SET_PARAMS: Envelopes_MA_Shift
       TEST_REPORT_NAME: EA31337-Envelopes_MA_Shift
   Envelopes_Shift:
     command: run_backtest -v
@@ -133,9 +192,14 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Envelopes_Shift
-      RUN_ON_SET: set_opt_params Envelopes_Shift $$(get_max 0 $$(bc <<< "$$(input_get Envelopes_Shift) - 1 * 4")) $$(bc <<< "$$(input_get Envelopes_Shift) + 1 * 4")
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      RUN_ON_SET: >
+        set_opt_params Envelopes_Shift
+        $$(get_max 0 $$(bc <<< "$$(input_get Envelopes_Shift) - 1 * 4"))
+        $$(bc <<< "$$(input_get Envelopes_Shift) + 1 * 4")
       SETFILE: /opt/sets/EA31337-Envelopes_Shift.set
+      SET_PARAMS: Envelopes_Shift
       TEST_REPORT_NAME: EA31337-Envelopes_Shift
   Envelopes_Applied_Price:
     command: run_backtest -v
@@ -145,9 +209,11 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Envelopes_Applied_Price
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: set_opt_params Envelopes_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-Envelopes_Applied_Price.set
+      SET_PARAMS: Envelopes_Applied_Price
       TEST_REPORT_NAME: EA31337-Envelopes_Applied_Price
   Envelopes_SignalLevel:
     command: run_backtest -v
@@ -157,7 +223,13 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Envelopes_SignalLevel
-      RUN_ON_SET: set_opt_params Envelopes_SignalLevel $$(bc <<< "$$(input_get Envelopes_SignalLevel) - 0.1 * 2") $$(bc <<< "$$(input_get Envelopes_SignalLevel) + 0.1 * 2") 0.1
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      RUN_ON_SET: >
+        set_opt_params Envelopes_SignalLevel
+        $$(bc <<< "$$(input_get Envelopes_SignalLevel) - 0.1 * 2")
+        $$(bc <<< "$$(input_get Envelopes_SignalLevel) + 0.1 * 2")
+        0.1
       SETFILE: /opt/sets/EA31337-Envelopes_SignalLevel.set
+      SET_PARAMS: Envelopes_SignalLevel
       TEST_REPORT_NAME: EA31337-Envelopes_SignalLevel

@@ -9,10 +9,15 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M1
       SET_PARAMS: RSI_Period_M1
-      RUN_ON_SET: set_opt_params RSI_Period_M1 $$(get_max 2 $$(bc <<< "$$(input_get RSI_Period_M1) - 2 * 4")) $$(bc <<< "$$(input_get RSI_Period_M1) + 2 * 4") 2
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
+      RUN_ON_SET: >
+        set_opt_params RSI_Period_M1
+        $$(get_max 2 $$(bc <<< "$$(input_get RSI_Period_M1) - 2 * 4"))
+        $$(bc <<< "$$(input_get RSI_Period_M1) + 2 * 4")
+        2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=1
       SETFILE: /opt/sets/EA31337-RSI_Period_M1.set
       TEST_REPORT_NAME: EA31337-RSI_Period_M1
   RSI_Period_M5:
@@ -25,8 +30,12 @@ services:
     environment:
       BT_PERIOD: M5
       SET_PARAMS: RSI_Period_M5
-      RUN_ON_SET: set_opt_params RSI_Period_M5 $$(get_max 2 $$(bc <<< "$$(input_get RSI_Period_M5) - 2 * 4")) $$(bc <<< "$$(input_get RSI_Period_M5) + 2 * 4") 2
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
+      RUN_ON_SET: >
+        set_opt_params RSI_Period_M5
+        $$(get_max 2 $$(bc <<< "$$(input_get RSI_Period_M5) - 2 * 4"))
+        $$(bc <<< "$$(input_get RSI_Period_M5) + 2 * 4")
+        2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=1
       SETFILE: /opt/sets/EA31337-RSI_Period_M5.set
       TEST_REPORT_NAME: EA31337-RSI_Period_M5
   RSI_Period_M15:
@@ -39,8 +48,12 @@ services:
     environment:
       BT_PERIOD: M15
       SET_PARAMS: RSI_Period_M15
-      RUN_ON_SET: set_opt_params RSI_Period_M15 $$(get_max 2 $$(bc <<< "$$(input_get RSI_Period_M15) - 2 * 4")) $$(bc <<< "$$(input_get RSI_Period_M15) + 2 * 4") 2
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
+      RUN_ON_SET: >
+        set_opt_params RSI_Period_M15
+        $$(get_max 2 $$(bc <<< "$$(input_get RSI_Period_M15) - 2 * 4"))
+        $$(bc <<< "$$(input_get RSI_Period_M15) + 2 * 4")
+        2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=1
       SETFILE: /opt/sets/EA31337-RSI_Period_M15.set
       TEST_REPORT_NAME: EA31337-RSI_Period_M15
   RSI_Period_M30:
@@ -53,8 +66,12 @@ services:
     environment:
       BT_PERIOD: M30
       SET_PARAMS: RSI_Period_M30
-      RUN_ON_SET: set_opt_params RSI_Period_M30 $$(get_max 2 $$(bc <<< "$$(input_get RSI_Period_M30) - 2 * 4")) $$(bc <<< "$$(input_get RSI_Period_M30) + 2 * 4") 2
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
+      RUN_ON_SET: >
+        set_opt_params RSI_Period_M30
+        $$(get_max 2 $$(bc <<< "$$(input_get RSI_Period_M30) - 2 * 4"))
+        $$(bc <<< "$$(input_get RSI_Period_M30) + 2 * 4")
+        2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=1
       SETFILE: /opt/sets/EA31337-RSI_Period_M30.set
       TEST_REPORT_NAME: EA31337-RSI_Period_M30
   RSI_Applied_Price:
@@ -65,8 +82,10 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: RSI_Applied_Price
       RUN_ON_SET: set_opt_params RSI_Applied_Price 0 6
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       SETFILE: /opt/sets/EA31337-RSI_Applied_Price.set
       TEST_REPORT_NAME: EA31337-RSI_Applied_Price
   RSI_SignalLevel:
@@ -77,8 +96,14 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: RSI_SignalLevel
-      RUN_ON_SET: set_opt_params RSI_SignalLevel $$(bc <<< "$$(input_get RSI_SignalLevel) - 2 * 4") $$(bc <<< "$$(input_get RSI_SignalLevel) + 2 * 4") 2
+      RUN_ON_SET: >
+        set_opt_params RSI_SignalLevel
+        $$(bc <<< "$$(input_get RSI_SignalLevel) - 2 * 4")
+        $$(bc <<< "$$(input_get RSI_SignalLevel) + 2 * 4")
+        2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       SETFILE: /opt/sets/EA31337-RSI_SignalLevel.set
       TEST_REPORT_NAME: EA31337-RSI_SignalLevel
   RSI_Shift:
@@ -90,6 +115,10 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: RSI_Shift
-      RUN_ON_SET: set_opt_params RSI_Shift $$(get_max 0 $$(bc <<< "$$(input_get RSI_Shift) - 1 * 2")) $$(bc <<< "$$(input_get RSI_Shift) + 1 * 2")
+      RUN_ON_SET: >
+        set_opt_params RSI_Shift
+        $$(get_max 0 $$(bc <<< "$$(input_get RSI_Shift) - 1 * 2"))
+        $$(bc <<< "$$(input_get RSI_Shift) + 1 * 2")
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=3
       SETFILE: /opt/sets/EA31337-RSI_Shift.set
       TEST_REPORT_NAME: EA31337-RSI_Shift

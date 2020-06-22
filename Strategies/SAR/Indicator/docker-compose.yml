@@ -27,8 +27,8 @@ services:
       SET_PARAMS: SAR_Maximum_Stop
       RUN_ON_SET: >
         set_opt_params SAR_Maximum_Stop
-        $$(get_max 0 $$(bc <<< "$$(input_get SAR_SignalLevel) - 0.1 * 5"))
-        $$(bc <<< "$$(input_get SAR_SignalLevel) + 0.1 * 5")
+        $$(get_max 0 $$(bc <<< "$$(input_get SAR_Maximum_Stop) - 0.1 * 5"))
+        $$(bc <<< "$$(input_get SAR_Maximum_Stop) + 0.1 * 5")
         0.1
       SETFILE: /opt/sets/EA31337-SAR_Maximum_Stop.set
       TEST_REPORT_NAME: EA31337-SAR_Maximum_Stop

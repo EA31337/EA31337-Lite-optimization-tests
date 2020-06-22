@@ -30,7 +30,7 @@ RSI30_SignalMethod=0
 RSI_TrailingStopMethod=0
 RSI_TrailingProfitMethod=0
 # Optimization params.
-RSI_SignalLevel=40
+RSI_SignalLevel=38
 RSI_SignalLevel,F=1
 RSI_SignalLevel,1=0
 RSI_SignalLevel,2=0

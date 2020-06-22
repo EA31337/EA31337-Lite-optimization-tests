@@ -10,6 +10,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       SETFILE: /opt/sets/EA31337-Force_Period_M1.set
       SET_PARAMS: Force_Period_M1
       RUN_ON_SET: >
@@ -27,6 +28,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       SET_PARAMS: Force_Period_M5
       SETFILE: /opt/sets/EA31337-Force_Period_M5.set
       RUN_ON_SET: >
@@ -44,6 +46,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M15
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       SET_PARAMS: Force_Period_M15
       SETFILE: /opt/sets/EA31337-Force_Period_M15.set
       RUN_ON_SET: >
@@ -61,6 +64,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M30
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       SET_PARAMS: Force_Period_M30
       SETFILE: /opt/sets/EA31337-Force_Period_M30.set
       RUN_ON_SET: >
@@ -78,6 +82,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: Force_MA_Method
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: set_opt_params Force_MA_Method 0 3
       SETFILE: /opt/sets/EA31337-Force_MA_Method.set
       TEST_REPORT_NAME: EA31337-Force_MA_Method
@@ -89,6 +94,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       SET_PARAMS: Force_Shift
       RUN_ON_SET: >
         set_opt_params Force_Shift
@@ -104,6 +110,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       SET_PARAMS: Force_Applied_Price
       RUN_ON_SET: set_opt_params Force_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-Force_Applied_Price.set
@@ -116,6 +123,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       SET_PARAMS: Force_SignalLevel
       RUN_ON_SET: >
         set_opt_params Force_SignalLevel

@@ -9,9 +9,10 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: SAR1_SignalMethod
-      RUN_ON_SET: set_opt_params SAR1_SignalMethod -127 127
+      BT_MONTHS: 6-12
+      RUN_ON_SET: set_opt_params SAR1_SignalMethod -127 127 7
       SETFILE: /opt/sets/EA31337-SAR1_SignalMethod.set
+      SET_PARAMS: SAR1_SignalMethod
       TEST_REPORT_NAME: EA31337-SAR1_SignalMethod
   SAR5_SignalMethod:
     command: run_backtest -v
@@ -21,9 +22,10 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: SAR5_SignalMethod
-      RUN_ON_SET: set_opt_params SAR5_SignalMethod -127 127
+      BT_MONTHS: 6-12
+      RUN_ON_SET: set_opt_params SAR5_SignalMethod -127 127 7
       SETFILE: /opt/sets/EA31337-SAR5_SignalMethod.set
+      SET_PARAMS: SAR5_SignalMethod
       TEST_REPORT_NAME: EA31337-SAR5_SignalMethod
   SAR15_SignalMethod:
     command: run_backtest -v
@@ -33,9 +35,10 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: SAR15_SignalMethod
-      RUN_ON_SET: set_opt_params SAR15_SignalMethod -127 127
+      BT_MONTHS: 6-12
+      RUN_ON_SET: set_opt_params SAR15_SignalMethod -127 127 7
       SETFILE: /opt/sets/EA31337-SAR15_SignalMethod.set
+      SET_PARAMS: SAR15_SignalMethod
       TEST_REPORT_NAME: EA31337-SAR15_SignalMethod
   SAR30_SignalMethod:
     command: run_backtest -v
@@ -45,7 +48,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: SAR30_SignalMethod
-      RUN_ON_SET: set_opt_params SAR30_SignalMethod -127 127
+      BT_MONTHS: 6-12
+      RUN_ON_SET: set_opt_params SAR30_SignalMethod -127 127 7
       SETFILE: /opt/sets/EA31337-SAR30_SignalMethod.set
+      SET_PARAMS: SAR30_SignalMethod
       TEST_REPORT_NAME: EA31337-SAR30_SignalMethod
