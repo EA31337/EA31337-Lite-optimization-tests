@@ -2,13 +2,20 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            3 1287.77         3607          1.05            0.36    2671.24       2.58 CCI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+            2  577.62         3846          1.02            0.15    3359.09       3.24 CCI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            4  454.14         4019          1.02            0.11    3678.42       3.54 CCI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+            5  382.43         3837          1.01            0.10    3459.17       3.34 CCI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+            7  295.25         3830          1.01            0.08    3460.88       3.35 CCI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+            6  292.95         3837          1.01            0.08    3443.47       3.33 CCI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+            1  191.06         3804          1.01            0.05    3412.14       3.31 CCI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
