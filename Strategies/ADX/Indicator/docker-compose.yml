@@ -17,6 +17,11 @@ services:
         $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M1) - 2 * 4"))
         $$(bc <<< "$$(input_get ADX_Period_M1) + 2 * 4")
         2
+      RUN_ON_SUCCESS: >
+        input_copy ADX_Period_M1 "$${SETFILE}"
+        /opt/sets/EA31337-ADX_Applied_Price.set
+        /opt/sets/EA31337-ADX_Shift.set
+        /opt/sets/EA31337-ADX_SignalLevel.set
       SET_PARAMS: ADX_Period_M1
       SETFILE: /opt/sets/EA31337-ADX_Period_M1.set
       TEST_REPORT_NAME: EA31337-ADX_Period_M1
@@ -36,6 +41,11 @@ services:
         $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M5) - 2 * 4"))
         $$(bc <<< "$$(input_get ADX_Period_M5) + 2 * 4")
         2
+      RUN_ON_SUCCESS: >
+        input_copy ADX_Period_M5 "$${SETFILE}"
+        /opt/sets/EA31337-ADX_Applied_Price.set
+        /opt/sets/EA31337-ADX_Shift.set
+        /opt/sets/EA31337-ADX_SignalLevel.set
       SET_PARAMS: ADX_Period_M5
       SETFILE: /opt/sets/EA31337-ADX_Period_M5.set
       TEST_REPORT_NAME: EA31337-ADX_Period_M5
@@ -55,6 +65,11 @@ services:
         $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M15) - 2 * 4"))
         $$(bc <<< "$$(input_get ADX_Period_M15) + 2 * 4")
         2
+      RUN_ON_SUCCESS: >
+        input_copy ADX_Period_M15 "$${SETFILE}"
+        /opt/sets/EA31337-ADX_Applied_Price.set
+        /opt/sets/EA31337-ADX_Shift.set
+        /opt/sets/EA31337-ADX_SignalLevel.set
       SET_PARAMS: ADX_Period_M15
       SETFILE: /opt/sets/EA31337-ADX_Period_M15.set
       TEST_REPORT_NAME: EA31337-ADX_Period_M15
@@ -123,6 +138,11 @@ services:
         set_opt_params ADX_Shift
         $$(bc <<< "$$(input_get ADX_Shift) - 1 * 2")
         $$(bc <<< "$$(input_get ADX_Shift) + 1 * 2")
+      RUN_ON_SUCCESS: >
+        input_copy ADX_Period_M30 "$${SETFILE}"
+        /opt/sets/EA31337-ADX_Applied_Price.set
+        /opt/sets/EA31337-ADX_Shift.set
+        /opt/sets/EA31337-ADX_SignalLevel.set
       SETFILE: /opt/sets/EA31337-ADX_Shift.set
       SET_PARAMS: ADX_Shift
       TEST_REPORT_NAME: EA31337-ADX_Shift
