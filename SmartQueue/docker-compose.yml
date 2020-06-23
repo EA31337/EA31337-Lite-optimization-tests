@@ -9,9 +9,11 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      SET_PARAMS: SmartQueueActive
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params SmartQueueActive 0 1
       SETFILE: /opt/sets/EA31337-SmartQueueActive.set
+      SET_PARAMS: SmartQueueActive
       TEST_REPORT_NAME: EA31337-SmartQueueActive
   SmartQueueMethod:
     command: run_backtest -v
@@ -21,9 +23,11 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      SET_PARAMS: SmartQueueMethod
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params SmartQueueMethod 0 15
       SETFILE: /opt/sets/EA31337-SmartQueueMethod.set
+      SET_PARAMS: SmartQueueMethod
       TEST_REPORT_NAME: EA31337-SmartQueueMethod
   SmartQueueFilter:
     command: run_backtest -v
@@ -33,8 +37,13 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
-      SET_PARAMS: SmartQueueFilter
-      RUN_ON_SET: set_opt_params SmartQueueFilter 0 255 7
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 10"))
+        $$(get_min 255 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 10"))
+        7
       SETFILE: /opt/sets/EA31337-SmartQueueFilter.set
+      SET_PARAMS: SmartQueueFilter
       TEST_REPORT_NAME: EA31337-SmartQueueFilter
