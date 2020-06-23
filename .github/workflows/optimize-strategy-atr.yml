@@ -10,6 +10,10 @@ on:
 
 jobs:
   Optimize-Stops:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/ATR/Stops
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -18,8 +22,8 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - {working-directory: Strategies/ATR/Stops, run: docker-compose run $DCA ATR_TrailingStopMethod}
-      - {working-directory: Strategies/ATR/Stops, run: docker-compose run $DCA ATR_TrailingProfitMethod}
+      - run: docker-compose run $DCA ATR_TrailingStopMethod
+      - run: docker-compose run $DCA ATR_TrailingProfitMethod
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -36,16 +40,20 @@ jobs:
     env:
       DCA: "--rm"
   Optimize-Timeframes:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/ATR/Timeframes
     needs: Optimize-Stops
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
-          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/ATR/Timeframes
+          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA ATR_Active_Tf
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -59,3 +67,5 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"

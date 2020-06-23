@@ -10,6 +10,10 @@ on:
 
 jobs:
   Optimize-Indicator:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/WPR/Indicator
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -18,13 +22,13 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - {working-directory: Strategies/WPR/Indicator, run: docker-compose run $DCA WPR_Period_M1}
-      - {working-directory: Strategies/WPR/Indicator, run: docker-compose run $DCA WPR_Period_M5}
-      - {working-directory: Strategies/WPR/Indicator, run: docker-compose run $DCA WPR_Period_M15}
-      - {working-directory: Strategies/WPR/Indicator, run: docker-compose run $DCA WPR_Period_M30}
-      - {working-directory: Strategies/WPR/Indicator, run: docker-compose run $DCA WPR_Applied_Price}
-      - {working-directory: Strategies/WPR/Indicator, run: docker-compose run $DCA WPR_SignalLevel}
-      - {working-directory: Strategies/WPR/Indicator, run: docker-compose run $DCA WPR_Shift}
+      - run: docker-compose run $DCA WPR_Period_M1
+      - run: docker-compose run $DCA WPR_Period_M5
+      - run: docker-compose run $DCA WPR_Period_M15
+      - run: docker-compose run $DCA WPR_Period_M30
+      - run: docker-compose run $DCA WPR_Applied_Price
+      - run: docker-compose run $DCA WPR_SignalLevel
+      - run: docker-compose run $DCA WPR_Shift
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -41,15 +45,21 @@ jobs:
     env:
       DCA: "--rm"
   Optimize-Stops:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/WPR/Stops
     needs: Optimize-Indicator
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
-          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - {working-directory: Strategies/WPR/Stops, run: docker-compose run $DCA WPR_TrailingStopMethod}
-      - {working-directory: Strategies/WPR/Stops, run: docker-compose run $DCA WPR_TrailingProfitMethod}
+          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA WPR_TrailingStopMethod
+      - run: docker-compose run $DCA WPR_TrailingProfitMethod
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -66,17 +76,23 @@ jobs:
     env:
       DCA: "--rm"
   Optimize-SignalMethod:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/WPR/SignalMethod
     needs: Optimize-Stops
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
-          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - {working-directory: Strategies/WPR/SignalMethod, run: docker-compose run $DCA WPR1_SignalMethod}
-      - {working-directory: Strategies/WPR/SignalMethod, run: docker-compose run $DCA WPR5_SignalMethod}
-      - {working-directory: Strategies/WPR/SignalMethod, run: docker-compose run $DCA WPR15_SignalMethod}
-      - {working-directory: Strategies/WPR/SignalMethod, run: docker-compose run $DCA WPR30_SignalMethod}
+          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA WPR1_SignalMethod
+      - run: docker-compose run $DCA WPR5_SignalMethod
+      - run: docker-compose run $DCA WPR15_SignalMethod
+      - run: docker-compose run $DCA WPR30_SignalMethod
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -93,14 +109,20 @@ jobs:
     env:
       DCA: "--rm"
   Optimize-Timeframes:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/WPR/Timeframes
     needs: Optimize-SignalMethod
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
-          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - {working-directory: Strategies/WPR/Timeframes, run: docker-compose run $DCA WPR_Active_Tf}
+          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA WPR_Active_Tf
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
