@@ -10,7 +10,12 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      RUN_ON_SET: set_opt_params CCI1_SignalMethod -63 63 3
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -63 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 3 * 5"))
+        $$(get_min 63 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 3 * 5"))
+        3
       SETFILE: /opt/sets/EA31337-CCI1_SignalMethod.set
       SET_PARAMS: CCI1_SignalMethod
       TEST_REPORT_NAME: EA31337-CCI1_SignalMethod
@@ -23,7 +28,12 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      RUN_ON_SET: set_opt_params CCI5_SignalMethod -63 63 3
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -63 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 3 * 5"))
+        $$(get_min 63 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 3 * 5"))
+        3
       SETFILE: /opt/sets/EA31337-CCI5_SignalMethod.set
       SET_PARAMS: CCI5_SignalMethod
       TEST_REPORT_NAME: EA31337-CCI5_SignalMethod
@@ -36,7 +46,12 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      RUN_ON_SET: set_opt_params CCI15_SignalMethod -63 63 3
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -63 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 3 * 5"))
+        $$(get_min 63 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 3 * 5"))
+        3
       SETFILE: /opt/sets/EA31337-CCI15_SignalMethod.set
       SET_PARAMS: CCI15_SignalMethod
       TEST_REPORT_NAME: EA31337-CCI15_SignalMethod
@@ -49,7 +64,12 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      RUN_ON_SET: set_opt_params CCI30_SignalMethod -63 63 3
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -63 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 3 * 5"))
+        $$(get_min 63 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 3 * 5"))
+        3
       SETFILE: /opt/sets/EA31337-CCI30_SignalMethod.set
       SET_PARAMS: CCI30_SignalMethod
       TEST_REPORT_NAME: EA31337-CCI30_SignalMethod
