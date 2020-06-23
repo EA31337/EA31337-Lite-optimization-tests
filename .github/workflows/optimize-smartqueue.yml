@@ -10,7 +10,7 @@ on:
 
 jobs:
   Optimize-SmartQueue:
-    runs-on: [self-hosted, linux]
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
@@ -18,17 +18,17 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - name: Run 1st optimization tests
-        run: docker-compose up SmartQueueMethod SmartQueueFilter
+      - run: docker-compose run SmartQueueMethod
         working-directory: SmartQueue
-      - name: Run 2nd optimization tests
-        run: docker-compose up SmartQueueActive
+      - run: docker-compose run SmartQueueFilter
+        working-directory: SmartQueue
+      - run: docker-compose run SmartQueueActive
         working-directory: SmartQueue
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --rebase --autostash
+          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
