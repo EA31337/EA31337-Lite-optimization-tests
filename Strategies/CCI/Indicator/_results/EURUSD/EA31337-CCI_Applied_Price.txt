@@ -6,16 +6,16 @@
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
+                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            3 1287.77         3607          1.05            0.36    2671.24       2.58 CCI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-            2  577.62         3846          1.02            0.15    3359.09       3.24 CCI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-            4  454.14         4019          1.02            0.11    3678.42       3.54 CCI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-            5  382.43         3837          1.01            0.10    3459.17       3.34 CCI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-            7  295.25         3830          1.01            0.08    3460.88       3.35 CCI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-            6  292.95         3837          1.01            0.08    3443.47       3.33 CCI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-            1  191.06         3804          1.01            0.05    3412.14       3.31 CCI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            3  -554.42         1069          0.95           -0.52    1766.73       1.76 CCI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+            1  -937.80         1235          0.93           -0.76    2348.32       2.34 CCI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+            6 -1107.30         1262          0.92           -0.88    2324.35       2.32 CCI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+            5 -1139.33         1258          0.92           -0.91    2360.16       2.35 CCI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+            7 -1179.89         1262          0.91           -0.93    2361.14       2.35 CCI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+            2 -1309.57         1226          0.90           -1.07    2429.43       2.43 CCI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            4 -1930.08         1546          0.87           -1.25    2677.72       2.67 CCI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;

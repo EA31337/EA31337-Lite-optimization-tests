@@ -30,7 +30,7 @@ CCI30_SignalMethod=0
 CCI_TrailingStopMethod=0
 CCI_TrailingProfitMethod=0
 # Optimization params.
-CCI_SignalLevel=97.5
+CCI_SignalLevel=97.3
 CCI_SignalLevel,F=0
 CCI_SignalLevel,1=0
 CCI_SignalLevel,2=0
