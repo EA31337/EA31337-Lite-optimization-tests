@@ -18,6 +18,7 @@
              5   24.00          200          1.06            0.12      67.43       0.07 Bands_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
              1    0.00            0          0.00            0.00       0.00       0.00  Bands_Period_M1=2; MaxOrders=0; MaxOrdersPerType=0;
              6   -1.50          193          1.00           -0.01      80.27       0.08 Bands_Period_M1=12; MaxOrders=0; MaxOrdersPerType=0;
+            10  -59.00          146          0.78           -0.40      82.14       0.08 Bands_Period_M1=20; MaxOrders=0; MaxOrdersPerType=0;
              9  -76.40          154          0.74           -0.50      99.54       0.10 Bands_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;
              8  -78.30          165          0.75           -0.47      99.60       0.10 Bands_Period_M1=16; MaxOrders=0; MaxOrdersPerType=0;
              7 -103.10          177          0.70           -0.58     117.00       0.12 Bands_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
