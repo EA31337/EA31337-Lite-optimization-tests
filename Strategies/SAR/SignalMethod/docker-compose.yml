@@ -13,7 +13,7 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
-        $$(get_max -127 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
+        $$(get_max -127 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
         $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 5"))
         7
       SETFILE: /opt/sets/EA31337-SAR1_SignalMethod.set
@@ -31,7 +31,7 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
-        $$(get_max -127 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
+        $$(get_max -127 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
         $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 5"))
         7
       SETFILE: /opt/sets/EA31337-SAR5_SignalMethod.set
@@ -49,7 +49,7 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
-        $$(get_max -127 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
+        $$(get_max -127 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
         $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 5"))
         7
       SETFILE: /opt/sets/EA31337-SAR15_SignalMethod.set
@@ -67,7 +67,7 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
-        $$(get_max -127 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
+        $$(get_max -127 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
         $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 5"))
         7
       SETFILE: /opt/sets/EA31337-SAR30_SignalMethod.set
