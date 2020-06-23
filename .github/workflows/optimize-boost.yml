@@ -10,6 +10,10 @@ on:
 
 jobs:
   Optimize-Boost:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Boost
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -18,9 +22,17 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Boost
+      - run: docker-compose run $DCA BestDailyStrategyMultiplierFactor
+      - run: docker-compose run $DCA BestMonthlyStrategyMultiplierFactor
+      - run: docker-compose run $DCA BestWeeklyStrategyMultiplierFactor
+      - run: docker-compose run $DCA BoostTrendFactor
+      - run: docker-compose run $DCA Boosting_Enabled
+      - run: docker-compose run $DCA ConFactorOrdersLimit
+      - run: docker-compose run $DCA ConLossesIncreaseFactor
+      - run: docker-compose run $DCA ConWinsIncreaseFactor
+      - run: docker-compose run $DCA WorseDailyStrategyMultiplierFactor
+      - run: docker-compose run $DCA WorseMonthlyStrategyMultiplierFactor
+      - run: docker-compose run $DCA WorseWeeklyStrategyMultiplierFactor
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -34,3 +46,5 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"

@@ -11,6 +11,10 @@ on:
 jobs:
   Optimize-SmartQueue:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: SmartQueue
     steps:
       - uses: actions/checkout@v2
         with:
@@ -18,12 +22,9 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run SmartQueueMethod
-        working-directory: SmartQueue
-      - run: docker-compose run SmartQueueFilter
-        working-directory: SmartQueue
-      - run: docker-compose run SmartQueueActive
-        working-directory: SmartQueue
+      - run: docker-compose run $DCA SmartQueueMethod
+      - run: docker-compose run $DCA SmartQueueFilter
+      - run: docker-compose run $DCA SmartQueueActive
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -37,3 +38,5 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"

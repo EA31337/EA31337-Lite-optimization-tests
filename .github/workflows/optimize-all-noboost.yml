@@ -22,14 +22,14 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run MinPipGap
-      - run: docker-compose run ProfitFactorMinToTrade
-      - run: docker-compose run StopLossMax
-      - run: docker-compose run TakeProfitMax
-      - run: docker-compose run TrailingProfit
-      - run: docker-compose run TrailingStop
-      - run: docker-compose run TrailingStopAddPerMinute
-      - run: docker-compose run TrendPeriod
+      - run: docker-compose run $DCA MinPipGap
+      - run: docker-compose run $DCA ProfitFactorMinToTrade
+      - run: docker-compose run $DCA StopLossMax
+      - run: docker-compose run $DCA TakeProfitMax
+      - run: docker-compose run $DCA TrailingProfit
+      - run: docker-compose run $DCA TrailingStop
+      - run: docker-compose run $DCA TrailingStopAddPerMinute
+      - run: docker-compose run $DCA TrendPeriod
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -43,3 +43,5 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"

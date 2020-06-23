@@ -22,12 +22,12 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run CloseOrderAfterXHours
-      - run: docker-compose run InitNoOfOrdersToCalcPF
-      - run: docker-compose run LotSize
-      - run: docker-compose run MaxOrders
-      - run: docker-compose run MaxOrdersPerType
-      - run: docker-compose run MinPipChangeToTrade
+      - run: docker-compose run $DCA CloseOrderAfterXHours
+      - run: docker-compose run $DCA InitNoOfOrdersToCalcPF
+      - run: docker-compose run $DCA LotSize
+      - run: docker-compose run $DCA MaxOrders
+      - run: docker-compose run $DCA MaxOrdersPerType
+      - run: docker-compose run $DCA MinPipChangeToTrade
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -41,3 +41,5 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
