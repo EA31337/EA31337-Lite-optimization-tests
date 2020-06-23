@@ -46,8 +46,8 @@ services:
       SET_PARAMS: MACD_SignalLevel
       RUN_ON_SET: >
         set_opt_params MACD_SignalLevel
-        $$(bc <<< "$$(input_get MACD_SignalLevel) - 0.1 * 2")
-        $$(bc <<< "$$(input_get MACD_SignalLevel) + 0.1 * 2")
+        $$(bc <<< "$$(input_get MACD_SignalLevel) - 0.1 * 4")
+        $$(bc <<< "$$(input_get MACD_SignalLevel) + 0.1 * 4")
         0.1
       SETFILE: /opt/sets/EA31337-MACD_SignalLevel.set
       TEST_REPORT_NAME: EA31337-MACD_SignalLevel
@@ -63,7 +63,7 @@ services:
       SET_PARAMS: MACD_Shift
       RUN_ON_SET: >
         set_opt_params MACD_Shift
-        $$(bc <<< "$$(input_get MACD_Shift) - 1 * 2")
+        $$(get_max 0 $$(bc <<< "$$(input_get MACD_Shift) - 1 * 2"))
         $$(bc <<< "$$(input_get MACD_Shift) + 1 * 2")
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SETFILE: /opt/sets/EA31337-MACD_Shift.set

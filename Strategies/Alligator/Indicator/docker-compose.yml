@@ -9,7 +9,10 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 8-12
+      BT_MONTHS: 9-12
+      BT_TESTMODEL: 1
+      BT_TESTMODEL_FXT: 1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       RUN_ON_SET: >
         for p in Jaw Teeth Lips; do
         set_opt_params "Alligator_Period_$${p}"
@@ -29,9 +32,10 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      SET_PARAMS: Alligator_Applied_Price
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       RUN_ON_SET: set_opt_params Alligator_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-Alligator_Applied_Price.set
+      SET_PARAMS: Alligator_Applied_Price
       TEST_REPORT_NAME: EA31337-Alligator_Applied_Price
   Alligator_SignalLevel:
     command: run_backtest -v
@@ -42,6 +46,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       RUN_ON_SET: >
         set_opt_params Alligator_SignalLevel
         $$(bc <<< "$$(input_get Alligator_SignalLevel) - 0.1 * 2")
@@ -59,6 +64,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       RUN_ON_SET: >
         for p in Shift_Jaw Shift_Teeth Shift_Lips Shift; do
         set_opt_params "Alligator_$${p}"
@@ -66,7 +72,6 @@ services:
         $$(bc <<< "$$(input_get Alligator_$${p}) + 1")
         1;
         done
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=1
       SETFILE: /opt/sets/EA31337-Alligator_Shift.set
       SET_PARAMS: Alligator_Shift_Jaw,Alligator_Shift_Teeth,Alligator_Shift_Lips,Alligator_Shift
       TEST_REPORT_NAME: EA31337-Alligator_Shift

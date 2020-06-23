@@ -10,6 +10,10 @@ on:
 
 jobs:
   Optimize-All-NoBoost:
+    defaults:
+      run:
+        shell: bash
+        working-directory: All-NoBoost
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -18,14 +22,19 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: All-NoBoost
+      - run: docker-compose run $DCA MinPipGap
+      - run: docker-compose run $DCA ProfitFactorMinToTrade
+      - run: docker-compose run $DCA StopLossMax
+      - run: docker-compose run $DCA TakeProfitMax
+      - run: docker-compose run $DCA TrailingProfit
+      - run: docker-compose run $DCA TrailingStop
+      - run: docker-compose run $DCA TrailingStopAddPerMinute
+      - run: docker-compose run $DCA TrendPeriod
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --rebase --autostash
+          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -34,3 +43,5 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"

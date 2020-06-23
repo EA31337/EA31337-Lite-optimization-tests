@@ -9,10 +9,15 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Bands1_SignalMethod
-      RUN_ON_SET: set_opt_params Bands1_SignalMethod -127 127 3
+      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
+        $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 5"))
+        7
       SETFILE: /opt/sets/EA31337-Bands1_SignalMethod.set
+      SET_PARAMS: Bands1_SignalMethod
       TEST_REPORT_NAME: EA31337-Bands1_SignalMethod
   Bands5_SignalMethod:
     command: run_backtest -v
@@ -22,10 +27,15 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Bands5_SignalMethod
-      RUN_ON_SET: set_opt_params Bands5_SignalMethod -127 127 3
+      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=30
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
+        $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 5"))
+        7
       SETFILE: /opt/sets/EA31337-Bands5_SignalMethod.set
+      SET_PARAMS: Bands5_SignalMethod
       TEST_REPORT_NAME: EA31337-Bands5_SignalMethod
   Bands15_SignalMethod:
     command: run_backtest -v
@@ -35,10 +45,15 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Bands15_SignalMethod
-      RUN_ON_SET: set_opt_params Bands15_SignalMethod -127 127 3
+      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
+        $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 5"))
+        7
       SETFILE: /opt/sets/EA31337-Bands15_SignalMethod.set
+      SET_PARAMS: Bands15_SignalMethod
       TEST_REPORT_NAME: EA31337-Bands15_SignalMethod
   Bands30_SignalMethod:
     command: run_backtest -v
@@ -48,8 +63,13 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Bands30_SignalMethod
-      RUN_ON_SET: set_opt_params Bands30_SignalMethod -127 127 3
+      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
+        $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 5"))
+        7
       SETFILE: /opt/sets/EA31337-Bands30_SignalMethod.set
+      SET_PARAMS: Bands30_SignalMethod
       TEST_REPORT_NAME: EA31337-Bands30_SignalMethod

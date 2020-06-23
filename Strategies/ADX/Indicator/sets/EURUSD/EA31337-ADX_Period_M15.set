@@ -30,7 +30,7 @@ ADX30_SignalMethod=0
 ADX_TrailingStopMethod=0
 ADX_TrailingProfitMethod=0
 # Optimization params.
-ADX_Period_M15=38
+ADX_Period_M15=46
 ADX_Period_M15,F=0
 ADX_Period_M15,1=0
 ADX_Period_M15,2=0

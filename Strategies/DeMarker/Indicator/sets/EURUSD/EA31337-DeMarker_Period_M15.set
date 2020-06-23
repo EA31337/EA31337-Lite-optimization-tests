@@ -32,7 +32,7 @@ DeMarker30_SignalMethod=0
 DeMarker_TrailingStopMethod=0
 DeMarker_TrailingProfitMethod=0
 # Optimization params.
-DeMarker_Period_M15=26
+DeMarker_Period_M15=38
 DeMarker_Period_M15,F=0
 DeMarker_Period_M15,1=0
 DeMarker_Period_M15,2=0

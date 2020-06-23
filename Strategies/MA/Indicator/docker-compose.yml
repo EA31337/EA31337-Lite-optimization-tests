@@ -10,6 +10,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 8-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         for p in Fast Medium Slow; do
         set_opt_params "MA_Period_$${p}"
@@ -29,6 +30,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params MA_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-MA_Applied_Price.set
       SET_PARAMS: MA_Applied_Price
@@ -42,6 +44,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         set_opt_params MA_SignalLevel
         $$(bc <<< "$$(input_get MA_SignalLevel) - 0.1 * 2")

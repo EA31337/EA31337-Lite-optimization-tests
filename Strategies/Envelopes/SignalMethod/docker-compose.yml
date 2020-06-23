@@ -9,8 +9,13 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: Envelopes1_SignalMethod
-      RUN_ON_SET: set_opt_params Envelopes1_SignalMethod -127 127
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -127 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
+        $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 7"))
+        7
       SETFILE: /opt/sets/EA31337-Envelopes1_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Envelopes1_SignalMethod
   Envelopes5_SignalMethod:
@@ -21,8 +26,13 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: Envelopes5_SignalMethod
-      RUN_ON_SET: set_opt_params Envelopes5_SignalMethod -127 127
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -127 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
+        $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 7"))
+        7
       SETFILE: /opt/sets/EA31337-Envelopes5_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Envelopes5_SignalMethod
   Envelopes15_SignalMethod:
@@ -33,8 +43,13 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: Envelopes15_SignalMethod
-      RUN_ON_SET: set_opt_params Envelopes15_SignalMethod -127 127
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -127 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
+        $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 7"))
+        7
       SETFILE: /opt/sets/EA31337-Envelopes15_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Envelopes15_SignalMethod
   Envelopes30_SignalMethod:
@@ -45,7 +60,12 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: Envelopes30_SignalMethod
-      RUN_ON_SET: set_opt_params Envelopes30_SignalMethod -127 127
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -127 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
+        $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 7"))
+        7
       SETFILE: /opt/sets/EA31337-Envelopes30_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Envelopes30_SignalMethod

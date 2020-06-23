@@ -14,8 +14,13 @@ services:
       RUN_ON_SET: >
         set_opt_params CCI_Period_M1
         $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M1) - 2 * 8"))
-        $$(bc <<< "$$(input_get CCI_Period_M1) + 2 * 8")
+        $$(get_min 50 $$(bc <<< "$$(input_get CCI_Period_M1) + 2 * 8"))
         4
+      RUN_ON_SUCCESS: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-CCI_Applied_Price.set
+        /opt/sets/EA31337-CCI_Shift.set
+        /opt/sets/EA31337-CCI_SignalLevel.set
       SETFILE: /opt/sets/EA31337-CCI_Period_M1.set
       SET_PARAMS: CCI_Period_M1
       TEST_REPORT_NAME: EA31337-CCI_Period_M1
@@ -34,6 +39,11 @@ services:
         $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M5) - 2 * 4"))
         $$(bc <<< "$$(input_get CCI_Period_M5) + 2 * 4")
         4
+      RUN_ON_SUCCESS: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-CCI_Applied_Price.set
+        /opt/sets/EA31337-CCI_Shift.set
+        /opt/sets/EA31337-CCI_SignalLevel.set
       SETFILE: /opt/sets/EA31337-CCI_Period_M5.set
       SET_PARAMS: CCI_Period_M5
       TEST_REPORT_NAME: EA31337-CCI_Period_M5
@@ -52,6 +62,11 @@ services:
         $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M15) - 2 * 4"))
         $$(bc <<< "$$(input_get CCI_Period_M15) + 2 * 4")
         4
+      RUN_ON_SUCCESS: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-CCI_Applied_Price.set
+        /opt/sets/EA31337-CCI_Shift.set
+        /opt/sets/EA31337-CCI_SignalLevel.set
       SETFILE: /opt/sets/EA31337-CCI_Period_M15.set
       SET_PARAMS: CCI_Period_M15
       TEST_REPORT_NAME: EA31337-CCI_Period_M15
@@ -70,6 +85,11 @@ services:
         $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M30) - 2 * 4"))
         $$(bc <<< "$$(input_get CCI_Period_M30) + 2 * 4")
         4
+      RUN_ON_SUCCESS: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-CCI_Applied_Price.set
+        /opt/sets/EA31337-CCI_Shift.set
+        /opt/sets/EA31337-CCI_SignalLevel.set
       SETFILE: /opt/sets/EA31337-CCI_Period_M30.set
       SET_PARAMS: CCI_Period_M30
       TEST_REPORT_NAME: EA31337-CCI_Period_M30
@@ -84,6 +104,14 @@ services:
       BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       RUN_ON_SET: set_opt_params CCI_Applied_Price 0 6
+      RUN_ON_SUCCESS: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-CCI_Period_M1.set
+        /opt/sets/EA31337-CCI_Period_M5.set
+        /opt/sets/EA31337-CCI_Period_M15.set
+        /opt/sets/EA31337-CCI_Period_M30.set
+        /opt/sets/EA31337-CCI_Shift.set
+        /opt/sets/EA31337-CCI_SignalLevel.set
       SETFILE: /opt/sets/EA31337-CCI_Applied_Price.set
       SET_PARAMS: CCI_Applied_Price
       TEST_REPORT_NAME: EA31337-CCI_Applied_Price
@@ -99,9 +127,17 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       RUN_ON_SET: >
         set_opt_params CCI_SignalLevel
-        $$(bc <<< "$$(input_get CCI_SignalLevel) - 0.1 * 4")
-        $$(bc <<< "$$(input_get CCI_SignalLevel) + 0.1 * 4")
-        0.2
+        $$(bc <<< "$$(input_get CCI_SignalLevel) - 1 * 8")
+        $$(bc <<< "$$(input_get CCI_SignalLevel) + 1 * 8")
+        2
+      RUN_ON_SUCCESS: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-CCI_Applied_Price.set
+        /opt/sets/EA31337-CCI_Period_M1.set
+        /opt/sets/EA31337-CCI_Period_M5.set
+        /opt/sets/EA31337-CCI_Period_M15.set
+        /opt/sets/EA31337-CCI_Period_M30.set
+        /opt/sets/EA31337-CCI_Shift.set
       SETFILE: /opt/sets/EA31337-CCI_SignalLevel.set
       SET_PARAMS: CCI_SignalLevel
       TEST_REPORT_NAME: EA31337-CCI_SignalLevel
@@ -119,6 +155,14 @@ services:
         set_opt_params CCI_Shift
         $$(get_max 0 $$(bc <<< "$$(input_get CCI_Shift) - 1 * 2"))
         $$(bc <<< "$$(input_get CCI_Shift) + 1 * 2")
+      RUN_ON_SUCCESS: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-CCI_Applied_Price.set
+        /opt/sets/EA31337-CCI_Period_M1.set
+        /opt/sets/EA31337-CCI_Period_M5.set
+        /opt/sets/EA31337-CCI_Period_M15.set
+        /opt/sets/EA31337-CCI_Period_M30.set
+        /opt/sets/EA31337-CCI_SignalLevel.set
       SETFILE: /opt/sets/EA31337-CCI_Shift.set
       SET_PARAMS: CCI_Shift
       TEST_REPORT_NAME: EA31337-CCI_Shift

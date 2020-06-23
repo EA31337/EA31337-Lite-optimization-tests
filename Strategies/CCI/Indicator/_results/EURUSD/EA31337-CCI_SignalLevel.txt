@@ -6,20 +6,14 @@
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
+                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            1 1399.96         3609          1.06            0.39    2602.84       2.51 CCI_SignalLevel=97.5; MaxOrders=0; MaxOrdersPerType=0;
-            2 1356.16         3608          1.05            0.38    2602.84       2.51 CCI_SignalLevel=97.6; MaxOrders=0; MaxOrdersPerType=0;
-            3 1356.16         3608          1.05            0.38    2602.84       2.51 CCI_SignalLevel=97.7; MaxOrders=0; MaxOrdersPerType=0;
-            4 1356.16         3608          1.05            0.38    2602.84       2.51 CCI_SignalLevel=97.8; MaxOrders=0; MaxOrdersPerType=0;
-            5 1287.77         3607          1.05            0.36    2671.24       2.58 CCI_SignalLevel=97.9; MaxOrders=0; MaxOrdersPerType=0;
-            6 1287.77         3607          1.05            0.36    2671.24       2.58   CCI_SignalLevel=98; MaxOrders=0; MaxOrdersPerType=0;
-            8 1278.27         3607          1.05            0.35    2671.24       2.58 CCI_SignalLevel=98.2; MaxOrders=0; MaxOrdersPerType=0;
-            7 1262.77         3607          1.05            0.35    2671.24       2.58 CCI_SignalLevel=98.1; MaxOrders=0; MaxOrdersPerType=0;
-            9 1245.48         3605          1.05            0.35    2675.14       2.58 CCI_SignalLevel=98.3; MaxOrders=0; MaxOrdersPerType=0;
-           10 1245.97         3605          1.05            0.35    2674.34       2.58 CCI_SignalLevel=98.4; MaxOrders=0; MaxOrdersPerType=0;
-           11 1234.58         3605          1.05            0.34    2725.13       2.63 CCI_SignalLevel=98.5; MaxOrders=0; MaxOrdersPerType=0;
+            2 -554.42         1069          0.95           -0.52    1766.73       1.76 CCI_SignalLevel=97.3; MaxOrders=0; MaxOrdersPerType=0;
+            3 -554.42         1069          0.95           -0.52    1766.73       1.76 CCI_SignalLevel=97.5; MaxOrders=0; MaxOrdersPerType=0;
+            4 -554.42         1069          0.95           -0.52    1766.73       1.76 CCI_SignalLevel=97.7; MaxOrders=0; MaxOrdersPerType=0;
+            5 -554.42         1069          0.95           -0.52    1766.73       1.76 CCI_SignalLevel=97.9; MaxOrders=0; MaxOrdersPerType=0;
+            1 -563.22         1069          0.95           -0.53    1766.73       1.76 CCI_SignalLevel=97.1; MaxOrders=0; MaxOrdersPerType=0;

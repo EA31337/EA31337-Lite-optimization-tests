@@ -10,20 +10,25 @@ on:
 
 jobs:
   Optimize-Stops:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/AC/Stops
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
-          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/AC/Stops
+          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA AC_TrailingStopMethod
+      - run: docker-compose run $DCA AC_TrailingProfitMethod
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --rebase --autostash
+          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -32,7 +37,13 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-SignalMethod:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/AC/SignalMethod
     needs: Optimize-Stops
     runs-on: ubuntu-latest
     steps:
@@ -42,15 +53,15 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - {working-directory: Strategies/AC/SignalMethod, run: docker-compose run $DCA AC1_SignalMethod}
-      - {working-directory: Strategies/AC/SignalMethod, run: docker-compose run $DCA AC5_SignalMethod}
-      - {working-directory: Strategies/AC/SignalMethod, run: docker-compose run $DCA AC15_SignalMethod}
-      - {working-directory: Strategies/AC/SignalMethod, run: docker-compose run $DCA AC30_SignalMethod}
+      - run: docker-compose run $DCA AC1_SignalMethod
+      - run: docker-compose run $DCA AC5_SignalMethod
+      - run: docker-compose run $DCA AC15_SignalMethod
+      - run: docker-compose run $DCA AC30_SignalMethod
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --rebase --autostash
+          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -62,21 +73,25 @@ jobs:
     env:
       DCA: "--rm"
   Optimize-Timeframes:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/AC/Timeframes
     needs: Optimize-Stops
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
-          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/AC/Timeframes
+          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA AC_Active_Tf
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --rebase --autostash
+          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -85,3 +100,5 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"

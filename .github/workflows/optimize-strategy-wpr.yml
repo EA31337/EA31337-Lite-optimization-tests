@@ -10,6 +10,10 @@ on:
 
 jobs:
   Optimize-Indicator:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/WPR/Indicator
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -18,14 +22,18 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/WPR/Indicator
+      - run: docker-compose run $DCA WPR_Period_M1
+      - run: docker-compose run $DCA WPR_Period_M5
+      - run: docker-compose run $DCA WPR_Period_M15
+      - run: docker-compose run $DCA WPR_Period_M30
+      - run: docker-compose run $DCA WPR_Applied_Price
+      - run: docker-compose run $DCA WPR_SignalLevel
+      - run: docker-compose run $DCA WPR_Shift
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --rebase --autostash
+          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -34,22 +42,29 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-Stops:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/WPR/Stops
     needs: Optimize-Indicator
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
-          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/WPR/Stops
+          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA WPR_TrailingStopMethod
+      - run: docker-compose run $DCA WPR_TrailingProfitMethod
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --rebase --autostash
+          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -58,22 +73,31 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-SignalMethod:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/WPR/SignalMethod
     needs: Optimize-Stops
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
-          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/WPR/SignalMethod
+          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA WPR1_SignalMethod
+      - run: docker-compose run $DCA WPR5_SignalMethod
+      - run: docker-compose run $DCA WPR15_SignalMethod
+      - run: docker-compose run $DCA WPR30_SignalMethod
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --rebase --autostash
+          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -82,22 +106,28 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-Timeframes:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/WPR/Timeframes
     needs: Optimize-SignalMethod
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
-          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/WPR/Timeframes
+          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA WPR_Active_Tf
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --rebase --autostash
+          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -106,3 +136,5 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"

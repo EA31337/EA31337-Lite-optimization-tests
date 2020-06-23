@@ -10,6 +10,10 @@ on:
 
 jobs:
   Optimize-Indicator:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/Bands/Indicator
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -18,23 +22,23 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - {working-directory: Strategies/Bands/Indicator, run: docker-compose run $DCA Bands_Period_M1}
-      - {working-directory: Strategies/Bands/Indicator, run: docker-compose run $DCA Bands_Period_M5}
-      - {working-directory: Strategies/Bands/Indicator, run: docker-compose run $DCA Bands_Period_M15}
-      - {working-directory: Strategies/Bands/Indicator, run: docker-compose run $DCA Bands_Period_M30}
-      - {working-directory: Strategies/Bands/Indicator, run: docker-compose run $DCA Bands_Deviation_M1}
-      - {working-directory: Strategies/Bands/Indicator, run: docker-compose run $DCA Bands_Deviation_M5}
-      - {working-directory: Strategies/Bands/Indicator, run: docker-compose run $DCA Bands_Deviation_M15}
-      - {working-directory: Strategies/Bands/Indicator, run: docker-compose run $DCA Bands_Deviation_M30}
-      - {working-directory: Strategies/Bands/Indicator, run: docker-compose run $DCA Bands_Applied_Price}
-      - {working-directory: Strategies/Bands/Indicator, run: docker-compose run $DCA Bands_SignalLevel}
-      - {working-directory: Strategies/Bands/Indicator, run: docker-compose run $DCA Bands_HShift}
-      - {working-directory: Strategies/Bands/Indicator, run: docker-compose run $DCA Bands_Shift}
+      - run: docker-compose run $DCA Bands_Period_M1
+      - run: docker-compose run $DCA Bands_Period_M5
+      - run: docker-compose run $DCA Bands_Period_M15
+      - run: docker-compose run $DCA Bands_Period_M30
+      - run: docker-compose run $DCA Bands_Deviation_M1
+      - run: docker-compose run $DCA Bands_Deviation_M5
+      - run: docker-compose run $DCA Bands_Deviation_M15
+      - run: docker-compose run $DCA Bands_Deviation_M30
+      - run: docker-compose run $DCA Bands_Applied_Price
+      - run: docker-compose run $DCA Bands_SignalLevel
+      - run: docker-compose run $DCA Bands_HShift
+      - run: docker-compose run $DCA Bands_Shift
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --rebase --autostash
+          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -46,6 +50,10 @@ jobs:
     env:
       DCA: "--rm"
   Optimize-Stops:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/Bands/Stops
     needs: Optimize-Indicator
     runs-on: ubuntu-latest
     steps:
@@ -53,13 +61,13 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - {working-directory: Strategies/Bands/Stops, run: docker-compose run $DCA Bands_TrailingStopMethod}
-      - {working-directory: Strategies/Bands/Stops, run: docker-compose run $DCA Bands_TrailingProfitMethod}
+      - run: docker-compose run $DCA Bands_TrailingStopMethod
+      - run: docker-compose run $DCA Bands_TrailingProfitMethod
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --rebase --autostash
+          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -71,6 +79,10 @@ jobs:
     env:
       DCA: "--rm"
   Optimize-SignalMethod:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/Bands/SignalMethod
     needs: Optimize-Stops
     runs-on: ubuntu-latest
     steps:
@@ -78,15 +90,15 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - {working-directory: Strategies/Bands/SignalMethod, run: docker-compose run $DCA Bands1_SignalMethod}
-      - {working-directory: Strategies/Bands/SignalMethod, run: docker-compose run $DCA Bands5_SignalMethod}
-      - {working-directory: Strategies/Bands/SignalMethod, run: docker-compose run $DCA Bands15_SignalMethod}
-      - {working-directory: Strategies/Bands/SignalMethod, run: docker-compose run $DCA Bands30_SignalMethod}
+      - run: docker-compose run $DCA Bands1_SignalMethod
+      - run: docker-compose run $DCA Bands5_SignalMethod
+      - run: docker-compose run $DCA Bands15_SignalMethod
+      - run: docker-compose run $DCA Bands30_SignalMethod
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --rebase --autostash
+          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -98,6 +110,10 @@ jobs:
     env:
       DCA: "--rm"
   Optimize-Timeframes:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/Bands/Timeframes
     needs: Optimize-SignalMethod
     runs-on: ubuntu-latest
     steps:
@@ -105,12 +121,12 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - {working-directory: Strategies/Bands/Timeframes, run: docker-compose run $DCA Bands_Active_Tf}
+      - run: docker-compose run $DCA Bands_Active_Tf
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --rebase --autostash
+          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git commit -m "Adds test results" -a
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
