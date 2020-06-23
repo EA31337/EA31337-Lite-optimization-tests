@@ -9,10 +9,15 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: WPR1_SignalMethod
-      RUN_ON_SET: set_opt_params WPR1_SignalMethod -63 63
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=15
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -63 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 3 * 5"))
+        $$(get_min 63 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 3 * 7"))
+        3
       SETFILE: /opt/sets/EA31337-WPR1_SignalMethod.set
+      SET_PARAMS: WPR1_SignalMethod
       TEST_REPORT_NAME: EA31337-WPR1_SignalMethod
   WPR5_SignalMethod:
     command: run_backtest -v
@@ -22,10 +27,15 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: WPR5_SignalMethod
-      RUN_ON_SET: set_opt_params WPR5_SignalMethod -63 63
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=15
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -63 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 3 * 5"))
+        $$(get_min 63 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 3 * 7"))
+        3
       SETFILE: /opt/sets/EA31337-WPR5_SignalMethod.set
+      SET_PARAMS: WPR5_SignalMethod
       TEST_REPORT_NAME: EA31337-WPR5_SignalMethod
   WPR15_SignalMethod:
     command: run_backtest -v
@@ -35,10 +45,15 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: WPR15_SignalMethod
-      RUN_ON_SET: set_opt_params WPR15_SignalMethod -63 63
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=15
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -63 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 3 * 5"))
+        $$(get_min 63 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 3 * 7"))
+        3
       SETFILE: /opt/sets/EA31337-WPR15_SignalMethod.set
+      SET_PARAMS: WPR15_SignalMethod
       TEST_REPORT_NAME: EA31337-WPR15_SignalMethod
   WPR30_SignalMethod:
     command: run_backtest -v
@@ -48,8 +63,13 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: WPR30_SignalMethod
-      RUN_ON_SET: set_opt_params WPR30_SignalMethod -63 63
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=15
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -63 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 3 * 5"))
+        $$(get_min 63 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 3 * 7"))
+        3
       SETFILE: /opt/sets/EA31337-WPR30_SignalMethod.set
+      SET_PARAMS: WPR30_SignalMethod
       TEST_REPORT_NAME: EA31337-WPR30_SignalMethod
