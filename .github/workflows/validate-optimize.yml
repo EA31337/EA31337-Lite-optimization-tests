@@ -1,0 +1,34 @@
+---
+name: Validate
+
+# yamllint disable rule:truthy
+on:
+  push:
+    branches:
+      - 'optimize-validate'
+
+jobs:
+  Validate-Strategies:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
+          fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
+      - name: Run tests in dry mode...
+        run: |
+          find "${{ github.workspace }}" -name docker-compose.yml \
+            -exec bash -c \
+              "echo docker-compose -f '{}' run $DCA;" \
+            ';'
+        shell: bash
+      - name: Commit files
+        run: |
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git pull origin ${{ github.ref }} --autostash --rebase -Xours
+          git commit -m "Adds test results" -a
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+    env:
+      DCA: "--rm -e OPT_DRY_RUN=1"
