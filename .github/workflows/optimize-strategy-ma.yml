@@ -18,9 +18,13 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/MA/Indicator
+      - {working-directory: Strategies/MA/Indicator, run: docker-compose run $DCA MA_Periods}
+      - {working-directory: Strategies/MA/Indicator, run: docker-compose run $DCA MA_Applied_Price}
+      - {working-directory: Strategies/MA/Indicator, run: docker-compose run $DCA MA_SignalLevel}
+      - {working-directory: Strategies/MA/Indicator, run: docker-compose run $DCA MA_Shift}
+      - {working-directory: Strategies/MA/Indicator, run: docker-compose run $DCA MA_Shift_Fast}
+      - {working-directory: Strategies/MA/Indicator, run: docker-compose run $DCA MA_Shift_Medium}
+      - {working-directory: Strategies/MA/Indicator, run: docker-compose run $DCA MA_Shift_Slow}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -67,9 +71,10 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/MA/SignalMethod
+      - {working-directory: Strategies/MA/SignalMethod, run: docker-compose run $DCA MA1_SignalMethod}
+      - {working-directory: Strategies/MA/SignalMethod, run: docker-compose run $DCA MA5_SignalMethod}
+      - {working-directory: Strategies/MA/SignalMethod, run: docker-compose run $DCA MA15_SignalMethod}
+      - {working-directory: Strategies/MA/SignalMethod, run: docker-compose run $DCA MA30_SignalMethod}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -83,6 +88,8 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-Timeframes:
     needs: Optimize-SignalMethod
     runs-on: ubuntu-latest
@@ -91,9 +98,7 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - name: Run optimization tests
-        run: docker-compose up
-        working-directory: Strategies/MA/Timeframes
+      - {working-directory: Strategies/MA/Timeframes, run: docker-compose run $DCA MA_Active_Tf}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -107,3 +112,5 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
