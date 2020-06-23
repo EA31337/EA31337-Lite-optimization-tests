@@ -18,12 +18,12 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - {working-directory: Strategies/MFI/Indicator, run: docker-compose run MFI_Period_M1}
-      - {working-directory: Strategies/MFI/Indicator, run: docker-compose run MFI_Period_M5}
-      - {working-directory: Strategies/MFI/Indicator, run: docker-compose run MFI_Period_M15}
-      - {working-directory: Strategies/MFI/Indicator, run: docker-compose run MFI_Period_M30}
-      - {working-directory: Strategies/MFI/Indicator, run: docker-compose run MFI_SignalLevel}
-      - {working-directory: Strategies/MFI/Indicator, run: docker-compose run MFI_Shift}
+      - {working-directory: Strategies/MFI/Indicator, run: docker-compose run $DCA MFI_Period_M1}
+      - {working-directory: Strategies/MFI/Indicator, run: docker-compose run $DCA MFI_Period_M5}
+      - {working-directory: Strategies/MFI/Indicator, run: docker-compose run $DCA MFI_Period_M15}
+      - {working-directory: Strategies/MFI/Indicator, run: docker-compose run $DCA MFI_Period_M30}
+      - {working-directory: Strategies/MFI/Indicator, run: docker-compose run $DCA MFI_SignalLevel}
+      - {working-directory: Strategies/MFI/Indicator, run: docker-compose run $DCA MFI_Shift}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -37,6 +37,8 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-Stops:
     needs: Optimize-Indicator
     runs-on: ubuntu-latest
@@ -70,10 +72,10 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - {working-directory: Strategies/MFI/SignalMethod, run: docker-compose run MFI1_SignalMethod}
-      - {working-directory: Strategies/MFI/SignalMethod, run: docker-compose run MFI5_SignalMethod}
-      - {working-directory: Strategies/MFI/SignalMethod, run: docker-compose run MFI15_SignalMethod}
-      - {working-directory: Strategies/MFI/SignalMethod, run: docker-compose run MFI30_SignalMethod}
+      - {working-directory: Strategies/MFI/SignalMethod, run: docker-compose run $DCA MFI1_SignalMethod}
+      - {working-directory: Strategies/MFI/SignalMethod, run: docker-compose run $DCA MFI5_SignalMethod}
+      - {working-directory: Strategies/MFI/SignalMethod, run: docker-compose run $DCA MFI15_SignalMethod}
+      - {working-directory: Strategies/MFI/SignalMethod, run: docker-compose run $DCA MFI30_SignalMethod}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -87,6 +89,8 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
   Optimize-Timeframes:
     needs: Optimize-SignalMethod
     runs-on: ubuntu-latest
@@ -95,7 +99,7 @@ jobs:
         with:
           persist-credentials: false  # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           fetch-depth: 0  # Otherwise, you will failed to push refs to dest repo.
-      - {working-directory: Strategies/MFI/Timeframes, run: docker-compose run MFI_Active_Tf}
+      - {working-directory: Strategies/MFI/Timeframes, run: docker-compose run $DCA MFI_Active_Tf}
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
@@ -109,3 +113,5 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
