@@ -9,8 +9,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: Bands1_SignalMethod
-      RUN_ON_SET: set_opt_params Bands1_SignalMethod -127 127 3
+      RUN_ON_SET: set_opt_params Bands1_SignalMethod -127 127 7
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-Bands1_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Bands1_SignalMethod
@@ -22,8 +23,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: Bands5_SignalMethod
-      RUN_ON_SET: set_opt_params Bands5_SignalMethod -127 127 3
+      RUN_ON_SET: set_opt_params Bands5_SignalMethod -127 127 7
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=30
       SETFILE: /opt/sets/EA31337-Bands5_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Bands5_SignalMethod
@@ -35,8 +37,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: Bands15_SignalMethod
-      RUN_ON_SET: set_opt_params Bands15_SignalMethod -127 127 3
+      RUN_ON_SET: set_opt_params Bands15_SignalMethod -127 127 7
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       SETFILE: /opt/sets/EA31337-Bands15_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Bands15_SignalMethod
@@ -48,8 +51,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: Bands30_SignalMethod
-      RUN_ON_SET: set_opt_params Bands30_SignalMethod -127 127 3
+      RUN_ON_SET: set_opt_params Bands30_SignalMethod -127 127 7
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       SETFILE: /opt/sets/EA31337-Bands30_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Bands30_SignalMethod
