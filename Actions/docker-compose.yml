@@ -9,6 +9,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: Account_Conditions_Active
       RUN_ON_SET: set_opt_params Account_Conditions_Active 0 1
       SETFILE: /opt/sets/EA31337-Account_Conditions_Active.set
@@ -22,6 +24,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: Account_Condition_1
       RUN_ON_SET: set_opt_params Account_Condition_1 2 5
       SETFILE: /opt/sets/EA31337-Action_On_Condition_01.set
@@ -34,6 +38,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: Market_Condition_1
       RUN_ON_SET: set_opt_params Market_Condition_1 1 19
       SETFILE: /opt/sets/EA31337-Action_On_Condition_01.set
@@ -46,6 +52,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: Action_On_Condition_1
       RUN_ON_SET: set_opt_params Action_On_Condition_1 0 10
       SETFILE: /opt/sets/EA31337-Action_On_Condition_01.set
@@ -59,6 +67,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: Account_Condition_2
       RUN_ON_SET: set_opt_params Account_Condition_2 6 9
       SETFILE: /opt/sets/EA31337-Action_On_Condition_02.set
@@ -71,6 +81,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: Market_Condition_2
       RUN_ON_SET: set_opt_params Market_Condition_2 1 19
       SETFILE: /opt/sets/EA31337-Action_On_Condition_02.set
@@ -83,6 +95,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: Action_On_Condition_2
       RUN_ON_SET: set_opt_params Action_On_Condition_2 0 10
       SETFILE: /opt/sets/EA31337-Action_On_Condition_02.set
@@ -96,6 +110,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: Account_Condition_3
       RUN_ON_SET: set_opt_params Account_Condition_3 10 10
       SETFILE: /opt/sets/EA31337-Action_On_Condition_03.set
@@ -108,6 +124,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: Market_Condition_3
       RUN_ON_SET: set_opt_params Market_Condition_3 1 19
       SETFILE: /opt/sets/EA31337-Action_On_Condition_03.set
@@ -120,6 +138,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: Action_On_Condition_3
       RUN_ON_SET: set_opt_params Action_On_Condition_3 0 10
       SETFILE: /opt/sets/EA31337-Action_On_Condition_03.set
@@ -133,6 +153,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: Account_Condition_4
       RUN_ON_SET: set_opt_params Account_Condition_4 17 20
       SETFILE: /opt/sets/EA31337-Action_On_Condition_04.set
@@ -145,6 +167,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: Market_Condition_4
       RUN_ON_SET: set_opt_params Market_Condition_4 1 19
       SETFILE: /opt/sets/EA31337-Action_On_Condition_04.set
@@ -157,6 +181,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: Action_On_Condition_4
       RUN_ON_SET: set_opt_params Action_On_Condition_4 0 10
       SETFILE: /opt/sets/EA31337-Action_On_Condition_04.set
