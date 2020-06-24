@@ -11,7 +11,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
-      RUN_ON_SET: set_opt_params Boosting_Enabled 0 1
+      RUN_ON_SET: set_opt_params $${SET_PARAMS} 0 1
       SETFILE: /opt/sets/EA31337-Boosting_Enabled.set
       SET_PARAMS: Boosting_Enabled
       TEST_REPORT_NAME: EA31337-Boosting_Enabled
@@ -82,7 +82,7 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       INCLUDE: /opt/rules/All-Boosting/All-ConFactorOrdersLimit.rule
       RUN_ON_SET: >
-        set_opt_params ConFactorOrdersLimit
+        set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 100 * 10"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 100 * 10")
         100
@@ -100,7 +100,7 @@ services:
       BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
-        set_opt_params BestDailyStrategyMultiplierFactor
+        set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 5"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 5")
         0.1
@@ -117,7 +117,7 @@ services:
     environment:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
-        set_opt_params BestMonthlyStrategyMultiplierFactor
+        set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 5"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 5")
         0.1
@@ -135,7 +135,7 @@ services:
       BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
-        set_opt_params BestWeeklyStrategyMultiplierFactor
+        set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 5"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 5")
         0.1
@@ -153,7 +153,7 @@ services:
       BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
-        set_opt_params WorseDailyStrategyMultiplierFactor
+        set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 10"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 10")
         0.1
@@ -170,7 +170,7 @@ services:
     environment:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
-        set_opt_params WorseMonthlyStrategyMultiplierFactor
+        set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 10"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 10")
         0.1
@@ -188,7 +188,7 @@ services:
       BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
-        set_opt_params WorseWeeklyStrategyMultiplierFactor
+        set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 10"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 10")
         0.1
