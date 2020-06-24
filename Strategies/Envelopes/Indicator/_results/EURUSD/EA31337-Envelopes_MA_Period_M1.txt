@@ -16,4 +16,5 @@
          3  -80.00            2          0.00          -40.00      80.00       0.08  Envelopes_MA_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
          4  -80.00            2          0.00          -40.00      80.00       0.08  Envelopes_MA_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
          5  -81.60            3          0.00          -27.20      86.90       0.09 Envelopes_MA_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
+         6  -82.80            4          0.00          -20.70      94.00       0.09 Envelopes_MA_Period_M1=12; MaxOrders=0; MaxOrdersPerType=0;
          1 -101.50            1          0.00         -101.50     107.90       0.11  Envelopes_MA_Period_M1=2; MaxOrders=0; MaxOrdersPerType=0;
