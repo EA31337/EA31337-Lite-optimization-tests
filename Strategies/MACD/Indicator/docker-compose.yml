@@ -9,16 +9,17 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 8-12
-      SET_PARAMS: MACD_Period_Fast,MACD_Period_Slow,MACD_Period_Signal
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         for p in Fast Slow Signal; do
         set_opt_params "MACD_Period_$${p}"
-        $$(get_max 1 $$(bc <<< "$$(input_get MACD_Period_$${p}) - 8"))
-        $$(get_max 1 $$(bc <<< "$$(input_get MACD_Period_$${p}) + 8"))
-        4;
+        $$(get_max 2 $$(bc <<< "$$(input_get MACD_Period_$${p}) - 4"))
+        $$(get_max 2 $$(bc <<< "$$(input_get MACD_Period_$${p}) + 4"))
+        2;
         done
       SETFILE: /opt/sets/EA31337-MACD_Periods.set
+      SET_PARAMS: MACD_Period_Fast,MACD_Period_Slow,MACD_Period_Signal
       TEST_REPORT_NAME: EA31337-MACD_Periods
   MACD_Applied_Price:
     command: run_backtest -v
@@ -29,10 +30,10 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      SET_PARAMS: MACD_Applied_Price
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params MACD_Applied_Price 0 6
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
       SETFILE: /opt/sets/EA31337-MACD_Applied_Price.set
+      SET_PARAMS: MACD_Applied_Price
       TEST_REPORT_NAME: EA31337-MACD_Applied_Price
   MACD_SignalLevel:
     command: run_backtest -v
@@ -43,13 +44,14 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      SET_PARAMS: MACD_SignalLevel
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         set_opt_params MACD_SignalLevel
         $$(bc <<< "$$(input_get MACD_SignalLevel) - 0.1 * 4")
         $$(bc <<< "$$(input_get MACD_SignalLevel) + 0.1 * 4")
         0.1
       SETFILE: /opt/sets/EA31337-MACD_SignalLevel.set
+      SET_PARAMS: MACD_SignalLevel
       TEST_REPORT_NAME: EA31337-MACD_SignalLevel
   MACD_Shift:
     command: run_backtest -v
@@ -60,11 +62,11 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      SET_PARAMS: MACD_Shift
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         set_opt_params MACD_Shift
         $$(get_max 0 $$(bc <<< "$$(input_get MACD_Shift) - 1 * 2"))
         $$(bc <<< "$$(input_get MACD_Shift) + 1 * 2")
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SETFILE: /opt/sets/EA31337-MACD_Shift.set
+      SET_PARAMS: MACD_Shift
       TEST_REPORT_NAME: EA31337-MACD_Shift
