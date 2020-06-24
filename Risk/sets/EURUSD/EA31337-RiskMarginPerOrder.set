@@ -3,7 +3,7 @@ LotSize=0
 Boosting_Enabled=0
 Account_Conditions_Active=0
 # Optimization params.
-RiskMarginPerOrder=1
+RiskMarginPerOrder=0
 RiskMarginPerOrder,F=0
 RiskMarginPerOrder,1=0
 RiskMarginPerOrder,2=0
