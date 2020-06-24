@@ -16,7 +16,7 @@ services:
         $$(get_max 0.1 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 8"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 8")
         0.4
-      RUN_ON_START: >
+      RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-Bands_Applied_Price.set
         /opt/sets/EA31337-Bands_HShift.set
@@ -42,7 +42,7 @@ services:
         $$(get_max 0.1 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 8"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 8")
         0.4
-      RUN_ON_START: >
+      RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-Bands_Applied_Price.set
         /opt/sets/EA31337-Bands_HShift.set
@@ -66,7 +66,7 @@ services:
         $$(get_max 0.1 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 8"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 8")
         0.4
-      RUN_ON_START: >
+      RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-Bands_Applied_Price.set
         /opt/sets/EA31337-Bands_HShift.set
@@ -91,7 +91,7 @@ services:
         $$(get_max 0.1 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 8"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 8")
         0.4
-      RUN_ON_START: >
+      RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-Bands_Applied_Price.set
         /opt/sets/EA31337-Bands_HShift.set
@@ -119,7 +119,7 @@ services:
         $$(get_max 2 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 2 * 8"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 2 * 8")
         2
-      RUN_ON_START: >
+      RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-Bands_Applied_Price.set
         /opt/sets/EA31337-Bands_Deviation_M1.set
@@ -145,7 +145,7 @@ services:
         $$(get_max 2 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 2 * 8"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 2 * 8")
         2
-      RUN_ON_START: >
+      RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-Bands_Applied_Price.set
         /opt/sets/EA31337-Bands_Deviation_M5.set
@@ -171,7 +171,7 @@ services:
         $$(get_max 2 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 2 * 8"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 2 * 8")
         2
-      RUN_ON_START: >
+      RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-Bands_Applied_Price.set
         /opt/sets/EA31337-Bands_Deviation_M15.set
@@ -197,7 +197,7 @@ services:
         $$(get_max 2 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 2 * 4"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 2 * 4")
         2
-      RUN_ON_START: >
+      RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-Bands_Applied_Price.set
         /opt/sets/EA31337-Bands_Deviation_M30.set
@@ -216,7 +216,7 @@ services:
       BT_MONTHS: 6-12
       SET_PARAMS: Bands_Applied_Price
       RUN_ON_SET: set_opt_params Bands_Applied_Price 0 6
-      RUN_ON_START: >
+      RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-Bands_Deviation_M1.set
         /opt/sets/EA31337-Bands_Deviation_M15.set
@@ -246,7 +246,7 @@ services:
         set_opt_params $${SET_PARAMS}
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 1 * 2"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 1 * 2")
-      RUN_ON_START: >
+      RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-Bands_Applied_Price.set
         /opt/sets/EA31337-Bands_Deviation_M1.set
@@ -277,7 +277,7 @@ services:
         $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 5")
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 5")
         0.1
-      RUN_ON_START: >
+      RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-Bands_Applied_Price.set
         /opt/sets/EA31337-Bands_Deviation_M1.set
@@ -307,7 +307,7 @@ services:
         set_opt_params $${SET_PARAMS}
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 1 * 2"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 1 * 2")
-      RUN_ON_START: >
+      RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-Bands_Applied_Price.set
         /opt/sets/EA31337-Bands_Deviation_M1.set
