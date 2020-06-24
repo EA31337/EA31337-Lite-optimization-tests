@@ -12,9 +12,9 @@ services:
       BT_MONTHS: 6-12
       SET_PARAMS: Bands_Deviation_M1
       RUN_ON_SET: >
-        set_opt_params Bands_Deviation_M1
-        $$(get_max 0.1 $$(bc <<< "$$(input_get Bands_Deviation_M1) - 0.1 * 8"))
-        $$(bc <<< "$$(input_get Bands_Deviation_M1) + 0.1 * 8")
+        set_opt_params $${SET_PARAMS}
+        $$(get_max 0.1 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 8"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 8")
         0.4
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M1.set
@@ -31,9 +31,9 @@ services:
       SET_PARAMS: Bands_Deviation_M5
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
-        set_opt_params Bands_Deviation_M5
-        $$(get_max 0.1 $$(bc <<< "$$(input_get Bands_Deviation_M5) - 0.1 * 8"))
-        $$(bc <<< "$$(input_get Bands_Deviation_M5) + 0.1 * 8")
+        set_opt_params $${SET_PARAMS}
+        $$(get_max 0.1 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 8"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 8")
         0.4
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M5.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M5
@@ -48,9 +48,9 @@ services:
       BT_MONTHS: 6-12
       SET_PARAMS: Bands_Deviation_M15
       RUN_ON_SET: >
-        set_opt_params Bands_Deviation_M15
-        $$(get_max 0.1 $$(bc <<< "$$(input_get Bands_Deviation_M15) - 0.1 * 8"))
-        $$(bc <<< "$$(input_get Bands_Deviation_M15) + 0.1 * 8")
+        set_opt_params $${SET_PARAMS}
+        $$(get_max 0.1 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 8"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 8")
         0.4
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M15.set
@@ -63,11 +63,12 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       SET_PARAMS: Bands_Deviation_M30
       RUN_ON_SET: >
-        set_opt_params Bands_Deviation_M30
-        $$(get_max 0.1 $$(bc <<< "$$(input_get Bands_Deviation_M30) - 0.1 * 8"))
-        $$(bc <<< "$$(input_get Bands_Deviation_M30) + 0.1 * 8")
+        set_opt_params $${SET_PARAMS}
+        $$(get_max 0.1 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 8"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 8")
         0.4
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M30.set
@@ -86,9 +87,9 @@ services:
       SETFILE: /opt/sets/EA31337-Bands_Period_M1.set
       SET_PARAMS: Bands_Period_M1
       RUN_ON_SET: >
-        set_opt_params Bands_Period_M1
-        $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M1) - 2 * 8"))
-        $$(bc <<< "$$(input_get Bands_Period_M1) + 2 * 8")
+        set_opt_params $${SET_PARAMS}
+        $$(get_max 2 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 2 * 8"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 2 * 8")
         2
       TEST_REPORT_NAME: EA31337-Bands_Period_M1
   Bands_Period_M5:
@@ -105,9 +106,9 @@ services:
       SET_PARAMS: Bands_Period_M5
       SETFILE: /opt/sets/EA31337-Bands_Period_M5.set
       RUN_ON_SET: >
-        set_opt_params Bands_Period_M5
-        $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M5) - 2 * 8"))
-        $$(bc <<< "$$(input_get Bands_Period_M5) + 2 * 8")
+        set_opt_params $${SET_PARAMS}
+        $$(get_max 2 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 2 * 8"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 2 * 8")
         2
       TEST_REPORT_NAME: EA31337-Bands_Period_M5
   Bands_Period_M15:
@@ -124,9 +125,9 @@ services:
       SET_PARAMS: Bands_Period_M15
       SETFILE: /opt/sets/EA31337-Bands_Period_M15.set
       RUN_ON_SET: >
-        set_opt_params Bands_Period_M15
-        $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M15) - 2 * 8"))
-        $$(bc <<< "$$(input_get Bands_Period_M15) + 2 * 8")
+        set_opt_params $${SET_PARAMS}
+        $$(get_max 2 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 2 * 8"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 2 * 8")
         2
       TEST_REPORT_NAME: EA31337-Bands_Period_M15
   Bands_Period_M30:
@@ -137,15 +138,15 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      # BT_MONTHS: 1-2
+      BT_MONTHS: 6-12
       BT_PERIOD: M30
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SET_PARAMS: Bands_Period_M30
       SETFILE: /opt/sets/EA31337-Bands_Period_M30.set
       RUN_ON_SET: >
-        set_opt_params Bands_Period_M30
-        $$(get_max 2 $$(bc <<< "$$(input_get Bands_Period_M30) - 2 * 4"))
-        $$(bc <<< "$$(input_get Bands_Period_M30) + 2 * 4")
+        set_opt_params $${SET_PARAMS}
+        $$(get_max 2 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 2 * 4"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 2 * 4")
         2
       TEST_REPORT_NAME: EA31337-Bands_Period_M30
   Bands_Applied_Price:
@@ -173,9 +174,9 @@ services:
       BT_MONTHS: 6-12
       SET_PARAMS: Bands_HShift
       RUN_ON_SET: >
-        set_opt_params Bands_HShift
-        $$(get_max 0 $$(bc <<< "$$(input_get Bands_HShift) - 1 * 2"))
-        $$(bc <<< "$$(input_get Bands_HShift) + 1 * 2")
+        set_opt_params $${SET_PARAMS}
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 1 * 2"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 1 * 2")
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_HShift.set
       TEST_REPORT_NAME: EA31337-Bands_HShift
@@ -190,9 +191,9 @@ services:
       BT_MONTHS: 6-12
       SET_PARAMS: Bands_SignalLevel
       RUN_ON_SET: >
-        set_opt_params Bands_SignalLevel
-        $$(bc <<< "$$(input_get Bands_SignalLevel) - 0.1 * 5")
-        $$(bc <<< "$$(input_get Bands_SignalLevel) + 0.1 * 5")
+        set_opt_params $${SET_PARAMS}
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 5")
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 5")
         0.1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_SignalLevel.set
@@ -208,9 +209,9 @@ services:
       BT_MONTHS: 6-12
       SET_PARAMS: Bands_Shift
       RUN_ON_SET: >
-        set_opt_params Bands_Shift
-        $$(get_max 0 $$(bc <<< "$$(input_get Bands_Shift) - 1 * 2"))
-        $$(bc <<< "$$(input_get Bands_Shift) + 1 * 2")
+        set_opt_params $${SET_PARAMS}
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 1 * 2"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 1 * 2")
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_Shift.set
       TEST_REPORT_NAME: EA31337-Bands_Shift
