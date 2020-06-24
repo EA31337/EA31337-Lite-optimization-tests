@@ -11,13 +11,13 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             6 -171.77          960          0.98           -0.18     753.49       0.75 MFI_Period_M15=30; MaxOrders=0; MaxOrdersPerType=0;
-             1 -401.36          977          0.95           -0.41     892.07       0.89 MFI_Period_M15=20; MaxOrders=0; MaxOrdersPerType=0;
-             5 -421.64          958          0.94           -0.44     833.49       0.83 MFI_Period_M15=28; MaxOrders=0; MaxOrdersPerType=0;
-             3 -435.41          963          0.94           -0.45     855.51       0.85 MFI_Period_M15=24; MaxOrders=0; MaxOrdersPerType=0;
-             2 -539.69          964          0.93           -0.56     841.82       0.84 MFI_Period_M15=22; MaxOrders=0; MaxOrdersPerType=0;
-             9 -605.11          922          0.92           -0.66     881.34       0.88 MFI_Period_M15=36; MaxOrders=0; MaxOrdersPerType=0;
-             7 -744.99          948          0.90           -0.79     943.73       0.94 MFI_Period_M15=32; MaxOrders=0; MaxOrdersPerType=0;
-             4 -745.95          959          0.90           -0.78     989.43       0.99 MFI_Period_M15=26; MaxOrders=0; MaxOrdersPerType=0;
-             8 -899.75          924          0.88           -0.97    1040.76       1.04 MFI_Period_M15=34; MaxOrders=0; MaxOrdersPerType=0;
+           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              4 321.22          816          1.05            0.39     588.82       0.58 MFI_Period_M15=28; MaxOrders=0; MaxOrdersPerType=0;
+              5 219.42          813          1.03            0.27     613.19       0.61 MFI_Period_M15=30; MaxOrders=0; MaxOrdersPerType=0;
+              1 177.38          814          1.03            0.22     590.04       0.59 MFI_Period_M15=22; MaxOrders=0; MaxOrdersPerType=0;
+              2 171.03          807          1.03            0.21     603.43       0.60 MFI_Period_M15=24; MaxOrders=0; MaxOrdersPerType=0;
+              3 155.23          799          1.02            0.19     583.40       0.58 MFI_Period_M15=26; MaxOrders=0; MaxOrdersPerType=0;
+              8 119.98          808          1.02            0.15     670.30       0.67 MFI_Period_M15=36; MaxOrders=0; MaxOrdersPerType=0;
+              7  31.90          805          1.00            0.04     725.69       0.72 MFI_Period_M15=34; MaxOrders=0; MaxOrdersPerType=0;
+              6  21.65          807          1.00            0.03     744.96       0.74 MFI_Period_M15=32; MaxOrders=0; MaxOrdersPerType=0;
+              9  -0.72          809          1.00           -0.00     691.64       0.69 MFI_Period_M15=38; MaxOrders=0; MaxOrdersPerType=0;
