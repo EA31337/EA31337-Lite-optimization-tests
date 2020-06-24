@@ -12,12 +12,12 @@
                             Spread          10
                                                                  [Optimization Graph]
       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         1 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=16; MaxOrders=0; MaxOrdersPerType=0;
-         2 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=18; MaxOrders=0; MaxOrdersPerType=0;
-         3 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=20; MaxOrders=0; MaxOrdersPerType=0;
-         4 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=22; MaxOrders=0; MaxOrdersPerType=0;
-         5 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=24; MaxOrders=0; MaxOrdersPerType=0;
-         6 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=26; MaxOrders=0; MaxOrdersPerType=0;
-         7 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=28; MaxOrders=0; MaxOrdersPerType=0;
-         8 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=30; MaxOrders=0; MaxOrdersPerType=0;
-         9 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=32; MaxOrders=0; MaxOrdersPerType=0;
+         1 -867.56          560          0.83           -1.55    1255.32       1.25  Envelopes_MA_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
+         2 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
+         3 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=12; MaxOrders=0; MaxOrdersPerType=0;
+         4 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=14; MaxOrders=0; MaxOrdersPerType=0;
+         5 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=16; MaxOrders=0; MaxOrdersPerType=0;
+         6 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=18; MaxOrders=0; MaxOrdersPerType=0;
+         7 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=20; MaxOrders=0; MaxOrdersPerType=0;
+         8 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=22; MaxOrders=0; MaxOrdersPerType=0;
+         9 -867.56          560          0.83           -1.55    1255.32       1.25 Envelopes_MA_Period_M15=24; MaxOrders=0; MaxOrdersPerType=0;
