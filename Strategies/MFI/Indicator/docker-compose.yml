@@ -9,7 +9,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         set_opt_params MFI_Period_M1
         $$(get_max 2 $$(bc <<< "$$(input_get MFI_Period_M1) - 2 * 4"))
@@ -26,7 +28,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         set_opt_params MFI_Period_M5
         $$(get_max 2 $$(bc <<< "$$(input_get MFI_Period_M5) - 2 * 4"))
@@ -43,7 +47,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M15
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         set_opt_params MFI_Period_M15
         $$(get_max 2 $$(bc <<< "$$(input_get MFI_Period_M15) - 2 * 4"))
@@ -60,7 +66,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
       BT_PERIOD: M30
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         set_opt_params MFI_Period_M30
         $$(get_max 2 $$(bc <<< "$$(input_get MFI_Period_M30) - 2 * 4"))
@@ -77,6 +85,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         set_opt_params MFI_SignalLevel
         $$(bc <<< "$$(input_get MFI_SignalLevel) - 0.1 * 5")
@@ -93,10 +103,11 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         set_opt_params MFI_Shift
-        $$(bc <<< "$$(input_get MFI_Shift) - 1 * 2")
+        $$(get_max 0 $$(bc <<< "$$(input_get MFI_Shift) - 1 * 2"))
         $$(bc <<< "$$(input_get MFI_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-MFI_Shift.set
       SET_PARAMS: MFI_Shift

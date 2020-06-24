@@ -26,7 +26,6 @@ jobs:
       - run: docker-compose run $DCA WPR_Period_M5
       - run: docker-compose run $DCA WPR_Period_M15
       - run: docker-compose run $DCA WPR_Period_M30
-      - run: docker-compose run $DCA WPR_Applied_Price
       - run: docker-compose run $DCA WPR_SignalLevel
       - run: docker-compose run $DCA WPR_Shift
       - name: Commit files
