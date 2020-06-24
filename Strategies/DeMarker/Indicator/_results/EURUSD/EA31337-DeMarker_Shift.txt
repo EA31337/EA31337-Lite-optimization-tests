@@ -11,13 +11,9 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1  26.52          191          1.02            0.14     254.59       0.25 DeMarker_Shift=-11; MaxOrders=0; MaxOrdersPerType=0;
-             2  26.52          191          1.02            0.14     254.59       0.25 DeMarker_Shift=-10; MaxOrders=0; MaxOrdersPerType=0;
-             3  26.52          191          1.02            0.14     254.59       0.25  DeMarker_Shift=-9; MaxOrders=0; MaxOrdersPerType=0;
-             4  26.52          191          1.02            0.14     254.59       0.25  DeMarker_Shift=-8; MaxOrders=0; MaxOrdersPerType=0;
-             5  26.52          191          1.02            0.14     254.59       0.25  DeMarker_Shift=-7; MaxOrders=0; MaxOrdersPerType=0;
-             6  26.52          191          1.02            0.14     254.59       0.25  DeMarker_Shift=-6; MaxOrders=0; MaxOrdersPerType=0;
-             7  26.52          191          1.02            0.14     254.59       0.25  DeMarker_Shift=-5; MaxOrders=0; MaxOrdersPerType=0;
-             8  26.52          191          1.02            0.14     254.59       0.25  DeMarker_Shift=-4; MaxOrders=0; MaxOrdersPerType=0;
-             9  26.52          191          1.02            0.14     254.59       0.25  DeMarker_Shift=-3; MaxOrders=0; MaxOrdersPerType=0;
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             5  -682.40          474          0.84           -1.44    1127.30       1.13 DeMarker_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
+             4  -943.80          485          0.79           -1.95    1048.11       1.05 DeMarker_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
+             1 -1014.55          513          0.79           -1.98    1242.69       1.24 DeMarker_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+             2 -1015.35          514          0.78           -1.98    1193.77       1.19 DeMarker_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+             3 -1069.62          503          0.77           -2.13    1190.95       1.19 DeMarker_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
