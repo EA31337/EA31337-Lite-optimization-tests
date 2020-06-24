@@ -2,23 +2,23 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2018.01.01 23:40 - 2018.12.30 23:59 (2018.01.01 - 2018.12.31)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-          Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            10 -18769.07        26808          0.65           -0.70   18777.41      18.78 WPR_Period_M1=11; MaxOrders=0; MaxOrdersPerType=0;
-             9 -20005.54        27632          0.63           -0.72   20012.77      20.01 WPR_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
-             8 -21173.45        28721          0.61           -0.74   21179.88      21.18  WPR_Period_M1=9; MaxOrders=0; MaxOrdersPerType=0;
-             7 -21966.08        29868          0.60           -0.74   21975.21      21.97  WPR_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
-             6 -24065.62        30809          0.58           -0.78   24072.76      24.07  WPR_Period_M1=7; MaxOrders=0; MaxOrdersPerType=0;
-             5 -25027.01        32216          0.56           -0.78   25067.15      25.07  WPR_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
-             4 -26763.43        33393          0.54           -0.80   26798.17      26.80  WPR_Period_M1=5; MaxOrders=0; MaxOrdersPerType=0;
-             3 -28511.85        35008          0.52           -0.81   28546.38      28.54  WPR_Period_M1=4; MaxOrders=0; MaxOrdersPerType=0;
-             2 -29421.71        36624          0.51           -0.80   29439.94      29.44  WPR_Period_M1=3; MaxOrders=0; MaxOrdersPerType=0;
-             1 -30401.81        37510          0.50           -0.81   30431.84      30.43  WPR_Period_M1=2; MaxOrders=0; MaxOrdersPerType=0;
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             9   -10.70           32          0.89           -0.33      61.00       0.06 WPR_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;
+             8   -22.10           35          0.82           -0.63     102.00       0.10 WPR_Period_M1=16; MaxOrders=0; MaxOrdersPerType=0;
+            10   -70.50           45          0.55           -1.57      89.90       0.09 WPR_Period_M1=20; MaxOrders=0; MaxOrdersPerType=0;
+             6   -85.90          175          0.85           -0.49     181.80       0.18 WPR_Period_M1=12; MaxOrders=0; MaxOrdersPerType=0;
+             7   -93.50           83          0.71           -1.13     132.30       0.13 WPR_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
+             5  -346.21          252          0.64           -1.37     439.81       0.44 WPR_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
+             4  -366.83          347          0.69           -1.06     461.52       0.46  WPR_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
+             3  -639.48          546          0.64           -1.17     754.18       0.75  WPR_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
+             2 -1173.61          935          0.61           -1.26    1246.19       1.25  WPR_Period_M1=4; MaxOrders=0; MaxOrdersPerType=0;
+             1 -1256.59         1084          0.63           -1.16    1265.19       1.27  WPR_Period_M1=2; MaxOrders=0; MaxOrdersPerType=0;

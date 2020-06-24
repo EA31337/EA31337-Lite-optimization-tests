@@ -2,7 +2,7 @@
 LotSize=0
 RiskRatio=1.0
 # Optimization params.
-InitNoOfDaysToWarmUp=14
+InitNoOfDaysToWarmUp=28
 InitNoOfDaysToWarmUp,F=1
 InitNoOfDaysToWarmUp,1=0
 InitNoOfDaysToWarmUp,2=7

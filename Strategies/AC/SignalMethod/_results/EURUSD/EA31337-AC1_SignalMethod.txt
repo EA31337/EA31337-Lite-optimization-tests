@@ -12,6 +12,6 @@
                             Spread          10
                                                                  [Optimization Graph]
           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1  -3.80            1          0.00           -3.80       6.60       0.01 AC1_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-             2  -3.80            1          0.00           -3.80       6.60       0.01  AC1_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-             3  -3.80            1          0.00           -3.80       6.60       0.01  AC1_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+             1  -1.60            2          0.58           -0.80       8.30       0.01 AC1_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+             2  -1.60            2          0.58           -0.80       8.30       0.01  AC1_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+             3  -1.60            2          0.58           -0.80       8.30       0.01  AC1_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;

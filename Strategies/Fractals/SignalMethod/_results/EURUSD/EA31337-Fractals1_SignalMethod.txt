@@ -2,14 +2,20 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         1 -3056.42         2823          0.52           -1.08    3063.42      30.63 Fractals1_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          5   8.50            7          3.66            1.21       9.90       0.01  Fractals1_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+          6   8.50            5          4.54            1.70       8.60       0.01  Fractals1_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+          7   8.50            5          4.54            1.70       8.60       0.01  Fractals1_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+          2 -14.80           29          0.66           -0.51      31.90       0.03 Fractals1_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+          3 -14.80           29          0.66           -0.51      31.90       0.03 Fractals1_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+          4 -28.40           37          0.56           -0.77      49.80       0.05  Fractals1_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+          1 -29.20           38          0.55           -0.77      50.60       0.05 Fractals1_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;

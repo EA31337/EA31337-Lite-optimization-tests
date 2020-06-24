@@ -12,20 +12,20 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            1   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=60; MaxOrders=0; MaxOrdersPerType=0;
-            2   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=62; MaxOrders=0; MaxOrdersPerType=0;
-            3   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=64; MaxOrders=0; MaxOrdersPerType=0;
-            4   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=66; MaxOrders=0; MaxOrdersPerType=0;
-            5   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=68; MaxOrders=0; MaxOrdersPerType=0;
-            6   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=70; MaxOrders=0; MaxOrdersPerType=0;
-            7   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=72; MaxOrders=0; MaxOrdersPerType=0;
-            8   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=74; MaxOrders=0; MaxOrdersPerType=0;
-            9   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=76; MaxOrders=0; MaxOrdersPerType=0;
-           10   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=78; MaxOrders=0; MaxOrdersPerType=0;
-           11   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=80; MaxOrders=0; MaxOrdersPerType=0;
-           12   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=82; MaxOrders=0; MaxOrdersPerType=0;
-           13   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=84; MaxOrders=0; MaxOrdersPerType=0;
-           14   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=86; MaxOrders=0; MaxOrdersPerType=0;
-           15   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=88; MaxOrders=0; MaxOrdersPerType=0;
-           16   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=90; MaxOrders=0; MaxOrdersPerType=0;
-           17   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Period_M5=92; MaxOrders=0; MaxOrdersPerType=0;
+            1  12.67           89          1.05            0.14     108.00       0.11 DeMarker_Period_M5=32; MaxOrders=0; MaxOrdersPerType=0;
+            2  11.47           90          1.04            0.13     108.00       0.11 DeMarker_Period_M5=34; MaxOrders=0; MaxOrdersPerType=0;
+            3   7.70           91          1.03            0.08     108.00       0.11 DeMarker_Period_M5=36; MaxOrders=0; MaxOrdersPerType=0;
+            4   7.70           91          1.03            0.08     108.00       0.11 DeMarker_Period_M5=38; MaxOrders=0; MaxOrdersPerType=0;
+            9   7.70           91          1.03            0.08     108.00       0.11 DeMarker_Period_M5=48; MaxOrders=0; MaxOrdersPerType=0;
+           12   4.10           93          1.02            0.04     109.37       0.11 DeMarker_Period_M5=54; MaxOrders=0; MaxOrdersPerType=0;
+           14   4.70           91          1.02            0.05     110.57       0.11 DeMarker_Period_M5=58; MaxOrders=0; MaxOrdersPerType=0;
+           13   2.90           92          1.01            0.03     110.57       0.11 DeMarker_Period_M5=56; MaxOrders=0; MaxOrdersPerType=0;
+           15   2.90           92          1.01            0.03     110.57       0.11 DeMarker_Period_M5=60; MaxOrders=0; MaxOrdersPerType=0;
+            5   1.20           92          1.00            0.01     115.80       0.12 DeMarker_Period_M5=40; MaxOrders=0; MaxOrdersPerType=0;
+            6   1.20           92          1.00            0.01     115.80       0.12 DeMarker_Period_M5=42; MaxOrders=0; MaxOrdersPerType=0;
+            7   1.20           92          1.00            0.01     115.80       0.12 DeMarker_Period_M5=44; MaxOrders=0; MaxOrdersPerType=0;
+            8   1.20           92          1.00            0.01     115.80       0.12 DeMarker_Period_M5=46; MaxOrders=0; MaxOrdersPerType=0;
+           17   1.90           94          1.01            0.02     115.80       0.12 DeMarker_Period_M5=64; MaxOrders=0; MaxOrdersPerType=0;
+           10  -0.60           93          1.00           -0.01     115.80       0.12 DeMarker_Period_M5=50; MaxOrders=0; MaxOrdersPerType=0;
+           11  -0.60           93          1.00           -0.01     115.80       0.12 DeMarker_Period_M5=52; MaxOrders=0; MaxOrdersPerType=0;
+           16  -0.60           93          1.00           -0.01     115.80       0.12 DeMarker_Period_M5=62; MaxOrders=0; MaxOrdersPerType=0;

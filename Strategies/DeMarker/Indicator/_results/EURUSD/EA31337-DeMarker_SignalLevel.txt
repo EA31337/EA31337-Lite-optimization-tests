@@ -11,15 +11,15 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          5 -598.02          630          0.86           -0.95     727.76       0.73 DeMarker_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
-          6 -598.02          630          0.86           -0.95     727.76       0.73 DeMarker_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=0;
-          7 -598.02          630          0.86           -0.95     727.76       0.73 DeMarker_SignalLevel=0.6; MaxOrders=0; MaxOrdersPerType=0;
-          8 -598.02          630          0.86           -0.95     727.76       0.73 DeMarker_SignalLevel=0.7; MaxOrders=0; MaxOrdersPerType=0;
-          9 -598.02          630          0.86           -0.95     727.76       0.73 DeMarker_SignalLevel=0.8; MaxOrders=0; MaxOrdersPerType=0;
-         10 -598.02          630          0.86           -0.95     727.76       0.73 DeMarker_SignalLevel=0.9; MaxOrders=0; MaxOrdersPerType=0;
-         11 -598.02          630          0.86           -0.95     727.76       0.73   DeMarker_SignalLevel=1; MaxOrders=0; MaxOrdersPerType=0;
-          4 -604.52          631          0.86           -0.96     734.26       0.73 DeMarker_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
-          3 -675.87          647          0.85           -1.04     805.60       0.80 DeMarker_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
-          2 -763.61          751          0.85           -1.02     903.01       0.90 DeMarker_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
-          1 -976.52         1040          0.87           -0.94    1079.52       1.08   DeMarker_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         6  -808.07          637          0.81           -1.27     882.67       0.88  DeMarker_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
+         5  -814.65          790          0.84           -1.03     914.52       0.91  DeMarker_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
+         7  -826.19          625          0.80           -1.32     900.79       0.90  DeMarker_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
+         8  -826.19          625          0.80           -1.32     900.79       0.90  DeMarker_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
+         9  -826.19          625          0.80           -1.32     900.79       0.90  DeMarker_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=0;
+        10  -826.19          625          0.80           -1.32     900.79       0.90  DeMarker_SignalLevel=0.6; MaxOrders=0; MaxOrdersPerType=0;
+        11  -826.19          625          0.80           -1.32     900.79       0.90  DeMarker_SignalLevel=0.7; MaxOrders=0; MaxOrdersPerType=0;
+         4  -829.30         1137          0.88           -0.73     933.89       0.93    DeMarker_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
+         2 -1123.98         1111          0.80           -1.01    1221.00       1.22 DeMarker_SignalLevel=-0.2; MaxOrders=0; MaxOrdersPerType=0;
+         1 -1137.07         1115          0.80           -1.02    1234.09       1.23 DeMarker_SignalLevel=-0.3; MaxOrders=0; MaxOrdersPerType=0;
+         3 -1210.52         1120          0.80           -1.08    1306.05       1.31 DeMarker_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
