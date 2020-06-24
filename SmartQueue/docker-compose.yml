@@ -9,8 +9,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params SmartQueueActive 0 1
       SETFILE: /opt/sets/EA31337-SmartQueueActive.set
       SET_PARAMS: SmartQueueActive
