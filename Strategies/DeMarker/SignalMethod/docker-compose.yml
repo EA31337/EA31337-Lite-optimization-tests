@@ -9,10 +9,15 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: DeMarker1_SignalMethod
-      RUN_ON_SET: set_opt_params DeMarker1_SignalMethod -31 31
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -31 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 1 * 7"))
+        $$(get_min 31 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 1 * 9"))
+        1
       SETFILE: /opt/sets/EA31337-DeMarker1_SignalMethod.set
+      SET_PARAMS: DeMarker1_SignalMethod
       TEST_REPORT_NAME: EA31337-DeMarker1_SignalMethod
   DeMarker5_SignalMethod:
     command: run_backtest -v
@@ -22,9 +27,15 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: DeMarker5_SignalMethod
-      RUN_ON_SET: set_opt_params DeMarker5_SignalMethod -31 31
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -31 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 1 * 7"))
+        $$(get_min 31 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 1 * 9"))
+        1
       SETFILE: /opt/sets/EA31337-DeMarker5_SignalMethod.set
+      SET_PARAMS: DeMarker5_SignalMethod
       TEST_REPORT_NAME: EA31337-DeMarker5_SignalMethod
   DeMarker15_SignalMethod:
     command: run_backtest -v
@@ -34,9 +45,15 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: DeMarker15_SignalMethod
-      RUN_ON_SET: set_opt_params DeMarker15_SignalMethod -31 31
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -31 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 1 * 7"))
+        $$(get_min 31 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 1 * 9"))
+        1
       SETFILE: /opt/sets/EA31337-DeMarker15_SignalMethod.set
+      SET_PARAMS: DeMarker15_SignalMethod
       TEST_REPORT_NAME: EA31337-DeMarker15_SignalMethod
   DeMarker30_SignalMethod:
     command: run_backtest -v
@@ -46,7 +63,13 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: DeMarker30_SignalMethod
-      RUN_ON_SET: set_opt_params DeMarker30_SignalMethod -31 31
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max -31 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 1 * 7"))
+        $$(get_min 31 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 1 * 9"))
+        1
       SETFILE: /opt/sets/EA31337-DeMarker30_SignalMethod.set
+      SET_PARAMS: DeMarker30_SignalMethod
       TEST_REPORT_NAME: EA31337-DeMarker30_SignalMethod
