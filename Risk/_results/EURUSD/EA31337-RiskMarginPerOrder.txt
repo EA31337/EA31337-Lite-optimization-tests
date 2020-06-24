@@ -2,19 +2,19 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            2 3318.80          736          1.14            4.51   11760.50      10.78 RiskMarginPerOrder=1; MaxOrders=0; MaxOrdersPerType=0;
-            3 3318.80          736          1.14            4.51   11760.50      10.78 RiskMarginPerOrder=2; MaxOrders=0; MaxOrdersPerType=0;
-            4 3318.80          736          1.14            4.51   11760.50      10.78 RiskMarginPerOrder=3; MaxOrders=0; MaxOrdersPerType=0;
-            5 3318.80          736          1.14            4.51   11760.50      10.78 RiskMarginPerOrder=4; MaxOrders=0; MaxOrdersPerType=0;
-            6 3318.80          736          1.14            4.51   11760.50      10.78 RiskMarginPerOrder=5; MaxOrders=0; MaxOrdersPerType=0;
-            1 1881.93          436          1.12            4.32    4806.94       4.70 RiskMarginPerOrder=0; MaxOrders=0; MaxOrdersPerType=0;
+            1 -586.20          458          0.90           -1.28    1082.15       1.08 RiskMarginPerOrder=0; MaxOrders=0; MaxOrdersPerType=0;
+            2 -863.45          237          0.34           -3.64     924.34       0.92 RiskMarginPerOrder=1; MaxOrders=0; MaxOrdersPerType=0;
+            3 -863.45          237          0.34           -3.64     924.34       0.92 RiskMarginPerOrder=2; MaxOrders=0; MaxOrdersPerType=0;
+            4 -863.45          237          0.34           -3.64     924.34       0.92 RiskMarginPerOrder=3; MaxOrders=0; MaxOrdersPerType=0;
+            5 -863.45          237          0.34           -3.64     924.34       0.92 RiskMarginPerOrder=4; MaxOrders=0; MaxOrdersPerType=0;
+            6 -863.45          237          0.34           -3.64     924.34       0.92 RiskMarginPerOrder=5; MaxOrders=0; MaxOrdersPerType=0;
