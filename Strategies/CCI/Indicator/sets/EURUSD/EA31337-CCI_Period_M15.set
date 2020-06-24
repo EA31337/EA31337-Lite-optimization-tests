@@ -31,10 +31,10 @@ CCI_TrailingStopMethod=0
 CCI_TrailingProfitMethod=0
 # Dynamic strategy params.
 CCI_Applied_Price=2
-CCI_SignalLevel=99
+CCI_SignalLevel=95
 CCI_Shift=0
 # Optimization params.
-CCI_Period_M15=14
+CCI_Period_M15=18
 CCI_Period_M15,F=0
 CCI_Period_M15,1=0
 CCI_Period_M15,2=0
