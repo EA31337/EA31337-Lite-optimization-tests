@@ -2,18 +2,21 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             4 -1766.08         2643          0.91           -0.67    2086.98       2.09  WPR_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
-             5 -1898.40         2416          0.90           -0.79    2467.13       2.46 WPR_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
-             3 -1916.81         2940          0.90           -0.65    2418.11       2.41  WPR_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
-             2 -2114.41         3403          0.89           -0.62    2749.67       2.75  WPR_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
-             1 -2552.99         4004          0.87           -0.64    2936.64       2.94  WPR_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
+          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1 -729.44          299          0.82           -2.44     908.12       0.91  WPR_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
+             2 -729.44          299          0.82           -2.44     908.12       0.91  WPR_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
+             3 -729.44          299          0.82           -2.44     908.12       0.91  WPR_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
+             4 -729.44          299          0.82           -2.44     908.12       0.91  WPR_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
+             5 -729.44          299          0.82           -2.44     908.12       0.91 WPR_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
+             6 -729.44          299          0.82           -2.44     908.12       0.91 WPR_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
+             7 -729.44          299          0.82           -2.44     908.12       0.91 WPR_Period_M30=14; MaxOrders=0; MaxOrdersPerType=0;
+             8 -729.44          299          0.82           -2.44     908.12       0.91 WPR_Period_M30=16; MaxOrders=0; MaxOrdersPerType=0;
