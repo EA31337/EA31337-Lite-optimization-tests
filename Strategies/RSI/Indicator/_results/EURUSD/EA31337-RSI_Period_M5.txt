@@ -12,12 +12,11 @@
                              Spread          10
                                                                  [Optimization Graph]
            Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              6   20.20            5          6.61            4.04      29.10       0.03 RSI_Period_M5=12; MaxOrders=0; MaxOrdersPerType=0;
-              7    9.50            2          6.28            4.75       7.10       0.01 RSI_Period_M5=14; MaxOrders=0; MaxOrdersPerType=0;
-              8    3.10            1          0.00            3.10       3.90       0.00 RSI_Period_M5=16; MaxOrders=0; MaxOrdersPerType=0;
-              9    3.10            1          0.00            3.10       3.90       0.00 RSI_Period_M5=18; MaxOrders=0; MaxOrdersPerType=0;
-              2   -9.57          379          0.99           -0.03     163.90       0.16  RSI_Period_M5=4; MaxOrders=0; MaxOrdersPerType=0;
-              5  -41.70           20          0.49           -2.08      87.20       0.09 RSI_Period_M5=10; MaxOrders=0; MaxOrdersPerType=0;
-              4 -115.22           47          0.44           -2.45     170.82       0.17  RSI_Period_M5=8; MaxOrders=0; MaxOrdersPerType=0;
-              3 -124.54          106          0.66           -1.17     191.04       0.19  RSI_Period_M5=6; MaxOrders=0; MaxOrdersPerType=0;
-              1 -440.43         1160          0.88           -0.38     595.16       0.59  RSI_Period_M5=2; MaxOrders=0; MaxOrdersPerType=0;
+              6   87.99           83          1.29            1.06     112.50       0.11 RSI_Period_M5=16; MaxOrders=0; MaxOrdersPerType=0;
+              7   22.69           61          1.09            0.37     128.60       0.13 RSI_Period_M5=18; MaxOrders=0; MaxOrdersPerType=0;
+              5  -17.84          120          0.96           -0.15     130.40       0.13 RSI_Period_M5=14; MaxOrders=0; MaxOrdersPerType=0;
+              3  -21.40          318          0.98           -0.07     181.42       0.18 RSI_Period_M5=10; MaxOrders=0; MaxOrdersPerType=0;
+              8  -26.60           45          0.87           -0.59     156.10       0.16 RSI_Period_M5=20; MaxOrders=0; MaxOrdersPerType=0;
+              4  -78.54          181          0.88           -0.43     157.10       0.16 RSI_Period_M5=12; MaxOrders=0; MaxOrdersPerType=0;
+              2 -214.51          573          0.88           -0.37     332.04       0.33  RSI_Period_M5=8; MaxOrders=0; MaxOrdersPerType=0;
+              1 -615.11         1091          0.81           -0.56     666.61       0.67  RSI_Period_M5=6; MaxOrders=0; MaxOrdersPerType=0;
