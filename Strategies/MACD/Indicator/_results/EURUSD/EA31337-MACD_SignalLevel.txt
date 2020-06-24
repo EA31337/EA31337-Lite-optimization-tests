@@ -2,18 +2,22 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-       Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          5  -9986.20        19812          0.89           -0.50   11503.60      11.37  MACD_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
-          4 -26952.85        37946          0.79           -0.71   27240.69      27.24    MACD_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
-          1 -44169.57        46779          0.67           -0.94   45046.00      44.83 MACD_SignalLevel=-0.3; MaxOrders=0; MaxOrdersPerType=0;
-          2 -48420.83        51949          0.66           -0.93   49043.22      48.88 MACD_SignalLevel=-0.2; MaxOrders=0; MaxOrdersPerType=0;
-          3 -49636.89        57630          0.67           -0.86   49891.66      49.88 MACD_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           9 -444.04          510          0.91           -0.87     797.16       0.80  MACD_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=0;
+           6 -473.03          529          0.90           -0.89     852.96       0.85  MACD_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
+           7 -484.04          511          0.90           -0.95     837.16       0.84  MACD_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
+           8 -484.04          511          0.90           -0.95     837.16       0.84  MACD_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
+           5 -490.67          605          0.91           -0.81    1044.57       1.04  MACD_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
+           3 -501.67          623          0.91           -0.81    1026.77       1.02 MACD_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
+           2 -520.87          574          0.90           -0.91     850.50       0.85 MACD_SignalLevel=-0.2; MaxOrders=0; MaxOrdersPerType=0;
+           1 -542.45          570          0.89           -0.95     852.70       0.85 MACD_SignalLevel=-0.3; MaxOrders=0; MaxOrdersPerType=0;
+           4 -801.07          859          0.90           -0.93    1402.11       1.40    MACD_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
