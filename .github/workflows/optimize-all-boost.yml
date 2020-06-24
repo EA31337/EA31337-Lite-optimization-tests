@@ -1,12 +1,12 @@
 ---
-name: Optimize Boost
+name: Optimize All with Boost
 
 # yamllint disable rule:truthy
 on:
   push:
     branches:
-      - 'optimize-boost'
-      - 'optimize-boost-*'
+      - 'optimize-all-boost'
+      - 'optimize-all-boost-*'
 
 jobs:
   BestStrategies:
