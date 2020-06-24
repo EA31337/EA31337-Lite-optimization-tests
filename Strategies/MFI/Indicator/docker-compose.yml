@@ -96,7 +96,7 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       RUN_ON_SET: >
         set_opt_params MFI_Shift
-        $$(bc <<< "$$(input_get MFI_Shift) - 1 * 2")
+        $$(get_max 2 $$(bc <<< "$$(input_get MFI_Shift) - 1 * 2"))
         $$(bc <<< "$$(input_get MFI_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-MFI_Shift.set
       SET_PARAMS: MFI_Shift
