@@ -35,7 +35,7 @@ WPR30_SignalMethod=0
 WPR_TrailingProfitMethod=0
 WPR_TrailingProfitMethod=0
 # Optimization params.
-WPR_Shift=0
+WPR_Shift=2
 WPR_Shift,F=0
 WPR_Shift,1=0
 WPR_Shift,2=0
