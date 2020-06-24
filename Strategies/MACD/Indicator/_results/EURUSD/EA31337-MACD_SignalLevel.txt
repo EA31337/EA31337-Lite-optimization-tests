@@ -11,13 +11,13 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           9 -444.04          510          0.91           -0.87     797.16       0.80  MACD_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=0;
-           6 -473.03          529          0.90           -0.89     852.96       0.85  MACD_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
-           7 -484.04          511          0.90           -0.95     837.16       0.84  MACD_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
-           8 -484.04          511          0.90           -0.95     837.16       0.84  MACD_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
-           5 -490.67          605          0.91           -0.81    1044.57       1.04  MACD_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
-           3 -501.67          623          0.91           -0.81    1026.77       1.02 MACD_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
-           2 -520.87          574          0.90           -0.91     850.50       0.85 MACD_SignalLevel=-0.2; MaxOrders=0; MaxOrdersPerType=0;
-           1 -542.45          570          0.89           -0.95     852.70       0.85 MACD_SignalLevel=-0.3; MaxOrders=0; MaxOrdersPerType=0;
-           4 -801.07          859          0.90           -0.93    1402.11       1.40    MACD_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1 -1015.35          514          0.78           -1.98    1193.77       1.19 MACD_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
+           2 -1015.35          514          0.78           -1.98    1193.77       1.19 MACD_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
+           3 -1015.35          514          0.78           -1.98    1193.77       1.19 MACD_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
+           4 -1015.35          514          0.78           -1.98    1193.77       1.19 MACD_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
+           5 -1015.35          514          0.78           -1.98    1193.77       1.19 MACD_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=0;
+           6 -1015.35          514          0.78           -1.98    1193.77       1.19 MACD_SignalLevel=0.6; MaxOrders=0; MaxOrdersPerType=0;
+           7 -1015.35          514          0.78           -1.98    1193.77       1.19 MACD_SignalLevel=0.7; MaxOrders=0; MaxOrdersPerType=0;
+           8 -1015.35          514          0.78           -1.98    1193.77       1.19 MACD_SignalLevel=0.8; MaxOrders=0; MaxOrdersPerType=0;
+           9 -1015.35          514          0.78           -1.98    1193.77       1.19 MACD_SignalLevel=0.9; MaxOrders=0; MaxOrdersPerType=0;
