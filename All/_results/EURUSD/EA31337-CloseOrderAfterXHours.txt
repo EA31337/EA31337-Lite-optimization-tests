@@ -2,13 +2,19 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         1 -5007.31         6923          0.72           -0.72    5040.90       5.04   CloseOrderAfterXHours=0; MaxOrders=0; MaxOrdersPerType=0;
+         6 -5466.30         7056          0.70           -0.77    5499.89       5.50 CloseOrderAfterXHours=120; MaxOrders=0; MaxOrdersPerType=0;
+         5 -5974.25         7155          0.67           -0.83    6007.84       6.01  CloseOrderAfterXHours=96; MaxOrders=0; MaxOrdersPerType=0;
+         4 -6445.86         7394          0.65           -0.87    6479.45       6.48  CloseOrderAfterXHours=72; MaxOrders=0; MaxOrdersPerType=0;
+         3 -6660.24         7461          0.63           -0.89    6693.83       6.69  CloseOrderAfterXHours=48; MaxOrders=0; MaxOrdersPerType=0;
+         2 -6886.60         7633          0.62           -0.90    6920.20       6.92  CloseOrderAfterXHours=24; MaxOrders=0; MaxOrdersPerType=0;
