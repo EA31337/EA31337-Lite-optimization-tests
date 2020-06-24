@@ -16,6 +16,13 @@ services:
         $$(get_max 0.1 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 8"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 8")
         0.4
+      RUN_ON_START: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-Bands_Applied_Price.set
+        /opt/sets/EA31337-Bands_HShift.set
+        /opt/sets/EA31337-Bands_Period_M1.set
+        /opt/sets/EA31337-Bands_Shift.set
+        /opt/sets/EA31337-Bands_SignalLevel.set
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M1.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M1
@@ -35,6 +42,13 @@ services:
         $$(get_max 0.1 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 8"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 8")
         0.4
+      RUN_ON_START: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-Bands_Applied_Price.set
+        /opt/sets/EA31337-Bands_HShift.set
+        /opt/sets/EA31337-Bands_Period_M5.set
+        /opt/sets/EA31337-Bands_Shift.set
+        /opt/sets/EA31337-Bands_SignalLevel.set
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M5.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M5
   Bands_Deviation_M15:
@@ -52,6 +66,13 @@ services:
         $$(get_max 0.1 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 8"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 8")
         0.4
+      RUN_ON_START: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-Bands_Applied_Price.set
+        /opt/sets/EA31337-Bands_HShift.set
+        /opt/sets/EA31337-Bands_Period_M15.set
+        /opt/sets/EA31337-Bands_Shift.set
+        /opt/sets/EA31337-Bands_SignalLevel.set
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M15.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M15
@@ -70,6 +91,13 @@ services:
         $$(get_max 0.1 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 8"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 8")
         0.4
+      RUN_ON_START: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-Bands_Applied_Price.set
+        /opt/sets/EA31337-Bands_HShift.set
+        /opt/sets/EA31337-Bands_Period_M30.set
+        /opt/sets/EA31337-Bands_Shift.set
+        /opt/sets/EA31337-Bands_SignalLevel.set
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M30.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M30
@@ -91,6 +119,13 @@ services:
         $$(get_max 2 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 2 * 8"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 2 * 8")
         2
+      RUN_ON_START: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-Bands_Applied_Price.set
+        /opt/sets/EA31337-Bands_Deviation_M1.set
+        /opt/sets/EA31337-Bands_HShift.set
+        /opt/sets/EA31337-Bands_Shift.set
+        /opt/sets/EA31337-Bands_SignalLevel.set
       TEST_REPORT_NAME: EA31337-Bands_Period_M1
   Bands_Period_M5:
     command: run_backtest -v
@@ -110,6 +145,13 @@ services:
         $$(get_max 2 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 2 * 8"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 2 * 8")
         2
+      RUN_ON_START: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-Bands_Applied_Price.set
+        /opt/sets/EA31337-Bands_Deviation_M5.set
+        /opt/sets/EA31337-Bands_HShift.set
+        /opt/sets/EA31337-Bands_Shift.set
+        /opt/sets/EA31337-Bands_SignalLevel.set
       TEST_REPORT_NAME: EA31337-Bands_Period_M5
   Bands_Period_M15:
     command: run_backtest -v
@@ -129,6 +171,13 @@ services:
         $$(get_max 2 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 2 * 8"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 2 * 8")
         2
+      RUN_ON_START: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-Bands_Applied_Price.set
+        /opt/sets/EA31337-Bands_Deviation_M15.set
+        /opt/sets/EA31337-Bands_HShift.set
+        /opt/sets/EA31337-Bands_Shift.set
+        /opt/sets/EA31337-Bands_SignalLevel.set
       TEST_REPORT_NAME: EA31337-Bands_Period_M15
   Bands_Period_M30:
     command: run_backtest -v
@@ -148,6 +197,13 @@ services:
         $$(get_max 2 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 2 * 4"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 2 * 4")
         2
+      RUN_ON_START: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-Bands_Applied_Price.set
+        /opt/sets/EA31337-Bands_Deviation_M30.set
+        /opt/sets/EA31337-Bands_HShift.set
+        /opt/sets/EA31337-Bands_Shift.set
+        /opt/sets/EA31337-Bands_SignalLevel.set
       TEST_REPORT_NAME: EA31337-Bands_Period_M30
   Bands_Applied_Price:
     command: run_backtest -v
@@ -160,6 +216,19 @@ services:
       BT_MONTHS: 6-12
       SET_PARAMS: Bands_Applied_Price
       RUN_ON_SET: set_opt_params Bands_Applied_Price 0 6
+      RUN_ON_START: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-Bands_Deviation_M1.set
+        /opt/sets/EA31337-Bands_Deviation_M15.set
+        /opt/sets/EA31337-Bands_Deviation_M30.set
+        /opt/sets/EA31337-Bands_Deviation_M5.set
+        /opt/sets/EA31337-Bands_HShift.set
+        /opt/sets/EA31337-Bands_Period_M1.set
+        /opt/sets/EA31337-Bands_Period_M15.set
+        /opt/sets/EA31337-Bands_Period_M30.set
+        /opt/sets/EA31337-Bands_Period_M5.set
+        /opt/sets/EA31337-Bands_Shift.set
+        /opt/sets/EA31337-Bands_SignalLevel.set
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_Applied_Price.set
       TEST_REPORT_NAME: EA31337-Bands_Applied_Price
@@ -177,6 +246,19 @@ services:
         set_opt_params $${SET_PARAMS}
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 1 * 2"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 1 * 2")
+      RUN_ON_START: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-Bands_Applied_Price.set
+        /opt/sets/EA31337-Bands_Deviation_M1.set
+        /opt/sets/EA31337-Bands_Deviation_M15.set
+        /opt/sets/EA31337-Bands_Deviation_M30.set
+        /opt/sets/EA31337-Bands_Deviation_M5.set
+        /opt/sets/EA31337-Bands_Period_M1.set
+        /opt/sets/EA31337-Bands_Period_M15.set
+        /opt/sets/EA31337-Bands_Period_M30.set
+        /opt/sets/EA31337-Bands_Period_M5.set
+        /opt/sets/EA31337-Bands_Shift.set
+        /opt/sets/EA31337-Bands_SignalLevel.set
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_HShift.set
       TEST_REPORT_NAME: EA31337-Bands_HShift
@@ -195,6 +277,19 @@ services:
         $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 5")
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 5")
         0.1
+      RUN_ON_START: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-Bands_Applied_Price.set
+        /opt/sets/EA31337-Bands_Deviation_M1.set
+        /opt/sets/EA31337-Bands_Deviation_M15.set
+        /opt/sets/EA31337-Bands_Deviation_M30.set
+        /opt/sets/EA31337-Bands_Deviation_M5.set
+        /opt/sets/EA31337-Bands_HShift.set
+        /opt/sets/EA31337-Bands_Period_M1.set
+        /opt/sets/EA31337-Bands_Period_M15.set
+        /opt/sets/EA31337-Bands_Period_M30.set
+        /opt/sets/EA31337-Bands_Period_M5.set
+        /opt/sets/EA31337-Bands_Shift.set
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_SignalLevel.set
       TEST_REPORT_NAME: EA31337-Bands_SignalLevel
@@ -212,6 +307,19 @@ services:
         set_opt_params $${SET_PARAMS}
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 1 * 2"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 1 * 2")
+      RUN_ON_START: >
+        input_copy "$${SET_PARAMS}" "$${SETFILE}"
+        /opt/sets/EA31337-Bands_Applied_Price.set
+        /opt/sets/EA31337-Bands_Deviation_M1.set
+        /opt/sets/EA31337-Bands_Deviation_M15.set
+        /opt/sets/EA31337-Bands_Deviation_M30.set
+        /opt/sets/EA31337-Bands_Deviation_M5.set
+        /opt/sets/EA31337-Bands_HShift.set
+        /opt/sets/EA31337-Bands_Period_M1.set
+        /opt/sets/EA31337-Bands_Period_M15.set
+        /opt/sets/EA31337-Bands_Period_M30.set
+        /opt/sets/EA31337-Bands_Period_M5.set
+        /opt/sets/EA31337-Bands_SignalLevel.set
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-Bands_Shift.set
       TEST_REPORT_NAME: EA31337-Bands_Shift
