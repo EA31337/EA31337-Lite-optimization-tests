@@ -11,10 +11,10 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-             Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                1 -186.50         1940          0.99           -0.10    1940.45       1.92 SAR_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
-                2 -186.50         1940          0.99           -0.10    1940.45       1.92 SAR_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
-                3 -186.50         1940          0.99           -0.10    1940.45       1.92 SAR_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
-                4 -186.50         1940          0.99           -0.10    1940.45       1.92 SAR_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
-                5 -186.50         1940          0.99           -0.10    1940.45       1.92 SAR_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
-                6 -186.50         1940          0.99           -0.10    1940.45       1.92 SAR_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
+             Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                1 -1658.99         2094          0.90           -0.79    2771.97       2.75 SAR_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+                2 -1658.99         2094          0.90           -0.79    2771.97       2.75 SAR_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+                3 -1658.99         2094          0.90           -0.79    2771.97       2.75 SAR_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+                4 -1658.99         2094          0.90           -0.79    2771.97       2.75 SAR_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
+                5 -1658.99         2094          0.90           -0.79    2771.97       2.75 SAR_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
+                6 -1658.99         2094          0.90           -0.79    2771.97       2.75 SAR_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
