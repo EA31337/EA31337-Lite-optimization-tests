@@ -29,7 +29,7 @@ AC15_SignalMethod=0
 AC30_SignalMethod=0
 AC_TrailingProfitMethod=0
 # Optimization params.
-AC_TrailingStopMethod=2
+AC_TrailingStopMethod=1
 AC_TrailingStopMethod,F=0
 AC_TrailingStopMethod,1=0
 AC_TrailingStopMethod,2=0
