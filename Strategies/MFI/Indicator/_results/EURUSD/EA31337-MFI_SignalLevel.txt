@@ -6,20 +6,20 @@
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
+                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           10 -4944.05         8576          0.83           -0.58    5905.39       5.86   MFI_SignalLevel=2; MaxOrders=0; MaxOrdersPerType=0;
-           11 -4966.35         8544          0.83           -0.58    5924.69       5.88 MFI_SignalLevel=2.1; MaxOrders=0; MaxOrdersPerType=0;
-            8 -4980.56         8612          0.83           -0.58    5906.63       5.86 MFI_SignalLevel=1.8; MaxOrders=0; MaxOrdersPerType=0;
-            9 -5017.99         8589          0.83           -0.58    5950.06       5.91 MFI_SignalLevel=1.9; MaxOrders=0; MaxOrdersPerType=0;
-            7 -5201.94         8635          0.83           -0.60    6126.51       6.08 MFI_SignalLevel=1.7; MaxOrders=0; MaxOrdersPerType=0;
-            6 -5222.19         8635          0.83           -0.60    6158.06       6.11 MFI_SignalLevel=1.6; MaxOrders=0; MaxOrdersPerType=0;
-            5 -5229.01         8694          0.83           -0.60    6146.57       6.10 MFI_SignalLevel=1.5; MaxOrders=0; MaxOrdersPerType=0;
-            4 -5244.55         8726          0.83           -0.60    6158.11       6.11 MFI_SignalLevel=1.4; MaxOrders=0; MaxOrdersPerType=0;
-            3 -5246.28         8725          0.83           -0.60    6166.43       6.12 MFI_SignalLevel=1.3; MaxOrders=0; MaxOrdersPerType=0;
-            2 -5268.70         8756          0.83           -0.60    6220.45       6.17 MFI_SignalLevel=1.2; MaxOrders=0; MaxOrdersPerType=0;
-            1 -5301.53         8771          0.83           -0.60    6251.78       6.21 MFI_SignalLevel=1.1; MaxOrders=0; MaxOrdersPerType=0;
+            7 -6719.72         7172          0.57           -0.94    6731.72       6.73 MFI_SignalLevel=2.1; MaxOrders=0; MaxOrdersPerType=0;
+            8 -6721.61         7152          0.57           -0.94    6733.61       6.73 MFI_SignalLevel=2.2; MaxOrders=0; MaxOrdersPerType=0;
+            9 -6723.81         7141          0.57           -0.94    6735.81       6.74 MFI_SignalLevel=2.3; MaxOrders=0; MaxOrdersPerType=0;
+            6 -6731.72         7193          0.57           -0.94    6743.72       6.74   MFI_SignalLevel=2; MaxOrders=0; MaxOrdersPerType=0;
+            3 -6734.32         7253          0.57           -0.93    6746.32       6.75 MFI_SignalLevel=1.7; MaxOrders=0; MaxOrdersPerType=0;
+           11 -6739.68         7097          0.57           -0.95    6751.68       6.75 MFI_SignalLevel=2.5; MaxOrders=0; MaxOrdersPerType=0;
+            5 -6742.22         7229          0.57           -0.93    6754.22       6.75 MFI_SignalLevel=1.9; MaxOrders=0; MaxOrdersPerType=0;
+            4 -6761.35         7244          0.57           -0.93    6773.35       6.77 MFI_SignalLevel=1.8; MaxOrders=0; MaxOrdersPerType=0;
+            1 -6762.02         7297          0.57           -0.93    6774.02       6.77 MFI_SignalLevel=1.5; MaxOrders=0; MaxOrdersPerType=0;
+           10 -6778.84         7141          0.57           -0.95    6790.84       6.79 MFI_SignalLevel=2.4; MaxOrders=0; MaxOrdersPerType=0;
+            2 -6798.18         7274          0.57           -0.93    6810.18       6.81 MFI_SignalLevel=1.6; MaxOrders=0; MaxOrdersPerType=0;

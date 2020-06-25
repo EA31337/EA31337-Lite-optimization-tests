@@ -6,18 +6,18 @@
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          5 Minutes (M5) 2019.01.02 06:20 - 2019.12.30 23:55 (2019.01.01 - 2019.12.31)
+                             Period          5 Minutes (M5) 2019.06.02 21:01 - 2019.12.30 23:55 (2019.06.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
           Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             6 -3304.26         6670          0.75           -0.50    3491.06       3.49 MFI_Period_M5=30; MaxOrders=0; MaxOrdersPerType=0;
-             9 -3337.95         6597          0.75           -0.51    3556.05       3.55 MFI_Period_M5=36; MaxOrders=0; MaxOrdersPerType=0;
-             8 -3349.73         6652          0.75           -0.50    3568.53       3.56 MFI_Period_M5=34; MaxOrders=0; MaxOrdersPerType=0;
-             7 -3483.26         6669          0.74           -0.52    3682.86       3.68 MFI_Period_M5=32; MaxOrders=0; MaxOrdersPerType=0;
-             5 -3561.42         6618          0.74           -0.54    3722.82       3.72 MFI_Period_M5=28; MaxOrders=0; MaxOrdersPerType=0;
-             4 -3763.28         6722          0.73           -0.56    3898.58       3.90 MFI_Period_M5=26; MaxOrders=0; MaxOrdersPerType=0;
-             1 -3940.07         6905          0.72           -0.57    4062.17       4.06 MFI_Period_M5=20; MaxOrders=0; MaxOrdersPerType=0;
-             2 -3941.78         6860          0.72           -0.57    4086.28       4.08 MFI_Period_M5=22; MaxOrders=0; MaxOrdersPerType=0;
-             3 -4031.15         6747          0.71           -0.60    4189.15       4.19 MFI_Period_M5=24; MaxOrders=0; MaxOrdersPerType=0;
+             6 -4536.24         5503          0.45           -0.82    4541.54       4.54 MFI_Period_M5=32; MaxOrders=0; MaxOrdersPerType=0;
+             5 -4568.71         5416          0.44           -0.84    4574.01       4.57 MFI_Period_M5=30; MaxOrders=0; MaxOrdersPerType=0;
+             1 -4574.84         5401          0.44           -0.85    4581.24       4.58 MFI_Period_M5=22; MaxOrders=0; MaxOrdersPerType=0;
+             7 -4595.37         5506          0.44           -0.83    4600.67       4.60 MFI_Period_M5=34; MaxOrders=0; MaxOrdersPerType=0;
+             4 -4709.52         5397          0.43           -0.87    4715.62       4.72 MFI_Period_M5=28; MaxOrders=0; MaxOrdersPerType=0;
+             2 -4727.60         5377          0.43           -0.88    4735.30       4.74 MFI_Period_M5=24; MaxOrders=0; MaxOrdersPerType=0;
+             3 -4730.47         5360          0.43           -0.88    4735.77       4.74 MFI_Period_M5=26; MaxOrders=0; MaxOrdersPerType=0;
+             8 -4747.09         5450          0.42           -0.87    4752.39       4.75 MFI_Period_M5=36; MaxOrders=0; MaxOrdersPerType=0;
+             9 -4804.70         5496          0.42           -0.87    4810.20       4.81 MFI_Period_M5=38; MaxOrders=0; MaxOrdersPerType=0;
