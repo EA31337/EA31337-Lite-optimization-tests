@@ -12,9 +12,14 @@
                             Spread          10
                                                                  [Optimization Graph]
        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          1 -312.58         1215          0.94           -0.26     766.78       0.77  Bands15_SignalMethod=92; MaxOrders=0; MaxOrdersPerType=0;
-          5 -364.21         1165          0.93           -0.31     811.88       0.81 Bands15_SignalMethod=120; MaxOrders=0; MaxOrdersPerType=0;
-          3 -368.71         1162          0.93           -0.32     812.28       0.81 Bands15_SignalMethod=106; MaxOrders=0; MaxOrdersPerType=0;
-          2 -372.26         1047          0.92           -0.36     841.06       0.84  Bands15_SignalMethod=99; MaxOrders=0; MaxOrdersPerType=0;
-          4 -372.26         1047          0.92           -0.36     841.06       0.84 Bands15_SignalMethod=113; MaxOrders=0; MaxOrdersPerType=0;
-          6 -372.26         1047          0.92           -0.36     841.06       0.84 Bands15_SignalMethod=127; MaxOrders=0; MaxOrdersPerType=0;
+         10 -625.37          435          0.86           -1.44    1026.61       1.03 Bands15_SignalMethod=120; MaxOrders=0; MaxOrdersPerType=0;
+          1 -631.97          429          0.85           -1.47    1028.51       1.03  Bands15_SignalMethod=57; MaxOrders=0; MaxOrdersPerType=0;
+          8 -631.57          429          0.85           -1.47    1028.11       1.03 Bands15_SignalMethod=106; MaxOrders=0; MaxOrdersPerType=0;
+          3 -634.47          428          0.85           -1.48    1031.01       1.03  Bands15_SignalMethod=71; MaxOrders=0; MaxOrdersPerType=0;
+          5 -634.47          428          0.85           -1.48    1031.01       1.03  Bands15_SignalMethod=85; MaxOrders=0; MaxOrdersPerType=0;
+          7 -634.47          428          0.85           -1.48    1031.01       1.03  Bands15_SignalMethod=99; MaxOrders=0; MaxOrdersPerType=0;
+          9 -634.47          428          0.85           -1.48    1031.01       1.03 Bands15_SignalMethod=113; MaxOrders=0; MaxOrdersPerType=0;
+         11 -634.47          428          0.85           -1.48    1031.01       1.03 Bands15_SignalMethod=127; MaxOrders=0; MaxOrdersPerType=0;
+          4 -676.94          454          0.85           -1.49    1025.85       1.03  Bands15_SignalMethod=78; MaxOrders=0; MaxOrdersPerType=0;
+          6 -676.65          469          0.85           -1.44    1022.65       1.02  Bands15_SignalMethod=92; MaxOrders=0; MaxOrdersPerType=0;
+          2 -698.12          548          0.85           -1.27    1062.63       1.06  Bands15_SignalMethod=64; MaxOrders=0; MaxOrdersPerType=0;
