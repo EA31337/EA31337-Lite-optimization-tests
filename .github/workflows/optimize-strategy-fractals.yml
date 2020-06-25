@@ -9,7 +9,7 @@ on:
       - 'optimize-strategy-fractals-*'
 
 jobs:
-  Optimize-Indicator:
+  Indicator:
     defaults:
       run:
         shell: bash
@@ -22,13 +22,13 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose up
+      - run: docker-compose run $DCA Fractals_Shift
       - name: Commit files
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -m "Adds test results" -a
+          git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
@@ -38,12 +38,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Stops:
+  Stops:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/Fractals/Stops
-    needs: Optimize-Indicator
+    needs: Indicator
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -57,7 +57,7 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -m "Adds test results" -a
+          git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
@@ -67,12 +67,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-SignalMethod:
+  SignalMethod:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/Fractals/SignalMethod
-    needs: Optimize-Stops
+    needs: Stops
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -88,7 +88,7 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -m "Adds test results" -a
+          git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
@@ -98,12 +98,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Timeframes:
+  Timeframes:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/Fractals/Timeframes
-    needs: Optimize-SignalMethod
+    needs: SignalMethod
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -116,7 +116,7 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -m "Adds test results" -a
+          git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes

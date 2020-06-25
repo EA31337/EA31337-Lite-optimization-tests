@@ -9,7 +9,7 @@ on:
       - 'optimize-strategy-alligator-*'
 
 jobs:
-  Optimize-Periods:
+  Periods:
     defaults:
       run:
         shell: bash
@@ -38,12 +38,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Indicator:
+  Indicator:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/Alligator/Indicator
-    needs: Optimize-Periods
+    needs: Periods
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -70,12 +70,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Stops:
+  Stops:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/Alligator/Stops
-    needs: Optimize-Indicator
+    needs: Indicator
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -101,12 +101,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-SignalMethod:
+  SignalMethod:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/Alligator/SignalMethod
-    needs: Optimize-Stops
+    needs: Stops
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -134,8 +134,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Timeframes:
-    needs: Optimize-SignalMethod
+  Timeframes:
+    needs: SignalMethod
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

@@ -9,7 +9,7 @@ on:
       - 'optimize-strategy-atr-*'
 
 jobs:
-  Optimize-Stops:
+  Stops:
     defaults:
       run:
         shell: bash
@@ -29,7 +29,7 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -m "Adds test results" -a
+          git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
@@ -39,12 +39,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Timeframes:
+  Timeframes:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/ATR/Timeframes
-    needs: Optimize-Stops
+    needs: Stops
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -59,7 +59,7 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -m "Adds test results" -a
+          git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes

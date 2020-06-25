@@ -9,7 +9,7 @@ on:
       - 'optimize-strategy-cci-*'
 
 jobs:
-  Optimize-Indicator:
+  Indicator:
     defaults:
       run:
         shell: bash
@@ -37,7 +37,7 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -m "Adds test results" -a
+          git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
@@ -47,12 +47,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Stops:
+  Stops:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/CCI/Stops
-    needs: Optimize-Indicator
+    needs: Indicator
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -68,7 +68,7 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -m "Adds test results" -a
+          git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
@@ -78,12 +78,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-SignalMethod:
+  SignalMethod:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/CCI/SignalMethod
-    needs: Optimize-Stops
+    needs: Stops
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -101,7 +101,7 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -m "Adds test results" -a
+          git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
@@ -111,12 +111,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Timeframes:
+  Timeframes:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/CCI/Timeframes
-    needs: Optimize-SignalMethod
+    needs: SignalMethod
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -131,7 +131,7 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -m "Adds test results" -a
+          git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
