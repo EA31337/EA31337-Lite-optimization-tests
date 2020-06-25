@@ -28,9 +28,9 @@ ADX5_SignalMethod=0
 ADX15_SignalMethod=0
 ADX30_SignalMethod=0
 # Dynamic strategy params.
-ADX_TrailingStopMethod=2
+ADX_TrailingStopMethod=25
 # Optimization params.
-ADX_TrailingProfitMethod=-19
+ADX_TrailingProfitMethod=11
 ADX_TrailingProfitMethod,F=0
 ADX_TrailingProfitMethod,1=0
 ADX_TrailingProfitMethod,2=0
