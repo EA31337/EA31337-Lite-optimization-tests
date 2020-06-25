@@ -28,9 +28,9 @@ DeMarker5_SignalMethod=0
 DeMarker15_SignalMethod=0
 DeMarker30_SignalMethod=0
 # Dynamic strategy params.
-DeMarker_TrailingStopMethod=8
+DeMarker_TrailingStopMethod=1
 # Optimization params.
-DeMarker_TrailingProfitMethod=-8
+DeMarker_TrailingProfitMethod=25
 DeMarker_TrailingProfitMethod,F=0
 DeMarker_TrailingProfitMethod,1=0
 DeMarker_TrailingProfitMethod,2=0
