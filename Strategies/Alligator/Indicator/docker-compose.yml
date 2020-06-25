@@ -9,7 +9,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 9-12
+      BT_MONTHS: 11-12
       BT_TESTMODEL: 1
       BT_TESTMODEL_FXT: 1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
