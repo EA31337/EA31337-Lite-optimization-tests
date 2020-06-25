@@ -11,17 +11,17 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            2 -386.11          665          0.89           -0.58     466.93       0.47 MA15_SignalMethod=16; MaxOrders=0; MaxOrdersPerType=0;
-            3 -386.11          665          0.89           -0.58     466.93       0.47 MA15_SignalMethod=23; MaxOrders=0; MaxOrdersPerType=0;
-            4 -386.11          665          0.89           -0.58     466.93       0.47 MA15_SignalMethod=30; MaxOrders=0; MaxOrdersPerType=0;
-            5 -386.11          665          0.89           -0.58     466.93       0.47 MA15_SignalMethod=37; MaxOrders=0; MaxOrdersPerType=0;
-            6 -386.11          665          0.89           -0.58     466.93       0.47 MA15_SignalMethod=44; MaxOrders=0; MaxOrdersPerType=0;
-            7 -386.11          665          0.89           -0.58     466.93       0.47 MA15_SignalMethod=51; MaxOrders=0; MaxOrdersPerType=0;
-            8 -386.11          665          0.89           -0.58     466.93       0.47 MA15_SignalMethod=58; MaxOrders=0; MaxOrdersPerType=0;
-            9 -386.11          665          0.89           -0.58     466.93       0.47 MA15_SignalMethod=65; MaxOrders=0; MaxOrdersPerType=0;
-           10 -386.11          665          0.89           -0.58     466.93       0.47 MA15_SignalMethod=72; MaxOrders=0; MaxOrdersPerType=0;
-           11 -386.11          665          0.89           -0.58     466.93       0.47 MA15_SignalMethod=79; MaxOrders=0; MaxOrdersPerType=0;
-           12 -386.11          665          0.89           -0.58     466.93       0.47 MA15_SignalMethod=86; MaxOrders=0; MaxOrdersPerType=0;
-           13 -386.11          665          0.89           -0.58     466.93       0.47 MA15_SignalMethod=93; MaxOrders=0; MaxOrdersPerType=0;
-            1 -387.71          666          0.89           -0.58     466.93       0.47  MA15_SignalMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           4 -160.57          300          0.95           -0.54     682.76       0.68   MA15_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+           5 -188.10          296          0.94           -0.64     695.36       0.69   MA15_SignalMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+          13 -188.10          296          0.94           -0.64     695.36       0.69  MA15_SignalMethod=65; MaxOrders=0; MaxOrdersPerType=0;
+           6 -191.57          297          0.94           -0.65     705.86       0.71  MA15_SignalMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+           1 -193.70          296          0.94           -0.65     716.96       0.72 MA15_SignalMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+           7 -198.27          296          0.93           -0.67     705.86       0.71  MA15_SignalMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+           2 -209.70          295          0.93           -0.71     716.96       0.72 MA15_SignalMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
+           3 -209.70          295          0.93           -0.71     716.96       0.72  MA15_SignalMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
+           8 -209.70          295          0.93           -0.71     716.96       0.72  MA15_SignalMethod=30; MaxOrders=0; MaxOrdersPerType=0;
+           9 -209.70          295          0.93           -0.71     716.96       0.72  MA15_SignalMethod=37; MaxOrders=0; MaxOrdersPerType=0;
+          10 -209.70          295          0.93           -0.71     716.96       0.72  MA15_SignalMethod=44; MaxOrders=0; MaxOrdersPerType=0;
+          11 -209.70          295          0.93           -0.71     716.96       0.72  MA15_SignalMethod=51; MaxOrders=0; MaxOrdersPerType=0;
+          12 -209.70          295          0.93           -0.71     716.96       0.72  MA15_SignalMethod=58; MaxOrders=0; MaxOrdersPerType=0;
