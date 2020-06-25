@@ -11,5 +11,12 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-            Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-               1 -1189.42         1314          0.70           -0.91    1224.92       1.22 MaxOrders=0; MaxOrdersPerType=0; LotSize=0.01;
+        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           3  61.18          178          1.03            0.34     287.74       0.29 SAR30_SignalMethod=-113; MaxOrders=0; MaxOrdersPerType=0;
+           4  61.18          178          1.03            0.34     287.74       0.29 SAR30_SignalMethod=-106; MaxOrders=0; MaxOrdersPerType=0;
+           5  61.18          178          1.03            0.34     287.74       0.29  SAR30_SignalMethod=-99; MaxOrders=0; MaxOrdersPerType=0;
+           6  61.18          178          1.03            0.34     287.74       0.29  SAR30_SignalMethod=-92; MaxOrders=0; MaxOrdersPerType=0;
+           7  61.18          178          1.03            0.34     287.74       0.29  SAR30_SignalMethod=-85; MaxOrders=0; MaxOrdersPerType=0;
+           8  61.18          178          1.03            0.34     287.74       0.29  SAR30_SignalMethod=-78; MaxOrders=0; MaxOrdersPerType=0;
+           2  42.71          180          1.02            0.24     296.74       0.30 SAR30_SignalMethod=-120; MaxOrders=0; MaxOrdersPerType=0;
+           1  34.27          179          1.02            0.19     287.74       0.29 SAR30_SignalMethod=-127; MaxOrders=0; MaxOrdersPerType=0;
