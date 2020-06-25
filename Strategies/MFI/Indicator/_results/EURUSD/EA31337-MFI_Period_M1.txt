@@ -6,18 +6,18 @@
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              4 -121.50           78          0.65           -1.56     154.10       0.15 MFI_Period_M1=12; MaxOrders=0; MaxOrdersPerType=0;
-              6 -131.90           80          0.61           -1.65     171.00       0.17 MFI_Period_M1=16; MaxOrders=0; MaxOrdersPerType=0;
-              7 -146.82           90          0.58           -1.63     204.12       0.20 MFI_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;
-              5 -148.90           65          0.47           -2.29     186.00       0.19 MFI_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
-              8 -180.12           99          0.60           -1.82     192.62       0.19 MFI_Period_M1=20; MaxOrders=0; MaxOrdersPerType=0;
-              3 -189.70          151          0.70           -1.26     206.40       0.21 MFI_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
-              9 -204.02          132          0.65           -1.55     239.00       0.24 MFI_Period_M1=22; MaxOrders=0; MaxOrdersPerType=0;
-              2 -211.60          208          0.75           -1.02     219.10       0.22  MFI_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
-              1 -312.62          221          0.67           -1.41     328.12       0.33  MFI_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
+           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              9 -28.50           17          0.01           -1.68      42.80       0.04 MFI_Period_M1=20; MaxOrders=0; MaxOrdersPerType=0;
+              7 -30.60           17          0.00           -1.80      30.60       0.03 MFI_Period_M1=16; MaxOrders=0; MaxOrdersPerType=0;
+              8 -30.60           17          0.00           -1.80      31.50       0.03 MFI_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;
+              6 -35.90           25          0.17           -1.44      36.80       0.04 MFI_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
+              4 -65.40           57          0.29           -1.15      76.70       0.08 MFI_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
+              3 -71.80           67          0.34           -1.07      81.30       0.08  MFI_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
+              5 -72.00           40          0.00           -1.80      72.00       0.07 MFI_Period_M1=12; MaxOrders=0; MaxOrdersPerType=0;
+              1 -88.10           72          0.25           -1.22      97.60       0.10  MFI_Period_M1=4; MaxOrders=0; MaxOrdersPerType=0;
+              2 -90.60           71          0.23           -1.28     100.10       0.10  MFI_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
