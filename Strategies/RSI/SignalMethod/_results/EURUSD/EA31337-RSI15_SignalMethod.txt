@@ -12,13 +12,16 @@
                             Spread          10
                                                                  [Optimization Graph]
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           9 -356.37          523          0.72           -0.68     375.07       0.38 RSI15_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
-           5 -360.70          562          0.73           -0.64     380.90       0.38 RSI15_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
-          10 -440.30          587          0.69           -0.75     450.50       0.45 RSI15_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
-           4 -483.07          607          0.67           -0.80     494.77       0.49 RSI15_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
-           3 -514.95          751          0.71           -0.69     601.34       0.60 RSI15_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
-           1 -542.64          837          0.73           -0.65     619.26       0.62 RSI15_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
-           8 -586.52          776          0.70           -0.76     664.31       0.66 RSI15_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
-           7 -591.90          801          0.70           -0.74     669.89       0.67 RSI15_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
-           2 -608.88          804          0.70           -0.76     688.18       0.69 RSI15_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
-           6 -746.70          840          0.66           -0.89     820.00       0.82 RSI15_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+          10  -45.91          168          0.93           -0.27     174.34       0.17 RSI15_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
+          11  -45.91          168          0.93           -0.27     174.34       0.17 RSI15_SignalMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
+          12  -45.91          168          0.93           -0.27     174.34       0.17 RSI15_SignalMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+          13  -45.91          168          0.93           -0.27     174.34       0.17 RSI15_SignalMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
+           9  -48.11          174          0.93           -0.28     185.24       0.19 RSI15_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
+           5 -176.82          440          0.87           -0.40     265.12       0.27 RSI15_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+           6 -246.61          301          0.76           -0.82     295.28       0.30 RSI15_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
+           8 -246.61          301          0.76           -0.82     295.28       0.30 RSI15_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
+           2 -260.45          345          0.77           -0.75     306.68       0.31 RSI15_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
+           7 -269.98          330          0.76           -0.82     312.11       0.31 RSI15_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
+           4 -285.98          474          0.81           -0.60     394.88       0.39 RSI15_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
+           1 -293.95          359          0.75           -0.82     334.28       0.33 RSI15_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
+           3 -318.25          504          0.80           -0.63     397.85       0.40 RSI15_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
