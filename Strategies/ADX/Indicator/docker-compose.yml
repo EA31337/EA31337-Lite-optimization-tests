@@ -136,7 +136,7 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: >
         set_opt_params ADX_Shift
-        $$(bc <<< "$$(input_get ADX_Shift) - 1 * 2")
+        $$(get_max 0 $$(bc <<< "$$(input_get ADX_Shift) - 1 * 2"))
         $$(bc <<< "$$(input_get ADX_Shift) + 1 * 2")
       RUN_ON_SUCCESS: >
         input_copy ADX_Period_M30 "$${SETFILE}"
