@@ -9,7 +9,7 @@ on:
       - 'optimize-actions-*'
 
 jobs:
-  Optimize-Condition1:
+  Condition1:
     defaults:
       run:
         shell: bash
@@ -40,12 +40,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Condition2:
+  Condition2:
     defaults:
       run:
         shell: bash
         working-directory: Actions
-    needs: Optimize-Condition1
+    needs: Condition1
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -72,12 +72,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Condition3:
+  Condition3:
     defaults:
       run:
         shell: bash
         working-directory: Actions
-    needs: Optimize-Condition2
+    needs: Condition2
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -104,13 +104,13 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Condition4:
+  Condition4:
     defaults:
       run:
         shell: bash
         working-directory: Actions
     runs-on: ubuntu-latest
-    needs: Optimize-Condition3
+    needs: Condition3
     steps:
       - uses: actions/checkout@v2
         with:
@@ -136,12 +136,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Active:
+  Active:
     defaults:
       run:
         shell: bash
         working-directory: Actions
-    needs: Optimize-Condition4
+    needs: Condition4
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

@@ -9,7 +9,7 @@ on:
       - 'optimize-smartqueue-*'
 
 jobs:
-  Optimize-SmartQueue:
+  SmartQueue:
     runs-on: ubuntu-latest
     defaults:
       run:

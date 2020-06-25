@@ -8,7 +8,7 @@ on:
       - 'optimize-all'
 
 jobs:
-  Optimize-All:
+  All:
     defaults:
       run:
         shell: bash

@@ -9,7 +9,7 @@ on:
       - 'optimize-strategy-macd-*'
 
 jobs:
-  Optimize-Periods:
+  Periods:
     defaults:
       run:
         shell: bash
@@ -38,12 +38,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Indicator:
+  Indicator:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/MACD/Indicator
-    needs: Optimize-Periods
+    needs: Periods
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -70,12 +70,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Stops:
+  Stops:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/MACD/Stops
-    needs: Optimize-Indicator
+    needs: Indicator
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -101,12 +101,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-SignalMethod:
+  SignalMethod:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/MACD/SignalMethod
-    needs: Optimize-Stops
+    needs: Stops
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -134,12 +134,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Timeframes:
+  Timeframes:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/MACD/Timeframes
-    needs: Optimize-SignalMethod
+    needs: SignalMethod
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
