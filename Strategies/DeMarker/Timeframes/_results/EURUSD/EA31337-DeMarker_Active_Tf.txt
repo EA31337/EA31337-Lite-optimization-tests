@@ -2,29 +2,29 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            1   0.00            0          0.00            0.00       0.00       0.00  DeMarker_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
-            2   0.00            0          0.00            0.00       0.00       0.00  DeMarker_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
-            3   0.00            0          0.00            0.00       0.00       0.00  DeMarker_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
-            4   0.00            0          0.00            0.00       0.00       0.00  DeMarker_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
-            5   0.00            0          0.00            0.00       0.00       0.00  DeMarker_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
-            6   0.00            0          0.00            0.00       0.00       0.00  DeMarker_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
-            7   0.00            0          0.00            0.00       0.00       0.00  DeMarker_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
-            8   0.00            0          0.00            0.00       0.00       0.00  DeMarker_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
-            9   0.00            0          0.00            0.00       0.00       0.00  DeMarker_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
-           10   0.00            0          0.00            0.00       0.00       0.00  DeMarker_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
-           11   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
-           12   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
-           13   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
-           14   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
-           15   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
-           16   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           9   318.02          247          1.11            1.29     415.08       0.41  DeMarker_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+           3    76.13           36          1.96            2.11      90.00       0.09  DeMarker_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
+           4    65.53           39          1.84            1.68      86.90       0.09  DeMarker_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+          13    56.34          377          1.01            0.15     995.79       0.99 DeMarker_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+           1     0.00            0          0.00            0.00       0.00       0.00  DeMarker_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
+           2     0.00            0          0.00            0.00       0.00       0.00  DeMarker_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+           7  -154.73          224          0.94           -0.69     874.67       0.87  DeMarker_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+          15  -170.15          685          0.97           -0.25     705.27       0.70 DeMarker_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+           8  -174.23          260          0.92           -0.67     570.79       0.57  DeMarker_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
+           6  -239.76          221          0.88           -1.08     566.29       0.57  DeMarker_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+           5  -265.25          168          0.90           -1.58    1016.00       1.01  DeMarker_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+          11  -471.10          726          0.88           -0.65     612.12       0.61 DeMarker_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+          16 -1184.78         1395          0.82           -0.85    1322.84       1.32 DeMarker_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+          14 -1250.32         1356          0.81           -0.92    1335.37       1.33 DeMarker_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+          12 -1322.57         1577          0.74           -0.84    1430.37       1.43 DeMarker_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+          10 -1388.11         1538          0.72           -0.90    1476.61       1.48  DeMarker_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;

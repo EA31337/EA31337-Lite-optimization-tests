@@ -11,20 +11,20 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              6  734.04          645          1.08            1.14    1174.44       1.15  WPR_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
-              8  652.57         1075          1.04            0.61    1795.78       1.76  WPR_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
-              5  617.62          623          1.07            0.99    1219.90       1.20  WPR_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
-             14  419.90         1067          1.03            0.39    1927.04       1.88 WPR_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
-              7  416.77         1058          1.03            0.39    1770.80       1.74  WPR_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
-             16  389.94         1497          1.02            0.26    2460.92       2.40 WPR_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
-             13  249.60         1040          1.02            0.24    1805.29       1.77 WPR_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
-              2   19.45           19          1.05            1.02     180.40       0.18  WPR_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
-              1    0.00            0          0.00            0.00       0.00       0.00  WPR_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
-             15  -38.68         1478          1.00           -0.03    2435.00       2.38 WPR_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
-              4  -44.41          448          0.99           -0.10     735.26       0.73  WPR_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
-              3 -133.82          426          0.98           -0.31     791.94       0.79  WPR_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
-             10 -248.33          438          0.97           -0.57     896.96       0.89  WPR_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
-             12 -338.98          867          0.97           -0.39    1429.84       1.42 WPR_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
-              9 -384.86          410          0.94           -0.94     875.21       0.87  WPR_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
-             11 -647.51          845          0.95           -0.77    1656.23       1.64 WPR_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1     0.00            0          0.00            0.00       0.00       0.00  WPR_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
+             2   -10.70           12          0.45           -0.89      14.40       0.01  WPR_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+             4  -229.52          238          0.46           -0.96     234.82       0.23  WPR_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+             3  -247.92          207          0.44           -1.20     254.92       0.25  WPR_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
+             9 -1339.27         1489          0.70           -0.90    1389.07       1.39  WPR_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+             5 -1932.52         1557          0.54           -1.24    1958.72       1.96  WPR_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+            10 -2566.26         3033          0.50           -0.85    2566.26       2.57  WPR_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+            11 -2638.59         2769          0.56           -0.95    2692.29       2.69 WPR_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+             6 -2687.36         2816          0.41           -0.95    2689.56       2.69  WPR_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+             7 -2705.87         2513          0.46           -1.08    2720.37       2.72  WPR_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+            12 -2785.38         3259          0.50           -0.85    2789.78       2.79 WPR_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+             8 -2907.58         3042          0.41           -0.96    2909.78       2.91  WPR_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
+            13 -3449.76         3238          0.62           -1.07    3461.56       3.46 WPR_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+            15 -5083.23         5069          0.52           -1.00    5116.13       5.12 WPR_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+            14 -5236.62         5833          0.46           -0.90    5238.82       5.24 WPR_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+            16 -5457.14         6059          0.46           -0.90    5459.34       5.46 WPR_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;

@@ -32,7 +32,7 @@ Alligator_TrailingProfitMethod=0
 # Dynamic strategy params.
 Alligator_Applied_Price=1
 # Optimization params.
-Alligator_SignalLevel=0
+Alligator_SignalLevel=-0.2
 Alligator_SignalLevel,F=0
 Alligator_SignalLevel,1=0
 Alligator_SignalLevel,2=0

@@ -23,7 +23,7 @@ RSI_Active_Tf=0
 SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Optimization params.
-AD5_SignalMethod=0
+AD5_SignalMethod=1
 AD5_SignalMethod,F=0
 AD5_SignalMethod,1=0
 AD5_SignalMethod,2=0
