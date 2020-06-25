@@ -30,7 +30,7 @@ MA30_SignalMethod=0
 # Dynamic strategy params.
 MA_TrailingStopMethod=19
 # Optimization params.
-MA_TrailingProfitMethod=-8
+MA_TrailingProfitMethod=25
 MA_TrailingProfitMethod,F=0
 MA_TrailingProfitMethod,1=0
 MA_TrailingProfitMethod,2=0
