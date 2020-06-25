@@ -12,13 +12,13 @@
                             Spread          10
                                                                  [Optimization Graph]
             Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-               2 -1232.82         2694          0.94           -0.46    2795.90       2.76 SAR_Step=0.02; MaxOrders=0; MaxOrdersPerType=0;
-               3 -1425.14         2504          0.93           -0.57    2675.05       2.65 SAR_Step=0.03; MaxOrders=0; MaxOrdersPerType=0;
-              10 -1463.43         2093          0.91           -0.70    2587.38       2.57  SAR_Step=0.1; MaxOrders=0; MaxOrdersPerType=0;
-               9 -1658.99         2094          0.90           -0.79    2771.97       2.75 SAR_Step=0.09; MaxOrders=0; MaxOrdersPerType=0;
-               8 -1863.49         2133          0.89           -0.87    2951.02       2.93 SAR_Step=0.08; MaxOrders=0; MaxOrdersPerType=0;
-               4 -2132.30         2343          0.88           -0.91    3146.92       3.12 SAR_Step=0.04; MaxOrders=0; MaxOrdersPerType=0;
-               7 -2198.01         2156          0.87           -1.02    3216.70       3.19 SAR_Step=0.07; MaxOrders=0; MaxOrdersPerType=0;
-               5 -2435.07         2257          0.86           -1.08    3392.21       3.37 SAR_Step=0.05; MaxOrders=0; MaxOrdersPerType=0;
-               6 -2629.62         2200          0.85           -1.20    3417.19       3.40 SAR_Step=0.06; MaxOrders=0; MaxOrdersPerType=0;
-               1 -2668.30         2833          0.88           -0.94    3526.66       3.50 SAR_Step=0.01; MaxOrders=0; MaxOrdersPerType=0;
+               9 -3195.71         3343          0.72           -0.96    3420.40       3.41 SAR_Step=0.09; MaxOrders=0; MaxOrdersPerType=0;
+               8 -3309.50         3352          0.71           -0.99    3421.83       3.42 SAR_Step=0.08; MaxOrders=0; MaxOrdersPerType=0;
+              10 -3482.17         3330          0.70           -1.05    3686.69       3.68  SAR_Step=0.1; MaxOrders=0; MaxOrdersPerType=0;
+               7 -3485.74         3386          0.70           -1.03    3592.06       3.59 SAR_Step=0.07; MaxOrders=0; MaxOrdersPerType=0;
+               2 -3672.59         3737          0.73           -0.98    4151.63       4.14 SAR_Step=0.02; MaxOrders=0; MaxOrdersPerType=0;
+               6 -3739.14         3455          0.69           -1.08    3856.17       3.85 SAR_Step=0.06; MaxOrders=0; MaxOrdersPerType=0;
+               5 -3783.28         3520          0.69           -1.07    3956.46       3.95 SAR_Step=0.05; MaxOrders=0; MaxOrdersPerType=0;
+               1 -3858.72         3985          0.73           -0.97    4453.28       4.44 SAR_Step=0.01; MaxOrders=0; MaxOrdersPerType=0;
+               3 -4170.70         3650          0.69           -1.14    4303.53       4.30 SAR_Step=0.03; MaxOrders=0; MaxOrdersPerType=0;
+               4 -4355.66         3569          0.67           -1.22    4595.65       4.59 SAR_Step=0.04; MaxOrders=0; MaxOrdersPerType=0;
