@@ -10,7 +10,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: set_opt_params CloseOrderAfterXHours 0 120 24
       SETFILE: /opt/sets/EA31337-CloseOrderAfterXHours.set
       SET_PARAMS: CloseOrderAfterXHours
@@ -24,7 +24,8 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: set_opt_params "$${SET_PARAMS}" 10 40 10
       SETFILE: /opt/sets/EA31337-InitNoOfOrdersToCalcPF.set
       SET_PARAMS: InitNoOfOrdersToCalcPF
       TEST_REPORT_NAME: EA31337-InitNoOfOrdersToCalcPF
@@ -51,7 +52,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: set_opt_params MaxOrders 0 40 5
       SETFILE: /opt/sets/EA31337-MaxOrders.set
       SET_PARAMS: MaxOrders
@@ -65,7 +66,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: set_opt_params MaxOrdersPerType 0 20 2
       SETFILE: /opt/sets/EA31337-MaxOrdersPerType.set
       SET_PARAMS: MaxOrdersPerType
@@ -79,7 +80,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 2"))
