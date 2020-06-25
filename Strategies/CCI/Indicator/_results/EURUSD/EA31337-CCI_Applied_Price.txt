@@ -12,10 +12,10 @@
                             Spread          10
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            3 -1088.82         1134          0.91           -0.96    1957.81       1.96 CCI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-            1 -1764.08         1281          0.87           -1.38    2700.92       2.70 CCI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-            2 -1849.79         1257          0.87           -1.47    2834.52       2.83 CCI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-            7 -1870.21         1294          0.86           -1.45    2791.03       2.79 CCI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-            6 -1909.73         1293          0.86           -1.48    2844.55       2.84 CCI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-            5 -1913.03         1285          0.86           -1.49    2862.16       2.86 CCI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-            4 -2770.14         1554          0.82           -1.78    3485.26       3.48 CCI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+            3 -1620.31         2525          0.67           -0.64    1635.71       1.64 CCI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+            1 -2428.51         3366          0.62           -0.72    2443.91       2.44 CCI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+            7 -2848.99         3679          0.59           -0.77    2864.99       2.86 CCI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+            6 -2893.79         3755          0.59           -0.77    2909.79       2.91 CCI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+            2 -3013.76         3886          0.59           -0.78    3029.16       3.03 CCI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            5 -3023.13         3819          0.58           -0.79    3039.13       3.04 CCI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+            4 -3941.31         4882          0.56           -0.81    3955.51       3.96 CCI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
