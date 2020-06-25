@@ -30,7 +30,7 @@ DeMarker30_SignalMethod=0
 DeMarker_TrailingStopMethod=0
 DeMarker_TrailingProfitMethod=0
 # Optimization params.
-DeMarker_SignalLevel=0.2
+DeMarker_SignalLevel=-0.1
 DeMarker_SignalLevel,F=0
 DeMarker_SignalLevel,1=0
 DeMarker_SignalLevel,2=0
