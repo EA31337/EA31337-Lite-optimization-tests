@@ -9,7 +9,7 @@ on:
       - 'optimize-risk-*'
 
 jobs:
-  Optimize-Risk:
+  Risk:
     defaults:
       run:
         shell: bash

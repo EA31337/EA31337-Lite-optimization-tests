@@ -9,7 +9,7 @@ on:
       - 'optimize-strategy-fractals-*'
 
 jobs:
-  Optimize-Indicator:
+  Indicator:
     defaults:
       run:
         shell: bash
@@ -38,12 +38,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Stops:
+  Stops:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/Fractals/Stops
-    needs: Optimize-Indicator
+    needs: Indicator
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -67,12 +67,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-SignalMethod:
+  SignalMethod:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/Fractals/SignalMethod
-    needs: Optimize-Stops
+    needs: Stops
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -98,12 +98,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Timeframes:
+  Timeframes:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/Fractals/Timeframes
-    needs: Optimize-SignalMethod
+    needs: SignalMethod
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
