@@ -12,10 +12,10 @@
                             Spread          10
                                                                  [Optimization Graph]
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1 -312.07          887          0.96           -0.35     965.76       0.96 Force_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-           2 -312.07          887          0.96           -0.35     965.76       0.96 Force_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-           3 -312.07          887          0.96           -0.35     965.76       0.96 Force_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-           4 -312.07          887          0.96           -0.35     965.76       0.96 Force_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-           5 -312.07          887          0.96           -0.35     965.76       0.96 Force_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-           6 -312.07          887          0.96           -0.35     965.76       0.96 Force_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-           7 -312.07          887          0.96           -0.35     965.76       0.96 Force_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+           1 -422.06          499          0.78           -0.85     539.48       0.54 Force_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+           2 -422.06          499          0.78           -0.85     539.48       0.54 Force_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+           3 -422.06          499          0.78           -0.85     539.48       0.54 Force_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+           4 -422.06          499          0.78           -0.85     539.48       0.54 Force_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+           5 -422.06          499          0.78           -0.85     539.48       0.54 Force_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+           6 -422.06          499          0.78           -0.85     539.48       0.54 Force_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+           7 -422.06          499          0.78           -0.85     539.48       0.54 Force_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
