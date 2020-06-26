@@ -11,15 +11,15 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          1 -1478.33         1419          0.63           -1.04    1576.72       1.58 CCI30_SignalMethod=-28; MaxOrders=0; MaxOrdersPerType=0;
-          5 -1478.33         1419          0.63           -1.04    1576.72       1.58 CCI30_SignalMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
-          2 -1515.63         1402          0.61           -1.08    1556.82       1.56 CCI30_SignalMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
-          3 -1515.63         1402          0.61           -1.08    1556.82       1.56 CCI30_SignalMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
-          4 -1515.63         1402          0.61           -1.08    1556.82       1.56 CCI30_SignalMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
-          6 -1515.63         1402          0.61           -1.08    1556.82       1.56 CCI30_SignalMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
-          7 -1515.63         1402          0.61           -1.08    1556.82       1.56 CCI30_SignalMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
-          8 -1515.63         1402          0.61           -1.08    1556.82       1.56  CCI30_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
-          9 -1515.63         1402          0.61           -1.08    1556.82       1.56  CCI30_SignalMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
-         10 -1515.63         1402          0.61           -1.08    1556.82       1.56  CCI30_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-         11 -1515.63         1402          0.61           -1.08    1556.82       1.56   CCI30_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           5 -345.00           75          0.73           -4.60     446.06       0.45 CCI30_SignalMethod=-31; MaxOrders=0; MaxOrdersPerType=0;
+           6 -345.00           75          0.73           -4.60     446.06       0.45 CCI30_SignalMethod=-28; MaxOrders=0; MaxOrdersPerType=0;
+           7 -345.00           75          0.73           -4.60     446.06       0.45 CCI30_SignalMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
+           8 -345.00           75          0.73           -4.60     446.06       0.45 CCI30_SignalMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
+           9 -345.00           75          0.73           -4.60     446.06       0.45 CCI30_SignalMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+          10 -345.00           75          0.73           -4.60     446.06       0.45 CCI30_SignalMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
+          11 -345.00           75          0.73           -4.60     446.06       0.45 CCI30_SignalMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
+           3 -353.06          113          0.82           -3.12     567.20       0.57 CCI30_SignalMethod=-37; MaxOrders=0; MaxOrdersPerType=0;
+           4 -353.06          113          0.82           -3.12     567.20       0.57 CCI30_SignalMethod=-34; MaxOrders=0; MaxOrdersPerType=0;
+           2 -687.30          139          0.71           -4.94     730.37       0.73 CCI30_SignalMethod=-40; MaxOrders=0; MaxOrdersPerType=0;
+           1 -730.73          143          0.70           -5.11     768.33       0.77 CCI30_SignalMethod=-43; MaxOrders=0; MaxOrdersPerType=0;
