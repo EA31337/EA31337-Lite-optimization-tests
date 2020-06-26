@@ -19,22 +19,6 @@ services:
       SETFILE: /opt/sets/EA31337-MinPipGap.set
       SET_PARAMS: MinPipGap
       TEST_REPORT_NAME: EA31337-MinPipGap
-  # ProfitFactorMaxToTrade:
-  #   command: run_backtest -v
-  #   image: ea31337/ea-tester:EURUSD-2019-DS
-  #   volumes:
-  #   - ./sets/EURUSD:/opt/sets:rw
-  #   - ./_results/EURUSD:/opt/_results:rw
-  #   env_file: ../EA-Tester.ini
-  #   environment:
-  #     SET_PARAMS: ProfitFactorMaxToTrade
-  # Set min to 0, max to 1.0.
-  #     RUN_ON_SET:
-  #       set_opt_params ProfitFactorMaxToTrade
-  #       $$(bc <<< "$$(input_get ProfitFactorMaxToTrade) - 0.1 * 4")
-  #       $$(bc <<< "$$(input_get ProfitFactorMaxToTrade) + 0.1 * 4") 0.1
-  #     SETFILE: /opt/sets/EA31337-ProfitFactorMaxToTrade.set
-  #     TEST_REPORT_NAME: EA31337-ProfitFactorMaxToTrade
   ProfitFactorMinToTrade:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
@@ -125,36 +109,6 @@ services:
       SETFILE: /opt/sets/EA31337-TrailingStop.set
       SET_PARAMS: TrailingStop
       TEST_REPORT_NAME: EA31337-TrailingStop
-  TrailingStopAddPerMinute:
-    command: run_backtest -v
-    image: ea31337/ea-tester:EURUSD-2019-DS
-    volumes:
-      - ./sets/EURUSD:/opt/sets:rw
-      - ./_results/EURUSD:/opt/_results:rw
-    env_file: ../EA-Tester.ini
-    environment:
-      BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
-      RUN_ON_SET: >
-        set_opt_params "$${SET_PARAMS}"
-        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 2"))
-        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 2")
-        0.1
-      SETFILE: /opt/sets/EA31337-TrailingStopAddPerMinute.set
-      SET_PARAMS: TrailingStopAddPerMinute
-      TEST_REPORT_NAME: EA31337-TrailingStopAddPerMinute
-  # TrendMethod:
-  #   command: run_backtest -v
-  #   image: ea31337/ea-tester:EURUSD-2019-DS
-  #   volumes:
-  #   - ./sets/EURUSD:/opt/sets:rw
-  #   - ./_results/EURUSD:/opt/_results:rw
-  #   env_file: ../EA-Tester.ini
-  #   environment:
-  #     SET_PARAMS: TrendMethod
-  #     RUN_ON_SET: set_opt_params TrendPeriod 1 255
-  #     SETFILE: /opt/sets/EA31337-TrendMethod.set
-  #     TEST_REPORT_NAME: EA31337-TrendMethod
   TrendPeriod:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
