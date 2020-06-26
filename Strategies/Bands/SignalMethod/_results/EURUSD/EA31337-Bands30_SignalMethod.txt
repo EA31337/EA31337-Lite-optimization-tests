@@ -11,13 +11,13 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          1 -24.07          158          0.99           -0.15     351.82       0.35  Bands30_SignalMethod=71; MaxOrders=0; MaxOrdersPerType=0;
-          2 -24.07          158          0.99           -0.15     351.82       0.35  Bands30_SignalMethod=78; MaxOrders=0; MaxOrdersPerType=0;
-          3 -24.07          158          0.99           -0.15     351.82       0.35  Bands30_SignalMethod=85; MaxOrders=0; MaxOrdersPerType=0;
-          4 -24.07          158          0.99           -0.15     351.82       0.35  Bands30_SignalMethod=92; MaxOrders=0; MaxOrdersPerType=0;
-          5 -24.07          158          0.99           -0.15     351.82       0.35  Bands30_SignalMethod=99; MaxOrders=0; MaxOrdersPerType=0;
-          6 -24.07          158          0.99           -0.15     351.82       0.35 Bands30_SignalMethod=106; MaxOrders=0; MaxOrdersPerType=0;
-          7 -24.07          158          0.99           -0.15     351.82       0.35 Bands30_SignalMethod=113; MaxOrders=0; MaxOrdersPerType=0;
-          8 -24.07          158          0.99           -0.15     351.82       0.35 Bands30_SignalMethod=120; MaxOrders=0; MaxOrdersPerType=0;
-          9 -24.07          158          0.99           -0.15     351.82       0.35 Bands30_SignalMethod=127; MaxOrders=0; MaxOrdersPerType=0;
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         8  -351.24          122          0.80           -2.88     511.85       0.51 Bands30_SignalMethod=120; MaxOrders=0; MaxOrdersPerType=0;
+         6  -452.84           92          0.68           -4.92     455.94       0.46 Bands30_SignalMethod=106; MaxOrders=0; MaxOrdersPerType=0;
+         1  -462.57           77          0.64           -6.01     475.76       0.48  Bands30_SignalMethod=71; MaxOrders=0; MaxOrdersPerType=0;
+         3  -462.57           77          0.64           -6.01     475.76       0.48  Bands30_SignalMethod=85; MaxOrders=0; MaxOrdersPerType=0;
+         5  -462.57           77          0.64           -6.01     475.76       0.48  Bands30_SignalMethod=99; MaxOrders=0; MaxOrdersPerType=0;
+         7  -462.57           77          0.64           -6.01     475.76       0.48 Bands30_SignalMethod=113; MaxOrders=0; MaxOrdersPerType=0;
+         9  -462.57           77          0.64           -6.01     475.76       0.48 Bands30_SignalMethod=127; MaxOrders=0; MaxOrdersPerType=0;
+         4  -975.61          186          0.67           -5.25    1019.11       1.02  Bands30_SignalMethod=92; MaxOrders=0; MaxOrdersPerType=0;
+         2 -1013.75          181          0.65           -5.60    1057.25       1.06  Bands30_SignalMethod=78; MaxOrders=0; MaxOrdersPerType=0;
