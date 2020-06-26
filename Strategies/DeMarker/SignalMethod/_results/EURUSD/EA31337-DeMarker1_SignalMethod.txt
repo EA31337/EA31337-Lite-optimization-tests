@@ -11,21 +11,21 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         1   0.00            0          0.00            0.00       0.00       0.00 DeMarker1_SignalMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
-         2   0.00            0          0.00            0.00       0.00       0.00 DeMarker1_SignalMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
-         3   0.00            0          0.00            0.00       0.00       0.00  DeMarker1_SignalMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
-         4   0.00            0          0.00            0.00       0.00       0.00  DeMarker1_SignalMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
-         5   0.00            0          0.00            0.00       0.00       0.00  DeMarker1_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
-         6   0.00            0          0.00            0.00       0.00       0.00  DeMarker1_SignalMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
-         7   0.00            0          0.00            0.00       0.00       0.00  DeMarker1_SignalMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
-         8   0.00            0          0.00            0.00       0.00       0.00  DeMarker1_SignalMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
-         9   0.00            0          0.00            0.00       0.00       0.00  DeMarker1_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
-        10   0.00            0          0.00            0.00       0.00       0.00  DeMarker1_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
-        11   0.00            0          0.00            0.00       0.00       0.00  DeMarker1_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-        13   0.00            0          0.00            0.00       0.00       0.00   DeMarker1_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-        14   0.00            0          0.00            0.00       0.00       0.00   DeMarker1_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-        15   0.00            0          0.00            0.00       0.00       0.00   DeMarker1_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-        16   0.00            0          0.00            0.00       0.00       0.00   DeMarker1_SignalMethod=4; MaxOrders=0; MaxOrdersPerType=0;
-        17   0.00            0          0.00            0.00       0.00       0.00   DeMarker1_SignalMethod=5; MaxOrders=0; MaxOrdersPerType=0;
-        12  -2.10            5          0.89           -0.42      24.10       0.02   DeMarker1_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        16   44.00           59          1.35            0.75      48.60       0.05   DeMarker1_SignalMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+        17   41.10           58          1.33            0.71      48.60       0.05   DeMarker1_SignalMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+         8  -10.70          109          0.97           -0.10     114.70       0.11  DeMarker1_SignalMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
+         9  -13.60          108          0.96           -0.13     117.60       0.12  DeMarker1_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
+        10  -20.60          103          0.94           -0.20     124.60       0.12  DeMarker1_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+        11  -20.60          103          0.94           -0.20     124.60       0.12  DeMarker1_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+         1  -49.80          125          0.87           -0.40     159.90       0.16 DeMarker1_SignalMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
+         2  -56.80          120          0.86           -0.47     166.90       0.17 DeMarker1_SignalMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
+         3  -56.80          120          0.86           -0.47     166.90       0.17  DeMarker1_SignalMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
+        12 -112.00          194          0.82           -0.58     231.10       0.23   DeMarker1_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+         6 -174.01          217          0.76           -0.80     278.10       0.28  DeMarker1_SignalMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+         7 -174.01          217          0.76           -0.80     278.10       0.28  DeMarker1_SignalMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
+        13 -214.80          125          0.54           -1.72     268.90       0.27   DeMarker1_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+        14 -220.10          122          0.54           -1.80     274.20       0.27   DeMarker1_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+        15 -220.10          122          0.54           -1.80     274.20       0.27   DeMarker1_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+         4 -222.50          224          0.71           -0.99     283.60       0.28  DeMarker1_SignalMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
+         5 -225.40          223          0.71           -1.01     286.50       0.29  DeMarker1_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
