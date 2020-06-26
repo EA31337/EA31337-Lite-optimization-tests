@@ -11,17 +11,17 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         8  62.50           11          2.70            5.68      37.80       0.04 Envelopes1_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
-         5  24.90           23          1.16            1.08     113.60       0.11 Envelopes1_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
-         9   9.10           15          1.08            0.61     101.30       0.10 Envelopes1_SignalMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
-         1   7.40           16          1.06            0.46      74.40       0.07 Envelopes1_SignalMethod=-76; MaxOrders=0; MaxOrdersPerType=0;
-         4   7.90           14          1.08            0.56      71.00       0.07 Envelopes1_SignalMethod=-55; MaxOrders=0; MaxOrdersPerType=0;
-         3   5.20           16          1.04            0.33     104.80       0.10 Envelopes1_SignalMethod=-62; MaxOrders=0; MaxOrdersPerType=0;
-         6   0.00            0          0.00            0.00       0.00       0.00 Envelopes1_SignalMethod=-41; MaxOrders=0; MaxOrdersPerType=0;
-         7   0.00            0          0.00            0.00       0.00       0.00 Envelopes1_SignalMethod=-34; MaxOrders=0; MaxOrdersPerType=0;
-        10   0.00            0          0.00            0.00       0.00       0.00 Envelopes1_SignalMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
-        11   0.00            0          0.00            0.00       0.00       0.00  Envelopes1_SignalMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
-        13 -13.30           30          0.94           -0.44     108.20       0.11   Envelopes1_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=0;
-        12 -15.90           36          0.93           -0.44      82.30       0.08   Envelopes1_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-         2 -38.20           14          0.70           -2.73      72.70       0.07 Envelopes1_SignalMethod=-69; MaxOrders=0; MaxOrdersPerType=0;
+     Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        6    0.00            0          0.00            0.00       0.00       0.00 Envelopes1_SignalMethod=-41; MaxOrders=0; MaxOrdersPerType=0;
+        7    0.00            0          0.00            0.00       0.00       0.00 Envelopes1_SignalMethod=-34; MaxOrders=0; MaxOrdersPerType=0;
+        8    0.00            0          0.00            0.00       0.00       0.00 Envelopes1_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
+        9    0.00            0          0.00            0.00       0.00       0.00 Envelopes1_SignalMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
+       10    0.00            0          0.00            0.00       0.00       0.00 Envelopes1_SignalMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
+       11    0.00            0          0.00            0.00       0.00       0.00  Envelopes1_SignalMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+        3  -19.90           46          0.93           -0.43      92.50       0.09 Envelopes1_SignalMethod=-62; MaxOrders=0; MaxOrdersPerType=0;
+        4  -43.40           40          0.84           -1.08     115.50       0.12 Envelopes1_SignalMethod=-55; MaxOrders=0; MaxOrdersPerType=0;
+        1  -51.60           40          0.79           -1.29      97.90       0.10 Envelopes1_SignalMethod=-76; MaxOrders=0; MaxOrdersPerType=0;
+       13  -61.70           73          0.85           -0.85     141.60       0.14   Envelopes1_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+        5  -71.70           74          0.84           -0.97     149.00       0.15 Envelopes1_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+        2  -73.80           36          0.66           -2.05      99.70       0.10 Envelopes1_SignalMethod=-69; MaxOrders=0; MaxOrdersPerType=0;
+       12 -177.30           91          0.69           -1.95     235.20       0.24   Envelopes1_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
