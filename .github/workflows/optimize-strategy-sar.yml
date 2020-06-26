@@ -27,6 +27,7 @@ jobs:
       - run: docker-compose run $DCA SAR_Shift
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
@@ -58,6 +59,7 @@ jobs:
       - run: docker-compose run $DCA SAR_TrailingProfitMethod
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
@@ -91,6 +93,7 @@ jobs:
       - run: docker-compose run $DCA SAR30_SignalMethod
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
@@ -121,6 +124,7 @@ jobs:
       - run: docker-compose run $DCA SAR_Active_Tf
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
