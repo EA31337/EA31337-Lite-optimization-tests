@@ -11,10 +11,15 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       1 -3482.24         3539          0.54           -0.98    3500.64       3.50  Envelopes30_SignalMethod=92; MaxOrders=0; MaxOrdersPerType=0;
-       2 -3482.24         3539          0.54           -0.98    3500.64       3.50  Envelopes30_SignalMethod=99; MaxOrders=0; MaxOrdersPerType=0;
-       3 -3482.24         3539          0.54           -0.98    3500.64       3.50 Envelopes30_SignalMethod=106; MaxOrders=0; MaxOrdersPerType=0;
-       4 -3482.24         3539          0.54           -0.98    3500.64       3.50 Envelopes30_SignalMethod=113; MaxOrders=0; MaxOrdersPerType=0;
-       5 -3482.24         3539          0.54           -0.98    3500.64       3.50 Envelopes30_SignalMethod=120; MaxOrders=0; MaxOrdersPerType=0;
-       6 -3482.24         3539          0.54           -0.98    3500.64       3.50 Envelopes30_SignalMethod=127; MaxOrders=0; MaxOrdersPerType=0;
+     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        1 395.83          268          1.20            1.48     401.69       0.40  Envelopes30_SignalMethod=57; MaxOrders=0; MaxOrdersPerType=0;
+        2 395.83          268          1.20            1.48     401.69       0.40  Envelopes30_SignalMethod=64; MaxOrders=0; MaxOrdersPerType=0;
+        3 395.83          268          1.20            1.48     401.69       0.40  Envelopes30_SignalMethod=71; MaxOrders=0; MaxOrdersPerType=0;
+        4 395.83          268          1.20            1.48     401.69       0.40  Envelopes30_SignalMethod=78; MaxOrders=0; MaxOrdersPerType=0;
+        5 395.83          268          1.20            1.48     401.69       0.40  Envelopes30_SignalMethod=85; MaxOrders=0; MaxOrdersPerType=0;
+        6 395.83          268          1.20            1.48     401.69       0.40  Envelopes30_SignalMethod=92; MaxOrders=0; MaxOrdersPerType=0;
+        7 395.83          268          1.20            1.48     401.69       0.40  Envelopes30_SignalMethod=99; MaxOrders=0; MaxOrdersPerType=0;
+        8 395.83          268          1.20            1.48     401.69       0.40 Envelopes30_SignalMethod=106; MaxOrders=0; MaxOrdersPerType=0;
+        9 395.83          268          1.20            1.48     401.69       0.40 Envelopes30_SignalMethod=113; MaxOrders=0; MaxOrdersPerType=0;
+       10 395.83          268          1.20            1.48     401.69       0.40 Envelopes30_SignalMethod=120; MaxOrders=0; MaxOrdersPerType=0;
+       11 395.83          268          1.20            1.48     401.69       0.40 Envelopes30_SignalMethod=127; MaxOrders=0; MaxOrdersPerType=0;
