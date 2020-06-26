@@ -11,17 +11,12 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1 -639.90          301          0.84           -2.13     821.68       0.82 MA30_SignalMethod=-126; MaxOrders=0; MaxOrdersPerType=0;
-           2 -639.90          301          0.84           -2.13     821.68       0.82 MA30_SignalMethod=-119; MaxOrders=0; MaxOrdersPerType=0;
-           3 -639.90          301          0.84           -2.13     821.68       0.82 MA30_SignalMethod=-112; MaxOrders=0; MaxOrdersPerType=0;
-           4 -639.90          301          0.84           -2.13     821.68       0.82 MA30_SignalMethod=-105; MaxOrders=0; MaxOrdersPerType=0;
-           5 -639.90          301          0.84           -2.13     821.68       0.82  MA30_SignalMethod=-98; MaxOrders=0; MaxOrdersPerType=0;
-           6 -639.90          301          0.84           -2.13     821.68       0.82  MA30_SignalMethod=-91; MaxOrders=0; MaxOrdersPerType=0;
-           7 -639.90          301          0.84           -2.13     821.68       0.82  MA30_SignalMethod=-84; MaxOrders=0; MaxOrdersPerType=0;
-           8 -639.90          301          0.84           -2.13     821.68       0.82  MA30_SignalMethod=-77; MaxOrders=0; MaxOrdersPerType=0;
-           9 -639.90          301          0.84           -2.13     821.68       0.82  MA30_SignalMethod=-70; MaxOrders=0; MaxOrdersPerType=0;
-          10 -639.90          301          0.84           -2.13     821.68       0.82  MA30_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
-          11 -639.90          301          0.84           -2.13     821.68       0.82  MA30_SignalMethod=-56; MaxOrders=0; MaxOrdersPerType=0;
-          12 -639.90          301          0.84           -2.13     821.68       0.82  MA30_SignalMethod=-49; MaxOrders=0; MaxOrdersPerType=0;
-          13 -639.90          301          0.84           -2.13     821.68       0.82  MA30_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          8  -371.43           78          0.70           -4.76     374.53       0.37  MA30_SignalMethod=-78; MaxOrders=0; MaxOrdersPerType=0;
+          3  -372.07           86          0.72           -4.33     375.17       0.38 MA30_SignalMethod=-113; MaxOrders=0; MaxOrdersPerType=0;
+          6  -409.01           75          0.67           -5.45     412.11       0.41  MA30_SignalMethod=-92; MaxOrders=0; MaxOrdersPerType=0;
+          5  -422.32           76          0.66           -5.56     425.42       0.43  MA30_SignalMethod=-99; MaxOrders=0; MaxOrdersPerType=0;
+          7  -454.71           78          0.65           -5.83     457.81       0.46  MA30_SignalMethod=-85; MaxOrders=0; MaxOrdersPerType=0;
+          2  -504.55          106          0.70           -4.76     507.65       0.51 MA30_SignalMethod=-120; MaxOrders=0; MaxOrdersPerType=0;
+          4  -531.55           97          0.66           -5.48     552.45       0.55 MA30_SignalMethod=-106; MaxOrders=0; MaxOrdersPerType=0;
+          1 -1043.28          166          0.60           -6.28    1064.18       1.06 MA30_SignalMethod=-127; MaxOrders=0; MaxOrdersPerType=0;
