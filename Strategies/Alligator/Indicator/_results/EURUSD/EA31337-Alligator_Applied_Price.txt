@@ -2,20 +2,20 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         5 2508.76         2732          1.08            0.92    2429.33      23.28 Alligator_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-         3 2439.36         2774          1.08            0.88    2603.66      25.29 Alligator_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-         6 1819.61         2721          1.06            0.67    2917.67      28.20 Alligator_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-         2 1294.43         2777          1.04            0.47    3881.69      36.79 Alligator_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-         7 1044.51         2768          1.04            0.38    2273.28      21.68 Alligator_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-         1  970.08         2742          1.03            0.35    4385.37      40.97 Alligator_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-         4 -461.46         2791          0.98           -0.17    2909.92      27.10 Alligator_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+         3 -143.66          476          0.92           -0.30     558.04       0.56 Alligator_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+         4 -301.46          488          0.85           -0.62     767.28       0.77 Alligator_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+         6 -369.35          470          0.80           -0.79     675.96       0.68 Alligator_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+         5 -377.17          468          0.80           -0.81     760.27       0.76 Alligator_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+         7 -405.99          472          0.79           -0.86     674.26       0.67 Alligator_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+         1 -413.69          475          0.78           -0.87     781.89       0.78 Alligator_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+         2 -462.16          490          0.76           -0.94     760.69       0.76 Alligator_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
