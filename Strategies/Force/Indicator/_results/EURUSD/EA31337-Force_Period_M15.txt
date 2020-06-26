@@ -11,10 +11,10 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            1 -152.48          289          0.90           -0.53     365.26       0.36  Force_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
-            2 -152.48          289          0.90           -0.53     365.26       0.36  Force_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
-            3 -152.48          289          0.90           -0.53     365.26       0.36  Force_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
-            4 -152.48          289          0.90           -0.53     365.26       0.36  Force_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
-            5 -152.48          289          0.90           -0.53     365.26       0.36 Force_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
-            6 -152.48          289          0.90           -0.53     365.26       0.36 Force_Period_M15=12; MaxOrders=0; MaxOrdersPerType=0;
+          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1 -76.28          270          0.94           -0.28     247.44       0.25  Force_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
+             2 -76.28          270          0.94           -0.28     247.44       0.25  Force_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
+             3 -76.28          270          0.94           -0.28     247.44       0.25  Force_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
+             4 -76.28          270          0.94           -0.28     247.44       0.25  Force_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
+             5 -76.28          270          0.94           -0.28     247.44       0.25 Force_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
+             6 -76.28          270          0.94           -0.28     247.44       0.25 Force_Period_M15=12; MaxOrders=0; MaxOrdersPerType=0;
