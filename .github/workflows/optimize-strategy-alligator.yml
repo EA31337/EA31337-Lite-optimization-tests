@@ -25,6 +25,7 @@ jobs:
       - run: docker-compose run $DCA Alligator_Periods
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
@@ -57,6 +58,7 @@ jobs:
       - run: docker-compose run $DCA Alligator_SignalLevel
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
@@ -88,6 +90,7 @@ jobs:
       - run: docker-compose run $DCA Alligator_TrailingProfitMethod
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
@@ -121,6 +124,7 @@ jobs:
       - run: docker-compose run $DCA Alligator30_SignalMethod
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
@@ -147,6 +151,7 @@ jobs:
       - run: docker-compose run $DCA Alligator_Active_Tf
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours

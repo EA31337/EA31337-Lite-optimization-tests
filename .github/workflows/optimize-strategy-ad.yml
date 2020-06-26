@@ -26,6 +26,7 @@ jobs:
       - run: docker-compose run $DCA AD_TrailingProfitMethod
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
@@ -59,6 +60,7 @@ jobs:
       - run: docker-compose run $DCA AD30_SignalMethod
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
@@ -89,6 +91,7 @@ jobs:
       - run: docker-compose run $DCA AD_Active_Tf
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
