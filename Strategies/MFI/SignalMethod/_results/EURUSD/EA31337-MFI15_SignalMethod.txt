@@ -12,6 +12,7 @@
                             Spread          10
                                                                  [Optimization Graph]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
            1  -115.05          365          0.91           -0.32     373.67       0.37 MFI15_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
            3  -133.91          324          0.88           -0.41     347.11       0.35  MFI15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
@@ -21,4 +22,10 @@
            2  217.83          929          1.04            0.23     653.79       0.65  MFI15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
            1 -204.97          242          0.88           -0.85     442.70       0.44 MFI15_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
            3 -214.13          221          0.87           -0.97     442.20       0.44  MFI15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
+=======
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           2  121.87          964          1.02            0.13     669.15       0.67  MFI15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+           1 -300.28          251          0.82           -1.20     531.72       0.53 MFI15_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+           3 -314.95          231          0.81           -1.36     536.72       0.54  MFI15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
 >>>>>>> Stashed changes

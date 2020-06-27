@@ -13,6 +13,7 @@
                                                                  [Optimization Graph]
         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
            3  -781.72          955          0.47           -0.82     800.32       0.80  MFI5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
            1 -1074.55         1308          0.47           -0.82    1093.15       1.09 MFI5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
            2 -9879.73        10817          0.38           -0.91    9897.93       9.90  MFI5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
@@ -20,4 +21,9 @@
            3  -174.73          325          0.84           -0.54     398.58       0.40  MFI5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
            1  -656.02          679          0.68           -0.97     820.57       0.82 MFI5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
            2 -1677.30         2508          0.78           -0.67    2014.04       2.01  MFI5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
+=======
+           3  -480.95          323          0.60           -1.49     583.04       0.58  MFI5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+           1  -920.81          674          0.56           -1.37     998.23       1.00 MFI5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+           2 -1752.66         2682          0.76           -0.65    1949.36       1.95  MFI5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
 >>>>>>> Stashed changes
