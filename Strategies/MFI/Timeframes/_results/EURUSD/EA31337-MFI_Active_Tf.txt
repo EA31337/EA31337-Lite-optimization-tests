@@ -12,6 +12,7 @@
                             Spread          10
                                                                  [Optimization Graph]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
              7   993.74         1122          1.52            0.89    2649.05       2.65  MFI_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
              6   739.67          281          1.95            2.63    1268.79       1.27  MFI_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
@@ -47,4 +48,23 @@
              15 -411.15          706          0.92           -0.58     958.22       0.95 MFI_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
              12 -434.84          521          0.84           -0.83     906.74       0.90 MFI_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
              13 -535.65          375          0.87           -1.43     938.41       0.94 MFI_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
+=======
+           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              6  144.64          302          1.13            0.48     180.44       0.18  MFI_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+              2   45.59           12          1.89            3.80      58.30       0.06  MFI_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+              1    0.00            0          0.00            0.00       0.00       0.00  MFI_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
+              5  -61.28          236          0.96           -0.26     517.27       0.52  MFI_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+             14  -98.04          554          0.96           -0.18     461.60       0.46 MFI_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+              7  -99.89          558          0.96           -0.18     379.19       0.38  MFI_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+              9 -116.49          197          0.92           -0.59     411.09       0.41  MFI_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+             13 -320.67          440          0.89           -0.73     656.46       0.66 MFI_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+              3 -325.91          314          0.71           -1.04     508.85       0.51  MFI_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
+              8 -327.54          620          0.86           -0.53     517.72       0.52  MFI_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
+             10 -370.64          268          0.62           -1.38     442.02       0.44  MFI_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+              4 -493.97          335          0.63           -1.47     557.96       0.56  MFI_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+             15 -526.41          793          0.87           -0.66     992.74       0.99 MFI_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+             11 -704.50          557          0.70           -1.26     898.42       0.90 MFI_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+             16 -766.95          873          0.78           -0.88     878.41       0.88 MFI_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+             12 -864.27          589          0.62           -1.47     941.01       0.94 MFI_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
 >>>>>>> Stashed changes
