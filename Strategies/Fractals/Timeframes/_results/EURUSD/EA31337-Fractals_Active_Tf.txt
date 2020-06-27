@@ -11,20 +11,20 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           9   238.64          247          1.08            0.97     446.22       0.45  Fractals_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
-          13   160.18          452          1.04            0.35     386.43       0.39 Fractals_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
-           3   130.65           79          1.53            1.65      82.20       0.08  Fractals_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
-           1     0.00            0          0.00            0.00       0.00       0.00  Fractals_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
-           7   -38.03          196          0.95           -0.19     169.17       0.17  Fractals_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
-           5   -74.13          113          0.86           -0.66     153.82       0.15  Fractals_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
-           2  -134.85           95          0.52           -1.42     159.38       0.16  Fractals_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
-           4  -206.65          178          0.61           -1.16     239.45       0.24  Fractals_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
-           6  -225.76          237          0.62           -0.95     234.86       0.23  Fractals_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
-           8  -297.57          320          0.65           -0.93     322.97       0.32  Fractals_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
-          11  -637.43          765          0.84           -0.83     751.43       0.75 Fractals_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
-          15  -812.31          882          0.82           -0.92     926.31       0.93 Fractals_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
-          10 -1287.35         1651          0.76           -0.78    1353.95       1.35  Fractals_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
-          14 -1377.46         1793          0.76           -0.77    1444.06       1.44 Fractals_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
-          12 -1378.62         1733          0.75           -0.80    1451.52       1.45 Fractals_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
-          16 -1468.73         1875          0.75           -0.78    1540.93       1.54 Fractals_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           12 882.06          181          1.27            4.87     289.64       0.29 Fractals_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+           16 882.06          181          1.27            4.87     289.64       0.29 Fractals_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+            4 690.57           26          5.44           26.56     247.21       0.25  Fractals_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+            8 690.57           26          5.44           26.56     247.21       0.25  Fractals_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
+           10 665.72          164          1.22            4.06     444.73       0.44  Fractals_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+           14 665.72          164          1.22            4.06     444.73       0.44 Fractals_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+            9 653.64          154          1.22            4.24     442.74       0.44  Fractals_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+           11 547.34          171          1.17            3.20     328.32       0.33 Fractals_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+           15 547.34          171          1.17            3.20     328.32       0.33 Fractals_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+           13 508.93          154          1.17            3.30     524.34       0.52 Fractals_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+            3 387.15           17          4.73           22.77     266.88       0.27  Fractals_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
+            7 387.15           17          4.73           22.77     266.88       0.27  Fractals_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+            2 320.61            9          7.19           35.62     286.55       0.29  Fractals_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+            6 320.61            9          7.19           35.62     286.55       0.29  Fractals_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+            1   0.00            0          0.00            0.00       0.00       0.00  Fractals_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
+            5   0.00            0          0.00            0.00       0.00       0.00  Fractals_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;

@@ -12,16 +12,16 @@
                             Spread          10
                                                                  [Optimization Graph]
          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            3 286.34          156          1.37            1.84     164.27       0.16   MA5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-           10  87.10           21          2.63            4.15      37.50       0.04  MA5_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
-           13  83.70           23          2.42            3.64      41.10       0.04  MA5_SignalMethod=70; MaxOrders=0; MaxOrdersPerType=0;
-            8  82.59           26          2.09            3.18      51.30       0.05  MA5_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=0;
-            9  79.40           21          2.48            3.78      37.50       0.04  MA5_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=0;
-            1  75.30           20          2.41            3.77      37.50       0.04 MA5_SignalMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
-            2  75.30           20          2.41            3.77      37.50       0.04  MA5_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
-            7  75.30           20          2.41            3.77      37.50       0.04  MA5_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
-           11  75.30           20          2.41            3.77      37.50       0.04  MA5_SignalMethod=56; MaxOrders=0; MaxOrdersPerType=0;
-           12  75.30           20          2.41            3.77      37.50       0.04  MA5_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=0;
-            5  74.10           22          2.26            3.37      41.10       0.04  MA5_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-            6  37.39           27          1.39            1.38      58.80       0.06  MA5_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-            4  34.69           31          1.31            1.12      64.10       0.06   MA5_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+            8  83.10           15          4.79            5.54      33.00       0.03  MA5_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=0;
+           13  68.98           16          3.35            4.31      22.60       0.02  MA5_SignalMethod=70; MaxOrders=0; MaxOrdersPerType=0;
+           10  64.50            9          5.16            7.17      25.00       0.02  MA5_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
+            4  51.48           24          1.67            2.15      69.80       0.07   MA5_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+            5  45.48           18          1.86            2.53      44.90       0.04  MA5_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+            9  34.60            8          3.23            4.33      22.60       0.02  MA5_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=0;
+            1  26.00            7          2.68            3.71      22.60       0.02 MA5_SignalMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
+            2  26.00            7          2.68            3.71      22.60       0.02  MA5_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
+           11  26.00            7          2.68            3.71      22.60       0.02  MA5_SignalMethod=56; MaxOrders=0; MaxOrdersPerType=0;
+           12  26.00            7          2.68            3.71      22.60       0.02  MA5_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=0;
+            6  20.30           15          1.38            1.35      57.50       0.06  MA5_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+            7   4.20           10          1.11            0.42      46.10       0.05  MA5_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
+            3 -71.00          123          0.89           -0.58     160.17       0.16   MA5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;

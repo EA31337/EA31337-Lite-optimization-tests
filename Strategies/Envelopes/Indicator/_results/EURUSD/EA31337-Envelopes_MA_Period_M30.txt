@@ -11,9 +11,9 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        1 -1094.14         1364          0.54           -0.80    1109.54       1.11  Envelopes_MA_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
-        2 -1094.14         1364          0.54           -0.80    1109.54       1.11  Envelopes_MA_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
-        3 -1094.14         1364          0.54           -0.80    1109.54       1.11  Envelopes_MA_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
-        4 -1094.14         1364          0.54           -0.80    1109.54       1.11  Envelopes_MA_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
-        5 -1094.14         1364          0.54           -0.80    1109.54       1.11 Envelopes_MA_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
+      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         3 -85.83          143          0.65           -0.60     175.93       0.18  Envelopes_MA_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
+         4 -85.83          143          0.65           -0.60     175.93       0.18  Envelopes_MA_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
+         1 -87.63          144          0.65           -0.61     177.73       0.18  Envelopes_MA_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
+         2 -87.63          144          0.65           -0.61     177.73       0.18  Envelopes_MA_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
+         5 -89.43          145          0.64           -0.62     177.73       0.18 Envelopes_MA_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
