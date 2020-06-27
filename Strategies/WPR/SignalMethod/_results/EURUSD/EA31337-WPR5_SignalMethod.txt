@@ -11,17 +11,17 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           5  -20.60           25          0.58           -0.82      38.30       0.04 WPR5_SignalMethod=-32; MaxOrders=0; MaxOrdersPerType=0;
-           6  -20.60           25          0.58           -0.82      38.30       0.04 WPR5_SignalMethod=-29; MaxOrders=0; MaxOrdersPerType=0;
-           7  -20.60           25          0.58           -0.82      38.30       0.04 WPR5_SignalMethod=-26; MaxOrders=0; MaxOrdersPerType=0;
-           8  -20.60           25          0.58           -0.82      38.30       0.04 WPR5_SignalMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
-           9  -20.60           25          0.58           -0.82      38.30       0.04 WPR5_SignalMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
-          10  -20.60           25          0.58           -0.82      38.30       0.04 WPR5_SignalMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
-          11  -20.60           25          0.58           -0.82      38.30       0.04 WPR5_SignalMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
-          12  -20.60           25          0.58           -0.82      38.30       0.04 WPR5_SignalMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
-          13  -20.60           25          0.58           -0.82      38.30       0.04  WPR5_SignalMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
-           2  -55.40           46          0.42           -1.20      65.50       0.07 WPR5_SignalMethod=-41; MaxOrders=0; MaxOrdersPerType=0;
-           3  -55.40           46          0.42           -1.20      65.50       0.07 WPR5_SignalMethod=-38; MaxOrders=0; MaxOrdersPerType=0;
-           4 -108.20           93          0.45           -1.16     113.20       0.11 WPR5_SignalMethod=-35; MaxOrders=0; MaxOrdersPerType=0;
-           1 -135.22          121          0.47           -1.12     140.22       0.14 WPR5_SignalMethod=-44; MaxOrders=0; MaxOrdersPerType=0;
+         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            2 135.87           63          1.61            2.16      84.60       0.08 WPR5_SignalMethod=-44; MaxOrders=0; MaxOrdersPerType=0;
+            1  29.08           41          1.14            0.71      80.51       0.08 WPR5_SignalMethod=-47; MaxOrders=0; MaxOrdersPerType=0;
+            5  29.08           41          1.14            0.71      80.51       0.08 WPR5_SignalMethod=-35; MaxOrders=0; MaxOrdersPerType=0;
+            6  26.00            7          2.68            3.71      22.60       0.02 WPR5_SignalMethod=-32; MaxOrders=0; MaxOrdersPerType=0;
+            7  26.00            7          2.68            3.71      22.60       0.02 WPR5_SignalMethod=-29; MaxOrders=0; MaxOrdersPerType=0;
+            8  26.00            7          2.68            3.71      22.60       0.02 WPR5_SignalMethod=-26; MaxOrders=0; MaxOrdersPerType=0;
+            9  26.00            7          2.68            3.71      22.60       0.02 WPR5_SignalMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
+           10  26.00            7          2.68            3.71      22.60       0.02 WPR5_SignalMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
+           11  26.00            7          2.68            3.71      22.60       0.02 WPR5_SignalMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
+           12  26.00            7          2.68            3.71      22.60       0.02 WPR5_SignalMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
+           13  26.00            7          2.68            3.71      22.60       0.02 WPR5_SignalMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
+            3 -14.60           13          0.82           -1.12      60.00       0.06 WPR5_SignalMethod=-41; MaxOrders=0; MaxOrdersPerType=0;
+            4 -14.60           13          0.82           -1.12      60.00       0.06 WPR5_SignalMethod=-38; MaxOrders=0; MaxOrdersPerType=0;

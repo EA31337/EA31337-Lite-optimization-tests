@@ -11,15 +11,15 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            2   55.70           24          2.84            2.32      32.80       0.03  SAR5_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-            3   55.70           24          2.84            2.32      32.80       0.03 SAR5_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-            4   55.70           24          2.84            2.32      32.80       0.03 SAR5_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-            5   55.70           24          2.84            2.32      32.80       0.03 SAR5_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
-            6   55.70           24          2.84            2.32      32.80       0.03 SAR5_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=0;
-            7   55.70           24          2.84            2.32      32.80       0.03 SAR5_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=0;
-            8   55.70           24          2.84            2.32      32.80       0.03 SAR5_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
-            9   55.70           24          2.84            2.32      32.80       0.03 SAR5_SignalMethod=56; MaxOrders=0; MaxOrdersPerType=0;
-           10   55.70           24          2.84            2.32      32.80       0.03 SAR5_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=0;
-           11   55.70           24          2.84            2.32      32.80       0.03 SAR5_SignalMethod=70; MaxOrders=0; MaxOrdersPerType=0;
-            1 -141.02          253          0.88           -0.56     257.90       0.26  SAR5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            9  77.30            8          5.99            9.66      24.40       0.02  SAR5_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
+            8  68.70           10          3.85            6.87      26.50       0.03  SAR5_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+           10  55.68           24          1.63            2.32     102.61       0.10  SAR5_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=0;
+           11  55.68           24          1.63            2.32     102.61       0.10  SAR5_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=0;
+            1  51.70            7          4.34            7.39      24.40       0.02 SAR5_SignalMethod=-28; MaxOrders=0; MaxOrdersPerType=0;
+            2  51.70            7          4.34            7.39      24.40       0.02 SAR5_SignalMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+            3  51.70            7          4.34            7.39      24.40       0.02 SAR5_SignalMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
+            4  51.70            7          4.34            7.39      24.40       0.02  SAR5_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
+            6  43.70           10          2.86            4.37      33.00       0.03   SAR5_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+            7  43.70           10          2.86            4.37      33.00       0.03  SAR5_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+            5 -55.41           56          0.84           -0.99     129.31       0.13   SAR5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;

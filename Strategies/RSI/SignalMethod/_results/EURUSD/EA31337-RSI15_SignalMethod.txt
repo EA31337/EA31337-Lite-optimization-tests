@@ -11,17 +11,17 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          10  -45.91          168          0.93           -0.27     174.34       0.17 RSI15_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
-          11  -45.91          168          0.93           -0.27     174.34       0.17 RSI15_SignalMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
-          12  -45.91          168          0.93           -0.27     174.34       0.17 RSI15_SignalMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
-          13  -45.91          168          0.93           -0.27     174.34       0.17 RSI15_SignalMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
-           9  -48.11          174          0.93           -0.28     185.24       0.19 RSI15_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
-           5 -176.82          440          0.87           -0.40     265.12       0.27 RSI15_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
-           6 -246.61          301          0.76           -0.82     295.28       0.30 RSI15_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
-           8 -246.61          301          0.76           -0.82     295.28       0.30 RSI15_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
-           2 -260.45          345          0.77           -0.75     306.68       0.31 RSI15_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
-           7 -269.98          330          0.76           -0.82     312.11       0.31 RSI15_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
-           4 -285.98          474          0.81           -0.60     394.88       0.39 RSI15_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
-           1 -293.95          359          0.75           -0.82     334.28       0.33 RSI15_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
-           3 -318.25          504          0.80           -0.63     397.85       0.40 RSI15_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1 231.58          120          1.22            1.93     230.99       0.23 RSI15_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+           2 144.19          113          1.14            1.28     230.99       0.23 RSI15_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
+           4 144.19          113          1.14            1.28     230.99       0.23 RSI15_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
+           3 134.98          115          1.13            1.17     230.99       0.23 RSI15_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
+           5 117.75          110          1.12            1.07     230.99       0.23 RSI15_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
+           6 117.75          110          1.12            1.07     230.99       0.23 RSI15_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
+           7 117.75          110          1.12            1.07     230.99       0.23 RSI15_SignalMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
+           8 117.75          110          1.12            1.07     230.99       0.23 RSI15_SignalMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+           9 117.75          110          1.12            1.07     230.99       0.23 RSI15_SignalMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
+          10 117.75          110          1.12            1.07     230.99       0.23 RSI15_SignalMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+          11 117.75          110          1.12            1.07     230.99       0.23 RSI15_SignalMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
+          12 117.75          110          1.12            1.07     230.99       0.23  RSI15_SignalMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
+          13 117.75          110          1.12            1.07     230.99       0.23  RSI15_SignalMethod=-6; MaxOrders=0; MaxOrdersPerType=0;

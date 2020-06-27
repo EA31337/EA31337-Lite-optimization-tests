@@ -33,7 +33,7 @@ CCI_TrailingProfitMethod=0
 CCI_Period_M1=2
 CCI_Period_M5=38
 CCI_Period_M15=10
-CCI_Period_M30=18
+CCI_Period_M30=10
 CCI_Shift=0
 CCI_SignalLevel=111
 # Optimization params.

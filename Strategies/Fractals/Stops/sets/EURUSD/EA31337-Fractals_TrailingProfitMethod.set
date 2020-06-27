@@ -28,9 +28,9 @@ Fractals5_SignalMethod=0
 Fractals15_SignalMethod=0
 Fractals30_SignalMethod=0
 # Dynamic strategy params.
-Fractals_TrailingStopMethod=1
+Fractals_TrailingStopMethod=23
 # Optimization params.
-Fractals_TrailingProfitMethod=19
+Fractals_TrailingProfitMethod=-18
 Fractals_TrailingProfitMethod,F=0
 Fractals_TrailingProfitMethod,1=0
 Fractals_TrailingProfitMethod,2=0

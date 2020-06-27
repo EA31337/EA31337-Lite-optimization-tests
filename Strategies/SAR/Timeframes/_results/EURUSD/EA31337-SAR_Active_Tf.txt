@@ -11,20 +11,20 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            13   391.30          613          1.08            0.64     371.13       0.37 SAR_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
-             9   294.52          247          1.10            1.19     417.18       0.42  SAR_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
-             5   195.64          273          1.11            0.72     253.00       0.25  SAR_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
-             4    88.13           39          2.61            2.26      56.97       0.06  SAR_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
-             3    40.20           36          1.60            1.12      62.30       0.06  SAR_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
-             1     0.00            0          0.00            0.00       0.00       0.00  SAR_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
-             2     0.00            0          0.00            0.00       0.00       0.00  SAR_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
-             8  -195.96          276          0.91           -0.71     554.99       0.55  SAR_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
-             7  -232.87          315          0.87           -0.74     422.65       0.42  SAR_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
-             6  -284.09          237          0.86           -1.20     535.72       0.54  SAR_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
-            11  -566.63          756          0.86           -0.75     629.43       0.63 SAR_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
-            15  -862.29         1034          0.85           -0.83     897.58       0.90 SAR_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
-            12 -1318.22         1540          0.74           -0.86    1409.42       1.41 SAR_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
-            16 -1398.35         1523          0.80           -0.92    1468.65       1.47 SAR_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
-            10 -1406.35         1501          0.71           -0.94    1494.55       1.49  SAR_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
-            14 -1486.48         1484          0.78           -1.00    1553.78       1.55 SAR_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              8 842.22          276          1.42            3.05     258.44       0.26  SAR_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
+              6 750.73          262          1.38            2.87     258.64       0.26  SAR_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+             15 569.95          343          1.12            1.66     943.89       0.94 SAR_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+             16 563.22          396          1.16            1.42     445.22       0.44 SAR_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+              5 535.53          190          1.19            2.82     762.95       0.76  SAR_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+              7 524.76          234          1.17            2.24     752.79       0.75  SAR_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+             13 497.12          289          1.10            1.72     909.03       0.91 SAR_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+             14 473.53          382          1.14            1.24     469.42       0.47 SAR_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+             11 272.38          123          1.15            2.21     413.49       0.41 SAR_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+              4 164.34           26          2.98            6.32      58.90       0.06  SAR_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+              9 151.97          100          1.08            1.52     509.71       0.51  SAR_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+              2  86.99           12          2.68            7.25      58.90       0.06  SAR_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+             12  72.63          144          1.05            0.50     439.85       0.44 SAR_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+              3   1.62           14          1.01            0.12     157.17       0.16  SAR_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
+              1   0.00            0          0.00            0.00       0.00       0.00  SAR_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
+             10  -2.92          130          1.00           -0.02     440.88       0.44  SAR_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
