@@ -27,6 +27,7 @@ jobs:
       - run: docker-compose run $DCA SmartQueueActive
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours

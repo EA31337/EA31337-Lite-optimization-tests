@@ -27,6 +27,7 @@ jobs:
       - run: docker-compose run Action_On_Condition_1
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
@@ -59,6 +60,7 @@ jobs:
       - run: docker-compose run Action_On_Condition_2
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
@@ -91,6 +93,7 @@ jobs:
       - run: docker-compose run Action_On_Condition_3
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
@@ -123,6 +126,7 @@ jobs:
       - run: docker-compose run Action_On_Condition_4
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
@@ -153,6 +157,7 @@ jobs:
       - run: docker-compose run Account_Conditions_Active
       - name: Commit files
         run: |
+          git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
