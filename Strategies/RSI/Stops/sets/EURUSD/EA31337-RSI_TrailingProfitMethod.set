@@ -28,9 +28,9 @@ RSI5_SignalMethod=0
 RSI15_SignalMethod=0
 RSI30_SignalMethod=0
 # Dynamic strategy params.
-RSI_TrailingStopMethod=1
+RSI_TrailingStopMethod=8
 # Optimization params.
-RSI_TrailingProfitMethod=25
+RSI_TrailingProfitMethod=-11
 RSI_TrailingProfitMethod,F=0
 RSI_TrailingProfitMethod,1=0
 RSI_TrailingProfitMethod,2=0
