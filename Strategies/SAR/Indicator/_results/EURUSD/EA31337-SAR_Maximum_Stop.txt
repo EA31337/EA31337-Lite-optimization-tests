@@ -12,9 +12,10 @@
                             Spread          10
                                                                  [Optimization Graph]
         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           2 -3444.34         3496          0.71           -0.99    3620.26       3.62 SAR_Maximum_Stop=0.1; MaxOrders=0; MaxOrdersPerType=0;
-           1 -3672.59         3737          0.73           -0.98    4151.63       4.14   SAR_Maximum_Stop=0; MaxOrders=0; MaxOrdersPerType=0;
-           4 -3841.95         3515          0.69           -1.09    4015.98       4.01 SAR_Maximum_Stop=0.3; MaxOrders=0; MaxOrdersPerType=0;
-           5 -3841.95         3515          0.69           -1.09    4015.98       4.01 SAR_Maximum_Stop=0.4; MaxOrders=0; MaxOrdersPerType=0;
-           6 -3841.95         3515          0.69           -1.09    4015.98       4.01 SAR_Maximum_Stop=0.5; MaxOrders=0; MaxOrdersPerType=0;
-           3 -3843.42         3508          0.69           -1.10    4019.74       4.02 SAR_Maximum_Stop=0.2; MaxOrders=0; MaxOrdersPerType=0;
+           1  -857.23          948          0.85           -0.90    1540.66       1.54   SAR_Maximum_Stop=0; MaxOrders=0; MaxOrdersPerType=0;
+           2  -857.23          948          0.85           -0.90    1540.66       1.54 SAR_Maximum_Stop=0.1; MaxOrders=0; MaxOrdersPerType=0;
+           6 -1043.50         1075          0.85           -0.97    2150.15       2.14 SAR_Maximum_Stop=0.5; MaxOrders=0; MaxOrdersPerType=0;
+           7 -1043.50         1075          0.85           -0.97    2150.15       2.14 SAR_Maximum_Stop=0.6; MaxOrders=0; MaxOrdersPerType=0;
+           3 -1098.75         1015          0.83           -1.08    2120.24       2.11 SAR_Maximum_Stop=0.2; MaxOrders=0; MaxOrdersPerType=0;
+           5 -1117.66         1069          0.83           -1.05    2119.78       2.11 SAR_Maximum_Stop=0.4; MaxOrders=0; MaxOrdersPerType=0;
+           4 -1158.86         1056          0.83           -1.10    2188.68       2.18 SAR_Maximum_Stop=0.3; MaxOrders=0; MaxOrdersPerType=0;

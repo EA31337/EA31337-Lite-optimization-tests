@@ -12,11 +12,10 @@
                             Spread          10
                                                                  [Optimization Graph]
         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           2 171.66          170          1.22            1.01     152.23       0.15 SAR15_SignalMethod=-120; MaxOrders=0; MaxOrdersPerType=0;
-           5 120.66          167          1.16            0.72     149.43       0.15  SAR15_SignalMethod=-99; MaxOrders=0; MaxOrdersPerType=0;
-           3 119.37          166          1.15            0.72     149.43       0.15 SAR15_SignalMethod=-113; MaxOrders=0; MaxOrdersPerType=0;
-           4 119.37          166          1.15            0.72     149.43       0.15 SAR15_SignalMethod=-106; MaxOrders=0; MaxOrdersPerType=0;
-           6 119.37          166          1.15            0.72     149.43       0.15  SAR15_SignalMethod=-92; MaxOrders=0; MaxOrdersPerType=0;
-           7 119.37          166          1.15            0.72     149.43       0.15  SAR15_SignalMethod=-85; MaxOrders=0; MaxOrdersPerType=0;
-           8 119.37          166          1.15            0.72     149.43       0.15  SAR15_SignalMethod=-78; MaxOrders=0; MaxOrdersPerType=0;
-           1 118.86          168          1.15            0.71     149.43       0.15 SAR15_SignalMethod=-127; MaxOrders=0; MaxOrdersPerType=0;
+           2 181.14          137          1.16            1.32     233.66       0.23 SAR15_SignalMethod=-120; MaxOrders=0; MaxOrdersPerType=0;
+           1 101.07          116          1.10            0.87     253.82       0.25 SAR15_SignalMethod=-127; MaxOrders=0; MaxOrdersPerType=0;
+           5  83.19          111          1.08            0.75     257.81       0.26  SAR15_SignalMethod=-99; MaxOrders=0; MaxOrdersPerType=0;
+           3  60.29          109          1.06            0.55     280.71       0.28 SAR15_SignalMethod=-113; MaxOrders=0; MaxOrdersPerType=0;
+           4  60.29          109          1.06            0.55     280.71       0.28 SAR15_SignalMethod=-106; MaxOrders=0; MaxOrdersPerType=0;
+           6  60.29          109          1.06            0.55     280.71       0.28  SAR15_SignalMethod=-92; MaxOrders=0; MaxOrdersPerType=0;
+           7  60.29          109          1.06            0.55     280.71       0.28  SAR15_SignalMethod=-85; MaxOrders=0; MaxOrdersPerType=0;
