@@ -11,7 +11,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       SET_PARAMS: Alligator1_SignalMethod
-      RUN_ON_SET: set_opt_params Alligator1_SignalMethod -31 31
+      RUN_ON_SET: set_opt_params Alligator1_SignalMethod 0 31
       SETFILE: /opt/sets/EA31337-Alligator1_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Alligator1_SignalMethod
   Alligator5_SignalMethod:
@@ -24,7 +24,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       SET_PARAMS: Alligator5_SignalMethod
-      RUN_ON_SET: set_opt_params Alligator5_SignalMethod -31 31
+      RUN_ON_SET: set_opt_params Alligator5_SignalMethod 0 31
       SETFILE: /opt/sets/EA31337-Alligator5_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Alligator5_SignalMethod
   Alligator15_SignalMethod:
@@ -37,7 +37,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       SET_PARAMS: Alligator15_SignalMethod
-      RUN_ON_SET: set_opt_params Alligator15_SignalMethod -31 31
+      RUN_ON_SET: set_opt_params Alligator15_SignalMethod 0 31
       SETFILE: /opt/sets/EA31337-Alligator15_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Alligator15_SignalMethod
   Alligator30_SignalMethod:
@@ -50,6 +50,6 @@ services:
     environment:
       BT_MONTHS: 6-12
       SET_PARAMS: Alligator30_SignalMethod
-      RUN_ON_SET: set_opt_params Alligator30_SignalMethod -31 31
+      RUN_ON_SET: set_opt_params Alligator30_SignalMethod 0 31
       SETFILE: /opt/sets/EA31337-Alligator30_SignalMethod.set
       TEST_REPORT_NAME: EA31337-Alligator30_SignalMethod
