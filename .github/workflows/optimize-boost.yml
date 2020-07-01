@@ -14,7 +14,6 @@ jobs:
       run:
         shell: bash
         working-directory: Boost
-    if: false  # @fixme: GH-17
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -47,7 +46,6 @@ jobs:
       run:
         shell: bash
         working-directory: Boost
-    if: false  # @fixme: GH-17
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -89,7 +87,6 @@ jobs:
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
       - run: docker-compose run $DCA BoostTrendFactor
-        if: false  # @fixme: GH-15
       - run: docker-compose run $DCA ConFactorOrdersLimit
       - run: docker-compose run $DCA ConLossesIncreaseFactor
       - run: docker-compose run $DCA ConWinsIncreaseFactor
