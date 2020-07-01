@@ -41,7 +41,7 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git add --renormalize .
+          git add . && git add --renormalize .
           git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -72,7 +72,7 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git add --renormalize .
+          git add . && git add --renormalize .
           git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -105,7 +105,7 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git add --renormalize .
+          git add . && git add --renormalize .
           git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -135,7 +135,7 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git add --renormalize .
+          git add . && git add --renormalize .
           git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
