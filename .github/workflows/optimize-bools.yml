@@ -1,19 +1,29 @@
 ---
-name: Optimize All
+name: Optimize Bools
 
 # yamllint disable rule:truthy
 on:
   push:
     branches:
-      - 'optimize-all'
+      - 'optimize-bools'
+      - 'optimize-bools-*'
 
 jobs:
-  All:
+  Bools:
     defaults:
       run:
         shell: bash
-        working-directory: All
+        working-directory: Bools
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        task:
+          - Account_Conditions_Active
+          - Boosting_Enabled
+          - CloseConditionOnlyProfitable
+          - MinimalizeLosses
+          - SmartQueueActive
+          - StrategyHandicapByPF
     steps:
       - uses: actions/checkout@v2
         with:
@@ -21,18 +31,13 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA CloseOrderAfterXHours
-      - run: docker-compose run $DCA InitNoOfOrdersToCalcPF
-      - run: docker-compose run $DCA LotSize
-      - run: docker-compose run $DCA MaxOrders
-      - run: docker-compose run $DCA MaxOrdersPerType
-      - run: docker-compose run $DCA MinPipChangeToTrade
+      - run: docker-compose run $DCA ${{ matrix.task }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --autostash --rebase -Xours
+          git pull origin ${{ github.ref }} --rebase --autostash
           git add . && git add --renormalize .
           git commit -am "${{ github.workflow }}"
       - name: Git Diff
