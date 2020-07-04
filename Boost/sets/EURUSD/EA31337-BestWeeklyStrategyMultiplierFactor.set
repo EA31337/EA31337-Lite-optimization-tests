@@ -2,6 +2,7 @@
 LotSize=0
 Boosting_Enabled=1
 Account_Conditions_Active=0
+ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Fixed params.
 BestDailyStrategyMultiplierFactor=1.0

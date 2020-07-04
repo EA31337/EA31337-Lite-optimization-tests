@@ -1,12 +1,12 @@
 ---
-name: Optimize All with Boost
+name: Optimize Boost
 
 # yamllint disable rule:truthy
 on:
   push:
     branches:
-      - 'optimize-all-boost'
-      - 'optimize-all-boost-*'
+      - 'optimize-boost'
+      - 'optimize-boost-*'
 
 jobs:
   BestStrategies:
@@ -14,7 +14,6 @@ jobs:
       run:
         shell: bash
         working-directory: Boost
-    if: false  # @fixme: GH-17
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -31,6 +30,7 @@ jobs:
           git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
+          git add . && git add --renormalize .
           git pull origin ${{ github.ref }} --rebase --autostash
           git commit -am "${{ github.workflow }}"
       - name: Git Diff
@@ -47,7 +47,6 @@ jobs:
       run:
         shell: bash
         working-directory: Boost
-    if: false  # @fixme: GH-17
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -64,6 +63,7 @@ jobs:
           git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
+          git add . && git add --renormalize .
           git pull origin ${{ github.ref }} --rebase --autostash
           git commit -am "${{ github.workflow }}"
       - name: Git Diff
@@ -89,7 +89,6 @@ jobs:
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
       - run: docker-compose run $DCA BoostTrendFactor
-        if: false  # @fixme: GH-15
       - run: docker-compose run $DCA ConFactorOrdersLimit
       - run: docker-compose run $DCA ConLossesIncreaseFactor
       - run: docker-compose run $DCA ConWinsIncreaseFactor
@@ -98,36 +97,7 @@ jobs:
           git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --rebase --autostash
-          git commit -am "${{ github.workflow }}"
-      - name: Git Diff
-        run: NO_PAGER=1 git --no-pager diff HEAD^
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          branch: ${{ github.ref }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-    env:
-      DCA: "--rm"
-  BoostActive:
-    defaults:
-      run:
-        shell: bash
-        working-directory: Boost
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
-          persist-credentials: false
-          # Otherwise, you will failed to push refs to dest repo.
-          fetch-depth: 0
-      - run: docker-compose run $DCA Boosting_Enabled
-      - name: Commit files
-        run: |
-          git config --local core.autocrlf false
-          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
-          git config --local user.name "${{ github.actor }}"
+          git add . && git add --renormalize .
           git pull origin ${{ github.ref }} --rebase --autostash
           git commit -am "${{ github.workflow }}"
       - name: Git Diff
