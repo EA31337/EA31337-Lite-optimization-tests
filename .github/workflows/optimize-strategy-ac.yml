@@ -85,7 +85,7 @@ jobs:
       run:
         shell: bash
         working-directory: Strategies/AC/Timeframes
-    needs: Stops
+    needs: SignalMethod
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
