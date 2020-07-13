@@ -5,15 +5,15 @@
                                                                EA31337-Lite-v1.079-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1 -243.21          258          0.65           -0.94     270.21       0.27 Bands_Deviation_M1=1.2; MaxOrders=0; MaxOrdersPerType=0;
-           2 -243.21          258          0.65           -0.94     270.21       0.27 Bands_Deviation_M1=1.6; MaxOrders=0; MaxOrdersPerType=0;
-           3 -243.21          258          0.65           -0.94     270.21       0.27   Bands_Deviation_M1=2; MaxOrders=0; MaxOrdersPerType=0;
-           4 -243.21          258          0.65           -0.94     270.21       0.27 Bands_Deviation_M1=2.4; MaxOrders=0; MaxOrdersPerType=0;
-           5 -243.21          258          0.65           -0.94     270.21       0.27 Bands_Deviation_M1=2.8; MaxOrders=0; MaxOrdersPerType=0;
+        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1  87.57          143          1.23            0.61     142.97       0.14 Bands_Deviation_M1=0.4; MaxOrders=0; MaxOrdersPerType=0;
+           2  87.57          143          1.23            0.61     142.97       0.14 Bands_Deviation_M1=0.8; MaxOrders=0; MaxOrdersPerType=0;
+           3  87.57          143          1.23            0.61     142.97       0.14 Bands_Deviation_M1=1.2; MaxOrders=0; MaxOrdersPerType=0;
+           4  87.57          143          1.23            0.61     142.97       0.14 Bands_Deviation_M1=1.6; MaxOrders=0; MaxOrdersPerType=0;
+           5  87.57          143          1.23            0.61     142.97       0.14   Bands_Deviation_M1=2; MaxOrders=0; MaxOrdersPerType=0;
