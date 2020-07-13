@@ -10,6 +10,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M1
       SET_PARAMS: Bands_Deviation_M1
       RUN_ON_SET: >
         set_opt_params $${SET_PARAMS}
@@ -35,6 +36,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M5
       SET_PARAMS: Bands_Deviation_M5
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
@@ -60,6 +62,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M15
       SET_PARAMS: Bands_Deviation_M15
       RUN_ON_SET: >
         set_opt_params $${SET_PARAMS}
@@ -85,6 +88,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M30
       SET_PARAMS: Bands_Deviation_M30
       RUN_ON_SET: >
         set_opt_params $${SET_PARAMS}
