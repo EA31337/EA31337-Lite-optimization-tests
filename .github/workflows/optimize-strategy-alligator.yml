@@ -114,6 +114,13 @@ jobs:
         working-directory: Strategies/Alligator/SignalMethod
     needs: Stops
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - Alligator1_SignalMethod
+          - Alligator5_SignalMethod
+          - Alligator15_SignalMethod
+          - Alligator30_SignalMethod
     steps:
       - uses: actions/checkout@v2
         with:
@@ -121,10 +128,7 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA Alligator1_SignalMethod
-      - run: docker-compose run $DCA Alligator5_SignalMethod
-      - run: docker-compose run $DCA Alligator15_SignalMethod
-      - run: docker-compose run $DCA Alligator30_SignalMethod
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false
