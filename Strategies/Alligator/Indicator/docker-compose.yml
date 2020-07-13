@@ -12,7 +12,7 @@ services:
       BT_MONTHS: 10-12
       BT_TESTMODEL: 1
       BT_TESTMODEL_FXT: 1
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=0.2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=0.24
       RUN_ON_SET: >
         for p in Jaw Lips; do
         set_opt_params "Alligator_Period_$${p}"
@@ -34,7 +34,7 @@ services:
       BT_MONTHS: 10-12
       BT_TESTMODEL: 1
       BT_TESTMODEL_FXT: 1
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=0.2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=0.24
       RUN_ON_SET: >
         for p in Jaw Teeth; do
         set_opt_params "Alligator_Period_$${p}"
@@ -56,7 +56,7 @@ services:
       BT_MONTHS: 10-12
       BT_TESTMODEL: 1
       BT_TESTMODEL_FXT: 1
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=0.2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=0.24
       RUN_ON_SET: >
         for p in Teeth Lips; do
         set_opt_params "Alligator_Period_$${p}"
