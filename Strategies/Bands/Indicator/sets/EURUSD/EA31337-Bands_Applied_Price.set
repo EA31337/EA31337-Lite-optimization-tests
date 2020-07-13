@@ -57,7 +57,7 @@ Bands_Period_M5=8
 Bands_Shift=0
 Bands_SignalLevel=18
 # Optimization params.
-Bands_Applied_Price=3
+Bands_Applied_Price=0
 Bands_Applied_Price,F=0
 Bands_Applied_Price,1=0
 Bands_Applied_Price,2=0
