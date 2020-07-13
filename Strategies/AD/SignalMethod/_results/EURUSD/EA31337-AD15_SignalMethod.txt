@@ -1,0 +1,17 @@
+
+
+
+                                                                 Optimization Report
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          15 Minutes (M15) 2019.06.02 21:01 - 2019.12.30 23:45 (2019.06.01 - 2019.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 100000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            1 -217.50          180          0.01           -1.21     218.90       0.22 AD15_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+            3 -217.50          180          0.01           -1.21     218.90       0.22  AD15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+            2 -301.91          550          0.80           -0.55     358.01       0.36  AD15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
