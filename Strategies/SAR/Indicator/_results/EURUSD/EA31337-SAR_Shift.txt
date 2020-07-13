@@ -5,17 +5,21 @@
                                                                EA31337-Lite-v1.079-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-             Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                6 -788.52          942          0.86           -0.84    1505.22       1.50 SAR_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
-                7 -788.52          942          0.86           -0.84    1505.22       1.50 SAR_Shift=6; MaxOrders=0; MaxOrdersPerType=0;
-                5 -790.32          943          0.86           -0.84    1507.02       1.50 SAR_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
-                4 -819.79          944          0.85           -0.87    1507.02       1.50 SAR_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
-                2 -838.49          948          0.85           -0.88    1538.86       1.53 SAR_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
-                3 -854.76          945          0.85           -0.90    1541.99       1.54 SAR_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
-                1 -857.23          948          0.85           -0.90    1540.66       1.54 SAR_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+            Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+               1 -1781.12         1213          0.55           -1.47    1936.44       1.93  SAR_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+               2 -1781.12         1213          0.55           -1.47    1936.44       1.93  SAR_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+               3 -1781.12         1213          0.55           -1.47    1936.44       1.93  SAR_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+               4 -1781.12         1213          0.55           -1.47    1936.44       1.93  SAR_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
+               5 -1781.12         1213          0.55           -1.47    1936.44       1.93  SAR_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
+               6 -1781.12         1213          0.55           -1.47    1936.44       1.93  SAR_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
+               7 -1781.12         1213          0.55           -1.47    1936.44       1.93  SAR_Shift=6; MaxOrders=0; MaxOrdersPerType=0;
+               8 -1781.12         1213          0.55           -1.47    1936.44       1.93  SAR_Shift=7; MaxOrders=0; MaxOrdersPerType=0;
+               9 -1781.12         1213          0.55           -1.47    1936.44       1.93  SAR_Shift=8; MaxOrders=0; MaxOrdersPerType=0;
+              10 -1781.12         1213          0.55           -1.47    1936.44       1.93  SAR_Shift=9; MaxOrders=0; MaxOrdersPerType=0;
+              11 -1781.12         1213          0.55           -1.47    1936.44       1.93 SAR_Shift=10; MaxOrders=0; MaxOrdersPerType=0;
