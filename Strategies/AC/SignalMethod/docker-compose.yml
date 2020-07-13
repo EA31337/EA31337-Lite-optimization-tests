@@ -9,10 +9,11 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: AC1_SignalMethod
-      RUN_ON_SET: set_opt_params AC1_SignalMethod -1 1
+      BT_PERIOD: M1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: set_opt_params AC1_SignalMethod -1 1
       SETFILE: /opt/sets/EA31337-AC1_SignalMethod.set
+      SET_PARAMS: AC1_SignalMethod
       TEST_REPORT_NAME: EA31337-AC1_SignalMethod
   AC5_SignalMethod:
     command: run_backtest -v
@@ -22,10 +23,11 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: AC5_SignalMethod
-      RUN_ON_SET: set_opt_params AC5_SignalMethod -1 1
+      BT_PERIOD: M5
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=30
+      RUN_ON_SET: set_opt_params AC5_SignalMethod -1 1
       SETFILE: /opt/sets/EA31337-AC5_SignalMethod.set
+      SET_PARAMS: AC5_SignalMethod
       TEST_REPORT_NAME: EA31337-AC5_SignalMethod
   AC15_SignalMethod:
     command: run_backtest -v
@@ -35,10 +37,11 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: AC15_SignalMethod
-      RUN_ON_SET: set_opt_params AC15_SignalMethod -1 1
+      BT_PERIOD: M15
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: set_opt_params AC15_SignalMethod -1 1
       SETFILE: /opt/sets/EA31337-AC15_SignalMethod.set
+      SET_PARAMS: AC15_SignalMethod
       TEST_REPORT_NAME: EA31337-AC15_SignalMethod
   AC30_SignalMethod:
     command: run_backtest -v
@@ -48,8 +51,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: AC30_SignalMethod
-      RUN_ON_SET: set_opt_params AC30_SignalMethod -1 1
+      BT_PERIOD: M30
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      RUN_ON_SET: set_opt_params AC30_SignalMethod -1 1
       SETFILE: /opt/sets/EA31337-AC30_SignalMethod.set
+      SET_PARAMS: AC30_SignalMethod
       TEST_REPORT_NAME: EA31337-AC30_SignalMethod

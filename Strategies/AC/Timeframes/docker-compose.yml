@@ -9,6 +9,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: AC_Active_Tf
+      BT_PERIOD: M1
       SETFILE: /opt/sets/EA31337-AC_Active_Tf.set
+      SET_PARAMS: AC_Active_Tf
       TEST_REPORT_NAME: EA31337-AC_Active_Tf
