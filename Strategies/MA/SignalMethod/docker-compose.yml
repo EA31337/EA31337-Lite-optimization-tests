@@ -10,6 +10,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M1
       SETFILE: /opt/sets/EA31337-MA1_SignalMethod.set
       SET_PARAMS: MA1_SignalMethod
         set_opt_params "$${SET_PARAMS}"
@@ -26,6 +27,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M5
       SETFILE: /opt/sets/EA31337-MA5_SignalMethod.set
       SET_PARAMS: MA5_SignalMethod
       RUN_ON_SET: >
@@ -43,6 +45,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M15
       SETFILE: /opt/sets/EA31337-MA15_SignalMethod.set
       SET_PARAMS: MA15_SignalMethod
       RUN_ON_SET: >
@@ -60,6 +63,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M30
       SETFILE: /opt/sets/EA31337-MA30_SignalMethod.set
       SET_PARAMS: MA30_SignalMethod
       RUN_ON_SET: >

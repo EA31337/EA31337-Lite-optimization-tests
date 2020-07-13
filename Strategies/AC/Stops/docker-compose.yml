@@ -10,6 +10,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M1
       RUN_ON_SET: set_opt_params AC_TrailingStopMethod 1 -25 0
       RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
@@ -26,6 +27,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M1
       RUN_ON_SET: set_opt_params AC_TrailingProfitMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-AC_TrailingProfitMethod.set
       SET_PARAMS: AC_TrailingProfitMethod

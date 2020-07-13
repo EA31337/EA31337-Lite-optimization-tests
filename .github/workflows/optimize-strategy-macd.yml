@@ -114,6 +114,13 @@ jobs:
         working-directory: Strategies/MACD/SignalMethod
     needs: Stops
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - MACD1_SignalMethod
+          - MACD5_SignalMethod
+          - MACD15_SignalMethod
+          - MACD30_SignalMethod
     steps:
       - uses: actions/checkout@v2
         with:
@@ -121,10 +128,7 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA MACD1_SignalMethod
-      - run: docker-compose run $DCA MACD5_SignalMethod
-      - run: docker-compose run $DCA MACD15_SignalMethod
-      - run: docker-compose run $DCA MACD30_SignalMethod
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false

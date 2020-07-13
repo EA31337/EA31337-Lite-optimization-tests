@@ -89,6 +89,13 @@ jobs:
         working-directory: Strategies/CCI/SignalMethod
     needs: Stops
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - CCI1_SignalMethod
+          - CCI5_SignalMethod
+          - CCI15_SignalMethod
+          - CCI30_SignalMethod
     steps:
       - uses: actions/checkout@v2
         with:
@@ -96,10 +103,7 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA CCI1_SignalMethod
-      - run: docker-compose run $DCA CCI5_SignalMethod
-      - run: docker-compose run $DCA CCI15_SignalMethod
-      - run: docker-compose run $DCA CCI30_SignalMethod
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false

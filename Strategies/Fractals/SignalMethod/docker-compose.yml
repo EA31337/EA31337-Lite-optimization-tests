@@ -9,9 +9,11 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Fractals1_SignalMethod
+      BT_MONTHS: 6-12
+      BT_PERIOD: M1
       RUN_ON_SET: set_opt_params Fractals1_SignalMethod -3 3
       SETFILE: /opt/sets/EA31337-Fractals1_SignalMethod.set
+      SET_PARAMS: Fractals1_SignalMethod
       TEST_REPORT_NAME: EA31337-Fractals1_SignalMethod
   Fractals5_SignalMethod:
     command: run_backtest -v
@@ -21,9 +23,10 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Fractals5_SignalMethod
+      BT_PERIOD: M5
       RUN_ON_SET: set_opt_params Fractals5_SignalMethod -3 3
       SETFILE: /opt/sets/EA31337-Fractals5_SignalMethod.set
+      SET_PARAMS: Fractals5_SignalMethod
       TEST_REPORT_NAME: EA31337-Fractals5_SignalMethod
   Fractals15_SignalMethod:
     command: run_backtest -v
@@ -33,9 +36,11 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Fractals15_SignalMethod
+      BT_MONTHS: 6-12
+      BT_PERIOD: M15
       RUN_ON_SET: set_opt_params Fractals15_SignalMethod -3 3
       SETFILE: /opt/sets/EA31337-Fractals15_SignalMethod.set
+      SET_PARAMS: Fractals15_SignalMethod
       TEST_REPORT_NAME: EA31337-Fractals15_SignalMethod
   Fractals30_SignalMethod:
     command: run_backtest -v
@@ -45,7 +50,9 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SET_PARAMS: Fractals30_SignalMethod
+      BT_MONTHS: 6-12
+      BT_PERIOD: M30
       RUN_ON_SET: set_opt_params Fractals30_SignalMethod -3 3
       SETFILE: /opt/sets/EA31337-Fractals30_SignalMethod.set
+      SET_PARAMS: Fractals30_SignalMethod
       TEST_REPORT_NAME: EA31337-Fractals30_SignalMethod

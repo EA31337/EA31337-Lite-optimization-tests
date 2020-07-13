@@ -10,6 +10,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
@@ -28,6 +29,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M5
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
@@ -46,6 +48,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M15
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
@@ -64,6 +67,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M30
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"

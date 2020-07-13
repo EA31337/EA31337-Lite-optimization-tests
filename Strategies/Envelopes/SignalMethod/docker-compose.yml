@@ -10,6 +10,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M1
       SET_PARAMS: Envelopes1_SignalMethod
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
@@ -27,6 +28,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M5
       SET_PARAMS: Envelopes5_SignalMethod
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
@@ -44,6 +46,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M15
       SET_PARAMS: Envelopes15_SignalMethod
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
@@ -61,6 +64,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M30
       SET_PARAMS: Envelopes30_SignalMethod
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"

@@ -48,6 +48,13 @@ jobs:
         working-directory: Strategies/AC/SignalMethod
     needs: Stops
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - AC1_SignalMethod
+          - AC5_SignalMethod
+          - AC15_SignalMethod
+          - AC30_SignalMethod
     steps:
       - uses: actions/checkout@v2
         with:
@@ -55,10 +62,7 @@ jobs:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA AC1_SignalMethod
-      - run: docker-compose run $DCA AC5_SignalMethod
-      - run: docker-compose run $DCA AC15_SignalMethod
-      - run: docker-compose run $DCA AC30_SignalMethod
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false
@@ -81,7 +85,7 @@ jobs:
       run:
         shell: bash
         working-directory: Strategies/AC/Timeframes
-    needs: Stops
+    needs: SignalMethod
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

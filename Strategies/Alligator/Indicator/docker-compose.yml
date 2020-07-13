@@ -1,7 +1,7 @@
 ---
 version: '3.4'
 services:
-  Alligator_Periods:
+  Alligator_Period_Jaw_Lips:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -9,19 +9,63 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 10-12
+      BT_MONTHS: 8-12
       BT_TESTMODEL: 1
       BT_TESTMODEL_FXT: 1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=0.25
       RUN_ON_SET: >
-        for p in Jaw Teeth Lips; do
+        for p in Jaw Lips; do
         set_opt_params "Alligator_Period_$${p}"
         $$(bc <<< "$$(input_get Alligator_Period_$${p}) - 8")
         $$(bc <<< "$$(input_get Alligator_Period_$${p}) + 8")
         4;
         done
       SETFILE: /opt/sets/EA31337-Alligator_Periods.set
-      SET_PARAMS: Alligator_Period_Jaw,Alligator_Period_Teeth,Alligator_Lips
+      SET_PARAMS: Alligator_Period_Jaw,Alligator_Lips
+      TEST_REPORT_NAME: EA31337-Alligator_Periods
+  Alligator_Period_Jaw_Teeth:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 8-12
+      BT_TESTMODEL: 1
+      BT_TESTMODEL_FXT: 1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=0.25
+      RUN_ON_SET: >
+        for p in Jaw Teeth; do
+        set_opt_params "Alligator_Period_$${p}"
+        $$(bc <<< "$$(input_get Alligator_Period_$${p}) - 8")
+        $$(bc <<< "$$(input_get Alligator_Period_$${p}) + 8")
+        4;
+        done
+      SETFILE: /opt/sets/EA31337-Alligator_Periods.set
+      SET_PARAMS: Alligator_Period_Jaw,Alligator_Period_Teeth
+      TEST_REPORT_NAME: EA31337-Alligator_Periods
+  Alligator_Period_Teeth_Lips:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 8-12
+      BT_TESTMODEL: 1
+      BT_TESTMODEL_FXT: 1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=0.25
+      RUN_ON_SET: >
+        for p in Teeth Lips; do
+        set_opt_params "Alligator_Period_$${p}"
+        $$(bc <<< "$$(input_get Alligator_Period_$${p}) - 8")
+        $$(bc <<< "$$(input_get Alligator_Period_$${p}) + 8")
+        4;
+        done
+      SETFILE: /opt/sets/EA31337-Alligator_Periods.set
+      SET_PARAMS: Alligator_Period_Teeth,Alligator_Lips
       TEST_REPORT_NAME: EA31337-Alligator_Periods
   Alligator_Applied_Price:
     command: run_backtest -v
