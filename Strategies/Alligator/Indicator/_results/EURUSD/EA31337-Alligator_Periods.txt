@@ -11,9 +11,13 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
+<<<<<<< Updated upstream
      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
 <<<<<<< Updated upstream
         1 -38.95           81          0.93           -0.48     227.76       0.23 Alligator_Period_Jaw=16; Alligator_Period_Lips=14; MaxOrders=0;
 =======
         1  70.31          148          1.07            0.48     206.31       0.21 Alligator_Period_Jaw=12; Alligator_Period_Teeth=4; MaxOrders=0;
+>>>>>>> Stashed changes
+=======
+                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
 >>>>>>> Stashed changes
