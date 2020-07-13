@@ -47,8 +47,13 @@ Bands_Deviation_M5=0.4
 Bands_HShift=0
 Bands_Period_M15=2
 Bands_Period_M1=2
+<<<<<<< Updated upstream
 Bands_Period_M30=2
 Bands_Period_M5=2
+=======
+Bands_Period_M30=4
+Bands_Period_M5=8
+>>>>>>> Stashed changes
 Bands_Shift=0
 Bands_SignalLevel=18
 # Optimization params.
