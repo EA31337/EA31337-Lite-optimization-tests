@@ -11,9 +11,9 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1 -1016.92         1211          0.51           -0.84    1032.42       1.03 CCI_Period_M5=38; MaxOrders=0; MaxOrdersPerType=0;
-             2 -1099.04         1273          0.50           -0.86    1115.74       1.12 CCI_Period_M5=42; MaxOrders=0; MaxOrdersPerType=0;
-             4 -1117.04         1369          0.52           -0.82    1133.74       1.13 CCI_Period_M5=50; MaxOrders=0; MaxOrdersPerType=0;
-             3 -1153.74         1331          0.49           -0.87    1169.24       1.17 CCI_Period_M5=46; MaxOrders=0; MaxOrdersPerType=0;
-             5 -1154.00         1403          0.52           -0.82    1169.50       1.17 CCI_Period_M5=54; MaxOrders=0; MaxOrdersPerType=0;
+           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              1 256.14          726          1.06            0.35     743.81       0.74 CCI_Period_M5=30; MaxOrders=0; MaxOrdersPerType=0;
+              5 219.25          669          1.06            0.33     645.08       0.64 CCI_Period_M5=46; MaxOrders=0; MaxOrdersPerType=0;
+              3 216.79          699          1.06            0.31     620.98       0.62 CCI_Period_M5=38; MaxOrders=0; MaxOrdersPerType=0;
+              2 145.08          709          1.04            0.20     688.19       0.68 CCI_Period_M5=34; MaxOrders=0; MaxOrdersPerType=0;
+              4  97.12          680          1.03            0.14     652.38       0.65 CCI_Period_M5=42; MaxOrders=0; MaxOrdersPerType=0;
