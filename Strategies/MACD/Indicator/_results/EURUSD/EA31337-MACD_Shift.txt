@@ -5,13 +5,13 @@
                                                                EA31337-Lite-v1.079-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                1 -184.38          361          0.88           -0.51     515.60       0.51 MACD_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
-                2 -184.38          361          0.88           -0.51     515.60       0.51 MACD_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
-                3 -184.38          361          0.88           -0.51     515.60       0.51 MACD_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+                1 -611.87          561          0.87           -1.09     878.06       0.88 MACD_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+                2 -611.87          561          0.87           -1.09     878.06       0.88 MACD_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+                3 -611.87          561          0.87           -1.09     878.06       0.88 MACD_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
