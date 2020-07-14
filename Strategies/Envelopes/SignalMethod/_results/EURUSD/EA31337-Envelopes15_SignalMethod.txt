@@ -6,22 +6,22 @@
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
+                            Period          15 Minutes (M15) 2019.06.02 21:01 - 2019.12.30 23:45 (2019.06.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        1 109.36          110          1.11            0.99     214.59       0.21 Envelopes15_SignalMethod=-34; MaxOrders=0; MaxOrdersPerType=0;
-        2 109.36          110          1.11            0.99     214.59       0.21 Envelopes15_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
-        3 109.36          110          1.11            0.99     214.59       0.21 Envelopes15_SignalMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
-        4 109.36          110          1.11            0.99     214.59       0.21 Envelopes15_SignalMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
-        5 109.36          110          1.11            0.99     214.59       0.21  Envelopes15_SignalMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
-        7 109.36          110          1.11            0.99     214.59       0.21   Envelopes15_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=0;
-        8 109.36          110          1.11            0.99     214.59       0.21  Envelopes15_SignalMethod=15; MaxOrders=0; MaxOrdersPerType=0;
-        9 109.36          110          1.11            0.99     214.59       0.21  Envelopes15_SignalMethod=22; MaxOrders=0; MaxOrdersPerType=0;
-       10 109.36          110          1.11            0.99     214.59       0.21  Envelopes15_SignalMethod=29; MaxOrders=0; MaxOrdersPerType=0;
-       11 109.36          110          1.11            0.99     214.59       0.21  Envelopes15_SignalMethod=36; MaxOrders=0; MaxOrdersPerType=0;
-       12 109.36          110          1.11            0.99     214.59       0.21  Envelopes15_SignalMethod=43; MaxOrders=0; MaxOrdersPerType=0;
-       13 109.36          110          1.11            0.99     214.59       0.21  Envelopes15_SignalMethod=50; MaxOrders=0; MaxOrdersPerType=0;
-        6  67.46          112          1.06            0.60     256.29       0.26   Envelopes15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+     Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        1 -301.23          319          0.89           -0.94     599.73       0.60 Envelopes15_SignalMethod=-69; MaxOrders=0; MaxOrdersPerType=0;
+        3 -301.23          319          0.89           -0.94     599.73       0.60 Envelopes15_SignalMethod=-55; MaxOrders=0; MaxOrdersPerType=0;
+        4 -301.23          319          0.89           -0.94     599.73       0.60 Envelopes15_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+        5 -301.23          319          0.89           -0.94     599.73       0.60 Envelopes15_SignalMethod=-41; MaxOrders=0; MaxOrdersPerType=0;
+        6 -301.23          319          0.89           -0.94     599.73       0.60 Envelopes15_SignalMethod=-34; MaxOrders=0; MaxOrdersPerType=0;
+        7 -301.23          319          0.89           -0.94     599.73       0.60 Envelopes15_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
+        9 -301.23          319          0.89           -0.94     599.73       0.60 Envelopes15_SignalMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
+       10 -301.23          319          0.89           -0.94     599.73       0.60  Envelopes15_SignalMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+       12 -318.21          450          0.90           -0.71     729.09       0.73   Envelopes15_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+       13 -418.74          422          0.87           -0.99     730.17       0.73  Envelopes15_SignalMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+       11 -594.21          490          0.83           -1.21     844.40       0.84   Envelopes15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+        2 -625.36          831          0.86           -0.75     868.55       0.87 Envelopes15_SignalMethod=-62; MaxOrders=0; MaxOrdersPerType=0;
+        8 -625.36          831          0.86           -0.75     868.55       0.87 Envelopes15_SignalMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
