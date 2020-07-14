@@ -29,11 +29,7 @@ AC15_SignalMethod=0
 AC30_SignalMethod=0
 AC_TrailingProfitMethod=0
 # Optimization params.
-<<<<<<< Updated upstream
-AC_TrailingStopMethod=1
-=======
 AC_TrailingStopMethod=25
->>>>>>> Stashed changes
 AC_TrailingStopMethod,F=0
 AC_TrailingStopMethod,1=0
 AC_TrailingStopMethod,2=0

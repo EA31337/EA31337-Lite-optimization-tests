@@ -12,12 +12,6 @@
                              Spread          10
                                                                  [Optimization Graph]
           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-<<<<<<< Updated upstream
-             1  -8.20            5          0.79           -1.64      59.80       0.06 AC5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-             2  -8.20            5          0.79           -1.64      59.80       0.06  AC5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-             3  -8.20            5          0.79           -1.64      59.80       0.06  AC5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-=======
              1 -43.70            5          0.14           -8.74      62.90       0.06 AC5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
              2 -43.70            5          0.14           -8.74      62.90       0.06  AC5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
              3 -43.70            5          0.14           -8.74      62.90       0.06  AC5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
->>>>>>> Stashed changes
