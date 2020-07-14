@@ -12,5 +12,5 @@
                             Spread          10
                                                                  [Optimization Graph]
              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                2 -274.64          230          0.42           -1.19     306.83       0.31 LotSize=0.01; MaxOrders=0; MaxOrdersPerType=0;
-                1 -863.45          237          0.34           -3.64     924.34       0.92    LotSize=0; MaxOrders=0; MaxOrdersPerType=0;
+                1 -320.35          236          0.43           -1.36     336.15       0.34    LotSize=0; MaxOrders=0; MaxOrdersPerType=0;
+                2 -320.35          236          0.43           -1.36     336.15       0.34 LotSize=0.01; MaxOrders=0; MaxOrdersPerType=0;

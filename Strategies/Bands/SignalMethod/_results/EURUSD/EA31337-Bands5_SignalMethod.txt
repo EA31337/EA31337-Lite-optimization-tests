@@ -5,21 +5,21 @@
                                                                EA31337-Lite-v1.079-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          5 Minutes (M5) 2019.06.02 21:01 - 2019.12.30 23:55 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           3  26.00            7          2.68            3.71      22.60       0.02  Bands5_SignalMethod=67; MaxOrders=0; MaxOrdersPerType=0;
-           4  26.00            7          2.68            3.71      22.60       0.02  Bands5_SignalMethod=74; MaxOrders=0; MaxOrdersPerType=0;
-           5  26.00            7          2.68            3.71      22.60       0.02  Bands5_SignalMethod=81; MaxOrders=0; MaxOrdersPerType=0;
-           6  26.00            7          2.68            3.71      22.60       0.02  Bands5_SignalMethod=88; MaxOrders=0; MaxOrdersPerType=0;
-           7  26.00            7          2.68            3.71      22.60       0.02  Bands5_SignalMethod=95; MaxOrders=0; MaxOrdersPerType=0;
-           8  26.00            7          2.68            3.71      22.60       0.02 Bands5_SignalMethod=102; MaxOrders=0; MaxOrdersPerType=0;
-           9  26.00            7          2.68            3.71      22.60       0.02 Bands5_SignalMethod=109; MaxOrders=0; MaxOrdersPerType=0;
-          10  26.00            7          2.68            3.71      22.60       0.02 Bands5_SignalMethod=116; MaxOrders=0; MaxOrdersPerType=0;
-          11  26.00            7          2.68            3.71      22.60       0.02 Bands5_SignalMethod=123; MaxOrders=0; MaxOrdersPerType=0;
-           1 -29.08           29          0.83           -1.00      76.38       0.08  Bands5_SignalMethod=53; MaxOrders=0; MaxOrdersPerType=0;
-           2 -31.48           26          0.81           -1.21      79.61       0.08  Bands5_SignalMethod=60; MaxOrders=0; MaxOrdersPerType=0;
+           1   7.20            4          5.00            1.80       7.00       0.01  Bands5_SignalMethod=32; MaxOrders=0; MaxOrdersPerType=0;
+           2   4.60            3          3.56            1.53       7.00       0.01  Bands5_SignalMethod=39; MaxOrders=0; MaxOrdersPerType=0;
+           3   4.60            3          3.56            1.53       7.00       0.01  Bands5_SignalMethod=46; MaxOrders=0; MaxOrdersPerType=0;
+           4   4.60            3          3.56            1.53       7.00       0.01  Bands5_SignalMethod=53; MaxOrders=0; MaxOrdersPerType=0;
+           5   4.60            3          3.56            1.53       7.00       0.01  Bands5_SignalMethod=60; MaxOrders=0; MaxOrdersPerType=0;
+           6   4.60            3          3.56            1.53       7.00       0.01  Bands5_SignalMethod=67; MaxOrders=0; MaxOrdersPerType=0;
+           7   4.60            3          3.56            1.53       7.00       0.01  Bands5_SignalMethod=74; MaxOrders=0; MaxOrdersPerType=0;
+           8   4.60            3          3.56            1.53       7.00       0.01  Bands5_SignalMethod=81; MaxOrders=0; MaxOrdersPerType=0;
+           9   4.60            3          3.56            1.53       7.00       0.01  Bands5_SignalMethod=88; MaxOrders=0; MaxOrdersPerType=0;
+          10   4.60            3          3.56            1.53       7.00       0.01  Bands5_SignalMethod=95; MaxOrders=0; MaxOrdersPerType=0;
+          11   4.60            3          3.56            1.53       7.00       0.01 Bands5_SignalMethod=102; MaxOrders=0; MaxOrdersPerType=0;

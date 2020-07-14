@@ -1,0 +1,17 @@
+
+
+
+                                                                 Optimization Report
+                                                               EA31337-Lite-v1.079-dev
+                                                                     (Build 1260)
+
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          5 Minutes (M5) 2019.06.02 21:01 - 2019.12.30 23:55 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
+                                                                 [Optimization Graph]
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            1   28.90            6         12.56            4.82      14.50       0.01 AD5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+            3   28.90            6         12.56            4.82      14.50       0.01  AD5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+            2 -357.30          304          0.66           -1.18     388.29       0.39  AD5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;

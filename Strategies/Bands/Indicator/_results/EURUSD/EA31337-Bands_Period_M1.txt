@@ -11,17 +11,13 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1  -11.80           18          0.53           -0.66      54.00       0.05  Bands_Period_M1=2; MaxOrders=0; MaxOrdersPerType=0;
-             5 -103.80          218          0.76           -0.48     139.84       0.14 Bands_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
-             4 -117.10          243          0.75           -0.48     142.94       0.14  Bands_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
-            12 -153.24          318          0.77           -0.48     186.77       0.19 Bands_Period_M1=24; MaxOrders=0; MaxOrdersPerType=0;
-            11 -162.20          297          0.74           -0.55     197.04       0.20 Bands_Period_M1=22; MaxOrders=0; MaxOrdersPerType=0;
-            13 -173.67          327          0.74           -0.53     208.91       0.21 Bands_Period_M1=26; MaxOrders=0; MaxOrdersPerType=0;
-             6 -196.74          220          0.61           -0.89     205.64       0.21 Bands_Period_M1=12; MaxOrders=0; MaxOrdersPerType=0;
-             3 -196.30          278          0.67           -0.71     208.61       0.21  Bands_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
-             7 -196.04          223          0.63           -0.88     206.34       0.21 Bands_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
-            10 -197.60          266          0.67           -0.74     218.01       0.22 Bands_Period_M1=20; MaxOrders=0; MaxOrdersPerType=0;
-             8 -207.60          241          0.64           -0.86     230.41       0.23 Bands_Period_M1=16; MaxOrders=0; MaxOrdersPerType=0;
-             9 -211.80          247          0.64           -0.86     228.11       0.23 Bands_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;
-             2 -246.00          310          0.66           -0.79     255.41       0.26  Bands_Period_M1=4; MaxOrders=0; MaxOrdersPerType=0;
+          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1  87.57          143          1.23            0.61     142.97       0.14  Bands_Period_M1=2; MaxOrders=0; MaxOrdersPerType=0;
+             4  64.83          184          1.14            0.35     169.73       0.17  Bands_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
+             2  59.23          175          1.14            0.34     151.13       0.15  Bands_Period_M1=4; MaxOrders=0; MaxOrdersPerType=0;
+             3  18.03          174          1.04            0.10     165.63       0.17  Bands_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
+             5  12.20          220          1.02            0.06     191.47       0.19 Bands_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
+             9 -48.84          278          0.93           -0.18     193.30       0.19 Bands_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;
+             6 -50.50          253          0.92           -0.20     212.73       0.21 Bands_Period_M1=12; MaxOrders=0; MaxOrdersPerType=0;
+             7 -54.47          273          0.92           -0.20     202.24       0.20 Bands_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
+             8 -82.64          284          0.88           -0.29     208.00       0.21 Bands_Period_M1=16; MaxOrders=0; MaxOrdersPerType=0;

@@ -5,13 +5,13 @@
                                                                EA31337-Lite-v1.079-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          5 Minutes (M5) 2019.01.02 06:20 - 2019.12.30 23:55 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           3  -480.95          323          0.60           -1.49     583.04       0.58  MFI5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-           1  -920.81          674          0.56           -1.37     998.23       1.00 MFI5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-           2 -1752.66         2682          0.76           -0.65    1949.36       1.95  MFI5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            2 -242.22         1457          0.97           -0.17     565.47       0.56  MFI5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+            3 -306.33          100          0.44           -3.06     326.06       0.33  MFI5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+            1 -484.00          458          0.80           -1.06     525.83       0.53 MFI5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;

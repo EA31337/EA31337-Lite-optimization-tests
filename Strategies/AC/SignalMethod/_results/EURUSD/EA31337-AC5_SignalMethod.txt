@@ -5,13 +5,13 @@
                                                                EA31337-Lite-v1.079-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          5 Minutes (M5) 2019.01.02 06:20 - 2019.12.30 23:55 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1  39.80           10          2.35            3.98      24.70       0.02 AC5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-             2  39.80           10          2.35            3.98      24.70       0.02  AC5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-             3  11.00            5          0.00            2.20       7.30       0.01  AC5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+             1 -43.70            5          0.14           -8.74      62.90       0.06 AC5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+             2 -43.70            5          0.14           -8.74      62.90       0.06  AC5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+             3 -43.70            5          0.14           -8.74      62.90       0.06  AC5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;

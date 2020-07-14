@@ -6,22 +6,22 @@
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
+                            Period          15 Minutes (M15) 2019.06.02 21:01 - 2019.12.30 23:45 (2019.06.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1 231.58          120          1.22            1.93     230.99       0.23 RSI15_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
-           2 144.19          113          1.14            1.28     230.99       0.23 RSI15_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
-           4 144.19          113          1.14            1.28     230.99       0.23 RSI15_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
-           3 134.98          115          1.13            1.17     230.99       0.23 RSI15_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
-           5 117.75          110          1.12            1.07     230.99       0.23 RSI15_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
-           6 117.75          110          1.12            1.07     230.99       0.23 RSI15_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
-           7 117.75          110          1.12            1.07     230.99       0.23 RSI15_SignalMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
-           8 117.75          110          1.12            1.07     230.99       0.23 RSI15_SignalMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
-           9 117.75          110          1.12            1.07     230.99       0.23 RSI15_SignalMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
-          10 117.75          110          1.12            1.07     230.99       0.23 RSI15_SignalMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
-          11 117.75          110          1.12            1.07     230.99       0.23 RSI15_SignalMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
-          12 117.75          110          1.12            1.07     230.99       0.23  RSI15_SignalMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
-          13 117.75          110          1.12            1.07     230.99       0.23  RSI15_SignalMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           7    1.69          138          1.00            0.01     313.70       0.31 RSI15_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
+           9    1.69          138          1.00            0.01     313.70       0.31 RSI15_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
+           8  -24.91          143          0.98           -0.17     313.70       0.31 RSI15_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
+           5  -25.64          161          0.98           -0.16     347.47       0.35 RSI15_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
+           3  -30.91          146          0.97           -0.21     340.40       0.34 RSI15_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
+           2  -31.31          148          0.97           -0.21     340.40       0.34 RSI15_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
+          10  -59.51          128          0.95           -0.46     353.64       0.35 RSI15_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
+          11  -59.51          128          0.95           -0.46     353.64       0.35 RSI15_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
+          12  -59.51          128          0.95           -0.46     353.64       0.35 RSI15_SignalMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
+          13  -59.51          128          0.95           -0.46     353.64       0.35 RSI15_SignalMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+           4  -76.64          167          0.94           -0.46     367.47       0.37 RSI15_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+           1  -97.14          153          0.93           -0.63     377.13       0.38 RSI15_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
+           6 -100.44          153          0.92           -0.66     348.17       0.35 RSI15_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;

@@ -5,13 +5,13 @@
                                                                EA31337-Lite-v1.079-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              1 -680.29          478          0.76           -1.42     896.16       0.89 Fractals_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
-              2 -680.29          478          0.76           -1.42     896.16       0.89 Fractals_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
-              3 -680.29          478          0.76           -1.42     896.16       0.89 Fractals_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              1 192.96          172          1.37            1.12     181.05       0.18 Fractals_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+              2 192.96          172          1.37            1.12     181.05       0.18 Fractals_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+              3 192.96          172          1.37            1.12     181.05       0.18 Fractals_Shift=2; MaxOrders=0; MaxOrdersPerType=0;

@@ -5,17 +5,17 @@
                                                                EA31337-Lite-v1.079-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            3  -273.18          869          0.86           -0.31     408.71       0.41 CCI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-            1  -996.69         1448          0.67           -0.69    1004.29       1.00 CCI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-            7 -1441.38         1725          0.59           -0.84    1445.38       1.45 CCI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-            6 -1460.39         1793          0.60           -0.81    1476.39       1.48 CCI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-            5 -1605.43         1878          0.58           -0.85    1621.43       1.62 CCI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-            2 -1623.88         1959          0.59           -0.83    1639.88       1.64 CCI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-            4 -2496.16         2913          0.56           -0.86    2512.16       2.51 CCI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            1  -89.59          400          0.98           -0.22     631.91       0.63 CCI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+            3 -189.40          340          0.94           -0.56     672.35       0.67 CCI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+            5 -208.95          562          0.96           -0.37     939.72       0.94 CCI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+            4 -236.04          609          0.96           -0.39    1043.96       1.04 CCI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+            2 -295.71          559          0.95           -0.53    1002.33       1.00 CCI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            6 -364.27          541          0.94           -0.67    1004.44       1.00 CCI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+            7 -466.36          523          0.92           -0.89     944.18       0.94 CCI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;

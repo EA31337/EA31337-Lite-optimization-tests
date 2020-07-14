@@ -5,15 +5,15 @@
                                                                EA31337-Lite-v1.079-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 3 210.13          503          1.08            0.42     518.36       0.52 MA_Shift=10; MaxOrders=0; MaxOrdersPerType=0;
-                 2 190.91          517          1.07            0.37     600.44       0.60  MA_Shift=9; MaxOrders=0; MaxOrdersPerType=0;
-                 1 100.29          547          1.03            0.18     682.53       0.68  MA_Shift=8; MaxOrders=0; MaxOrdersPerType=0;
-                 4 -40.88          485          0.98           -0.08     642.97       0.64 MA_Shift=11; MaxOrders=0; MaxOrdersPerType=0;
-                 5 -61.15          495          0.98           -0.12     854.07       0.85 MA_Shift=12; MaxOrders=0; MaxOrdersPerType=0;
+             Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                4   10.36          621          1.00            0.02     666.43       0.66 MA_Shift=13; MaxOrders=0; MaxOrdersPerType=0;
+                5   -0.22          646          1.00           -0.00     827.92       0.82 MA_Shift=14; MaxOrders=0; MaxOrdersPerType=0;
+                3 -324.98          613          0.93           -0.53     801.04       0.80 MA_Shift=12; MaxOrders=0; MaxOrdersPerType=0;
+                2 -351.88          636          0.93           -0.55     962.27       0.96 MA_Shift=11; MaxOrders=0; MaxOrdersPerType=0;
+                1 -787.31          626          0.85           -1.26     999.55       1.00 MA_Shift=10; MaxOrders=0; MaxOrdersPerType=0;
