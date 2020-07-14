@@ -1,10 +1,18 @@
 {
-  "Time": "351",
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  "Time": "21",
+=======
+  "Time": "9",
+>>>>>>> Stashed changes
+=======
+  "Time": "12",
+>>>>>>> Stashed changes
   "Title": "Optimization Report",
   "EA Name": "EA31337-Lite-v1.079-dev",
   "Build": "1260",
   "Symbol": "EURUSD (Euro vs US Dollar)",
-  "Period": "30 Minutes (M30)  2019.10.01 00:00 - 2019.12.31 00:00    (2019.10.01 - 2019.12.31)",
+  "Period": "1 Minute (M1)  2019.10.01 00:00 - 2019.12.31 00:00    (2019.10.01 - 2019.12.31)",
   "Model": "Control points ",
   "Initial deposit": "100000.00",
   "Spread": "10",
