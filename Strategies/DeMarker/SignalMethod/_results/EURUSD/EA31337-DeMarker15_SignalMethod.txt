@@ -6,26 +6,26 @@
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
+                            Period          15 Minutes (M15) 2019.06.02 21:01 - 2019.12.30 23:45 (2019.06.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        10 108.72          111          1.11            0.98     245.09       0.24  DeMarker15_SignalMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
-        11 108.72          111          1.11            0.98     245.09       0.24  DeMarker15_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
-        12 108.72          111          1.11            0.98     245.09       0.24  DeMarker15_SignalMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
-        13 108.72          111          1.11            0.98     245.09       0.24  DeMarker15_SignalMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
-         1 105.12          110          1.10            0.96     245.09       0.24 DeMarker15_SignalMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
-        14 105.12          110          1.10            0.96     245.09       0.24  DeMarker15_SignalMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
-        15 105.12          110          1.10            0.96     245.09       0.24  DeMarker15_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
-        16 105.12          110          1.10            0.96     245.09       0.24  DeMarker15_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
-        17 105.12          110          1.10            0.96     245.09       0.24  DeMarker15_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-         2  96.21          110          1.09            0.87     245.09       0.24 DeMarker15_SignalMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
-         3  96.21          110          1.09            0.87     245.09       0.24 DeMarker15_SignalMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
-         7  58.79          115          1.05            0.51     246.20       0.25 DeMarker15_SignalMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
-         9  58.79          115          1.05            0.51     246.20       0.25  DeMarker15_SignalMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
-         6  53.39          116          1.05            0.46     251.60       0.25 DeMarker15_SignalMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
-         8  53.39          116          1.05            0.46     251.60       0.25 DeMarker15_SignalMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
-         4  -6.69          113          0.99           -0.06     280.67       0.28 DeMarker15_SignalMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
-         5  -6.69          113          0.99           -0.06     280.67       0.28 DeMarker15_SignalMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
+     Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        1  -66.81          130          0.94           -0.51     354.74       0.35 DeMarker15_SignalMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+       16  -66.81          130          0.94           -0.51     354.74       0.35   DeMarker15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+        2  -77.91          133          0.93           -0.59     354.74       0.35 DeMarker15_SignalMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
+        3  -77.91          133          0.93           -0.59     354.74       0.35 DeMarker15_SignalMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
+       14 -119.51          142          0.90           -0.84     367.14       0.37  DeMarker15_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+       15 -119.51          142          0.90           -0.84     367.14       0.37  DeMarker15_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+       12 -130.93          152          0.89           -0.86     376.94       0.38  DeMarker15_SignalMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
+        7 -134.91          152          0.88           -0.89     370.24       0.37  DeMarker15_SignalMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
+       10 -136.62          156          0.89           -0.88     382.78       0.38  DeMarker15_SignalMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+       11 -136.62          156          0.89           -0.88     382.78       0.38  DeMarker15_SignalMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
+       13 -137.52          148          0.88           -0.93     376.94       0.38  DeMarker15_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
+        6 -140.61          153          0.88           -0.92     375.74       0.38 DeMarker15_SignalMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
+        4 -148.53          163          0.88           -0.91     383.25       0.38 DeMarker15_SignalMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
+        5 -152.92          158          0.87           -0.97     381.25       0.38 DeMarker15_SignalMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
+       17 -175.82          179          0.87           -0.98     450.78       0.45   DeMarker15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+        8 -181.83          169          0.86           -1.08     433.99       0.43  DeMarker15_SignalMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
+        9 -188.42          165          0.85           -1.14     433.98       0.43  DeMarker15_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;

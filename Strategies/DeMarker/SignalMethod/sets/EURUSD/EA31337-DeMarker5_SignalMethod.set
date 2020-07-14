@@ -23,7 +23,7 @@ RSI_Active_Tf=0
 SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Optimization params.
-DeMarker5_SignalMethod=-11
+DeMarker5_SignalMethod=-8
 DeMarker5_SignalMethod,F=0
 DeMarker5_SignalMethod,1=0
 DeMarker5_SignalMethod,2=0
