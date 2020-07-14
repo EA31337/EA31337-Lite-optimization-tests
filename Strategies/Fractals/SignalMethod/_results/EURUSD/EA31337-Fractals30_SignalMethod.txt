@@ -6,16 +6,16 @@
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
+                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         2 -282.03          120          0.85           -2.35     449.38       0.45 Fractals30_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
-         3 -282.03          120          0.85           -2.35     449.38       0.45 Fractals30_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-         6 -282.03          120          0.85           -2.35     449.38       0.45  Fractals30_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-         7 -282.03          120          0.85           -2.35     449.38       0.45  Fractals30_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-         5 -452.50          149          0.80           -3.04     621.34       0.62  Fractals30_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-         4 -523.86          188          0.83           -2.79     719.44       0.72  Fractals30_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-         1 -548.23          191          0.82           -2.87     743.81       0.74 Fractals30_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
+      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         2  94.82            4         68.73           23.71      39.20       0.04 Fractals30_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+         3  94.82            4         68.73           23.71      39.20       0.04 Fractals30_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+         6  94.82            4         68.73           23.71      39.20       0.04  Fractals30_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+         7  94.82            4         68.73           23.71      39.20       0.04  Fractals30_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+         4  86.53           23          3.59            3.76      40.80       0.04  Fractals30_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+         5  73.82           20          3.15            3.69      39.20       0.04  Fractals30_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+         1  71.42           30          2.42            2.38      49.40       0.05 Fractals30_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
