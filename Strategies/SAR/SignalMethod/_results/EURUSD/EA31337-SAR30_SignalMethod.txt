@@ -11,12 +11,10 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          1 -277.90           78          0.78           -3.56     401.45       0.40 SAR30_SignalMethod=-127; MaxOrders=0; MaxOrdersPerType=0;
-          5 -278.20           77          0.78           -3.61     401.74       0.40  SAR30_SignalMethod=-99; MaxOrders=0; MaxOrdersPerType=0;
-          3 -282.40           76          0.77           -3.72     401.74       0.40 SAR30_SignalMethod=-113; MaxOrders=0; MaxOrdersPerType=0;
-          4 -282.40           76          0.77           -3.72     401.74       0.40 SAR30_SignalMethod=-106; MaxOrders=0; MaxOrdersPerType=0;
-          7 -282.40           76          0.77           -3.72     401.74       0.40  SAR30_SignalMethod=-85; MaxOrders=0; MaxOrdersPerType=0;
-          8 -282.40           76          0.77           -3.72     401.74       0.40  SAR30_SignalMethod=-78; MaxOrders=0; MaxOrdersPerType=0;
-          6 -282.10           77          0.78           -3.66     401.45       0.40  SAR30_SignalMethod=-92; MaxOrders=0; MaxOrdersPerType=0;
-          2 -354.37           81          0.74           -4.37     421.86       0.42 SAR30_SignalMethod=-120; MaxOrders=0; MaxOrdersPerType=0;
+        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           2 134.10           58          1.28            2.31     152.51       0.15 SAR30_SignalMethod=-120; MaxOrders=0; MaxOrdersPerType=0;
+           1  82.12            6          6.82           13.69      42.60       0.04 SAR30_SignalMethod=-127; MaxOrders=0; MaxOrdersPerType=0;
+           3  82.12            6          6.82           13.69      42.60       0.04 SAR30_SignalMethod=-113; MaxOrders=0; MaxOrdersPerType=0;
+           5  82.12            6          6.82           13.69      42.60       0.04  SAR30_SignalMethod=-99; MaxOrders=0; MaxOrdersPerType=0;
+           4  79.02            7          5.59           11.29      42.60       0.04 SAR30_SignalMethod=-106; MaxOrders=0; MaxOrdersPerType=0;
+           6  79.02            7          5.59           11.29      42.60       0.04  SAR30_SignalMethod=-92; MaxOrders=0; MaxOrdersPerType=0;
