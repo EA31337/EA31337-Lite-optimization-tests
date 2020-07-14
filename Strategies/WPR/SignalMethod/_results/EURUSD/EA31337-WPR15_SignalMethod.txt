@@ -6,22 +6,22 @@
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
+                            Period          15 Minutes (M15) 2019.06.02 21:01 - 2019.12.30 23:45 (2019.06.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1  85.09          250          1.04            0.34     273.23       0.27 WPR15_SignalMethod=-46; MaxOrders=0; MaxOrdersPerType=0;
-           4  85.09          250          1.04            0.34     273.23       0.27 WPR15_SignalMethod=-37; MaxOrders=0; MaxOrdersPerType=0;
-           5  85.09          250          1.04            0.34     273.23       0.27 WPR15_SignalMethod=-34; MaxOrders=0; MaxOrdersPerType=0;
-           6 -24.99          108          0.98           -0.23     337.74       0.34 WPR15_SignalMethod=-31; MaxOrders=0; MaxOrdersPerType=0;
-           7 -24.99          108          0.98           -0.23     337.74       0.34 WPR15_SignalMethod=-28; MaxOrders=0; MaxOrdersPerType=0;
-           8 -24.99          108          0.98           -0.23     337.74       0.34 WPR15_SignalMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
-           9 -24.99          108          0.98           -0.23     337.74       0.34 WPR15_SignalMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
-          10 -24.99          108          0.98           -0.23     337.74       0.34 WPR15_SignalMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
-          11 -24.99          108          0.98           -0.23     337.74       0.34 WPR15_SignalMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
-          12 -24.99          108          0.98           -0.23     337.74       0.34 WPR15_SignalMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
-          13 -24.99          108          0.98           -0.23     337.74       0.34 WPR15_SignalMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
-           3 -46.13          329          0.98           -0.14     544.25       0.54 WPR15_SignalMethod=-40; MaxOrders=0; MaxOrdersPerType=0;
-           2 -96.62          319          0.97           -0.30     496.86       0.50 WPR15_SignalMethod=-43; MaxOrders=0; MaxOrdersPerType=0;
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           3   39.53          421          1.01            0.09     625.61       0.62 WPR15_SignalMethod=-55; MaxOrders=0; MaxOrdersPerType=0;
+           1   -1.65          413          1.00           -0.00     606.10       0.60 WPR15_SignalMethod=-61; MaxOrders=0; MaxOrdersPerType=0;
+           5   -1.65          413          1.00           -0.00     606.10       0.60 WPR15_SignalMethod=-49; MaxOrders=0; MaxOrdersPerType=0;
+          11  -59.51          128          0.95           -0.46     353.64       0.35 WPR15_SignalMethod=-31; MaxOrders=0; MaxOrdersPerType=0;
+          12  -59.51          128          0.95           -0.46     353.64       0.35 WPR15_SignalMethod=-28; MaxOrders=0; MaxOrdersPerType=0;
+          13  -59.51          128          0.95           -0.46     353.64       0.35 WPR15_SignalMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
+           4 -121.83          447          0.97           -0.27     695.62       0.69 WPR15_SignalMethod=-52; MaxOrders=0; MaxOrdersPerType=0;
+           7 -123.31          388          0.96           -0.32     661.50       0.66 WPR15_SignalMethod=-43; MaxOrders=0; MaxOrdersPerType=0;
+           2 -133.60          443          0.96           -0.30     650.81       0.65 WPR15_SignalMethod=-58; MaxOrders=0; MaxOrdersPerType=0;
+           8 -226.79          408          0.93           -0.56     668.71       0.67 WPR15_SignalMethod=-40; MaxOrders=0; MaxOrdersPerType=0;
+           6 -301.23          319          0.89           -0.94     599.73       0.60 WPR15_SignalMethod=-46; MaxOrders=0; MaxOrdersPerType=0;
+           9 -301.23          319          0.89           -0.94     599.73       0.60 WPR15_SignalMethod=-37; MaxOrders=0; MaxOrdersPerType=0;
+          10 -301.23          319          0.89           -0.94     599.73       0.60 WPR15_SignalMethod=-34; MaxOrders=0; MaxOrdersPerType=0;
