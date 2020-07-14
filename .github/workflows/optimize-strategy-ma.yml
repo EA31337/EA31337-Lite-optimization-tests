@@ -18,7 +18,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
@@ -56,7 +55,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
@@ -86,17 +84,20 @@ jobs:
         working-directory: Strategies/MA/SignalMethod
     needs: Stops
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - MA1_SignalMethod
+          - MA5_SignalMethod
+          - MA15_SignalMethod
+          - MA30_SignalMethod
     steps:
       - uses: actions/checkout@v2
         with:
-          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA MA1_SignalMethod
-      - run: docker-compose run $DCA MA5_SignalMethod
-      - run: docker-compose run $DCA MA15_SignalMethod
-      - run: docker-compose run $DCA MA30_SignalMethod
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false
@@ -124,7 +125,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0

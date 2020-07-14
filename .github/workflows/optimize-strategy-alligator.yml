@@ -9,20 +9,26 @@ on:
       - 'optimize-strategy-alligator-*'
 
 jobs:
-  Periods:
+  Period:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/Alligator/Indicator
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - Alligator_Period_Jaw_Lips
+          - Alligator_Period_Jaw_Teeth
+          - Alligator_Period_Teeth_Lips
+      max-parallel: 1
     steps:
       - uses: actions/checkout@v2
         with:
-          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA Alligator_Periods
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false
@@ -45,18 +51,21 @@ jobs:
       run:
         shell: bash
         working-directory: Strategies/Alligator/Indicator
-    needs: Periods
+    needs: Period
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - Alligator_Applied_Price
+          - Alligator_Shift
+          - Alligator_SignalLevel
     steps:
       - uses: actions/checkout@v2
         with:
-          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA Alligator_Applied_Price
-      - run: docker-compose run $DCA Alligator_Shift
-      - run: docker-compose run $DCA Alligator_SignalLevel
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false
@@ -84,7 +93,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
@@ -114,17 +122,20 @@ jobs:
         working-directory: Strategies/Alligator/SignalMethod
     needs: Stops
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - Alligator1_SignalMethod
+          - Alligator5_SignalMethod
+          - Alligator15_SignalMethod
+          - Alligator30_SignalMethod
     steps:
       - uses: actions/checkout@v2
         with:
-          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA Alligator1_SignalMethod
-      - run: docker-compose run $DCA Alligator5_SignalMethod
-      - run: docker-compose run $DCA Alligator15_SignalMethod
-      - run: docker-compose run $DCA Alligator30_SignalMethod
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false
@@ -148,7 +159,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0

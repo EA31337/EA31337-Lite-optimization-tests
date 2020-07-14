@@ -10,6 +10,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M1
       SET_PARAMS: Alligator1_SignalMethod
       RUN_ON_SET: set_opt_params Alligator1_SignalMethod 0 31
       SETFILE: /opt/sets/EA31337-Alligator1_SignalMethod.set
@@ -23,6 +24,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M5
       SET_PARAMS: Alligator5_SignalMethod
       RUN_ON_SET: set_opt_params Alligator5_SignalMethod 0 31
       SETFILE: /opt/sets/EA31337-Alligator5_SignalMethod.set
@@ -36,6 +38,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M15
       SET_PARAMS: Alligator15_SignalMethod
       RUN_ON_SET: set_opt_params Alligator15_SignalMethod 0 31
       SETFILE: /opt/sets/EA31337-Alligator15_SignalMethod.set
@@ -49,6 +52,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
+      BT_PERIOD: M30
       SET_PARAMS: Alligator30_SignalMethod
       RUN_ON_SET: set_opt_params Alligator30_SignalMethod 0 31
       SETFILE: /opt/sets/EA31337-Alligator30_SignalMethod.set

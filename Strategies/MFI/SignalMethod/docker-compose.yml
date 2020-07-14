@@ -9,6 +9,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      BT_MONTHS: 6-12
+      BT_PERIOD: M1
       SET_PARAMS: MFI1_SignalMethod
       RUN_ON_SET: set_opt_params MFI1_SignalMethod -1 1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
@@ -23,6 +25,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: MFI5_SignalMethod
+      BT_PERIOD: M5
       RUN_ON_SET: set_opt_params MFI5_SignalMethod -1 1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
       SETFILE: /opt/sets/EA31337-MFI5_SignalMethod.set
@@ -36,6 +39,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: MFI15_SignalMethod
+      BT_PERIOD: M15
       RUN_ON_SET: set_opt_params MFI15_SignalMethod -1 1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
       SETFILE: /opt/sets/EA31337-MFI15_SignalMethod.set
@@ -49,6 +53,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       SET_PARAMS: MFI30_SignalMethod
+      BT_PERIOD: M30
       RUN_ON_SET: set_opt_params MFI30_SignalMethod -1 1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
       SETFILE: /opt/sets/EA31337-MFI30_SignalMethod.set
