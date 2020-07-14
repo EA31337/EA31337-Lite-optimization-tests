@@ -29,7 +29,7 @@ ATR5_SignalMethod=0
 ATR15_SignalMethod=0
 ATR30_SignalMethod=0
 # Dynamic strategy params.
-ATR_TrailingStopMethod=0
+ATR_TrailingStopMethod=7
 # Optimization params.
 ATR_TrailingProfitMethod=22
 ATR_TrailingProfitMethod,F=0
