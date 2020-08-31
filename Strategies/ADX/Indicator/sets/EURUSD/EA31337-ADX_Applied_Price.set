@@ -24,8 +24,8 @@ SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Dynamic strategy params.
 ADX_Period_M1=26
-ADX_Period_M5=4
-ADX_Period_M15=40
+ADX_Period_M5=2
+ADX_Period_M15=32
 ADX_Period_M30=16
 # Fixed strategy params.
 ADX1_SignalMethod=0
@@ -36,9 +36,9 @@ ADX_TrailingStopMethod=0
 ADX_TrailingProfitMethod=0
 # Optimization params.
 <<<<<<< Updated upstream
-ADX_Applied_Price=2
+ADX_Applied_Price=0
 =======
-ADX_Applied_Price=3
+ADX_Applied_Price=0
 >>>>>>> Stashed changes
 ADX_Applied_Price,F=0
 ADX_Applied_Price,1=0
