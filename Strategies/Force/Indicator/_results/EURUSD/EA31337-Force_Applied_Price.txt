@@ -11,6 +11,7 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
+<<<<<<< Updated upstream
          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
             1 134.52           33          1.54            4.08     146.11       0.15 Force_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
             2 134.52           33          1.54            4.08     146.11       0.15 Force_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
@@ -19,3 +20,13 @@
             5 134.52           33          1.54            4.08     146.11       0.15 Force_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
             6 134.52           33          1.54            4.08     146.11       0.15 Force_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
             7 134.52           33          1.54            4.08     146.11       0.15 Force_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+=======
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1 -1759.63         3034          0.84           -0.58    2375.72       2.37 Force_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+           7 -2085.62         3187          0.81           -0.65    2589.70       2.58 Force_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+           3 -2099.60         3057          0.81           -0.69    2629.20       2.62 Force_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+           6 -2136.78         3219          0.81           -0.66    2639.66       2.63 Force_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+           4 -2190.86         3497          0.81           -0.63    2741.37       2.73 Force_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+           5 -2256.54         3284          0.80           -0.69    2754.02       2.75 Force_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+           2 -2356.20         3439          0.80           -0.69    2844.38       2.84 Force_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes

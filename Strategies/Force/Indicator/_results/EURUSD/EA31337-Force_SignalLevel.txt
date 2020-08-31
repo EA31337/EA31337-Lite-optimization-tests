@@ -11,9 +11,18 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
+<<<<<<< Updated upstream
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
            3  134.52           33          1.54            4.08     146.11       0.15  Force_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
            4  134.52           33          1.54            4.08     146.11       0.15  Force_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
            5  134.52           33          1.54            4.08     146.11       0.15  Force_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
            1  -55.71           97          0.92           -0.57     281.24       0.28 Force_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
            2 -139.88          107          0.84           -1.31     298.17       0.30    Force_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
+=======
+       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          5 -2099.60         3057          0.81           -0.69    2629.20       2.62  Force_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
+          3 -2292.45         3709          0.82           -0.62    2812.42       2.81  Force_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
+          4 -2391.31         3306          0.79           -0.72    2828.71       2.82  Force_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
+          1 -3213.10         4320          0.77           -0.74    3645.14       3.64 Force_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
+          2 -3731.57         4893          0.77           -0.76    4142.03       4.13    Force_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
