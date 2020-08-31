@@ -11,6 +11,7 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
+<<<<<<< Updated upstream
          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
             1 -198.67          200          0.91           -0.99     442.32       0.44   SAR_Maximum_Stop=0; MaxOrders=0; MaxOrdersPerType=0;
             2 -198.67          200          0.91           -0.99     442.32       0.44 SAR_Maximum_Stop=0.1; MaxOrders=0; MaxOrdersPerType=0;
@@ -21,3 +22,15 @@
             8 -386.52          258          0.86           -1.50     695.94       0.69 SAR_Maximum_Stop=0.7; MaxOrders=0; MaxOrdersPerType=0;
             9 -386.52          258          0.86           -1.50     695.94       0.69 SAR_Maximum_Stop=0.8; MaxOrders=0; MaxOrdersPerType=0;
             3 -476.51          218          0.81           -2.19     724.29       0.72 SAR_Maximum_Stop=0.2; MaxOrders=0; MaxOrdersPerType=0;
+=======
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1 -1947.11         2435          0.85           -0.80    2146.29       2.14   SAR_Maximum_Stop=0; MaxOrders=0; MaxOrdersPerType=0;
+           2 -1947.11         2435          0.85           -0.80    2146.29       2.14 SAR_Maximum_Stop=0.1; MaxOrders=0; MaxOrdersPerType=0;
+           6 -3015.62         3333          0.83           -0.90    3657.08       3.64 SAR_Maximum_Stop=0.5; MaxOrders=0; MaxOrdersPerType=0;
+           7 -3023.44         3341          0.83           -0.90    3661.69       3.65 SAR_Maximum_Stop=0.6; MaxOrders=0; MaxOrdersPerType=0;
+           8 -3031.94         3342          0.83           -0.91    3668.39       3.65 SAR_Maximum_Stop=0.7; MaxOrders=0; MaxOrdersPerType=0;
+           9 -3031.94         3342          0.83           -0.91    3668.39       3.65 SAR_Maximum_Stop=0.8; MaxOrders=0; MaxOrdersPerType=0;
+           5 -3161.89         3315          0.82           -0.95    3875.77       3.86 SAR_Maximum_Stop=0.4; MaxOrders=0; MaxOrdersPerType=0;
+           3 -3263.97         3095          0.80           -1.05    3852.16       3.84 SAR_Maximum_Stop=0.2; MaxOrders=0; MaxOrdersPerType=0;
+           4 -3295.02         3320          0.81           -0.99    3907.78       3.89 SAR_Maximum_Stop=0.3; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes

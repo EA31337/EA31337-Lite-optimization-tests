@@ -11,6 +11,7 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
+<<<<<<< Updated upstream
             Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
                1  307.87          307          1.10            1.00     383.48       0.38 SAR_Step=0.01; MaxOrders=0; MaxOrdersPerType=0;
                2   63.64          248          1.02            0.26     360.29       0.36 SAR_Step=0.02; MaxOrders=0; MaxOrdersPerType=0;
@@ -22,3 +23,16 @@
                8 -280.83          232          0.89           -1.21     576.10       0.57 SAR_Step=0.08; MaxOrders=0; MaxOrdersPerType=0;
                9 -319.99          249          0.88           -1.29     625.72       0.62 SAR_Step=0.09; MaxOrders=0; MaxOrdersPerType=0;
                7 -356.63          230          0.86           -1.55     665.49       0.66 SAR_Step=0.07; MaxOrders=0; MaxOrdersPerType=0;
+=======
+            Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+               1 -1608.73         2835          0.89           -0.57    2333.47       2.33 SAR_Step=0.01; MaxOrders=0; MaxOrdersPerType=0;
+               3 -2164.62         2849          0.85           -0.76    2254.22       2.25 SAR_Step=0.03; MaxOrders=0; MaxOrdersPerType=0;
+               2 -2439.58         2841          0.84           -0.86    2790.97       2.78 SAR_Step=0.02; MaxOrders=0; MaxOrdersPerType=0;
+               8 -2487.40         3166          0.85           -0.79    3245.38       3.23 SAR_Step=0.08; MaxOrders=0; MaxOrdersPerType=0;
+               4 -2489.58         3078          0.84           -0.81    2607.04       2.60 SAR_Step=0.04; MaxOrders=0; MaxOrdersPerType=0;
+               5 -2593.02         3182          0.84           -0.81    2934.52       2.92 SAR_Step=0.05; MaxOrders=0; MaxOrdersPerType=0;
+               6 -2775.39         3178          0.83           -0.87    3191.58       3.18 SAR_Step=0.06; MaxOrders=0; MaxOrdersPerType=0;
+               7 -2819.21         3273          0.83           -0.86    3477.63       3.47 SAR_Step=0.07; MaxOrders=0; MaxOrdersPerType=0;
+               9 -3295.02         3320          0.81           -0.99    3907.78       3.89 SAR_Step=0.09; MaxOrders=0; MaxOrdersPerType=0;
+              10 -3611.97         3369          0.80           -1.07    4271.00       4.25  SAR_Step=0.1; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
