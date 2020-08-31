@@ -11,6 +11,7 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
+<<<<<<< Updated upstream
      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
         1   0.00            0          0.00            0.00       0.00       0.00   CCI_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
         2   0.00            0          0.00            0.00       0.00       0.00  CCI_TrailingProfitMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
@@ -62,3 +63,56 @@
        48   0.00            0          0.00            0.00       0.00       0.00 CCI_TrailingProfitMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
        49   0.00            0          0.00            0.00       0.00       0.00  CCI_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
        50   0.00            0          0.00            0.00       0.00       0.00 CCI_TrailingProfitMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
+=======
+    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      36  -587.62         1824          0.92           -0.32     744.94       0.74 CCI_TrailingProfitMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
+      12  -649.66         1763          0.92           -0.37     863.94       0.86  CCI_TrailingProfitMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+      50  -698.24         1822          0.91           -0.38     875.61       0.88 CCI_TrailingProfitMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
+      11  -700.16         1753          0.91           -0.40     815.66       0.82   CCI_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+      29  -703.61         1736          0.91           -0.41     865.85       0.87  CCI_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+      31  -712.71         1737          0.91           -0.41     859.05       0.86  CCI_TrailingProfitMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+      21  -726.37         1737          0.91           -0.42     858.85       0.86  CCI_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+      46  -734.13         1855          0.90           -0.40     907.00       0.91 CCI_TrailingProfitMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
+       8  -747.08         1860          0.90           -0.40     875.44       0.88  CCI_TrailingProfitMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
+      14  -758.90         1749          0.90           -0.43     912.44       0.91  CCI_TrailingProfitMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
+       7  -766.65         1846          0.90           -0.42     861.76       0.86   CCI_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+      48  -778.86         1846          0.89           -0.42     873.50       0.87 CCI_TrailingProfitMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
+      13  -779.81         1741          0.90           -0.45     895.31       0.89   CCI_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+      15  -784.98         1762          0.90           -0.45     900.48       0.90   CCI_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+      34  -795.02         1821          0.89           -0.44     895.72       0.90 CCI_TrailingProfitMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
+      45  -801.98         1821          0.89           -0.44     874.58       0.87  CCI_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+      30  -815.89         1756          0.89           -0.46     975.44       0.97 CCI_TrailingProfitMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+      47  -816.11         1810          0.89           -0.45     895.42       0.90  CCI_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+      38  -817.38         1763          0.89           -0.46     986.44       0.99 CCI_TrailingProfitMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+      22  -817.25         1759          0.89           -0.46     962.94       0.96 CCI_TrailingProfitMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
+      32  -826.89         1761          0.89           -0.47     977.94       0.98 CCI_TrailingProfitMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
+      37  -832.11         1748          0.89           -0.48     984.15       0.98  CCI_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+      44  -837.12         1770          0.89           -0.47     969.54       0.97 CCI_TrailingProfitMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
+      43  -845.80         1745          0.89           -0.48     995.75       1.00  CCI_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+      41  -845.73         1749          0.89           -0.48     993.45       0.99  CCI_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+       2  -846.15         1761          0.89           -0.48     988.54       0.99  CCI_TrailingProfitMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+      42  -858.62         1770          0.89           -0.49     992.34       0.99 CCI_TrailingProfitMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+       1  -859.05         1744          0.89           -0.49     997.64       1.00   CCI_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+       9  -880.47         1803          0.88           -0.49     973.97       0.97   CCI_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+      28  -915.92         1797          0.88           -0.51    1022.53       1.02 CCI_TrailingProfitMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
+      16  -919.17         1766          0.88           -0.52    1039.30       1.04  CCI_TrailingProfitMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
+      49  -933.83         1799          0.88           -0.52    1024.33       1.02  CCI_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+      24  -933.65         1813          0.88           -0.51    1037.05       1.04 CCI_TrailingProfitMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
+      10  -950.83         1815          0.87           -0.52    1065.84       1.07  CCI_TrailingProfitMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
+      20  -974.05         1833          0.87           -0.53    1087.35       1.09 CCI_TrailingProfitMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
+      17  -981.31         1767          0.87           -0.56    1091.21       1.09   CCI_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+      40  -997.28         1787          0.87           -0.56    1107.18       1.11 CCI_TrailingProfitMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
+      19 -1022.23         1817          0.87           -0.56    1132.94       1.13  CCI_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+      23 -1049.83         1802          0.86           -0.58    1160.13       1.16  CCI_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+      27 -1062.54         1793          0.86           -0.59    1173.24       1.17  CCI_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+      33 -1082.03         1812          0.86           -0.60    1194.03       1.19  CCI_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+      26 -1084.25         1820          0.86           -0.60    1194.85       1.19 CCI_TrailingProfitMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
+      39 -1088.98         1784          0.86           -0.61    1199.68       1.20  CCI_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+      25 -1103.03         1804          0.86           -0.61    1213.73       1.21  CCI_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+       6 -1116.76         1940          0.85           -0.58    1177.66       1.18  CCI_TrailingProfitMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
+      35 -1132.74         1803          0.85           -0.63    1245.54       1.25  CCI_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+      18 -1134.21         1773          0.86           -0.64    1244.11       1.24  CCI_TrailingProfitMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
+       5 -1136.04         1925          0.85           -0.59    1196.94       1.20   CCI_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+       3 -1305.49         1996          0.82           -0.65    1366.29       1.37   CCI_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+       4 -1485.83         2012          0.80           -0.74    1546.63       1.55  CCI_TrailingProfitMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
