@@ -11,59 +11,6 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-<<<<<<< Updated upstream
-       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          1   0.00            0          0.00            0.00       0.00       0.00   AD_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-          2   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-          3   0.00            0          0.00            0.00       0.00       0.00   AD_TrailingStopMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-          4   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
-          5   0.00            0          0.00            0.00       0.00       0.00   AD_TrailingStopMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-          6   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
-          7   0.00            0          0.00            0.00       0.00       0.00   AD_TrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=0;
-          8   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
-          9   0.00            0          0.00            0.00       0.00       0.00   AD_TrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=0;
-         10   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
-         11   0.00            0          0.00            0.00       0.00       0.00   AD_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=0;
-         12   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
-         13   0.00            0          0.00            0.00       0.00       0.00   AD_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-         14   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
-         15   0.00            0          0.00            0.00       0.00       0.00   AD_TrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=0;
-         16   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
-         17   0.00            0          0.00            0.00       0.00       0.00   AD_TrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=0;
-         18   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
-         19   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=10; MaxOrders=0; MaxOrdersPerType=0;
-         20   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
-         21   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=0;
-         22   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
-         23   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=12; MaxOrders=0; MaxOrdersPerType=0;
-         24   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
-         25   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=13; MaxOrders=0; MaxOrdersPerType=0;
-         26   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
-         27   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-         28   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
-         29   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=0;
-         30   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
-         31   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=16; MaxOrders=0; MaxOrdersPerType=0;
-         32   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
-         33   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=17; MaxOrders=0; MaxOrdersPerType=0;
-         34   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
-         35   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=18; MaxOrders=0; MaxOrdersPerType=0;
-         36   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
-         37   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=0;
-         38   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
-         39   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=20; MaxOrders=0; MaxOrdersPerType=0;
-         40   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
-         41   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-         42   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
-         43   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=0;
-         44   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
-         45   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=23; MaxOrders=0; MaxOrdersPerType=0;
-         46   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
-         47   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=0;
-         48   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
-         49   0.00            0          0.00            0.00       0.00       0.00  AD_TrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=0;
-         50   0.00            0          0.00            0.00       0.00       0.00 AD_TrailingStopMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
-=======
       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
         15 -2581.81         3024          0.72           -0.85    2621.51       2.62  AD_TrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=0;
          9 -2584.11         3025          0.72           -0.85    2623.81       2.62   AD_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=0;
@@ -99,4 +46,3 @@
          6 -2839.19         3150          0.71           -0.90    2878.89       2.88  AD_TrailingStopMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
         18 -2875.26         3239          0.71           -0.89    2914.96       2.91 AD_TrailingStopMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
         17 -2899.96         3240          0.71           -0.90    2939.66       2.94  AD_TrailingStopMethod=14; MaxOrders=0; MaxOrdersPerType=0;
->>>>>>> Stashed changes
