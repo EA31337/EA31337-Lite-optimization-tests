@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,9 +11,9 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            1 103.57          280          1.04            0.37     499.84       0.50 Force_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
-            2 103.57          280          1.04            0.37     499.84       0.50 Force_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
-            3 103.57          280          1.04            0.37     499.84       0.50 Force_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
-            4 103.57          280          1.04            0.37     499.84       0.50 Force_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
-            5 103.57          280          1.04            0.37     499.84       0.50 Force_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=0;
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           3  134.52           33          1.54            4.08     146.11       0.15  Force_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
+           4  134.52           33          1.54            4.08     146.11       0.15  Force_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
+           5  134.52           33          1.54            4.08     146.11       0.15  Force_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
+           1  -55.71           97          0.92           -0.57     281.24       0.28 Force_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
+           2 -139.88          107          0.84           -1.31     298.17       0.30    Force_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;

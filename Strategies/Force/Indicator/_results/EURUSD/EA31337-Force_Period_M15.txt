@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -12,8 +12,8 @@
                             Spread          10
                                                                  [Optimization Graph]
           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1 -78.76          237          0.96           -0.33     443.34       0.44  Force_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
-             2 -78.76          237          0.96           -0.33     443.34       0.44  Force_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
-             3 -78.76          237          0.96           -0.33     443.34       0.44  Force_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
-             4 -78.76          237          0.96           -0.33     443.34       0.44  Force_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
-             5 -78.76          237          0.96           -0.33     443.34       0.44 Force_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
+             1   0.00            0          0.00            0.00       0.00       0.00  Force_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
+             2   0.00            0          0.00            0.00       0.00       0.00  Force_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
+             3   0.00            0          0.00            0.00       0.00       0.00  Force_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
+             4   0.00            0          0.00            0.00       0.00       0.00  Force_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
+             5   0.00            0          0.00            0.00       0.00       0.00 Force_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
