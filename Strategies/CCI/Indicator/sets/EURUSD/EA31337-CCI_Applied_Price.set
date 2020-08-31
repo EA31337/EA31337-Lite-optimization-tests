@@ -35,9 +35,15 @@ CCI_Period_M5=22
 CCI_Period_M15=2
 CCI_Period_M30=2
 CCI_Shift=0
+<<<<<<< Updated upstream
 CCI_SignalLevel=99
 # Optimization params.
 CCI_Applied_Price=6
+=======
+CCI_SignalLevel=121
+# Optimization params.
+CCI_Applied_Price=5
+>>>>>>> Stashed changes
 CCI_Applied_Price,F=0
 CCI_Applied_Price,1=0
 CCI_Applied_Price,2=0
