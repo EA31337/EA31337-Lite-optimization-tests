@@ -38,7 +38,7 @@ Bands_HShift=2
 Bands_Shift=0
 Bands_SignalLevel=18
 # Optimization params.
-Bands_Deviation_M15=0.4
+Bands_Deviation_M15=0.1
 Bands_Deviation_M15,F=0
 Bands_Deviation_M15,1=0
 Bands_Deviation_M15,2=0
