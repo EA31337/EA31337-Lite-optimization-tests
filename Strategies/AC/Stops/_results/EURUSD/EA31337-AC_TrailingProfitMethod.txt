@@ -11,59 +11,6 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-<<<<<<< Updated upstream
-      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        36 193.75           25          2.76            7.75     101.71       0.10 AC_TrailingProfitMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
-        35 165.15           25          2.42            6.61     101.71       0.10  AC_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
-        13 155.85           24          1.96            6.49     146.11       0.15   AC_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-        33 155.85           25          2.20            6.23     105.01       0.10  AC_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
-        34 147.05           25          2.15            5.88     105.01       0.10 AC_TrailingProfitMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
-        11 146.05           24          1.86            6.09     146.11       0.15   AC_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
-        12 140.95           23          1.90            6.13     146.11       0.15  AC_TrailingProfitMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
-        14 140.95           23          1.90            6.13     146.11       0.15  AC_TrailingProfitMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
-        37 135.55           24          1.82            5.65     149.02       0.15  AC_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
-        21 134.25           24          1.81            5.59     149.02       0.15  AC_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
-        43 133.65           24          1.81            5.57     149.02       0.15  AC_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
-        29 132.95           24          1.80            5.54     149.02       0.15  AC_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
-        31 131.95           24          1.80            5.50     149.02       0.15  AC_TrailingProfitMethod=16; MaxOrders=0; MaxOrdersPerType=0;
-        16 129.85           23          1.83            5.65     146.11       0.15  AC_TrailingProfitMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
-         7 121.15           24          1.73            5.05     146.11       0.15   AC_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
-        41 121.85           24          1.74            5.08     149.02       0.15  AC_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-         1 120.25           24          1.73            5.01     149.02       0.15   AC_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-         9 119.15           24          1.68            4.96     146.11       0.15   AC_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
-        15 119.95           24          1.73            5.00     146.11       0.15   AC_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
-        23 116.45           25          1.74            4.66     146.11       0.15  AC_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
-        24 112.25           25          1.71            4.49     146.11       0.15 AC_TrailingProfitMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
-        40 111.55           24          1.64            4.65     146.11       0.15 AC_TrailingProfitMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
-        17 110.05           25          2.36            4.40      72.51       0.07   AC_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
-        18 110.05           25          2.36            4.40      72.51       0.07  AC_TrailingProfitMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
-         2 109.85           23          1.68            4.78     149.02       0.15  AC_TrailingProfitMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-        22 109.85           23          1.68            4.78     149.02       0.15 AC_TrailingProfitMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
-        30 109.85           23          1.68            4.78     149.02       0.15 AC_TrailingProfitMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
-        32 109.85           23          1.68            4.78     149.02       0.15 AC_TrailingProfitMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
-        38 109.85           23          1.68            4.78     149.02       0.15 AC_TrailingProfitMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
-        42 109.85           23          1.68            4.78     149.02       0.15 AC_TrailingProfitMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
-        44 109.85           23          1.68            4.78     149.02       0.15 AC_TrailingProfitMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
-        39 104.65           24          1.60            4.36     146.11       0.15  AC_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=0;
-        20  97.75           24          1.57            4.07     146.11       0.15 AC_TrailingProfitMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
-        10  96.75           24          1.58            4.03     146.11       0.15  AC_TrailingProfitMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
-        28  95.75           24          1.54            3.99     146.11       0.15 AC_TrailingProfitMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
-        25  93.15           24          1.52            3.88     146.11       0.15  AC_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
-        19  93.25           24          1.52            3.89     146.11       0.15  AC_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=0;
-        27  89.35           24          1.50            3.72     146.11       0.15  AC_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-        50  89.35           26          1.56            3.44     141.51       0.14 AC_TrailingProfitMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
-        49  85.55           26          1.53            3.29     141.51       0.14  AC_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
-         8  78.05           24          1.48            3.25     146.11       0.15  AC_TrailingProfitMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
-         3  69.35           25          1.88            2.77      68.71       0.07   AC_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-        26  64.65           24          1.37            2.69     146.11       0.15 AC_TrailingProfitMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
-         4  59.25           25          1.75            2.37      68.71       0.07  AC_TrailingProfitMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
-         5  51.85           25          1.47            2.07     101.61       0.10   AC_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-         6  47.25           25          1.43            1.89     101.61       0.10  AC_TrailingProfitMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
-        47  -1.15           27          0.99           -0.04     103.11       0.10  AC_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
-        48  -2.05           27          0.98           -0.08     103.11       0.10 AC_TrailingProfitMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
-        45  -4.15           27          0.96           -0.15     103.11       0.10  AC_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
-        46  -9.55           27          0.92           -0.35     103.11       0.10 AC_TrailingProfitMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
-=======
      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
         8   142.68          403          1.05            0.35     297.80       0.30  AC_TrailingProfitMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
        12    95.90          384          1.03            0.25     359.11       0.36  AC_TrailingProfitMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
@@ -115,4 +62,3 @@
        46 -1847.25         1740          0.30           -1.06    1900.97       1.90 AC_TrailingProfitMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
        49 -2006.48         2074          0.12           -0.97    2026.91       2.03  AC_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
        50 -2029.68         2077          0.11           -0.98    2047.81       2.05 AC_TrailingProfitMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
->>>>>>> Stashed changes
