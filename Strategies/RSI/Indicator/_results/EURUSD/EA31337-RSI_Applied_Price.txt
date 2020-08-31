@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -12,10 +12,10 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            2  298.80          256          1.16            1.17     231.59       0.23 RSI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-            1  115.87          201          1.07            0.58     287.53       0.29 RSI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-            3   96.73          395          1.04            0.24     307.41       0.31 RSI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-            7   57.48          357          1.02            0.16     270.75       0.27 RSI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-            6   31.30          390          1.01            0.08     331.64       0.33 RSI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-            5  -13.23          379          1.00           -0.03     421.11       0.42 RSI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-            4 -430.97          304          0.84           -1.42     547.97       0.55 RSI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+            7  349.50          167          1.27            2.09     233.18       0.23 RSI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+            6  326.89          191          1.22            1.71     281.54       0.28 RSI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+            2  138.16          108          1.17            1.28     277.70       0.28 RSI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            5   74.30          189          1.05            0.39     253.97       0.25 RSI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+            3   10.98          166          1.01            0.07     309.20       0.31 RSI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+            1  -22.15           59          0.96           -0.38     262.65       0.26 RSI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+            4 -273.60          135          0.81           -2.03     420.81       0.42 RSI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
