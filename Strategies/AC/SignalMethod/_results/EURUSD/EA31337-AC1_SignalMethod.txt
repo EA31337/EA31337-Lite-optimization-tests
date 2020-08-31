@@ -2,16 +2,16 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1  -1.90           12          0.92           -0.16      42.10       0.04 AC1_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-             2  -1.90           12          0.92           -0.16      42.10       0.04  AC1_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-             3  -5.30           11          0.79           -0.48      42.10       0.04  AC1_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+             1  44.40           34          1.24            1.31     104.20       0.10 AC1_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+             2  44.40           34          1.24            1.31     104.20       0.10  AC1_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+             3  23.40           23          1.23            1.02      51.60       0.05  AC1_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
