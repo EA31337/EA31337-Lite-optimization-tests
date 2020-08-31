@@ -30,7 +30,7 @@ MACD30_SignalMethod=0
 # Dynamic strategy params.
 MACD_TrailingStopMethod=12
 # Optimization params.
-MACD_TrailingProfitMethod=-2
+MACD_TrailingProfitMethod=9
 MACD_TrailingProfitMethod,F=0
 MACD_TrailingProfitMethod,1=0
 MACD_TrailingProfitMethod,2=0
