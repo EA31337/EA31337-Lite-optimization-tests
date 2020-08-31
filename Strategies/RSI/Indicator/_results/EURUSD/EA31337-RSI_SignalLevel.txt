@@ -11,6 +11,7 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
+<<<<<<< Updated upstream
           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
              9  156.96          106          1.23            1.48     205.34       0.21 RSI_SignalLevel=44; MaxOrders=0; MaxOrdersPerType=0;
              8   -5.02          166          1.00           -0.03     309.20       0.31 RSI_SignalLevel=42; MaxOrders=0; MaxOrdersPerType=0;
@@ -21,3 +22,15 @@
              3 -525.33          403          0.82           -1.30     905.40       0.90 RSI_SignalLevel=32; MaxOrders=0; MaxOrdersPerType=0;
              1 -581.46          481          0.82           -1.21     766.96       0.77 RSI_SignalLevel=28; MaxOrders=0; MaxOrdersPerType=0;
              2 -827.38          451          0.74           -1.83    1051.37       1.05 RSI_SignalLevel=30; MaxOrders=0; MaxOrdersPerType=0;
+=======
+         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            9   378.41          662          1.12            0.57     396.61       0.39 RSI_SignalLevel=44; MaxOrders=0; MaxOrdersPerType=0;
+            8   334.74          971          1.08            0.34     409.42       0.41 RSI_SignalLevel=42; MaxOrders=0; MaxOrdersPerType=0;
+            7   -80.78         1255          0.98           -0.06     627.49       0.63 RSI_SignalLevel=40; MaxOrders=0; MaxOrdersPerType=0;
+            6  -760.28         1532          0.87           -0.50    1100.92       1.10 RSI_SignalLevel=38; MaxOrders=0; MaxOrdersPerType=0;
+            4  -965.96         2019          0.87           -0.48    1194.67       1.19 RSI_SignalLevel=34; MaxOrders=0; MaxOrdersPerType=0;
+            5  -994.50         1764          0.85           -0.56    1164.02       1.16 RSI_SignalLevel=36; MaxOrders=0; MaxOrdersPerType=0;
+            3 -2170.25         2241          0.76           -0.97    2245.28       2.25 RSI_SignalLevel=32; MaxOrders=0; MaxOrdersPerType=0;
+            1 -2232.21         2710          0.78           -0.82    2272.15       2.27 RSI_SignalLevel=28; MaxOrders=0; MaxOrdersPerType=0;
+            2 -2377.52         2410          0.75           -0.99    2477.76       2.48 RSI_SignalLevel=30; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
