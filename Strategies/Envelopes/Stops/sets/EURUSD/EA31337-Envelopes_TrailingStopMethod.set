@@ -29,7 +29,11 @@ Envelopes15_SignalMethod=0
 Envelopes30_SignalMethod=0
 Envelopes_TrailingProfitMethod=0
 # Optimization params.
+<<<<<<< Updated upstream
 Envelopes_TrailingStopMethod=12
+=======
+Envelopes_TrailingStopMethod=-20
+>>>>>>> Stashed changes
 Envelopes_TrailingStopMethod,F=0
 Envelopes_TrailingStopMethod,1=0
 Envelopes_TrailingStopMethod,2=0
