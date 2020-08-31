@@ -12,8 +12,16 @@
                              Spread          10
                                                                  [Optimization Graph]
              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+<<<<<<< Updated upstream
                 1  151.67          295          1.06            0.51     359.19       0.36 MA_Shift=11; MaxOrders=0; MaxOrdersPerType=0;
                 3  146.36          254          1.06            0.58     269.96       0.27 MA_Shift=13; MaxOrders=0; MaxOrdersPerType=0;
                 2  132.05          279          1.05            0.47     260.77       0.26 MA_Shift=12; MaxOrders=0; MaxOrdersPerType=0;
                 4    6.42          261          1.00            0.02     337.10       0.34 MA_Shift=14; MaxOrders=0; MaxOrdersPerType=0;
                 5 -136.55          258          0.95           -0.53     308.63       0.31 MA_Shift=15; MaxOrders=0; MaxOrdersPerType=0;
+=======
+                3 -134.81         1278          0.98           -0.11     922.16       0.92 MA_Shift=13; MaxOrders=0; MaxOrdersPerType=0;
+                5 -505.01         1340          0.93           -0.38    1244.52       1.24 MA_Shift=15; MaxOrders=0; MaxOrdersPerType=0;
+                4 -511.03         1345          0.93           -0.38    1208.85       1.20 MA_Shift=14; MaxOrders=0; MaxOrdersPerType=0;
+                2 -557.29         1289          0.92           -0.43    1112.24       1.11 MA_Shift=12; MaxOrders=0; MaxOrdersPerType=0;
+                1 -637.42         1318          0.91           -0.48    1388.40       1.38 MA_Shift=11; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
