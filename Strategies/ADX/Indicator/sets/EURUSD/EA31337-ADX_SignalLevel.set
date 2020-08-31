@@ -35,7 +35,11 @@ ADX30_SignalMethod=0
 ADX_TrailingStopMethod=0
 ADX_TrailingProfitMethod=0
 # Optimization params.
+<<<<<<< Updated upstream
 ADX_SignalLevel=17.9
+=======
+ADX_SignalLevel=18.5
+>>>>>>> Stashed changes
 ADX_SignalLevel,F=0
 ADX_SignalLevel,1=0
 ADX_SignalLevel,2=0
