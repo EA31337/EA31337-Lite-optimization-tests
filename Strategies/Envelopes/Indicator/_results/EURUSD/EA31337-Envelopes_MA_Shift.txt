@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -12,12 +12,9 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            2 -454.85          509          0.91           -0.89     964.33       0.96 Envelopes_MA_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
-            1 -463.39          474          0.90           -0.98     960.11       0.96 Envelopes_MA_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
-            8 -595.59          657          0.90           -0.91    1218.20       1.22 Envelopes_MA_Shift=7; MaxOrders=0; MaxOrdersPerType=0;
-            4 -672.73          557          0.88           -1.21    1106.11       1.11 Envelopes_MA_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
-            6 -719.23          595          0.87           -1.21    1210.50       1.21 Envelopes_MA_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
-            7 -835.35          624          0.86           -1.34    1315.60       1.32 Envelopes_MA_Shift=6; MaxOrders=0; MaxOrdersPerType=0;
-            3 -847.38          538          0.84           -1.58    1211.97       1.21 Envelopes_MA_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
-            5 -862.74          576          0.85           -1.50    1309.41       1.31 Envelopes_MA_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
-            9 -955.50          702          0.85           -1.36    1441.64       1.44 Envelopes_MA_Shift=8; MaxOrders=0; MaxOrdersPerType=0;
+            2   -5.13           10          0.96           -0.51     113.70       0.11 Envelopes_MA_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+            1  -29.17            1          0.00          -29.17      87.47       0.09 Envelopes_MA_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+            5  -46.64           31          0.84           -1.50     180.74       0.18 Envelopes_MA_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
+            3 -113.85           20          0.55           -5.69     221.62       0.22 Envelopes_MA_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+            4 -122.15           24          0.51           -5.09     215.44       0.22 Envelopes_MA_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
+            6 -229.11           41          0.44           -5.59     322.41       0.32 Envelopes_MA_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
