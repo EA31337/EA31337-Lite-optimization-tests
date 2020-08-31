@@ -2,15 +2,15 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-    Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       1 338.94         1221          1.05            0.28    1017.20       1.00 CloseConditionOnlyProfitable=0; MaxOrders=0; MaxOrdersPerType=0;
-       2  51.16         1176          1.01            0.04     960.47       0.95 CloseConditionOnlyProfitable=1; MaxOrders=0; MaxOrdersPerType=0;
+    Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       1 6561.28          540          1.38           12.15    2795.15       2.61 CloseConditionOnlyProfitable=0; MaxOrders=0; MaxOrdersPerType=0;
+       2 4014.65          704          1.11            5.70    7354.88       6.76 CloseConditionOnlyProfitable=1; MaxOrders=0; MaxOrdersPerType=0;
