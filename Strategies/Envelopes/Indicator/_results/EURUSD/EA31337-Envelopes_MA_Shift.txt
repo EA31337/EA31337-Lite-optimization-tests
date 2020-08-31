@@ -11,6 +11,7 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
+<<<<<<< Updated upstream
          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
             2   -5.13           10          0.96           -0.51     113.70       0.11 Envelopes_MA_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
             1  -29.17            1          0.00          -29.17      87.47       0.09 Envelopes_MA_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
@@ -18,3 +19,9 @@
             3 -113.85           20          0.55           -5.69     221.62       0.22 Envelopes_MA_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
             4 -122.15           24          0.51           -5.09     215.44       0.22 Envelopes_MA_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
             6 -229.11           41          0.44           -5.59     322.41       0.32 Envelopes_MA_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
+=======
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1 -1325.69         1064          0.82           -1.25    1703.36       1.70 Envelopes_MA_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+           3 -1338.72         1181          0.84           -1.13    1915.44       1.92 Envelopes_MA_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
+           2 -1430.63         1116          0.81           -1.28    1877.45       1.88 Envelopes_MA_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
