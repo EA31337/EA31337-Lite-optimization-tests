@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,15 +11,15 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            6 -1723.66         1271          0.78           -1.36    1756.79       1.76 MFI_SignalLevel=2.5; MaxOrders=0; MaxOrdersPerType=0;
-            9 -1723.22         1272          0.78           -1.35    1756.34       1.76 MFI_SignalLevel=2.8; MaxOrders=0; MaxOrdersPerType=0;
-           11 -1724.70         1273          0.78           -1.35    1757.83       1.76   MFI_SignalLevel=3; MaxOrders=0; MaxOrdersPerType=0;
-           10 -1740.71         1271          0.77           -1.37    1773.84       1.77 MFI_SignalLevel=2.9; MaxOrders=0; MaxOrdersPerType=0;
-            8 -1748.12         1278          0.77           -1.37    1781.24       1.78 MFI_SignalLevel=2.7; MaxOrders=0; MaxOrdersPerType=0;
-            5 -1773.68         1279          0.77           -1.39    1806.80       1.81 MFI_SignalLevel=2.4; MaxOrders=0; MaxOrdersPerType=0;
-            4 -1801.98         1281          0.77           -1.41    1835.10       1.83 MFI_SignalLevel=2.3; MaxOrders=0; MaxOrdersPerType=0;
-            3 -1804.78         1288          0.77           -1.40    1837.91       1.84 MFI_SignalLevel=2.2; MaxOrders=0; MaxOrdersPerType=0;
-            7 -1821.76         1268          0.77           -1.44    1854.88       1.85 MFI_SignalLevel=2.6; MaxOrders=0; MaxOrdersPerType=0;
-            2 -1830.42         1288          0.77           -1.42    1863.54       1.86 MFI_SignalLevel=2.1; MaxOrders=0; MaxOrdersPerType=0;
-            1 -1854.72         1293          0.77           -1.43    1887.85       1.89   MFI_SignalLevel=2; MaxOrders=0; MaxOrdersPerType=0;
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            9 -206.47           78          0.79           -2.65     365.38       0.37 MFI_SignalLevel=2.8; MaxOrders=0; MaxOrdersPerType=0;
+           10 -206.47           78          0.79           -2.65     365.38       0.37 MFI_SignalLevel=2.9; MaxOrders=0; MaxOrdersPerType=0;
+           11 -206.47           78          0.79           -2.65     365.38       0.37   MFI_SignalLevel=3; MaxOrders=0; MaxOrdersPerType=0;
+            8 -228.87           80          0.78           -2.86     365.38       0.37 MFI_SignalLevel=2.7; MaxOrders=0; MaxOrdersPerType=0;
+            6 -267.48           80          0.75           -3.34     403.99       0.40 MFI_SignalLevel=2.5; MaxOrders=0; MaxOrdersPerType=0;
+            7 -267.48           80          0.75           -3.34     403.99       0.40 MFI_SignalLevel=2.6; MaxOrders=0; MaxOrdersPerType=0;
+            2 -293.59           82          0.73           -3.58     403.99       0.40 MFI_SignalLevel=2.1; MaxOrders=0; MaxOrdersPerType=0;
+            1 -307.50           84          0.72           -3.66     416.29       0.42   MFI_SignalLevel=2; MaxOrders=0; MaxOrdersPerType=0;
+            3 -320.59           82          0.71           -3.91     403.99       0.40 MFI_SignalLevel=2.2; MaxOrders=0; MaxOrdersPerType=0;
+            4 -320.59           82          0.71           -3.91     403.99       0.40 MFI_SignalLevel=2.3; MaxOrders=0; MaxOrdersPerType=0;
+            5 -320.59           82          0.71           -3.91     403.99       0.40 MFI_SignalLevel=2.4; MaxOrders=0; MaxOrdersPerType=0;
