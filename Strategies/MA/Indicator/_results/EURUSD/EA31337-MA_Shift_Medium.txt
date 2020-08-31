@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,9 +11,9 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             5 -102.88          631          0.98           -0.16     751.57       0.75 MA_Shift_Medium=11; MaxOrders=0; MaxOrdersPerType=0;
-             3 -324.98          613          0.93           -0.53     801.04       0.80  MA_Shift_Medium=9; MaxOrders=0; MaxOrdersPerType=0;
-             1 -325.83          562          0.93           -0.58     696.79       0.69  MA_Shift_Medium=7; MaxOrders=0; MaxOrdersPerType=0;
-             2 -366.00          579          0.92           -0.63     874.29       0.87  MA_Shift_Medium=8; MaxOrders=0; MaxOrdersPerType=0;
-             4 -464.85          635          0.91           -0.73     963.78       0.96 MA_Shift_Medium=10; MaxOrders=0; MaxOrdersPerType=0;
+          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             5 371.43          228          1.21            1.63     240.76       0.24 MA_Shift_Medium=13; MaxOrders=0; MaxOrdersPerType=0;
+             4 219.44          252          1.10            0.87     202.37       0.20 MA_Shift_Medium=12; MaxOrders=0; MaxOrdersPerType=0;
+             3 147.75          286          1.06            0.52     234.93       0.23 MA_Shift_Medium=11; MaxOrders=0; MaxOrdersPerType=0;
+             1 132.05          279          1.05            0.47     260.77       0.26  MA_Shift_Medium=9; MaxOrders=0; MaxOrdersPerType=0;
+             2   5.71          296          1.00            0.02     232.44       0.23 MA_Shift_Medium=10; MaxOrders=0; MaxOrdersPerType=0;

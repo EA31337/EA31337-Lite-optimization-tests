@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,9 +11,9 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              4 -244.78          575          0.95           -0.43     823.57       0.82 MA_Shift_Fast=11; MaxOrders=0; MaxOrdersPerType=0;
-              1 -263.49          622          0.95           -0.42     814.95       0.81  MA_Shift_Fast=8; MaxOrders=0; MaxOrdersPerType=0;
-              3 -324.98          613          0.93           -0.53     801.04       0.80 MA_Shift_Fast=10; MaxOrders=0; MaxOrdersPerType=0;
-              5 -409.56          551          0.90           -0.74     895.05       0.89 MA_Shift_Fast=12; MaxOrders=0; MaxOrdersPerType=0;
-              2 -565.03          634          0.89           -0.89     918.08       0.92  MA_Shift_Fast=9; MaxOrders=0; MaxOrdersPerType=0;
+           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              3 302.93          255          1.14            1.19     241.76       0.24 MA_Shift_Fast=11; MaxOrders=0; MaxOrdersPerType=0;
+              2 132.05          279          1.05            0.47     260.77       0.26 MA_Shift_Fast=10; MaxOrders=0; MaxOrdersPerType=0;
+              5 120.59          224          1.06            0.54     252.56       0.25 MA_Shift_Fast=13; MaxOrders=0; MaxOrdersPerType=0;
+              4  57.17          237          1.03            0.24     286.16       0.29 MA_Shift_Fast=12; MaxOrders=0; MaxOrdersPerType=0;
+              1 -99.50          295          0.96           -0.34     274.36       0.27  MA_Shift_Fast=9; MaxOrders=0; MaxOrdersPerType=0;
