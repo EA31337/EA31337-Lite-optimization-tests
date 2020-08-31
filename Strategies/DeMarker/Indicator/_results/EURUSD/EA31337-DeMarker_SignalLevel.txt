@@ -12,6 +12,7 @@
                              Spread          10
                                                                  [Optimization Graph]
       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+<<<<<<< Updated upstream
          6  136.56           23          1.88            5.94     119.51       0.12  DeMarker_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
          7  136.56           23          1.88            5.94     119.51       0.12  DeMarker_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
          8  136.56           23          1.88            5.94     119.51       0.12  DeMarker_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=0;
@@ -23,3 +24,16 @@
          1   19.56           31          1.07            0.63     213.61       0.21 DeMarker_SignalLevel=-0.2; MaxOrders=0; MaxOrdersPerType=0;
          5   19.56           31          1.07            0.63     213.61       0.21  DeMarker_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
          3 -257.57          212          0.86           -1.21     603.00       0.60    DeMarker_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
+=======
+         6  258.18          329          1.12            0.78     272.44       0.27  DeMarker_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
+         7  258.18          329          1.12            0.78     272.44       0.27  DeMarker_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=0;
+         8  258.18          329          1.12            0.78     272.44       0.27  DeMarker_SignalLevel=0.6; MaxOrders=0; MaxOrdersPerType=0;
+         9  258.18          329          1.12            0.78     272.44       0.27  DeMarker_SignalLevel=0.7; MaxOrders=0; MaxOrdersPerType=0;
+        10  258.18          329          1.12            0.78     272.44       0.27  DeMarker_SignalLevel=0.8; MaxOrders=0; MaxOrdersPerType=0;
+        11  258.18          329          1.12            0.78     272.44       0.27  DeMarker_SignalLevel=0.9; MaxOrders=0; MaxOrdersPerType=0;
+         5  190.98          352          1.09            0.54     284.54       0.28  DeMarker_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
+         4  139.38          440          1.05            0.32     357.84       0.36  DeMarker_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
+         3   39.55          709          1.01            0.06     524.59       0.52  DeMarker_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
+         1 -130.75          805          0.97           -0.16     573.08       0.57 DeMarker_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
+         2 -806.09         1038          0.86           -0.78     992.06       0.99    DeMarker_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
