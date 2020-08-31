@@ -30,7 +30,7 @@ DeMarker30_SignalMethod=0
 DeMarker_TrailingStopMethod=0
 DeMarker_TrailingProfitMethod=0
 # Optimization params.
-DeMarker_Shift=5
+DeMarker_Shift=3
 DeMarker_Shift,F=0
 DeMarker_Shift,1=0
 DeMarker_Shift,2=0
