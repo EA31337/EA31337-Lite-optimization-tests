@@ -2,20 +2,20 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            7  -990.23         1023          0.79           -0.97    1541.11       1.54 ADX_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-            6 -1001.80         1013          0.78           -0.99    1581.24       1.58 ADX_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-            3 -1018.11          796          0.81           -1.28    1785.65       1.78 ADX_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-            5 -1099.43         1038          0.76           -1.06    1674.88       1.67 ADX_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-            1 -1168.13         1013          0.75           -1.15    1726.15       1.72 ADX_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-            2 -1294.38         1013          0.72           -1.28    1763.26       1.76 ADX_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-            4 -2306.16         1906          0.61           -1.21    2607.48       2.60 ADX_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            3  -74.14           19          0.44           -3.90     136.24       0.14 ADX_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+            2 -143.77           10          0.07          -14.38     196.37       0.20 ADX_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            5 -143.77           10          0.07          -14.38     196.37       0.20 ADX_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+            6 -143.77           10          0.07          -14.38     196.37       0.20 ADX_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+            7 -143.77           10          0.07          -14.38     196.37       0.20 ADX_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+            1 -155.71           10          0.00          -15.57     192.90       0.19 ADX_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+            4 -205.18           13          0.06          -15.78     257.78       0.26 ADX_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
