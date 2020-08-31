@@ -29,7 +29,11 @@ Force15_SignalMethod=0
 Force30_SignalMethod=0
 Force_TrailingProfitMethod=0
 # Optimization params.
+<<<<<<< Updated upstream
 Force_TrailingStopMethod=1
+=======
+Force_TrailingStopMethod=14
+>>>>>>> Stashed changes
 Force_TrailingStopMethod,F=0
 Force_TrailingStopMethod,1=0
 Force_TrailingStopMethod,2=0
