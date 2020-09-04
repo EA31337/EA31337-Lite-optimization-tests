@@ -12,9 +12,18 @@
                             Spread          10
                                                                  [Optimization Graph]
       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+<<<<<<< Updated upstream
          1   0.00            0          0.00            0.00       0.00       0.00  Envelopes_MA_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
          2   0.00            0          0.00            0.00       0.00       0.00  Envelopes_MA_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
          3   0.00            0          0.00            0.00       0.00       0.00  Envelopes_MA_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
          4   0.00            0          0.00            0.00       0.00       0.00  Envelopes_MA_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
          5   0.00            0          0.00            0.00       0.00       0.00 Envelopes_MA_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
          6   0.00            0          0.00            0.00       0.00       0.00 Envelopes_MA_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
+=======
+         2 110.91            6          4.38           18.49      46.80       0.05  Envelopes_MA_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
+         5 110.91            6          4.38           18.49      46.80       0.05 Envelopes_MA_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
+         6 110.91            6          4.38           18.49      46.80       0.05 Envelopes_MA_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
+         3  14.88            4          1.45            3.72      57.30       0.06  Envelopes_MA_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
+         4  14.88            4          1.45            3.72      57.30       0.06  Envelopes_MA_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
+         1 -20.64            9          0.81           -2.29     168.03       0.17  Envelopes_MA_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
