@@ -12,6 +12,7 @@
                              Spread          10
                                                                  [Optimization Graph]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
    Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
      26   1.10            3          1.50            0.37       7.60       0.01 Fractals_TrailingProfitMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
      20   1.20            3          1.55            0.40       7.60       0.01 Fractals_TrailingProfitMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
@@ -115,4 +116,57 @@
     36 -344.13          474          0.75           -0.73     375.41       0.38 Fractals_TrailingProfitMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
     40 -351.16          467          0.76           -0.75     409.33       0.41 Fractals_TrailingProfitMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
      4 -396.22          499          0.69           -0.79     420.61       0.42  Fractals_TrailingProfitMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
+=======
+  Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+    50  -68.41          456          0.95           -0.15     278.66       0.28 Fractals_TrailingProfitMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
+    49  -88.84          455          0.94           -0.20     286.06       0.29  Fractals_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+    10 -116.47          465          0.92           -0.25     252.60       0.25  Fractals_TrailingProfitMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
+     9 -133.92          465          0.90           -0.29     247.47       0.25   Fractals_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+    42 -148.30          459          0.90           -0.32     302.15       0.30 Fractals_TrailingProfitMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+    14 -151.47          456          0.90           -0.33     341.65       0.34  Fractals_TrailingProfitMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
+    21 -151.40          458          0.90           -0.33     307.55       0.31  Fractals_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+    22 -155.30          459          0.90           -0.34     317.75       0.32 Fractals_TrailingProfitMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
+    44 -156.50          459          0.90           -0.34     307.55       0.31 Fractals_TrailingProfitMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
+    13 -157.47          456          0.90           -0.35     339.39       0.34   Fractals_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+    43 -163.90          458          0.90           -0.36     309.05       0.31  Fractals_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+    41 -164.70          458          0.89           -0.36     310.05       0.31  Fractals_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+     2 -166.20          459          0.89           -0.36     311.55       0.31  Fractals_TrailingProfitMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+    29 -178.50          458          0.89           -0.39     323.85       0.32  Fractals_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+    30 -178.50          459          0.89           -0.39     322.75       0.32 Fractals_TrailingProfitMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+     1 -179.30          458          0.89           -0.39     317.15       0.32   Fractals_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+     8 -184.46          471          0.87           -0.39     239.85       0.24  Fractals_TrailingProfitMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
+    32 -188.60          461          0.88           -0.41     321.35       0.32 Fractals_TrailingProfitMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
+    31 -190.20          460          0.88           -0.41     324.25       0.32  Fractals_TrailingProfitMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+     7 -193.91          474          0.86           -0.41     258.56       0.26   Fractals_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+    37 -207.30          460          0.87           -0.45     310.45       0.31  Fractals_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+    15 -209.80          456          0.86           -0.46     354.79       0.35   Fractals_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+    16 -214.96          455          0.86           -0.47     339.15       0.34  Fractals_TrailingProfitMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
+    38 -214.53          461          0.86           -0.47     314.95       0.31 Fractals_TrailingProfitMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+    12 -217.72          456          0.86           -0.48     298.84       0.30  Fractals_TrailingProfitMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+    46 -219.41          504          0.79           -0.44     284.39       0.28 Fractals_TrailingProfitMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
+    33 -225.08          478          0.83           -0.47     287.78       0.29  Fractals_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+    11 -228.65          457          0.85           -0.50     307.87       0.31   Fractals_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+    25 -229.24          471          0.82           -0.49     316.58       0.32  Fractals_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+    23 -232.74          472          0.82           -0.49     332.29       0.33  Fractals_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+    26 -232.08          473          0.83           -0.49     277.58       0.28 Fractals_TrailingProfitMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
+    35 -250.57          472          0.81           -0.53     310.03       0.31  Fractals_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+    45 -250.12          502          0.77           -0.50     311.81       0.31  Fractals_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+    19 -264.74          470          0.80           -0.56     327.88       0.33  Fractals_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+    24 -271.10          473          0.80           -0.57     308.58       0.31 Fractals_TrailingProfitMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
+    20 -273.27          470          0.80           -0.58     317.16       0.32 Fractals_TrailingProfitMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
+    27 -273.04          469          0.80           -0.58     332.61       0.33  Fractals_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+    28 -278.17          470          0.80           -0.59     325.88       0.33 Fractals_TrailingProfitMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
+     6 -279.78          473          0.79           -0.59     315.20       0.32  Fractals_TrailingProfitMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
+    34 -286.09          479          0.78           -0.60     322.98       0.32 Fractals_TrailingProfitMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
+     5 -290.94          475          0.79           -0.61     310.94       0.31   Fractals_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+    47 -307.27          483          0.76           -0.64     351.17       0.35  Fractals_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+    17 -315.28          494          0.77           -0.64     419.57       0.42   Fractals_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+    48 -319.73          488          0.74           -0.66     372.02       0.37 Fractals_TrailingProfitMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
+    39 -324.56          466          0.77           -0.70     390.64       0.39  Fractals_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+     3 -325.83          494          0.75           -0.66     365.21       0.37   Fractals_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+    18 -334.38          489          0.76           -0.68     451.79       0.45  Fractals_TrailingProfitMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
+    36 -343.43          473          0.75           -0.73     374.71       0.37 Fractals_TrailingProfitMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
+    40 -356.46          466          0.75           -0.76     414.63       0.41 Fractals_TrailingProfitMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
+     4 -391.52          498          0.69           -0.79     415.91       0.42  Fractals_TrailingProfitMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
 >>>>>>> Stashed changes

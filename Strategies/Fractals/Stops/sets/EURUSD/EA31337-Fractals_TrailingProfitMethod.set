@@ -31,7 +31,11 @@ Fractals30_SignalMethod=0
 Fractals_TrailingStopMethod=5
 # Optimization params.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Fractals_TrailingProfitMethod=-13
+=======
+Fractals_TrailingProfitMethod=-25
+>>>>>>> Stashed changes
 =======
 Fractals_TrailingProfitMethod=-25
 >>>>>>> Stashed changes
