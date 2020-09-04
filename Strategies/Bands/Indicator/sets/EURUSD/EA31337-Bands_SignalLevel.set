@@ -55,7 +55,7 @@ Bands_Deviation_M30=0.1
 >>>>>>> Stashed changes
 Bands_HShift=0
 Bands_Period_M1=2
-Bands_Period_M5=8
+Bands_Period_M5=2
 Bands_Period_M15=2
 Bands_Period_M30=2
 Bands_Shift=0
