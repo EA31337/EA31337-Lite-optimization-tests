@@ -12,6 +12,7 @@
                              Spread          10
                                                                  [Optimization Graph]
         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+<<<<<<< Updated upstream
            8 -2532.50         1806          0.67           -1.40    2587.12       2.59  SmartQueueMethod=7; MaxOrders=10; MaxOrdersPerType=0;
            6 -2570.87         2345          0.69           -1.10    2625.49       2.62  SmartQueueMethod=5; MaxOrders=10; MaxOrdersPerType=0;
            7 -2570.87         2345          0.69           -1.10    2625.49       2.62  SmartQueueMethod=6; MaxOrders=10; MaxOrdersPerType=0;
@@ -28,3 +29,21 @@
            5 -3449.07         3989          0.73           -0.86    3502.19       3.50  SmartQueueMethod=4; MaxOrders=10; MaxOrdersPerType=0;
            3 -3761.33         3074          0.67           -1.22    3804.85       3.80  SmartQueueMethod=2; MaxOrders=10; MaxOrdersPerType=0;
            2 -3885.44         4137          0.72           -0.94    3938.56       3.94  SmartQueueMethod=1; MaxOrders=10; MaxOrdersPerType=0;
+=======
+           8 -2650.78         1970          0.67           -1.35    2705.41       2.70  SmartQueueMethod=7; MaxOrders=10; MaxOrdersPerType=0;
+          10 -2653.70         1928          0.67           -1.38    2708.32       2.71  SmartQueueMethod=9; MaxOrders=10; MaxOrdersPerType=0;
+          14 -2655.49         1927          0.67           -1.38    2710.11       2.71 SmartQueueMethod=13; MaxOrders=10; MaxOrdersPerType=0;
+           1 -2679.11         2056          0.67           -1.30    2732.73       2.73  SmartQueueMethod=0; MaxOrders=10; MaxOrdersPerType=0;
+           6 -2685.64         2395          0.69           -1.12    2740.26       2.74  SmartQueueMethod=5; MaxOrders=10; MaxOrdersPerType=0;
+           7 -2685.64         2395          0.69           -1.12    2740.26       2.74  SmartQueueMethod=6; MaxOrders=10; MaxOrdersPerType=0;
+           9 -2685.64         2395          0.69           -1.12    2740.26       2.74  SmartQueueMethod=8; MaxOrders=10; MaxOrdersPerType=0;
+          11 -2685.64         2395          0.69           -1.12    2740.26       2.74 SmartQueueMethod=10; MaxOrders=10; MaxOrdersPerType=0;
+          13 -2685.64         2395          0.69           -1.12    2740.26       2.74 SmartQueueMethod=12; MaxOrders=10; MaxOrdersPerType=0;
+          15 -2685.64         2395          0.69           -1.12    2740.26       2.74 SmartQueueMethod=14; MaxOrders=10; MaxOrdersPerType=0;
+          16 -2685.64         2395          0.69           -1.12    2740.26       2.74 SmartQueueMethod=15; MaxOrders=10; MaxOrdersPerType=0;
+           5 -2922.26         2024          0.67           -1.44    2996.29       3.00  SmartQueueMethod=4; MaxOrders=10; MaxOrdersPerType=0;
+           4 -3098.21         2467          0.68           -1.26    3151.83       3.15  SmartQueueMethod=3; MaxOrders=10; MaxOrdersPerType=0;
+          12 -3228.74         2406          0.68           -1.34    3283.36       3.28 SmartQueueMethod=11; MaxOrders=10; MaxOrdersPerType=0;
+           3 -3360.82         2805          0.70           -1.20    3425.04       3.42  SmartQueueMethod=2; MaxOrders=10; MaxOrdersPerType=0;
+           2 -4125.97         3949          0.69           -1.04    4172.10       4.17  SmartQueueMethod=1; MaxOrders=10; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
