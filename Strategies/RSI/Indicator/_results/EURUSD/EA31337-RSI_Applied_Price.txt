@@ -12,6 +12,7 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+<<<<<<< Updated upstream
             2  549.98          601          1.17            0.92     313.17       0.31 RSI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
             3  334.74          971          1.08            0.34     409.42       0.41 RSI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
             1  132.10          527          1.04            0.25     355.69       0.36 RSI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
@@ -19,3 +20,12 @@
             5 -419.72         1076          0.91           -0.39     602.10       0.60 RSI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
             6 -667.48         1087          0.87           -0.61     780.98       0.78 RSI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
             4 -762.68          835          0.83           -0.91     889.23       0.89 RSI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+=======
+            2  554.38          602          1.17            0.92     313.67       0.31 RSI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            3  339.44          972          1.08            0.35     405.22       0.40 RSI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+            1  137.10          528          1.04            0.26     355.69       0.36 RSI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+            7 -190.80          996          0.96           -0.19     532.70       0.53 RSI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+            5 -415.92         1077          0.91           -0.39     598.90       0.60 RSI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+            6 -663.68         1088          0.87           -0.61     777.08       0.78 RSI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+            4 -736.28          835          0.83           -0.88     875.16       0.87 RSI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes

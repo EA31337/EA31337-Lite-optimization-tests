@@ -32,7 +32,7 @@ RSI_TrailingStopMethod=0
 RSI_TrailingStopMethod=0
 RSI_TrailingProfitMethod=0
 # Optimization params.
-RSI_Period_M30=2
+RSI_Period_M30=6
 RSI_Period_M30,F=0
 RSI_Period_M30,1=0
 RSI_Period_M30,2=0
