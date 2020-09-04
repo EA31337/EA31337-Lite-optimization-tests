@@ -20,9 +20,17 @@
                 5 -575.47          342          0.80           -1.68     589.86       0.59 WPR_Shift=6; MaxOrders=0; MaxOrdersPerType=0;
 =======
              Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+<<<<<<< Updated upstream
                 2 -4090.73         4416          0.71           -0.93    4176.20       4.18 WPR_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
                 4 -4161.23         4493          0.73           -0.93    4253.71       4.25 WPR_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
                 1 -4195.18         4384          0.71           -0.96    4324.35       4.32 WPR_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
                 3 -4220.43         4486          0.72           -0.94    4338.73       4.34 WPR_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
                 5 -4263.46         4456          0.72           -0.96    4313.55       4.31 WPR_Shift=6; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
+=======
+                2 -3504.08         4138          0.74           -0.85    3609.61       3.61 WPR_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
+                5 -3583.28         4252          0.75           -0.84    3622.17       3.62 WPR_Shift=6; MaxOrders=0; MaxOrdersPerType=0;
+                3 -3674.31         4177          0.73           -0.88    3766.57       3.77 WPR_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
+                1 -3708.68         4171          0.72           -0.89    3863.39       3.86 WPR_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+                4 -3807.74         4185          0.73           -0.91    3846.64       3.85 WPR_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
 >>>>>>> Stashed changes

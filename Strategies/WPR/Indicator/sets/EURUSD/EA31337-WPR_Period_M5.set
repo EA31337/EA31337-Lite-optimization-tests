@@ -30,7 +30,11 @@ WPR30_SignalMethod=0
 WPR_TrailingProfitMethod=0
 WPR_TrailingProfitMethod=0
 # Optimization params.
+<<<<<<< Updated upstream
 WPR_Period_M5=2
+=======
+WPR_Period_M5=18
+>>>>>>> Stashed changes
 WPR_Period_M5,F=0
 WPR_Period_M5,1=0
 WPR_Period_M5,2=0
