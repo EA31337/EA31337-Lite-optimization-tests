@@ -67,7 +67,7 @@ Bands_Shift=2
 >>>>>>> Stashed changes
 Bands_SignalLevel=18
 # Optimization params.
-Bands_HShift=2
+Bands_HShift=0
 Bands_HShift,F=1
 Bands_HShift,1=0
 Bands_HShift,2=0
