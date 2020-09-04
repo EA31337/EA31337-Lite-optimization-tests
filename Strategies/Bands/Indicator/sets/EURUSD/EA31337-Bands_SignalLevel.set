@@ -33,7 +33,11 @@ Bands_TrailingProfitMethod=0
 Bands_Applied_Price=0
 Bands_Deviation_M1=0.4
 Bands_Deviation_M5=0.4
+<<<<<<< Updated upstream
 Bands_Deviation_M15=0.1
+=======
+Bands_Deviation_M15=0.4
+>>>>>>> Stashed changes
 Bands_Deviation_M30=1.2
 Bands_HShift=0
 Bands_Period_M1=2
