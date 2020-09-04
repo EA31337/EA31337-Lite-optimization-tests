@@ -43,7 +43,11 @@ MACD_Period_Slow,1=0
 MACD_Period_Slow,2=0
 MACD_Period_Slow,3=0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 MACD_Period_Signal=5
+=======
+MACD_Period_Signal=11
+>>>>>>> Stashed changes
 =======
 MACD_Period_Signal=11
 >>>>>>> Stashed changes
