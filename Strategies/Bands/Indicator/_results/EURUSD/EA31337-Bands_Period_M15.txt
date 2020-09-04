@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -11,13 +11,4 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1 -59.51          128          0.95           -0.46     353.64       0.35  Bands_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
-             2 -59.51          128          0.95           -0.46     353.64       0.35  Bands_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
-             3 -59.51          128          0.95           -0.46     353.64       0.35  Bands_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
-             4 -59.51          128          0.95           -0.46     353.64       0.35  Bands_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
-             5 -59.51          128          0.95           -0.46     353.64       0.35 Bands_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
-             6 -59.51          128          0.95           -0.46     353.64       0.35 Bands_Period_M15=12; MaxOrders=0; MaxOrdersPerType=0;
-             7 -59.51          128          0.95           -0.46     353.64       0.35 Bands_Period_M15=14; MaxOrders=0; MaxOrdersPerType=0;
-             8 -59.51          128          0.95           -0.46     353.64       0.35 Bands_Period_M15=16; MaxOrders=0; MaxOrdersPerType=0;
-             9 -59.51          128          0.95           -0.46     353.64       0.35 Bands_Period_M15=18; MaxOrders=0; MaxOrdersPerType=0;
+                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
