@@ -12,5 +12,10 @@
                              Spread          10
                                                                  [Optimization Graph]
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+<<<<<<< Updated upstream
            1 6561.28          540          1.38           12.15    2795.15       2.61 StrategyHandicapByPF=0; MaxOrders=0; MaxOrdersPerType=0;
            2 6561.28          540          1.38           12.15    2795.15       2.61 StrategyHandicapByPF=1; MaxOrders=0; MaxOrdersPerType=0;
+=======
+           1 -917.70          884          0.97           -1.04    6880.79       6.50 StrategyHandicapByPF=0; MaxOrders=0; MaxOrdersPerType=0;
+           2 -917.70          884          0.97           -1.04    6880.79       6.50 StrategyHandicapByPF=1; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
