@@ -29,7 +29,7 @@ AD15_SignalMethod=0
 AD30_SignalMethod=0
 AD_TrailingProfitMethod=0
 # Optimization params.
-AD_TrailingStopMethod=15
+AD_TrailingStopMethod=11
 AD_TrailingStopMethod,F=0
 AD_TrailingStopMethod,1=0
 AD_TrailingStopMethod,2=0
