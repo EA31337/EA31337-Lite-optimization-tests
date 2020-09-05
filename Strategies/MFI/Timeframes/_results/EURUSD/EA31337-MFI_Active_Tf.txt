@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -12,19 +12,19 @@
                              Spread          10
                                                                  [Optimization Graph]
           Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             2   101.97           33          1.34            3.09     198.62       0.20  MFI_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
-            10    51.37           92          1.08            0.56     142.38       0.14  MFI_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
-             9    26.91           59          1.08            0.46     156.15       0.16  MFI_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+             2    86.16           36          1.27            2.39     198.62       0.20  MFI_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
              1     0.00            0          0.00            0.00       0.00       0.00  MFI_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
-             4  -231.36          121          0.83           -1.91     442.54       0.44  MFI_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
-             3  -237.00           87          0.77           -2.72     469.92       0.47  MFI_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
-            12  -335.46          182          0.80           -1.84     452.77       0.45 MFI_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
-            11  -348.02          148          0.75           -2.35     418.48       0.42 MFI_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
-             8 -2724.54         3396          0.65           -0.80    2876.42       2.87  MFI_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
-            16 -2775.29         3431          0.66           -0.81    2931.47       2.93 MFI_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
-             6 -2807.77         3406          0.61           -0.82    2905.47       2.90  MFI_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
-            14 -2854.12         3432          0.62           -0.83    2987.42       2.98 MFI_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
-             7 -2898.57         3364          0.62           -0.86    3098.53       3.10  MFI_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
-            15 -2994.40         3390          0.63           -0.88    3107.43       3.10 MFI_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
-             5 -2995.58         3422          0.58           -0.88    3097.66       3.09  MFI_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
-            13 -3081.61         3439          0.58           -0.90    3210.30       3.21 MFI_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+             9  -118.53          259          0.91           -0.46     464.21       0.46  MFI_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+            10  -139.02          303          0.91           -0.46     505.71       0.50  MFI_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+             4  -663.61          318          0.75           -2.09     742.78       0.74  MFI_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+            12  -706.16          595          0.81           -1.19     784.13       0.78 MFI_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+            11  -795.42          550          0.77           -1.45     863.81       0.86 MFI_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+             3  -816.19          275          0.65           -2.97     875.99       0.88  MFI_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
+             6 -8421.91        10297          0.53           -0.82    8647.31       8.63  MFI_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+            14 -8676.29        10317          0.54           -0.84    8904.19       8.89 MFI_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+             5 -8761.29        10516          0.52           -0.83    8986.69       8.97  MFI_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+             8 -8948.25        10317          0.54           -0.87    9173.35       9.15  MFI_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
+            13 -8967.89        10476          0.53           -0.86    9195.79       9.18 MFI_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+            16 -9187.86        10373          0.55           -0.89    9411.86       9.39 MFI_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+             7 -9341.37        10544          0.52           -0.89    9566.47       9.55  MFI_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+            15 -9525.05        10528          0.53           -0.90    9749.05       9.73 MFI_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
