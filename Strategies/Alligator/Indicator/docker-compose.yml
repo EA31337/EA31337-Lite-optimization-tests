@@ -94,7 +94,7 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       RUN_ON_SET: >
         set_opt_params Alligator_SignalLevel
-        $$(get_max 2 $$(bc <<< "$$(input_get Alligator_SignalLevel) - 0.1 * 2"))
+        $$(get_max 0.1 $$(bc <<< "$$(input_get Alligator_SignalLevel) - 0.1 * 2"))
         $$(bc <<< "$$(input_get Alligator_SignalLevel) + 0.1 * 2")
         0.1
       SETFILE: /opt/sets/EA31337-Alligator_SignalLevel.set
@@ -113,7 +113,7 @@ services:
       RUN_ON_SET: >
         for p in Shift_Jaw Shift_Teeth Shift_Lips Shift; do
         set_opt_params "Alligator_$${p}"
-        $$(get_max 2 $$(bc <<< "$$(input_get Alligator_$${p}) - 1"))
+        $$(get_max 0 $$(bc <<< "$$(input_get Alligator_$${p}) - 1"))
         $$(bc <<< "$$(input_get Alligator_$${p}) + 1")
         1;
         done
