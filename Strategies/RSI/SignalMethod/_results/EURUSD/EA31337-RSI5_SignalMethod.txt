@@ -19,4 +19,5 @@
             6   6.10            4          2.97            1.52      16.00       0.02 RSI5_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
             7   6.10            4          2.97            1.52      16.00       0.02 RSI5_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
             8   6.10            4          2.97            1.52      16.00       0.02 RSI5_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+            9   4.60            3          2.28            1.53      16.30       0.02 RSI5_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
             1  -4.10            8          0.74           -0.51      23.90       0.02 RSI5_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
