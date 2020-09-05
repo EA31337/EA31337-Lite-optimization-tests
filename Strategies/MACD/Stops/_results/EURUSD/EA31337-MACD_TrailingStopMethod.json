@@ -1,8 +1,12 @@
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "Time": "90",
 =======
   "Time": "101",
+>>>>>>> Stashed changes
+=======
+  "Time": "78",
 >>>>>>> Stashed changes
   "Title": "Optimization Report",
   "EA Name": "EA31337-Lite-v1.080-dev",
