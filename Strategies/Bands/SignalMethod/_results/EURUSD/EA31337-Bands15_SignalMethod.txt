@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -11,15 +11,15 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          8  -59.51          128          0.95           -0.46     353.64       0.35 Bands15_SignalMethod=71; MaxOrders=0; MaxOrdersPerType=0;
-         10  -59.51          128          0.95           -0.46     353.64       0.35 Bands15_SignalMethod=85; MaxOrders=0; MaxOrdersPerType=0;
-          2 -111.23          181          0.91           -0.61     348.56       0.35 Bands15_SignalMethod=29; MaxOrders=0; MaxOrdersPerType=0;
-          6 -111.23          181          0.91           -0.61     348.56       0.35 Bands15_SignalMethod=57; MaxOrders=0; MaxOrdersPerType=0;
-          5 -138.54          219          0.90           -0.63     373.44       0.37 Bands15_SignalMethod=50; MaxOrders=0; MaxOrdersPerType=0;
-          4 -259.65          213          0.82           -1.22     436.32       0.44 Bands15_SignalMethod=43; MaxOrders=0; MaxOrdersPerType=0;
-          3 -322.85          249          0.78           -1.30     496.22       0.50 Bands15_SignalMethod=36; MaxOrders=0; MaxOrdersPerType=0;
-          9 -364.65          287          0.77           -1.27     551.52       0.55 Bands15_SignalMethod=78; MaxOrders=0; MaxOrdersPerType=0;
-         11 -378.25          292          0.77           -1.30     555.32       0.55 Bands15_SignalMethod=92; MaxOrders=0; MaxOrdersPerType=0;
-          1 -430.88          353          0.76           -1.22     557.85       0.56 Bands15_SignalMethod=22; MaxOrders=0; MaxOrdersPerType=0;
-          7 -612.45          462          0.70           -1.33     757.00       0.76 Bands15_SignalMethod=64; MaxOrders=0; MaxOrdersPerType=0;
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         6  -645.08          815          0.85           -0.79     868.43       0.87  Bands15_SignalMethod=71; MaxOrders=0; MaxOrdersPerType=0;
+         8  -645.08          815          0.85           -0.79     868.43       0.87  Bands15_SignalMethod=85; MaxOrders=0; MaxOrdersPerType=0;
+        10  -645.08          815          0.85           -0.79     868.43       0.87  Bands15_SignalMethod=99; MaxOrders=0; MaxOrdersPerType=0;
+        11  -682.08          844          0.84           -0.81     901.83       0.90 Bands15_SignalMethod=106; MaxOrders=0; MaxOrdersPerType=0;
+         4  -794.99          927          0.82           -0.86     974.83       0.97  Bands15_SignalMethod=57; MaxOrders=0; MaxOrdersPerType=0;
+         3  -827.69          990          0.82           -0.84    1005.43       1.01  Bands15_SignalMethod=50; MaxOrders=0; MaxOrdersPerType=0;
+         2  -888.09          975          0.80           -0.91    1039.23       1.04  Bands15_SignalMethod=43; MaxOrders=0; MaxOrdersPerType=0;
+         1  -948.99         1030          0.79           -0.92    1098.83       1.10  Bands15_SignalMethod=36; MaxOrders=0; MaxOrdersPerType=0;
+         7 -1014.05         1180          0.79           -0.86    1129.28       1.13  Bands15_SignalMethod=78; MaxOrders=0; MaxOrdersPerType=0;
+         9 -1020.25         1186          0.79           -0.86    1132.18       1.13  Bands15_SignalMethod=92; MaxOrders=0; MaxOrdersPerType=0;
+         5 -1516.05         1674          0.73           -0.91    1542.88       1.54  Bands15_SignalMethod=64; MaxOrders=0; MaxOrdersPerType=0;
