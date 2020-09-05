@@ -31,7 +31,11 @@ DeMarker30_SignalMethod=0
 DeMarker_TrailingStopMethod=6
 # Optimization params.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 DeMarker_TrailingProfitMethod=13
+=======
+DeMarker_TrailingProfitMethod=12
+>>>>>>> Stashed changes
 =======
 DeMarker_TrailingProfitMethod=12
 >>>>>>> Stashed changes
