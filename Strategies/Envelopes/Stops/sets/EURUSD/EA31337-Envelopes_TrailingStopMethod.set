@@ -30,7 +30,11 @@ Envelopes30_SignalMethod=0
 Envelopes_TrailingProfitMethod=0
 # Optimization params.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Envelopes_TrailingStopMethod=12
+=======
+Envelopes_TrailingStopMethod=-20
+>>>>>>> Stashed changes
 =======
 Envelopes_TrailingStopMethod=-20
 >>>>>>> Stashed changes

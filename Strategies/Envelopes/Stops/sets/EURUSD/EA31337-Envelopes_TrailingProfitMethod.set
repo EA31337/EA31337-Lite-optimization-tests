@@ -29,9 +29,15 @@ Envelopes15_SignalMethod=0
 Envelopes30_SignalMethod=0
 # Dynamic strategy params.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Envelopes_TrailingStopMethod=12
 # Optimization params.
 Envelopes_TrailingProfitMethod=11
+=======
+Envelopes_TrailingStopMethod=-20
+# Optimization params.
+Envelopes_TrailingProfitMethod=9
+>>>>>>> Stashed changes
 =======
 Envelopes_TrailingStopMethod=-20
 # Optimization params.
