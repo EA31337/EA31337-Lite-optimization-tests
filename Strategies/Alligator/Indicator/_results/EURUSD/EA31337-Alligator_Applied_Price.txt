@@ -22,6 +22,7 @@
           7   0.00            0          0.00            0.00       0.00       0.00 Alligator_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
 =======
       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+<<<<<<< Updated upstream
          4  -58.98         1260          0.99           -0.05    1476.21       1.46 Alligator_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
          3  -72.73         1221          0.99           -0.06    1244.52       1.23 Alligator_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
          2 -276.47         1237          0.96           -0.22    1382.09       1.37 Alligator_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
@@ -29,4 +30,13 @@
          7 -355.46         1227          0.95           -0.29    1616.97       1.60 Alligator_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
          5 -800.23         1293          0.88           -0.62    1674.35       1.66 Alligator_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
          1 -832.08         1258          0.88           -0.66    1750.83       1.74 Alligator_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
+=======
+         3   -5.69         1221          1.00           -0.00    1244.42       1.23 Alligator_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+         4  -48.08         1258          0.99           -0.04    1464.02       1.45 Alligator_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+         2 -189.96         1230          0.97           -0.15    1383.29       1.37 Alligator_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+         6 -309.13         1218          0.95           -0.25    1597.81       1.58 Alligator_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+         7 -344.76         1225          0.95           -0.28    1616.17       1.60 Alligator_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+         5 -706.39         1290          0.90           -0.55    1589.81       1.58 Alligator_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+         1 -824.28         1256          0.88           -0.66    1753.63       1.74 Alligator_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
 >>>>>>> Stashed changes
