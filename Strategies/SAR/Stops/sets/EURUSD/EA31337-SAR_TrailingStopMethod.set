@@ -30,7 +30,11 @@ SAR30_SignalMethod=0
 SAR_TrailingProfitMethod=0
 # Optimization params.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 SAR_TrailingStopMethod=18
+=======
+SAR_TrailingStopMethod=-6
+>>>>>>> Stashed changes
 =======
 SAR_TrailingStopMethod=-6
 >>>>>>> Stashed changes
