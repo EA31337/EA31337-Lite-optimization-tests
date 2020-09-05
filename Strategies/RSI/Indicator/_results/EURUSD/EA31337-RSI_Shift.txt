@@ -15,3 +15,4 @@
                 2 -389.67         1630          0.95           -0.24    1002.47       1.00 RSI_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
                 1 -429.38         1649          0.95           -0.26    1071.22       1.07 RSI_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
                 3 -510.52         1636          0.93           -0.31    1092.50       1.09 RSI_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+                4 -579.54         1640          0.93           -0.35    1117.37       1.12 RSI_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
