@@ -2,24 +2,24 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          11 -1111.88          874          0.78           -1.27    1734.05       1.73 ADX_SignalLevel=18.3; MaxOrders=0; MaxOrdersPerType=0;
-           4 -1166.02          917          0.78           -1.27    1789.79       1.78 ADX_SignalLevel=17.6; MaxOrders=0; MaxOrdersPerType=0;
-          10 -1173.92          881          0.77           -1.33    1803.20       1.80 ADX_SignalLevel=18.2; MaxOrders=0; MaxOrdersPerType=0;
-           3 -1198.65          926          0.78           -1.29    1820.63       1.82 ADX_SignalLevel=17.5; MaxOrders=0; MaxOrdersPerType=0;
-           1 -1203.25          941          0.78           -1.28    1859.96       1.85 ADX_SignalLevel=17.3; MaxOrders=0; MaxOrdersPerType=0;
-           8 -1213.19          897          0.77           -1.35    1840.76       1.84   ADX_SignalLevel=18; MaxOrders=0; MaxOrdersPerType=0;
-           5 -1222.22          910          0.77           -1.34    1849.60       1.84 ADX_SignalLevel=17.7; MaxOrders=0; MaxOrdersPerType=0;
-           9 -1240.39          891          0.76           -1.39    1860.26       1.85 ADX_SignalLevel=18.1; MaxOrders=0; MaxOrdersPerType=0;
-           6 -1251.22          904          0.76           -1.38    1878.59       1.87 ADX_SignalLevel=17.8; MaxOrders=0; MaxOrdersPerType=0;
-           7 -1262.69          899          0.76           -1.40    1891.86       1.89 ADX_SignalLevel=17.9; MaxOrders=0; MaxOrdersPerType=0;
-           2 -1272.52          936          0.77           -1.36    1887.70       1.88 ADX_SignalLevel=17.4; MaxOrders=0; MaxOrdersPerType=0;
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           11 -660.14         1089          0.87           -0.61     932.40       0.93 ADX_SignalLevel=18.8; MaxOrders=0; MaxOrdersPerType=0;
+           10 -690.71         1092          0.86           -0.63     956.37       0.96 ADX_SignalLevel=18.7; MaxOrders=0; MaxOrdersPerType=0;
+            7 -735.73         1097          0.85           -0.67     978.42       0.98 ADX_SignalLevel=18.4; MaxOrders=0; MaxOrdersPerType=0;
+            8 -747.02         1101          0.85           -0.68     992.12       0.99 ADX_SignalLevel=18.5; MaxOrders=0; MaxOrdersPerType=0;
+            9 -760.82         1107          0.85           -0.69    1007.28       1.01 ADX_SignalLevel=18.6; MaxOrders=0; MaxOrdersPerType=0;
+            2 -854.75         1128          0.84           -0.76    1099.83       1.10 ADX_SignalLevel=17.9; MaxOrders=0; MaxOrdersPerType=0;
+            3 -888.98         1134          0.83           -0.78    1124.66       1.12   ADX_SignalLevel=18; MaxOrders=0; MaxOrdersPerType=0;
+            5 -907.37         1118          0.83           -0.81    1145.93       1.15 ADX_SignalLevel=18.2; MaxOrders=0; MaxOrdersPerType=0;
+            6 -909.67         1114          0.82           -0.82    1142.06       1.14 ADX_SignalLevel=18.3; MaxOrders=0; MaxOrdersPerType=0;
+            4 -943.37         1126          0.82           -0.84    1157.13       1.16 ADX_SignalLevel=18.1; MaxOrders=0; MaxOrdersPerType=0;
+            1 -983.48         1156          0.82           -0.85    1218.67       1.22 ADX_SignalLevel=17.8; MaxOrders=0; MaxOrdersPerType=0;
