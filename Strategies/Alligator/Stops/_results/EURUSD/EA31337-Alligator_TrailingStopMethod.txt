@@ -12,6 +12,7 @@
                              Spread          10
                                                                  [Optimization Graph]
   Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+<<<<<<< Updated upstream
     12   287.27         1189          1.05            0.24    1218.53       1.20  Alligator_TrailingStopMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
     11   229.87         1189          1.04            0.19    1264.13       1.25   Alligator_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=0;
      1   169.94         1254          1.03            0.14    1314.72       1.30   Alligator_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=0;
@@ -62,3 +63,55 @@
      6 -1268.45         1591          0.81           -0.80    1757.39       1.75  Alligator_TrailingStopMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
     48 -1590.37         2370          0.78           -0.67    2054.91       2.05 Alligator_TrailingStopMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
     47 -1620.14         2324          0.77           -0.70    2044.11       2.04  Alligator_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+=======
+    12   320.17         1186          1.05            0.27    1202.23       1.19  Alligator_TrailingStopMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+    11   262.77         1186          1.04            0.22    1247.83       1.23   Alligator_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+     1   178.20         1252          1.03            0.14    1302.43       1.29   Alligator_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+    14   168.64         1230          1.03            0.14    1275.23       1.26  Alligator_TrailingStopMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
+    13   166.94         1230          1.03            0.14    1272.23       1.26   Alligator_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+    41   151.93         1240          1.02            0.12    1296.33       1.28  Alligator_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+    42   125.13         1240          1.02            0.10    1296.33       1.28 Alligator_TrailingStopMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+    44   123.13         1240          1.02            0.10    1296.33       1.28 Alligator_TrailingStopMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
+    29   120.63         1240          1.02            0.10    1296.33       1.28  Alligator_TrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+    21   119.43         1240          1.02            0.10    1296.33       1.28  Alligator_TrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+    31   119.53         1240          1.02            0.10    1296.33       1.28  Alligator_TrailingStopMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+    22   119.63         1241          1.02            0.10    1296.33       1.28 Alligator_TrailingStopMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
+    30   119.63         1241          1.02            0.10    1296.33       1.28 Alligator_TrailingStopMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+    32   119.63         1241          1.02            0.10    1296.33       1.28 Alligator_TrailingStopMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
+    38   119.63         1241          1.02            0.10    1296.33       1.28 Alligator_TrailingStopMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+    18   117.03         1241          1.02            0.09    1296.33       1.28  Alligator_TrailingStopMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
+    43   105.33         1240          1.02            0.08    1296.33       1.28  Alligator_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+    37    91.13         1240          1.01            0.07    1310.23       1.30  Alligator_TrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+    17    91.73         1241          1.01            0.07    1296.33       1.28   Alligator_TrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+    16    65.07         1211          1.01            0.05    1441.51       1.43  Alligator_TrailingStopMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
+    15    57.97         1211          1.01            0.05    1441.51       1.43   Alligator_TrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+     2    25.73         1253          1.00            0.02    1302.43       1.29  Alligator_TrailingStopMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+    49   -78.35         1317          0.99           -0.06    1407.42       1.39  Alligator_TrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+    50   -92.07         1318          0.98           -0.07    1428.03       1.41 Alligator_TrailingStopMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
+    20  -224.09         1310          0.96           -0.17    1413.09       1.40 Alligator_TrailingStopMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
+    19  -359.87         1306          0.94           -0.28    1486.67       1.47  Alligator_TrailingStopMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+    23  -383.57         1317          0.94           -0.29    1493.96       1.48  Alligator_TrailingStopMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+    26  -385.65         1323          0.94           -0.29    1494.02       1.48 Alligator_TrailingStopMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
+    28  -391.68         1266          0.94           -0.31    1582.35       1.57 Alligator_TrailingStopMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
+    27  -395.97         1266          0.94           -0.31    1528.94       1.51  Alligator_TrailingStopMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+    25  -403.05         1311          0.94           -0.31    1463.22       1.45  Alligator_TrailingStopMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+    24  -413.97         1317          0.93           -0.31    1496.86       1.48 Alligator_TrailingStopMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
+     9  -439.01         1228          0.93           -0.36    1489.66       1.48   Alligator_TrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+    10  -464.71         1229          0.93           -0.38    1515.36       1.50  Alligator_TrailingStopMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
+    33  -479.94         1304          0.92           -0.37    1353.41       1.34  Alligator_TrailingStopMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+    34  -523.95         1308          0.92           -0.40    1422.72       1.41 Alligator_TrailingStopMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
+    40  -523.33         1228          0.92           -0.43    1664.07       1.65 Alligator_TrailingStopMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
+    35  -539.31         1316          0.92           -0.41    1444.82       1.43  Alligator_TrailingStopMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+    36  -556.56         1337          0.91           -0.42    1480.03       1.47 Alligator_TrailingStopMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
+    39  -634.53         1236          0.90           -0.51    1715.97       1.70  Alligator_TrailingStopMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+     7  -941.72         1313          0.85           -0.72    1600.11       1.59   Alligator_TrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+     8  -994.32         1313          0.85           -0.76    1652.71       1.64  Alligator_TrailingStopMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
+     3 -1079.57         1744          0.84           -0.62    1558.43       1.55   Alligator_TrailingStopMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+     5 -1157.35         1569          0.83           -0.74    1687.49       1.68   Alligator_TrailingStopMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+    46 -1164.74         2071          0.84           -0.56    1782.77       1.77 Alligator_TrailingStopMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
+     4 -1174.13         1757          0.83           -0.67    1639.13       1.63  Alligator_TrailingStopMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+    45 -1191.81         2031          0.84           -0.59    1813.84       1.80  Alligator_TrailingStopMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+     6 -1302.65         1589          0.81           -0.82    1789.69       1.78  Alligator_TrailingStopMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
+    48 -1585.47         2366          0.78           -0.67    2048.01       2.04 Alligator_TrailingStopMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
+    47 -1615.24         2320          0.77           -0.70    2037.21       2.03  Alligator_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
