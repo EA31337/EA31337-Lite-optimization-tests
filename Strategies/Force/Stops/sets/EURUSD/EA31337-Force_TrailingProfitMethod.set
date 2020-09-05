@@ -29,9 +29,15 @@ Force15_SignalMethod=0
 Force30_SignalMethod=0
 # Dynamic strategy params.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Force_TrailingStopMethod=1
 # Optimization params.
 Force_TrailingProfitMethod=1
+=======
+Force_TrailingStopMethod=14
+# Optimization params.
+Force_TrailingProfitMethod=-13
+>>>>>>> Stashed changes
 =======
 Force_TrailingStopMethod=14
 # Optimization params.

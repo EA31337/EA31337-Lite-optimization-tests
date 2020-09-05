@@ -12,6 +12,7 @@
                              Spread          10
                                                                  [Optimization Graph]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
        1 140.95           23          1.90            6.13     146.11       0.15   Force_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
        2 140.95           23          1.90            6.13     146.11       0.15  Force_TrailingProfitMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
@@ -115,4 +116,57 @@
       5 -1033.07         1993          0.82           -0.52    1214.66       1.21   Force_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
      10 -1044.10         1952          0.83           -0.53    1287.18       1.29  Force_TrailingProfitMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
       7 -1056.19         1964          0.82           -0.54    1255.58       1.26   Force_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
+=======
+   Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+     26  -706.16         1978          0.88           -0.36     936.64       0.94 Force_TrailingProfitMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
+     20  -708.87         1971          0.88           -0.36     932.95       0.93 Force_TrailingProfitMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
+     28  -723.97         1975          0.88           -0.37     955.74       0.96 Force_TrailingProfitMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
+     27  -752.78         1974          0.87           -0.38     980.96       0.98  Force_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+     25  -767.48         1976          0.87           -0.39     989.26       0.99  Force_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+     19  -773.88         1970          0.87           -0.39     994.26       0.99  Force_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+     16  -783.77         1939          0.87           -0.40    1010.64       1.01  Force_TrailingProfitMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
+      2  -784.50         1936          0.87           -0.41    1002.98       1.00  Force_TrailingProfitMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+     15  -798.57         1941          0.87           -0.41    1025.44       1.03   Force_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+      1  -804.30         1936          0.87           -0.42    1023.78       1.02   Force_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+     22  -816.58         1937          0.86           -0.42    1042.96       1.04 Force_TrailingProfitMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
+     24  -820.05         1986          0.86           -0.41    1053.64       1.05 Force_TrailingProfitMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
+     40  -823.47         1964          0.86           -0.42    1045.34       1.05 Force_TrailingProfitMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
+     34  -831.98         1992          0.86           -0.42    1058.57       1.06 Force_TrailingProfitMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
+     23  -843.18         1983          0.86           -0.43    1067.36       1.07  Force_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+     39  -851.19         1964          0.86           -0.43    1072.76       1.07  Force_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+     21  -852.88         1937          0.86           -0.44    1080.26       1.08  Force_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+     36  -856.07         1988          0.85           -0.43    1072.24       1.07 Force_TrailingProfitMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
+     32  -859.98         1937          0.86           -0.44    1088.26       1.09 Force_TrailingProfitMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
+     30  -877.18         1937          0.85           -0.45    1090.16       1.09 Force_TrailingProfitMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+     33  -889.32         1990          0.85           -0.45    1102.99       1.10  Force_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+     31  -897.78         1937          0.85           -0.46    1126.66       1.13  Force_TrailingProfitMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+     35  -897.30         1987          0.85           -0.45    1104.87       1.10  Force_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+     29  -917.08         1937          0.85           -0.47    1130.56       1.13  Force_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+     12  -923.30         1938          0.85           -0.48    1131.57       1.13  Force_TrailingProfitMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+     48  -924.36         2063          0.84           -0.45    1135.36       1.14 Force_TrailingProfitMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
+     11  -927.40         1938          0.85           -0.48    1146.07       1.15   Force_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+     18  -942.90         1955          0.84           -0.48    1133.27       1.13  Force_TrailingProfitMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
+     42  -944.28         1938          0.84           -0.49    1154.36       1.15 Force_TrailingProfitMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+     14  -950.68         1936          0.84           -0.49    1163.36       1.16  Force_TrailingProfitMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
+     44  -950.18         1937          0.84           -0.49    1157.46       1.16 Force_TrailingProfitMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
+     13  -954.58         1936          0.84           -0.49    1168.06       1.17   Force_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+     41  -957.48         1939          0.84           -0.49    1170.96       1.17  Force_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+      4  -959.80         2068          0.83           -0.46    1141.00       1.14  Force_TrailingProfitMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+     47  -964.88         2048          0.83           -0.47    1161.27       1.16  Force_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+     38  -969.12         1936          0.84           -0.50    1183.19       1.18 Force_TrailingProfitMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+     43  -978.38         1937          0.84           -0.51    1191.86       1.19  Force_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+     46  -980.95         2076          0.83           -0.47    1163.55       1.16 Force_TrailingProfitMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
+     45  -980.39         2062          0.83           -0.48    1147.98       1.15  Force_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+      3  -983.93         2065          0.83           -0.48    1157.52       1.16   Force_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+     50  -985.51         2043          0.83           -0.48    1179.30       1.18 Force_TrailingProfitMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
+      6  -989.75         1998          0.83           -0.50    1173.24       1.17  Force_TrailingProfitMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
+     17 -1001.60         1963          0.83           -0.51    1192.97       1.19   Force_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+     37 -1004.62         1936          0.83           -0.52    1218.29       1.22  Force_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+     49 -1020.25         2021          0.83           -0.50    1217.24       1.22  Force_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+      8 -1027.87         1968          0.83           -0.52    1221.96       1.22  Force_TrailingProfitMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
+      5 -1031.87         1996          0.82           -0.52    1213.36       1.21   Force_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+      9 -1031.10         1957          0.83           -0.53    1270.68       1.27   Force_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+     10 -1042.90         1955          0.83           -0.53    1285.88       1.29  Force_TrailingProfitMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
+      7 -1054.99         1967          0.82           -0.54    1254.28       1.25   Force_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
 >>>>>>> Stashed changes
