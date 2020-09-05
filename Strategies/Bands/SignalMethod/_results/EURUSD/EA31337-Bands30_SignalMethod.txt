@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -12,10 +12,14 @@
                             Spread          10
                                                                  [Optimization Graph]
        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          1   94.82            4         68.73           23.71      39.20       0.04  Bands30_SignalMethod=85; MaxOrders=0; MaxOrdersPerType=0;
-          3   94.82            4         68.73           23.71      39.20       0.04  Bands30_SignalMethod=99; MaxOrders=0; MaxOrdersPerType=0;
-          5   94.82            4         68.73           23.71      39.20       0.04 Bands30_SignalMethod=113; MaxOrders=0; MaxOrdersPerType=0;
-          7   94.82            4         68.73           23.71      39.20       0.04 Bands30_SignalMethod=127; MaxOrders=0; MaxOrdersPerType=0;
-          4   80.32           29          2.26            2.77      42.80       0.04 Bands30_SignalMethod=106; MaxOrders=0; MaxOrdersPerType=0;
-          6   78.22           31          2.15            2.52      46.80       0.05 Bands30_SignalMethod=120; MaxOrders=0; MaxOrdersPerType=0;
-          2 -107.09          107          0.70           -1.00     189.12       0.19  Bands30_SignalMethod=92; MaxOrders=0; MaxOrdersPerType=0;
+          4   94.62            4         68.59           23.66      39.20       0.04  Bands30_SignalMethod=71; MaxOrders=0; MaxOrdersPerType=0;
+          6   94.62            4         68.59           23.66      39.20       0.04  Bands30_SignalMethod=85; MaxOrders=0; MaxOrdersPerType=0;
+          8   94.62            4         68.59           23.66      39.20       0.04  Bands30_SignalMethod=99; MaxOrders=0; MaxOrdersPerType=0;
+         10   94.62            4         68.59           23.66      39.20       0.04 Bands30_SignalMethod=113; MaxOrders=0; MaxOrdersPerType=0;
+          9   75.22           35          2.11            2.15      50.40       0.05 Bands30_SignalMethod=106; MaxOrders=0; MaxOrdersPerType=0;
+         11   73.12           37          2.02            1.98      48.50       0.05 Bands30_SignalMethod=120; MaxOrders=0; MaxOrdersPerType=0;
+          2   -9.90          121          0.95           -0.08      87.02       0.09  Bands30_SignalMethod=57; MaxOrders=0; MaxOrdersPerType=0;
+          1  -67.29          170          0.79           -0.40     121.12       0.12  Bands30_SignalMethod=50; MaxOrders=0; MaxOrdersPerType=0;
+          7 -213.52          287          0.69           -0.74     286.68       0.29  Bands30_SignalMethod=92; MaxOrders=0; MaxOrdersPerType=0;
+          5 -256.02          276          0.62           -0.93     291.02       0.29  Bands30_SignalMethod=78; MaxOrders=0; MaxOrdersPerType=0;
+          3 -948.89          660          0.46           -1.44    1005.92       1.01  Bands30_SignalMethod=64; MaxOrders=0; MaxOrdersPerType=0;
