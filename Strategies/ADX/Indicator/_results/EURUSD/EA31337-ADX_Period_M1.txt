@@ -24,6 +24,7 @@
               2 -99.90           15          0.13           -6.66     121.80       0.12 ADX_Period_M1=20; MaxOrders=0; MaxOrdersPerType=0;
 =======
            Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+<<<<<<< Updated upstream
               5  -54.70           10          0.19           -5.47      87.60       0.09 ADX_Period_M1=26; MaxOrders=0; MaxOrdersPerType=0;
               6  -54.70           10          0.19           -5.47      87.60       0.09 ADX_Period_M1=28; MaxOrders=0; MaxOrdersPerType=0;
               7  -54.70           10          0.19           -5.47      87.60       0.09 ADX_Period_M1=30; MaxOrders=0; MaxOrdersPerType=0;
@@ -33,4 +34,15 @@
               3  -91.10           14          0.14           -6.51     121.90       0.12 ADX_Period_M1=22; MaxOrders=0; MaxOrdersPerType=0;
               1  -98.60           18          0.11           -5.48     111.70       0.11 ADX_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;
               2 -100.00           15          0.13           -6.67     121.90       0.12 ADX_Period_M1=20; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
+=======
+              7  -54.70           10          0.19           -5.47      87.60       0.09 ADX_Period_M1=26; MaxOrders=0; MaxOrdersPerType=0;
+              8  -54.70           10          0.19           -5.47      87.60       0.09 ADX_Period_M1=28; MaxOrders=0; MaxOrdersPerType=0;
+              9  -54.70           10          0.19           -5.47      87.60       0.09 ADX_Period_M1=30; MaxOrders=0; MaxOrdersPerType=0;
+              6  -56.50           11          0.19           -5.14      87.60       0.09 ADX_Period_M1=24; MaxOrders=0; MaxOrdersPerType=0;
+              3  -86.30           18          0.21           -4.79     117.30       0.12 ADX_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;
+              2  -89.30           20          0.20           -4.46     117.30       0.12 ADX_Period_M1=16; MaxOrders=0; MaxOrdersPerType=0;
+              5  -91.10           14          0.14           -6.51     121.90       0.12 ADX_Period_M1=22; MaxOrders=0; MaxOrdersPerType=0;
+              4 -100.00           15          0.13           -6.67     121.90       0.12 ADX_Period_M1=20; MaxOrders=0; MaxOrdersPerType=0;
+              1 -105.20           22          0.11           -4.78     113.50       0.11 ADX_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
 >>>>>>> Stashed changes
