@@ -1,3 +1,4 @@
+# yamllint disable rule:line-length
 ---
 version: '3.4'
 services:
@@ -16,7 +17,7 @@ services:
       RUN_ON_SET: >
         for p in Jaw Lips; do
         set_opt_params "Alligator_Period_$${p}"
-        $$(bc <<< "$$(input_get Alligator_Period_$${p}) - 8")
+        $$(get_max 2 $$(bc <<< "$$(input_get Alligator_Period_$${p}) - 8"))
         $$(bc <<< "$$(input_get Alligator_Period_$${p}) + 8")
         4;
         done
@@ -38,7 +39,7 @@ services:
       RUN_ON_SET: >
         for p in Jaw Teeth; do
         set_opt_params "Alligator_Period_$${p}"
-        $$(bc <<< "$$(input_get Alligator_Period_$${p}) - 8")
+        $$(get_max 2 $$(bc <<< "$$(input_get Alligator_Period_$${p}) - 8"))
         $$(bc <<< "$$(input_get Alligator_Period_$${p}) + 8")
         4;
         done
@@ -60,7 +61,7 @@ services:
       RUN_ON_SET: >
         for p in Teeth Lips; do
         set_opt_params "Alligator_Period_$${p}"
-        $$(bc <<< "$$(input_get Alligator_Period_$${p}) - 8")
+        $$(get_max 2 $$(bc <<< "$$(input_get Alligator_Period_$${p}) - 8"))
         $$(bc <<< "$$(input_get Alligator_Period_$${p}) + 8")
         4;
         done
@@ -93,7 +94,7 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       RUN_ON_SET: >
         set_opt_params Alligator_SignalLevel
-        $$(bc <<< "$$(input_get Alligator_SignalLevel) - 0.1 * 2")
+        $$(get_max 2 $$(bc <<< "$$(input_get Alligator_SignalLevel) - 0.1 * 2"))
         $$(bc <<< "$$(input_get Alligator_SignalLevel) + 0.1 * 2")
         0.1
       SETFILE: /opt/sets/EA31337-Alligator_SignalLevel.set
@@ -112,7 +113,7 @@ services:
       RUN_ON_SET: >
         for p in Shift_Jaw Shift_Teeth Shift_Lips Shift; do
         set_opt_params "Alligator_$${p}"
-        $$(bc <<< "$$(input_get Alligator_$${p}) - 1")
+        $$(get_max 2 $$(bc <<< "$$(input_get Alligator_$${p}) - 1"))
         $$(bc <<< "$$(input_get Alligator_$${p}) + 1")
         1;
         done
