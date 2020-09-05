@@ -37,7 +37,7 @@ jobs:
           git config --local user.name "${{ github.actor }}"
           git add . && git add --renormalize .
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -am "${{ github.workflow }}"
+          git commit --allow-empty -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
@@ -76,7 +76,7 @@ jobs:
           git config --local user.name "${{ github.actor }}"
           git add . && git add --renormalize .
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -am "${{ github.workflow }}"
+          git commit --allow-empty -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
@@ -115,7 +115,7 @@ jobs:
           git config --local user.name "${{ github.actor }}"
           git add . && git add --renormalize .
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -am "${{ github.workflow }}"
+          git commit --allow-empty -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
@@ -147,7 +147,7 @@ jobs:
           git config --local user.name "${{ github.actor }}"
           git add . && git add --renormalize .
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -am "${{ github.workflow }}"
+          git commit --allow-empty -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
@@ -185,7 +185,7 @@ jobs:
           git config --local user.name "${{ github.actor }}"
           git add . && git add --renormalize .
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -am "${{ github.workflow }}"
+          git commit --allow-empty -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
@@ -216,7 +216,7 @@ jobs:
           git config --local user.name "${{ github.actor }}"
           git add . && git add --renormalize .
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -am "${{ github.workflow }}"
+          git commit --allow-empty -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
