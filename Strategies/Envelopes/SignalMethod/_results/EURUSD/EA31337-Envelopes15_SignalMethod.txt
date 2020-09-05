@@ -11,17 +11,15 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        1   0.00            0          0.00            0.00       0.00       0.00 Envelopes15_SignalMethod=-104; MaxOrders=0; MaxOrdersPerType=0;
-        2   0.00            0          0.00            0.00       0.00       0.00  Envelopes15_SignalMethod=-97; MaxOrders=0; MaxOrdersPerType=0;
-        3   0.00            0          0.00            0.00       0.00       0.00  Envelopes15_SignalMethod=-90; MaxOrders=0; MaxOrdersPerType=0;
-        4   0.00            0          0.00            0.00       0.00       0.00  Envelopes15_SignalMethod=-83; MaxOrders=0; MaxOrdersPerType=0;
-        5   0.00            0          0.00            0.00       0.00       0.00  Envelopes15_SignalMethod=-76; MaxOrders=0; MaxOrdersPerType=0;
-        6   0.00            0          0.00            0.00       0.00       0.00  Envelopes15_SignalMethod=-69; MaxOrders=0; MaxOrdersPerType=0;
-        7   0.00            0          0.00            0.00       0.00       0.00  Envelopes15_SignalMethod=-62; MaxOrders=0; MaxOrdersPerType=0;
-        8   0.00            0          0.00            0.00       0.00       0.00  Envelopes15_SignalMethod=-55; MaxOrders=0; MaxOrdersPerType=0;
-        9   0.00            0          0.00            0.00       0.00       0.00  Envelopes15_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
-       10   0.00            0          0.00            0.00       0.00       0.00  Envelopes15_SignalMethod=-41; MaxOrders=0; MaxOrdersPerType=0;
-       11   0.00            0          0.00            0.00       0.00       0.00  Envelopes15_SignalMethod=-34; MaxOrders=0; MaxOrdersPerType=0;
-       12   0.00            0          0.00            0.00       0.00       0.00  Envelopes15_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
-       13   0.00            0          0.00            0.00       0.00       0.00  Envelopes15_SignalMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
+    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       4    78.75          411          1.02            0.19     587.19       0.58 Envelopes15_SignalMethod=-106; MaxOrders=0; MaxOrdersPerType=0;
+       5    78.75          411          1.02            0.19     587.19       0.58  Envelopes15_SignalMethod=-99; MaxOrders=0; MaxOrdersPerType=0;
+       8    78.75          411          1.02            0.19     587.19       0.58  Envelopes15_SignalMethod=-78; MaxOrders=0; MaxOrdersPerType=0;
+       9    78.75          411          1.02            0.19     587.19       0.58  Envelopes15_SignalMethod=-71; MaxOrders=0; MaxOrdersPerType=0;
+       7  -243.69          999          0.95           -0.24     795.19       0.79  Envelopes15_SignalMethod=-85; MaxOrders=0; MaxOrdersPerType=0;
+      11  -250.19         1062          0.95           -0.24     790.04       0.79  Envelopes15_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
+       3  -591.23         1335          0.89           -0.44     836.17       0.83 Envelopes15_SignalMethod=-113; MaxOrders=0; MaxOrdersPerType=0;
+       1  -819.81         1640          0.86           -0.50     951.91       0.95 Envelopes15_SignalMethod=-127; MaxOrders=0; MaxOrdersPerType=0;
+       6 -1676.06         2982          0.79           -0.56    1694.95       1.69  Envelopes15_SignalMethod=-92; MaxOrders=0; MaxOrdersPerType=0;
+       2 -1782.96         3145          0.78           -0.57    1801.86       1.80 Envelopes15_SignalMethod=-120; MaxOrders=0; MaxOrdersPerType=0;
+      10 -2620.54         4146          0.73           -0.63    2635.84       2.64  Envelopes15_SignalMethod=-64; MaxOrders=0; MaxOrdersPerType=0;
