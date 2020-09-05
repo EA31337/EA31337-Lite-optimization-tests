@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -12,12 +12,12 @@
                              Spread          10
                                                                  [Optimization Graph]
           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             2  328.60          669          1.08            0.49     625.06       0.62 RSI_SignalLevel=36; MaxOrders=0; MaxOrdersPerType=0;
-             6  278.25          286          1.15            0.97     324.81       0.32 RSI_SignalLevel=44; MaxOrders=0; MaxOrdersPerType=0;
-             4  235.45          490          1.07            0.48     349.07       0.35 RSI_SignalLevel=40; MaxOrders=0; MaxOrdersPerType=0;
-             9  233.62          152          1.18            1.54     211.10       0.21 RSI_SignalLevel=50; MaxOrders=0; MaxOrdersPerType=0;
-             8  231.82          153          1.18            1.52     211.10       0.21 RSI_SignalLevel=48; MaxOrders=0; MaxOrdersPerType=0;
-             7  166.28          207          1.11            0.80     250.05       0.25 RSI_SignalLevel=46; MaxOrders=0; MaxOrdersPerType=0;
-             5   96.73          395          1.04            0.24     307.41       0.31 RSI_SignalLevel=42; MaxOrders=0; MaxOrdersPerType=0;
-             1 -149.87          765          0.97           -0.20     690.89       0.69 RSI_SignalLevel=34; MaxOrders=0; MaxOrdersPerType=0;
-             3 -271.38          594          0.93           -0.46     798.61       0.80 RSI_SignalLevel=38; MaxOrders=0; MaxOrdersPerType=0;
+             8  633.48          294          1.29            2.15     272.47       0.27 RSI_SignalLevel=50; MaxOrders=0; MaxOrdersPerType=0;
+             9  633.48          294          1.29            2.15     272.47       0.27 RSI_SignalLevel=52; MaxOrders=0; MaxOrdersPerType=0;
+             7  631.68          295          1.29            2.14     272.47       0.27 RSI_SignalLevel=48; MaxOrders=0; MaxOrdersPerType=0;
+             5  383.21          663          1.12            0.58     392.41       0.39 RSI_SignalLevel=44; MaxOrders=0; MaxOrdersPerType=0;
+             4  339.44          972          1.08            0.35     405.22       0.40 RSI_SignalLevel=42; MaxOrders=0; MaxOrdersPerType=0;
+             6  280.43          449          1.10            0.62     307.30       0.31 RSI_SignalLevel=46; MaxOrders=0; MaxOrdersPerType=0;
+             3  -93.48         1263          0.98           -0.07     627.49       0.63 RSI_SignalLevel=40; MaxOrders=0; MaxOrdersPerType=0;
+             2 -648.18         1540          0.89           -0.42    1000.63       1.00 RSI_SignalLevel=38; MaxOrders=0; MaxOrdersPerType=0;
+             1 -841.37         1772          0.88           -0.47    1054.72       1.05 RSI_SignalLevel=36; MaxOrders=0; MaxOrdersPerType=0;

@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -12,11 +12,11 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            1   4.60            3          3.56            1.53       7.00       0.01 RSI5_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
-            2   4.60            3          3.56            1.53       7.00       0.01 RSI5_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
-            3   4.60            3          3.56            1.53       7.00       0.01 RSI5_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
-            4   1.80            2          1.50            0.90       6.60       0.01 RSI5_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
-            5   1.80            2          1.50            0.90       6.60       0.01 RSI5_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
-            6  -2.60            2          0.28           -1.30       7.20       0.01 RSI5_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
-            7  -2.60            2          0.28           -1.30       7.20       0.01 RSI5_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
-            8  -2.60            2          0.28           -1.30       7.20       0.01 RSI5_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+            2   9.90            4          6.50            2.47      16.00       0.02 RSI5_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
+            3   9.90            4          6.50            2.47      16.00       0.02 RSI5_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
+            4   7.10            3          2.97            2.37      16.00       0.02 RSI5_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
+            5   7.10            3          2.97            2.37      16.00       0.02 RSI5_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
+            6   6.10            4          2.97            1.52      16.00       0.02 RSI5_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+            7   6.10            4          2.97            1.52      16.00       0.02 RSI5_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
+            8   6.10            4          2.97            1.52      16.00       0.02 RSI5_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+            1  -4.10            8          0.74           -0.51      23.90       0.02 RSI5_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;

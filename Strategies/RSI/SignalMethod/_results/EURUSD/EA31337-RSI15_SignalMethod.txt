@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -12,16 +12,14 @@
                             Spread          10
                                                                  [Optimization Graph]
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           7    1.69          138          1.00            0.01     313.70       0.31 RSI15_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
-           9    1.69          138          1.00            0.01     313.70       0.31 RSI15_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
-           8  -24.91          143          0.98           -0.17     313.70       0.31 RSI15_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
-           5  -25.64          161          0.98           -0.16     347.47       0.35 RSI15_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
-           3  -30.91          146          0.97           -0.21     340.40       0.34 RSI15_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
-           2  -31.31          148          0.97           -0.21     340.40       0.34 RSI15_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
-          10  -59.51          128          0.95           -0.46     353.64       0.35 RSI15_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
-          11  -59.51          128          0.95           -0.46     353.64       0.35 RSI15_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
-          12  -59.51          128          0.95           -0.46     353.64       0.35 RSI15_SignalMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
-          13  -59.51          128          0.95           -0.46     353.64       0.35 RSI15_SignalMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
-           4  -76.64          167          0.94           -0.46     367.47       0.37 RSI15_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
-           1  -97.14          153          0.93           -0.63     377.13       0.38 RSI15_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
-           6 -100.44          153          0.92           -0.66     348.17       0.35 RSI15_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+          10   64.58          243          1.05            0.27     409.50       0.41 RSI15_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
+           9   11.08          238          1.01            0.05     407.70       0.41 RSI15_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
+          11   11.08          238          1.01            0.05     407.70       0.41 RSI15_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
+           5  -18.82          251          0.99           -0.07     432.17       0.43 RSI15_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
+           4  -22.72          251          0.98           -0.09     431.40       0.43 RSI15_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
+           6  -70.66          334          0.96           -0.21     509.21       0.51 RSI15_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+           7  -87.46          326          0.95           -0.27     487.41       0.49 RSI15_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
+           8  -92.66          303          0.94           -0.31     447.61       0.45 RSI15_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+           2 -107.36          343          0.94           -0.31     466.78       0.47 RSI15_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
+           3 -124.96          328          0.92           -0.38     442.41       0.44 RSI15_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
+           1 -185.96          403          0.90           -0.46     427.84       0.43 RSI15_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
