@@ -11,6 +11,7 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
+     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
        11 -3457.43         4334          0.73           -0.80    3581.84       3.58   MFI_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=0;
        12 -3459.23         4335          0.73           -0.80    3583.64       3.58  MFI_TrailingStopMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
         7 -3862.49         4955          0.72           -0.78    3954.19       3.95   MFI_TrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=0;
