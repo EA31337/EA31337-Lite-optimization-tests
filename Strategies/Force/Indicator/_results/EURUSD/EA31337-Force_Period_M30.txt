@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -11,13 +11,13 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
-             2 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
-             3 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=14; MaxOrders=0; MaxOrdersPerType=0;
-             4 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=16; MaxOrders=0; MaxOrdersPerType=0;
-             5 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=18; MaxOrders=0; MaxOrdersPerType=0;
-             6 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=20; MaxOrders=0; MaxOrdersPerType=0;
-             7 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=22; MaxOrders=0; MaxOrdersPerType=0;
-             8 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=24; MaxOrders=0; MaxOrdersPerType=0;
-             9 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=26; MaxOrders=0; MaxOrdersPerType=0;
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            9  182.21           90          1.42            2.02     262.30       0.26 Force_Period_M30=18; MaxOrders=0; MaxOrdersPerType=0;
+            8  145.58           85          1.33            1.71     258.40       0.26 Force_Period_M30=16; MaxOrders=0; MaxOrdersPerType=0;
+            2  115.20          114          1.24            1.01     217.80       0.22  Force_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
+            5  112.25           74          1.35            1.52     260.70       0.26 Force_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
+            4  108.35           82          1.30            1.32     240.10       0.24  Force_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
+            7   80.85           82          1.19            0.99     258.40       0.26 Force_Period_M30=14; MaxOrders=0; MaxOrdersPerType=0;
+            3   36.44           97          1.08            0.38     248.80       0.25  Force_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
+            6   27.25           75          1.07            0.36     260.70       0.26 Force_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
+            1 -155.75          140          0.81           -1.11     285.28       0.29  Force_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
