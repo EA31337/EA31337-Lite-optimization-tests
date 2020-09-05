@@ -17,5 +17,3 @@
              3  41.00           37          1.22            1.11     104.20       0.10  Force_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
              4  41.00           37          1.22            1.11     104.20       0.10  Force_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
              5  41.00           37          1.22            1.11     104.20       0.10 Force_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
-             6  41.00           37          1.22            1.11     104.20       0.10 Force_Period_M1=12; MaxOrders=0; MaxOrdersPerType=0;
-             7  41.00           37          1.22            1.11     104.20       0.10 Force_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
