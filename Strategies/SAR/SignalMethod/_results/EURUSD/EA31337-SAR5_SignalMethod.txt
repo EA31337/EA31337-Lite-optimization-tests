@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,15 +11,15 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            5   41.90            8          2.22            5.24      26.50       0.03 SAR5_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-            6  -13.90            7          0.59           -1.99      36.60       0.04 SAR5_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
-            1  -15.90            5          0.32           -3.18      19.00       0.02 SAR5_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
-            3  -15.90            5          0.32           -3.18      19.00       0.02  SAR5_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-            4  -15.90            5          0.32           -3.18      19.00       0.02 SAR5_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-            7  -15.90            5          0.32           -3.18      19.00       0.02 SAR5_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=0;
-            8  -15.90            5          0.32           -3.18      19.00       0.02 SAR5_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=0;
-            9  -15.90            5          0.32           -3.18      19.00       0.02 SAR5_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
-           10  -15.90            5          0.32           -3.18      19.00       0.02 SAR5_SignalMethod=56; MaxOrders=0; MaxOrdersPerType=0;
-           11  -15.90            5          0.32           -3.18      19.00       0.02 SAR5_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=0;
-            2 -195.19          130          0.77           -1.50     266.76       0.27  SAR5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           6 -108.78           72          0.73           -1.51     160.65       0.16  SAR5_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+           1 -146.44          114          0.77           -1.28     230.06       0.23 SAR5_SignalMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
+           2 -146.44          114          0.77           -1.28     230.06       0.23  SAR5_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
+           8 -160.97           68          0.59           -2.37     206.74       0.21  SAR5_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=0;
+           9 -160.97           68          0.59           -2.37     206.74       0.21  SAR5_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=0;
+          10 -160.97           68          0.59           -2.37     206.74       0.21  SAR5_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
+          11 -160.97           68          0.59           -2.37     206.74       0.21  SAR5_SignalMethod=56; MaxOrders=0; MaxOrdersPerType=0;
+           4 -169.97           69          0.57           -2.46     206.74       0.21   SAR5_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+           5 -169.97           69          0.57           -2.46     206.74       0.21  SAR5_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+           3 -171.44          196          0.84           -0.87     304.61       0.30   SAR5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+           7 -180.58           70          0.56           -2.58     217.35       0.22  SAR5_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;

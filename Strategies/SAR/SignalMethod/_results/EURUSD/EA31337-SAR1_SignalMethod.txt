@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -12,12 +12,14 @@
                              Spread          10
                                                                  [Optimization Graph]
         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           7  21.40           22          1.18            0.97     108.40       0.11  SAR1_SignalMethod=-85; MaxOrders=0; MaxOrdersPerType=0;
-           9  21.40           22          1.18            0.97     108.40       0.11  SAR1_SignalMethod=-71; MaxOrders=0; MaxOrdersPerType=0;
-           6   8.60           22          1.06            0.39     108.40       0.11  SAR1_SignalMethod=-92; MaxOrders=0; MaxOrdersPerType=0;
-           8   8.60           22          1.06            0.39     108.40       0.11  SAR1_SignalMethod=-78; MaxOrders=0; MaxOrdersPerType=0;
-           3   4.60           23          1.03            0.20     108.40       0.11 SAR1_SignalMethod=-113; MaxOrders=0; MaxOrdersPerType=0;
-           1   1.00          100          1.00            0.01     137.10       0.14 SAR1_SignalMethod=-127; MaxOrders=0; MaxOrdersPerType=0;
-           5   1.00           48          1.01            0.02     119.00       0.12  SAR1_SignalMethod=-99; MaxOrders=0; MaxOrdersPerType=0;
-           4  -1.10           24          0.99           -0.05     104.20       0.10 SAR1_SignalMethod=-106; MaxOrders=0; MaxOrdersPerType=0;
-           2 -57.60          213          0.92           -0.27     135.40       0.14 SAR1_SignalMethod=-120; MaxOrders=0; MaxOrdersPerType=0;
+           6  17.50           23          1.14            0.76     108.40       0.11  SAR1_SignalMethod=-85; MaxOrders=0; MaxOrdersPerType=0;
+           8  17.50           23          1.14            0.76     108.40       0.11  SAR1_SignalMethod=-71; MaxOrders=0; MaxOrdersPerType=0;
+          10   4.60           23          1.03            0.20     108.40       0.11  SAR1_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
+          11   4.60           23          1.03            0.20     108.40       0.11  SAR1_SignalMethod=-50; MaxOrders=0; MaxOrdersPerType=0;
+           5   4.70           23          1.03            0.20     108.40       0.11  SAR1_SignalMethod=-92; MaxOrders=0; MaxOrdersPerType=0;
+           7   4.70           23          1.03            0.20     108.40       0.11  SAR1_SignalMethod=-78; MaxOrders=0; MaxOrdersPerType=0;
+           2   0.70           24          1.00            0.03     108.40       0.11 SAR1_SignalMethod=-113; MaxOrders=0; MaxOrdersPerType=0;
+           4  -2.90           49          0.99           -0.06     119.00       0.12  SAR1_SignalMethod=-99; MaxOrders=0; MaxOrdersPerType=0;
+           3  -5.00           25          0.97           -0.20     104.20       0.10 SAR1_SignalMethod=-106; MaxOrders=0; MaxOrdersPerType=0;
+           9  -8.20           23          0.95           -0.36     108.40       0.11  SAR1_SignalMethod=-64; MaxOrders=0; MaxOrdersPerType=0;
+           1 -60.80          212          0.91           -0.29     132.10       0.13 SAR1_SignalMethod=-120; MaxOrders=0; MaxOrdersPerType=0;
