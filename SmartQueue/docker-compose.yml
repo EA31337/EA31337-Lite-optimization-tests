@@ -22,7 +22,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=3
       RUN_ON_SET: set_opt_params SmartQueueMethod 0 15
       SETFILE: /opt/sets/EA31337-SmartQueueMethod.set
       SET_PARAMS: SmartQueueMethod
@@ -36,12 +36,12 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
-        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 10"))
-        $$(get_min 255 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 10"))
-        7
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 5 * 10"))
+        $$(get_min 255 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 5 * 10"))
+        3
       SETFILE: /opt/sets/EA31337-SmartQueueFilter.set
       SET_PARAMS: SmartQueueFilter
       TEST_REPORT_NAME: EA31337-SmartQueueFilter
