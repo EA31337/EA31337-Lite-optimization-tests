@@ -12,11 +12,11 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            1   0.00            0          0.00            0.00       0.00       0.00 RSI5_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
-            2   0.00            0          0.00            0.00       0.00       0.00 RSI5_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
-            3   0.00            0          0.00            0.00       0.00       0.00 RSI5_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
-            4   0.00            0          0.00            0.00       0.00       0.00 RSI5_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
-            5   0.00            0          0.00            0.00       0.00       0.00 RSI5_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
-            6   0.00            0          0.00            0.00       0.00       0.00 RSI5_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
-            7   0.00            0          0.00            0.00       0.00       0.00 RSI5_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
-            8   0.00            0          0.00            0.00       0.00       0.00 RSI5_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+            2   9.90            4          6.50            2.47      16.00       0.02 RSI5_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
+            3   9.90            4          6.50            2.47      16.00       0.02 RSI5_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
+            4   7.10            3          2.97            2.37      16.00       0.02 RSI5_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
+            5   7.10            3          2.97            2.37      16.00       0.02 RSI5_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
+            6   6.10            4          2.97            1.52      16.00       0.02 RSI5_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+            7   6.10            4          2.97            1.52      16.00       0.02 RSI5_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
+            8   6.10            4          2.97            1.52      16.00       0.02 RSI5_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+            1  -4.10            8          0.74           -0.51      23.90       0.02 RSI5_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
