@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,13 +11,13 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           4 -388.81          544          0.92           -0.71     801.76       0.80 MACD_SignalLevel=-0.4; MaxOrders=0; MaxOrdersPerType=0;
-           1 -484.96          514          0.89           -0.94     739.66       0.74 MACD_SignalLevel=-0.7; MaxOrders=0; MaxOrdersPerType=0;
-           8 -484.85          612          0.91           -0.79     960.02       0.96    MACD_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
-           6 -495.80          589          0.90           -0.84     950.61       0.95 MACD_SignalLevel=-0.2; MaxOrders=0; MaxOrdersPerType=0;
-           9 -510.34          596          0.90           -0.86    1001.92       1.00  MACD_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
-           7 -513.94          598          0.90           -0.86    1003.72       1.00 MACD_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
-           3 -562.82          531          0.88           -1.06     829.96       0.83 MACD_SignalLevel=-0.5; MaxOrders=0; MaxOrdersPerType=0;
-           5 -611.87          561          0.87           -1.09     878.06       0.88 MACD_SignalLevel=-0.3; MaxOrders=0; MaxOrdersPerType=0;
-           2 -644.98          521          0.86           -1.24     856.51       0.86 MACD_SignalLevel=-0.6; MaxOrders=0; MaxOrdersPerType=0;
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           9  -857.27         1407          0.90           -0.61    1405.37       1.40    MACD_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
+           8  -976.76         1391          0.89           -0.70    1542.77       1.54 MACD_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
+           7 -1041.78         1375          0.88           -0.76    1553.41       1.55 MACD_SignalLevel=-0.2; MaxOrders=0; MaxOrdersPerType=0;
+           1 -1179.38         1257          0.85           -0.94    1419.72       1.42 MACD_SignalLevel=-0.8; MaxOrders=0; MaxOrdersPerType=0;
+           5 -1184.67         1345          0.86           -0.88    1517.12       1.52 MACD_SignalLevel=-0.4; MaxOrders=0; MaxOrdersPerType=0;
+           2 -1260.40         1273          0.84           -0.99    1498.73       1.50 MACD_SignalLevel=-0.7; MaxOrders=0; MaxOrdersPerType=0;
+           4 -1285.53         1316          0.84           -0.98    1583.12       1.58 MACD_SignalLevel=-0.5; MaxOrders=0; MaxOrdersPerType=0;
+           6 -1393.81         1361          0.83           -1.02    1725.28       1.72 MACD_SignalLevel=-0.3; MaxOrders=0; MaxOrdersPerType=0;
+           3 -1486.64         1293          0.82           -1.15    1609.47       1.61 MACD_SignalLevel=-0.6; MaxOrders=0; MaxOrdersPerType=0;

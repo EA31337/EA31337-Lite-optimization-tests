@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,11 +11,11 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            7 -340.06          560          0.93           -0.61     865.88       0.86 MACD_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-            6 -346.45          554          0.93           -0.63     867.08       0.87 MACD_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-            1 -393.19          560          0.92           -0.70     835.09       0.83 MACD_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-            3 -463.21          649          0.92           -0.71    1077.96       1.08 MACD_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-            5 -611.87          561          0.87           -1.09     878.06       0.88 MACD_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-            4 -647.24          499          0.84           -1.30     769.72       0.77 MACD_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-            2 -685.13          573          0.86           -1.20     918.17       0.92 MACD_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           3 -1075.15         1406          0.88           -0.76    1435.61       1.44 MACD_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+           6 -1097.88         1358          0.87           -0.81    1572.46       1.57 MACD_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+           4 -1189.16         1291          0.85           -0.92    1404.39       1.40 MACD_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+           7 -1214.50         1342          0.85           -0.90    1536.46       1.54 MACD_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+           1 -1366.32         1349          0.84           -1.01    1603.38       1.60 MACD_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+           5 -1393.81         1361          0.83           -1.02    1725.28       1.72 MACD_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+           2 -1408.09         1393          0.83           -1.01    1599.39       1.60 MACD_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
