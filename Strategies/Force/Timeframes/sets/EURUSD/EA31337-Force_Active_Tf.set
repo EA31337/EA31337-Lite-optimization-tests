@@ -22,7 +22,11 @@ SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Optimization params.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Force_Active_Tf=1
+=======
+Force_Active_Tf=9
+>>>>>>> Stashed changes
 =======
 Force_Active_Tf=9
 >>>>>>> Stashed changes
