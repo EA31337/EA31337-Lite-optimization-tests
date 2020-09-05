@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,13 +11,13 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            5 -236.04          609          0.96           -0.39    1043.96       1.04 CCI_SignalLevel=115; MaxOrders=0; MaxOrdersPerType=0;
-            7 -267.54          603          0.96           -0.44    1063.66       1.06 CCI_SignalLevel=119; MaxOrders=0; MaxOrdersPerType=0;
-            4 -295.65          611          0.96           -0.48    1043.96       1.04 CCI_SignalLevel=113; MaxOrders=0; MaxOrdersPerType=0;
-            6 -327.04          604          0.95           -0.54    1060.26       1.06 CCI_SignalLevel=117; MaxOrders=0; MaxOrdersPerType=0;
-            9 -331.52          599          0.95           -0.55    1065.26       1.06 CCI_SignalLevel=123; MaxOrders=0; MaxOrdersPerType=0;
-            3 -339.76          612          0.95           -0.56    1045.41       1.04 CCI_SignalLevel=111; MaxOrders=0; MaxOrdersPerType=0;
-            8 -340.43          601          0.95           -0.57    1063.66       1.06 CCI_SignalLevel=121; MaxOrders=0; MaxOrdersPerType=0;
-            1 -360.69          615          0.95           -0.59    1080.16       1.08 CCI_SignalLevel=107; MaxOrders=0; MaxOrdersPerType=0;
-            2 -364.49          613          0.94           -0.59    1057.73       1.05 CCI_SignalLevel=109; MaxOrders=0; MaxOrdersPerType=0;
+          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            6 -237.47          894          0.96           -0.27     765.65       0.76 CCI_SignalLevel=125; MaxOrders=0; MaxOrdersPerType=0;
+            5 -272.57          901          0.95           -0.30     765.65       0.76 CCI_SignalLevel=123; MaxOrders=0; MaxOrdersPerType=0;
+            7 -272.15          878          0.95           -0.31     758.45       0.76 CCI_SignalLevel=127; MaxOrders=0; MaxOrdersPerType=0;
+            9 -345.05          867          0.94           -0.40     801.56       0.80 CCI_SignalLevel=131; MaxOrders=0; MaxOrdersPerType=0;
+            4 -394.99          906          0.93           -0.44     858.86       0.86 CCI_SignalLevel=121; MaxOrders=0; MaxOrdersPerType=0;
+            8 -428.54          871          0.92           -0.49     838.24       0.84 CCI_SignalLevel=129; MaxOrders=0; MaxOrdersPerType=0;
+            3 -436.20          917          0.92           -0.48     880.56       0.88 CCI_SignalLevel=119; MaxOrders=0; MaxOrdersPerType=0;
+            2 -441.80          917          0.92           -0.48     886.26       0.88 CCI_SignalLevel=117; MaxOrders=0; MaxOrdersPerType=0;
+            1 -492.40          918          0.91           -0.54     896.46       0.90 CCI_SignalLevel=115; MaxOrders=0; MaxOrdersPerType=0;

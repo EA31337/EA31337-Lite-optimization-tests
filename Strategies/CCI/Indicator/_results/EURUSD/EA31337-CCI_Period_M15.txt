@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -11,9 +11,8 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              2 295.19          594          1.06            0.50     449.40       0.45  CCI_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
-              4 211.38          597          1.04            0.35     572.59       0.57 CCI_Period_M15=14; MaxOrders=0; MaxOrdersPerType=0;
-              5 162.41          590          1.03            0.28     555.18       0.55 CCI_Period_M15=18; MaxOrders=0; MaxOrdersPerType=0;
-              3 161.53          602          1.03            0.27     531.70       0.53 CCI_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
-              1 -78.76          237          0.96           -0.33     443.34       0.44  CCI_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
+          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1   97.73          279          1.04            0.35     385.03       0.38  CCI_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
+             4  -58.57          865          0.99           -0.07     574.98       0.57 CCI_Period_M15=14; MaxOrders=0; MaxOrdersPerType=0;
+             3 -133.91          866          0.97           -0.15     745.53       0.74 CCI_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
+             2 -188.71          863          0.96           -0.22     756.06       0.75  CCI_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
