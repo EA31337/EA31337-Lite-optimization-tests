@@ -31,7 +31,11 @@ Force_MA30_SignalMethod=0
 Force_TrailingStopMethod=0
 Force_TrailingProfitMethod=0
 # Optimization params.
+<<<<<<< Updated upstream
 Force_Period_M5=14
+=======
+Force_Period_M5=16
+>>>>>>> Stashed changes
 Force_Period_M5,F=0
 Force_Period_M5,1=0
 Force_Period_M5,2=0
