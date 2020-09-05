@@ -31,9 +31,13 @@ MACD_TrailingStopMethod=0
 MACD_TrailingProfitMethod=0
 # Optimization params.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 MACD_Applied_Price=2
 =======
 MACD_Applied_Price=5
+>>>>>>> Stashed changes
+=======
+MACD_Applied_Price=2
 >>>>>>> Stashed changes
 MACD_Applied_Price,F=0
 MACD_Applied_Price,1=0
