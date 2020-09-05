@@ -31,11 +31,15 @@ AD30_SignalMethod=0
 <<<<<<< Updated upstream
 AD_TrailingStopMethod=11
 # Optimization params.
+<<<<<<< Updated upstream
 AD_TrailingProfitMethod=25
+=======
+AD_TrailingProfitMethod=-5
+>>>>>>> Stashed changes
 =======
 AD_TrailingStopMethod=11
 # Optimization params.
-AD_TrailingProfitMethod=25
+AD_TrailingProfitMethod=-5
 >>>>>>> Stashed changes
 AD_TrailingProfitMethod,F=0
 AD_TrailingProfitMethod,1=0
