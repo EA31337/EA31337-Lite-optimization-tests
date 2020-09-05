@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,17 +11,16 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           13    4.40            4          3.20            1.10       7.00       0.01 MA5_SignalMethod=84; MaxOrders=0; MaxOrdersPerType=0;
-            5    4.60            3          3.56            1.53       7.00       0.01 MA5_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
-           10    4.60            3          3.56            1.53       7.00       0.01 MA5_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=0;
-            8    3.30            4          2.06            0.83       8.30       0.01 MA5_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
-            9    3.30            4          2.06            0.83       8.30       0.01 MA5_SignalMethod=56; MaxOrders=0; MaxOrdersPerType=0;
-            3    2.10           16          1.16            0.13       9.80       0.01 MA5_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-           12    2.10           16          1.16            0.13       9.80       0.01 MA5_SignalMethod=77; MaxOrders=0; MaxOrdersPerType=0;
-            4    0.40            8          1.04            0.05      13.00       0.01 MA5_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-           11  -13.20           23          0.56           -0.57      24.10       0.02 MA5_SignalMethod=70; MaxOrders=0; MaxOrdersPerType=0;
-            7  -14.90           30          0.56           -0.50      27.30       0.03 MA5_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=0;
-            6  -27.80           35          0.40           -0.79      33.50       0.03 MA5_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=0;
-            2  -36.22           47          0.45           -0.77      47.72       0.05  MA5_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-            1 -209.73          255          0.48           -0.82     216.73       0.22  MA5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            6  -4.30            9          0.73           -0.48      24.10       0.02  MA5_SignalMethod=84; MaxOrders=0; MaxOrdersPerType=0;
+            3  -4.10            8          0.74           -0.51      23.90       0.02  MA5_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=0;
+            7  -4.10            8          0.74           -0.51      23.90       0.02  MA5_SignalMethod=91; MaxOrders=0; MaxOrdersPerType=0;
+           10  -4.10            8          0.74           -0.51      23.90       0.02 MA5_SignalMethod=112; MaxOrders=0; MaxOrdersPerType=0;
+           11  -4.10            8          0.74           -0.51      23.90       0.02 MA5_SignalMethod=119; MaxOrders=0; MaxOrdersPerType=0;
+           12  -4.10            8          0.74           -0.51      23.90       0.02 MA5_SignalMethod=126; MaxOrders=0; MaxOrdersPerType=0;
+            2  -5.50            9          0.68           -0.61      25.30       0.03  MA5_SignalMethod=56; MaxOrders=0; MaxOrdersPerType=0;
+            1  -9.50           10          0.55           -0.95      29.30       0.03  MA5_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
+            5 -16.10           31          0.64           -0.52      31.60       0.03  MA5_SignalMethod=77; MaxOrders=0; MaxOrdersPerType=0;
+            4 -28.00           45          0.59           -0.62      43.50       0.04  MA5_SignalMethod=70; MaxOrders=0; MaxOrdersPerType=0;
+            8 -34.70           44          0.48           -0.79      52.50       0.05  MA5_SignalMethod=98; MaxOrders=0; MaxOrdersPerType=0;
+            9 -36.10           42          0.43           -0.86      53.90       0.05 MA5_SignalMethod=105; MaxOrders=0; MaxOrdersPerType=0;

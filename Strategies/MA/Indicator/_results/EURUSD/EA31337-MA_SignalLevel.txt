@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,9 +11,8 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            4 -275.46          609          0.94           -0.45     737.02       0.73 MA_SignalLevel=-0.9; MaxOrders=0; MaxOrdersPerType=0;
-            3 -324.98          613          0.93           -0.53     801.04       0.80   MA_SignalLevel=-1; MaxOrders=0; MaxOrdersPerType=0;
-            2 -334.29          619          0.93           -0.54     815.74       0.81 MA_SignalLevel=-1.1; MaxOrders=0; MaxOrdersPerType=0;
-            5 -410.80          595          0.91           -0.69     896.39       0.89 MA_SignalLevel=-0.8; MaxOrders=0; MaxOrdersPerType=0;
-            1 -469.80          623          0.91           -0.75     854.26       0.85 MA_SignalLevel=-1.2; MaxOrders=0; MaxOrdersPerType=0;
+            3 -515.05         1283          0.92           -0.40    1051.90       1.05 MA_SignalLevel=-0.9; MaxOrders=0; MaxOrdersPerType=0;
+            2 -539.28         1290          0.92           -0.42    1118.73       1.11   MA_SignalLevel=-1; MaxOrders=0; MaxOrdersPerType=0;
+            5 -560.10         1257          0.91           -0.45    1127.08       1.12 MA_SignalLevel=-0.7; MaxOrders=0; MaxOrdersPerType=0;
+            4 -577.21         1265          0.91           -0.46    1182.08       1.18 MA_SignalLevel=-0.8; MaxOrders=0; MaxOrdersPerType=0;
+            1 -614.99         1317          0.91           -0.47    1199.44       1.19 MA_SignalLevel=-1.1; MaxOrders=0; MaxOrdersPerType=0;
