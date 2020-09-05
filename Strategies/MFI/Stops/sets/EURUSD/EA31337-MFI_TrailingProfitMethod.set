@@ -29,6 +29,7 @@ MFI15_SignalMethod=0
 MFI30_SignalMethod=0
 # Dynamic strategy params.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 MFI_TrailingStopMethod=7
 # Optimization params.
 MFI_TrailingProfitMethod=-17
@@ -36,6 +37,11 @@ MFI_TrailingProfitMethod=-17
 MFI_TrailingStopMethod=14
 # Optimization params.
 MFI_TrailingProfitMethod=6
+>>>>>>> Stashed changes
+=======
+MFI_TrailingStopMethod=6
+# Optimization params.
+MFI_TrailingProfitMethod=11
 >>>>>>> Stashed changes
 MFI_TrailingProfitMethod,F=0
 MFI_TrailingProfitMethod,1=0
