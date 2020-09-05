@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -11,9 +11,9 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              1 -80.35          442          0.98           -0.18     708.83       0.71 WPR_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
-              2 -80.35          442          0.98           -0.18     708.83       0.71 WPR_Period_M15=3; MaxOrders=0; MaxOrdersPerType=0;
-              3 -80.35          442          0.98           -0.18     708.83       0.71 WPR_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
-              4 -80.35          442          0.98           -0.18     708.83       0.71 WPR_Period_M15=5; MaxOrders=0; MaxOrdersPerType=0;
-              5 -80.35          442          0.98           -0.18     708.83       0.71 WPR_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
+           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              1 -142.66          487          0.97           -0.29     822.36       0.82 WPR_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
+              2 -142.66          487          0.97           -0.29     822.36       0.82 WPR_Period_M15=3; MaxOrders=0; MaxOrdersPerType=0;
+              3 -142.66          487          0.97           -0.29     822.36       0.82 WPR_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
+              4 -142.66          487          0.97           -0.29     822.36       0.82 WPR_Period_M15=5; MaxOrders=0; MaxOrdersPerType=0;
+              5 -142.66          487          0.97           -0.29     822.36       0.82 WPR_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;

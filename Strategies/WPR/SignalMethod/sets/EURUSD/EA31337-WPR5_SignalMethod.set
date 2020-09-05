@@ -23,7 +23,7 @@ RSI_Active_Tf=0
 SAR_Active_Tf=0
 WPR_Active_Tf=2
 # Optimization params.
-WPR5_SignalMethod=-44
+WPR5_SignalMethod=-32
 WPR5_SignalMethod,F=0
 WPR5_SignalMethod,1=0
 WPR5_SignalMethod,2=0
