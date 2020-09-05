@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -12,10 +12,10 @@
                              Spread          10
                                                                  [Optimization Graph]
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1  297.11          259          1.15            1.15     285.54       0.29 Bands_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-           4  297.11          259          1.15            1.15     285.54       0.29 Bands_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-           5 -270.45          431          0.92           -0.63     615.39       0.61 Bands_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-           2 -296.00          417          0.91           -0.71     641.90       0.64 Bands_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-           7 -377.56          382          0.88           -0.99     598.24       0.60 Bands_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-           6 -377.03          409          0.88           -0.92     628.34       0.63 Bands_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-           3 -382.46          467          0.89           -0.82     603.59       0.60 Bands_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+           4  385.36          519          1.11            0.74     340.02       0.34 Bands_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+           1  337.80          600          1.09            0.56     351.21       0.35 Bands_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+           2  246.89          739          1.05            0.33     414.80       0.41 Bands_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+           5  228.12          737          1.05            0.31     466.30       0.47 Bands_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+           7  126.10          695          1.03            0.18     454.89       0.45 Bands_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+           6   31.56          718          1.01            0.04     449.10       0.45 Bands_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+           3 -137.18          842          0.97           -0.16     601.93       0.60 Bands_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
