@@ -11,6 +11,7 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
+<<<<<<< Updated upstream
          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
             1   0.00            0          0.00            0.00       0.00       0.00  MA15_SignalMethod=37; MaxOrders=0; MaxOrdersPerType=0;
             2   0.00            0          0.00            0.00       0.00       0.00  MA15_SignalMethod=44; MaxOrders=0; MaxOrdersPerType=0;
@@ -25,3 +26,19 @@
            11   0.00            0          0.00            0.00       0.00       0.00 MA15_SignalMethod=107; MaxOrders=0; MaxOrdersPerType=0;
            12   0.00            0          0.00            0.00       0.00       0.00 MA15_SignalMethod=114; MaxOrders=0; MaxOrdersPerType=0;
            13   0.00            0          0.00            0.00       0.00       0.00 MA15_SignalMethod=121; MaxOrders=0; MaxOrdersPerType=0;
+=======
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           6  -88.26          305          0.94           -0.29     447.61       0.45  MA15_SignalMethod=72; MaxOrders=0; MaxOrdersPerType=0;
+          11  -89.06          304          0.94           -0.29     447.61       0.45 MA15_SignalMethod=107; MaxOrders=0; MaxOrdersPerType=0;
+           7  -91.86          304          0.94           -0.30     447.61       0.45  MA15_SignalMethod=79; MaxOrders=0; MaxOrdersPerType=0;
+           1  -92.66          303          0.94           -0.31     447.61       0.45  MA15_SignalMethod=37; MaxOrders=0; MaxOrdersPerType=0;
+           2  -92.66          303          0.94           -0.31     447.61       0.45  MA15_SignalMethod=44; MaxOrders=0; MaxOrdersPerType=0;
+           3  -92.66          303          0.94           -0.31     447.61       0.45  MA15_SignalMethod=51; MaxOrders=0; MaxOrdersPerType=0;
+           4  -92.66          303          0.94           -0.31     447.61       0.45  MA15_SignalMethod=58; MaxOrders=0; MaxOrdersPerType=0;
+           8  -92.66          303          0.94           -0.31     447.61       0.45  MA15_SignalMethod=86; MaxOrders=0; MaxOrdersPerType=0;
+           9  -92.66          303          0.94           -0.31     447.61       0.45  MA15_SignalMethod=93; MaxOrders=0; MaxOrdersPerType=0;
+          10  -92.66          303          0.94           -0.31     447.61       0.45 MA15_SignalMethod=100; MaxOrders=0; MaxOrdersPerType=0;
+          12  -92.66          303          0.94           -0.31     447.61       0.45 MA15_SignalMethod=114; MaxOrders=0; MaxOrdersPerType=0;
+          13  -92.66          303          0.94           -0.31     447.61       0.45 MA15_SignalMethod=121; MaxOrders=0; MaxOrdersPerType=0;
+           5 -104.36          307          0.93           -0.34     464.71       0.46  MA15_SignalMethod=65; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
