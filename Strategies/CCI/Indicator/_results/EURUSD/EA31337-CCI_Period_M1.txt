@@ -24,4 +24,7 @@
               2  -53.50           72          0.62           -0.74      77.20       0.08  CCI_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
               3  -80.00           61          0.47           -1.31     109.60       0.11 CCI_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
               4 -111.10           56          0.26           -1.98     116.30       0.12 CCI_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

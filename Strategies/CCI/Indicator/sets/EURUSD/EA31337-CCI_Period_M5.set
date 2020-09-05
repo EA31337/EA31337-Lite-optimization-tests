@@ -31,6 +31,7 @@ CCI_TrailingStopMethod=0
 CCI_TrailingProfitMethod=0
 # Dynamic strategy params.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 CCI_Applied_Price=6
 CCI_SignalLevel=99
 =======
@@ -40,6 +41,13 @@ CCI_SignalLevel=121
 CCI_Shift=0
 # Optimization params.
 CCI_Period_M5=22
+=======
+CCI_Applied_Price=5
+CCI_SignalLevel=125
+CCI_Shift=0
+# Optimization params.
+CCI_Period_M5=26
+>>>>>>> Stashed changes
 CCI_Period_M5,F=0
 CCI_Period_M5,1=0
 CCI_Period_M5,2=0

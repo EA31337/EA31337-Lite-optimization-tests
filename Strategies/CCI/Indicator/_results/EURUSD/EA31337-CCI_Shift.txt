@@ -18,7 +18,13 @@
                  3   1.10            3          2.83            0.37       2.30       0.00 CCI_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
 =======
              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+<<<<<<< Updated upstream
                 1 -208.33          765          0.95           -0.27     664.29       0.66 CCI_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
                 2 -208.33          765          0.95           -0.27     664.29       0.66 CCI_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
                 3 -208.33          765          0.95           -0.27     664.29       0.66 CCI_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
+=======
+                1 -237.47          894          0.96           -0.27     765.65       0.76 CCI_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+                2 -237.47          894          0.96           -0.27     765.65       0.76 CCI_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+                3 -237.47          894          0.96           -0.27     765.65       0.76 CCI_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
 >>>>>>> Stashed changes
