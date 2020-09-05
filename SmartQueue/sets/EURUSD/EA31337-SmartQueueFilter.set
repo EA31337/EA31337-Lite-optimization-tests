@@ -7,7 +7,7 @@ SmartQueueActive=1
 MaxOrders=10
 SmartQueueMethod=0
 # Optimization params.
-SmartQueueFilter=2
+SmartQueueFilter=7
 SmartQueueFilter,F=0
 SmartQueueFilter,1=0
 SmartQueueFilter,2=0
