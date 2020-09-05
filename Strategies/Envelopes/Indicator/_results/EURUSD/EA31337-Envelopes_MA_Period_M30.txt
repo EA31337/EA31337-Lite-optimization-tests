@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -12,10 +12,9 @@
                             Spread          10
                                                                  [Optimization Graph]
       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         2 109.41            6          4.17           18.24      48.50       0.05  Envelopes_MA_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
-         5 109.41            6          4.17           18.24      48.50       0.05 Envelopes_MA_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
-         6 109.41            6          4.17           18.24      48.50       0.05 Envelopes_MA_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
-         7 109.41            6          4.17           18.24      48.50       0.05 Envelopes_MA_Period_M30=14; MaxOrders=0; MaxOrdersPerType=0;
-         1  49.98            7          2.45            7.14      97.72       0.10  Envelopes_MA_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
-         3  13.78            4          1.40            3.45      59.00       0.06  Envelopes_MA_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
-         4  13.78            4          1.40            3.45      59.00       0.06  Envelopes_MA_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
+         2 110.91            6          4.38           18.49      46.80       0.05  Envelopes_MA_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
+         5 110.91            6          4.38           18.49      46.80       0.05 Envelopes_MA_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
+         6 110.91            6          4.38           18.49      46.80       0.05 Envelopes_MA_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
+         3  14.88            4          1.45            3.72      57.30       0.06  Envelopes_MA_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
+         4  14.88            4          1.45            3.72      57.30       0.06  Envelopes_MA_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
+         1 -20.64            9          0.81           -2.29     168.03       0.17  Envelopes_MA_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;

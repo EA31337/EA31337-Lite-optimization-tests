@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -12,8 +12,8 @@
                             Spread          10
                                                                  [Optimization Graph]
      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        3   -4.32            7          0.90           -0.62      70.11       0.07 Envelopes_Deviation_M30=0.3; MaxOrders=0; MaxOrdersPerType=0;
-        4  -20.82            6          0.51           -3.47      79.22       0.08 Envelopes_Deviation_M30=0.4; MaxOrders=0; MaxOrdersPerType=0;
-        2  -29.95           18          0.81           -1.66     121.04       0.12 Envelopes_Deviation_M30=0.2; MaxOrders=0; MaxOrdersPerType=0;
-        5  -30.82            5          0.27           -6.16      87.91       0.09 Envelopes_Deviation_M30=0.5; MaxOrders=0; MaxOrdersPerType=0;
-        1 -172.50           64          0.73           -2.70     234.79       0.23 Envelopes_Deviation_M30=0.1; MaxOrders=0; MaxOrdersPerType=0;
+        4   31.38            8          1.71            3.92      84.72       0.08 Envelopes_Deviation_M30=0.4; MaxOrders=0; MaxOrdersPerType=0;
+        5    9.48            7          1.22            1.35     101.60       0.10 Envelopes_Deviation_M30=0.5; MaxOrders=0; MaxOrdersPerType=0;
+        3  -23.90           19          0.74           -1.26     102.11       0.10 Envelopes_Deviation_M30=0.3; MaxOrders=0; MaxOrdersPerType=0;
+        2 -149.14           61          0.65           -2.44     263.34       0.26 Envelopes_Deviation_M30=0.2; MaxOrders=0; MaxOrdersPerType=0;
+        1 -655.84          223          0.62           -2.94     742.07       0.74 Envelopes_Deviation_M30=0.1; MaxOrders=0; MaxOrdersPerType=0;

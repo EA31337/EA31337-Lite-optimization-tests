@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,11 +11,6 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         3 -566.78          561          0.89           -1.01     919.77       0.92 Envelopes_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-         1 -753.83          560          0.87           -1.35    1187.21       1.19 Envelopes_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-         4 -861.66          577          0.85           -1.49    1384.42       1.38 Envelopes_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-         2 -862.74          576          0.85           -1.50    1309.41       1.31 Envelopes_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-         7 -878.41          560          0.85           -1.57    1275.69       1.28 Envelopes_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-         6 -896.31          562          0.84           -1.59    1318.80       1.32 Envelopes_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-         5 -968.38          566          0.83           -1.71    1332.58       1.33 Envelopes_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         1 -1343.02         1183          0.84           -1.14    1919.64       1.92 Envelopes_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+         2 -1407.50         1195          0.82           -1.18    1912.54       1.91 Envelopes_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
