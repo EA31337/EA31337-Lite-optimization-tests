@@ -11,16 +11,13 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-   Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-      5  244.07          257          1.21            0.95     354.88       0.35  Alligator_Period_Teeth=6; Alligator_Period_Lips=10; MaxOrders=0;
-      4  122.50          238          1.10            0.51     362.04       0.36  Alligator_Period_Teeth=2; Alligator_Period_Lips=10; MaxOrders=0;
-      1   68.72           95          1.10            0.72     287.37       0.29   Alligator_Period_Teeth=2; Alligator_Period_Lips=2; MaxOrders=0;
-      3   68.72           95          1.10            0.72     287.37       0.29   Alligator_Period_Teeth=6; Alligator_Period_Lips=6; MaxOrders=0;
-      6   68.72           95          1.10            0.72     287.37       0.29 Alligator_Period_Teeth=10; Alligator_Period_Lips=10; MaxOrders=0;
-     11   68.72           95          1.10            0.72     287.37       0.29 Alligator_Period_Teeth=14; Alligator_Period_Lips=14; MaxOrders=0;
-     12    8.31          213          1.01            0.04     441.64       0.44 Alligator_Period_Teeth=18; Alligator_Period_Lips=14; MaxOrders=0;
-      9 -440.71          262          0.72           -1.68     592.06       0.59  Alligator_Period_Teeth=6; Alligator_Period_Lips=14; MaxOrders=0;
-      7 -588.59          254          0.62           -2.32     647.91       0.65 Alligator_Period_Teeth=14; Alligator_Period_Lips=10; MaxOrders=0;
-      8 -671.89          230          0.58           -2.92     748.39       0.75 Alligator_Period_Teeth=18; Alligator_Period_Lips=10; MaxOrders=0;
-      2 -689.74          361          0.66           -1.91     799.49       0.80   Alligator_Period_Teeth=2; Alligator_Period_Lips=6; MaxOrders=0;
-     10 -725.96          260          0.55           -2.79     789.76       0.79 Alligator_Period_Teeth=10; Alligator_Period_Lips=14; MaxOrders=0;
+     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        1 -16.29          153          0.98           -0.11     443.00       0.44   Alligator_Period_Jaw=8; Alligator_Period_Lips=6; MaxOrders=0;
+        2 -16.29          153          0.98           -0.11     443.00       0.44  Alligator_Period_Jaw=12; Alligator_Period_Lips=6; MaxOrders=0;
+        3 -16.29          153          0.98           -0.11     443.00       0.44  Alligator_Period_Jaw=16; Alligator_Period_Lips=6; MaxOrders=0;
+        4 -16.29          153          0.98           -0.11     443.00       0.44  Alligator_Period_Jaw=20; Alligator_Period_Lips=6; MaxOrders=0;
+        5 -16.29          153          0.98           -0.11     443.00       0.44  Alligator_Period_Jaw=24; Alligator_Period_Lips=6; MaxOrders=0;
+        6 -25.70          406          0.99           -0.06     509.34       0.51 Alligator_Period_Jaw=12; Alligator_Period_Lips=10; MaxOrders=0;
+        8 -29.32          546          0.99           -0.05     339.72       0.34 Alligator_Period_Jaw=20; Alligator_Period_Lips=10; MaxOrders=0;
+        7 -57.48          511          0.97           -0.11     354.21       0.35 Alligator_Period_Jaw=16; Alligator_Period_Lips=10; MaxOrders=0;
+        9 -65.75          580          0.97           -0.11     393.24       0.39 Alligator_Period_Jaw=24; Alligator_Period_Lips=10; MaxOrders=0;
