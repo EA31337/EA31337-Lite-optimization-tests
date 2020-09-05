@@ -30,7 +30,11 @@ WPR30_SignalMethod=0
 WPR_TrailingProfitMethod=0
 # Optimization params.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 WPR_TrailingStopMethod=1
+=======
+WPR_TrailingStopMethod=7
+>>>>>>> Stashed changes
 =======
 WPR_TrailingStopMethod=7
 >>>>>>> Stashed changes

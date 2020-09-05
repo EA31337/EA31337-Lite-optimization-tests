@@ -29,9 +29,15 @@ WPR15_SignalMethod=0
 WPR30_SignalMethod=0
 # Dynamic strategy params.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 WPR_TrailingStopMethod=1
 # Optimization params.
 WPR_TrailingProfitMethod=-25
+=======
+WPR_TrailingStopMethod=7
+# Optimization params.
+WPR_TrailingProfitMethod=16
+>>>>>>> Stashed changes
 =======
 WPR_TrailingStopMethod=7
 # Optimization params.
