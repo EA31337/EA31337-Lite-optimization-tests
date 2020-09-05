@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -12,14 +12,14 @@
                              Spread          10
                                                                  [Optimization Graph]
       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         6   60.02          163          1.05            0.37     254.55       0.25  DeMarker_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
-         7   60.02          163          1.05            0.37     254.55       0.25  DeMarker_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=0;
-         8   60.02          163          1.05            0.37     254.55       0.25  DeMarker_SignalLevel=0.6; MaxOrders=0; MaxOrdersPerType=0;
-         9   60.02          163          1.05            0.37     254.55       0.25  DeMarker_SignalLevel=0.7; MaxOrders=0; MaxOrdersPerType=0;
-        10   60.02          163          1.05            0.37     254.55       0.25  DeMarker_SignalLevel=0.8; MaxOrders=0; MaxOrdersPerType=0;
-        11   60.02          163          1.05            0.37     254.55       0.25  DeMarker_SignalLevel=0.9; MaxOrders=0; MaxOrdersPerType=0;
-         5   57.22          166          1.05            0.34     254.55       0.25  DeMarker_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
-         3   14.09          309          1.01            0.05     328.36       0.33  DeMarker_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
-         4   11.34          193          1.01            0.06     304.66       0.30  DeMarker_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
-         1  -13.34          326          0.99           -0.04     337.26       0.34 DeMarker_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
-         2 -459.57          474          0.86           -0.97     692.49       0.69    DeMarker_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
+         6  262.18          330          1.12            0.79     272.44       0.27  DeMarker_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
+         7  262.18          330          1.12            0.79     272.44       0.27  DeMarker_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=0;
+         8  262.18          330          1.12            0.79     272.44       0.27  DeMarker_SignalLevel=0.6; MaxOrders=0; MaxOrdersPerType=0;
+         9  262.18          330          1.12            0.79     272.44       0.27  DeMarker_SignalLevel=0.7; MaxOrders=0; MaxOrdersPerType=0;
+        10  262.18          330          1.12            0.79     272.44       0.27  DeMarker_SignalLevel=0.8; MaxOrders=0; MaxOrdersPerType=0;
+        11  262.18          330          1.12            0.79     272.44       0.27  DeMarker_SignalLevel=0.9; MaxOrders=0; MaxOrdersPerType=0;
+         5  194.98          353          1.09            0.55     284.54       0.28  DeMarker_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
+         4  143.38          441          1.05            0.33     357.94       0.36  DeMarker_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
+         3   18.85          710          1.00            0.03     524.59       0.52  DeMarker_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
+         1 -149.85          806          0.96           -0.19     596.88       0.60 DeMarker_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
+         2 -826.89         1037          0.86           -0.80    1012.96       1.01    DeMarker_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
