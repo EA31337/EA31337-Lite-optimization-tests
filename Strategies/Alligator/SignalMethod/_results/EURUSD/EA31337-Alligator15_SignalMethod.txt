@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -12,35 +12,35 @@
                             Spread          10
                                                                  [Optimization Graph]
      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       31 -118.51          208          0.90           -0.57     377.34       0.38 Alligator15_SignalMethod=30; MaxOrders=0; MaxOrdersPerType=0;
-       28 -119.41          201          0.90           -0.59     374.14       0.37 Alligator15_SignalMethod=27; MaxOrders=0; MaxOrdersPerType=0;
-       32 -119.41          201          0.90           -0.59     374.14       0.37 Alligator15_SignalMethod=31; MaxOrders=0; MaxOrdersPerType=0;
-       27 -120.31          209          0.90           -0.58     379.14       0.38 Alligator15_SignalMethod=26; MaxOrders=0; MaxOrdersPerType=0;
-       30 -127.81          211          0.89           -0.61     374.14       0.37 Alligator15_SignalMethod=29; MaxOrders=0; MaxOrdersPerType=0;
-       26 -128.01          212          0.89           -0.60     374.14       0.37 Alligator15_SignalMethod=25; MaxOrders=0; MaxOrdersPerType=0;
-       20 -135.03          239          0.89           -0.56     386.04       0.39 Alligator15_SignalMethod=19; MaxOrders=0; MaxOrdersPerType=0;
-       24 -135.03          239          0.89           -0.56     386.04       0.39 Alligator15_SignalMethod=23; MaxOrders=0; MaxOrdersPerType=0;
-       29 -154.11          257          0.88           -0.60     405.84       0.41 Alligator15_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
-       25 -156.31          260          0.88           -0.60     407.64       0.41 Alligator15_SignalMethod=24; MaxOrders=0; MaxOrdersPerType=0;
-       19 -171.24          266          0.87           -0.64     395.75       0.40 Alligator15_SignalMethod=18; MaxOrders=0; MaxOrdersPerType=0;
-       23 -172.24          264          0.86           -0.65     393.95       0.39 Alligator15_SignalMethod=22; MaxOrders=0; MaxOrdersPerType=0;
-       18 -178.73          262          0.86           -0.68     398.02       0.40 Alligator15_SignalMethod=17; MaxOrders=0; MaxOrdersPerType=0;
-       22 -178.53          261          0.86           -0.68     398.02       0.40 Alligator15_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-       15 -228.71          322          0.83           -0.71     407.10       0.41 Alligator15_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-       11 -230.51          323          0.83           -0.71     408.90       0.41 Alligator15_SignalMethod=10; MaxOrders=0; MaxOrdersPerType=0;
-       12 -231.81          309          0.83           -0.75     416.60       0.42 Alligator15_SignalMethod=11; MaxOrders=0; MaxOrdersPerType=0;
-       16 -231.81          309          0.83           -0.75     416.60       0.42 Alligator15_SignalMethod=15; MaxOrders=0; MaxOrdersPerType=0;
-       10 -252.62          336          0.82           -0.75     420.30       0.42  Alligator15_SignalMethod=9; MaxOrders=0; MaxOrdersPerType=0;
-       14 -252.42          335          0.82           -0.75     420.30       0.42 Alligator15_SignalMethod=13; MaxOrders=0; MaxOrdersPerType=0;
-       17 -265.19          363          0.81           -0.73     467.55       0.47 Alligator15_SignalMethod=16; MaxOrders=0; MaxOrdersPerType=0;
-       21 -271.19          360          0.81           -0.75     468.55       0.47 Alligator15_SignalMethod=20; MaxOrders=0; MaxOrdersPerType=0;
-       13 -275.72          392          0.81           -0.70     444.90       0.44 Alligator15_SignalMethod=12; MaxOrders=0; MaxOrdersPerType=0;
-        9 -277.92          395          0.81           -0.70     446.70       0.45  Alligator15_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=0;
-        4 -371.75          472          0.76           -0.79     517.91       0.52  Alligator15_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-        8 -371.75          472          0.76           -0.79     517.91       0.52  Alligator15_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-        3 -407.86          515          0.75           -0.79     540.42       0.54  Alligator15_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-        7 -408.86          513          0.75           -0.80     541.42       0.54  Alligator15_SignalMethod=6; MaxOrders=0; MaxOrdersPerType=0;
-        6 -434.75          515          0.73           -0.84     554.52       0.55  Alligator15_SignalMethod=5; MaxOrders=0; MaxOrdersPerType=0;
-        2 -436.95          517          0.73           -0.85     556.52       0.56  Alligator15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-        1 -492.50          642          0.72           -0.77     614.75       0.61  Alligator15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-        5 -516.70          624          0.71           -0.83     636.54       0.64  Alligator15_SignalMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+       26   -9.83          300          0.99           -0.03     421.13       0.42 Alligator15_SignalMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+       30   -9.43          298          0.99           -0.03     421.13       0.42 Alligator15_SignalMethod=29; MaxOrders=0; MaxOrdersPerType=0;
+       28  -10.63          282          0.99           -0.04     421.13       0.42 Alligator15_SignalMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+       32  -10.63          282          0.99           -0.04     421.13       0.42 Alligator15_SignalMethod=31; MaxOrders=0; MaxOrdersPerType=0;
+       31  -17.53          293          0.99           -0.06     423.83       0.42 Alligator15_SignalMethod=30; MaxOrders=0; MaxOrdersPerType=0;
+       27  -21.53          296          0.98           -0.07     427.83       0.43 Alligator15_SignalMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+       20  -59.25          336          0.96           -0.18     447.43       0.45 Alligator15_SignalMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+       24  -59.25          336          0.96           -0.18     447.43       0.45 Alligator15_SignalMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+       29  -85.73          383          0.94           -0.22     457.13       0.46 Alligator15_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
+       22  -89.96          375          0.94           -0.24     453.33       0.45 Alligator15_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+       18  -90.36          377          0.94           -0.24     453.33       0.45 Alligator15_SignalMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+       25  -95.93          392          0.94           -0.24     461.13       0.46 Alligator15_SignalMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+       23 -101.96          381          0.93           -0.27     452.73       0.45 Alligator15_SignalMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+       19 -103.16          385          0.93           -0.27     456.73       0.46 Alligator15_SignalMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+       12 -192.04          490          0.88           -0.39     478.94       0.48 Alligator15_SignalMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+       16 -192.04          490          0.88           -0.39     478.94       0.48 Alligator15_SignalMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+       15 -212.94          513          0.87           -0.42     486.94       0.49 Alligator15_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+       10 -215.94          533          0.87           -0.41     474.21       0.47  Alligator15_SignalMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+       14 -215.54          531          0.87           -0.41     474.21       0.47 Alligator15_SignalMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+       11 -216.94          516          0.87           -0.42     490.94       0.49 Alligator15_SignalMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+       21 -253.30          546          0.85           -0.46     521.55       0.52 Alligator15_SignalMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+       17 -265.00          555          0.85           -0.48     525.55       0.52 Alligator15_SignalMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+       13 -314.24          631          0.82           -0.50     528.82       0.53 Alligator15_SignalMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+        9 -325.64          641          0.82           -0.51     534.02       0.53  Alligator15_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+        4 -515.77          780          0.74           -0.66     669.18       0.67  Alligator15_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+        8 -515.77          780          0.74           -0.66     669.18       0.67  Alligator15_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+        6 -571.67          854          0.73           -0.67     705.68       0.71  Alligator15_SignalMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+        2 -574.07          857          0.73           -0.67     707.68       0.71  Alligator15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+        7 -576.18          846          0.72           -0.68     734.39       0.73  Alligator15_SignalMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+        3 -579.68          851          0.72           -0.68     737.89       0.74  Alligator15_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+        5 -755.42         1043          0.67           -0.72     888.83       0.89  Alligator15_SignalMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+        1 -811.73         1132          0.67           -0.72     945.13       0.94  Alligator15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
