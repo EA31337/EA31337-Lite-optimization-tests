@@ -24,7 +24,7 @@ SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Fixed strategy params.
 Bands_HShift=0
-Bands_Shift=0
+Bands_Shift=1
 Bands1_SignalMethod=0
 Bands5_SignalMethod=0
 Bands15_SignalMethod=0
@@ -32,10 +32,10 @@ Bands30_SignalMethod=0
 Bands_TrailingStopMethod=0
 Bands_TrailingProfitMethod=0
 # Dynamic strategy params.
-Bands_Applied_Price=3
+Bands_Applied_Price=0
 Bands_Period_M5=2
 Bands_HShift=0
-Bands_Shift=2
+Bands_Shift=1
 Bands_SignalLevel=18
 # Optimization params.
 Bands_Deviation_M5=0.1
