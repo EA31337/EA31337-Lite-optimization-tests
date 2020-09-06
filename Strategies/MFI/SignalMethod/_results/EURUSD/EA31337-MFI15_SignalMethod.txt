@@ -11,7 +11,7 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-       Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          3     94.13          297          1.04            0.32     386.03       0.38  MFI15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-          1    -89.07          479          0.96           -0.19     450.10       0.45 MFI15_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-          2 -11789.81        13891          0.43           -0.85   11851.51      11.85  MFI15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           3  -609.14          392          0.78           -1.55     825.80       0.83  MFI15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+           1  -778.51          541          0.78           -1.44     981.00       0.98 MFI15_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+           2 -3582.17         4021          0.69           -0.89    3694.39       3.69  MFI15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
