@@ -2,22 +2,21 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        8   238.45         1608          1.03            0.15    1016.61       1.01 ProfitFactorMinToTrade=0.7; MaxOrders=0; MaxOrdersPerType=0;
-        9    90.37         1488          1.01            0.06     905.33       0.90 ProfitFactorMinToTrade=0.8; MaxOrders=0; MaxOrdersPerType=0;
-        7  -352.16         1910          0.97           -0.18    1164.74       1.16 ProfitFactorMinToTrade=0.6; MaxOrders=0; MaxOrdersPerType=0;
-        5  -423.67         2059          0.97           -0.21    1410.03       1.41 ProfitFactorMinToTrade=0.4; MaxOrders=0; MaxOrdersPerType=0;
-        6  -433.17         1970          0.96           -0.22    1293.44       1.29 ProfitFactorMinToTrade=0.5; MaxOrders=0; MaxOrdersPerType=0;
-        4  -527.34         2163          0.96           -0.24    1415.14       1.41 ProfitFactorMinToTrade=0.3; MaxOrders=0; MaxOrdersPerType=0;
-        3  -602.38         2182          0.95           -0.28    1415.14       1.41 ProfitFactorMinToTrade=0.2; MaxOrders=0; MaxOrdersPerType=0;
-        2 -3968.05         5511          0.79           -0.72    4283.77       4.27 ProfitFactorMinToTrade=0.1; MaxOrders=0; MaxOrdersPerType=0;
-        1 -4229.75         5770          0.78           -0.73    4543.43       4.53   ProfitFactorMinToTrade=0; MaxOrders=0; MaxOrdersPerType=0;
+        7  -303.68          572          0.90           -0.53     675.52       0.67 ProfitFactorMinToTrade=0.9; MaxOrders=0; MaxOrdersPerType=0;
+        6  -405.71          677          0.87           -0.60     767.24       0.77 ProfitFactorMinToTrade=0.8; MaxOrders=0; MaxOrdersPerType=0;
+        8  -467.13          450          0.78           -1.04     684.10       0.68   ProfitFactorMinToTrade=1; MaxOrders=0; MaxOrdersPerType=0;
+        5  -641.89          811          0.82           -0.79     989.94       0.99 ProfitFactorMinToTrade=0.7; MaxOrders=0; MaxOrdersPerType=0;
+        4 -1050.02         1104          0.77           -0.95    1361.98       1.36 ProfitFactorMinToTrade=0.6; MaxOrders=0; MaxOrdersPerType=0;
+        3 -1592.46         1942          0.80           -0.82    2039.45       2.04 ProfitFactorMinToTrade=0.5; MaxOrders=0; MaxOrdersPerType=0;
+        1 -2990.12         3338          0.78           -0.90    3145.92       3.14 ProfitFactorMinToTrade=0.3; MaxOrders=0; MaxOrdersPerType=0;
+        2 -3004.20         3309          0.77           -0.91    3160.30       3.16 ProfitFactorMinToTrade=0.4; MaxOrders=0; MaxOrdersPerType=0;
