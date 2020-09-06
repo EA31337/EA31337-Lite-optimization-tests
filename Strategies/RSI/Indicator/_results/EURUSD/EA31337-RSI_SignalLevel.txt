@@ -12,12 +12,12 @@
                              Spread          10
                                                                  [Optimization Graph]
           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             5 633.48          294          1.29            2.15     272.47       0.27 RSI_SignalLevel=50; MaxOrders=0; MaxOrdersPerType=0;
-             6 633.48          294          1.29            2.15     272.47       0.27 RSI_SignalLevel=52; MaxOrders=0; MaxOrdersPerType=0;
-             7 633.48          294          1.29            2.15     272.47       0.27 RSI_SignalLevel=54; MaxOrders=0; MaxOrdersPerType=0;
-             8 633.48          294          1.29            2.15     272.47       0.27 RSI_SignalLevel=56; MaxOrders=0; MaxOrdersPerType=0;
-             9 633.48          294          1.29            2.15     272.47       0.27 RSI_SignalLevel=58; MaxOrders=0; MaxOrdersPerType=0;
-             4 631.68          295          1.29            2.14     272.47       0.27 RSI_SignalLevel=48; MaxOrders=0; MaxOrdersPerType=0;
-             1 396.84          972          1.10            0.41     405.22       0.40 RSI_SignalLevel=42; MaxOrders=0; MaxOrdersPerType=0;
-             2 383.21          663          1.12            0.58     392.41       0.39 RSI_SignalLevel=44; MaxOrders=0; MaxOrdersPerType=0;
-             3 280.43          449          1.10            0.62     307.30       0.31 RSI_SignalLevel=46; MaxOrders=0; MaxOrdersPerType=0;
+             1 173.68          431          1.06            0.40     381.38       0.38 RSI_SignalLevel=42; MaxOrders=0; MaxOrdersPerType=0;
+             3  84.69          387          1.03            0.22     414.78       0.41 RSI_SignalLevel=46; MaxOrders=0; MaxOrdersPerType=0;
+             4  84.69          387          1.03            0.22     414.78       0.41 RSI_SignalLevel=48; MaxOrders=0; MaxOrdersPerType=0;
+             5  84.69          387          1.03            0.22     414.78       0.41 RSI_SignalLevel=50; MaxOrders=0; MaxOrdersPerType=0;
+             6  84.69          387          1.03            0.22     414.78       0.41 RSI_SignalLevel=52; MaxOrders=0; MaxOrdersPerType=0;
+             7  84.69          387          1.03            0.22     414.78       0.41 RSI_SignalLevel=54; MaxOrders=0; MaxOrdersPerType=0;
+             8  84.69          387          1.03            0.22     414.78       0.41 RSI_SignalLevel=56; MaxOrders=0; MaxOrdersPerType=0;
+             9  84.69          387          1.03            0.22     414.78       0.41 RSI_SignalLevel=58; MaxOrders=0; MaxOrdersPerType=0;
+             2  54.09          404          1.02            0.13     414.78       0.41 RSI_SignalLevel=44; MaxOrders=0; MaxOrdersPerType=0;
