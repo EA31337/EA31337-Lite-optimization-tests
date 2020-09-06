@@ -31,11 +31,11 @@ WPR_TrailingProfitMethod=0
 WPR_TrailingProfitMethod=0
 # Dynamic strategy params.
 WPR_Period_M1=20
-WPR_Period_M5=8
+WPR_Period_M5=18
 WPR_Period_M15=2
 WPR_Period_M30=2
 # Optimization params.
-WPR_Shift=2
+WPR_Shift=4
 WPR_Shift,F=0
 WPR_Shift,1=0
 WPR_Shift,2=0
