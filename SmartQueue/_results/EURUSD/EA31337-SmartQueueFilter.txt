@@ -11,16 +11,23 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           2 -1039.37          645          0.67           -1.61    1161.59       1.16  SmartQueueFilter=7; MaxOrders=10; MaxOrdersPerType=0;
-           3 -1039.37          645          0.67           -1.61    1161.59       1.16 SmartQueueFilter=14; MaxOrders=10; MaxOrdersPerType=0;
-           4 -1039.37          645          0.67           -1.61    1161.59       1.16 SmartQueueFilter=21; MaxOrders=10; MaxOrdersPerType=0;
-           5 -1039.37          645          0.67           -1.61    1161.59       1.16 SmartQueueFilter=28; MaxOrders=10; MaxOrdersPerType=0;
-          11 -1039.37          645          0.67           -1.61    1161.59       1.16 SmartQueueFilter=70; MaxOrders=10; MaxOrdersPerType=0;
-          12 -1039.37          645          0.67           -1.61    1161.59       1.16 SmartQueueFilter=77; MaxOrders=10; MaxOrdersPerType=0;
-           6 -1048.57          647          0.67           -1.62    1170.79       1.17 SmartQueueFilter=35; MaxOrders=10; MaxOrdersPerType=0;
-           7 -1048.57          647          0.67           -1.62    1170.79       1.17 SmartQueueFilter=42; MaxOrders=10; MaxOrdersPerType=0;
-           8 -1048.57          647          0.67           -1.62    1170.79       1.17 SmartQueueFilter=49; MaxOrders=10; MaxOrdersPerType=0;
-           9 -1048.57          647          0.67           -1.62    1170.79       1.17 SmartQueueFilter=56; MaxOrders=10; MaxOrdersPerType=0;
-          10 -1048.57          647          0.67           -1.62    1170.79       1.17 SmartQueueFilter=63; MaxOrders=10; MaxOrdersPerType=0;
-           1 -2679.11         2056          0.67           -1.30    2732.73       2.73  SmartQueueFilter=0; MaxOrders=10; MaxOrdersPerType=0;
+         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            2  -251.67          311          0.81           -0.81     336.96       0.34  SmartQueueFilter=6; MaxOrders=5; MaxOrdersPerType=0;
+            1  -263.26          281          0.79           -0.94     348.55       0.35  SmartQueueFilter=3; MaxOrders=5; MaxOrdersPerType=0;
+            3  -301.74          322          0.77           -0.94     387.03       0.39  SmartQueueFilter=9; MaxOrders=5; MaxOrdersPerType=0;
+            4  -301.74          322          0.77           -0.94     387.03       0.39 SmartQueueFilter=12; MaxOrders=5; MaxOrdersPerType=0;
+            5  -301.74          322          0.77           -0.94     387.03       0.39 SmartQueueFilter=15; MaxOrders=5; MaxOrdersPerType=0;
+           11  -301.74          322          0.77           -0.94     387.03       0.39 SmartQueueFilter=33; MaxOrders=5; MaxOrdersPerType=0;
+           12  -301.74          322          0.77           -0.94     387.03       0.39 SmartQueueFilter=36; MaxOrders=5; MaxOrdersPerType=0;
+           13  -301.74          322          0.77           -0.94     387.03       0.39 SmartQueueFilter=39; MaxOrders=5; MaxOrdersPerType=0;
+           14  -301.74          322          0.77           -0.94     387.03       0.39 SmartQueueFilter=42; MaxOrders=5; MaxOrdersPerType=0;
+           15  -301.74          322          0.77           -0.94     387.03       0.39 SmartQueueFilter=45; MaxOrders=5; MaxOrdersPerType=0;
+            8  -321.16          340          0.77           -0.94     403.55       0.40 SmartQueueFilter=24; MaxOrders=5; MaxOrdersPerType=0;
+            9  -321.16          340          0.77           -0.94     403.55       0.40 SmartQueueFilter=27; MaxOrders=5; MaxOrdersPerType=0;
+           10  -321.16          340          0.77           -0.94     403.55       0.40 SmartQueueFilter=30; MaxOrders=5; MaxOrdersPerType=0;
+           16  -321.16          340          0.77           -0.94     403.55       0.40 SmartQueueFilter=48; MaxOrders=5; MaxOrdersPerType=0;
+           17  -321.16          340          0.77           -0.94     403.55       0.40 SmartQueueFilter=51; MaxOrders=5; MaxOrdersPerType=0;
+           18  -321.16          340          0.77           -0.94     403.55       0.40 SmartQueueFilter=54; MaxOrders=5; MaxOrdersPerType=0;
+           19  -321.16          340          0.77           -0.94     403.55       0.40 SmartQueueFilter=57; MaxOrders=5; MaxOrdersPerType=0;
+            7  -333.52          379          0.78           -0.88     415.91       0.42 SmartQueueFilter=21; MaxOrders=5; MaxOrdersPerType=0;
+            6 -1481.67         1523          0.70           -0.97    1548.95       1.55 SmartQueueFilter=18; MaxOrders=5; MaxOrdersPerType=0;
