@@ -30,7 +30,7 @@ AD30_SignalMethod=0
 # Dynamic strategy params.
 AD_TrailingStopMethod=11
 # Optimization params.
-AD_TrailingProfitMethod=-5
+AD_TrailingProfitMethod=-4
 AD_TrailingProfitMethod,F=0
 AD_TrailingProfitMethod,1=0
 AD_TrailingProfitMethod,2=0
