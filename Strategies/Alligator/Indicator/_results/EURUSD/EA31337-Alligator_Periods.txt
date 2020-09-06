@@ -12,6 +12,7 @@
                              Spread          10
                                                                  [Optimization Graph]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
        1  -92.74          255          0.88           -0.36     403.68       0.40   Alligator_Period_Jaw=2; Alligator_Period_Lips=2; MaxOrders=0;
        2  -92.74          255          0.88           -0.36     403.68       0.40   Alligator_Period_Jaw=6; Alligator_Period_Lips=2; MaxOrders=0;
@@ -27,4 +28,12 @@
        1 -92.74          255          0.88           -0.36     403.68       0.40   Alligator_Period_Jaw=2; Alligator_Period_Teeth=2; MaxOrders=0;
        2 -92.74          255          0.88           -0.36     403.68       0.40   Alligator_Period_Jaw=6; Alligator_Period_Teeth=6; MaxOrders=0;
        3 -92.74          255          0.88           -0.36     403.68       0.40 Alligator_Period_Jaw=10; Alligator_Period_Teeth=10; MaxOrders=0;
+>>>>>>> Stashed changes
+=======
+   Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      1  -92.74          255          0.88           -0.36     403.68       0.40   Alligator_Period_Teeth=2; Alligator_Period_Lips=2; MaxOrders=0;
+      3  -92.74          255          0.88           -0.36     403.68       0.40   Alligator_Period_Teeth=6; Alligator_Period_Lips=6; MaxOrders=0;
+      5  -92.74          255          0.88           -0.36     403.68       0.40 Alligator_Period_Teeth=10; Alligator_Period_Lips=10; MaxOrders=0;
+      4 -565.09          415          0.72           -1.36     717.07       0.72  Alligator_Period_Teeth=10; Alligator_Period_Lips=6; MaxOrders=0;
+      2 -579.79          537          0.72           -1.08     685.92       0.69   Alligator_Period_Teeth=2; Alligator_Period_Lips=6; MaxOrders=0;
 >>>>>>> Stashed changes
