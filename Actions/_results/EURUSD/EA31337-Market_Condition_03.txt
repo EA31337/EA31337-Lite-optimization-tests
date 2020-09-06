@@ -2,32 +2,32 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.078
-                                                                     (Build 1010)
+                                                               EA31337-Lite-v1.080-dev
+                                                                     (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-      Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         1 -11673.35         4507          0.92           -2.59   18341.27      17.36  Market_Condition_3=1; MaxOrders=999; MaxOrdersPerType=0;
-         2 -11673.35         4507          0.92           -2.59   18341.27      17.36  Market_Condition_3=2; MaxOrders=999; MaxOrdersPerType=0;
-         3 -11673.35         4507          0.92           -2.59   18341.27      17.36  Market_Condition_3=3; MaxOrders=999; MaxOrdersPerType=0;
-         4 -11673.35         4507          0.92           -2.59   18341.27      17.36  Market_Condition_3=4; MaxOrders=999; MaxOrdersPerType=0;
-         5 -11673.35         4507          0.92           -2.59   18341.27      17.36  Market_Condition_3=5; MaxOrders=999; MaxOrdersPerType=0;
-         6 -11673.35         4507          0.92           -2.59   18341.27      17.36  Market_Condition_3=6; MaxOrders=999; MaxOrdersPerType=0;
-         7 -11673.35         4507          0.92           -2.59   18341.27      17.36  Market_Condition_3=7; MaxOrders=999; MaxOrdersPerType=0;
-         8 -11673.35         4507          0.92           -2.59   18341.27      17.36  Market_Condition_3=8; MaxOrders=999; MaxOrdersPerType=0;
-         9 -11673.35         4507          0.92           -2.59   18341.27      17.36  Market_Condition_3=9; MaxOrders=999; MaxOrdersPerType=0;
-        10 -11673.35         4507          0.92           -2.59   18341.27      17.36 Market_Condition_3=10; MaxOrders=999; MaxOrdersPerType=0;
-        11 -11673.35         4507          0.92           -2.59   18341.27      17.36 Market_Condition_3=11; MaxOrders=999; MaxOrdersPerType=0;
-        12 -11673.35         4507          0.92           -2.59   18341.27      17.36 Market_Condition_3=12; MaxOrders=999; MaxOrdersPerType=0;
-        13 -11673.35         4507          0.92           -2.59   18341.27      17.36 Market_Condition_3=13; MaxOrders=999; MaxOrdersPerType=0;
-        14 -11673.35         4507          0.92           -2.59   18341.27      17.36 Market_Condition_3=14; MaxOrders=999; MaxOrdersPerType=0;
-        15 -11673.35         4507          0.92           -2.59   18341.27      17.36 Market_Condition_3=15; MaxOrders=999; MaxOrdersPerType=0;
-        16 -11673.35         4507          0.92           -2.59   18341.27      17.36 Market_Condition_3=16; MaxOrders=999; MaxOrdersPerType=0;
-        17 -11673.35         4507          0.92           -2.59   18341.27      17.36 Market_Condition_3=17; MaxOrders=999; MaxOrdersPerType=0;
-        18 -11673.35         4507          0.92           -2.59   18341.27      17.36 Market_Condition_3=18; MaxOrders=999; MaxOrdersPerType=0;
-        19 -11673.35         4507          0.92           -2.59   18341.27      17.36 Market_Condition_3=19; MaxOrders=999; MaxOrdersPerType=0;
+       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          1 -962.86         1277          0.83           -0.75    1130.25       1.13  Market_Condition_3=1; MaxOrders=999; MaxOrdersPerType=0;
+          2 -962.86         1277          0.83           -0.75    1130.25       1.13  Market_Condition_3=2; MaxOrders=999; MaxOrdersPerType=0;
+          3 -962.86         1277          0.83           -0.75    1130.25       1.13  Market_Condition_3=3; MaxOrders=999; MaxOrdersPerType=0;
+          4 -962.86         1277          0.83           -0.75    1130.25       1.13  Market_Condition_3=4; MaxOrders=999; MaxOrdersPerType=0;
+          5 -962.86         1277          0.83           -0.75    1130.25       1.13  Market_Condition_3=5; MaxOrders=999; MaxOrdersPerType=0;
+          6 -962.86         1277          0.83           -0.75    1130.25       1.13  Market_Condition_3=6; MaxOrders=999; MaxOrdersPerType=0;
+          7 -962.86         1277          0.83           -0.75    1130.25       1.13  Market_Condition_3=7; MaxOrders=999; MaxOrdersPerType=0;
+          8 -962.86         1277          0.83           -0.75    1130.25       1.13  Market_Condition_3=8; MaxOrders=999; MaxOrdersPerType=0;
+          9 -962.86         1277          0.83           -0.75    1130.25       1.13  Market_Condition_3=9; MaxOrders=999; MaxOrdersPerType=0;
+         10 -962.86         1277          0.83           -0.75    1130.25       1.13 Market_Condition_3=10; MaxOrders=999; MaxOrdersPerType=0;
+         11 -962.86         1277          0.83           -0.75    1130.25       1.13 Market_Condition_3=11; MaxOrders=999; MaxOrdersPerType=0;
+         12 -962.86         1277          0.83           -0.75    1130.25       1.13 Market_Condition_3=12; MaxOrders=999; MaxOrdersPerType=0;
+         13 -962.86         1277          0.83           -0.75    1130.25       1.13 Market_Condition_3=13; MaxOrders=999; MaxOrdersPerType=0;
+         14 -962.86         1277          0.83           -0.75    1130.25       1.13 Market_Condition_3=14; MaxOrders=999; MaxOrdersPerType=0;
+         15 -962.86         1277          0.83           -0.75    1130.25       1.13 Market_Condition_3=15; MaxOrders=999; MaxOrdersPerType=0;
+         16 -962.86         1277          0.83           -0.75    1130.25       1.13 Market_Condition_3=16; MaxOrders=999; MaxOrdersPerType=0;
+         17 -962.86         1277          0.83           -0.75    1130.25       1.13 Market_Condition_3=17; MaxOrders=999; MaxOrdersPerType=0;
+         18 -962.86         1277          0.83           -0.75    1130.25       1.13 Market_Condition_3=18; MaxOrders=999; MaxOrdersPerType=0;
+         19 -962.86         1277          0.83           -0.75    1130.25       1.13 Market_Condition_3=19; MaxOrders=999; MaxOrdersPerType=0;
