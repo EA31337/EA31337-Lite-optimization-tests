@@ -33,7 +33,7 @@ Bands_TrailingStopMethod=0
 Bands_TrailingProfitMethod=0
 # Dynamic strategy params.
 Bands_Applied_Price=0
-Bands_Period_M30=4
+Bands_Period_M30=2
 Bands_HShift=0
 Bands_Shift=1
 Bands_SignalLevel=18
