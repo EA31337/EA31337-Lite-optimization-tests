@@ -9,7 +9,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params InitNoOfDaysToWarmUp 0 28 7
       SETFILE: /opt/sets/EA31337-InitNoOfDaysToWarmUp.set
@@ -23,7 +22,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params RiskMarginPerOrder 0 5
       SETFILE: /opt/sets/EA31337-RiskMarginPerOrder.set
@@ -37,7 +35,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params RiskMarginTotal 5 20 5
       SETFILE: /opt/sets/EA31337-RiskMarginTotal.set
@@ -51,7 +48,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params RiskRatio 0 2.0 0.5
       SETFILE: /opt/sets/EA31337-RiskRatio.set
@@ -65,7 +61,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: RiskRatioDecreaseMethod
       RUN_ON_SET: >
@@ -83,7 +78,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
