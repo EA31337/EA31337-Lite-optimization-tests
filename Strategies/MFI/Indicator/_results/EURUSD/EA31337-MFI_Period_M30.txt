@@ -12,8 +12,8 @@
                             Spread          10
                                                                  [Optimization Graph]
           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1 -454.87          486          0.58           -0.94     542.77       0.54  MFI_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
-             5 -754.37          724          0.52           -1.04     835.50       0.84 MFI_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
-             4 -780.39          705          0.48           -1.11     845.33       0.85  MFI_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
-             2 -800.27          720          0.50           -1.11     888.52       0.89  MFI_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
-             3 -851.89          701          0.42           -1.22     910.25       0.91  MFI_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
+             1 -109.22           99          0.87           -1.10     321.11       0.32  MFI_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
+             2 -337.51          165          0.70           -2.05     459.09       0.46  MFI_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
+             5 -382.95          163          0.63           -2.35     505.25       0.51 MFI_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
+             3 -428.00          186          0.62           -2.30     502.46       0.50  MFI_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
+             4 -579.06          175          0.51           -3.31     637.62       0.64  MFI_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
