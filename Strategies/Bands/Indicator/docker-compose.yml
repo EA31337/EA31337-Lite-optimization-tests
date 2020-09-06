@@ -24,7 +24,7 @@ services:
         /opt/sets/EA31337-Bands_Period_M1.set
         /opt/sets/EA31337-Bands_Shift.set
         /opt/sets/EA31337-Bands_SignalLevel.set
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M1.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M1
   Bands_Deviation_M5:
@@ -38,7 +38,7 @@ services:
       BT_MONTHS: 6-12
       BT_PERIOD: M5
       SET_PARAMS: Bands_Deviation_M5
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       RUN_ON_SET: >
         set_opt_params $${SET_PARAMS}
         $$(get_max 0.1 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 8"))
@@ -76,7 +76,7 @@ services:
         /opt/sets/EA31337-Bands_Period_M15.set
         /opt/sets/EA31337-Bands_Shift.set
         /opt/sets/EA31337-Bands_SignalLevel.set
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M15.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M15
   Bands_Deviation_M30:
@@ -102,7 +102,7 @@ services:
         /opt/sets/EA31337-Bands_Period_M30.set
         /opt/sets/EA31337-Bands_Shift.set
         /opt/sets/EA31337-Bands_SignalLevel.set
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       SETFILE: /opt/sets/EA31337-Bands_Deviation_M30.set
       TEST_REPORT_NAME: EA31337-Bands_Deviation_M30
   Bands_Period_M1:
@@ -115,7 +115,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       BT_PERIOD: M1
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       SETFILE: /opt/sets/EA31337-Bands_Period_M1.set
       SET_PARAMS: Bands_Period_M1
       RUN_ON_SET: >
@@ -141,7 +141,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       BT_PERIOD: M5
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       SET_PARAMS: Bands_Period_M5
       SETFILE: /opt/sets/EA31337-Bands_Period_M5.set
       RUN_ON_SET: >
@@ -167,7 +167,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       BT_PERIOD: M15
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       SET_PARAMS: Bands_Period_M15
       SETFILE: /opt/sets/EA31337-Bands_Period_M15.set
       RUN_ON_SET: >
@@ -193,7 +193,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       BT_PERIOD: M30
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       SET_PARAMS: Bands_Period_M30
       SETFILE: /opt/sets/EA31337-Bands_Period_M30.set
       RUN_ON_SET: >
@@ -233,7 +233,7 @@ services:
         /opt/sets/EA31337-Bands_Period_M5.set
         /opt/sets/EA31337-Bands_Shift.set
         /opt/sets/EA31337-Bands_SignalLevel.set
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       SETFILE: /opt/sets/EA31337-Bands_Applied_Price.set
       TEST_REPORT_NAME: EA31337-Bands_Applied_Price
   Bands_HShift:
@@ -263,7 +263,7 @@ services:
         /opt/sets/EA31337-Bands_Period_M5.set
         /opt/sets/EA31337-Bands_Shift.set
         /opt/sets/EA31337-Bands_SignalLevel.set
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       SETFILE: /opt/sets/EA31337-Bands_HShift.set
       TEST_REPORT_NAME: EA31337-Bands_HShift
   Bands_SignalLevel:
@@ -294,7 +294,7 @@ services:
         /opt/sets/EA31337-Bands_Period_M30.set
         /opt/sets/EA31337-Bands_Period_M5.set
         /opt/sets/EA31337-Bands_Shift.set
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       SETFILE: /opt/sets/EA31337-Bands_SignalLevel.set
       TEST_REPORT_NAME: EA31337-Bands_SignalLevel
   Bands_Shift:
@@ -324,6 +324,6 @@ services:
         /opt/sets/EA31337-Bands_Period_M30.set
         /opt/sets/EA31337-Bands_Period_M5.set
         /opt/sets/EA31337-Bands_SignalLevel.set
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
       SETFILE: /opt/sets/EA31337-Bands_Shift.set
       TEST_REPORT_NAME: EA31337-Bands_Shift
