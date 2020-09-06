@@ -21,8 +21,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=3
+      BT_MONTHS: 1-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: set_opt_params SmartQueueMethod 0 15
       SETFILE: /opt/sets/EA31337-SmartQueueMethod.set
       SET_PARAMS: SmartQueueMethod
@@ -35,8 +35,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      BT_MONTHS: 1-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=1
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 5 * 10"))
