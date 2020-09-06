@@ -12,20 +12,16 @@
                              Spread          10
                                                                  [Optimization Graph]
       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         3 -4675.45         1401          0.86           -3.34    5902.86       5.90  ConFactorOrdersLimit=200; MaxOrders=0; MaxOrdersPerType=0;
-         5 -4693.22         1401          0.86           -3.35    5942.34       5.93  ConFactorOrdersLimit=400; MaxOrders=0; MaxOrdersPerType=0;
-         4 -4708.12         1401          0.86           -3.36    5940.05       5.93  ConFactorOrdersLimit=300; MaxOrders=0; MaxOrdersPerType=0;
-         6 -4708.12         1401          0.86           -3.36    5946.04       5.94  ConFactorOrdersLimit=500; MaxOrders=0; MaxOrdersPerType=0;
-         8 -4708.12         1401          0.86           -3.36    5946.04       5.94  ConFactorOrdersLimit=700; MaxOrders=0; MaxOrdersPerType=0;
-         9 -4708.12         1401          0.86           -3.36    5946.04       5.94  ConFactorOrdersLimit=800; MaxOrders=0; MaxOrdersPerType=0;
-        10 -4708.12         1401          0.86           -3.36    5946.04       5.94  ConFactorOrdersLimit=900; MaxOrders=0; MaxOrdersPerType=0;
-        11 -4708.12         1401          0.86           -3.36    5946.04       5.94 ConFactorOrdersLimit=1000; MaxOrders=0; MaxOrdersPerType=0;
-        12 -4708.12         1401          0.86           -3.36    5946.04       5.94 ConFactorOrdersLimit=1100; MaxOrders=0; MaxOrdersPerType=0;
-        13 -4708.12         1401          0.86           -3.36    5946.04       5.94 ConFactorOrdersLimit=1200; MaxOrders=0; MaxOrdersPerType=0;
-        14 -4708.12         1401          0.86           -3.36    5946.04       5.94 ConFactorOrdersLimit=1300; MaxOrders=0; MaxOrdersPerType=0;
-        15 -4708.12         1401          0.86           -3.36    5946.04       5.94 ConFactorOrdersLimit=1400; MaxOrders=0; MaxOrdersPerType=0;
-        16 -4708.12         1401          0.86           -3.36    5946.04       5.94 ConFactorOrdersLimit=1500; MaxOrders=0; MaxOrdersPerType=0;
-        17 -4708.12         1401          0.86           -3.36    5946.04       5.94 ConFactorOrdersLimit=1600; MaxOrders=0; MaxOrdersPerType=0;
-         2 -4747.31         1401          0.86           -3.39    5894.26       5.89  ConFactorOrdersLimit=100; MaxOrders=0; MaxOrdersPerType=0;
-         1 -4756.50         1401          0.86           -3.40    5877.64       5.87    ConFactorOrdersLimit=0; MaxOrders=0; MaxOrdersPerType=0;
-         7 -4889.52         1401          0.86           -3.49    5946.04       5.94  ConFactorOrdersLimit=600; MaxOrders=0; MaxOrdersPerType=0;
+         2 -9338.72         2143          0.83           -4.36   10125.76      10.08  ConFactorOrdersLimit=100; MaxOrders=0; MaxOrdersPerType=0;
+         3 -9349.52         2143          0.83           -4.36   10136.56      10.10  ConFactorOrdersLimit=200; MaxOrders=0; MaxOrdersPerType=0;
+         7 -9352.43         2143          0.83           -4.36   10136.56      10.10  ConFactorOrdersLimit=600; MaxOrders=0; MaxOrdersPerType=0;
+         8 -9352.43         2143          0.83           -4.36   10136.56      10.10  ConFactorOrdersLimit=700; MaxOrders=0; MaxOrdersPerType=0;
+         9 -9352.43         2143          0.83           -4.36   10136.56      10.10  ConFactorOrdersLimit=800; MaxOrders=0; MaxOrdersPerType=0;
+        10 -9352.43         2143          0.83           -4.36   10136.56      10.10  ConFactorOrdersLimit=900; MaxOrders=0; MaxOrdersPerType=0;
+        11 -9352.43         2143          0.83           -4.36   10136.56      10.10 ConFactorOrdersLimit=1000; MaxOrders=0; MaxOrdersPerType=0;
+        12 -9352.43         2143          0.83           -4.36   10136.56      10.10 ConFactorOrdersLimit=1100; MaxOrders=0; MaxOrdersPerType=0;
+        13 -9352.43         2143          0.83           -4.36   10136.56      10.10 ConFactorOrdersLimit=1200; MaxOrders=0; MaxOrdersPerType=0;
+         4 -9363.23         2143          0.83           -4.37   10136.56      10.10  ConFactorOrdersLimit=300; MaxOrders=0; MaxOrdersPerType=0;
+         5 -9363.23         2143          0.83           -4.37   10136.56      10.10  ConFactorOrdersLimit=400; MaxOrders=0; MaxOrdersPerType=0;
+         6 -9363.23         2143          0.83           -4.37   10136.56      10.10  ConFactorOrdersLimit=500; MaxOrders=0; MaxOrdersPerType=0;
+         1 -9363.03         2143          0.83           -4.37   10136.56      10.10    ConFactorOrdersLimit=0; MaxOrders=0; MaxOrdersPerType=0;

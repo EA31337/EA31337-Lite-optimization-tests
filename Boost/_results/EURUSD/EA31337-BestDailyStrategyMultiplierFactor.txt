@@ -11,15 +11,4 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-   3 -3462.07         1401          0.88           -2.47    4553.38       4.55 BestDailyStrategyMultiplierFactor=0.7; MaxOrders=0; MaxOrdersPerType=0;
-   2 -3511.77         1401          0.88           -2.51    4578.44       4.57 BestDailyStrategyMultiplierFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;
-   1 -4311.42         1401          0.84           -3.08    5287.99       5.28 BestDailyStrategyMultiplierFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
-   4 -4647.35         1401          0.86           -3.32    5668.79       5.66 BestDailyStrategyMultiplierFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
-   5 -5107.16         1401          0.86           -3.65    6155.73       6.14 BestDailyStrategyMultiplierFactor=0.9; MaxOrders=0; MaxOrdersPerType=0;
-   6 -5602.80         1401          0.85           -4.00    6751.71       6.74   BestDailyStrategyMultiplierFactor=1; MaxOrders=0; MaxOrdersPerType=0;
-   7 -5846.60         1401          0.85           -4.17    7017.24       7.00 BestDailyStrategyMultiplierFactor=1.1; MaxOrders=0; MaxOrdersPerType=0;
-   8 -6603.58         1401          0.84           -4.71    7823.76       7.80 BestDailyStrategyMultiplierFactor=1.2; MaxOrders=0; MaxOrdersPerType=0;
-   9 -7204.24         1401          0.84           -5.14    8547.53       8.51 BestDailyStrategyMultiplierFactor=1.3; MaxOrders=0; MaxOrdersPerType=0;
-  11 -7540.48         1401          0.85           -5.38    9168.21       9.12 BestDailyStrategyMultiplierFactor=1.5; MaxOrders=0; MaxOrdersPerType=0;
-  10 -7778.77         1401          0.83           -5.55    9103.15       9.07 BestDailyStrategyMultiplierFactor=1.4; MaxOrders=0; MaxOrdersPerType=0;
+                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
