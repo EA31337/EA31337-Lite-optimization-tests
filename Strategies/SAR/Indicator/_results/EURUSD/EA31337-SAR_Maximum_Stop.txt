@@ -12,9 +12,8 @@
                              Spread          10
                                                                  [Optimization Graph]
         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1 -1943.22         2430          0.85           -0.80    2142.19       2.14   SAR_Maximum_Stop=0; MaxOrders=0; MaxOrdersPerType=0;
-           2 -1943.22         2430          0.85           -0.80    2142.19       2.14 SAR_Maximum_Stop=0.1; MaxOrders=0; MaxOrdersPerType=0;
-           6 -2995.32         3334          0.83           -0.90    3636.27       3.62 SAR_Maximum_Stop=0.5; MaxOrders=0; MaxOrdersPerType=0;
-           5 -3141.48         3316          0.82           -0.95    3854.96       3.84 SAR_Maximum_Stop=0.4; MaxOrders=0; MaxOrdersPerType=0;
-           4 -3268.72         3319          0.81           -0.98    3881.48       3.87 SAR_Maximum_Stop=0.3; MaxOrders=0; MaxOrdersPerType=0;
-           3 -3290.30         3089          0.79           -1.07    3878.69       3.86 SAR_Maximum_Stop=0.2; MaxOrders=0; MaxOrdersPerType=0;
+           1 -2793.93         3509          0.84           -0.80    3039.75       3.03 SAR_Maximum_Stop=0.1; MaxOrders=0; MaxOrdersPerType=0;
+           3 -3178.43         3535          0.82           -0.90    3418.31       3.41 SAR_Maximum_Stop=0.3; MaxOrders=0; MaxOrdersPerType=0;
+           4 -3178.43         3535          0.82           -0.90    3418.31       3.41 SAR_Maximum_Stop=0.4; MaxOrders=0; MaxOrdersPerType=0;
+           5 -3178.43         3535          0.82           -0.90    3418.31       3.41 SAR_Maximum_Stop=0.5; MaxOrders=0; MaxOrdersPerType=0;
+           2 -3193.03         3543          0.82           -0.90    3432.91       3.43 SAR_Maximum_Stop=0.2; MaxOrders=0; MaxOrdersPerType=0;
