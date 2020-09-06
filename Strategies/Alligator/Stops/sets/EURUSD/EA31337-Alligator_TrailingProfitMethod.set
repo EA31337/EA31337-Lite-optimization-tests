@@ -28,9 +28,9 @@ Alligator5_SignalMethod=0
 Alligator15_SignalMethod=0
 Alligator30_SignalMethod=0
 # Dynamic strategy params.
-Alligator_TrailingStopMethod=-6
+Alligator_TrailingStopMethod=--2
 # Optimization params.
-Alligator_TrailingProfitMethod=-16
+Alligator_TrailingProfitMethod=-12
 Alligator_TrailingProfitMethod,F=0
 Alligator_TrailingProfitMethod,1=0
 Alligator_TrailingProfitMethod,2=0
