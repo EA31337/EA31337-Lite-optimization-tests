@@ -12,14 +12,14 @@
                              Spread          10
                                                                  [Optimization Graph]
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          11    2.40            9          1.15            0.27      23.40       0.02 CCI5_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
-          10   -4.10            8          0.74           -0.51      23.90       0.02 CCI5_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
-           5 -175.62          219          0.79           -0.80     227.73       0.23 CCI5_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
-           6 -175.62          219          0.79           -0.80     227.73       0.23 CCI5_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
-           9 -175.62          219          0.79           -0.80     227.73       0.23 CCI5_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
-           8 -181.53          366          0.87           -0.50     341.86       0.34 CCI5_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
-           7 -204.83          362          0.86           -0.57     350.28       0.35 CCI5_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
-           4 -271.70          434          0.84           -0.63     456.48       0.46 CCI5_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
-           3 -326.76          386          0.79           -0.85     443.92       0.44 CCI5_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
-           2 -342.70          288          0.70           -1.19     368.58       0.37 CCI5_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
-           1 -376.37          261          0.65           -1.44     402.96       0.40 CCI5_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
+           5    3.00            2          0.00            1.50      18.20       0.02 CCI5_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
+           7    0.50            1          0.00            0.50      18.20       0.02 CCI5_SignalMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
+           8    0.50            1          0.00            0.50      18.20       0.02 CCI5_SignalMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+           9    0.50            1          0.00            0.50      18.20       0.02 CCI5_SignalMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
+          11  -14.60           11          0.35           -1.33      25.40       0.03 CCI5_SignalMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
+           6  -14.40            8          0.20           -1.80      19.50       0.02 CCI5_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
+          10  -14.40            8          0.20           -1.80      19.50       0.02 CCI5_SignalMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+           1  -57.52           61          0.70           -0.94     124.12       0.12 CCI5_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+           4  -57.52           61          0.70           -0.94     124.12       0.12 CCI5_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
+           2 -153.14          243          0.79           -0.63     242.83       0.24 CCI5_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
+           3 -160.64          248          0.79           -0.65     247.43       0.25 CCI5_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
