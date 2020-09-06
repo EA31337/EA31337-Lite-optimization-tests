@@ -6,24 +6,13 @@
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            3  -650.92          715          0.73           -0.91     702.88       0.70  SmartQueueMethod=2; MaxOrders=5; MaxOrdersPerType=0;
-            2 -1141.01         1012          0.71           -1.13    1192.98       1.19  SmartQueueMethod=1; MaxOrders=5; MaxOrdersPerType=0;
-            5 -1447.90          889          0.73           -1.63    1523.70       1.52  SmartQueueMethod=5; MaxOrders=5; MaxOrdersPerType=0;
-            6 -1447.90          889          0.73           -1.63    1523.70       1.52  SmartQueueMethod=6; MaxOrders=5; MaxOrdersPerType=0;
-            8 -1518.90         1390          0.74           -1.09    1688.86       1.69  SmartQueueMethod=8; MaxOrders=5; MaxOrdersPerType=0;
-            9 -1518.90         1390          0.74           -1.09    1688.86       1.69  SmartQueueMethod=9; MaxOrders=5; MaxOrdersPerType=0;
-           12 -1518.90         1390          0.74           -1.09    1688.86       1.69 SmartQueueMethod=12; MaxOrders=5; MaxOrdersPerType=0;
-           13 -1518.90         1390          0.74           -1.09    1688.86       1.69 SmartQueueMethod=13; MaxOrders=5; MaxOrdersPerType=0;
-           14 -1518.90         1390          0.74           -1.09    1688.86       1.69 SmartQueueMethod=14; MaxOrders=5; MaxOrdersPerType=0;
-           15 -1518.90         1390          0.74           -1.09    1688.86       1.69 SmartQueueMethod=15; MaxOrders=5; MaxOrdersPerType=0;
-            7 -1626.75         1445          0.72           -1.13    1796.72       1.80  SmartQueueMethod=7; MaxOrders=5; MaxOrdersPerType=0;
-           10 -1713.60         1643          0.72           -1.04    1886.10       1.89 SmartQueueMethod=10; MaxOrders=5; MaxOrdersPerType=0;
-           11 -1866.96         1940          0.73           -0.96    2004.32       2.00 SmartQueueMethod=11; MaxOrders=5; MaxOrdersPerType=0;
-            4 -1928.94         1770          0.71           -1.09    2135.61       2.13  SmartQueueMethod=3; MaxOrders=5; MaxOrdersPerType=0;
-            1 -2231.61         2036          0.67           -1.10    2300.61       2.30  SmartQueueMethod=0; MaxOrders=5; MaxOrdersPerType=0;
+            4 -1030.39         1238          0.87           -0.83    1202.09       1.20 SmartQueueMethod=11; MaxOrders=5; MaxOrdersPerType=0;
+            3 -1068.23         1284          0.87           -0.83    1239.93       1.24  SmartQueueMethod=7; MaxOrders=5; MaxOrdersPerType=0;
+            1 -1126.51         1348          0.86           -0.84    1298.21       1.30  SmartQueueMethod=5; MaxOrders=5; MaxOrdersPerType=0;
+            2 -1126.51         1348          0.86           -0.84    1298.21       1.30  SmartQueueMethod=6; MaxOrders=5; MaxOrdersPerType=0;
