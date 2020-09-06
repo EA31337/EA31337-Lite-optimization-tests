@@ -30,7 +30,7 @@ MA30_SignalMethod=0
 MA_TrailingStopMethod=0
 MA_TrailingProfitMethod=0
 # Optimization params.
-MA_Shift_Medium=15
+MA_Shift_Medium=16
 MA_Shift_Medium,F=0
 MA_Shift_Medium,1=0
 MA_Shift_Medium,2=0
