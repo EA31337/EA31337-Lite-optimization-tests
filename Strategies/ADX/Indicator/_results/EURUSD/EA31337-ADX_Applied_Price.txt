@@ -12,10 +12,10 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            1   -84.62          953          0.98           -0.09     582.46       0.58 ADX_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-            2  -237.91          950          0.95           -0.25     647.47       0.65 ADX_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-            7  -322.76          974          0.93           -0.33     676.54       0.68 ADX_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-            5  -361.90         1016          0.92           -0.36     727.36       0.73 ADX_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-            4  -410.14         1462          0.94           -0.28     838.37       0.84 ADX_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-            6  -467.88          994          0.90           -0.47     768.31       0.77 ADX_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-            3 -1173.65         2206          0.82           -0.53    1708.98       1.70 ADX_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+            1  -893.06         1396          0.85           -0.64    1218.61       1.22 ADX_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+            6 -1117.53         1429          0.81           -0.78    1345.18       1.35 ADX_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+            2 -1146.75         1404          0.81           -0.82    1398.53       1.40 ADX_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            7 -1146.46         1412          0.81           -0.81    1381.31       1.38 ADX_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+            4 -1169.38         2117          0.86           -0.55    1519.62       1.52 ADX_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+            5 -1173.57         1440          0.81           -0.81    1440.42       1.44 ADX_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+            3 -2348.97         2475          0.71           -0.95    2632.25       2.63 ADX_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
