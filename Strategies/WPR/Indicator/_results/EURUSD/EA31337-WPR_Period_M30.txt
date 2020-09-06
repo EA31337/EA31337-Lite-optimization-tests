@@ -12,8 +12,8 @@
                             Spread          10
                                                                  [Optimization Graph]
           Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1 -1758.36         2050          0.57           -0.86    1790.96       1.79  WPR_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
-             2 -1758.36         2050          0.57           -0.86    1790.96       1.79  WPR_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
-             3 -1758.36         2050          0.57           -0.86    1790.96       1.79  WPR_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
-             4 -1758.36         2050          0.57           -0.86    1790.96       1.79  WPR_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
-             5 -1758.36         2050          0.57           -0.86    1790.96       1.79 WPR_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
+             1 -2349.78         2507          0.52           -0.94    2381.68       2.38  WPR_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
+             2 -2349.78         2507          0.52           -0.94    2381.68       2.38  WPR_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
+             3 -2349.78         2507          0.52           -0.94    2381.68       2.38  WPR_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
+             4 -2349.78         2507          0.52           -0.94    2381.68       2.38  WPR_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
+             5 -2349.78         2507          0.52           -0.94    2381.68       2.38 WPR_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
