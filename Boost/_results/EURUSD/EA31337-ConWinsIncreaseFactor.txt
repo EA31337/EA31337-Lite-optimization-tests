@@ -11,15 +11,4 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        1 -4889.52         1401          0.86           -3.49    5946.04       5.94 ConWinsIncreaseFactor=-0.1; MaxOrders=0; MaxOrdersPerType=0;
-        2 -5157.74         1401          0.85           -3.68    6267.73       6.26    ConWinsIncreaseFactor=0; MaxOrders=0; MaxOrdersPerType=0;
-        3 -5556.46         1401          0.85           -3.97    6724.39       6.71  ConWinsIncreaseFactor=0.1; MaxOrders=0; MaxOrdersPerType=0;
-        4 -5558.26         1401          0.85           -3.97    6724.39       6.71  ConWinsIncreaseFactor=0.2; MaxOrders=0; MaxOrdersPerType=0;
-        6 -5563.86         1401          0.85           -3.97    6722.09       6.71  ConWinsIncreaseFactor=0.4; MaxOrders=0; MaxOrdersPerType=0;
-        5 -5568.07         1401          0.85           -3.97    6726.99       6.72  ConWinsIncreaseFactor=0.3; MaxOrders=0; MaxOrdersPerType=0;
-        7 -5595.76         1401          0.85           -3.99    6723.29       6.71  ConWinsIncreaseFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
-        8 -5597.66         1401          0.85           -4.00    6723.29       6.71  ConWinsIncreaseFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;
-        9 -5598.70         1401          0.85           -4.00    6756.62       6.74  ConWinsIncreaseFactor=0.7; MaxOrders=0; MaxOrdersPerType=0;
-       10 -5598.70         1401          0.85           -4.00    6756.62       6.74  ConWinsIncreaseFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
-       11 -5602.80         1401          0.85           -4.00    6751.71       6.74  ConWinsIncreaseFactor=0.9; MaxOrders=0; MaxOrdersPerType=0;
+                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
