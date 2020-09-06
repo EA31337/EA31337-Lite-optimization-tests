@@ -11,16 +11,17 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            6  -4.30            9          0.73           -0.48      24.10       0.02  MA5_SignalMethod=84; MaxOrders=0; MaxOrdersPerType=0;
-            3  -4.10            8          0.74           -0.51      23.90       0.02  MA5_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=0;
-            7  -4.10            8          0.74           -0.51      23.90       0.02  MA5_SignalMethod=91; MaxOrders=0; MaxOrdersPerType=0;
-           10  -4.10            8          0.74           -0.51      23.90       0.02 MA5_SignalMethod=112; MaxOrders=0; MaxOrdersPerType=0;
-           11  -4.10            8          0.74           -0.51      23.90       0.02 MA5_SignalMethod=119; MaxOrders=0; MaxOrdersPerType=0;
-           12  -4.10            8          0.74           -0.51      23.90       0.02 MA5_SignalMethod=126; MaxOrders=0; MaxOrdersPerType=0;
-            2  -5.50            9          0.68           -0.61      25.30       0.03  MA5_SignalMethod=56; MaxOrders=0; MaxOrdersPerType=0;
-            1  -9.50           10          0.55           -0.95      29.30       0.03  MA5_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
-            5 -16.10           31          0.64           -0.52      31.60       0.03  MA5_SignalMethod=77; MaxOrders=0; MaxOrdersPerType=0;
-            4 -28.00           45          0.59           -0.62      43.50       0.04  MA5_SignalMethod=70; MaxOrders=0; MaxOrdersPerType=0;
-            8 -34.70           44          0.48           -0.79      52.50       0.05  MA5_SignalMethod=98; MaxOrders=0; MaxOrdersPerType=0;
-            9 -36.10           42          0.43           -0.86      53.90       0.05 MA5_SignalMethod=105; MaxOrders=0; MaxOrdersPerType=0;
+          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             8  -0.70           11          0.97           -0.06      26.10       0.03 MA5_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=0;
+             3  -7.80           14          0.75           -0.56      28.20       0.03 MA5_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
+             7  -8.10           19          0.78           -0.43      31.70       0.03 MA5_SignalMethod=56; MaxOrders=0; MaxOrdersPerType=0;
+             6 -12.90           21          0.69           -0.61      31.70       0.03 MA5_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
+             2 -12.00           15          0.67           -0.80      28.20       0.03 MA5_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+            11 -14.40            8          0.20           -1.80      19.50       0.02 MA5_SignalMethod=84; MaxOrders=0; MaxOrdersPerType=0;
+            12 -14.40            8          0.20           -1.80      19.50       0.02 MA5_SignalMethod=91; MaxOrders=0; MaxOrdersPerType=0;
+             1 -16.30           21          0.64           -0.78      31.50       0.03 MA5_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+             5 -20.20           27          0.61           -0.75      34.00       0.03 MA5_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=0;
+            10 -21.60           14          0.28           -1.54      27.70       0.03 MA5_SignalMethod=77; MaxOrders=0; MaxOrdersPerType=0;
+            13 -26.90           18          0.33           -1.49      29.50       0.03 MA5_SignalMethod=98; MaxOrders=0; MaxOrdersPerType=0;
+             4 -34.40           41          0.55           -0.84      45.00       0.04 MA5_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=0;
+             9 -53.60           26          0.17           -2.06      61.30       0.06 MA5_SignalMethod=70; MaxOrders=0; MaxOrdersPerType=0;
