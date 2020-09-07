@@ -13,9 +13,9 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params CCI_Period_M1
-        $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M1) - 2 * 8"))
+        $$(get_max 3 $$(bc <<< "$$(input_get CCI_Period_M1) - 2 * 8"))
         $$(get_min 50 $$(bc <<< "$$(input_get CCI_Period_M1) + 2 * 8"))
-        4
+        2
       RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-CCI_Applied_Price.set
@@ -36,9 +36,9 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET:
         set_opt_params CCI_Period_M5
-        $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M5) - 2 * 4"))
+        $$(get_max 3 $$(bc <<< "$$(input_get CCI_Period_M5) - 2 * 4"))
         $$(bc <<< "$$(input_get CCI_Period_M5) + 2 * 4")
-        4
+        2
       RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-CCI_Applied_Price.set
@@ -59,9 +59,9 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params CCI_Period_M15
-        $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M15) - 2 * 4"))
+        $$(get_max 3 $$(bc <<< "$$(input_get CCI_Period_M15) - 2 * 4"))
         $$(bc <<< "$$(input_get CCI_Period_M15) + 2 * 4")
-        4
+        2
       RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-CCI_Applied_Price.set
@@ -82,9 +82,9 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params CCI_Period_M30
-        $$(get_max 2 $$(bc <<< "$$(input_get CCI_Period_M30) - 2 * 4"))
+        $$(get_max 3 $$(bc <<< "$$(input_get CCI_Period_M30) - 2 * 4"))
         $$(bc <<< "$$(input_get CCI_Period_M30) + 2 * 4")
-        4
+        2
       RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
         /opt/sets/EA31337-CCI_Applied_Price.set
