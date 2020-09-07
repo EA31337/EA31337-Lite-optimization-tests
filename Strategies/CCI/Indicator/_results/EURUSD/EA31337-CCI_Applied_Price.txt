@@ -12,6 +12,7 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+<<<<<<< Updated upstream
             1 -533.83         1164          0.93           -0.46    1194.82       1.19 CCI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
             7 -711.09         1175          0.90           -0.61    1131.60       1.13 CCI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
             4 -729.57         1199          0.90           -0.61    1123.21       1.12 CCI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
@@ -19,3 +20,12 @@
             5 -800.99         1194          0.89           -0.67    1154.10       1.15 CCI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
             2 -938.20         1146          0.87           -0.82    1163.58       1.16 CCI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
             3 -963.72         1134          0.86           -0.85    1233.57       1.23 CCI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+=======
+            3    4.14          143          1.00            0.03     312.14       0.31 CCI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+            4  -94.02          151          0.95           -0.62     312.74       0.31 CCI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+            1 -126.08          149          0.93           -0.85     351.18       0.35 CCI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+            6 -227.48          142          0.88           -1.60     372.07       0.37 CCI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+            5 -256.64          138          0.86           -1.86     381.84       0.38 CCI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+            7 -275.68          147          0.86           -1.88     432.47       0.43 CCI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+            2 -279.83          133          0.84           -2.10     412.27       0.41 CCI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
