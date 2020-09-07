@@ -11,13 +11,8 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              1  22.90            5          1.63            4.58      35.20       0.04  RSI_Period_M1=4; MaxOrders=0; MaxOrdersPerType=0;
-              2  22.90            5          1.63            4.58      35.20       0.04  RSI_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
-              3  22.90            5          1.63            4.58      35.20       0.04  RSI_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
-              4  22.90            5          1.63            4.58      35.20       0.04 RSI_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
-              5  22.90            5          1.63            4.58      35.20       0.04 RSI_Period_M1=12; MaxOrders=0; MaxOrdersPerType=0;
-              6  22.90            5          1.63            4.58      35.20       0.04 RSI_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
-              7  22.90            5          1.63            4.58      35.20       0.04 RSI_Period_M1=16; MaxOrders=0; MaxOrdersPerType=0;
-              8  22.90            5          1.63            4.58      35.20       0.04 RSI_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;
-              9  22.90            5          1.63            4.58      35.20       0.04 RSI_Period_M1=20; MaxOrders=0; MaxOrdersPerType=0;
+           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              2  122.88          307          1.20            0.40      86.17       0.09  RSI_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
+              3   54.47          120          1.21            0.45      63.50       0.06 RSI_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
+              4   -7.60           49          0.95           -0.16      75.30       0.08 RSI_Period_M1=12; MaxOrders=0; MaxOrdersPerType=0;
+              1 -380.12          761          0.79           -0.50     389.82       0.39  RSI_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
