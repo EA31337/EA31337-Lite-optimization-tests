@@ -12,6 +12,7 @@
                              Spread          10
                                                                  [Optimization Graph]
           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+<<<<<<< Updated upstream
              5 -381.77          605          0.83           -0.63     589.38       0.59 DeMarker_Shift=15; MaxOrders=0; MaxOrdersPerType=0;
              6 -391.46          604          0.83           -0.65     599.07       0.60 DeMarker_Shift=16; MaxOrders=0; MaxOrdersPerType=0;
              2 -399.53          618          0.83           -0.65     616.64       0.62 DeMarker_Shift=12; MaxOrders=0; MaxOrdersPerType=0;
@@ -21,3 +22,14 @@
              9 -457.14          605          0.80           -0.76     664.75       0.66 DeMarker_Shift=19; MaxOrders=0; MaxOrdersPerType=0;
              8 -473.73          605          0.79           -0.78     681.34       0.68 DeMarker_Shift=18; MaxOrders=0; MaxOrdersPerType=0;
              7 -480.77          603          0.79           -0.80     688.38       0.69 DeMarker_Shift=17; MaxOrders=0; MaxOrdersPerType=0;
+=======
+             1 -807.95          330          0.68           -2.45    1056.90       1.05  DeMarker_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
+             2 -808.85          331          0.68           -2.44    1056.90       1.05  DeMarker_Shift=6; MaxOrders=0; MaxOrdersPerType=0;
+             3 -808.85          331          0.68           -2.44    1056.90       1.05  DeMarker_Shift=7; MaxOrders=0; MaxOrdersPerType=0;
+             4 -808.85          331          0.68           -2.44    1056.90       1.05  DeMarker_Shift=8; MaxOrders=0; MaxOrdersPerType=0;
+             5 -808.85          331          0.68           -2.44    1056.90       1.05  DeMarker_Shift=9; MaxOrders=0; MaxOrdersPerType=0;
+             6 -808.85          331          0.68           -2.44    1056.90       1.05 DeMarker_Shift=10; MaxOrders=0; MaxOrdersPerType=0;
+             7 -808.85          331          0.68           -2.44    1056.90       1.05 DeMarker_Shift=11; MaxOrders=0; MaxOrdersPerType=0;
+             8 -808.85          331          0.68           -2.44    1056.90       1.05 DeMarker_Shift=12; MaxOrders=0; MaxOrdersPerType=0;
+             9 -808.85          331          0.68           -2.44    1056.90       1.05 DeMarker_Shift=13; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes

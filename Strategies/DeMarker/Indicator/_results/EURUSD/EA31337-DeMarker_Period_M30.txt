@@ -11,6 +11,7 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
+<<<<<<< Updated upstream
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
            7   -1.79          108          1.00           -0.02     163.20       0.16 DeMarker_Period_M30=16; MaxOrders=0; MaxOrdersPerType=0;
           13  -10.77           37          0.95           -0.29     142.20       0.14 DeMarker_Period_M30=28; MaxOrders=0; MaxOrdersPerType=0;
@@ -29,3 +30,23 @@
            3 -639.29          652          0.50           -0.98     666.48       0.67  DeMarker_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
            2 -877.22          980          0.52           -0.90     888.14       0.89  DeMarker_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
            1 -938.76         1199          0.58           -0.78    1024.32       1.02  DeMarker_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
+=======
+       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          6   528.10          462          1.18            1.14     367.81       0.37 DeMarker_Period_M30=14; MaxOrders=0; MaxOrdersPerType=0;
+          9   289.90          324          1.11            0.89     343.94       0.34 DeMarker_Period_M30=20; MaxOrders=0; MaxOrdersPerType=0;
+          7   240.61          374          1.09            0.64     415.57       0.42 DeMarker_Period_M30=16; MaxOrders=0; MaxOrdersPerType=0;
+         10    97.58          315          1.04            0.31     490.75       0.49 DeMarker_Period_M30=22; MaxOrders=0; MaxOrdersPerType=0;
+          8    68.34          331          1.03            0.21     406.60       0.41 DeMarker_Period_M30=18; MaxOrders=0; MaxOrdersPerType=0;
+          5   -23.27          539          0.99           -0.04     459.03       0.46 DeMarker_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
+         11  -276.26          268          0.89           -1.03     547.41       0.55 DeMarker_Period_M30=24; MaxOrders=0; MaxOrdersPerType=0;
+         12  -415.88          236          0.83           -1.76     672.68       0.67 DeMarker_Period_M30=26; MaxOrders=0; MaxOrdersPerType=0;
+          4  -425.85          663          0.88           -0.64     614.30       0.61 DeMarker_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
+         17  -554.81          157          0.71           -3.53     645.08       0.64 DeMarker_Period_M30=36; MaxOrders=0; MaxOrdersPerType=0;
+         16  -570.28          167          0.72           -3.41     649.49       0.65 DeMarker_Period_M30=34; MaxOrders=0; MaxOrdersPerType=0;
+         15  -635.72          182          0.71           -3.49     726.22       0.73 DeMarker_Period_M30=32; MaxOrders=0; MaxOrdersPerType=0;
+         14  -644.53          216          0.74           -2.98     832.20       0.83 DeMarker_Period_M30=30; MaxOrders=0; MaxOrdersPerType=0;
+         13  -673.69          238          0.73           -2.83     889.21       0.89 DeMarker_Period_M30=28; MaxOrders=0; MaxOrdersPerType=0;
+          3  -796.29          848          0.80           -0.94     846.39       0.85  DeMarker_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
+          1 -1427.00         1965          0.77           -0.73    1544.37       1.54  DeMarker_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
+          2 -1536.83         1210          0.70           -1.27    1582.58       1.58  DeMarker_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
