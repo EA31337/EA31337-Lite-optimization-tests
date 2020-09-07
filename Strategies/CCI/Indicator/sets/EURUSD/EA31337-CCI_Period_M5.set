@@ -34,7 +34,7 @@ CCI_Applied_Price=0
 CCI_SignalLevel=125
 CCI_Shift=0
 # Optimization params.
-CCI_Period_M5=2
+CCI_Period_M5=14
 CCI_Period_M5,F=0
 CCI_Period_M5,1=0
 CCI_Period_M5,2=0
