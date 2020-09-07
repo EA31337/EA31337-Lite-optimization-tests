@@ -11,7 +11,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       BT_PERIOD: M1
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params ADX_Period_M1
         $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M1) - 2 * 4"))
@@ -35,7 +35,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       BT_PERIOD: M5
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params ADX_Period_M5
         $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M5) - 2 * 4"))
@@ -59,7 +59,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       BT_PERIOD: M15
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params ADX_Period_M15
         $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M15) - 2 * 4"))
@@ -83,7 +83,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       BT_PERIOD: M30
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params ADX_Period_M30
         $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M30) - 2 * 4"))
@@ -101,7 +101,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: set_opt_params ADX_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-ADX_Applied_Price.set
       SET_PARAMS: ADX_Applied_Price
@@ -115,7 +115,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params ADX_SignalLevel
         $$(bc <<< "$$(input_get ADX_SignalLevel) - 0.1 * 5")
@@ -133,7 +133,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params ADX_Shift
         $$(get_max 0 $$(bc <<< "$$(input_get ADX_Shift) - 1 * 2"))
