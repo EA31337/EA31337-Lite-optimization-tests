@@ -28,9 +28,15 @@ CCI5_SignalMethod=0
 CCI15_SignalMethod=0
 CCI30_SignalMethod=0
 # Dynamic strategy params.
+<<<<<<< Updated upstream
 CCI_TrailingStopMethod=-7
 # Optimization params.
 CCI_TrailingProfitMethod=1
+=======
+CCI_TrailingStopMethod=-1
+# Optimization params.
+CCI_TrailingProfitMethod=9
+>>>>>>> Stashed changes
 CCI_TrailingProfitMethod,F=0
 CCI_TrailingProfitMethod,1=0
 CCI_TrailingProfitMethod,2=0
