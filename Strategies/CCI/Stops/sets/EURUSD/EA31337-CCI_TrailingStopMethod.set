@@ -29,7 +29,11 @@ CCI15_SignalMethod=0
 CCI30_SignalMethod=0
 CCI_TrailingProfitMethod=0
 # Optimization params.
-CCI_TrailingStopMethod=2
+<<<<<<< Updated upstream
+CCI_TrailingStopMethod=7
+=======
+CCI_TrailingStopMethod=1
+>>>>>>> Stashed changes
 CCI_TrailingStopMethod,F=0
 CCI_TrailingStopMethod,1=0
 CCI_TrailingStopMethod,2=0
