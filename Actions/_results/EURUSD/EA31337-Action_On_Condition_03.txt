@@ -11,15 +11,15 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         1 -962.86         1277          0.83           -0.75    1130.25       1.13  Action_On_Condition_3=0; MaxOrders=999; MaxOrdersPerType=0;
-         2 -962.86         1277          0.83           -0.75    1130.25       1.13  Action_On_Condition_3=1; MaxOrders=999; MaxOrdersPerType=0;
-         3 -962.86         1277          0.83           -0.75    1130.25       1.13  Action_On_Condition_3=2; MaxOrders=999; MaxOrdersPerType=0;
-         4 -962.86         1277          0.83           -0.75    1130.25       1.13  Action_On_Condition_3=3; MaxOrders=999; MaxOrdersPerType=0;
-         5 -962.86         1277          0.83           -0.75    1130.25       1.13  Action_On_Condition_3=4; MaxOrders=999; MaxOrdersPerType=0;
-         6 -962.86         1277          0.83           -0.75    1130.25       1.13  Action_On_Condition_3=5; MaxOrders=999; MaxOrdersPerType=0;
-         7 -962.86         1277          0.83           -0.75    1130.25       1.13  Action_On_Condition_3=6; MaxOrders=999; MaxOrdersPerType=0;
-         8 -962.86         1277          0.83           -0.75    1130.25       1.13  Action_On_Condition_3=7; MaxOrders=999; MaxOrdersPerType=0;
-         9 -962.86         1277          0.83           -0.75    1130.25       1.13  Action_On_Condition_3=8; MaxOrders=999; MaxOrdersPerType=0;
-        10 -962.86         1277          0.83           -0.75    1130.25       1.13  Action_On_Condition_3=9; MaxOrders=999; MaxOrdersPerType=0;
-        11 -962.86         1277          0.83           -0.75    1130.25       1.13 Action_On_Condition_3=10; MaxOrders=999; MaxOrdersPerType=0;
+     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        1 -1042.73         1163          0.89           -0.90    1229.69       1.23  Action_On_Condition_3=0; MaxOrders=999; MaxOrdersPerType=0;
+        2 -1042.73         1163          0.89           -0.90    1229.69       1.23  Action_On_Condition_3=1; MaxOrders=999; MaxOrdersPerType=0;
+        3 -1042.73         1163          0.89           -0.90    1229.69       1.23  Action_On_Condition_3=2; MaxOrders=999; MaxOrdersPerType=0;
+        4 -1042.73         1163          0.89           -0.90    1229.69       1.23  Action_On_Condition_3=3; MaxOrders=999; MaxOrdersPerType=0;
+        5 -1042.73         1163          0.89           -0.90    1229.69       1.23  Action_On_Condition_3=4; MaxOrders=999; MaxOrdersPerType=0;
+        6 -1042.73         1163          0.89           -0.90    1229.69       1.23  Action_On_Condition_3=5; MaxOrders=999; MaxOrdersPerType=0;
+        7 -1042.73         1163          0.89           -0.90    1229.69       1.23  Action_On_Condition_3=6; MaxOrders=999; MaxOrdersPerType=0;
+        8 -1042.73         1163          0.89           -0.90    1229.69       1.23  Action_On_Condition_3=7; MaxOrders=999; MaxOrdersPerType=0;
+        9 -1042.73         1163          0.89           -0.90    1229.69       1.23  Action_On_Condition_3=8; MaxOrders=999; MaxOrdersPerType=0;
+       10 -1042.73         1163          0.89           -0.90    1229.69       1.23  Action_On_Condition_3=9; MaxOrders=999; MaxOrdersPerType=0;
+       11 -1042.73         1163          0.89           -0.90    1229.69       1.23 Action_On_Condition_3=10; MaxOrders=999; MaxOrdersPerType=0;
