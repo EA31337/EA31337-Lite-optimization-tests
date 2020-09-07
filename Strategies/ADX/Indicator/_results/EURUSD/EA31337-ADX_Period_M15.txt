@@ -12,12 +12,12 @@
                             Spread          10
                                                                  [Optimization Graph]
           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             9 -592.92          685          0.74           -0.87     740.18       0.74 ADX_Period_M15=74; MaxOrders=0; MaxOrdersPerType=0;
-             8 -657.60          716          0.72           -0.92     795.96       0.80 ADX_Period_M15=72; MaxOrders=0; MaxOrdersPerType=0;
-             2 -693.37          782          0.73           -0.89     939.62       0.94 ADX_Period_M15=60; MaxOrders=0; MaxOrdersPerType=0;
-             6 -708.77          770          0.72           -0.92     910.72       0.91 ADX_Period_M15=68; MaxOrders=0; MaxOrdersPerType=0;
-             4 -718.66          781          0.72           -0.92     933.42       0.93 ADX_Period_M15=64; MaxOrders=0; MaxOrdersPerType=0;
-             5 -720.58          783          0.72           -0.92     906.32       0.91 ADX_Period_M15=66; MaxOrders=0; MaxOrdersPerType=0;
-             3 -725.07          784          0.72           -0.92     951.62       0.95 ADX_Period_M15=62; MaxOrders=0; MaxOrdersPerType=0;
-             7 -731.37          759          0.71           -0.96     903.02       0.90 ADX_Period_M15=70; MaxOrders=0; MaxOrdersPerType=0;
-             1 -807.58          831          0.71           -0.97    1009.22       1.01 ADX_Period_M15=58; MaxOrders=0; MaxOrdersPerType=0;
+             5 -561.09          440          0.66           -1.28     661.04       0.66 ADX_Period_M15=74; MaxOrders=0; MaxOrdersPerType=0;
+             4 -587.07          446          0.65           -1.32     685.45       0.69 ADX_Period_M15=72; MaxOrders=0; MaxOrdersPerType=0;
+             3 -599.14          446          0.65           -1.34     698.42       0.70 ADX_Period_M15=70; MaxOrders=0; MaxOrdersPerType=0;
+             7 -611.28          430          0.62           -1.42     717.73       0.72 ADX_Period_M15=78; MaxOrders=0; MaxOrdersPerType=0;
+             9 -615.88          422          0.62           -1.46     721.53       0.72 ADX_Period_M15=82; MaxOrders=0; MaxOrdersPerType=0;
+             8 -620.08          423          0.62           -1.47     726.53       0.73 ADX_Period_M15=80; MaxOrders=0; MaxOrdersPerType=0;
+             2 -623.30          459          0.66           -1.36     779.49       0.78 ADX_Period_M15=68; MaxOrders=0; MaxOrdersPerType=0;
+             1 -624.37          475          0.66           -1.31     790.75       0.79 ADX_Period_M15=66; MaxOrders=0; MaxOrdersPerType=0;
+             6 -627.19          435          0.62           -1.44     730.04       0.73 ADX_Period_M15=76; MaxOrders=0; MaxOrdersPerType=0;
