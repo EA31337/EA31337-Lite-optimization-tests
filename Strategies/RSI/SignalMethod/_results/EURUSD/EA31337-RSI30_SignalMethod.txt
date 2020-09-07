@@ -11,6 +11,7 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
+<<<<<<< Updated upstream
         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
            1 -60.83           18          0.51           -3.38     100.02       0.10 RSI30_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
            2 -60.83           18          0.51           -3.38     100.02       0.10 RSI30_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
@@ -22,3 +23,16 @@
            8 -60.83           18          0.51           -3.38     100.02       0.10 RSI30_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
            9 -60.83           18          0.51           -3.38     100.02       0.10 RSI30_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
           10 -60.83           18          0.51           -3.38     100.02       0.10 RSI30_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
+=======
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           3 -119.23          267          0.82           -0.45     179.65       0.18 RSI30_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
+           2 -155.13          286          0.78           -0.54     213.55       0.21 RSI30_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
+           4 -177.55          182          0.65           -0.98     207.13       0.21 RSI30_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
+           5 -179.35          190          0.65           -0.94     216.63       0.22 RSI30_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
+           8 -193.36          236          0.71           -0.82     246.99       0.25 RSI30_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+           9 -199.84          127          0.55           -1.57     242.13       0.24 RSI30_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
+          10 -222.14          139          0.52           -1.60     255.93       0.26 RSI30_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
+           7 -350.20          342          0.63           -1.02     391.20       0.39 RSI30_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
+           6 -380.70          353          0.61           -1.08     421.70       0.42 RSI30_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+           1 -438.01          439          0.61           -1.00     479.50       0.48 RSI30_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
