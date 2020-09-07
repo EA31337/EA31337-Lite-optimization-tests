@@ -11,4 +11,5 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1 -37064.65        32084          0.45           -1.16   37069.45      37.07 MACD_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
