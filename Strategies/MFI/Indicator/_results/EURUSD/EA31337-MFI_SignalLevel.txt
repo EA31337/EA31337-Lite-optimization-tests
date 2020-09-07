@@ -12,14 +12,14 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            6 -3841.10         4228          0.70           -0.91    3861.39       3.86 MFI_SignalLevel=2.3; MaxOrders=0; MaxOrdersPerType=0;
-            7 -3899.70         4212          0.70           -0.93    3919.99       3.92 MFI_SignalLevel=2.4; MaxOrders=0; MaxOrdersPerType=0;
-           11 -3991.68         4168          0.69           -0.96    4011.97       4.01 MFI_SignalLevel=2.8; MaxOrders=0; MaxOrdersPerType=0;
-            3 -3999.59         4237          0.69           -0.94    4019.88       4.02   MFI_SignalLevel=2; MaxOrders=0; MaxOrdersPerType=0;
-            5 -4005.55         4205          0.69           -0.95    4025.84       4.03 MFI_SignalLevel=2.2; MaxOrders=0; MaxOrdersPerType=0;
-            4 -4007.66         4198          0.69           -0.95    4027.95       4.03 MFI_SignalLevel=2.1; MaxOrders=0; MaxOrdersPerType=0;
-           10 -4022.38         4176          0.69           -0.96    4042.67       4.04 MFI_SignalLevel=2.7; MaxOrders=0; MaxOrdersPerType=0;
-            8 -4029.82         4204          0.69           -0.96    4050.11       4.05 MFI_SignalLevel=2.5; MaxOrders=0; MaxOrdersPerType=0;
-            2 -4062.48         4255          0.69           -0.95    4082.77       4.08 MFI_SignalLevel=1.9; MaxOrders=0; MaxOrdersPerType=0;
-            9 -4101.68         4203          0.69           -0.98    4121.97       4.12 MFI_SignalLevel=2.6; MaxOrders=0; MaxOrdersPerType=0;
-            1 -4162.47         4298          0.68           -0.97    4182.77       4.18 MFI_SignalLevel=1.8; MaxOrders=0; MaxOrdersPerType=0;
+            9 -3028.71         3636          0.73           -0.83    3284.70       3.28 MFI_SignalLevel=2.6; MaxOrders=0; MaxOrdersPerType=0;
+           10 -3051.77         3640          0.73           -0.84    3310.36       3.31 MFI_SignalLevel=2.7; MaxOrders=0; MaxOrdersPerType=0;
+            8 -3055.28         3650          0.73           -0.84    3313.17       3.31 MFI_SignalLevel=2.5; MaxOrders=0; MaxOrdersPerType=0;
+           11 -3184.31         3652          0.72           -0.87    3442.90       3.44 MFI_SignalLevel=2.8; MaxOrders=0; MaxOrdersPerType=0;
+            7 -3309.75         3689          0.71           -0.90    3563.94       3.56 MFI_SignalLevel=2.4; MaxOrders=0; MaxOrdersPerType=0;
+            1 -3350.41         3754          0.71           -0.89    3625.09       3.62 MFI_SignalLevel=1.8; MaxOrders=0; MaxOrdersPerType=0;
+            6 -3414.45         3696          0.70           -0.92    3663.24       3.66 MFI_SignalLevel=2.3; MaxOrders=0; MaxOrdersPerType=0;
+            2 -3492.62         3755          0.70           -0.93    3736.71       3.74 MFI_SignalLevel=1.9; MaxOrders=0; MaxOrdersPerType=0;
+            4 -3549.46         3727          0.69           -0.95    3795.35       3.80 MFI_SignalLevel=2.1; MaxOrders=0; MaxOrdersPerType=0;
+            3 -3589.69         3746          0.69           -0.96    3835.58       3.84   MFI_SignalLevel=2; MaxOrders=0; MaxOrdersPerType=0;
+            5 -3599.25         3693          0.69           -0.97    3845.14       3.84 MFI_SignalLevel=2.2; MaxOrders=0; MaxOrdersPerType=0;
