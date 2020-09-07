@@ -32,7 +32,11 @@ DeMarker30_SignalMethod=0
 DeMarker_TrailingStopMethod=0
 DeMarker_TrailingProfitMethod=0
 # Optimization params.
+<<<<<<< Updated upstream
 DeMarker_Period_M30=16
+=======
+DeMarker_Period_M30=14
+>>>>>>> Stashed changes
 DeMarker_Period_M30,F=0
 DeMarker_Period_M30,1=0
 DeMarker_Period_M30,2=0
