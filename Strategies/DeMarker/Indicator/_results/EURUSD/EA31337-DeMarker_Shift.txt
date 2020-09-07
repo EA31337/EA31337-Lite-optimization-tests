@@ -11,13 +11,10 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1 -807.95          330          0.68           -2.45    1056.90       1.05  DeMarker_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
-             2 -808.85          331          0.68           -2.44    1056.90       1.05  DeMarker_Shift=6; MaxOrders=0; MaxOrdersPerType=0;
-             3 -808.85          331          0.68           -2.44    1056.90       1.05  DeMarker_Shift=7; MaxOrders=0; MaxOrdersPerType=0;
-             4 -808.85          331          0.68           -2.44    1056.90       1.05  DeMarker_Shift=8; MaxOrders=0; MaxOrdersPerType=0;
-             5 -808.85          331          0.68           -2.44    1056.90       1.05  DeMarker_Shift=9; MaxOrders=0; MaxOrdersPerType=0;
-             6 -808.85          331          0.68           -2.44    1056.90       1.05 DeMarker_Shift=10; MaxOrders=0; MaxOrdersPerType=0;
-             7 -808.85          331          0.68           -2.44    1056.90       1.05 DeMarker_Shift=11; MaxOrders=0; MaxOrdersPerType=0;
-             8 -808.85          331          0.68           -2.44    1056.90       1.05 DeMarker_Shift=12; MaxOrders=0; MaxOrdersPerType=0;
-             9 -808.85          331          0.68           -2.44    1056.90       1.05 DeMarker_Shift=13; MaxOrders=0; MaxOrdersPerType=0;
+           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              1   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+              2   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+              3   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+              4   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
+              5   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
+              6   0.00            0          0.00            0.00       0.00       0.00 DeMarker_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
