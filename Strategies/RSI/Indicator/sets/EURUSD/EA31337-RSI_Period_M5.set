@@ -32,7 +32,11 @@ RSI_TrailingStopMethod=0
 RSI_TrailingStopMethod=0
 RSI_TrailingProfitMethod=0
 # Optimization params.
+<<<<<<< Updated upstream
 RSI_Period_M5=18
+=======
+RSI_Period_M5=6
+>>>>>>> Stashed changes
 RSI_Period_M5,F=0
 RSI_Period_M5,1=0
 RSI_Period_M5,2=0

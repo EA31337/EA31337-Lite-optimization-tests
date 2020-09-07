@@ -11,6 +11,7 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
+<<<<<<< Updated upstream
           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
              5  -20.20           55          0.86           -0.37     104.32       0.10 RSI_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
              6  -22.10           57          0.85           -0.39     104.32       0.10 RSI_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
@@ -19,3 +20,13 @@
              4  -34.99           53          0.77           -0.66     104.32       0.10  RSI_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
              2  -92.39           87          0.54           -1.06     152.62       0.15  RSI_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
              1 -876.04         1324          0.64           -0.66     909.98       0.91  RSI_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
+=======
+           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              2 626.04          394          1.19            1.59     361.27       0.36  RSI_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
+              1  95.46         1633          1.01            0.06     384.98       0.38  RSI_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
+              7  15.40            3          9.56            5.13      29.90       0.03 RSI_Period_M30=14; MaxOrders=0; MaxOrdersPerType=0;
+              4  14.86           46          1.03            0.32     150.96       0.15  RSI_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
+              6   8.80            4          5.89            2.20      29.90       0.03 RSI_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
+              5 -61.23           20          0.63           -3.06     133.36       0.13 RSI_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
+              3 -69.58          144          0.95           -0.48     307.89       0.31  RSI_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
