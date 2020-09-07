@@ -10,7 +10,7 @@ on:
 
 jobs:
 
-  Deviation:
+  Period:
     defaults:
       run:
         shell: bash
@@ -19,10 +19,10 @@ jobs:
     strategy:
       matrix:
         test:
-          - Bands_Deviation_M1
-          - Bands_Deviation_M5
-          - Bands_Deviation_M15
-          - Bands_Deviation_M30
+          - Bands_Period_M1
+          - Bands_Period_M5
+          - Bands_Period_M15
+          - Bands_Period_M30
     steps:
       - uses: actions/checkout@v2
         with:
@@ -48,20 +48,20 @@ jobs:
     env:
       DCA: "--rm"
 
-  Period:
+  Deviation:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/Bands/Indicator
-    needs: Deviation
+    needs: Period
     runs-on: ubuntu-latest
     strategy:
       matrix:
         test:
-          - Bands_Period_M1
-          - Bands_Period_M5
-          - Bands_Period_M15
-          - Bands_Period_M30
+          - Bands_Deviation_M1
+          - Bands_Deviation_M5
+          - Bands_Deviation_M15
+          - Bands_Deviation_M30
     steps:
       - uses: actions/checkout@v2
         with:
