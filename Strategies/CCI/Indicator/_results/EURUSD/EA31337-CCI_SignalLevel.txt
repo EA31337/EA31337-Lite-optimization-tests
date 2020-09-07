@@ -12,17 +12,6 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-<<<<<<< Updated upstream
-            3 -760.57         1177          0.90           -0.65    1186.40       1.19 CCI_SignalLevel=125; MaxOrders=0; MaxOrdersPerType=0;
-            2 -772.97         1178          0.90           -0.66    1160.40       1.16 CCI_SignalLevel=123; MaxOrders=0; MaxOrdersPerType=0;
-            4 -783.37         1174          0.89           -0.67    1197.50       1.20 CCI_SignalLevel=127; MaxOrders=0; MaxOrdersPerType=0;
-            1 -804.19         1181          0.89           -0.68    1149.50       1.15 CCI_SignalLevel=121; MaxOrders=0; MaxOrdersPerType=0;
-            9 -849.27         1145          0.88           -0.74    1199.78       1.20 CCI_SignalLevel=137; MaxOrders=0; MaxOrdersPerType=0;
-            8 -886.39         1152          0.88           -0.77    1203.39       1.20 CCI_SignalLevel=135; MaxOrders=0; MaxOrdersPerType=0;
-            5 -904.66         1170          0.88           -0.77    1172.30       1.17 CCI_SignalLevel=129; MaxOrders=0; MaxOrdersPerType=0;
-            7 -940.71         1165          0.87           -0.81    1205.09       1.20 CCI_SignalLevel=133; MaxOrders=0; MaxOrdersPerType=0;
-            6 -992.73         1169          0.87           -0.85    1240.79       1.24 CCI_SignalLevel=131; MaxOrders=0; MaxOrdersPerType=0;
-=======
             5    4.14          143          1.00            0.03     312.14       0.31 CCI_SignalLevel=135; MaxOrders=0; MaxOrdersPerType=0;
             4  -24.77          143          0.99           -0.17     353.04       0.35 CCI_SignalLevel=133; MaxOrders=0; MaxOrdersPerType=0;
             3  -41.17          144          0.98           -0.29     364.54       0.36 CCI_SignalLevel=131; MaxOrders=0; MaxOrdersPerType=0;
@@ -32,4 +21,3 @@
             9 -105.24          137          0.94           -0.77     292.70       0.29 CCI_SignalLevel=143; MaxOrders=0; MaxOrdersPerType=0;
             6 -125.75          139          0.93           -0.90     326.70       0.33 CCI_SignalLevel=137; MaxOrders=0; MaxOrdersPerType=0;
             7 -138.55          139          0.92           -1.00     343.50       0.34 CCI_SignalLevel=139; MaxOrders=0; MaxOrdersPerType=0;
->>>>>>> Stashed changes

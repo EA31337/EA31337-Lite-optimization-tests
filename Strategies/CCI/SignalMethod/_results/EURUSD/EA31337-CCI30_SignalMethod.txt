@@ -11,17 +11,6 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-<<<<<<< Updated upstream
-        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           7  -85.83           92          0.64           -0.93     144.42       0.14 CCI30_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
-           8  -85.83           92          0.64           -0.93     144.42       0.14 CCI30_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
-           3 -165.73          213          0.61           -0.78     220.42       0.22 CCI30_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
-           5 -186.93          299          0.71           -0.63     278.12       0.28 CCI30_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
-           6 -205.64          401          0.77           -0.51     308.14       0.31 CCI30_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
-           1 -230.13          388          0.73           -0.59     317.92       0.32 CCI30_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
-           4 -319.03          421          0.55           -0.76     359.12       0.36 CCI30_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
-           2 -413.53          613          0.65           -0.67     476.03       0.48 CCI30_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
-=======
        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
           7   -97.40          147          0.65           -0.66     130.70       0.13 CCI30_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
           8   -97.40          147          0.65           -0.66     130.70       0.13 CCI30_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
@@ -31,4 +20,3 @@
           1  -663.82          837          0.61           -0.79     694.12       0.69 CCI30_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
           4  -724.51          922          0.50           -0.79     741.61       0.74 CCI30_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
           2 -1100.04         1427          0.57           -0.77    1130.34       1.13 CCI30_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
->>>>>>> Stashed changes

@@ -1,0 +1,63 @@
+---
+version: '3.4'
+services:
+  MACD1_SignalMethod:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 6-12
+      BT_PERIOD: M1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
+      RUN_ON_SET: set_opt_params MACD1_SignalMethod -7 7
+      SETFILE: /opt/sets/EA31337-MACD1_SignalMethod.set
+      SET_PARAMS: MACD1_SignalMethod
+      TEST_REPORT_NAME: EA31337-MACD1_SignalMethod
+  MACD5_SignalMethod:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 6-12
+      BT_PERIOD: M5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
+      RUN_ON_SET: set_opt_params MACD5_SignalMethod -7 7
+      SETFILE: /opt/sets/EA31337-MACD5_SignalMethod.set
+      SET_PARAMS: MACD5_SignalMethod
+      TEST_REPORT_NAME: EA31337-MACD5_SignalMethod
+  MACD15_SignalMethod:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 6-12
+      BT_PERIOD: M15
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: set_opt_params MACD15_SignalMethod -7 7
+      SETFILE: /opt/sets/EA31337-MACD15_SignalMethod.set
+      SET_PARAMS: MACD15_SignalMethod
+      TEST_REPORT_NAME: EA31337-MACD15_SignalMethod
+  MACD30_SignalMethod:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 6-12
+      BT_PERIOD: M30
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: set_opt_params MACD30_SignalMethod -7 7
+      SETFILE: /opt/sets/EA31337-MACD30_SignalMethod.set
+      SET_PARAMS: MACD30_SignalMethod
+      TEST_REPORT_NAME: EA31337-MACD30_SignalMethod

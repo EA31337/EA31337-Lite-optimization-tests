@@ -11,26 +11,6 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-<<<<<<< Updated upstream
-        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           6 -379.37          302          0.69           -1.26     450.09       0.45 DeMarker_Period_M15=14; MaxOrders=0; MaxOrdersPerType=0;
-           9 -415.26          287          0.65           -1.45     484.25       0.48 DeMarker_Period_M15=20; MaxOrders=0; MaxOrdersPerType=0;
-          10 -415.26          287          0.65           -1.45     484.25       0.48 DeMarker_Period_M15=22; MaxOrders=0; MaxOrdersPerType=0;
-          11 -415.26          287          0.65           -1.45     484.25       0.48 DeMarker_Period_M15=24; MaxOrders=0; MaxOrdersPerType=0;
-          15 -420.31          296          0.66           -1.42     513.53       0.51 DeMarker_Period_M15=32; MaxOrders=0; MaxOrdersPerType=0;
-           1 -423.26          566          0.86           -0.75     703.66       0.70  DeMarker_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
-          12 -430.86          289          0.64           -1.49     493.85       0.49 DeMarker_Period_M15=26; MaxOrders=0; MaxOrdersPerType=0;
-           8 -446.88          292          0.64           -1.53     527.77       0.53 DeMarker_Period_M15=18; MaxOrders=0; MaxOrdersPerType=0;
-          16 -450.24          298          0.64           -1.51     523.03       0.52 DeMarker_Period_M15=34; MaxOrders=0; MaxOrdersPerType=0;
-           7 -453.08          293          0.63           -1.55     517.05       0.52 DeMarker_Period_M15=16; MaxOrders=0; MaxOrdersPerType=0;
-          13 -454.46          291          0.63           -1.56     517.45       0.52 DeMarker_Period_M15=28; MaxOrders=0; MaxOrdersPerType=0;
-          14 -460.56          295          0.62           -1.56     523.55       0.52 DeMarker_Period_M15=30; MaxOrders=0; MaxOrdersPerType=0;
-          17 -472.90          298          0.62           -1.59     541.89       0.54 DeMarker_Period_M15=36; MaxOrders=0; MaxOrdersPerType=0;
-           4 -520.96          371          0.68           -1.40     524.67       0.52 DeMarker_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
-           3 -582.19          426          0.72           -1.37     673.67       0.67  DeMarker_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
-           5 -603.35          322          0.58           -1.87     634.90       0.63 DeMarker_Period_M15=12; MaxOrders=0; MaxOrdersPerType=0;
-           2 -660.40          508          0.73           -1.30     739.03       0.74  DeMarker_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
-=======
        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
          14   260.58          307          1.12            0.85     404.24       0.40 DeMarker_Period_M15=32; MaxOrders=0; MaxOrdersPerType=0;
          16   165.04          257          1.09            0.64     279.82       0.28 DeMarker_Period_M15=36; MaxOrders=0; MaxOrdersPerType=0;
@@ -48,4 +28,3 @@
           2 -1127.80         1543          0.79           -0.73    1319.41       1.32  DeMarker_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
           3 -1335.19         1149          0.73           -1.16    1521.50       1.52 DeMarker_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
           1 -1536.48         2168          0.76           -0.71    1665.05       1.66  DeMarker_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
->>>>>>> Stashed changes

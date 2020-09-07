@@ -12,16 +12,8 @@
                             Spread          10
                                                                  [Optimization Graph]
            Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-<<<<<<< Updated upstream
-              2 546.27          202          1.27            2.70     307.91       0.31 CCI_Period_M30=14; MaxOrders=0; MaxOrdersPerType=0;
-              3 451.17          197          1.22            2.29     390.77       0.39 CCI_Period_M30=18; MaxOrders=0; MaxOrdersPerType=0;
-              5 446.76          195          1.22            2.29     338.07       0.34 CCI_Period_M30=26; MaxOrders=0; MaxOrdersPerType=0;
-              4 265.30          192          1.13            1.38     358.27       0.36 CCI_Period_M30=22; MaxOrders=0; MaxOrdersPerType=0;
-              1 190.75          206          1.08            0.93     403.36       0.40 CCI_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
-=======
               3 586.40          215          1.23            2.73     303.39       0.30 CCI_Period_M30=18; MaxOrders=0; MaxOrdersPerType=0;
               5 318.00          196          1.12            1.62     376.87       0.37 CCI_Period_M30=26; MaxOrders=0; MaxOrdersPerType=0;
               2 289.31          222          1.10            1.30     338.89       0.34 CCI_Period_M30=14; MaxOrders=0; MaxOrdersPerType=0;
               4 233.85          206          1.09            1.14     353.19       0.35 CCI_Period_M30=22; MaxOrders=0; MaxOrdersPerType=0;
               1 211.87          226          1.08            0.94     332.91       0.33 CCI_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
->>>>>>> Stashed changes
