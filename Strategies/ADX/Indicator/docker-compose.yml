@@ -9,13 +9,12 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       BT_PERIOD: M1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params ADX_Period_M1
-        $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M1) - 2 * 4"))
-        $$(bc <<< "$$(input_get ADX_Period_M1) + 2 * 4")
+        $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M1) - 2 * 8"))
+        $$(bc <<< "$$(input_get ADX_Period_M1) + 2 * 8")
         2
       RUN_ON_SUCCESS: >
         input_copy ADX_Period_M1 "$${SETFILE}"
@@ -33,13 +32,12 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       BT_PERIOD: M5
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params ADX_Period_M5
-        $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M5) - 2 * 4"))
-        $$(bc <<< "$$(input_get ADX_Period_M5) + 2 * 4")
+        $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M5) - 2 * 8"))
+        $$(bc <<< "$$(input_get ADX_Period_M5) + 2 * 8")
         2
       RUN_ON_SUCCESS: >
         input_copy ADX_Period_M5 "$${SETFILE}"
@@ -57,13 +55,12 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       BT_PERIOD: M15
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params ADX_Period_M15
-        $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M15) - 2 * 4"))
-        $$(bc <<< "$$(input_get ADX_Period_M15) + 2 * 4")
+        $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M15) - 2 * 8"))
+        $$(bc <<< "$$(input_get ADX_Period_M15) + 2 * 8")
         2
       RUN_ON_SUCCESS: >
         input_copy ADX_Period_M15 "$${SETFILE}"
@@ -81,13 +78,12 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       BT_PERIOD: M30
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params ADX_Period_M30
-        $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M30) - 2 * 4"))
-        $$(bc <<< "$$(input_get ADX_Period_M30) + 2 * 4")
+        $$(get_max 2 $$(bc <<< "$$(input_get ADX_Period_M30) - 2 * 8"))
+        $$(bc <<< "$$(input_get ADX_Period_M30) + 2 * 8")
         2
       SET_PARAMS: ADX_Period_M30
       SETFILE: /opt/sets/EA31337-ADX_Period_M30.set
