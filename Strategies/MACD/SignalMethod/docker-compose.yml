@@ -41,7 +41,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       BT_PERIOD: M15
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params MACD15_SignalMethod -7 7
       SETFILE: /opt/sets/EA31337-MACD15_SignalMethod.set
       SET_PARAMS: MACD15_SignalMethod
@@ -56,7 +56,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       BT_PERIOD: M30
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params MACD30_SignalMethod -7 7
       SETFILE: /opt/sets/EA31337-MACD30_SignalMethod.set
       SET_PARAMS: MACD30_SignalMethod
