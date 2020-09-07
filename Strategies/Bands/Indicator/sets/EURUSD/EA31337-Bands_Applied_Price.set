@@ -36,13 +36,13 @@ Bands_Deviation_M15=0.1
 Bands_Deviation_M30=0.1
 Bands_HShift=0
 Bands_Period_M1=2
-Bands_Period_M5=2
+Bands_Period_M5=12
 Bands_Period_M15=2
 Bands_Period_M30=4
-Bands_Shift=1
+Bands_Shift=0
 Bands_SignalLevel=18
 # Optimization params.
-Bands_Applied_Price=0
+Bands_Applied_Price=3
 Bands_Applied_Price,F=0
 Bands_Applied_Price,1=0
 Bands_Applied_Price,2=0
