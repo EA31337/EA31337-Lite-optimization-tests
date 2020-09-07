@@ -49,7 +49,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       BT_PERIOD: M15
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
@@ -68,7 +68,7 @@ services:
     environment:
       BT_MONTHS: 6-12
       BT_PERIOD: M30
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
