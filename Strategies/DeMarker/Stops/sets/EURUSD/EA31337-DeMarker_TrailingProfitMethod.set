@@ -28,9 +28,15 @@ DeMarker5_SignalMethod=0
 DeMarker15_SignalMethod=0
 DeMarker30_SignalMethod=0
 # Dynamic strategy params.
+<<<<<<< Updated upstream
 DeMarker_TrailingStopMethod=1
 # Optimization params.
 DeMarker_TrailingProfitMethod=1
+=======
+DeMarker_TrailingStopMethod=17
+# Optimization params.
+DeMarker_TrailingProfitMethod=15
+>>>>>>> Stashed changes
 DeMarker_TrailingProfitMethod,F=0
 DeMarker_TrailingProfitMethod,1=0
 DeMarker_TrailingProfitMethod,2=0
