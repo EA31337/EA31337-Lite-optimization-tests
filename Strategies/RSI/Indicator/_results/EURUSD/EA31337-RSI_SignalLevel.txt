@@ -12,6 +12,7 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+<<<<<<< Updated upstream
             9  -416.19          533          0.81           -0.78     673.07       0.67 RSI_SignalLevel=50; MaxOrders=0; MaxOrdersPerType=0;
             8  -724.81         1434          0.86           -0.51     837.50       0.84 RSI_SignalLevel=48; MaxOrders=0; MaxOrdersPerType=0;
             3 -1236.89         2391          0.85           -0.52    1580.62       1.58 RSI_SignalLevel=38; MaxOrders=0; MaxOrdersPerType=0;
@@ -21,3 +22,9 @@
             2 -2157.32         2647          0.77           -0.82    2460.88       2.46 RSI_SignalLevel=36; MaxOrders=0; MaxOrdersPerType=0;
             4 -2500.80         2393          0.71           -1.05    2534.29       2.53 RSI_SignalLevel=40; MaxOrders=0; MaxOrdersPerType=0;
             1 -3006.98         2772          0.70           -1.08    3167.63       3.17 RSI_SignalLevel=34; MaxOrders=0; MaxOrdersPerType=0;
+=======
+            4     0.00            0          0.00            0.00       0.00       0.00 RSI_SignalLevel=50; MaxOrders=0; MaxOrdersPerType=0;
+            2  -463.66         3032          0.95           -0.15     735.60       0.73 RSI_SignalLevel=46; MaxOrders=0; MaxOrdersPerType=0;
+            3  -874.90         1608          0.86           -0.54     911.20       0.91 RSI_SignalLevel=48; MaxOrders=0; MaxOrdersPerType=0;
+            1 -2458.15         4614          0.81           -0.53    2493.73       2.49 RSI_SignalLevel=44; MaxOrders=0; MaxOrdersPerType=0;
+>>>>>>> Stashed changes
