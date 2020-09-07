@@ -9,14 +9,13 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       BT_PERIOD: M1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max -127 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
         $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 5"))
-        7
+        3
       SETFILE: /opt/sets/EA31337-SAR1_SignalMethod.set
       SET_PARAMS: SAR1_SignalMethod
       TEST_REPORT_NAME: EA31337-SAR1_SignalMethod
@@ -28,14 +27,13 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       BT_PERIOD: M5
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max -127 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
         $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 5"))
-        7
+        3
       SETFILE: /opt/sets/EA31337-SAR5_SignalMethod.set
       SET_PARAMS: SAR5_SignalMethod
       TEST_REPORT_NAME: EA31337-SAR5_SignalMethod
@@ -47,14 +45,13 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       BT_PERIOD: M15
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max -127 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
         $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 5"))
-        7
+        3
       SETFILE: /opt/sets/EA31337-SAR15_SignalMethod.set
       SET_PARAMS: SAR15_SignalMethod
       TEST_REPORT_NAME: EA31337-SAR15_SignalMethod
@@ -66,14 +63,13 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       BT_PERIOD: M30
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max -127 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 5"))
         $$(get_min 127 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 7 * 5"))
-        7
+        3
       SETFILE: /opt/sets/EA31337-SAR30_SignalMethod.set
       SET_PARAMS: SAR30_SignalMethod
       TEST_REPORT_NAME: EA31337-SAR30_SignalMethod
