@@ -12,18 +12,26 @@
                              Spread          10
                                                                  [Optimization Graph]
        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         11  -459.05          464          0.54           -0.99     537.85       0.54  SAR1_SignalMethod=-91; MaxOrders=0; MaxOrdersPerType=0;
-         13  -464.25          435          0.53           -1.07     546.85       0.55  SAR1_SignalMethod=-85; MaxOrders=0; MaxOrdersPerType=0;
-          9  -467.38          465          0.55           -1.01     550.38       0.55  SAR1_SignalMethod=-97; MaxOrders=0; MaxOrdersPerType=0;
-         14  -468.15          438          0.53           -1.07     557.35       0.56  SAR1_SignalMethod=-82; MaxOrders=0; MaxOrdersPerType=0;
-         15  -472.95          440          0.52           -1.07     555.55       0.56  SAR1_SignalMethod=-79; MaxOrders=0; MaxOrdersPerType=0;
-          2  -543.48          502          0.54           -1.08     630.38       0.63 SAR1_SignalMethod=-121; MaxOrders=0; MaxOrdersPerType=0;
-         12  -597.36          547          0.52           -1.09     682.56       0.68  SAR1_SignalMethod=-88; MaxOrders=0; MaxOrdersPerType=0;
-          3  -641.80          660          0.59           -0.97     749.99       0.75 SAR1_SignalMethod=-118; MaxOrders=0; MaxOrdersPerType=0;
-          5  -649.48          542          0.51           -1.20     732.08       0.73 SAR1_SignalMethod=-109; MaxOrders=0; MaxOrdersPerType=0;
-         10 -1167.57         1045          0.38           -1.12    1239.77       1.24  SAR1_SignalMethod=-94; MaxOrders=0; MaxOrdersPerType=0;
-          6 -1324.07         1208          0.42           -1.10    1394.47       1.39 SAR1_SignalMethod=-106; MaxOrders=0; MaxOrdersPerType=0;
-          8 -3967.81         4278          0.63           -0.93    4048.50       4.05 SAR1_SignalMethod=-100; MaxOrders=0; MaxOrdersPerType=0;
-          4 -4013.01         4272          0.62           -0.94    4070.31       4.07 SAR1_SignalMethod=-115; MaxOrders=0; MaxOrdersPerType=0;
-          7 -4155.74         4361          0.62           -0.95    4236.14       4.23 SAR1_SignalMethod=-103; MaxOrders=0; MaxOrdersPerType=0;
-          1 -4666.24         4864          0.64           -0.96    4790.64       4.78 SAR1_SignalMethod=-127; MaxOrders=0; MaxOrdersPerType=0;
+         13  -221.92          278          0.65           -0.80     225.22       0.23  SAR1_SignalMethod=-87; MaxOrders=0; MaxOrdersPerType=0;
+         23  -233.33          277          0.60           -0.84     250.23       0.25  SAR1_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
+          7  -237.54          281          0.60           -0.85     254.44       0.25 SAR1_SignalMethod=-105; MaxOrders=0; MaxOrdersPerType=0;
+         21  -253.03          278          0.58           -0.91     269.93       0.27  SAR1_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
+         11  -254.02          257          0.54           -0.99     257.32       0.26  SAR1_SignalMethod=-93; MaxOrders=0; MaxOrdersPerType=0;
+         17  -254.02          257          0.54           -0.99     257.32       0.26  SAR1_SignalMethod=-75; MaxOrders=0; MaxOrdersPerType=0;
+         15  -255.62          255          0.54           -1.00     258.92       0.26  SAR1_SignalMethod=-81; MaxOrders=0; MaxOrdersPerType=0;
+         19  -255.62          255          0.54           -1.00     258.92       0.26  SAR1_SignalMethod=-69; MaxOrders=0; MaxOrdersPerType=0;
+         14  -259.42          263          0.54           -0.99     262.72       0.26  SAR1_SignalMethod=-84; MaxOrders=0; MaxOrdersPerType=0;
+         20  -261.62          260          0.53           -1.01     264.92       0.26  SAR1_SignalMethod=-66; MaxOrders=0; MaxOrdersPerType=0;
+         18  -267.22          264          0.53           -1.01     270.52       0.27  SAR1_SignalMethod=-72; MaxOrders=0; MaxOrdersPerType=0;
+          4  -280.34          283          0.54           -0.99     291.14       0.29 SAR1_SignalMethod=-117; MaxOrders=0; MaxOrdersPerType=0;
+          5  -294.34          277          0.52           -1.06     305.14       0.31 SAR1_SignalMethod=-114; MaxOrders=0; MaxOrdersPerType=0;
+          8  -415.04          345          0.48           -1.20     430.64       0.43 SAR1_SignalMethod=-102; MaxOrders=0; MaxOrdersPerType=0;
+         10  -504.63          605          0.52           -0.83     504.63       0.50  SAR1_SignalMethod=-96; MaxOrders=0; MaxOrdersPerType=0;
+         12  -559.76          560          0.42           -1.00     559.76       0.56  SAR1_SignalMethod=-90; MaxOrders=0; MaxOrdersPerType=0;
+         16  -570.66          565          0.42           -1.01     570.66       0.57  SAR1_SignalMethod=-78; MaxOrders=0; MaxOrdersPerType=0;
+         22  -682.96          608          0.39           -1.12     694.86       0.69  SAR1_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
+          1  -838.51          742          0.42           -1.13     855.31       0.86 SAR1_SignalMethod=-126; MaxOrders=0; MaxOrdersPerType=0;
+          9 -3498.22         4262          0.63           -0.82    3539.82       3.54  SAR1_SignalMethod=-99; MaxOrders=0; MaxOrdersPerType=0;
+          2 -3801.75         4766          0.65           -0.80    3860.65       3.86 SAR1_SignalMethod=-123; MaxOrders=0; MaxOrdersPerType=0;
+          6 -3817.18         4820          0.66           -0.79    3878.88       3.88 SAR1_SignalMethod=-111; MaxOrders=0; MaxOrdersPerType=0;
+          3 -6384.85         6665          0.59           -0.96    6427.94       6.43 SAR1_SignalMethod=-120; MaxOrders=0; MaxOrdersPerType=0;
