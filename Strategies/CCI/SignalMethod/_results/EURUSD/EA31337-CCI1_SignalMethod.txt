@@ -11,10 +11,12 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           3  -631.26          647          0.66           -0.98     639.76       0.64 CCI1_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
-           4  -757.50          718          0.62           -1.06     762.70       0.76 CCI1_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
-           5 -1403.95         1550          0.69           -0.91    1420.05       1.42 CCI1_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
-           2 -2104.06         2561          0.71           -0.82    2125.86       2.13 CCI1_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
-           6 -2110.47         2582          0.71           -0.82    2132.27       2.13 CCI1_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
-           1 -2135.26         2526          0.70           -0.85    2157.06       2.16 CCI1_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
+         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            1   0.00            0          0.00            0.00       0.00       0.00 CCI1_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
+            2   0.00            0          0.00            0.00       0.00       0.00 CCI1_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
+            3   0.00            0          0.00            0.00       0.00       0.00 CCI1_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
+            4   0.00            0          0.00            0.00       0.00       0.00 CCI1_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
+            5   0.00            0          0.00            0.00       0.00       0.00 CCI1_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
+            6   0.00            0          0.00            0.00       0.00       0.00 CCI1_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+            7   0.00            0          0.00            0.00       0.00       0.00 CCI1_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
+            8   0.00            0          0.00            0.00       0.00       0.00 CCI1_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;

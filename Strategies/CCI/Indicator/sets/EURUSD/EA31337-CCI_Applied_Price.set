@@ -31,11 +31,11 @@ CCI_TrailingStopMethod=0
 CCI_TrailingProfitMethod=0
 # Dynamic strategy params.
 CCI_Period_M1=3
-CCI_Period_M5=22
-CCI_Period_M15=13
+CCI_Period_M5=24
+CCI_Period_M15=15
 CCI_Period_M30=18
 CCI_Shift=0
-CCI_SignalLevel=121
+CCI_SignalLevel=111
 # Optimization params.
 CCI_Applied_Price=6
 CCI_Applied_Price,F=0
