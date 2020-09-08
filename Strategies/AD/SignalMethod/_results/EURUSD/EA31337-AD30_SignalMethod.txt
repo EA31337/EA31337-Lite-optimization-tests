@@ -12,4 +12,4 @@
                             Spread          10
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            1 -2658.26         2657          0.57           -1.00    2725.13       2.73 AD30_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+            1 -3896.43         3478          0.51           -1.12    3983.49       3.98 AD30_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
