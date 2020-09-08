@@ -12,6 +12,6 @@
                              Spread          10
                                                                  [Optimization Graph]
        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          1 -1658.55         2167          0.62           -0.77    1666.83       1.67 Bands_Deviation_M1=0.1; MaxOrders=0; MaxOrdersPerType=0;
-          2 -1658.55         2167          0.62           -0.77    1666.83       1.67 Bands_Deviation_M1=0.5; MaxOrders=0; MaxOrdersPerType=0;
-          3 -1658.55         2167          0.62           -0.77    1666.83       1.67 Bands_Deviation_M1=0.9; MaxOrders=0; MaxOrdersPerType=0;
+          3 -3926.83         3743          0.63           -1.05    3987.10       3.99 Bands_Deviation_M1=0.9; MaxOrders=0; MaxOrdersPerType=0;
+          1 -4353.07         3971          0.61           -1.10    4422.47       4.42 Bands_Deviation_M1=0.1; MaxOrders=0; MaxOrdersPerType=0;
+          2 -4431.50         3919          0.60           -1.13    4515.50       4.51 Bands_Deviation_M1=0.5; MaxOrders=0; MaxOrdersPerType=0;
