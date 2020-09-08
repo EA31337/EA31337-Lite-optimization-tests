@@ -38,10 +38,14 @@ Bands_Deviation_M30=0.1
 Bands_Period_M1=18
 Bands_Period_M5=12
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Bands_Period_M15=2
 Bands_Period_M30=4
 =======
 Bands_Period_M15=18
+=======
+Bands_Period_M15=8
+>>>>>>> Stashed changes
 Bands_Period_M30=2
 >>>>>>> Stashed changes
 Bands_Shift=0
