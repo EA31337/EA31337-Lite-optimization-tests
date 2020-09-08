@@ -34,9 +34,12 @@ Bands_Applied_Price=3
 Bands_Deviation_M1=0.9
 Bands_Deviation_M5=0.1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Bands_Deviation_M15=0.1
 Bands_Deviation_M30=0.9
 =======
+=======
+>>>>>>> Stashed changes
 Bands_Deviation_M15=0.9
 Bands_Deviation_M30=0.1
 >>>>>>> Stashed changes
