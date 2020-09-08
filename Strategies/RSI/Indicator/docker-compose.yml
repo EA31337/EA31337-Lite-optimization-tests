@@ -100,8 +100,8 @@ services:
       SET_PARAMS: RSI_SignalLevel
       RUN_ON_SET: >
         set_opt_params RSI_SignalLevel
-        $$(bc <<< "$$(input_get RSI_SignalLevel) - 2 * 4")
-        $$(bc <<< "$$(input_get RSI_SignalLevel) + 2 * 4")
+        $$(get_max 2 $$(bc <<< "$$(input_get RSI_SignalLevel) - 2 * 4"))
+        $$(get_min 48 $$(bc <<< "$$(input_get RSI_SignalLevel) + 2 * 4"))
         2
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-RSI_SignalLevel.set
