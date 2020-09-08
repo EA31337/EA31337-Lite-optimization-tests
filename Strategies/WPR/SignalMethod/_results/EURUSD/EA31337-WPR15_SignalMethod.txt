@@ -11,17 +11,17 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          6  -177.84          215          0.87           -0.83     400.34       0.40 WPR15_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
-          7  -177.84          215          0.87           -0.83     400.34       0.40 WPR15_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
-          8  -177.84          215          0.87           -0.83     400.34       0.40 WPR15_SignalMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
-          9  -177.84          215          0.87           -0.83     400.34       0.40 WPR15_SignalMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
-         10  -177.84          215          0.87           -0.83     400.34       0.40 WPR15_SignalMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
-         11  -177.84          215          0.87           -0.83     400.34       0.40 WPR15_SignalMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
-         12  -177.84          215          0.87           -0.83     400.34       0.40 WPR15_SignalMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
-         13  -177.84          215          0.87           -0.83     400.34       0.40  WPR15_SignalMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
-          1  -287.26          536          0.90           -0.54     462.29       0.46 WPR15_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
-          2  -287.26          536          0.90           -0.54     462.29       0.46 WPR15_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
-          5  -287.26          536          0.90           -0.54     462.29       0.46 WPR15_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
-          3  -763.83         1176          0.80           -0.65     857.09       0.86 WPR15_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
-          4 -1115.60         1426          0.74           -0.78    1185.86       1.19 WPR15_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           6    0.00            0          0.00            0.00       0.00       0.00 WPR15_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
+           7    0.00            0          0.00            0.00       0.00       0.00 WPR15_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
+           8    0.00            0          0.00            0.00       0.00       0.00 WPR15_SignalMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
+           9    0.00            0          0.00            0.00       0.00       0.00 WPR15_SignalMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+          10    0.00            0          0.00            0.00       0.00       0.00 WPR15_SignalMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
+          11    0.00            0          0.00            0.00       0.00       0.00 WPR15_SignalMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+          12    0.00            0          0.00            0.00       0.00       0.00 WPR15_SignalMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
+          13    0.00            0          0.00            0.00       0.00       0.00  WPR15_SignalMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
+           1 -332.24          278          0.88           -1.20     424.06       0.42 WPR15_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
+           2 -332.24          278          0.88           -1.20     424.06       0.42 WPR15_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+           5 -332.24          278          0.88           -1.20     424.06       0.42 WPR15_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
+           4 -382.86          320          0.87           -1.20     523.17       0.52 WPR15_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
+           3 -385.57          318          0.87           -1.21     521.17       0.52 WPR15_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
