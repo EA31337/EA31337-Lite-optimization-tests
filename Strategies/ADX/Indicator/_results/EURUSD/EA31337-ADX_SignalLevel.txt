@@ -11,15 +11,15 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-        Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          11 -10188.57         7779          0.56           -1.31   10352.69      10.34 ADX_SignalLevel=20.1; MaxOrders=0; MaxOrdersPerType=0;
-           9 -10690.27         8028          0.55           -1.33   10863.60      10.85 ADX_SignalLevel=19.9; MaxOrders=0; MaxOrdersPerType=0;
-          10 -10797.89         7928          0.54           -1.36   10950.21      10.94   ADX_SignalLevel=20; MaxOrders=0; MaxOrdersPerType=0;
-           8 -10838.60         8161          0.55           -1.33   11000.12      10.99 ADX_SignalLevel=19.8; MaxOrders=0; MaxOrdersPerType=0;
-           7 -10956.27         8274          0.55           -1.32   11136.00      11.12 ADX_SignalLevel=19.7; MaxOrders=0; MaxOrdersPerType=0;
-           6 -11141.63         8394          0.54           -1.33   11295.75      11.28 ADX_SignalLevel=19.6; MaxOrders=0; MaxOrdersPerType=0;
-           5 -11277.20         8542          0.54           -1.32   11457.88      11.44 ADX_SignalLevel=19.5; MaxOrders=0; MaxOrdersPerType=0;
-           4 -11450.16         8607          0.54           -1.33   11644.04      11.63 ADX_SignalLevel=19.4; MaxOrders=0; MaxOrdersPerType=0;
-           3 -11583.63         8755          0.54           -1.32   11761.01      11.75 ADX_SignalLevel=19.3; MaxOrders=0; MaxOrdersPerType=0;
-           2 -11636.84         8892          0.54           -1.31   11821.63      11.81 ADX_SignalLevel=19.2; MaxOrders=0; MaxOrdersPerType=0;
-           1 -11671.52         9034          0.54           -1.29   11861.11      11.85 ADX_SignalLevel=19.1; MaxOrders=0; MaxOrdersPerType=0;
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          11 -5987.04         4453          0.64           -1.34    6663.74       6.64 ADX_SignalLevel=20.6; MaxOrders=0; MaxOrdersPerType=0;
+          10 -6435.56         4552          0.63           -1.41    7081.26       7.06 ADX_SignalLevel=20.5; MaxOrders=0; MaxOrdersPerType=0;
+           8 -6553.71         4706          0.63           -1.39    7181.80       7.16 ADX_SignalLevel=20.3; MaxOrders=0; MaxOrdersPerType=0;
+           2 -6675.27         4977          0.63           -1.34    7338.93       7.31 ADX_SignalLevel=19.7; MaxOrders=0; MaxOrdersPerType=0;
+           7 -6700.04         4803          0.62           -1.39    7328.44       7.30 ADX_SignalLevel=20.2; MaxOrders=0; MaxOrdersPerType=0;
+           9 -6717.46         4657          0.62           -1.44    7345.96       7.32 ADX_SignalLevel=20.4; MaxOrders=0; MaxOrdersPerType=0;
+           3 -6760.03         4947          0.63           -1.37    7411.63       7.39 ADX_SignalLevel=19.8; MaxOrders=0; MaxOrdersPerType=0;
+           1 -6768.69         5025          0.63           -1.35    7415.65       7.39 ADX_SignalLevel=19.6; MaxOrders=0; MaxOrdersPerType=0;
+           6 -6861.04         4835          0.62           -1.42    7499.83       7.47 ADX_SignalLevel=20.1; MaxOrders=0; MaxOrdersPerType=0;
+           4 -6864.26         4911          0.62           -1.40    7511.46       7.49 ADX_SignalLevel=19.9; MaxOrders=0; MaxOrdersPerType=0;
+           5 -6926.14         4897          0.62           -1.41    7565.73       7.54   ADX_SignalLevel=20; MaxOrders=0; MaxOrdersPerType=0;
