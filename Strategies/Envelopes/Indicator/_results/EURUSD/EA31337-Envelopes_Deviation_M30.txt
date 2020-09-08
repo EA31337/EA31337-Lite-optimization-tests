@@ -6,14 +6,14 @@
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
+                            Period          30 Minutes (M30) 2019.01.04 00:00 - 2019.12.30 23:30 (2019.01.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         4  73.48           21          1.83            3.50      85.10       0.09 Envelopes_Deviation_M30=0.6; MaxOrders=0; MaxOrdersPerType=0;
-         3  56.77           24          1.43            2.37     144.80       0.14 Envelopes_Deviation_M30=0.5; MaxOrders=0; MaxOrdersPerType=0;
-         1 -13.45           68          0.95           -0.20     168.42       0.17 Envelopes_Deviation_M30=0.3; MaxOrders=0; MaxOrdersPerType=0;
-         5 -44.42           19          0.49           -2.34      85.10       0.09 Envelopes_Deviation_M30=0.7; MaxOrders=0; MaxOrdersPerType=0;
-         2 -51.42           49          0.77           -1.05     135.50       0.14 Envelopes_Deviation_M30=0.4; MaxOrders=0; MaxOrdersPerType=0;
+         1  49.33           66          1.13            0.75     234.30       0.23 Envelopes_Deviation_M30=0.4; MaxOrders=0; MaxOrdersPerType=0;
+         2   1.33           27          1.01            0.05     166.50       0.17 Envelopes_Deviation_M30=0.5; MaxOrders=0; MaxOrdersPerType=0;
+         4 -47.17            7          0.40           -6.74      78.10       0.08 Envelopes_Deviation_M30=0.7; MaxOrders=0; MaxOrdersPerType=0;
+         5 -71.97            3          0.00          -23.99      82.27       0.08 Envelopes_Deviation_M30=0.8; MaxOrders=0; MaxOrdersPerType=0;
+         3 -73.57           13          0.50           -5.66     153.70       0.15 Envelopes_Deviation_M30=0.6; MaxOrders=0; MaxOrdersPerType=0;
