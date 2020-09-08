@@ -11,11 +11,10 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1   0.00            0          0.00            0.00       0.00       0.00 CCI15_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
-           2   0.00            0          0.00            0.00       0.00       0.00 CCI15_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
-           3   0.00            0          0.00            0.00       0.00       0.00 CCI15_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
-           4   0.00            0          0.00            0.00       0.00       0.00 CCI15_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
-           5   0.00            0          0.00            0.00       0.00       0.00 CCI15_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
-           6   0.00            0          0.00            0.00       0.00       0.00 CCI15_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
-           7   0.00            0          0.00            0.00       0.00       0.00 CCI15_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1  128.79          166          1.09            0.78     246.20       0.25 CCI15_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
+           2   66.08          173          1.04            0.38     273.10       0.27 CCI15_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
+           3  -26.74           16          0.80           -1.67     131.42       0.13 CCI15_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
+           6  -61.22          223          0.97           -0.27     436.79       0.44 CCI15_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+           4 -100.62           98          0.90           -1.03     255.18       0.26 CCI15_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
+           5 -144.55           37          0.67           -3.91     191.04       0.19 CCI15_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
