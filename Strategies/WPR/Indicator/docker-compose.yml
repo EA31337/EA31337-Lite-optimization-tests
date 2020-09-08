@@ -9,7 +9,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       BT_PERIOD: M1
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
       SET_PARAMS: WPR_Period_M1
@@ -33,7 +32,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       BT_PERIOD: M5
       SET_PARAMS: WPR_Period_M5
       SETFILE: /opt/sets/EA31337-WPR_Period_M5.set
@@ -56,7 +54,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       BT_PERIOD: M15
       SET_PARAMS: WPR_Period_M15
       SETFILE: /opt/sets/EA31337-WPR_Period_M15.set
@@ -79,7 +76,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       BT_PERIOD: M30
       SET_PARAMS: WPR_Period_M30
       SETFILE: /opt/sets/EA31337-WPR_Period_M30.set
@@ -102,13 +98,12 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       SET_PARAMS: WPR_SignalLevel
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
-        $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 2")
-        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 2")
-        0.1
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) - 10 * 2")
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 10 * 2")
+        2
       SETFILE: /opt/sets/EA31337-WPR_SignalLevel.set
       TEST_REPORT_NAME: EA31337-WPR_SignalLevel
   WPR_Shift:
@@ -119,11 +114,10 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       SET_PARAMS: WPR_Shift
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
-        $$(bc <<< "$$(input_get $${SET_PARAMS}) - 1 * 2")
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 1 * 2"))
         $$(bc <<< "$$(input_get $${SET_PARAMS}) + 1 * 2")
       SETFILE: /opt/sets/EA31337-WPR_Shift.set
       TEST_REPORT_NAME: EA31337-WPR_Shift
