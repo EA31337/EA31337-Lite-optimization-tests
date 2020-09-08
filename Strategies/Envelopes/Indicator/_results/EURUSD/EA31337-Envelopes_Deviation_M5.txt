@@ -6,14 +6,13 @@
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          5 Minutes (M5) 2019.06.02 21:01 - 2019.12.30 23:55 (2019.06.01 - 2019.12.31)
+                             Period          5 Minutes (M5) 2019.01.02 06:20 - 2019.12.30 23:55 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         2  -50.80           96          0.78           -0.53     191.60       0.19 Envelopes_Deviation_M5=0.2; MaxOrders=0; MaxOrdersPerType=0;
-         3  -59.00           79          0.64           -0.75     162.40       0.16 Envelopes_Deviation_M5=0.3; MaxOrders=0; MaxOrdersPerType=0;
-         4  -84.50           79          0.55           -1.07     164.10       0.16 Envelopes_Deviation_M5=0.4; MaxOrders=0; MaxOrdersPerType=0;
-         5  -99.60           79          0.51           -1.26     158.00       0.16 Envelopes_Deviation_M5=0.5; MaxOrders=0; MaxOrdersPerType=0;
-         1 -119.60          260          0.83           -0.46     198.70       0.20 Envelopes_Deviation_M5=0.1; MaxOrders=0; MaxOrdersPerType=0;
+         4  -89.90            7          0.00          -12.84     100.50       0.10 Envelopes_Deviation_M5=0.4; MaxOrders=0; MaxOrdersPerType=0;
+         3 -250.87           48          0.48           -5.23     311.40       0.31 Envelopes_Deviation_M5=0.3; MaxOrders=0; MaxOrdersPerType=0;
+         2 -288.87          148          0.75           -1.95     371.77       0.37 Envelopes_Deviation_M5=0.2; MaxOrders=0; MaxOrdersPerType=0;
+         1 -561.92          828          0.86           -0.68     777.40       0.78 Envelopes_Deviation_M5=0.1; MaxOrders=0; MaxOrdersPerType=0;

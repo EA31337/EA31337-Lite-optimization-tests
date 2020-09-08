@@ -30,7 +30,7 @@ Envelopes30_SignalMethod=0
 Envelopes_TrailingStopMethod=0
 Envelopes_TrailingProfitMethod=0
 # Optimization params.
-Envelopes_Shift=5
+Envelopes_Shift=1
 Envelopes_Shift,F=0
 Envelopes_Shift,1=0
 Envelopes_Shift,2=0
