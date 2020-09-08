@@ -6,16 +6,18 @@
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          5 Minutes (M5) 2019.06.02 21:01 - 2019.12.30 23:55 (2019.06.01 - 2019.12.31)
+                             Period          5 Minutes (M5) 2019.01.02 06:20 - 2019.12.30 23:55 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              1 -912.83          829          0.81           -1.10     931.63       0.93  WPR_Period_M5=8; MaxOrders=0; MaxOrdersPerType=0;
-              2 -912.83          829          0.81           -1.10     931.63       0.93 WPR_Period_M5=10; MaxOrders=0; MaxOrdersPerType=0;
-              3 -912.83          829          0.81           -1.10     931.63       0.93 WPR_Period_M5=12; MaxOrders=0; MaxOrdersPerType=0;
-              4 -912.83          829          0.81           -1.10     931.63       0.93 WPR_Period_M5=14; MaxOrders=0; MaxOrdersPerType=0;
-              5 -912.83          829          0.81           -1.10     931.63       0.93 WPR_Period_M5=16; MaxOrders=0; MaxOrdersPerType=0;
-              6 -912.83          829          0.81           -1.10     931.63       0.93 WPR_Period_M5=18; MaxOrders=0; MaxOrdersPerType=0;
-              7 -912.83          829          0.81           -1.10     931.63       0.93 WPR_Period_M5=20; MaxOrders=0; MaxOrdersPerType=0;
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1 -1061.45         1276          0.86           -0.83    1249.65       1.25  WPR_Period_M5=2; MaxOrders=0; MaxOrdersPerType=0;
+             2 -1061.45         1276          0.86           -0.83    1249.65       1.25  WPR_Period_M5=4; MaxOrders=0; MaxOrdersPerType=0;
+             3 -1061.45         1276          0.86           -0.83    1249.65       1.25  WPR_Period_M5=6; MaxOrders=0; MaxOrdersPerType=0;
+             4 -1061.45         1276          0.86           -0.83    1249.65       1.25  WPR_Period_M5=8; MaxOrders=0; MaxOrdersPerType=0;
+             5 -1061.45         1276          0.86           -0.83    1249.65       1.25 WPR_Period_M5=10; MaxOrders=0; MaxOrdersPerType=0;
+             6 -1061.45         1276          0.86           -0.83    1249.65       1.25 WPR_Period_M5=12; MaxOrders=0; MaxOrdersPerType=0;
+             7 -1061.45         1276          0.86           -0.83    1249.65       1.25 WPR_Period_M5=14; MaxOrders=0; MaxOrdersPerType=0;
+             8 -1061.45         1276          0.86           -0.83    1249.65       1.25 WPR_Period_M5=16; MaxOrders=0; MaxOrdersPerType=0;
+             9 -1061.45         1276          0.86           -0.83    1249.65       1.25 WPR_Period_M5=18; MaxOrders=0; MaxOrdersPerType=0;

@@ -30,12 +30,12 @@ WPR30_SignalMethod=0
 WPR_TrailingProfitMethod=0
 WPR_TrailingProfitMethod=0
 # Dynamic strategy params.
-WPR_Period_M1=10
-WPR_Period_M5=8
+WPR_Period_M1=2
+WPR_Period_M5=2
 WPR_Period_M15=2
 WPR_Period_M30=2
 # Optimization params.
-WPR_SignalLevel=20
+WPR_SignalLevel=0
 WPR_SignalLevel,F=1
 WPR_SignalLevel,1=0
 WPR_SignalLevel,2=0
