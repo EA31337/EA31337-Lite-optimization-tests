@@ -12,8 +12,11 @@
                             Spread          10
                                                                  [Optimization Graph]
           Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             4  -401.57         1495          0.92           -0.27     548.38       0.55  MFI_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
-             5  -880.24         1315          0.82           -0.67     951.17       0.95 MFI_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
-             3 -1400.88         1735          0.75           -0.81    1418.88       1.42  MFI_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
-             2 -2170.90         2120          0.67           -1.02    2181.92       2.18  MFI_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
-             1 -2230.70         2330          0.67           -0.96    2250.90       2.25  MFI_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
+             8   -23.56          906          0.99           -0.03     355.45       0.35 MFI_Period_M30=16; MaxOrders=0; MaxOrdersPerType=0;
+             6  -276.65         1063          0.94           -0.26     607.90       0.61 MFI_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
+             4  -331.11         1428          0.93           -0.23     553.22       0.55  MFI_Period_M30=8; MaxOrders=0; MaxOrdersPerType=0;
+             7  -377.99          980          0.91           -0.39     431.78       0.43 MFI_Period_M30=14; MaxOrders=0; MaxOrdersPerType=0;
+             5  -799.14         1256          0.83           -0.64     870.07       0.87 MFI_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
+             3 -1237.82         1691          0.77           -0.73    1255.82       1.26  MFI_Period_M30=6; MaxOrders=0; MaxOrdersPerType=0;
+             1 -2011.30         2182          0.69           -0.92    2039.09       2.04  MFI_Period_M30=2; MaxOrders=0; MaxOrdersPerType=0;
+             2 -2093.30         2055          0.68           -1.02    2108.92       2.11  MFI_Period_M30=4; MaxOrders=0; MaxOrdersPerType=0;
