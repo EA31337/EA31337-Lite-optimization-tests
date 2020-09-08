@@ -25,10 +25,10 @@ WPR_Active_Tf=0
 # Fixed strategy params
 MACD_Shift=0
 MACD_SignalLevel=0.0
-MACD1_SignalMethod=0
-MACD5_SignalMethod=0
-MACD15_SignalMethod=0
-MACD30_SignalMethod=0
+MACD1_SignalMethod=1
+MACD5_SignalMethod=1
+MACD15_SignalMethod=1
+MACD30_SignalMethod=1
 MACD_TrailingStopMethod=0
 MACD_TrailingProfitMethod=0
 # Optimization params.
