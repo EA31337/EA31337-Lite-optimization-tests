@@ -34,7 +34,7 @@ Bands_Applied_Price=3
 Bands_Deviation_M1=0.1
 Bands_Deviation_M5=0.1
 Bands_Deviation_M15=0.1
-Bands_Deviation_M30=0.1
+Bands_Deviation_M30=0.9
 Bands_HShift=0
 <<<<<<< Updated upstream
 Bands_Period_M1=18
