@@ -19,7 +19,7 @@ services:
         2;
         done
       SETFILE: /opt/sets/EA31337-MA_Periods.set
-      SET_PARAMS: MA_Periods
+      SET_PARAMS: MA_Period_Fast,MA_Period_Medium,MA_Period_Slow
       TEST_REPORT_NAME: EA31337-MA_Periods
   MA_Applied_Price:
     command: run_backtest -v
