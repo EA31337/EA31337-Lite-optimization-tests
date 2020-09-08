@@ -12,12 +12,9 @@
                              Spread          10
                                                                  [Optimization Graph]
           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
-             2 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
-             3 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
-             4 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
-             5 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
-             6 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=6; MaxOrders=0; MaxOrdersPerType=0;
-             7 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=7; MaxOrders=0; MaxOrdersPerType=0;
-             8 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=8; MaxOrders=0; MaxOrdersPerType=0;
-             9 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=9; MaxOrders=0; MaxOrdersPerType=0;
+             1 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+             2 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+             3 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+             4 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
+             5 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
+             6 -218.63          137          0.86           -1.60     433.97       0.43 Envelopes_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
