@@ -28,9 +28,9 @@ WPR5_SignalMethod=0
 WPR15_SignalMethod=0
 WPR30_SignalMethod=0
 # Dynamic strategy params.
-WPR_TrailingStopMethod=7
+WPR_TrailingStopMethod=1
 # Optimization params.
-WPR_TrailingProfitMethod=25
+WPR_TrailingProfitMethod=9
 WPR_TrailingProfitMethod,F=0
 WPR_TrailingProfitMethod,1=0
 WPR_TrailingProfitMethod,2=0
