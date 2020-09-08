@@ -10,7 +10,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M1
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params CCI_Period_M1
         $$(get_max 3 $$(bc <<< "$$(input_get CCI_Period_M1) - 2 * 8"))
@@ -33,7 +33,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M5
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET:
         set_opt_params CCI_Period_M5
         $$(get_max 3 $$(bc <<< "$$(input_get CCI_Period_M5) - 2 * 4"))
@@ -56,7 +56,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M15
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params CCI_Period_M15
         $$(get_max 3 $$(bc <<< "$$(input_get CCI_Period_M15) - 2 * 4"))
@@ -79,7 +79,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_PERIOD: M30
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params CCI_Period_M30
         $$(get_max 3 $$(bc <<< "$$(input_get CCI_Period_M30) - 2 * 4"))
@@ -102,7 +102,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: set_opt_params CCI_Applied_Price 0 6
       RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
@@ -124,7 +124,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params CCI_SignalLevel
         $$(bc <<< "$$(input_get CCI_SignalLevel) - 1 * 8")
@@ -150,7 +150,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params CCI_Shift
         $$(get_max 0 $$(bc <<< "$$(input_get CCI_Shift) - 1 * 2"))
