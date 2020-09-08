@@ -29,6 +29,10 @@ Envelopes1_SignalMethod=0
 Envelopes5_SignalMethod=0
 Envelopes15_SignalMethod=0
 Envelopes30_SignalMethod=0
+Envelopes_Deviation_M1=0.5
+Envelopes_Deviation_M5=0.5
+Envelopes_Deviation_M15=0.5
+Envelopes_Deviation_M30=0.5
 Envelopes_TrailingStopMethod=0
 Envelopes_TrailingProfitMethod=0
 # Optimization params.
