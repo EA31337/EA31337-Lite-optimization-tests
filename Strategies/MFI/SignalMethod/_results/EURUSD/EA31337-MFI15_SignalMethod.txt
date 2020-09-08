@@ -12,6 +12,6 @@
                             Spread          10
                                                                  [Optimization Graph]
         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           3  -609.14          392          0.78           -1.55     825.80       0.83  MFI15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-           1  -778.51          541          0.78           -1.44     981.00       0.98 MFI15_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-           2 -3582.17         4021          0.69           -0.89    3694.39       3.69  MFI15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+           3  -450.58          250          0.55           -1.80     544.15       0.54  MFI15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+           1 -1003.32          961          0.68           -1.04    1142.85       1.14 MFI15_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+           2 -5700.69         6953          0.66           -0.82    5818.77       5.81  MFI15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
