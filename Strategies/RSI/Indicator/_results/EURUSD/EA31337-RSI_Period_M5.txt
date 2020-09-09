@@ -14,5 +14,7 @@
            Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
               2  217.48          250          1.18            0.87     257.82       0.26  RSI_Period_M5=6; MaxOrders=0; MaxOrdersPerType=0;
               4  117.18           33          1.93            3.55      67.20       0.07 RSI_Period_M5=10; MaxOrders=0; MaxOrdersPerType=0;
+              6   62.00            4         11.51           15.50      45.60       0.05 RSI_Period_M5=14; MaxOrders=0; MaxOrdersPerType=0;
+              5   40.80           10          2.21            4.08      48.90       0.05 RSI_Period_M5=12; MaxOrders=0; MaxOrdersPerType=0;
               3  -51.09           71          0.87           -0.72     171.80       0.17  RSI_Period_M5=8; MaxOrders=0; MaxOrdersPerType=0;
               1 -536.96         1066          0.89           -0.50     776.54       0.78  RSI_Period_M5=4; MaxOrders=0; MaxOrdersPerType=0;

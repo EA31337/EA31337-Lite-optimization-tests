@@ -16,3 +16,4 @@
               3 141.16           38          1.62            3.71     106.50       0.11  RSI_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
               2 116.15          123          1.12            0.94     170.60       0.17  RSI_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
               4  77.90           11          2.47            7.08      64.30       0.06 RSI_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
+              5  47.30            2          0.00           23.65      16.20       0.02 RSI_Period_M15=12; MaxOrders=0; MaxOrdersPerType=0;
