@@ -110,7 +110,7 @@ Bands_Period_M30=4
 Bands_Shift=0
 Bands_SignalLevel=13
 # Optimization params.
-Bands_HShift=4
+Bands_HShift=6
 Bands_HShift,F=1
 Bands_HShift,1=0
 Bands_HShift,2=0

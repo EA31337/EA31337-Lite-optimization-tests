@@ -38,10 +38,15 @@ Bands_Deviation_M1=2.5
 Bands_Applied_Price=1
 Bands_Deviation_M1=2.5
 >>>>>>> Stashed changes
-Bands_HShift=2
+Bands_HShift=6
 =======
+<<<<<<< Updated upstream
 Bands_Deviation_M1=2.5
 Bands_HShift=4
+=======
+Bands_Deviation_M1=0.9
+Bands_HShift=6
+>>>>>>> Stashed changes
 >>>>>>> Stashed changes
 Bands_Shift=0
 Bands_SignalLevel=13
