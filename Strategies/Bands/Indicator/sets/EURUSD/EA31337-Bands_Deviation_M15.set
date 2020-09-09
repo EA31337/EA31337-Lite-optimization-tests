@@ -23,7 +23,7 @@ RSI_Active_Tf=0
 SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Fixed strategy params.
-Bands_HShift=2
+Bands_HShift=4
 Bands_Shift=0
 Bands1_SignalMethod=1
 Bands5_SignalMethod=1
@@ -33,8 +33,13 @@ Bands_TrailingStopMethod=0
 Bands_TrailingProfitMethod=0
 # Dynamic strategy params.
 Bands_Applied_Price=2
+<<<<<<< Updated upstream
 Bands_HShift=2
 Bands_Period_M15=8
+=======
+Bands_HShift=4
+Bands_Period_M15=24
+>>>>>>> Stashed changes
 Bands_Shift=0
 Bands_SignalLevel=18
 # Optimization params.

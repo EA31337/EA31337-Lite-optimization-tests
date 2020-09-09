@@ -32,7 +32,7 @@ Bands_TrailingProfitMethod=0
 # Dynamic strategy params.
 Bands_Applied_Price=2
 Bands_Deviation_M5=1.7
-Bands_HShift=0
+Bands_HShift=4
 Bands_Shift=0
 Bands_SignalLevel=18
 # Optimization params.

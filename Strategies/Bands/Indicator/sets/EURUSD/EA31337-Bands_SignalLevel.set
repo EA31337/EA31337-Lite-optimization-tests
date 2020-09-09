@@ -36,12 +36,16 @@ Bands_Deviation_M5=1.7
 <<<<<<< Updated upstream
 Bands_Deviation_M15=1.7
 Bands_Deviation_M30=0.9
+<<<<<<< Updated upstream
 =======
 Bands_Deviation_M15=0.9
 Bands_Deviation_M30=0.1
 >>>>>>> Stashed changes
 Bands_HShift=2
 <<<<<<< Updated upstream
+=======
+Bands_HShift=4
+>>>>>>> Stashed changes
 Bands_Period_M1=32
 <<<<<<< Updated upstream
 Bands_Period_M5=22
