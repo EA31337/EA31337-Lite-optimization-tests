@@ -40,7 +40,7 @@ Bands_Period_M1=2
 Bands_Period_M1=2
 Bands_Period_M5=20
 Bands_Period_M15=18
-Bands_Period_M30=2
+Bands_Period_M30=6
 Bands_Shift=0
 # Optimization params.
 Bands_SignalLevel=18
