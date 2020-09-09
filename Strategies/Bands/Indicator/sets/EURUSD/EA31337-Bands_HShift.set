@@ -35,6 +35,7 @@ Bands_Deviation_M1=0.9
 Bands_Deviation_M5=1.7
 Bands_Deviation_M15=0.9
 Bands_Deviation_M30=0.9
+<<<<<<< Updated upstream
 Bands_Period_M1=32
 <<<<<<< Updated upstream
 Bands_Period_M5=22
@@ -43,6 +44,11 @@ Bands_Period_M30=6
 =======
 Bands_Period_M5=20
 Bands_Period_M15=8
+=======
+Bands_Period_M1=48
+Bands_Period_M5=20
+Bands_Period_M15=48
+>>>>>>> Stashed changes
 Bands_Period_M30=4
 >>>>>>> Stashed changes
 Bands_Shift=0

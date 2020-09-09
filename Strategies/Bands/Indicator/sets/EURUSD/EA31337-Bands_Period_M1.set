@@ -36,7 +36,7 @@ Bands_HShift=2
 Bands_Shift=0
 Bands_SignalLevel=18
 # Optimization params.
-Bands_Period_M1=32
+Bands_Period_M1=48
 Bands_Period_M1,F=0
 Bands_Period_M1,1=0
 Bands_Period_M1,2=0
