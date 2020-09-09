@@ -18,6 +18,3 @@
              4 -1061.45         1276          0.86           -0.83    1249.65       1.25  WPR_Period_M5=8; MaxOrders=0; MaxOrdersPerType=0;
              5 -1061.45         1276          0.86           -0.83    1249.65       1.25 WPR_Period_M5=10; MaxOrders=0; MaxOrdersPerType=0;
              6 -1061.45         1276          0.86           -0.83    1249.65       1.25 WPR_Period_M5=12; MaxOrders=0; MaxOrdersPerType=0;
-             7 -1061.45         1276          0.86           -0.83    1249.65       1.25 WPR_Period_M5=14; MaxOrders=0; MaxOrdersPerType=0;
-             8 -1061.45         1276          0.86           -0.83    1249.65       1.25 WPR_Period_M5=16; MaxOrders=0; MaxOrdersPerType=0;
-             9 -1061.45         1276          0.86           -0.83    1249.65       1.25 WPR_Period_M5=18; MaxOrders=0; MaxOrdersPerType=0;
