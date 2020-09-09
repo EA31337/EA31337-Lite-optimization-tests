@@ -11,4 +11,27 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+    Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      14 -16072.47        20563          0.62           -0.78   16148.27      16.15  MFI_TrailingProfitMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+      10 -16144.94        20517          0.62           -0.79   16220.74      16.22  MFI_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+      16 -16153.56        20549          0.62           -0.79   16228.76      16.23  MFI_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+      12 -16186.75        20551          0.62           -0.79   16262.55      16.26  MFI_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+      20 -16210.24        20625          0.62           -0.79   16286.04      16.29  MFI_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+      18 -16212.44        20622          0.62           -0.79   16288.24      16.29  MFI_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+       1 -16243.48        20725          0.62           -0.78   16319.28      16.32   MFI_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+       5 -16254.17        20776          0.62           -0.78   16329.97      16.33   MFI_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+      22 -16310.94        20684          0.62           -0.79   16386.74      16.39  MFI_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+      23 -16530.94        20939          0.61           -0.79   16606.94      16.61 MFI_TrailingProfitMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
+       3 -17182.17        21502          0.61           -0.80   17259.57      17.26   MFI_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+       7 -17672.97        22044          0.60           -0.80   17753.08      17.75   MFI_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+      15 -17689.27        22353          0.60           -0.79   17756.17      17.76 MFI_TrailingProfitMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
+       6 -17700.97        22523          0.60           -0.79   17769.27      17.77  MFI_TrailingProfitMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
+      17 -17795.57        22421          0.60           -0.79   17865.57      17.87 MFI_TrailingProfitMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+      21 -17909.15        22583          0.60           -0.79   17978.55      17.98 MFI_TrailingProfitMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
+      13 -17981.52        22471          0.60           -0.80   18050.12      18.05 MFI_TrailingProfitMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+      19 -18011.04        22651          0.60           -0.80   18080.44      18.08 MFI_TrailingProfitMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+      11 -18030.73        22642          0.60           -0.80   18098.73      18.10 MFI_TrailingProfitMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
+       4 -18283.57        23072          0.60           -0.79   18353.18      18.35  MFI_TrailingProfitMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+       2 -18970.86        23842          0.59           -0.80   19039.76      19.04  MFI_TrailingProfitMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+       8 -19229.36        24080          0.59           -0.80   19300.66      19.30  MFI_TrailingProfitMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
+       9 -19246.52        23881          0.59           -0.81   19316.53      19.32   MFI_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
