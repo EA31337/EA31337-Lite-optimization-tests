@@ -6,14 +6,14 @@
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          1  -191.46          569          0.99           -0.34    3228.04       3.21  InitNoOfDaysToWarmUp=0; MaxOrders=0; MaxOrdersPerType=0;
-          5  -522.09          233          0.88           -2.24    1878.00       1.87 InitNoOfDaysToWarmUp=28; MaxOrders=0; MaxOrdersPerType=0;
-          4 -1062.44          306          0.83           -3.47    2218.52       2.21 InitNoOfDaysToWarmUp=21; MaxOrders=0; MaxOrdersPerType=0;
-          2 -1155.96          285          0.82           -4.06    2218.52       2.21  InitNoOfDaysToWarmUp=7; MaxOrders=0; MaxOrdersPerType=0;
-          3 -1689.94          350          0.78           -4.83    2206.55       2.20 InitNoOfDaysToWarmUp=14; MaxOrders=0; MaxOrdersPerType=0;
+          2  -644.35          153          0.95           -4.21    3859.41       3.75  InitNoOfDaysToWarmUp=7; MaxOrders=0; MaxOrdersPerType=0;
+          4  -711.40          121          0.91           -5.88    3465.08       3.38 InitNoOfDaysToWarmUp=21; MaxOrders=0; MaxOrdersPerType=0;
+          3  -960.87          121          0.89           -7.94    3465.08       3.38 InitNoOfDaysToWarmUp=14; MaxOrders=0; MaxOrdersPerType=0;
+          5  -963.63          121          0.87           -7.96    3465.08       3.38 InitNoOfDaysToWarmUp=28; MaxOrders=0; MaxOrdersPerType=0;
+          1 -1723.28          156          0.91          -11.05    5394.51       5.25  InitNoOfDaysToWarmUp=0; MaxOrders=0; MaxOrdersPerType=0;
