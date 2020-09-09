@@ -37,11 +37,11 @@ Bands_Applied_Price=3
 Bands_Applied_Price=1
 >>>>>>> Stashed changes
 Bands_Deviation_M1=0.9
-Bands_Deviation_M5=1.7
+Bands_Deviation_M5=2.5
 Bands_Deviation_M15=0.9
 =======
 Bands_Deviation_M1=1.7
-Bands_Deviation_M5=0.9
+Bands_Deviation_M5=2.5
 Bands_Deviation_M15=1.7
 >>>>>>> Stashed changes
 Bands_Deviation_M30=0.9
