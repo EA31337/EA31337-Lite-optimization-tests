@@ -46,21 +46,32 @@ Bands_HShift=2
 =======
 Bands_HShift=4
 >>>>>>> Stashed changes
-Bands_Period_M1=2
+Bands_Period_M1=40
 <<<<<<< Updated upstream
 Bands_Period_M5=6
 <<<<<<< Updated upstream
 =======
 Bands_Period_M5=6
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
 Bands_Period_M15=18
 Bands_Period_M30=4
 =======
-Bands_Period_M15=24
+Bands_Period_M15=40
+Bands_Period_M30=6
+>>>>>>> Stashed changes
 =======
+Bands_Period_M15=40
+=======
+<<<<<<< Updated upstream
 Bands_Period_M1=32
 Bands_Period_M5=6
 Bands_Period_M15=32
+=======
+Bands_Period_M1=40
+Bands_Period_M5=20
+Bands_Period_M15=40
+>>>>>>> Stashed changes
 >>>>>>> Stashed changes
 Bands_Period_M30=4
 >>>>>>> Stashed changes

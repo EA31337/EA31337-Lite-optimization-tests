@@ -39,10 +39,10 @@ Bands_Applied_Price=2
 Bands_Applied_Price=1
 >>>>>>> Stashed changes
 Bands_HShift=2
-Bands_Period_M1=32
+Bands_Period_M1=40
 =======
 Bands_HShift=4
-Bands_Period_M1=18
+Bands_Period_M1=40
 >>>>>>> Stashed changes
 Bands_Shift=0
 Bands_SignalLevel=13
