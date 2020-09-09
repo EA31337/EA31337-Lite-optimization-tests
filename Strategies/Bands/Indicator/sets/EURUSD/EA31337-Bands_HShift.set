@@ -38,7 +38,7 @@ Bands_Deviation_M30=0.9
 Bands_Period_M1=32
 Bands_Period_M5=20
 Bands_Period_M15=32
-Bands_Period_M30=4
+Bands_Period_M30=6
 Bands_Shift=0
 Bands_SignalLevel=18
 # Optimization params.
