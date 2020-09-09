@@ -28,9 +28,9 @@ Bands5_SignalMethod=1
 Bands15_SignalMethod=1
 Bands30_SignalMethod=1
 # Dynamic strategy params.
-Bands_TrailingStopMethod=15
+Bands_TrailingStopMethod=8
 # Optimization params.
-Bands_TrailingProfitMethod=-6
+Bands_TrailingProfitMethod=-25
 Bands_TrailingProfitMethod,F=0
 Bands_TrailingProfitMethod,1=0
 Bands_TrailingProfitMethod,2=0
