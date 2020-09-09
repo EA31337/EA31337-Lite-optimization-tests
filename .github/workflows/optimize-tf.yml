@@ -15,6 +15,7 @@ jobs:
         shell: bash
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         strategy:
           - AC
@@ -50,11 +51,20 @@ jobs:
           git pull origin ${{ github.ref }} --autostash --rebase -X ours
           git commit --allow-empty -am "${{ github.workflow }}"
           NO_PAGER=1 git --no-pager diff HEAD^
-          git update-ref -d "${{ github.ref }}"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Re-pull on failure
+        if: failed()
+        run: git pull origin ${{ github.ref }} --autostash --rebase -X ours
+      - name: Re-push on failure
+        if: failed()
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          force: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
-      DCA: "--rm"
+      DCA: "--rm -e BT_MONTHS=1"
