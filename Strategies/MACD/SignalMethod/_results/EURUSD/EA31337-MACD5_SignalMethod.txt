@@ -11,19 +11,19 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-       Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         15   -518.69          408          0.48           -1.27     522.99       0.52  MACD5_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-         13   -585.16          480          0.49           -1.22     608.66       0.61  MACD5_SignalMethod=5; MaxOrders=0; MaxOrdersPerType=0;
-         14   -665.90          526          0.47           -1.27     667.50       0.67  MACD5_SignalMethod=6; MaxOrders=0; MaxOrdersPerType=0;
-         12   -746.21          599          0.47           -1.25     770.94       0.77  MACD5_SignalMethod=4; MaxOrders=0; MaxOrdersPerType=0;
-         11  -1606.30         1435          0.62           -1.12    1728.07       1.73  MACD5_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-          9  -1675.10         1476          0.61           -1.13    1796.87       1.80  MACD5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-          7  -2574.64         2276          0.40           -1.13    2579.64       2.58 MACD5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-         10  -3897.83         3167          0.54           -1.23    4016.10       4.01  MACD5_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-          6  -4824.76         4093          0.38           -1.18    4826.76       4.83 MACD5_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
-          3  -4895.88         4366          0.46           -1.12    4966.42       4.96 MACD5_SignalMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
-          5  -5325.31         5051          0.47           -1.05    5338.21       5.34 MACD5_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
-          4  -6830.85         6360          0.46           -1.07    6840.25       6.84 MACD5_SignalMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
-          1  -9754.19         9164          0.41           -1.06    9765.19       9.76 MACD5_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
-          2 -11830.69        10554          0.41           -1.12   11849.63      11.85 MACD5_SignalMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
-          8 -21760.69        20058          0.33           -1.08   21768.19      21.77  MACD5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           9    53.46          181          1.07            0.30     195.70       0.20  MACD5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+          11    43.36          151          1.07            0.29     212.40       0.21  MACD5_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+           3    -4.35          206          0.99           -0.02     277.90       0.28 MACD5_SignalMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
+          13   -48.80           78          0.78           -0.63     105.10       0.11  MACD5_SignalMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+          15   -49.30           48          0.64           -1.03      79.60       0.08  MACD5_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+           7  -105.50           75          0.57           -1.41     130.80       0.13 MACD5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+           5  -307.15          309          0.70           -0.99     389.55       0.39 MACD5_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
+          14  -360.19          227          0.50           -1.59     373.39       0.37  MACD5_SignalMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+          12  -373.80          297          0.57           -1.26     380.60       0.38  MACD5_SignalMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+           1  -423.06          465          0.75           -0.91     530.44       0.53 MACD5_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
+           6  -929.61          837          0.59           -1.11     940.31       0.94 MACD5_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+          10 -1402.61         1214          0.70           -1.16    1518.98       1.52  MACD5_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+           4 -1650.92         1585          0.60           -1.04    1664.32       1.66 MACD5_SignalMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
+           2 -3106.34         2667          0.63           -1.16    3163.97       3.16 MACD5_SignalMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+           8 -3798.30         3428          0.60           -1.11    3809.70       3.81  MACD5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
