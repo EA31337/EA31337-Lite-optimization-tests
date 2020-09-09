@@ -12,24 +12,24 @@
                              Spread          10
                                                                  [Optimization Graph]
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1 -659.31         1038          0.93           -0.64    2313.26       2.28   Bands_SignalLevel=13; MaxOrders=0; MaxOrdersPerType=0;
-           2 -659.31         1038          0.93           -0.64    2313.26       2.28 Bands_SignalLevel=13.5; MaxOrders=0; MaxOrdersPerType=0;
-           3 -659.31         1038          0.93           -0.64    2313.26       2.28   Bands_SignalLevel=14; MaxOrders=0; MaxOrdersPerType=0;
-           4 -659.31         1038          0.93           -0.64    2313.26       2.28 Bands_SignalLevel=14.5; MaxOrders=0; MaxOrdersPerType=0;
-           5 -659.31         1038          0.93           -0.64    2313.26       2.28   Bands_SignalLevel=15; MaxOrders=0; MaxOrdersPerType=0;
-           6 -659.31         1038          0.93           -0.64    2313.26       2.28 Bands_SignalLevel=15.5; MaxOrders=0; MaxOrdersPerType=0;
-           7 -659.31         1038          0.93           -0.64    2313.26       2.28   Bands_SignalLevel=16; MaxOrders=0; MaxOrdersPerType=0;
-           8 -659.31         1038          0.93           -0.64    2313.26       2.28 Bands_SignalLevel=16.5; MaxOrders=0; MaxOrdersPerType=0;
-           9 -659.31         1038          0.93           -0.64    2313.26       2.28   Bands_SignalLevel=17; MaxOrders=0; MaxOrdersPerType=0;
-          10 -659.31         1038          0.93           -0.64    2313.26       2.28 Bands_SignalLevel=17.5; MaxOrders=0; MaxOrdersPerType=0;
-          11 -659.31         1038          0.93           -0.64    2313.26       2.28   Bands_SignalLevel=18; MaxOrders=0; MaxOrdersPerType=0;
-          12 -659.31         1038          0.93           -0.64    2313.26       2.28 Bands_SignalLevel=18.5; MaxOrders=0; MaxOrdersPerType=0;
-          13 -659.31         1038          0.93           -0.64    2313.26       2.28   Bands_SignalLevel=19; MaxOrders=0; MaxOrdersPerType=0;
-          14 -659.31         1038          0.93           -0.64    2313.26       2.28 Bands_SignalLevel=19.5; MaxOrders=0; MaxOrdersPerType=0;
-          15 -659.31         1038          0.93           -0.64    2313.26       2.28   Bands_SignalLevel=20; MaxOrders=0; MaxOrdersPerType=0;
-          16 -659.31         1038          0.93           -0.64    2313.26       2.28 Bands_SignalLevel=20.5; MaxOrders=0; MaxOrdersPerType=0;
-          17 -659.31         1038          0.93           -0.64    2313.26       2.28   Bands_SignalLevel=21; MaxOrders=0; MaxOrdersPerType=0;
-          18 -659.31         1038          0.93           -0.64    2313.26       2.28 Bands_SignalLevel=21.5; MaxOrders=0; MaxOrdersPerType=0;
-          19 -659.31         1038          0.93           -0.64    2313.26       2.28   Bands_SignalLevel=22; MaxOrders=0; MaxOrdersPerType=0;
-          20 -659.31         1038          0.93           -0.64    2313.26       2.28 Bands_SignalLevel=22.5; MaxOrders=0; MaxOrdersPerType=0;
-          21 -659.31         1038          0.93           -0.64    2313.26       2.28   Bands_SignalLevel=23; MaxOrders=0; MaxOrdersPerType=0;
+           1 -519.20          777          0.93           -0.67    2031.01       2.01    Bands_SignalLevel=8; MaxOrders=0; MaxOrdersPerType=0;
+           2 -519.20          777          0.93           -0.67    2031.01       2.01  Bands_SignalLevel=8.5; MaxOrders=0; MaxOrdersPerType=0;
+           3 -519.20          777          0.93           -0.67    2031.01       2.01    Bands_SignalLevel=9; MaxOrders=0; MaxOrdersPerType=0;
+           4 -519.20          777          0.93           -0.67    2031.01       2.01  Bands_SignalLevel=9.5; MaxOrders=0; MaxOrdersPerType=0;
+           5 -519.20          777          0.93           -0.67    2031.01       2.01   Bands_SignalLevel=10; MaxOrders=0; MaxOrdersPerType=0;
+           6 -519.20          777          0.93           -0.67    2031.01       2.01 Bands_SignalLevel=10.5; MaxOrders=0; MaxOrdersPerType=0;
+           7 -519.20          777          0.93           -0.67    2031.01       2.01   Bands_SignalLevel=11; MaxOrders=0; MaxOrdersPerType=0;
+           8 -519.20          777          0.93           -0.67    2031.01       2.01 Bands_SignalLevel=11.5; MaxOrders=0; MaxOrdersPerType=0;
+           9 -519.20          777          0.93           -0.67    2031.01       2.01   Bands_SignalLevel=12; MaxOrders=0; MaxOrdersPerType=0;
+          10 -519.20          777          0.93           -0.67    2031.01       2.01 Bands_SignalLevel=12.5; MaxOrders=0; MaxOrdersPerType=0;
+          11 -519.20          777          0.93           -0.67    2031.01       2.01   Bands_SignalLevel=13; MaxOrders=0; MaxOrdersPerType=0;
+          12 -519.20          777          0.93           -0.67    2031.01       2.01 Bands_SignalLevel=13.5; MaxOrders=0; MaxOrdersPerType=0;
+          13 -519.20          777          0.93           -0.67    2031.01       2.01   Bands_SignalLevel=14; MaxOrders=0; MaxOrdersPerType=0;
+          14 -519.20          777          0.93           -0.67    2031.01       2.01 Bands_SignalLevel=14.5; MaxOrders=0; MaxOrdersPerType=0;
+          15 -519.20          777          0.93           -0.67    2031.01       2.01   Bands_SignalLevel=15; MaxOrders=0; MaxOrdersPerType=0;
+          16 -519.20          777          0.93           -0.67    2031.01       2.01 Bands_SignalLevel=15.5; MaxOrders=0; MaxOrdersPerType=0;
+          17 -519.20          777          0.93           -0.67    2031.01       2.01   Bands_SignalLevel=16; MaxOrders=0; MaxOrdersPerType=0;
+          18 -519.20          777          0.93           -0.67    2031.01       2.01 Bands_SignalLevel=16.5; MaxOrders=0; MaxOrdersPerType=0;
+          19 -519.20          777          0.93           -0.67    2031.01       2.01   Bands_SignalLevel=17; MaxOrders=0; MaxOrdersPerType=0;
+          20 -519.20          777          0.93           -0.67    2031.01       2.01 Bands_SignalLevel=17.5; MaxOrders=0; MaxOrdersPerType=0;
+          21 -519.20          777          0.93           -0.67    2031.01       2.01   Bands_SignalLevel=18; MaxOrders=0; MaxOrdersPerType=0;

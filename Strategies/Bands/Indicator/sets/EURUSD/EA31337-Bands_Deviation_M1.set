@@ -53,7 +53,7 @@ Bands_Period_M1=18
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
 Bands_Shift=0
-Bands_SignalLevel=13
+Bands_SignalLevel=8
 # Optimization params.
 Bands_Deviation_M1=2.5
 Bands_Deviation_M1,F=0
