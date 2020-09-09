@@ -16,10 +16,10 @@
            7    0.00            0          0.00            0.00       0.00       0.00 CCI5_SignalMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
            8    0.00            0          0.00            0.00       0.00       0.00 CCI5_SignalMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
           11    0.00            0          0.00            0.00       0.00       0.00  CCI5_SignalMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
-          10  -86.15          105          0.88           -0.82     183.36       0.18 CCI5_SignalMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
-           5 -126.49           47          0.61           -2.69     179.45       0.18 CCI5_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
-           9 -126.49           47          0.61           -2.69     179.45       0.18 CCI5_SignalMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
-           4 -187.62           18          0.21          -10.42     213.21       0.21 CCI5_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
-           1 -559.72          472          0.80           -1.19     589.31       0.59 CCI5_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
-           2 -561.62          473          0.80           -1.19     593.34       0.59 CCI5_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
-           3 -693.57          367          0.72           -1.89     740.66       0.74 CCI5_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
+           5  -61.48           49          0.81           -1.25     119.51       0.12 CCI5_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
+           9  -61.48           49          0.81           -1.25     119.51       0.12 CCI5_SignalMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+          10 -159.93          118          0.81           -1.36     234.04       0.23 CCI5_SignalMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
+           4 -190.83           23          0.26           -8.30     218.62       0.22 CCI5_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
+           3 -516.98          393          0.79           -1.32     645.97       0.65 CCI5_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
+           1 -539.85          493          0.81           -1.10     572.86       0.57 CCI5_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
+           2 -585.05          494          0.80           -1.18     614.24       0.61 CCI5_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;

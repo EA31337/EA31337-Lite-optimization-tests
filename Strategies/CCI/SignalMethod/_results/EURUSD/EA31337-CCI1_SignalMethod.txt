@@ -18,5 +18,3 @@
             4   0.00            0          0.00            0.00       0.00       0.00 CCI1_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
             5   0.00            0          0.00            0.00       0.00       0.00 CCI1_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
             6   0.00            0          0.00            0.00       0.00       0.00 CCI1_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
-            7   0.00            0          0.00            0.00       0.00       0.00 CCI1_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
-            8   0.00            0          0.00            0.00       0.00       0.00 CCI1_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
