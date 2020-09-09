@@ -6,14 +6,14 @@
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
             Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-               1 -522.09          233          0.88           -2.24    1878.00       1.87   RiskRatio=0; MaxOrders=0; MaxOrdersPerType=0;
-               2 -522.09          233          0.88           -2.24    1878.00       1.87 RiskRatio=0.5; MaxOrders=0; MaxOrdersPerType=0;
-               3 -522.09          233          0.88           -2.24    1878.00       1.87   RiskRatio=1; MaxOrders=0; MaxOrdersPerType=0;
-               4 -522.09          233          0.88           -2.24    1878.00       1.87 RiskRatio=1.5; MaxOrders=0; MaxOrdersPerType=0;
-               5 -522.09          233          0.88           -2.24    1878.00       1.87   RiskRatio=2; MaxOrders=0; MaxOrdersPerType=0;
+               1 -711.40          121          0.91           -5.88    3465.08       3.38   RiskRatio=0; MaxOrders=0; MaxOrdersPerType=0;
+               2 -711.40          121          0.91           -5.88    3465.08       3.38 RiskRatio=0.5; MaxOrders=0; MaxOrdersPerType=0;
+               3 -711.40          121          0.91           -5.88    3465.08       3.38   RiskRatio=1; MaxOrders=0; MaxOrdersPerType=0;
+               4 -711.40          121          0.91           -5.88    3465.08       3.38 RiskRatio=1.5; MaxOrders=0; MaxOrdersPerType=0;
+               5 -711.40          121          0.91           -5.88    3465.08       3.38   RiskRatio=2; MaxOrders=0; MaxOrdersPerType=0;
