@@ -30,7 +30,7 @@ CCI30_SignalMethod=0
 # Dynamic strategy params.
 CCI_TrailingStopMethod=-1
 # Optimization params.
-CCI_TrailingProfitMethod=-25
+CCI_TrailingProfitMethod=25
 CCI_TrailingProfitMethod,F=0
 CCI_TrailingProfitMethod,1=0
 CCI_TrailingProfitMethod,2=0
