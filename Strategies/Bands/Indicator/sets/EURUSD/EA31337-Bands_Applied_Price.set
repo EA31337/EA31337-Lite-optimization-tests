@@ -54,7 +54,7 @@ Bands_Period_M5=20
 Bands_Period_M5=6
 >>>>>>> Stashed changes
 Bands_Period_M15=18
-Bands_Period_M30=6
+Bands_Period_M30=4
 =======
 Bands_Period_M15=24
 =======
@@ -62,7 +62,7 @@ Bands_Period_M1=32
 Bands_Period_M5=20
 Bands_Period_M15=32
 >>>>>>> Stashed changes
-Bands_Period_M30=2
+Bands_Period_M30=4
 >>>>>>> Stashed changes
 Bands_Shift=0
 Bands_SignalLevel=13
