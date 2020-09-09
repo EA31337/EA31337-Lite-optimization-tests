@@ -11,34 +11,24 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-        Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           2 -15340.80         2619          0.82           -5.86   18784.68      18.16 WorseMonthlyStrategyMultiplierFactor=0.1; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
-           3 -15340.80         2619          0.82           -5.86   18784.68      18.16 WorseMonthlyStrategyMultiplierFactor=0.2; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
-           6 -15950.83         2619          0.84           -6.09   20319.24      19.59 WorseMonthlyStrategyMultiplierFactor=0.5; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
-           4 -16094.11         2619          0.82           -6.15   20112.06      19.42 WorseMonthlyStrategyMultiplierFactor=0.3; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
-           5 -16371.77         2619          0.82           -6.25   20231.48      19.53 WorseMonthlyStrategyMultiplierFactor=0.4; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
-           8 -19565.90         2619          0.82           -7.47   24074.93      23.09 WorseMonthlyStrategyMultiplierFactor=0.7; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
-           7 -19902.22         2619          0.81           -7.60   23949.88      23.02 WorseMonthlyStrategyMultiplierFactor=0.6; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
-           9 -21276.83         2619          0.82           -8.12   25913.61      24.78 WorseMonthlyStrategyMultiplierFactor=0.8; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
-          10 -23930.56         2619          0.81           -9.14   28952.38      27.58 WorseMonthlyStrategyMultiplierFactor=0.9; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
-          11 -25727.19         2619          0.80           -9.82   31314.77      29.66   WorseMonthlyStrategyMultiplierFactor=1; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
-          12 -26334.88         2619          0.80          -10.06   32273.63      30.47 WorseMonthlyStrategyMultiplierFactor=1.1; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
-          13 -30275.64         2613          0.79          -11.59   36723.30      34.50 WorseMonthlyStrategyMultiplierFactor=1.2; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
-          14 -31835.87         2613          0.79          -12.18   38739.51      36.24 WorseMonthlyStrategyMultiplierFactor=1.3; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
-           1 -33458.42         3877          0.71           -8.63   39324.11      37.18   WorseMonthlyStrategyMultiplierFactor=0; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
-          15 -34768.55         2619          0.78          -13.28   42235.83      39.31 WorseMonthlyStrategyMultiplierFactor=1.4; MaxOrders=0;
-                                                                                                                           MaxOrdersPerType=0;
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           5 -6126.98         3023          0.94           -2.03   16405.39      15.39 WorseMonthlyStrategyMultiplierFactor=0.4; MaxOrders=5;
+                                                                                                                          MaxOrdersPerType=2;
+           2 -7020.79         3023          0.93           -2.32   16567.10      15.59 WorseMonthlyStrategyMultiplierFactor=0.1; MaxOrders=5;
+                                                                                                                          MaxOrdersPerType=2;
+           3 -7300.47         3023          0.93           -2.41   16870.98      15.87 WorseMonthlyStrategyMultiplierFactor=0.2; MaxOrders=5;
+                                                                                                                          MaxOrdersPerType=2;
+           4 -7434.29         3023          0.93           -2.46   17422.40      16.38 WorseMonthlyStrategyMultiplierFactor=0.3; MaxOrders=5;
+                                                                                                                          MaxOrdersPerType=2;
+           7 -8097.49         3023          0.93           -2.68   19053.71      17.81 WorseMonthlyStrategyMultiplierFactor=0.6; MaxOrders=5;
+                                                                                                                          MaxOrdersPerType=2;
+           8 -8292.64         3023          0.93           -2.74   19562.70      18.24 WorseMonthlyStrategyMultiplierFactor=0.7; MaxOrders=5;
+                                                                                                                          MaxOrdersPerType=2;
+           9 -8496.46         3023          0.93           -2.81   20301.49      18.87 WorseMonthlyStrategyMultiplierFactor=0.8; MaxOrders=5;
+                                                                                                                          MaxOrdersPerType=2;
+           6 -8590.84         3023          0.92           -2.84   19221.75      18.02 WorseMonthlyStrategyMultiplierFactor=0.5; MaxOrders=5;
+                                                                                                                          MaxOrdersPerType=2;
+          10 -8818.26         3023          0.93           -2.92   21117.22      19.54 WorseMonthlyStrategyMultiplierFactor=0.9; MaxOrders=5;
+                                                                                                                          MaxOrdersPerType=2;
+           1 -9174.07         2873          0.92           -3.19   18071.98      17.08   WorseMonthlyStrategyMultiplierFactor=0; MaxOrders=5;
+                                                                                                                          MaxOrdersPerType=2;
