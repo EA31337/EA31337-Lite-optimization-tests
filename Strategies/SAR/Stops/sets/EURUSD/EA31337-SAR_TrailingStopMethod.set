@@ -23,10 +23,10 @@ RSI_Active_Tf=0
 SAR_Active_Tf=15
 WPR_Active_Tf=0
 # Fixed strategy params
-SAR1_SignalMethod=0
-SAR5_SignalMethod=0
-SAR15_SignalMethod=0
-SAR30_SignalMethod=0
+SAR1_SignalMethod=1
+SAR5_SignalMethod=1
+SAR15_SignalMethod=1
+SAR30_SignalMethod=1
 SAR_TrailingProfitMethod=0
 # Optimization params.
 SAR_TrailingStopMethod=6
