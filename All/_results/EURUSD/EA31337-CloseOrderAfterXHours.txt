@@ -2,19 +2,19 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         4 -5342.06         5827          0.55           -0.92    5343.46       5.34  CloseOrderAfterXHours=72; MaxOrders=0; MaxOrdersPerType=0;
-         1 -5388.74         5830          0.55           -0.92    5390.14       5.39   CloseOrderAfterXHours=0; MaxOrders=0; MaxOrdersPerType=0;
-         5 -5388.74         5830          0.55           -0.92    5390.14       5.39  CloseOrderAfterXHours=96; MaxOrders=0; MaxOrdersPerType=0;
-         6 -5388.74         5830          0.55           -0.92    5390.14       5.39 CloseOrderAfterXHours=120; MaxOrders=0; MaxOrdersPerType=0;
-         2 -5406.68         5973          0.55           -0.91    5408.08       5.41  CloseOrderAfterXHours=24; MaxOrders=0; MaxOrdersPerType=0;
-         3 -5408.48         5960          0.55           -0.91    5409.88       5.41  CloseOrderAfterXHours=48; MaxOrders=0; MaxOrdersPerType=0;
+         4 -1274.77         1502          0.88           -0.85    1420.20       1.42  CloseOrderAfterXHours=72; MaxOrders=0; MaxOrdersPerType=0;
+         5 -1565.58         1504          0.85           -1.04    1586.79       1.59  CloseOrderAfterXHours=96; MaxOrders=0; MaxOrdersPerType=0;
+         1 -1589.24         1495          0.84           -1.06    1926.52       1.92   CloseOrderAfterXHours=0; MaxOrders=0; MaxOrdersPerType=0;
+         6 -1836.87         1548          0.82           -1.19    1858.69       1.86 CloseOrderAfterXHours=120; MaxOrders=0; MaxOrdersPerType=0;
+         3 -1981.64         1752          0.82           -1.13    2037.31       2.04  CloseOrderAfterXHours=48; MaxOrders=0; MaxOrdersPerType=0;
+         2 -2237.74         2020          0.80           -1.11    2250.69       2.25  CloseOrderAfterXHours=24; MaxOrders=0; MaxOrdersPerType=0;
