@@ -33,18 +33,28 @@ Bands_TrailingProfitMethod=0
 <<<<<<< Updated upstream
 Bands_Applied_Price=2
 <<<<<<< Updated upstream
-Bands_Deviation_M5=1.7
+Bands_Deviation_M5=2.5
 =======
+<<<<<<< Updated upstream
 Bands_Applied_Price=1
+Bands_Deviation_M5=2.5
+=======
+Bands_Applied_Price=2
 Bands_Deviation_M5=0.9
 >>>>>>> Stashed changes
-Bands_HShift=0
+>>>>>>> Stashed changes
+Bands_HShift=6
+=======
+<<<<<<< Updated upstream
+Bands_Deviation_M5=2.5
+Bands_HShift=4
 =======
 Bands_Deviation_M5=0.9
-Bands_HShift=4
+Bands_HShift=6
+>>>>>>> Stashed changes
 >>>>>>> Stashed changes
 Bands_Shift=0
-Bands_SignalLevel=13
+Bands_SignalLevel=8
 # Optimization params.
 Bands_Period_M5=6
 Bands_Period_M5,F=0
