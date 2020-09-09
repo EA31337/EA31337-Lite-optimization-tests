@@ -69,7 +69,7 @@ Bands_Period_M30=2
 >>>>>>> Stashed changes
 Bands_Shift=0
 # Optimization params.
-Bands_SignalLevel=18
+Bands_SignalLevel=13
 Bands_SignalLevel,F=0
 Bands_SignalLevel,1=0
 Bands_SignalLevel,2=0
