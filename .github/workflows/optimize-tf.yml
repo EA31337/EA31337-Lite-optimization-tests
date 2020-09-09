@@ -57,10 +57,10 @@ jobs:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Re-pull on failure
-        if: failed()
+        if: ${{ failure() }}
         run: git pull origin ${{ github.ref }} --autostash --rebase -X ours
       - name: Re-push on failure
-        if: failed()
+        if: ${{ failure() }}
         uses: ad-m/github-push-action@master
         with:
           branch: ${{ github.ref }}
