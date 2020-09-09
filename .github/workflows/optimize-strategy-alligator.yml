@@ -154,6 +154,10 @@ jobs:
     env:
       DCA: "--rm"
   Timeframes:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/Alligator/Timeframes
     needs: SignalMethod
     runs-on: ubuntu-latest
     steps:
