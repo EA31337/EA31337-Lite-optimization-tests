@@ -38,7 +38,7 @@ Alligator_TrailingProfitMethod=0
 Alligator_Applied_Price=1
 Alligator_SignalLevel=0
 # Optimization params.
-Alligator_Period_Jaw=26
+Alligator_Period_Jaw=34
 Alligator_Period_Jaw,F=0
 Alligator_Period_Jaw,1=0
 Alligator_Period_Jaw,2=0
@@ -48,7 +48,7 @@ Alligator_Period_Teeth,F=0
 Alligator_Period_Teeth,1=0
 Alligator_Period_Teeth,2=0
 Alligator_Period_Teeth,3=0
-Alligator_Period_Lips=22
+Alligator_Period_Lips=26
 Alligator_Period_Lips,F=0
 Alligator_Period_Lips,1=0
 Alligator_Period_Lips,2=0
