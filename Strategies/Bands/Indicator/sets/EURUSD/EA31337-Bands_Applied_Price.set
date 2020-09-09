@@ -54,23 +54,36 @@ Bands_Period_M5=6
 Bands_Period_M5=6
 >>>>>>> Stashed changes
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Bands_Period_M15=18
 Bands_Period_M30=4
 =======
 Bands_Period_M15=40
+=======
+Bands_Period_M15=34
+>>>>>>> Stashed changes
 Bands_Period_M30=6
 >>>>>>> Stashed changes
 =======
+<<<<<<< Updated upstream
 Bands_Period_M15=40
+=======
+Bands_Period_M15=34
+>>>>>>> Stashed changes
 =======
 <<<<<<< Updated upstream
 Bands_Period_M1=32
+<<<<<<< Updated upstream
 Bands_Period_M5=6
 Bands_Period_M15=32
 =======
 Bands_Period_M1=40
 Bands_Period_M5=20
 Bands_Period_M15=40
+>>>>>>> Stashed changes
+=======
+Bands_Period_M5=20
+Bands_Period_M15=34
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
 Bands_Period_M30=4
