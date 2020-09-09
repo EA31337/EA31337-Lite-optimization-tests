@@ -1,41 +1,67 @@
 
 
 
-                                                                 Optimization Report
+                                                                Strategy Tester Report
                                                                EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                             Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.08.01 00:00 - 2019.12.30 23:59 (2019.08.01 - 2019.12.31)
-                             Model           Every tick (the most precise method based on all available least timeframes)
-                             Initial deposit 100000.00
-                             Spread          10
-                                                                 [Optimization Graph]
-       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          7   41.46          277          1.02            0.15     414.78       0.41 MA_Period_Fast=10; MA_Period_Medium=12; MA_Period_Slow=0;
-          8   41.56          277          1.02            0.15     414.78       0.41 MA_Period_Fast=12; MA_Period_Medium=12; MA_Period_Slow=0;
-          1   39.06          276          1.02            0.14     414.78       0.41  MA_Period_Fast=10; MA_Period_Medium=8; MA_Period_Slow=0;
-          4   39.06          276          1.02            0.14     414.78       0.41 MA_Period_Fast=10; MA_Period_Medium=10; MA_Period_Slow=0;
-          2   39.16          276          1.02            0.14     414.78       0.41  MA_Period_Fast=12; MA_Period_Medium=8; MA_Period_Slow=0;
-          3   39.16          276          1.02            0.14     414.78       0.41  MA_Period_Fast=14; MA_Period_Medium=8; MA_Period_Slow=0;
-          5   39.16          276          1.02            0.14     414.78       0.41 MA_Period_Fast=12; MA_Period_Medium=10; MA_Period_Slow=0;
-          6   39.16          276          1.02            0.14     414.78       0.41 MA_Period_Fast=14; MA_Period_Medium=10; MA_Period_Slow=0;
-          9   39.16          276          1.02            0.14     414.78       0.41 MA_Period_Fast=14; MA_Period_Medium=12; MA_Period_Slow=0;
-         21  -21.19          550          0.99           -0.04     474.90       0.47  MA_Period_Fast=14; MA_Period_Medium=8; MA_Period_Slow=4;
-         24 -144.56          526          0.95           -0.27     600.40       0.60 MA_Period_Fast=14; MA_Period_Medium=10; MA_Period_Slow=4;
-         12 -171.90          589          0.94           -0.29     658.36       0.66  MA_Period_Fast=14; MA_Period_Medium=8; MA_Period_Slow=2;
-         19 -182.02          535          0.93           -0.34     580.44       0.58  MA_Period_Fast=10; MA_Period_Medium=8; MA_Period_Slow=4;
-         18 -212.93          579          0.93           -0.37     605.60       0.60 MA_Period_Fast=14; MA_Period_Medium=12; MA_Period_Slow=2;
-         23 -246.20          520          0.91           -0.47     631.15       0.63 MA_Period_Fast=12; MA_Period_Medium=10; MA_Period_Slow=4;
-         27 -275.34          525          0.90           -0.52     639.66       0.64 MA_Period_Fast=14; MA_Period_Medium=12; MA_Period_Slow=4;
-         20 -281.56          541          0.90           -0.52     589.71       0.59  MA_Period_Fast=12; MA_Period_Medium=8; MA_Period_Slow=4;
-         13 -283.25          576          0.90           -0.49     689.87       0.69 MA_Period_Fast=10; MA_Period_Medium=10; MA_Period_Slow=2;
-         14 -285.64          576          0.90           -0.50     700.57       0.70 MA_Period_Fast=12; MA_Period_Medium=10; MA_Period_Slow=2;
-         10 -299.75          577          0.90           -0.52     736.57       0.74  MA_Period_Fast=10; MA_Period_Medium=8; MA_Period_Slow=2;
-         22 -310.10          520          0.89           -0.60     686.34       0.69 MA_Period_Fast=10; MA_Period_Medium=10; MA_Period_Slow=4;
-         15 -325.30          582          0.89           -0.56     707.65       0.71 MA_Period_Fast=14; MA_Period_Medium=10; MA_Period_Slow=2;
-         16 -343.77          586          0.89           -0.59     709.54       0.71 MA_Period_Fast=10; MA_Period_Medium=12; MA_Period_Slow=2;
-         17 -351.86          584          0.88           -0.60     712.64       0.71 MA_Period_Fast=12; MA_Period_Medium=12; MA_Period_Slow=2;
-         26 -453.39          534          0.85           -0.85     788.25       0.79 MA_Period_Fast=12; MA_Period_Medium=12; MA_Period_Slow=4;
-         25 -455.11          536          0.85           -0.85     799.45       0.80 MA_Period_Fast=10; MA_Period_Medium=12; MA_Period_Slow=4;
-         11 -484.90          593          0.84           -0.82     794.28       0.79  MA_Period_Fast=12; MA_Period_Medium=8; MA_Period_Slow=2;
+  Symbol                             EURUSD (Euro vs US Dollar)
+  Period                             1 Minute (M1) 2019.08.01 00:00 - 2019.12.30 23:59 (2019.08.01 - 2019.12.31)
+  Model                              Every tick (the most precise method based on all available least timeframes)
+                                     __EA_Parameters__="-- Input EA parameters for EA31337 Lite v1.080 --"; __Trade_Parameters__="-- Trade
+                                     parameters --"; MaxOrders=0; MaxOrdersPerType=0; LotSize=0.01; TradeMicroLots=true; MinVolumeToTrade=0;
+                                     MaxOrderPriceSlippage=50; MaxTries=5; MinPipGap=70; __EA_Order_Parameters__="-- Profit and loss parameters --";
+                                     TakeProfitMax=0; StopLossMax=40; __EA_Trailing_Parameters__="-- Profit and loss trailing parameters --";
+                                     TrailingStop=60; TrailingProfit=10; __EA_Risk_Parameters__="-- Risk management parameters --";
+                                     RiskMarginPerOrder=1; RiskMarginTotal=5; RiskRatio=0; RiskRatioIncreaseMethod=0; RiskRatioDecreaseMethod=0;
+                                     InitNoOfDaysToWarmUp=21; CloseOrderAfterXHours=24; __Strategy_Profit__="-- Per strategy parameters (0 to
+                                     disable) --"; ProfitFactorMinToTrade=0; ProfitFactorMaxToTrade=0; InitNoOfOrdersToCalcPF=20;
+                                     __Strategy_Boosting_Parameters__="-- Strategy boosting parameters (set 1.0 for default) --";
+                                     Boosting_Enabled=false; BoostTrendFactor=0.5; StrategyBoostByPF=true; StrategyHandicapByPF=false;
+                                     BestDailyStrategyMultiplierFactor=0.7; BestWeeklyStrategyMultiplierFactor=1.5;
+                                     BestMonthlyStrategyMultiplierFactor=1; WorseDailyStrategyMultiplierFactor=0.1;
+                                     WorseWeeklyStrategyMultiplierFactor=0.5; WorseMonthlyStrategyMultiplierFactor=1; ConWinsIncreaseFactor=-0.1;
+                                     ConLossesIncreaseFactor=0.2; ConFactorOrdersLimit=100; __Strategy_Timeframes__="-- Strategy's timeframes --";
+                                     AC_Active_Tf=0; AD_Active_Tf=0; ADX_Active_Tf=0; ATR_Active_Tf=0; Alligator_Active_Tf=0; Bands_Active_Tf=0;
+                                     CCI_Active_Tf=0; DeMarker_Active_Tf=0; Envelopes_Active_Tf=0; Force_Active_Tf=0; Fractals_Active_Tf=0;
+                                     MACD_Active_Tf=0; MA_Active_Tf=15; MFI_Active_Tf=0; RSI_Active_Tf=0; SAR_Active_Tf=0; WPR_Active_Tf=0;
+                                     __SmartQueue_Parameters__="-- Smart queue parameters --"; SmartQueueActive=false; SmartQueueMethod=11;
+                                     SmartQueueFilter=30; __EA_Account_Conditions__="-- Account conditions --"; Account_Conditions_Active=false;
+                                     Account_Condition_1=5; Market_Condition_1=8; Action_On_Condition_1=4; Account_Condition_2=6;
+  Parameters                         Market_Condition_2=3; Action_On_Condition_2=0; Account_Condition_3=10; Market_Condition_3=1;
+                                     Action_On_Condition_3=0; Account_Condition_4=20; Market_Condition_4=15; Action_On_Condition_4=0;
+                                     Account_Condition_5=0; Market_Condition_5=0; Action_On_Condition_5=0; Account_Condition_MinProfitCloseOrder=20;
+                                     __EA_Account_Conditions_Params__="-- Account conditions parameters --"; MarketSpecificHour=10;
+                                     CloseConditionOnlyProfitable=false; __Experimental_Parameters__="-- Experimental parameters (not safe) --";
+                                     MinimalizeLosses=false; __Logging_Parameters__="-- Settings for logging & messages --"; WriteReport=true;
+                                     PrintLogOnChart=true; VerboseErrors=true; VerboseInfo=true; __UI_UX_Parameters__="-- Settings for User
+                                     Interface & Experience --"; SendEmailEachOrder=false; ColorBuy=Blue; ColorSell=Red; SoundAlert=false;
+                                     SoundFileAtOpen="alert.wav"; SoundFileAtClose="alert.wav"; __Optimization_Parameters__="-- Optimization
+                                     parameters --"; TrendPeriod=240; __Backtest_Parameters__="-- Testing & troubleshooting parameters --";
+                                     ValidateSettings=false; RecordTicksToCSV=false; AccountConditionToDisable=0; DisableCloseConditions=false;
+                                     __EA_Constants__="-- Constants --"; MagicNumber=31337; __Other_Parameters__="-- Other parameters --";
+                                     __Strategy_Parameters__="-- Strategy parameters --"; __AC_Parameters__="-- Settings for the Bill Williams'
+                                     Accelerator/Decelerator oscillator --"; AC_TrailingStopMethod=4; AC_TrailingProfitMethod=7;
+                                     AC_SignalLevel=0.0004; AC_Shift=0; AC1_SignalMethod=-1; AC5_SignalMethod=-1; AC15_SignalMethod=1;
+                                     AC30_SignalMethod=1; AC1_MaxSpread=6; AC5_MaxSpread=7; AC15_MaxSpread=8; AC30_MaxSpread=10;
+                                     __AD_Parameters__="-- Settings for the Accumulation/Distribution indicator --"; AD_TrailingStopMethod=7;
+                                     AD_TrailingProfitMethod=-17; AD_SignalLevel=0; AD_Shift=0; AD1_SignalMethod=1; AD5_SignalMethod=1;
+                                     AD15_SignalMethod=1; AD30_SignalMethod=1; AD1_MaxSpread=6; AD5_MaxSpread=7; AD15_MaxSpread=8;
+                                     AD30_MaxSpread=10; __ADX_Parameters__="-- Settings for the Average Directional Movement Index indicator --";
+                                     ADX_TrailingStopMethod=17; MA_Shift=0;
+  Bars in test                155337 Ticks modelled                   33173853 Modelling quality                                              25.00%
+  Mismatched charts errors         0
+  Initial deposit          100000.00                                           Spread                                                             10
+  Total net profit              0.00 Gross profit                         0.00 Gross loss                                                      -0.00
+  Profit factor                      Expected payoff                      0.00
+  Absolute drawdown             0.00 Maximal drawdown             0.00 (0.00%) Relative drawdown                                        0.00% (0.00)
+  Total trades                     0 Short positions (won %)         0 (0.00%) Long positions (won %)                                      0 (0.00%)
+                                     Profit trades (% of total)      0 (0.00%) Loss trades (% of total)                                    0 (0.00%)
+                             Largest profit trade                         0.00 loss trade                                                      -0.00
+                             Average profit trade                         0.00 loss trade                                                      -0.00
+                             Maximum consecutive wins (profit in      0 (0.00) consecutive losses (loss in money)                          0 (-0.00)
+                                     money)
+                             Maximal consecutive profit (count of     0.00 (0) consecutive loss (count of losses)                          -0.00 (0)
+                                     wins)
+                             Average consecutive wins                        0 consecutive losses                                                  0
+                                                                       [Graph]
