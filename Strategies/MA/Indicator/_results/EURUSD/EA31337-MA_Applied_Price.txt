@@ -11,11 +11,11 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             6 -576.41          811          0.87           -0.71     783.54       0.78 MA_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-             7 -611.53          819          0.86           -0.75     835.26       0.83 MA_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-             3 -656.89          873          0.86           -0.75     793.24       0.79 MA_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-             5 -726.58          834          0.84           -0.87     897.17       0.90 MA_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-             4 -729.81          737          0.82           -0.99    1025.99       1.03 MA_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-             1 -791.08          846          0.83           -0.94    1046.66       1.05 MA_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-             2 -898.96          829          0.80           -1.08    1181.16       1.18 MA_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1   0.00            0          0.00            0.00       0.00       0.00 MA_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+             2   0.00            0          0.00            0.00       0.00       0.00 MA_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+             3   0.00            0          0.00            0.00       0.00       0.00 MA_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+             4   0.00            0          0.00            0.00       0.00       0.00 MA_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+             5   0.00            0          0.00            0.00       0.00       0.00 MA_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+             6   0.00            0          0.00            0.00       0.00       0.00 MA_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+             7   0.00            0          0.00            0.00       0.00       0.00 MA_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
