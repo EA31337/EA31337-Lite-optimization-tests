@@ -49,6 +49,7 @@ jobs:
           git add . && git add --renormalize .
           git pull origin ${{ github.ref }} --autostash --rebase -X ours
           git commit --allow-empty -am "${{ github.workflow }}"
+          git update-ref -d "${{ github.ref }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
