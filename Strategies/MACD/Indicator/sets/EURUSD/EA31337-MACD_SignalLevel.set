@@ -30,7 +30,7 @@ MACD30_SignalMethod=1
 MACD_TrailingStopMethod=0
 MACD_TrailingProfitMethod=0
 # Optimization params.
-MACD_SignalLevel=1.2
+MACD_SignalLevel=1.3
 MACD_SignalLevel,F=0
 MACD_SignalLevel,1=0
 MACD_SignalLevel,2=0
