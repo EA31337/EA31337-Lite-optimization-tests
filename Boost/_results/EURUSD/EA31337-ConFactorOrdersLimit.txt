@@ -11,17 +11,16 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         2 -9338.72         2143          0.83           -4.36   10125.76      10.08  ConFactorOrdersLimit=100; MaxOrders=0; MaxOrdersPerType=0;
-         3 -9349.52         2143          0.83           -4.36   10136.56      10.10  ConFactorOrdersLimit=200; MaxOrders=0; MaxOrdersPerType=0;
-         7 -9352.43         2143          0.83           -4.36   10136.56      10.10  ConFactorOrdersLimit=600; MaxOrders=0; MaxOrdersPerType=0;
-         8 -9352.43         2143          0.83           -4.36   10136.56      10.10  ConFactorOrdersLimit=700; MaxOrders=0; MaxOrdersPerType=0;
-         9 -9352.43         2143          0.83           -4.36   10136.56      10.10  ConFactorOrdersLimit=800; MaxOrders=0; MaxOrdersPerType=0;
-        10 -9352.43         2143          0.83           -4.36   10136.56      10.10  ConFactorOrdersLimit=900; MaxOrders=0; MaxOrdersPerType=0;
-        11 -9352.43         2143          0.83           -4.36   10136.56      10.10 ConFactorOrdersLimit=1000; MaxOrders=0; MaxOrdersPerType=0;
-        12 -9352.43         2143          0.83           -4.36   10136.56      10.10 ConFactorOrdersLimit=1100; MaxOrders=0; MaxOrdersPerType=0;
-        13 -9352.43         2143          0.83           -4.36   10136.56      10.10 ConFactorOrdersLimit=1200; MaxOrders=0; MaxOrdersPerType=0;
-         4 -9363.23         2143          0.83           -4.37   10136.56      10.10  ConFactorOrdersLimit=300; MaxOrders=0; MaxOrdersPerType=0;
-         5 -9363.23         2143          0.83           -4.37   10136.56      10.10  ConFactorOrdersLimit=400; MaxOrders=0; MaxOrdersPerType=0;
-         6 -9363.23         2143          0.83           -4.37   10136.56      10.10  ConFactorOrdersLimit=500; MaxOrders=0; MaxOrdersPerType=0;
-         1 -9363.03         2143          0.83           -4.37   10136.56      10.10    ConFactorOrdersLimit=0; MaxOrders=0; MaxOrdersPerType=0;
+     Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        1 -10006.20         1525          0.85           -6.56   13119.79      12.72    ConFactorOrdersLimit=0; MaxOrders=0; MaxOrdersPerType=0;
+       12 -10009.07         1504          0.85           -6.65   13213.59      12.80 ConFactorOrdersLimit=1100; MaxOrders=0; MaxOrdersPerType=0;
+        6 -10019.87         1504          0.85           -6.66   13224.39      12.81  ConFactorOrdersLimit=500; MaxOrders=0; MaxOrdersPerType=0;
+        7 -10019.87         1504          0.85           -6.66   13224.39      12.81  ConFactorOrdersLimit=600; MaxOrders=0; MaxOrdersPerType=0;
+        8 -10019.87         1504          0.85           -6.66   13224.39      12.81  ConFactorOrdersLimit=700; MaxOrders=0; MaxOrdersPerType=0;
+        9 -10019.87         1504          0.85           -6.66   13224.39      12.81  ConFactorOrdersLimit=800; MaxOrders=0; MaxOrdersPerType=0;
+       10 -10019.87         1504          0.85           -6.66   13224.39      12.81  ConFactorOrdersLimit=900; MaxOrders=0; MaxOrdersPerType=0;
+       11 -10019.87         1504          0.85           -6.66   13224.39      12.81 ConFactorOrdersLimit=1000; MaxOrders=0; MaxOrdersPerType=0;
+        2 -10034.23         1504          0.85           -6.67   13190.65      12.79  ConFactorOrdersLimit=100; MaxOrders=0; MaxOrdersPerType=0;
+        3 -10034.23         1504          0.85           -6.67   13190.65      12.79  ConFactorOrdersLimit=200; MaxOrders=0; MaxOrdersPerType=0;
+        4 -10034.23         1504          0.85           -6.67   13190.65      12.79  ConFactorOrdersLimit=300; MaxOrders=0; MaxOrdersPerType=0;
+        5 -10034.23         1504          0.85           -6.67   13190.65      12.79  ConFactorOrdersLimit=400; MaxOrders=0; MaxOrdersPerType=0;
