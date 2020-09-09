@@ -12,9 +12,9 @@
                              Spread          10
                                                                  [Optimization Graph]
        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          1   2.37          118          1.00            0.02     224.09       0.22 DeMarker_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
-          2   0.00            0          0.00            0.00       0.00       0.00 DeMarker_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=0;
-          3   0.00            0          0.00            0.00       0.00       0.00 DeMarker_SignalLevel=0.6; MaxOrders=0; MaxOrdersPerType=0;
-          4   0.00            0          0.00            0.00       0.00       0.00 DeMarker_SignalLevel=0.7; MaxOrders=0; MaxOrdersPerType=0;
-          5   0.00            0          0.00            0.00       0.00       0.00 DeMarker_SignalLevel=0.8; MaxOrders=0; MaxOrdersPerType=0;
-          6   0.00            0          0.00            0.00       0.00       0.00 DeMarker_SignalLevel=0.9; MaxOrders=0; MaxOrdersPerType=0;
+          1 424.49          507          1.17            0.84     477.96       0.48 DeMarker_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
+          2   2.38          117          1.00            0.02     219.59       0.22 DeMarker_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
+          3   0.00            0          0.00            0.00       0.00       0.00 DeMarker_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=0;
+          4   0.00            0          0.00            0.00       0.00       0.00 DeMarker_SignalLevel=0.6; MaxOrders=0; MaxOrdersPerType=0;
+          5   0.00            0          0.00            0.00       0.00       0.00 DeMarker_SignalLevel=0.7; MaxOrders=0; MaxOrdersPerType=0;
+          6   0.00            0          0.00            0.00       0.00       0.00 DeMarker_SignalLevel=0.8; MaxOrders=0; MaxOrdersPerType=0;
