@@ -28,9 +28,9 @@ SAR5_SignalMethod=1
 SAR15_SignalMethod=1
 SAR30_SignalMethod=1
 # Dynamic strategy params.
-SAR_TrailingStopMethod=-6
+SAR_TrailingStopMethod=-9
 # Optimization params.
-SAR_TrailingProfitMethod=21
+SAR_TrailingProfitMethod=25
 SAR_TrailingProfitMethod,F=0
 SAR_TrailingProfitMethod,1=0
 SAR_TrailingProfitMethod,2=0
