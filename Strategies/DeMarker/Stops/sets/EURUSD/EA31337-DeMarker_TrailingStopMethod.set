@@ -29,7 +29,7 @@ DeMarker15_SignalMethod=0
 DeMarker30_SignalMethod=0
 DeMarker_TrailingProfitMethod=0
 # Optimization params.
-DeMarker_TrailingStopMethod=7
+DeMarker_TrailingStopMethod=14
 DeMarker_TrailingStopMethod,F=0
 DeMarker_TrailingStopMethod,1=0
 DeMarker_TrailingStopMethod,2=0
