@@ -11,12 +11,13 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           5   7.38           28          1.07            0.26      50.62       0.05 Bands5_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
-           3   5.98           27          1.06            0.22      50.62       0.05 Bands5_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-           7   5.98           27          1.06            0.22      50.62       0.05 Bands5_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=0;
-           1 -14.44           68          0.95           -0.21     136.54       0.14  Bands5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-           8 -27.73           32          0.80           -0.87      61.40       0.06 Bands5_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
-           2 -40.02           22          0.53           -1.82      58.42       0.06  Bands5_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-           4 -40.02           22          0.53           -1.82      58.42       0.06 Bands5_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-           6 -40.02           22          0.53           -1.82      58.42       0.06 Bands5_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=0;
+       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          9  -551.94          386          0.51           -1.43     702.11       0.70 Bands5_SignalMethod=63; MaxOrders=5; MaxOrdersPerType=2;
+          3  -650.93          583          0.61           -1.12     814.13       0.81 Bands5_SignalMethod=21; MaxOrders=5; MaxOrdersPerType=2;
+          1  -739.47          737          0.63           -1.00     920.30       0.92  Bands5_SignalMethod=7; MaxOrders=5; MaxOrdersPerType=2;
+          7  -814.04          824          0.69           -0.99     967.40       0.97 Bands5_SignalMethod=49; MaxOrders=5; MaxOrdersPerType=2;
+          5  -968.60          976          0.65           -0.99    1125.65       1.12 Bands5_SignalMethod=35; MaxOrders=5; MaxOrdersPerType=2;
+          8 -1031.06         1167          0.72           -0.88    1219.27       1.22 Bands5_SignalMethod=56; MaxOrders=5; MaxOrdersPerType=2;
+          6 -1216.65          987          0.60           -1.23    1387.68       1.39 Bands5_SignalMethod=42; MaxOrders=5; MaxOrdersPerType=2;
+          4 -1340.70         1425          0.70           -0.94    1480.17       1.48 Bands5_SignalMethod=28; MaxOrders=5; MaxOrdersPerType=2;
+          2 -1451.11         1290          0.65           -1.12    1555.20       1.55 Bands5_SignalMethod=14; MaxOrders=5; MaxOrdersPerType=2;
