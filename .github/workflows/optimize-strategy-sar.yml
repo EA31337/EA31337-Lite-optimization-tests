@@ -14,6 +14,9 @@ jobs:
       run:
         shell: bash
         working-directory: Strategies/SAR/Indicator
+    if: >
+      endsWith( github.ref, '-sar' ) ||
+      endsWith( github.ref, '-indicator' )
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -46,6 +49,9 @@ jobs:
       run:
         shell: bash
         working-directory: Strategies/SAR/Stops
+    if: >
+      endsWith( github.ref, '-sar' ) ||
+      endsWith( github.ref, '-stops' )
     needs: Indicator
     runs-on: ubuntu-latest
     steps:
@@ -78,6 +84,9 @@ jobs:
       run:
         shell: bash
         working-directory: Strategies/SAR/SignalMethod
+    if: >
+      endsWith( github.ref, '-sar' ) ||
+      endsWith( github.ref, '-signals' )
     needs: Stops
     runs-on: ubuntu-latest
     strategy:
@@ -116,7 +125,10 @@ jobs:
       run:
         shell: bash
         working-directory: Strategies/SAR/Timeframes
-    needs: SignalMethod
+    if: >
+      endsWith( github.ref, '-sar' ) ||
+      endsWith( github.ref, '-tf' )
+    # needs: SignalMethod
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
