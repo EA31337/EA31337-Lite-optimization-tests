@@ -30,7 +30,7 @@ MFI30_SignalMethod=0
 # Dynamic strategy params.
 MFI_TrailingStopMethod=9
 # Optimization params.
-MFI_TrailingProfitMethod=16
+MFI_TrailingProfitMethod=15
 MFI_TrailingProfitMethod,F=0
 MFI_TrailingProfitMethod,1=0
 MFI_TrailingProfitMethod,2=0
