@@ -11,7 +11,7 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1 -3089.64         1942          0.83           -1.59    4361.86       4.32 Fractals_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
-             2 -3089.64         1942          0.83           -1.59    4361.86       4.32 Fractals_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
-             3 -3089.64         1942          0.83           -1.59    4361.86       4.32 Fractals_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              1 -144.49         1056          0.99           -0.14    2111.74       2.09 Fractals_Shift=0; MaxOrders=5; MaxOrdersPerType=2;
+              2 -144.49         1056          0.99           -0.14    2111.74       2.09 Fractals_Shift=1; MaxOrders=5; MaxOrdersPerType=2;
+              3 -144.49         1056          0.99           -0.14    2111.74       2.09 Fractals_Shift=2; MaxOrders=5; MaxOrdersPerType=2;
