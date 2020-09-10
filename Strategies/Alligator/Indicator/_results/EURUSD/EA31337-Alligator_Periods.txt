@@ -11,13 +11,29 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-   Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-      1     0.00            0          0.00            0.00       0.00       0.00   Alligator_Period_Teeth=2; Alligator_Period_Lips=2; MaxOrders=0;
-      2     0.00            0          0.00            0.00       0.00       0.00   Alligator_Period_Teeth=6; Alligator_Period_Lips=2; MaxOrders=0;
-      3     0.00            0          0.00            0.00       0.00       0.00  Alligator_Period_Teeth=10; Alligator_Period_Lips=2; MaxOrders=0;
-      4     0.00            0          0.00            0.00       0.00       0.00   Alligator_Period_Teeth=2; Alligator_Period_Lips=6; MaxOrders=0;
-      5     0.00            0          0.00            0.00       0.00       0.00   Alligator_Period_Teeth=6; Alligator_Period_Lips=6; MaxOrders=0;
-      7     0.00            0          0.00            0.00       0.00       0.00  Alligator_Period_Teeth=2; Alligator_Period_Lips=10; MaxOrders=0;
-      9     0.00            0          0.00            0.00       0.00       0.00 Alligator_Period_Teeth=10; Alligator_Period_Lips=10; MaxOrders=0;
-      6 -4195.19         4526          0.54           -0.93    4233.89       4.23  Alligator_Period_Teeth=10; Alligator_Period_Lips=6; MaxOrders=0;
-      8 -5631.82         7913          0.58           -0.71    5755.92       5.75  Alligator_Period_Teeth=6; Alligator_Period_Lips=10; MaxOrders=0;
+    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      11     0.00            0          0.00            0.00       0.00       0.00 Alligator_Period_Jaw=26; Alligator_Period_Lips=26; MaxOrders=5;
+      17     0.00            0          0.00            0.00       0.00       0.00 Alligator_Period_Jaw=30; Alligator_Period_Lips=30; MaxOrders=5;
+      23     0.00            0          0.00            0.00       0.00       0.00 Alligator_Period_Jaw=34; Alligator_Period_Lips=34; MaxOrders=5;
+      24   -83.24          693          0.96           -0.12     585.38       0.58 Alligator_Period_Jaw=38; Alligator_Period_Lips=34; MaxOrders=5;
+      12  -334.76          932          0.88           -0.36     662.25       0.66 Alligator_Period_Jaw=30; Alligator_Period_Lips=26; MaxOrders=5;
+      13  -421.76         1235          0.88           -0.34     702.35       0.70 Alligator_Period_Jaw=34; Alligator_Period_Lips=26; MaxOrders=5;
+      14  -552.93         1345          0.85           -0.41     747.72       0.75 Alligator_Period_Jaw=38; Alligator_Period_Lips=26; MaxOrders=5;
+      25  -592.17          910          0.79           -0.65     785.38       0.79 Alligator_Period_Jaw=42; Alligator_Period_Lips=34; MaxOrders=5;
+      15  -693.23         1423          0.82           -0.49     900.78       0.90 Alligator_Period_Jaw=42; Alligator_Period_Lips=26; MaxOrders=5;
+      18  -746.89          908          0.73           -0.82     768.52       0.77 Alligator_Period_Jaw=34; Alligator_Period_Lips=30; MaxOrders=5;
+      19  -783.20         1124          0.76           -0.70     960.19       0.96 Alligator_Period_Jaw=38; Alligator_Period_Lips=30; MaxOrders=5;
+       6  -849.81         1211          0.75           -0.70     893.21       0.89 Alligator_Period_Jaw=26; Alligator_Period_Lips=22; MaxOrders=5;
+       7  -849.11         1425          0.78           -0.60     893.46       0.89 Alligator_Period_Jaw=30; Alligator_Period_Lips=22; MaxOrders=5;
+      20 -1009.59         1225          0.72           -0.82    1186.58       1.19 Alligator_Period_Jaw=42; Alligator_Period_Lips=30; MaxOrders=5;
+      10 -1029.44         1619          0.76           -0.64    1078.53       1.08 Alligator_Period_Jaw=42; Alligator_Period_Lips=22; MaxOrders=5;
+       8 -1061.29         1542          0.75           -0.69    1135.82       1.14 Alligator_Period_Jaw=34; Alligator_Period_Lips=22; MaxOrders=5;
+       4 -1077.34         1731          0.76           -0.62    1148.57       1.15 Alligator_Period_Jaw=38; Alligator_Period_Lips=18; MaxOrders=5;
+       9 -1095.00         1611          0.74           -0.68    1149.33       1.15 Alligator_Period_Jaw=38; Alligator_Period_Lips=22; MaxOrders=5;
+       2 -1128.00         1629          0.74           -0.69    1172.30       1.17 Alligator_Period_Jaw=30; Alligator_Period_Lips=18; MaxOrders=5;
+       1 -1211.17         1590          0.72           -0.76    1241.47       1.24 Alligator_Period_Jaw=26; Alligator_Period_Lips=18; MaxOrders=5;
+       5 -1214.88         1723          0.74           -0.71    1282.20       1.28 Alligator_Period_Jaw=42; Alligator_Period_Lips=18; MaxOrders=5;
+       3 -1219.83         1699          0.74           -0.72    1270.56       1.27 Alligator_Period_Jaw=34; Alligator_Period_Lips=18; MaxOrders=5;
+      16 -1827.23         1100          0.50           -1.66    1861.32       1.86 Alligator_Period_Jaw=26; Alligator_Period_Lips=30; MaxOrders=5;
+      22 -2117.48          968          0.41           -2.19    2183.18       2.18 Alligator_Period_Jaw=30; Alligator_Period_Lips=34; MaxOrders=5;
+      21 -2612.92         1417          0.44           -1.84    2637.62       2.64 Alligator_Period_Jaw=26; Alligator_Period_Lips=34; MaxOrders=5;
