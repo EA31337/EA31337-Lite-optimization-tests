@@ -12,19 +12,19 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            1     0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=0; MaxOrders=5; MaxOrdersPerType=2;
-            2     0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=1; MaxOrders=5; MaxOrdersPerType=2;
-            5   -31.42           49          0.94           -0.64     347.41       0.35  Bands_Active_Tf=4; MaxOrders=5; MaxOrdersPerType=2;
-            6   -31.42           49          0.94           -0.64     347.41       0.35  Bands_Active_Tf=5; MaxOrders=5; MaxOrdersPerType=2;
-            3   -33.37           23          0.90           -1.45     242.41       0.24  Bands_Active_Tf=2; MaxOrders=5; MaxOrdersPerType=2;
-            4   -49.97           23          0.85           -2.17     242.41       0.24  Bands_Active_Tf=3; MaxOrders=5; MaxOrdersPerType=2;
-            7  -111.46           70          0.87           -1.59     503.72       0.50  Bands_Active_Tf=6; MaxOrders=5; MaxOrdersPerType=2;
-            8  -111.46           70          0.87           -1.59     503.72       0.50  Bands_Active_Tf=7; MaxOrders=5; MaxOrdersPerType=2;
-            9  -919.83          785          0.61           -1.17     981.96       0.98  Bands_Active_Tf=8; MaxOrders=5; MaxOrdersPerType=2;
-           10  -919.83          785          0.61           -1.17     981.96       0.98  Bands_Active_Tf=9; MaxOrders=5; MaxOrdersPerType=2;
-           11  -965.97          798          0.63           -1.21    1100.63       1.10 Bands_Active_Tf=10; MaxOrders=5; MaxOrdersPerType=2;
-           12  -965.97          798          0.63           -1.21    1100.63       1.10 Bands_Active_Tf=11; MaxOrders=5; MaxOrdersPerType=2;
-           13 -1005.11          823          0.65           -1.22    1121.18       1.12 Bands_Active_Tf=12; MaxOrders=5; MaxOrdersPerType=2;
-           14 -1005.11          823          0.65           -1.22    1121.18       1.12 Bands_Active_Tf=13; MaxOrders=5; MaxOrdersPerType=2;
            15 -1053.72          846          0.67           -1.25    1332.97       1.33 Bands_Active_Tf=14; MaxOrders=5; MaxOrdersPerType=2;
            16 -1053.72          846          0.67           -1.25    1332.97       1.33 Bands_Active_Tf=15; MaxOrders=5; MaxOrdersPerType=2;
+           13 -1005.11          823          0.65           -1.22    1121.18       1.12 Bands_Active_Tf=12; MaxOrders=5; MaxOrdersPerType=2;
+           14 -1005.11          823          0.65           -1.22    1121.18       1.12 Bands_Active_Tf=13; MaxOrders=5; MaxOrdersPerType=2;
+           11  -965.97          798          0.63           -1.21    1100.63       1.10 Bands_Active_Tf=10; MaxOrders=5; MaxOrdersPerType=2;
+           12  -965.97          798          0.63           -1.21    1100.63       1.10 Bands_Active_Tf=11; MaxOrders=5; MaxOrdersPerType=2;
+            9  -919.83          785          0.61           -1.17     981.96       0.98  Bands_Active_Tf=8; MaxOrders=5; MaxOrdersPerType=2;
+           10  -919.83          785          0.61           -1.17     981.96       0.98  Bands_Active_Tf=9; MaxOrders=5; MaxOrdersPerType=2;
+            7  -111.46           70          0.87           -1.59     503.72       0.50  Bands_Active_Tf=6; MaxOrders=5; MaxOrdersPerType=2;
+            8  -111.46           70          0.87           -1.59     503.72       0.50  Bands_Active_Tf=7; MaxOrders=5; MaxOrdersPerType=2;
+            4   -49.97           23          0.85           -2.17     242.41       0.24  Bands_Active_Tf=3; MaxOrders=5; MaxOrdersPerType=2;
+            3   -33.37           23          0.90           -1.45     242.41       0.24  Bands_Active_Tf=2; MaxOrders=5; MaxOrdersPerType=2;
+            5   -31.42           49          0.94           -0.64     347.41       0.35  Bands_Active_Tf=4; MaxOrders=5; MaxOrdersPerType=2;
+            6   -31.42           49          0.94           -0.64     347.41       0.35  Bands_Active_Tf=5; MaxOrders=5; MaxOrdersPerType=2;
+            1     0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=0; MaxOrders=5; MaxOrdersPerType=2;
+            2     0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=1; MaxOrders=5; MaxOrdersPerType=2;
