@@ -33,13 +33,8 @@ Bands_TrailingStopMethod=0
 Bands_TrailingProfitMethod=0
 # Dynamic strategy params.
 Bands_Applied_Price=2
-<<<<<<< Updated upstream
-Bands_HShift=2
-Bands_Period_M1=48
-=======
 Bands_HShift=4
 Bands_Period_M1=32
->>>>>>> Stashed changes
 Bands_Shift=0
 Bands_SignalLevel=13
 # Optimization params.
