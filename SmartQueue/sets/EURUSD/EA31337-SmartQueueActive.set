@@ -5,7 +5,7 @@ Account_Conditions_Active=0
 CloseOrderAfterXHours=24
 MaxOrders=5
 # Optimization params.
-SmartQueueActive=0
+SmartQueueActive=1
 SmartQueueActive,F=0
 SmartQueueActive,1=0
 SmartQueueActive,2=0
