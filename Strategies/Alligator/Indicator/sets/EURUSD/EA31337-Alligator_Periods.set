@@ -35,7 +35,7 @@ Alligator30_SignalMethod=0
 Alligator_TrailingStopMethod=0
 Alligator_TrailingProfitMethod=0
 # Dynamic strategy params.
-Alligator_Applied_Price=1
+Alligator_Applied_Price=0
 Alligator_SignalLevel=0
 # Optimization params.
 Alligator_Period_Jaw=30
