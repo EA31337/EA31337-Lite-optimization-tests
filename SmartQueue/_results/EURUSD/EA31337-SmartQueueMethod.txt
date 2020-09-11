@@ -12,7 +12,16 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            4 -1030.39         1238          0.87           -0.83    1202.09       1.20 SmartQueueMethod=11; MaxOrders=5; MaxOrdersPerType=0;
-            3 -1068.23         1284          0.87           -0.83    1239.93       1.24  SmartQueueMethod=7; MaxOrders=5; MaxOrdersPerType=0;
-            1 -1126.51         1348          0.86           -0.84    1298.21       1.30  SmartQueueMethod=5; MaxOrders=5; MaxOrdersPerType=0;
-            2 -1126.51         1348          0.86           -0.84    1298.21       1.30  SmartQueueMethod=6; MaxOrders=5; MaxOrdersPerType=0;
+            7   735.57          432          1.29            1.70     324.68       0.32  SmartQueueMethod=7; MaxOrders=5; MaxOrdersPerType=2;
+            8   735.57          432          1.29            1.70     324.68       0.32  SmartQueueMethod=8; MaxOrders=5; MaxOrdersPerType=2;
+           13   735.57          432          1.29            1.70     324.68       0.32 SmartQueueMethod=15; MaxOrders=5; MaxOrdersPerType=2;
+            1   728.74          430          1.29            1.69     260.88       0.26  SmartQueueMethod=0; MaxOrders=5; MaxOrdersPerType=2;
+           12   524.40          425          1.21            1.23     269.71       0.27 SmartQueueMethod=13; MaxOrders=5; MaxOrdersPerType=2;
+            2   519.60          425          1.21            1.22     274.51       0.27  SmartQueueMethod=1; MaxOrders=5; MaxOrdersPerType=2;
+           10   519.60          425          1.21            1.22     274.51       0.27 SmartQueueMethod=11; MaxOrders=5; MaxOrdersPerType=2;
+            3  -407.41          933          0.93           -0.44     703.63       0.70  SmartQueueMethod=3; MaxOrders=5; MaxOrdersPerType=2;
+            5  -618.85         1047          0.91           -0.59     996.38       0.99  SmartQueueMethod=5; MaxOrders=5; MaxOrdersPerType=2;
+            6  -618.85         1047          0.91           -0.59     996.38       0.99  SmartQueueMethod=6; MaxOrders=5; MaxOrdersPerType=2;
+           11  -618.85         1047          0.91           -0.59     996.38       0.99 SmartQueueMethod=12; MaxOrders=5; MaxOrdersPerType=2;
+            9  -633.35         1047          0.90           -0.60     996.38       0.99  SmartQueueMethod=9; MaxOrders=5; MaxOrdersPerType=2;
+            4 -1048.70         1212          0.82           -0.87    1307.48       1.31  SmartQueueMethod=4; MaxOrders=5; MaxOrdersPerType=2;
