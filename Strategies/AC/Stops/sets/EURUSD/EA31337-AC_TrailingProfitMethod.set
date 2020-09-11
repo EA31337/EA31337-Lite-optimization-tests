@@ -28,7 +28,7 @@ AC5_SignalMethod=1
 AC15_SignalMethod=1
 AC30_SignalMethod=1
 # Dynamic strategy params.
-AC_TrailingStopMethod=1
+AC_TrailingStopMethod=3
 # Optimization params.
 AC_TrailingProfitMethod=-4
 AC_TrailingProfitMethod,F=0
