@@ -30,7 +30,7 @@ Force30_SignalMethod=0
 Force_TrailingStopMethod=0
 Force_TrailingProfitMethod=0
 # Optimization params.
-Force_SignalLevel=1.3
+Force_SignalLevel=1.2
 Force_SignalLevel,F=0
 Force_SignalLevel,1=0
 Force_SignalLevel,2=0

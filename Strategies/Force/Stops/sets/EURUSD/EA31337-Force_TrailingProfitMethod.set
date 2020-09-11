@@ -28,7 +28,7 @@ Force5_SignalMethod=0
 Force15_SignalMethod=0
 Force30_SignalMethod=0
 # Dynamic strategy params.
-Force_TrailingStopMethod=16
+Force_TrailingStopMethod=17
 # Optimization params.
 Force_TrailingProfitMethod=-5
 Force_TrailingProfitMethod,F=0
