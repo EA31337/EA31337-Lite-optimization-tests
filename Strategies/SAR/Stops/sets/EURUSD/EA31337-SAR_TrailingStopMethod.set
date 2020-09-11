@@ -29,7 +29,7 @@ SAR15_SignalMethod=1
 SAR30_SignalMethod=1
 SAR_TrailingProfitMethod=0
 # Optimization params.
-SAR_TrailingStopMethod=9
+SAR_TrailingStopMethod=8
 SAR_TrailingStopMethod,F=0
 SAR_TrailingStopMethod,1=0
 SAR_TrailingStopMethod,2=0
