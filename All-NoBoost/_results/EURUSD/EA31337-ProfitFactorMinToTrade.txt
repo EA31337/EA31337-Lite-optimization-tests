@@ -11,9 +11,11 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        3  -879.55         3289          0.95           -0.27    2261.69       2.25 ProfitFactorMinToTrade=0.8; MaxOrders=5; MaxOrdersPerType=2;
-        2  -949.76         3194          0.95           -0.30    2400.37       2.39 ProfitFactorMinToTrade=0.7; MaxOrders=5; MaxOrdersPerType=2;
-        1 -1101.88         3252          0.94           -0.34    2333.88       2.32 ProfitFactorMinToTrade=0.6; MaxOrders=5; MaxOrdersPerType=2;
-        4 -1538.78         1968          0.90           -0.78    2257.64       2.25 ProfitFactorMinToTrade=0.9; MaxOrders=5; MaxOrdersPerType=2;
-        5 -1620.35         1688          0.86           -0.96    2103.94       2.10   ProfitFactorMinToTrade=1; MaxOrders=5; MaxOrdersPerType=2;
+      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         7  675.68          648          1.15            1.04     548.08       0.54   ProfitFactorMinToTrade=1; MaxOrders=5; MaxOrdersPerType=2;
+         5  603.59          623          1.14            0.97     522.23       0.52 ProfitFactorMinToTrade=0.8; MaxOrders=5; MaxOrdersPerType=2;
+         6  475.62          429          1.18            1.11     291.24       0.29 ProfitFactorMinToTrade=0.9; MaxOrders=5; MaxOrdersPerType=2;
+         1  361.83         1814          1.04            0.20     705.26       0.70 ProfitFactorMinToTrade=0.4; MaxOrders=5; MaxOrdersPerType=2;
+         4  226.05          872          1.04            0.26     627.71       0.62 ProfitFactorMinToTrade=0.7; MaxOrders=5; MaxOrdersPerType=2;
+         3 -121.05         1531          0.98           -0.08     796.53       0.79 ProfitFactorMinToTrade=0.6; MaxOrders=5; MaxOrdersPerType=2;
+         2 -179.71         1533          0.98           -0.12     855.19       0.85 ProfitFactorMinToTrade=0.5; MaxOrders=5; MaxOrdersPerType=2;
