@@ -11,6 +11,7 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
+<<<<<<< Updated upstream
      Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
        18 -12117.80         2122          0.80           -5.71   16094.35      15.51 ConFactorOrdersLimit=1800; MaxOrders=5; MaxOrdersPerType=2;
        19 -12117.80         2122          0.80           -5.71   16094.35      15.51 ConFactorOrdersLimit=1900; MaxOrders=5; MaxOrdersPerType=2;
@@ -32,3 +33,27 @@
         1 -13478.15         2122          0.82           -6.35   19565.88      18.51  ConFactorOrdersLimit=100; MaxOrders=5; MaxOrdersPerType=2;
         4 -13502.14         2122          0.80           -6.36   17487.89      16.86  ConFactorOrdersLimit=400; MaxOrders=5; MaxOrdersPerType=2;
         3 -13748.62         2122          0.80           -6.48   17720.40      17.08  ConFactorOrdersLimit=300; MaxOrders=5; MaxOrdersPerType=2;
+=======
+       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          2 830.30         1657          1.02            0.50    4346.28       4.14  ConFactorOrdersLimit=100; MaxOrders=5; MaxOrdersPerType=2;
+          4 713.22         1657          1.01            0.43    4198.63       4.01  ConFactorOrdersLimit=300; MaxOrders=5; MaxOrdersPerType=2;
+         15 646.10         1657          1.01            0.39    3465.54       3.33 ConFactorOrdersLimit=1400; MaxOrders=5; MaxOrdersPerType=2;
+         16 646.10         1657          1.01            0.39    3465.54       3.33 ConFactorOrdersLimit=1500; MaxOrders=5; MaxOrdersPerType=2;
+         17 646.10         1657          1.01            0.39    3465.54       3.33 ConFactorOrdersLimit=1600; MaxOrders=5; MaxOrdersPerType=2;
+         18 646.10         1657          1.01            0.39    3465.54       3.33 ConFactorOrdersLimit=1700; MaxOrders=5; MaxOrdersPerType=2;
+         19 646.10         1657          1.01            0.39    3465.54       3.33 ConFactorOrdersLimit=1800; MaxOrders=5; MaxOrdersPerType=2;
+         20 646.10         1657          1.01            0.39    3465.54       3.33 ConFactorOrdersLimit=1900; MaxOrders=5; MaxOrdersPerType=2;
+         21 646.10         1657          1.01            0.39    3465.54       3.33 ConFactorOrdersLimit=2000; MaxOrders=5; MaxOrdersPerType=2;
+          1 596.45         1657          1.01            0.36    5533.46       5.22    ConFactorOrdersLimit=0; MaxOrders=5; MaxOrdersPerType=2;
+          5 592.65         1657          1.01            0.36    4212.67       4.02  ConFactorOrdersLimit=400; MaxOrders=5; MaxOrdersPerType=2;
+          6 575.77         1657          1.01            0.35    4158.05       3.98  ConFactorOrdersLimit=500; MaxOrders=5; MaxOrdersPerType=2;
+         14 510.42         1657          1.01            0.31    3617.22       3.48 ConFactorOrdersLimit=1300; MaxOrders=5; MaxOrdersPerType=2;
+         12 479.68         1657          1.01            0.29    3652.35       3.51 ConFactorOrdersLimit=1100; MaxOrders=5; MaxOrdersPerType=2;
+          8 353.82         1657          1.01            0.21    4171.27       4.00  ConFactorOrdersLimit=700; MaxOrders=5; MaxOrdersPerType=2;
+         13 339.40         1657          1.01            0.20    3792.64       3.65 ConFactorOrdersLimit=1200; MaxOrders=5; MaxOrdersPerType=2;
+          7 265.27         1657          1.01            0.16    4166.77       3.99  ConFactorOrdersLimit=600; MaxOrders=5; MaxOrdersPerType=2;
+         10 250.16         1657          1.01            0.15    4102.04       3.94  ConFactorOrdersLimit=900; MaxOrders=5; MaxOrdersPerType=2;
+         11 232.41         1657          1.00            0.14    3899.62       3.75 ConFactorOrdersLimit=1000; MaxOrders=5; MaxOrdersPerType=2;
+          9 232.82         1657          1.00            0.14    4146.66       3.98  ConFactorOrdersLimit=800; MaxOrders=5; MaxOrdersPerType=2;
+          3 224.05         1657          1.00            0.14    4275.71       4.10  ConFactorOrdersLimit=200; MaxOrders=5; MaxOrdersPerType=2;
+>>>>>>> Stashed changes
