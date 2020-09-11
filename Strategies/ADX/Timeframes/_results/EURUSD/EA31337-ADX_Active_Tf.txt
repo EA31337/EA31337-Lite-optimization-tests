@@ -11,20 +11,20 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             13   66.46           67          1.07            0.99     488.80       0.49 ADX_Active_Tf=12; MaxOrders=5; MaxOrdersPerType=2;
-              9  102.58           21          1.33            4.88     130.58       0.13  ADX_Active_Tf=8; MaxOrders=5; MaxOrdersPerType=2;
-              8 -541.76          227          0.80           -2.39    1105.54       1.10  ADX_Active_Tf=7; MaxOrders=5; MaxOrdersPerType=2;
-              4 -529.49          190          0.75           -2.79     729.02       0.73  ADX_Active_Tf=3; MaxOrders=5; MaxOrdersPerType=2;
-             12 -428.04          213          0.82           -2.01     762.44       0.76 ADX_Active_Tf=11; MaxOrders=5; MaxOrdersPerType=2;
-             16 -421.78          250          0.86           -1.69    1090.44       1.08 ADX_Active_Tf=15; MaxOrders=5; MaxOrdersPerType=2;
-              7 -296.28          111          0.81           -2.67     783.28       0.78  ADX_Active_Tf=6; MaxOrders=5; MaxOrdersPerType=2;
-              3 -234.00           66          0.74           -3.55     387.14       0.39  ADX_Active_Tf=2; MaxOrders=5; MaxOrdersPerType=2;
-              6 -208.83          158          0.88           -1.32     682.05       0.68  ADX_Active_Tf=5; MaxOrders=5; MaxOrdersPerType=2;
-             15 -171.40          132          0.91           -1.30     829.61       0.83 ADX_Active_Tf=14; MaxOrders=5; MaxOrdersPerType=2;
-              2 -167.79          121          0.84           -1.39     362.95       0.36  ADX_Active_Tf=1; MaxOrders=5; MaxOrdersPerType=2;
-             11 -145.85           88          0.88           -1.66     415.78       0.41 ADX_Active_Tf=10; MaxOrders=5; MaxOrdersPerType=2;
-             14  -90.35          182          0.96           -0.50     674.85       0.67 ADX_Active_Tf=13; MaxOrders=5; MaxOrdersPerType=2;
-             10  -60.31          142          0.96           -0.42     380.69       0.38  ADX_Active_Tf=9; MaxOrders=5; MaxOrdersPerType=2;
-              5  -18.82           46          0.97           -0.41     422.89       0.42  ADX_Active_Tf=4; MaxOrders=5; MaxOrdersPerType=2;
-              1    0.00            0          0.00            0.00       0.00       0.00  ADX_Active_Tf=0; MaxOrders=5; MaxOrdersPerType=2;
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            10   356.18          178          1.22            2.00     315.42       0.31  ADX_Active_Tf=9; MaxOrders=5; MaxOrdersPerType=2;
+             2   231.10          156          1.18            1.48     283.22       0.28  ADX_Active_Tf=1; MaxOrders=5; MaxOrdersPerType=2;
+             9   102.58           21          1.33            4.88     130.58       0.13  ADX_Active_Tf=8; MaxOrders=5; MaxOrdersPerType=2;
+            12    59.89          406          1.02            0.15     686.52       0.68 ADX_Active_Tf=11; MaxOrders=5; MaxOrdersPerType=2;
+             1     0.00            0          0.00            0.00       0.00       0.00  ADX_Active_Tf=0; MaxOrders=5; MaxOrdersPerType=2;
+             4    -3.66          384          1.00           -0.01     616.02       0.61  ADX_Active_Tf=3; MaxOrders=5; MaxOrdersPerType=2;
+            11  -144.44          123          0.92           -1.17     526.02       0.52 ADX_Active_Tf=10; MaxOrders=5; MaxOrdersPerType=2;
+             3  -178.39          103          0.87           -1.73     495.56       0.49  ADX_Active_Tf=2; MaxOrders=5; MaxOrdersPerType=2;
+             5  -289.94          412          0.91           -0.70     866.17       0.86  ADX_Active_Tf=4; MaxOrders=5; MaxOrdersPerType=2;
+            13  -363.50          762          0.93           -0.48    1072.91       1.07 ADX_Active_Tf=12; MaxOrders=5; MaxOrdersPerType=2;
+             7  -506.11          621          0.91           -0.81    1246.70       1.24  ADX_Active_Tf=6; MaxOrders=5; MaxOrdersPerType=2;
+            15  -627.07          991          0.91           -0.63    1522.33       1.51 ADX_Active_Tf=14; MaxOrders=5; MaxOrdersPerType=2;
+            14  -708.13         1387          0.92           -0.51    1265.92       1.26 ADX_Active_Tf=13; MaxOrders=5; MaxOrdersPerType=2;
+             6  -808.87         1025          0.88           -0.79    1209.67       1.21  ADX_Active_Tf=5; MaxOrders=5; MaxOrdersPerType=2;
+             8 -1032.67         1148          0.87           -0.90    1688.84       1.68  ADX_Active_Tf=7; MaxOrders=5; MaxOrdersPerType=2;
+            16 -1070.31         1892          0.91           -0.57    2044.29       2.03 ADX_Active_Tf=15; MaxOrders=5; MaxOrdersPerType=2;
