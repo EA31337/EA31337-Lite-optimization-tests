@@ -11,26 +11,4 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-   3 -2872.30         1831          0.94           -1.57    9655.75       9.36                   WorseDailyStrategyMultiplierFactor=0.2; MaxOrders=5;
-                                                                                                                                  MaxOrdersPerType=2;
-   2 -2884.45         1830          0.94           -1.58    9668.03       9.37                   WorseDailyStrategyMultiplierFactor=0.1; MaxOrders=5;
-                                                                                                                                  MaxOrdersPerType=2;
-   4 -3222.63         1831          0.93           -1.76   10344.73      10.03                   WorseDailyStrategyMultiplierFactor=0.3; MaxOrders=5;
-                                                                                                                                  MaxOrdersPerType=2;
-   5 -3457.02         1831          0.93           -1.89   10600.82      10.25                   WorseDailyStrategyMultiplierFactor=0.4; MaxOrders=5;
-                                                                                                                                  MaxOrdersPerType=2;
-   6 -6545.47         1831          0.88           -3.57   13701.23      13.22                   WorseDailyStrategyMultiplierFactor=0.5; MaxOrders=5;
-                                                                                                                                  MaxOrdersPerType=2;
-   7 -6625.04         1831          0.88           -3.62   13810.70      13.34                   WorseDailyStrategyMultiplierFactor=0.6; MaxOrders=5;
-                                                                                                                                  MaxOrdersPerType=2;
-   8 -7041.68         1831          0.88           -3.85   14741.07      14.19                   WorseDailyStrategyMultiplierFactor=0.7; MaxOrders=5;
-                                                                                                                                  MaxOrdersPerType=2;
-   9 -7705.40         1831          0.88           -4.21   15374.64      14.80                   WorseDailyStrategyMultiplierFactor=0.8; MaxOrders=5;
-                                                                                                                                  MaxOrdersPerType=2;
-  10 -8239.55         1831          0.87           -4.50   15981.52      15.42                   WorseDailyStrategyMultiplierFactor=0.9; MaxOrders=5;
-                                                                                                                                  MaxOrdersPerType=2;
-   1 -8884.07         1825          0.86           -4.87   14747.53      14.18 WorseDailyStrategyMultiplierFactor=0; MaxOrders=5; MaxOrdersPerType=2;
-  11 -8985.17         1831          0.87           -4.91   16847.20      16.26 WorseDailyStrategyMultiplierFactor=1; MaxOrders=5; MaxOrdersPerType=2;
-  12 -9519.60         1831          0.86           -5.20   17381.39      16.75                   WorseDailyStrategyMultiplierFactor=1.1; MaxOrders=5;
-                                                                                                                                  MaxOrdersPerType=2;
+                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
