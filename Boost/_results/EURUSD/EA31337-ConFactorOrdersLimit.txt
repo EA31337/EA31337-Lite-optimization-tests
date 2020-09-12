@@ -11,29 +11,6 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-<<<<<<< Updated upstream
-     Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       18 -12117.80         2122          0.80           -5.71   16094.35      15.51 ConFactorOrdersLimit=1800; MaxOrders=5; MaxOrdersPerType=2;
-       19 -12117.80         2122          0.80           -5.71   16094.35      15.51 ConFactorOrdersLimit=1900; MaxOrders=5; MaxOrdersPerType=2;
-       20 -12117.80         2122          0.80           -5.71   16094.35      15.51 ConFactorOrdersLimit=2000; MaxOrders=5; MaxOrdersPerType=2;
-       16 -12233.57         2122          0.80           -5.77   16219.32      15.63 ConFactorOrdersLimit=1600; MaxOrders=5; MaxOrdersPerType=2;
-       17 -12306.02         2122          0.80           -5.80   16290.27      15.70 ConFactorOrdersLimit=1700; MaxOrders=5; MaxOrdersPerType=2;
-       12 -12510.26         2122          0.80           -5.90   16495.21      15.90 ConFactorOrdersLimit=1200; MaxOrders=5; MaxOrdersPerType=2;
-       14 -12569.09         2122          0.80           -5.92   16554.05      15.96 ConFactorOrdersLimit=1400; MaxOrders=5; MaxOrdersPerType=2;
-       15 -12787.76         2122          0.79           -6.03   16772.01      16.17 ConFactorOrdersLimit=1500; MaxOrders=5; MaxOrdersPerType=2;
-       13 -12917.98         2122          0.80           -6.09   16860.52      16.25 ConFactorOrdersLimit=1300; MaxOrders=5; MaxOrdersPerType=2;
-        2 -12929.65         2122          0.82           -6.09   18751.31      17.78  ConFactorOrdersLimit=200; MaxOrders=5; MaxOrdersPerType=2;
-        7 -13087.31         2122          0.80           -6.17   17073.06      16.46  ConFactorOrdersLimit=700; MaxOrders=5; MaxOrdersPerType=2;
-       10 -13178.75         2122          0.80           -6.21   17164.49      16.54 ConFactorOrdersLimit=1000; MaxOrders=5; MaxOrdersPerType=2;
-       11 -13215.10         2122          0.79           -6.23   17199.36      16.58 ConFactorOrdersLimit=1100; MaxOrders=5; MaxOrdersPerType=2;
-        8 -13316.14         2122          0.80           -6.28   17300.40      16.67  ConFactorOrdersLimit=800; MaxOrders=5; MaxOrdersPerType=2;
-        9 -13321.68         2122          0.80           -6.28   17305.93      16.68  ConFactorOrdersLimit=900; MaxOrders=5; MaxOrdersPerType=2;
-        6 -13338.55         2122          0.80           -6.29   17324.30      16.70  ConFactorOrdersLimit=600; MaxOrders=5; MaxOrdersPerType=2;
-        5 -13349.04         2122          0.80           -6.29   17334.79      16.71  ConFactorOrdersLimit=500; MaxOrders=5; MaxOrdersPerType=2;
-        1 -13478.15         2122          0.82           -6.35   19565.88      18.51  ConFactorOrdersLimit=100; MaxOrders=5; MaxOrdersPerType=2;
-        4 -13502.14         2122          0.80           -6.36   17487.89      16.86  ConFactorOrdersLimit=400; MaxOrders=5; MaxOrdersPerType=2;
-        3 -13748.62         2122          0.80           -6.48   17720.40      17.08  ConFactorOrdersLimit=300; MaxOrders=5; MaxOrdersPerType=2;
-=======
        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
           2 830.30         1657          1.02            0.50    4346.28       4.14  ConFactorOrdersLimit=100; MaxOrders=5; MaxOrdersPerType=2;
           4 713.22         1657          1.01            0.43    4198.63       4.01  ConFactorOrdersLimit=300; MaxOrders=5; MaxOrdersPerType=2;
@@ -56,4 +33,3 @@
          11 232.41         1657          1.00            0.14    3899.62       3.75 ConFactorOrdersLimit=1000; MaxOrders=5; MaxOrdersPerType=2;
           9 232.82         1657          1.00            0.14    4146.66       3.98  ConFactorOrdersLimit=800; MaxOrders=5; MaxOrdersPerType=2;
           3 224.05         1657          1.00            0.14    4275.71       4.10  ConFactorOrdersLimit=200; MaxOrders=5; MaxOrdersPerType=2;
->>>>>>> Stashed changes
