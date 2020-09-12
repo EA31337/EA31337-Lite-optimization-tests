@@ -6,20 +6,20 @@
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
              Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                2 -8919.08         1504          0.87           -5.93   11212.02      10.96  MaxOrdersPerType=2; MaxOrders=0; LotSize=0;
-                3 -8926.01         1504          0.87           -5.93   11212.02      10.97  MaxOrdersPerType=4; MaxOrders=0; LotSize=0;
-                4 -8926.01         1504          0.87           -5.93   11212.02      10.97  MaxOrdersPerType=6; MaxOrders=0; LotSize=0;
-                5 -8926.01         1504          0.87           -5.93   11212.02      10.97  MaxOrdersPerType=8; MaxOrders=0; LotSize=0;
-                6 -8926.01         1504          0.87           -5.93   11212.02      10.97 MaxOrdersPerType=10; MaxOrders=0; LotSize=0;
-                7 -8926.01         1504          0.87           -5.93   11212.02      10.97 MaxOrdersPerType=12; MaxOrders=0; LotSize=0;
-                8 -8926.01         1504          0.87           -5.93   11212.02      10.97 MaxOrdersPerType=14; MaxOrders=0; LotSize=0;
-                9 -8926.01         1504          0.87           -5.93   11212.02      10.97 MaxOrdersPerType=16; MaxOrders=0; LotSize=0;
-               10 -8926.01         1504          0.87           -5.93   11212.02      10.97 MaxOrdersPerType=18; MaxOrders=0; LotSize=0;
-               11 -8926.01         1504          0.87           -5.93   11212.02      10.97 MaxOrdersPerType=20; MaxOrders=0; LotSize=0;
-                1 -8942.24         1525          0.87           -5.86   11212.02      10.97  MaxOrdersPerType=0; MaxOrders=0; LotSize=0;
+                1 -1114.85         1957          0.94           -0.57    2685.76       2.68  MaxOrdersPerType=0; MaxOrders=0; LotSize=0;
+                3 -1114.85         1957          0.94           -0.57    2685.76       2.68  MaxOrdersPerType=4; MaxOrders=0; LotSize=0;
+                4 -1114.85         1957          0.94           -0.57    2685.76       2.68  MaxOrdersPerType=6; MaxOrders=0; LotSize=0;
+                5 -1114.85         1957          0.94           -0.57    2685.76       2.68  MaxOrdersPerType=8; MaxOrders=0; LotSize=0;
+                6 -1114.85         1957          0.94           -0.57    2685.76       2.68 MaxOrdersPerType=10; MaxOrders=0; LotSize=0;
+                7 -1114.85         1957          0.94           -0.57    2685.76       2.68 MaxOrdersPerType=12; MaxOrders=0; LotSize=0;
+                8 -1114.85         1957          0.94           -0.57    2685.76       2.68 MaxOrdersPerType=14; MaxOrders=0; LotSize=0;
+                9 -1114.85         1957          0.94           -0.57    2685.76       2.68 MaxOrdersPerType=16; MaxOrders=0; LotSize=0;
+               10 -1114.85         1957          0.94           -0.57    2685.76       2.68 MaxOrdersPerType=18; MaxOrders=0; LotSize=0;
+               11 -1114.85         1957          0.94           -0.57    2685.76       2.68 MaxOrdersPerType=20; MaxOrders=0; LotSize=0;
+                2 -2400.70         1933          0.88           -1.24    3862.02       3.85  MaxOrdersPerType=2; MaxOrders=0; LotSize=0;
