@@ -16,6 +16,7 @@ jobs:
         working-directory: Bools
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         task:
           - Account_Conditions_Active
