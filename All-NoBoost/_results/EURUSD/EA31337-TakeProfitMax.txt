@@ -12,6 +12,6 @@
                              Spread          10
                                                                  [Optimization Graph]
           Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1  -553.10         2955          0.96           -0.19    1544.74       1.54  TakeProfitMax=0; MaxOrders=5; MaxOrdersPerType=2;
-             3 -2586.46         5237          0.82           -0.49    2767.65       2.76 TakeProfitMax=40; MaxOrders=5; MaxOrdersPerType=2;
-             2 -2780.60         5729          0.82           -0.49    3295.31       3.28 TakeProfitMax=20; MaxOrders=5; MaxOrdersPerType=2;
+             1   157.72         2030          1.01            0.08    1088.28       1.08  TakeProfitMax=0; MaxOrders=0; MaxOrdersPerType=0;
+             2 -2730.98         4608          0.79           -0.59    3108.76       3.10 TakeProfitMax=20; MaxOrders=0; MaxOrdersPerType=0;
+             3 -2849.89         4809          0.79           -0.59    3209.89       3.20 TakeProfitMax=40; MaxOrders=0; MaxOrdersPerType=0;
