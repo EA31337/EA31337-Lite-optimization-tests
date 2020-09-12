@@ -12,10 +12,8 @@
                              Spread          10
                                                                  [Optimization Graph]
       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         7  675.68          648          1.15            1.04     548.08       0.54   ProfitFactorMinToTrade=1; MaxOrders=5; MaxOrdersPerType=2;
-         5  603.59          623          1.14            0.97     522.23       0.52 ProfitFactorMinToTrade=0.8; MaxOrders=5; MaxOrdersPerType=2;
-         6  475.62          429          1.18            1.11     291.24       0.29 ProfitFactorMinToTrade=0.9; MaxOrders=5; MaxOrdersPerType=2;
-         1  361.83         1814          1.04            0.20     705.26       0.70 ProfitFactorMinToTrade=0.4; MaxOrders=5; MaxOrdersPerType=2;
-         4  226.05          872          1.04            0.26     627.71       0.62 ProfitFactorMinToTrade=0.7; MaxOrders=5; MaxOrdersPerType=2;
-         3 -121.05         1531          0.98           -0.08     796.53       0.79 ProfitFactorMinToTrade=0.6; MaxOrders=5; MaxOrdersPerType=2;
-         2 -179.71         1533          0.98           -0.12     855.19       0.85 ProfitFactorMinToTrade=0.5; MaxOrders=5; MaxOrdersPerType=2;
+         4  293.84          441          1.10            0.67     728.56       0.73 ProfitFactorMinToTrade=0.9; MaxOrders=0; MaxOrdersPerType=0;
+         1  131.99         1496          1.02            0.09     883.04       0.88 ProfitFactorMinToTrade=0.6; MaxOrders=0; MaxOrdersPerType=0;
+         2  131.99         1496          1.02            0.09     883.04       0.88 ProfitFactorMinToTrade=0.7; MaxOrders=0; MaxOrdersPerType=0;
+         5  115.01          443          1.03            0.26     734.95       0.73   ProfitFactorMinToTrade=1; MaxOrders=0; MaxOrdersPerType=0;
+         3 -211.63          523          0.95           -0.40     857.01       0.85 ProfitFactorMinToTrade=0.8; MaxOrders=0; MaxOrdersPerType=0;
