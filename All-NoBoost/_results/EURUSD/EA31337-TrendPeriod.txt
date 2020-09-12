@@ -11,10 +11,10 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-          Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             6   -952.15         3023          0.94           -0.31    2592.08       2.57 TrendPeriod=1440; MaxOrders=5; MaxOrdersPerType=2;
-             5  -1898.79         3776          0.90           -0.50    2735.71       2.71  TrendPeriod=240; MaxOrders=5; MaxOrdersPerType=2;
-             4  -4431.45         5137          0.82           -0.86    4800.75       4.78   TrendPeriod=60; MaxOrders=5; MaxOrdersPerType=2;
-             3  -8196.60         7454          0.74           -1.10    8659.88       8.62   TrendPeriod=30; MaxOrders=5; MaxOrdersPerType=2;
-             2 -11756.45        10685          0.69           -1.10   12330.17      12.27   TrendPeriod=15; MaxOrders=5; MaxOrdersPerType=2;
-             1 -15210.57        13119          0.64           -1.16   15689.50      15.62    TrendPeriod=5; MaxOrders=5; MaxOrdersPerType=2;
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             6  -643.89         2792          0.95           -0.23    1622.59       1.61 TrendPeriod=1440; MaxOrders=5; MaxOrdersPerType=2;
+             5 -2258.49         3266          0.86           -0.69    2559.11       2.55  TrendPeriod=240; MaxOrders=5; MaxOrdersPerType=2;
+             4 -2796.37         3624          0.84           -0.77    3182.10       3.17   TrendPeriod=60; MaxOrders=5; MaxOrdersPerType=2;
+             2 -3492.42         4290          0.83           -0.81    4063.57       4.04   TrendPeriod=15; MaxOrders=5; MaxOrdersPerType=2;
+             1 -3572.58         4405          0.83           -0.81    4134.02       4.11    TrendPeriod=5; MaxOrders=5; MaxOrdersPerType=2;
+             3 -3801.02         4036          0.80           -0.94    4222.54       4.21   TrendPeriod=30; MaxOrders=5; MaxOrdersPerType=2;
