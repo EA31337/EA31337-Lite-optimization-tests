@@ -11,9 +11,18 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1 -2007.59         1830          0.92           -1.10    5654.27       5.56 BoostTrendFactor=0.1; MaxOrders=5; MaxOrdersPerType=2;
-           2 -2157.77         1831          0.92           -1.18    5779.27       5.68 BoostTrendFactor=0.2; MaxOrders=5; MaxOrdersPerType=2;
-           3 -2947.75         1831          0.91           -1.61    6823.16       6.70 BoostTrendFactor=0.3; MaxOrders=5; MaxOrdersPerType=2;
-           4 -3947.10         1831          0.89           -2.16    8205.76       8.06 BoostTrendFactor=0.4; MaxOrders=5; MaxOrdersPerType=2;
-           5 -4651.68         1831          0.89           -2.54    9546.47       9.35 BoostTrendFactor=0.5; MaxOrders=5; MaxOrdersPerType=2;
+<<<<<<< Updated upstream
+       Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          1 -12624.27         2122          0.76           -5.95   13794.89      13.65 BoostTrendFactor=-0.1; MaxOrders=5; MaxOrdersPerType=2;
+          2 -12624.27         2122          0.76           -5.95   13794.89      13.65    BoostTrendFactor=0; MaxOrders=5; MaxOrdersPerType=2;
+          3 -12648.74         2122          0.76           -5.96   13819.35      13.68  BoostTrendFactor=0.1; MaxOrders=5; MaxOrdersPerType=2;
+          4 -12735.78         2122          0.76           -6.00   13906.39      13.76  BoostTrendFactor=0.2; MaxOrders=5; MaxOrdersPerType=2;
+          5 -14476.02         2122          0.77           -6.82   15645.33      15.48  BoostTrendFactor=0.3; MaxOrders=5; MaxOrdersPerType=2;
+=======
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           4 1964.99         1657          1.04            1.19    6216.13       5.75  BoostTrendFactor=0.2; MaxOrders=5; MaxOrdersPerType=2;
+           1 1827.18         1657          1.04            1.10    6319.95       5.85 BoostTrendFactor=-0.1; MaxOrders=5; MaxOrdersPerType=2;
+           2 1827.18         1657          1.04            1.10    6319.95       5.85    BoostTrendFactor=0; MaxOrders=5; MaxOrdersPerType=2;
+           3 1822.49         1657          1.04            1.10    6325.65       5.85  BoostTrendFactor=0.1; MaxOrders=5; MaxOrdersPerType=2;
+           5 1615.72         1657          1.03            0.98    6008.62       5.59  BoostTrendFactor=0.3; MaxOrders=5; MaxOrdersPerType=2;
+>>>>>>> Stashed changes

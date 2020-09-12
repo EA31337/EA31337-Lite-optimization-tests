@@ -13,7 +13,11 @@ WorseWeeklyStrategyMultiplierFactor=1.0
 WorseMonthlyStrategyMultiplierFactor=1.0
 BoostTrendFactor=1.0
 # Optimization params.
-ConFactorOrdersLimit=1000
+<<<<<<< Updated upstream
+ConFactorOrdersLimit=1800
+=======
+ConFactorOrdersLimit=100
+>>>>>>> Stashed changes
 ConFactorOrdersLimit,F=0
 ConFactorOrdersLimit,1=0
 ConFactorOrdersLimit,2=0
