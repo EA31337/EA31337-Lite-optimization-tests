@@ -6,30 +6,21 @@
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          2 830.30         1657          1.02            0.50    4346.28       4.14  ConFactorOrdersLimit=100; MaxOrders=5; MaxOrdersPerType=2;
-          4 713.22         1657          1.01            0.43    4198.63       4.01  ConFactorOrdersLimit=300; MaxOrders=5; MaxOrdersPerType=2;
-         15 646.10         1657          1.01            0.39    3465.54       3.33 ConFactorOrdersLimit=1400; MaxOrders=5; MaxOrdersPerType=2;
-         16 646.10         1657          1.01            0.39    3465.54       3.33 ConFactorOrdersLimit=1500; MaxOrders=5; MaxOrdersPerType=2;
-         17 646.10         1657          1.01            0.39    3465.54       3.33 ConFactorOrdersLimit=1600; MaxOrders=5; MaxOrdersPerType=2;
-         18 646.10         1657          1.01            0.39    3465.54       3.33 ConFactorOrdersLimit=1700; MaxOrders=5; MaxOrdersPerType=2;
-         19 646.10         1657          1.01            0.39    3465.54       3.33 ConFactorOrdersLimit=1800; MaxOrders=5; MaxOrdersPerType=2;
-         20 646.10         1657          1.01            0.39    3465.54       3.33 ConFactorOrdersLimit=1900; MaxOrders=5; MaxOrdersPerType=2;
-         21 646.10         1657          1.01            0.39    3465.54       3.33 ConFactorOrdersLimit=2000; MaxOrders=5; MaxOrdersPerType=2;
-          1 596.45         1657          1.01            0.36    5533.46       5.22    ConFactorOrdersLimit=0; MaxOrders=5; MaxOrdersPerType=2;
-          5 592.65         1657          1.01            0.36    4212.67       4.02  ConFactorOrdersLimit=400; MaxOrders=5; MaxOrdersPerType=2;
-          6 575.77         1657          1.01            0.35    4158.05       3.98  ConFactorOrdersLimit=500; MaxOrders=5; MaxOrdersPerType=2;
-         14 510.42         1657          1.01            0.31    3617.22       3.48 ConFactorOrdersLimit=1300; MaxOrders=5; MaxOrdersPerType=2;
-         12 479.68         1657          1.01            0.29    3652.35       3.51 ConFactorOrdersLimit=1100; MaxOrders=5; MaxOrdersPerType=2;
-          8 353.82         1657          1.01            0.21    4171.27       4.00  ConFactorOrdersLimit=700; MaxOrders=5; MaxOrdersPerType=2;
-         13 339.40         1657          1.01            0.20    3792.64       3.65 ConFactorOrdersLimit=1200; MaxOrders=5; MaxOrdersPerType=2;
-          7 265.27         1657          1.01            0.16    4166.77       3.99  ConFactorOrdersLimit=600; MaxOrders=5; MaxOrdersPerType=2;
-         10 250.16         1657          1.01            0.15    4102.04       3.94  ConFactorOrdersLimit=900; MaxOrders=5; MaxOrdersPerType=2;
-         11 232.41         1657          1.00            0.14    3899.62       3.75 ConFactorOrdersLimit=1000; MaxOrders=5; MaxOrdersPerType=2;
-          9 232.82         1657          1.00            0.14    4146.66       3.98  ConFactorOrdersLimit=800; MaxOrders=5; MaxOrdersPerType=2;
-          3 224.05         1657          1.00            0.14    4275.71       4.10  ConFactorOrdersLimit=200; MaxOrders=5; MaxOrdersPerType=2;
+      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        10  363.57         1985          1.01            0.18    4553.72       4.45  ConFactorOrdersLimit=900; MaxOrders=0; MaxOrdersPerType=0;
+         9  315.34         1985          1.01            0.16    4840.45       4.73  ConFactorOrdersLimit=800; MaxOrders=0; MaxOrdersPerType=0;
+        11  -24.73         1985          1.00           -0.01    4553.72       4.45 ConFactorOrdersLimit=1000; MaxOrders=0; MaxOrdersPerType=0;
+        12  -66.42         1985          1.00           -0.03    4553.72       4.45 ConFactorOrdersLimit=1100; MaxOrders=0; MaxOrdersPerType=0;
+         8 -195.89         1985          1.00           -0.10    5225.20       5.10  ConFactorOrdersLimit=700; MaxOrders=0; MaxOrdersPerType=0;
+         7 -460.70         1985          0.99           -0.23    5369.64       5.25  ConFactorOrdersLimit=600; MaxOrders=0; MaxOrdersPerType=0;
+         6 -470.35         1985          0.99           -0.24    5627.50       5.49  ConFactorOrdersLimit=500; MaxOrders=0; MaxOrdersPerType=0;
+         5 -634.83         1985          0.99           -0.32    5820.35       5.69  ConFactorOrdersLimit=400; MaxOrders=0; MaxOrdersPerType=0;
+         4 -744.40         1985          0.99           -0.38    6701.98       6.52  ConFactorOrdersLimit=300; MaxOrders=0; MaxOrdersPerType=0;
+         1 -826.14         1985          0.99           -0.42    9490.46       9.12    ConFactorOrdersLimit=0; MaxOrders=0; MaxOrdersPerType=0;
+         2 -926.39         1985          0.99           -0.47    8171.08       7.89  ConFactorOrdersLimit=100; MaxOrders=0; MaxOrdersPerType=0;
+         3 -988.19         1985          0.98           -0.50    6745.16       6.58  ConFactorOrdersLimit=200; MaxOrders=0; MaxOrdersPerType=0;

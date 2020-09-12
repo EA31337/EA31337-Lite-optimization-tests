@@ -6,14 +6,14 @@
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           4 1964.99         1657          1.04            1.19    6216.13       5.75  BoostTrendFactor=0.2; MaxOrders=5; MaxOrdersPerType=2;
-           1 1827.18         1657          1.04            1.10    6319.95       5.85 BoostTrendFactor=-0.1; MaxOrders=5; MaxOrdersPerType=2;
-           2 1827.18         1657          1.04            1.10    6319.95       5.85    BoostTrendFactor=0; MaxOrders=5; MaxOrdersPerType=2;
-           3 1822.49         1657          1.04            1.10    6325.65       5.85  BoostTrendFactor=0.1; MaxOrders=5; MaxOrdersPerType=2;
-           5 1615.72         1657          1.03            0.98    6008.62       5.59  BoostTrendFactor=0.3; MaxOrders=5; MaxOrdersPerType=2;
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           4 -2918.30         1985          0.94           -1.47    5518.48       5.49 BoostTrendFactor=0.3; MaxOrders=0; MaxOrdersPerType=0;
+           1 -2958.10         1985          0.92           -1.49    5682.91       5.66   BoostTrendFactor=0; MaxOrders=0; MaxOrdersPerType=0;
+           2 -2958.10         1985          0.92           -1.49    5682.91       5.66 BoostTrendFactor=0.1; MaxOrders=0; MaxOrdersPerType=0;
+           3 -3158.60         1985          0.92           -1.59    5904.96       5.88 BoostTrendFactor=0.2; MaxOrders=0; MaxOrdersPerType=0;
+           5 -3267.21         1985          0.93           -1.65    5964.64       5.93 BoostTrendFactor=0.4; MaxOrders=0; MaxOrdersPerType=0;
