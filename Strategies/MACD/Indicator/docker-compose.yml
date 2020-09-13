@@ -10,7 +10,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=40
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
       RUN_ON_SET: >
         for p in Fast Slow Signal; do
         set_opt_params "MACD_Period_$${p}"
@@ -30,7 +30,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=40
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
       RUN_ON_SET: set_opt_params MACD_Applied_Price 0 6
       SETFILE: /opt/sets/EA31337-MACD_Applied_Price.set
       SET_PARAMS: MACD_Applied_Price
@@ -44,7 +44,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=40
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
       RUN_ON_SET: >
         set_opt_params MACD_SignalLevel
         $$(bc <<< "$$(input_get MACD_SignalLevel) - 0.1 * 4")
@@ -62,7 +62,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=40
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
       RUN_ON_SET: >
         set_opt_params MACD_Shift
         $$(get_max 0 $$(bc <<< "$$(input_get MACD_Shift) - 1 * 2"))

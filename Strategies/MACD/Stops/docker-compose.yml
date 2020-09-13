@@ -10,7 +10,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=8
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
       RUN_ON_SET: set_opt_params MACD_TrailingStopMethod 1 -25 0
       RUN_ON_SUCCESS: >
         input_copy "$${SET_PARAMS}" "$${SETFILE}"
@@ -27,7 +27,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=8
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
       RUN_ON_SET: set_opt_params MACD_TrailingProfitMethod 1 -25 0
       SETFILE: /opt/sets/EA31337-MACD_TrailingProfitMethod.set
       SET_PARAMS: MACD_TrailingProfitMethod
