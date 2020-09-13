@@ -11,11 +11,11 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-   2  4674.27         1985          1.06            2.35    9836.44       9.05 BestDailyStrategyMultiplierFactor=0.1; MaxOrders=0; MaxOrdersPerType=0;
-   3  4461.26         1985          1.06            2.25    9591.25       8.86 BestDailyStrategyMultiplierFactor=0.2; MaxOrders=0; MaxOrdersPerType=0;
-   4  3310.69         1985          1.04            1.67   10444.29       9.66 BestDailyStrategyMultiplierFactor=0.3; MaxOrders=0; MaxOrdersPerType=0;
-   5  3008.78         1985          1.04            1.52   10662.21       9.87 BestDailyStrategyMultiplierFactor=0.4; MaxOrders=0; MaxOrdersPerType=0;
-   6  1203.00         1985          1.01            0.61   11033.12      10.33 BestDailyStrategyMultiplierFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
-   7   883.51         1985          1.01            0.45   11379.43      10.67 BestDailyStrategyMultiplierFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;
-   1 -1812.16         1985          0.98           -0.91   10918.34      10.51   BestDailyStrategyMultiplierFactor=0; MaxOrders=0; MaxOrdersPerType=0;
+Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+   5 6604.69         1663          1.11            3.97    4459.40       4.42 BestDailyStrategyMultiplierFactor=0.4; MaxOrders=0; MaxOrdersPerType=0;
+   4 6429.28         1663          1.11            3.87    4424.34       4.39 BestDailyStrategyMultiplierFactor=0.3; MaxOrders=0; MaxOrdersPerType=0;
+   1 6368.05         1663          1.07            3.83    5076.91       4.80   BestDailyStrategyMultiplierFactor=0; MaxOrders=0; MaxOrdersPerType=0;
+   2 6300.10         1663          1.11            3.79    4477.35       4.44 BestDailyStrategyMultiplierFactor=0.1; MaxOrders=0; MaxOrdersPerType=0;
+   3 6170.63         1663          1.11            3.71    4496.16       4.46 BestDailyStrategyMultiplierFactor=0.2; MaxOrders=0; MaxOrdersPerType=0;
+   6 6168.86         1663          1.10            3.71    4444.39       4.40 BestDailyStrategyMultiplierFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
+   7 5939.70         1663          1.09            3.57    4519.70       4.47 BestDailyStrategyMultiplierFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;
