@@ -11,15 +11,15 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-             Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                1 -1114.85         1957          0.94           -0.57    2685.76       2.68  MaxOrdersPerType=0; MaxOrders=0; LotSize=0;
-                3 -1114.85         1957          0.94           -0.57    2685.76       2.68  MaxOrdersPerType=4; MaxOrders=0; LotSize=0;
-                4 -1114.85         1957          0.94           -0.57    2685.76       2.68  MaxOrdersPerType=6; MaxOrders=0; LotSize=0;
-                5 -1114.85         1957          0.94           -0.57    2685.76       2.68  MaxOrdersPerType=8; MaxOrders=0; LotSize=0;
-                6 -1114.85         1957          0.94           -0.57    2685.76       2.68 MaxOrdersPerType=10; MaxOrders=0; LotSize=0;
-                7 -1114.85         1957          0.94           -0.57    2685.76       2.68 MaxOrdersPerType=12; MaxOrders=0; LotSize=0;
-                8 -1114.85         1957          0.94           -0.57    2685.76       2.68 MaxOrdersPerType=14; MaxOrders=0; LotSize=0;
-                9 -1114.85         1957          0.94           -0.57    2685.76       2.68 MaxOrdersPerType=16; MaxOrders=0; LotSize=0;
-               10 -1114.85         1957          0.94           -0.57    2685.76       2.68 MaxOrdersPerType=18; MaxOrders=0; LotSize=0;
-               11 -1114.85         1957          0.94           -0.57    2685.76       2.68 MaxOrdersPerType=20; MaxOrders=0; LotSize=0;
-                2 -2400.70         1933          0.88           -1.24    3862.02       3.85  MaxOrdersPerType=2; MaxOrders=0; LotSize=0;
+              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                 1 2916.14         1666          1.25            1.75     808.99       0.81  MaxOrdersPerType=0; MaxOrders=0; LotSize=0;
+                 2 2916.14         1666          1.25            1.75     808.99       0.81  MaxOrdersPerType=2; MaxOrders=0; LotSize=0;
+                 3 2916.14         1666          1.25            1.75     808.99       0.81  MaxOrdersPerType=4; MaxOrders=0; LotSize=0;
+                 4 2916.14         1666          1.25            1.75     808.99       0.81  MaxOrdersPerType=6; MaxOrders=0; LotSize=0;
+                 5 2916.14         1666          1.25            1.75     808.99       0.81  MaxOrdersPerType=8; MaxOrders=0; LotSize=0;
+                 6 2916.14         1666          1.25            1.75     808.99       0.81 MaxOrdersPerType=10; MaxOrders=0; LotSize=0;
+                 7 2916.14         1666          1.25            1.75     808.99       0.81 MaxOrdersPerType=12; MaxOrders=0; LotSize=0;
+                 8 2916.14         1666          1.25            1.75     808.99       0.81 MaxOrdersPerType=14; MaxOrders=0; LotSize=0;
+                 9 2916.14         1666          1.25            1.75     808.99       0.81 MaxOrdersPerType=16; MaxOrders=0; LotSize=0;
+                10 2916.14         1666          1.25            1.75     808.99       0.81 MaxOrdersPerType=18; MaxOrders=0; LotSize=0;
+                11 2916.14         1666          1.25            1.75     808.99       0.81 MaxOrdersPerType=20; MaxOrders=0; LotSize=0;
