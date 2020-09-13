@@ -2,17 +2,17 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           4 -862.74          576          0.85           -1.50    1309.41       1.31 Envelopes_MA_Method=3; MaxOrders=0; MaxOrdersPerType=0;
-           3 -882.75          600          0.85           -1.47    1414.81       1.41 Envelopes_MA_Method=2; MaxOrders=0; MaxOrdersPerType=0;
-           1 -899.45          586          0.85           -1.53    1393.82       1.39 Envelopes_MA_Method=0; MaxOrders=0; MaxOrdersPerType=0;
-           2 -924.55          580          0.84           -1.59    1418.92       1.42 Envelopes_MA_Method=1; MaxOrders=0; MaxOrdersPerType=0;
+         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            3 817.61          129          1.53            6.34     428.43       0.43 Envelopes_MA_Method=2; MaxOrders=0; MaxOrdersPerType=0;
+            1 318.41          130          1.19            2.45     497.22       0.50 Envelopes_MA_Method=0; MaxOrders=0; MaxOrdersPerType=0;
+            2 157.27          107          1.10            1.47     463.56       0.46 Envelopes_MA_Method=1; MaxOrders=0; MaxOrdersPerType=0;
+            4  99.60          118          1.06            0.84     532.15       0.53 Envelopes_MA_Method=3; MaxOrders=0; MaxOrdersPerType=0;

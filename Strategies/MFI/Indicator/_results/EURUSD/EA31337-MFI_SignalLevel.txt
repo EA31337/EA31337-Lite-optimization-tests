@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -12,14 +12,14 @@
                              Spread          10
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            6 -1723.66         1271          0.78           -1.36    1756.79       1.76 MFI_SignalLevel=2.5; MaxOrders=0; MaxOrdersPerType=0;
-            9 -1723.22         1272          0.78           -1.35    1756.34       1.76 MFI_SignalLevel=2.8; MaxOrders=0; MaxOrdersPerType=0;
-           11 -1724.70         1273          0.78           -1.35    1757.83       1.76   MFI_SignalLevel=3; MaxOrders=0; MaxOrdersPerType=0;
-           10 -1740.71         1271          0.77           -1.37    1773.84       1.77 MFI_SignalLevel=2.9; MaxOrders=0; MaxOrdersPerType=0;
-            8 -1748.12         1278          0.77           -1.37    1781.24       1.78 MFI_SignalLevel=2.7; MaxOrders=0; MaxOrdersPerType=0;
-            5 -1773.68         1279          0.77           -1.39    1806.80       1.81 MFI_SignalLevel=2.4; MaxOrders=0; MaxOrdersPerType=0;
-            4 -1801.98         1281          0.77           -1.41    1835.10       1.83 MFI_SignalLevel=2.3; MaxOrders=0; MaxOrdersPerType=0;
-            3 -1804.78         1288          0.77           -1.40    1837.91       1.84 MFI_SignalLevel=2.2; MaxOrders=0; MaxOrdersPerType=0;
-            7 -1821.76         1268          0.77           -1.44    1854.88       1.85 MFI_SignalLevel=2.6; MaxOrders=0; MaxOrdersPerType=0;
-            2 -1830.42         1288          0.77           -1.42    1863.54       1.86 MFI_SignalLevel=2.1; MaxOrders=0; MaxOrdersPerType=0;
-            1 -1854.72         1293          0.77           -1.43    1887.85       1.89   MFI_SignalLevel=2; MaxOrders=0; MaxOrdersPerType=0;
+           11 -6629.66         9553          0.73           -0.69    6722.36       6.72 MFI_SignalLevel=4.5; MaxOrders=5; MaxOrdersPerType=2;
+           10 -6835.81         9718          0.72           -0.70    6919.71       6.92 MFI_SignalLevel=4.4; MaxOrders=5; MaxOrdersPerType=2;
+            9 -6939.71         9810          0.72           -0.71    7018.81       7.02 MFI_SignalLevel=4.3; MaxOrders=5; MaxOrdersPerType=2;
+            8 -7095.71         9857          0.71           -0.72    7172.61       7.17 MFI_SignalLevel=4.2; MaxOrders=5; MaxOrdersPerType=2;
+            6 -7098.42        10089          0.72           -0.70    7169.72       7.17   MFI_SignalLevel=4; MaxOrders=5; MaxOrdersPerType=2;
+            5 -7126.71        10212          0.72           -0.70    7198.01       7.20 MFI_SignalLevel=3.9; MaxOrders=5; MaxOrdersPerType=2;
+            7 -7126.23         9944          0.72           -0.72    7203.13       7.20 MFI_SignalLevel=4.1; MaxOrders=5; MaxOrdersPerType=2;
+            4 -7290.43        10340          0.71           -0.71    7357.03       7.36 MFI_SignalLevel=3.8; MaxOrders=5; MaxOrdersPerType=2;
+            3 -7442.57        10435          0.71           -0.71    7506.67       7.51 MFI_SignalLevel=3.7; MaxOrders=5; MaxOrdersPerType=2;
+            2 -7716.43        10532          0.70           -0.73    7784.23       7.78 MFI_SignalLevel=3.6; MaxOrders=5; MaxOrdersPerType=2;
+            1 -7752.75        10689          0.70           -0.73    7821.55       7.82 MFI_SignalLevel=3.5; MaxOrders=5; MaxOrdersPerType=2;

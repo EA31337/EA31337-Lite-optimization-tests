@@ -2,20 +2,20 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            7  -990.23         1023          0.79           -0.97    1541.11       1.54 ADX_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-            6 -1001.80         1013          0.78           -0.99    1581.24       1.58 ADX_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-            3 -1018.11          796          0.81           -1.28    1785.65       1.78 ADX_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-            5 -1099.43         1038          0.76           -1.06    1674.88       1.67 ADX_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-            1 -1168.13         1013          0.75           -1.15    1726.15       1.72 ADX_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-            2 -1294.38         1013          0.72           -1.28    1763.26       1.76 ADX_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-            4 -2306.16         1906          0.61           -1.21    2607.48       2.60 ADX_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+            5 -2360.64         1906          0.72           -1.24    2712.37       2.71 ADX_Applied_Price=4; MaxOrders=5; MaxOrdersPerType=2;
+            6 -2704.86         1961          0.69           -1.38    3041.29       3.04 ADX_Applied_Price=5; MaxOrders=5; MaxOrdersPerType=2;
+            1 -2803.12         2169          0.70           -1.29    3063.85       3.06 ADX_Applied_Price=0; MaxOrders=5; MaxOrdersPerType=2;
+            7 -3003.08         1980          0.67           -1.52    3308.38       3.31 ADX_Applied_Price=6; MaxOrders=5; MaxOrdersPerType=2;
+            2 -3103.74         1899          0.65           -1.63    3484.00       3.48 ADX_Applied_Price=1; MaxOrders=5; MaxOrdersPerType=2;
+            4 -3323.54         2572          0.70           -1.29    3459.66       3.46 ADX_Applied_Price=3; MaxOrders=5; MaxOrdersPerType=2;
+            3 -3913.35         2078          0.67           -1.88    4687.84       4.67 ADX_Applied_Price=2; MaxOrders=5; MaxOrdersPerType=2;

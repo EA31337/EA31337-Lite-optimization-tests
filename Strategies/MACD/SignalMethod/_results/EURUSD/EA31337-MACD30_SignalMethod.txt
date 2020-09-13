@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -11,67 +11,19 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          35 123.81           22          2.59            5.63      47.90       0.05   MACD30_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-          33 105.80           26          1.96            4.07      53.50       0.05   MACD30_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-           8  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
-           9  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
-          10  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
-          11  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
-          12  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
-          13  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
-          14  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
-          15  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
-          16  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
-          17  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
-          18  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
-          19  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
-          20  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
-          21  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
-          22  94.82            4         68.73           23.71      39.20       0.04 MACD30_SignalMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
-          23  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
-          24  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
-          25  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
-          26  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
-          27  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
-          28  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
-          29  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
-          30  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
-          31  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-          40  94.82            4         68.73           23.71      39.20       0.04   MACD30_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=0;
-          41  94.82            4         68.73           23.71      39.20       0.04   MACD30_SignalMethod=9; MaxOrders=0; MaxOrdersPerType=0;
-          42  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=10; MaxOrders=0; MaxOrdersPerType=0;
-          43  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=11; MaxOrders=0; MaxOrdersPerType=0;
-          44  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=12; MaxOrders=0; MaxOrdersPerType=0;
-          45  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=13; MaxOrders=0; MaxOrdersPerType=0;
-          46  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-          47  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=15; MaxOrders=0; MaxOrdersPerType=0;
-          48  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=16; MaxOrders=0; MaxOrdersPerType=0;
-          49  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=17; MaxOrders=0; MaxOrdersPerType=0;
-          50  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=18; MaxOrders=0; MaxOrdersPerType=0;
-          51  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=19; MaxOrders=0; MaxOrdersPerType=0;
-          52  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=20; MaxOrders=0; MaxOrdersPerType=0;
-          53  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-          54  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=22; MaxOrders=0; MaxOrdersPerType=0;
-          55  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=23; MaxOrders=0; MaxOrdersPerType=0;
-          56  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=24; MaxOrders=0; MaxOrdersPerType=0;
-          57  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=25; MaxOrders=0; MaxOrdersPerType=0;
-          58  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=26; MaxOrders=0; MaxOrdersPerType=0;
-          59  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=27; MaxOrders=0; MaxOrdersPerType=0;
-          60  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
-          61  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=29; MaxOrders=0; MaxOrdersPerType=0;
-          62  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=30; MaxOrders=0; MaxOrdersPerType=0;
-          63  94.82            4         68.73           23.71      39.20       0.04  MACD30_SignalMethod=31; MaxOrders=0; MaxOrdersPerType=0;
-          39  66.91           16          1.86            4.18      47.90       0.05   MACD30_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-           3  55.97           35          1.33            1.60      85.37       0.09 MACD30_SignalMethod=-29; MaxOrders=0; MaxOrdersPerType=0;
-          37  48.91           20          1.44            2.45      64.80       0.06   MACD30_SignalMethod=5; MaxOrders=0; MaxOrdersPerType=0;
-           1  37.40           44          1.16            0.85      96.87       0.10 MACD30_SignalMethod=-31; MaxOrders=0; MaxOrdersPerType=0;
-          38  35.41           23          1.30            1.54      74.10       0.07   MACD30_SignalMethod=6; MaxOrders=0; MaxOrdersPerType=0;
-           4  28.23           67          1.06            0.42     102.99       0.10 MACD30_SignalMethod=-28; MaxOrders=0; MaxOrdersPerType=0;
-          36  25.80           38          1.11            0.68      81.40       0.08   MACD30_SignalMethod=4; MaxOrders=0; MaxOrdersPerType=0;
-           7  23.75           20          1.19            1.19      94.57       0.09 MACD30_SignalMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
-           5  11.07           29          1.06            0.38     100.17       0.10 MACD30_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
-           6  -6.89           34          0.96           -0.20      89.37       0.09 MACD30_SignalMethod=-26; MaxOrders=0; MaxOrdersPerType=0;
-          34 -61.36           91          0.89           -0.67     158.23       0.16   MACD30_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-          32 -87.77          148          0.90           -0.59     193.17       0.19   MACD30_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-           2 -90.51          126          0.87           -0.72     164.03       0.16 MACD30_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
+       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          7    71.53          144          1.10            0.50     220.96       0.22 MACD30_SignalMethod=-1; MaxOrders=5; MaxOrdersPerType=2;
+         15    55.40           58          1.29            0.96      81.22       0.08  MACD30_SignalMethod=7; MaxOrders=5; MaxOrdersPerType=2;
+          3    16.21          387          1.01            0.04     197.58       0.20 MACD30_SignalMethod=-5; MaxOrders=5; MaxOrdersPerType=2;
+         14   -13.08          110          0.97           -0.12     203.60       0.20  MACD30_SignalMethod=6; MaxOrders=5; MaxOrdersPerType=2;
+         11   -16.82          222          0.98           -0.08     171.52       0.17  MACD30_SignalMethod=3; MaxOrders=5; MaxOrdersPerType=2;
+          5  -143.84          382          0.92           -0.38     366.84       0.37 MACD30_SignalMethod=-3; MaxOrders=5; MaxOrdersPerType=2;
+         13  -170.85          107          0.72           -1.60     340.74       0.34  MACD30_SignalMethod=5; MaxOrders=5; MaxOrdersPerType=2;
+         12  -230.31          163          0.72           -1.41     351.72       0.35  MACD30_SignalMethod=4; MaxOrders=5; MaxOrdersPerType=2;
+          9  -261.48          268          0.77           -0.98     453.06       0.45  MACD30_SignalMethod=1; MaxOrders=5; MaxOrdersPerType=2;
+          6  -292.38          397          0.82           -0.74     465.62       0.47 MACD30_SignalMethod=-2; MaxOrders=5; MaxOrdersPerType=2;
+          1  -386.24          694          0.86           -0.56     562.22       0.56 MACD30_SignalMethod=-7; MaxOrders=5; MaxOrdersPerType=2;
+          4  -681.93          852          0.76           -0.80     814.60       0.81 MACD30_SignalMethod=-4; MaxOrders=5; MaxOrdersPerType=2;
+         10  -826.39          829          0.69           -1.00     943.34       0.94  MACD30_SignalMethod=2; MaxOrders=5; MaxOrdersPerType=2;
+          8 -1676.14         1943          0.69           -0.86    1698.63       1.70  MACD30_SignalMethod=0; MaxOrders=5; MaxOrdersPerType=2;
+          2 -1694.23         1634          0.65           -1.04    1732.53       1.73 MACD30_SignalMethod=-6; MaxOrders=5; MaxOrdersPerType=2;

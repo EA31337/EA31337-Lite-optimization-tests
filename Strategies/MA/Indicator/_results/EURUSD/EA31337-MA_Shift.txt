@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,9 +11,9 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-             Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                4   10.36          621          1.00            0.02     666.43       0.66 MA_Shift=13; MaxOrders=0; MaxOrdersPerType=0;
-                5   -0.22          646          1.00           -0.00     827.92       0.82 MA_Shift=14; MaxOrders=0; MaxOrdersPerType=0;
-                3 -324.98          613          0.93           -0.53     801.04       0.80 MA_Shift=12; MaxOrders=0; MaxOrdersPerType=0;
-                2 -351.88          636          0.93           -0.55     962.27       0.96 MA_Shift=11; MaxOrders=0; MaxOrdersPerType=0;
-                1 -787.31          626          0.85           -1.26     999.55       1.00 MA_Shift=10; MaxOrders=0; MaxOrdersPerType=0;
+              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                 1   0.00            0          0.00            0.00       0.00       0.00 MA_Shift=11; MaxOrders=0; MaxOrdersPerType=0;
+                 2   0.00            0          0.00            0.00       0.00       0.00 MA_Shift=12; MaxOrders=0; MaxOrdersPerType=0;
+                 3   0.00            0          0.00            0.00       0.00       0.00 MA_Shift=13; MaxOrders=0; MaxOrdersPerType=0;
+                 4   0.00            0          0.00            0.00       0.00       0.00 MA_Shift=14; MaxOrders=0; MaxOrdersPerType=0;
+                 5   0.00            0          0.00            0.00       0.00       0.00 MA_Shift=15; MaxOrders=0; MaxOrdersPerType=0;

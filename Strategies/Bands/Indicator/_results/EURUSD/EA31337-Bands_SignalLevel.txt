@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,5 +11,25 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-             Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                1 297.11          259          1.15            1.15     285.54       0.29 MaxOrders=0; MaxOrdersPerType=0; LotSize=0.01;
+        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1  39.74          596          1.01            0.07    2090.54       2.07   Bands_SignalLevel=13; MaxOrders=5; MaxOrdersPerType=2;
+           2  39.74          596          1.01            0.07    2090.54       2.07 Bands_SignalLevel=13.5; MaxOrders=5; MaxOrdersPerType=2;
+           3  39.74          596          1.01            0.07    2090.54       2.07   Bands_SignalLevel=14; MaxOrders=5; MaxOrdersPerType=2;
+           4  39.74          596          1.01            0.07    2090.54       2.07 Bands_SignalLevel=14.5; MaxOrders=5; MaxOrdersPerType=2;
+           5  39.74          596          1.01            0.07    2090.54       2.07   Bands_SignalLevel=15; MaxOrders=5; MaxOrdersPerType=2;
+           6  39.74          596          1.01            0.07    2090.54       2.07 Bands_SignalLevel=15.5; MaxOrders=5; MaxOrdersPerType=2;
+           7  39.74          596          1.01            0.07    2090.54       2.07   Bands_SignalLevel=16; MaxOrders=5; MaxOrdersPerType=2;
+           8  39.74          596          1.01            0.07    2090.54       2.07 Bands_SignalLevel=16.5; MaxOrders=5; MaxOrdersPerType=2;
+           9  39.74          596          1.01            0.07    2090.54       2.07   Bands_SignalLevel=17; MaxOrders=5; MaxOrdersPerType=2;
+          10  39.74          596          1.01            0.07    2090.54       2.07 Bands_SignalLevel=17.5; MaxOrders=5; MaxOrdersPerType=2;
+          11  39.74          596          1.01            0.07    2090.54       2.07   Bands_SignalLevel=18; MaxOrders=5; MaxOrdersPerType=2;
+          12  39.74          596          1.01            0.07    2090.54       2.07 Bands_SignalLevel=18.5; MaxOrders=5; MaxOrdersPerType=2;
+          13  39.74          596          1.01            0.07    2090.54       2.07   Bands_SignalLevel=19; MaxOrders=5; MaxOrdersPerType=2;
+          14  39.74          596          1.01            0.07    2090.54       2.07 Bands_SignalLevel=19.5; MaxOrders=5; MaxOrdersPerType=2;
+          15  39.74          596          1.01            0.07    2090.54       2.07   Bands_SignalLevel=20; MaxOrders=5; MaxOrdersPerType=2;
+          16  39.74          596          1.01            0.07    2090.54       2.07 Bands_SignalLevel=20.5; MaxOrders=5; MaxOrdersPerType=2;
+          17  39.74          596          1.01            0.07    2090.54       2.07   Bands_SignalLevel=21; MaxOrders=5; MaxOrdersPerType=2;
+          18  39.74          596          1.01            0.07    2090.54       2.07 Bands_SignalLevel=21.5; MaxOrders=5; MaxOrdersPerType=2;
+          19  39.74          596          1.01            0.07    2090.54       2.07   Bands_SignalLevel=22; MaxOrders=5; MaxOrdersPerType=2;
+          20  39.74          596          1.01            0.07    2090.54       2.07 Bands_SignalLevel=22.5; MaxOrders=5; MaxOrdersPerType=2;
+          21  39.74          596          1.01            0.07    2090.54       2.07   Bands_SignalLevel=23; MaxOrders=5; MaxOrdersPerType=2;

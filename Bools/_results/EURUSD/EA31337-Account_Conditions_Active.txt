@@ -2,15 +2,15 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         2 338.94         1221          1.05            0.28    1017.20       1.00 Account_Conditions_Active=1; MaxOrders=0; MaxOrdersPerType=0;
-         1 -15.14         1157          1.00           -0.01     735.12       0.73 Account_Conditions_Active=0; MaxOrders=0; MaxOrdersPerType=0;
+     Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        1 7293.08          368          1.44           19.82    2636.18       2.44 Account_Conditions_Active=0; MaxOrders=0; MaxOrdersPerType=0;
+        2 6297.11          370          1.39           17.02    2696.18       2.52 Account_Conditions_Active=1; MaxOrders=0; MaxOrdersPerType=0;

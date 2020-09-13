@@ -2,24 +2,24 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-            Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-               1 -5388.74         5830          0.55           -0.92    5390.14       5.39  MaxOrdersPerType=0; MaxOrders=0; LotSize=0.01;
-               2 -5388.74         5830          0.55           -0.92    5390.14       5.39  MaxOrdersPerType=2; MaxOrders=0; LotSize=0.01;
-               3 -5388.74         5830          0.55           -0.92    5390.14       5.39  MaxOrdersPerType=4; MaxOrders=0; LotSize=0.01;
-               4 -5388.74         5830          0.55           -0.92    5390.14       5.39  MaxOrdersPerType=6; MaxOrders=0; LotSize=0.01;
-               5 -5388.74         5830          0.55           -0.92    5390.14       5.39  MaxOrdersPerType=8; MaxOrders=0; LotSize=0.01;
-               6 -5388.74         5830          0.55           -0.92    5390.14       5.39 MaxOrdersPerType=10; MaxOrders=0; LotSize=0.01;
-               7 -5388.74         5830          0.55           -0.92    5390.14       5.39 MaxOrdersPerType=12; MaxOrders=0; LotSize=0.01;
-               8 -5388.74         5830          0.55           -0.92    5390.14       5.39 MaxOrdersPerType=14; MaxOrders=0; LotSize=0.01;
-               9 -5388.74         5830          0.55           -0.92    5390.14       5.39 MaxOrdersPerType=16; MaxOrders=0; LotSize=0.01;
-              10 -5388.74         5830          0.55           -0.92    5390.14       5.39 MaxOrdersPerType=18; MaxOrders=0; LotSize=0.01;
-              11 -5388.74         5830          0.55           -0.92    5390.14       5.39 MaxOrdersPerType=20; MaxOrders=0; LotSize=0.01;
+              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                 1 2916.14         1666          1.25            1.75     808.99       0.81  MaxOrdersPerType=0; MaxOrders=0; LotSize=0;
+                 2 2916.14         1666          1.25            1.75     808.99       0.81  MaxOrdersPerType=2; MaxOrders=0; LotSize=0;
+                 3 2916.14         1666          1.25            1.75     808.99       0.81  MaxOrdersPerType=4; MaxOrders=0; LotSize=0;
+                 4 2916.14         1666          1.25            1.75     808.99       0.81  MaxOrdersPerType=6; MaxOrders=0; LotSize=0;
+                 5 2916.14         1666          1.25            1.75     808.99       0.81  MaxOrdersPerType=8; MaxOrders=0; LotSize=0;
+                 6 2916.14         1666          1.25            1.75     808.99       0.81 MaxOrdersPerType=10; MaxOrders=0; LotSize=0;
+                 7 2916.14         1666          1.25            1.75     808.99       0.81 MaxOrdersPerType=12; MaxOrders=0; LotSize=0;
+                 8 2916.14         1666          1.25            1.75     808.99       0.81 MaxOrdersPerType=14; MaxOrders=0; LotSize=0;
+                 9 2916.14         1666          1.25            1.75     808.99       0.81 MaxOrdersPerType=16; MaxOrders=0; LotSize=0;
+                10 2916.14         1666          1.25            1.75     808.99       0.81 MaxOrdersPerType=18; MaxOrders=0; LotSize=0;
+                11 2916.14         1666          1.25            1.75     808.99       0.81 MaxOrdersPerType=20; MaxOrders=0; LotSize=0;

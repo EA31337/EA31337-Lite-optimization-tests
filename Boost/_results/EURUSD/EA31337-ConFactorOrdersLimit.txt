@@ -2,26 +2,33 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Optimize-v1.076
-                                                            Tripleafx-FX-Demo (Build 1010)
+                                                               EA31337-Lite-v1.080-dev
+                                                                     (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         6  2479.69         5115          1.21            0.48    5054.85      35.18  ConFactorOrdersLimit=600; MaxOrders=0; MaxOrdersPerType=0;
-         7  2005.89         5987          1.17            0.34    5265.00      36.23  ConFactorOrdersLimit=700; MaxOrders=0; MaxOrdersPerType=0;
-         2  1360.56         3865          1.31            0.35    2363.95      17.27  ConFactorOrdersLimit=200; MaxOrders=0; MaxOrdersPerType=0;
-         1  1236.77         5919          1.20            0.21    2444.62      18.16  ConFactorOrdersLimit=100; MaxOrders=0; MaxOrdersPerType=0;
-         3   424.82         3044          1.08            0.14    3502.73      25.19  ConFactorOrdersLimit=300; MaxOrders=0; MaxOrdersPerType=0;
-         4  -209.20         3008          0.97           -0.07    4332.19      30.73  ConFactorOrdersLimit=400; MaxOrders=0; MaxOrdersPerType=0;
-         5  -784.52         6998          0.92           -0.11    5074.38      35.51  ConFactorOrdersLimit=500; MaxOrders=0; MaxOrdersPerType=0;
-         8 -1007.62         4267          0.88           -0.24    5604.64      38.40  ConFactorOrdersLimit=800; MaxOrders=0; MaxOrdersPerType=0;
-         9 -1171.02         4018          0.87           -0.29    5767.50      39.51  ConFactorOrdersLimit=900; MaxOrders=0; MaxOrdersPerType=0;
-        11 -1184.02         4115          0.87           -0.29    5780.50      39.60 ConFactorOrdersLimit=1100; MaxOrders=0; MaxOrdersPerType=0;
-        12 -1203.40         4027          0.87           -0.30    5799.88      39.74 ConFactorOrdersLimit=1200; MaxOrders=0; MaxOrdersPerType=0;
-        10 -1243.31         4210          0.86           -0.30    5839.80      40.01 ConFactorOrdersLimit=1000; MaxOrders=0; MaxOrdersPerType=0;
-        13 -1248.56         3839          0.86           -0.33    5845.04      40.04 ConFactorOrdersLimit=1300; MaxOrders=0; MaxOrdersPerType=0;
+         1 11233.00         1663          1.17            6.75    3794.33       3.73    ConFactorOrdersLimit=0; MaxOrders=0; MaxOrdersPerType=0;
+         3  5454.62         1663          1.16            3.28    2794.35       2.58  ConFactorOrdersLimit=200; MaxOrders=0; MaxOrdersPerType=0;
+         2  5083.52         1663          1.13            3.06    2803.02       2.60  ConFactorOrdersLimit=100; MaxOrders=0; MaxOrdersPerType=0;
+         5  5026.49         1663          1.17            3.02    2723.22       2.53  ConFactorOrdersLimit=400; MaxOrders=0; MaxOrdersPerType=0;
+         4  4860.22         1663          1.15            2.92    2706.32       2.52  ConFactorOrdersLimit=300; MaxOrders=0; MaxOrdersPerType=0;
+         6  4837.07         1663          1.17            2.91    2220.12       2.15  ConFactorOrdersLimit=500; MaxOrders=0; MaxOrdersPerType=0;
+         9  4533.17         1663          1.17            2.73    2171.04       2.15  ConFactorOrdersLimit=800; MaxOrders=0; MaxOrdersPerType=0;
+         7  4504.98         1663          1.16            2.71    2171.04       2.15  ConFactorOrdersLimit=600; MaxOrders=0; MaxOrdersPerType=0;
+         8  4183.77         1663          1.15            2.52    2171.04       2.15  ConFactorOrdersLimit=700; MaxOrders=0; MaxOrdersPerType=0;
+        18  2925.04         1665          1.11            1.76    2171.04       2.15 ConFactorOrdersLimit=1700; MaxOrders=0; MaxOrdersPerType=0;
+        11  2656.31         1663          1.10            1.60    2171.04       2.15 ConFactorOrdersLimit=1000; MaxOrders=0; MaxOrdersPerType=0;
+        12  2656.31         1663          1.10            1.60    2171.04       2.15 ConFactorOrdersLimit=1100; MaxOrders=0; MaxOrdersPerType=0;
+        13  2656.31         1663          1.10            1.60    2171.04       2.15 ConFactorOrdersLimit=1200; MaxOrders=0; MaxOrdersPerType=0;
+        14  2656.31         1663          1.10            1.60    2171.04       2.15 ConFactorOrdersLimit=1300; MaxOrders=0; MaxOrdersPerType=0;
+        15  2656.31         1663          1.10            1.60    2171.04       2.15 ConFactorOrdersLimit=1400; MaxOrders=0; MaxOrdersPerType=0;
+        16  2656.31         1663          1.10            1.60    2171.04       2.15 ConFactorOrdersLimit=1500; MaxOrders=0; MaxOrdersPerType=0;
+        17  2656.31         1663          1.10            1.60    2171.04       2.15 ConFactorOrdersLimit=1600; MaxOrders=0; MaxOrdersPerType=0;
+        19  2656.31         1663          1.10            1.60    2171.04       2.15 ConFactorOrdersLimit=1800; MaxOrders=0; MaxOrdersPerType=0;
+        20  2656.31         1663          1.10            1.60    2171.04       2.15 ConFactorOrdersLimit=1900; MaxOrders=0; MaxOrdersPerType=0;
+        10  2432.18         1663          1.09            1.46    2171.04       2.15  ConFactorOrdersLimit=900; MaxOrders=0; MaxOrdersPerType=0;

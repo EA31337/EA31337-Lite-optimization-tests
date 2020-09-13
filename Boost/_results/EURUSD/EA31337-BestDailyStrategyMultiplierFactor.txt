@@ -2,14 +2,20 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-              Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 1 -1054.21          237          0.33           -4.45    1123.31       1.12 MaxOrders=0; MaxOrdersPerType=0; LotSize=0;
+Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+   5 6604.69         1663          1.11            3.97    4459.40       4.42 BestDailyStrategyMultiplierFactor=0.4; MaxOrders=0; MaxOrdersPerType=0;
+   4 6429.28         1663          1.11            3.87    4424.34       4.39 BestDailyStrategyMultiplierFactor=0.3; MaxOrders=0; MaxOrdersPerType=0;
+   1 6368.05         1663          1.07            3.83    5076.91       4.80   BestDailyStrategyMultiplierFactor=0; MaxOrders=0; MaxOrdersPerType=0;
+   2 6300.10         1663          1.11            3.79    4477.35       4.44 BestDailyStrategyMultiplierFactor=0.1; MaxOrders=0; MaxOrdersPerType=0;
+   3 6170.63         1663          1.11            3.71    4496.16       4.46 BestDailyStrategyMultiplierFactor=0.2; MaxOrders=0; MaxOrdersPerType=0;
+   6 6168.86         1663          1.10            3.71    4444.39       4.40 BestDailyStrategyMultiplierFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
+   7 5939.70         1663          1.09            3.57    4519.70       4.47 BestDailyStrategyMultiplierFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;

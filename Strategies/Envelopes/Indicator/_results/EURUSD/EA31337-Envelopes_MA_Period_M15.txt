@@ -2,18 +2,22 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          15 Minutes (M15) 2019.06.02 21:01 - 2019.12.30 23:45 (2019.06.01 - 2019.12.31)
+                            Period          15 Minutes (M15) 2019.01.02 23:00 - 2019.12.30 23:45 (2019.01.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         1 -301.23          319          0.89           -0.94     599.73       0.60  Envelopes_MA_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
-         2 -301.23          319          0.89           -0.94     599.73       0.60  Envelopes_MA_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
-         3 -301.23          319          0.89           -0.94     599.73       0.60  Envelopes_MA_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
-         4 -301.23          319          0.89           -0.94     599.73       0.60  Envelopes_MA_Period_M15=8; MaxOrders=0; MaxOrdersPerType=0;
-         5 -301.23          319          0.89           -0.94     599.73       0.60 Envelopes_MA_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
+      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         6  17.15           46          1.06            0.37     193.85       0.19 Envelopes_MA_Period_M15=38; MaxOrders=5; MaxOrdersPerType=2;
+         7   9.35           47          1.03            0.20     194.35       0.19 Envelopes_MA_Period_M15=40; MaxOrders=5; MaxOrdersPerType=2;
+         9   9.75           48          1.03            0.20     216.25       0.22 Envelopes_MA_Period_M15=44; MaxOrders=5; MaxOrdersPerType=2;
+         8  -6.65           47          0.98           -0.14     205.05       0.20 Envelopes_MA_Period_M15=42; MaxOrders=5; MaxOrdersPerType=2;
+         5 -10.62           42          0.96           -0.25     198.79       0.20 Envelopes_MA_Period_M15=36; MaxOrders=5; MaxOrdersPerType=2;
+         3 -24.24           38          0.91           -0.64     201.82       0.20 Envelopes_MA_Period_M15=32; MaxOrders=5; MaxOrdersPerType=2;
+         4 -30.44           38          0.89           -0.80     208.62       0.21 Envelopes_MA_Period_M15=34; MaxOrders=5; MaxOrdersPerType=2;
+         1 -41.83           35          0.83           -1.20     171.72       0.17 Envelopes_MA_Period_M15=28; MaxOrders=5; MaxOrdersPerType=2;
+         2 -51.94           36          0.79           -1.44     188.62       0.19 Envelopes_MA_Period_M15=30; MaxOrders=5; MaxOrdersPerType=2;

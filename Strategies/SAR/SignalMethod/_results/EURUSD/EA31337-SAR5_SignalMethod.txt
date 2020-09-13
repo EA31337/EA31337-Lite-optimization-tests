@@ -2,24 +2,37 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          5 Minutes (M5) 2019.06.02 21:01 - 2019.12.30 23:55 (2019.06.01 - 2019.12.31)
+                             Period          5 Minutes (M5) 2019.01.02 06:20 - 2019.12.30 23:55 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            5   41.90            8          2.22            5.24      26.50       0.03 SAR5_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-            6  -13.90            7          0.59           -1.99      36.60       0.04 SAR5_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
-            1  -15.90            5          0.32           -3.18      19.00       0.02 SAR5_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
-            3  -15.90            5          0.32           -3.18      19.00       0.02  SAR5_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-            4  -15.90            5          0.32           -3.18      19.00       0.02 SAR5_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-            7  -15.90            5          0.32           -3.18      19.00       0.02 SAR5_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=0;
-            8  -15.90            5          0.32           -3.18      19.00       0.02 SAR5_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=0;
-            9  -15.90            5          0.32           -3.18      19.00       0.02 SAR5_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
-           10  -15.90            5          0.32           -3.18      19.00       0.02 SAR5_SignalMethod=56; MaxOrders=0; MaxOrdersPerType=0;
-           11  -15.90            5          0.32           -3.18      19.00       0.02 SAR5_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=0;
-            2 -195.19          130          0.77           -1.50     266.76       0.27  SAR5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          16  -617.53          640          0.79           -0.96     778.23       0.78  SAR5_SignalMethod=11; MaxOrders=5; MaxOrdersPerType=2;
+          21  -618.81          707          0.81           -0.88     770.95       0.77  SAR5_SignalMethod=26; MaxOrders=5; MaxOrdersPerType=2;
+          24  -629.64          646          0.79           -0.97     828.88       0.83  SAR5_SignalMethod=35; MaxOrders=5; MaxOrdersPerType=2;
+          20  -633.84          646          0.79           -0.98     816.38       0.82  SAR5_SignalMethod=23; MaxOrders=5; MaxOrdersPerType=2;
+          17  -674.41          704          0.79           -0.96     829.55       0.83  SAR5_SignalMethod=14; MaxOrders=5; MaxOrdersPerType=2;
+          22  -683.74          694          0.78           -0.99     833.74       0.83  SAR5_SignalMethod=29; MaxOrders=5; MaxOrdersPerType=2;
+          18  -704.45          716          0.78           -0.98     859.85       0.86  SAR5_SignalMethod=17; MaxOrders=5; MaxOrdersPerType=2;
+          14  -710.54          717          0.78           -0.99     865.94       0.87   SAR5_SignalMethod=5; MaxOrders=5; MaxOrdersPerType=2;
+          15 -1110.90         1091          0.76           -1.02    1244.19       1.24   SAR5_SignalMethod=8; MaxOrders=5; MaxOrdersPerType=2;
+          23 -1442.64          964          0.68           -1.50    1549.04       1.55  SAR5_SignalMethod=32; MaxOrders=5; MaxOrdersPerType=2;
+          13 -1465.40          971          0.68           -1.51    1571.80       1.57   SAR5_SignalMethod=2; MaxOrders=5; MaxOrdersPerType=2;
+          19 -1914.37         1630          0.71           -1.17    2201.60       2.20  SAR5_SignalMethod=20; MaxOrders=5; MaxOrdersPerType=2;
+          10 -1983.60         1828          0.71           -1.09    2133.90       2.13  SAR5_SignalMethod=-7; MaxOrders=5; MaxOrdersPerType=2;
+          12 -1983.60         1828          0.71           -1.09    2133.90       2.13  SAR5_SignalMethod=-1; MaxOrders=5; MaxOrdersPerType=2;
+           8 -1999.49         1863          0.71           -1.07    2153.26       2.15 SAR5_SignalMethod=-13; MaxOrders=5; MaxOrdersPerType=2;
+           6 -2089.60         1835          0.69           -1.14    2239.90       2.24 SAR5_SignalMethod=-19; MaxOrders=5; MaxOrdersPerType=2;
+           2 -2091.09         1870          0.70           -1.12    2241.39       2.24 SAR5_SignalMethod=-31; MaxOrders=5; MaxOrdersPerType=2;
+           4 -2091.09         1870          0.70           -1.12    2241.39       2.24 SAR5_SignalMethod=-25; MaxOrders=5; MaxOrdersPerType=2;
+          11 -2547.10         2159          0.66           -1.18    2697.40       2.69  SAR5_SignalMethod=-4; MaxOrders=5; MaxOrdersPerType=2;
+           1 -2561.59         2162          0.66           -1.18    2711.89       2.71 SAR5_SignalMethod=-34; MaxOrders=5; MaxOrdersPerType=2;
+           5 -2653.00         2166          0.65           -1.22    2803.30       2.80 SAR5_SignalMethod=-22; MaxOrders=5; MaxOrdersPerType=2;
+           7 -4881.52         3666          0.56           -1.33    5036.72       5.03 SAR5_SignalMethod=-16; MaxOrders=5; MaxOrdersPerType=2;
+           9 -4881.52         3666          0.56           -1.33    5036.72       5.03 SAR5_SignalMethod=-10; MaxOrders=5; MaxOrdersPerType=2;
+           3 -4975.92         3671          0.55           -1.36    5131.12       5.12 SAR5_SignalMethod=-28; MaxOrders=5; MaxOrdersPerType=2;

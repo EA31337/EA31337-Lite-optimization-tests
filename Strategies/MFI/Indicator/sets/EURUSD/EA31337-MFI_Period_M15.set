@@ -31,7 +31,7 @@ MFI30_SignalMethod=0
 MFI_TrailingStopMethod=0
 MFI_TrailingProfitMethod=0
 # Optimization params.
-MFI_Period_M15=36
+MFI_Period_M15=22
 MFI_Period_M15,F=0
 MFI_Period_M15,1=0
 MFI_Period_M15,2=0

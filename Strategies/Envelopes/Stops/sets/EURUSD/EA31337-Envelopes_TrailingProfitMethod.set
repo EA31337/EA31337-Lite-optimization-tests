@@ -28,9 +28,9 @@ Envelopes5_SignalMethod=0
 Envelopes15_SignalMethod=0
 Envelopes30_SignalMethod=0
 # Dynamic strategy params.
-Envelopes_TrailingStopMethod=20
+Envelopes_TrailingStopMethod=-2
 # Optimization params.
-Envelopes_TrailingProfitMethod=-14
+Envelopes_TrailingProfitMethod=-11
 Envelopes_TrailingProfitMethod,F=0
 Envelopes_TrailingProfitMethod,1=0
 Envelopes_TrailingProfitMethod,2=0

@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -11,15 +11,15 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           2 135.24           67          1.22            2.02     178.93       0.18 CCI30_SignalMethod=-43; MaxOrders=0; MaxOrdersPerType=0;
-           6 103.12            9          3.38           11.46      54.90       0.05 CCI30_SignalMethod=-31; MaxOrders=0; MaxOrdersPerType=0;
-           7 103.12            9          3.38           11.46      54.90       0.05 CCI30_SignalMethod=-28; MaxOrders=0; MaxOrdersPerType=0;
-           8  94.82            4         68.73           23.71      39.20       0.04 CCI30_SignalMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
-           9  94.82            4         68.73           23.71      39.20       0.04 CCI30_SignalMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
-          10  94.82            4         68.73           23.71      39.20       0.04 CCI30_SignalMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
-          11  93.11           10          2.75            9.31      56.50       0.06 CCI30_SignalMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
-           1  62.59           18          1.41            3.48      69.20       0.07 CCI30_SignalMethod=-46; MaxOrders=0; MaxOrdersPerType=0;
-           4  62.59           18          1.41            3.48      69.20       0.07 CCI30_SignalMethod=-37; MaxOrders=0; MaxOrdersPerType=0;
-           5  62.59           18          1.41            3.48      69.20       0.07 CCI30_SignalMethod=-34; MaxOrders=0; MaxOrdersPerType=0;
-           3  10.70           46          1.02            0.23     164.52       0.16 CCI30_SignalMethod=-40; MaxOrders=0; MaxOrdersPerType=0;
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           4  114.40          122          1.08            0.94     314.55       0.31 CCI30_SignalMethod=-54; MaxOrders=5; MaxOrdersPerType=2;
+           6   11.37          148          1.01            0.08     291.37       0.29 CCI30_SignalMethod=-48; MaxOrders=5; MaxOrdersPerType=2;
+           3   -2.06          117          1.00           -0.02     305.99       0.31 CCI30_SignalMethod=-57; MaxOrders=5; MaxOrdersPerType=2;
+           1  -61.58          139          0.96           -0.44     283.76       0.28 CCI30_SignalMethod=-63; MaxOrders=5; MaxOrdersPerType=2;
+           5  -80.34          131          0.95           -0.61     327.17       0.33 CCI30_SignalMethod=-51; MaxOrders=5; MaxOrdersPerType=2;
+           2  -87.58          143          0.95           -0.61     302.56       0.30 CCI30_SignalMethod=-60; MaxOrders=5; MaxOrdersPerType=2;
+          10 -103.64          129          0.93           -0.80     321.37       0.32 CCI30_SignalMethod=-36; MaxOrders=5; MaxOrdersPerType=2;
+           9 -111.34          129          0.93           -0.86     319.57       0.32 CCI30_SignalMethod=-39; MaxOrders=5; MaxOrdersPerType=2;
+           7 -136.12          103          0.90           -1.32     301.30       0.30 CCI30_SignalMethod=-45; MaxOrders=5; MaxOrdersPerType=2;
+           8 -136.12          103          0.90           -1.32     301.30       0.30 CCI30_SignalMethod=-42; MaxOrders=5; MaxOrdersPerType=2;
+          11 -136.12          103          0.90           -1.32     301.30       0.30 CCI30_SignalMethod=-33; MaxOrders=5; MaxOrdersPerType=2;

@@ -2,12 +2,12 @@
 LotSize=0.01
 Boosting_Enabled=0
 Account_Conditions_Active=0
-CloseOrderAfterXHours=12
+CloseOrderAfterXHours=24
 SmartQueueActive=1
-MaxOrders=10
+MaxOrders=5
 SmartQueueFilter=0
 # Optimization params.
-SmartQueueMethod=0
+SmartQueueMethod=7
 SmartQueueMethod,F=0
 SmartQueueMethod,1=0
 SmartQueueMethod,2=0

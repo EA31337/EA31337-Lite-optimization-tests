@@ -2,18 +2,18 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          15 Minutes (M15) 2019.06.02 21:01 - 2019.12.30 23:45 (2019.06.01 - 2019.12.31)
+                            Period          15 Minutes (M15) 2019.01.02 23:00 - 2019.12.30 23:45 (2019.01.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              1 -80.35          442          0.98           -0.18     708.83       0.71 WPR_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
-              2 -80.35          442          0.98           -0.18     708.83       0.71 WPR_Period_M15=3; MaxOrders=0; MaxOrdersPerType=0;
-              3 -80.35          442          0.98           -0.18     708.83       0.71 WPR_Period_M15=4; MaxOrders=0; MaxOrdersPerType=0;
-              4 -80.35          442          0.98           -0.18     708.83       0.71 WPR_Period_M15=5; MaxOrders=0; MaxOrdersPerType=0;
-              5 -80.35          442          0.98           -0.18     708.83       0.71 WPR_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
+           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              1 -426.25          459          0.91           -0.93     518.98       0.52 WPR_Period_M15=2; MaxOrders=5; MaxOrdersPerType=2;
+              2 -426.25          459          0.91           -0.93     518.98       0.52 WPR_Period_M15=3; MaxOrders=5; MaxOrdersPerType=2;
+              3 -426.25          459          0.91           -0.93     518.98       0.52 WPR_Period_M15=4; MaxOrders=5; MaxOrdersPerType=2;
+              4 -426.25          459          0.91           -0.93     518.98       0.52 WPR_Period_M15=5; MaxOrders=5; MaxOrdersPerType=2;
+              5 -426.25          459          0.91           -0.93     518.98       0.52 WPR_Period_M15=6; MaxOrders=5; MaxOrdersPerType=2;

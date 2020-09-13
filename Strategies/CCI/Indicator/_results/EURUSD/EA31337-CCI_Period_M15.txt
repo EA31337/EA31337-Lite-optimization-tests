@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -11,9 +11,13 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              2 295.19          594          1.06            0.50     449.40       0.45  CCI_Period_M15=6; MaxOrders=0; MaxOrdersPerType=0;
-              4 211.38          597          1.04            0.35     572.59       0.57 CCI_Period_M15=14; MaxOrders=0; MaxOrdersPerType=0;
-              5 162.41          590          1.03            0.28     555.18       0.55 CCI_Period_M15=18; MaxOrders=0; MaxOrdersPerType=0;
-              3 161.53          602          1.03            0.27     531.70       0.53 CCI_Period_M15=10; MaxOrders=0; MaxOrdersPerType=0;
-              1 -78.76          237          0.96           -0.33     443.34       0.44  CCI_Period_M15=2; MaxOrders=0; MaxOrdersPerType=0;
+          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             8   84.74          356          1.02            0.24     369.34       0.37 CCI_Period_M15=19; MaxOrders=5; MaxOrdersPerType=2;
+             5   14.84          375          1.00            0.04     387.83       0.39 CCI_Period_M15=13; MaxOrders=5; MaxOrdersPerType=2;
+             9  -32.20          342          0.99           -0.09     367.30       0.37 CCI_Period_M15=21; MaxOrders=5; MaxOrdersPerType=2;
+             7  -56.21          360          0.98           -0.16     394.80       0.39 CCI_Period_M15=17; MaxOrders=5; MaxOrdersPerType=2;
+             4  -81.48          383          0.98           -0.21     370.96       0.37 CCI_Period_M15=11; MaxOrders=5; MaxOrdersPerType=2;
+             1  -89.40          411          0.98           -0.22     370.35       0.37  CCI_Period_M15=5; MaxOrders=5; MaxOrdersPerType=2;
+             6 -110.60          362          0.97           -0.31     399.01       0.40 CCI_Period_M15=15; MaxOrders=5; MaxOrdersPerType=2;
+             3 -321.65          394          0.92           -0.82     432.90       0.43  CCI_Period_M15=9; MaxOrders=5; MaxOrdersPerType=2;
+             2 -421.37          401          0.90           -1.05     500.92       0.50  CCI_Period_M15=7; MaxOrders=5; MaxOrdersPerType=2;

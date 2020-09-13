@@ -2,18 +2,18 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          5  -727.48          230          0.31           -3.16     788.37       0.79 InitNoOfDaysToWarmUp=28; MaxOrders=0; MaxOrdersPerType=0;
-          4  -811.15          230          0.31           -3.53     872.04       0.87 InitNoOfDaysToWarmUp=21; MaxOrders=0; MaxOrdersPerType=0;
-          3  -863.45          237          0.34           -3.64     924.34       0.92 InitNoOfDaysToWarmUp=14; MaxOrders=0; MaxOrdersPerType=0;
-          2  -908.25          237          0.33           -3.83     969.14       0.97  InitNoOfDaysToWarmUp=7; MaxOrders=0; MaxOrdersPerType=0;
-          1 -2197.14          230          0.42           -9.55    2454.67       2.45  InitNoOfDaysToWarmUp=0; MaxOrders=0; MaxOrdersPerType=0;
+       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          1 3314.55          466          1.69            7.11    1100.36       1.09  InitNoOfDaysToWarmUp=0; MaxOrders=0; MaxOrdersPerType=0;
+          5 2292.60          357          1.62            6.42     907.79       0.91 InitNoOfDaysToWarmUp=28; MaxOrders=0; MaxOrdersPerType=0;
+          4 2237.73          357          1.60            6.27    1011.29       1.01 InitNoOfDaysToWarmUp=21; MaxOrders=0; MaxOrdersPerType=0;
+          2 2040.03          357          1.52            5.71    1208.99       1.21  InitNoOfDaysToWarmUp=7; MaxOrders=0; MaxOrdersPerType=0;
+          3 2040.03          357          1.52            5.71    1208.99       1.21 InitNoOfDaysToWarmUp=14; MaxOrders=0; MaxOrdersPerType=0;

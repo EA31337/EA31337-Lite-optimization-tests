@@ -29,7 +29,7 @@ RSI15_SignalMethod=0
 RSI30_SignalMethod=0
 RSI_TrailingProfitMethod=0
 # Optimization params.
-RSI_TrailingStopMethod=-23
+RSI_TrailingStopMethod=9
 RSI_TrailingStopMethod,F=0
 RSI_TrailingStopMethod,1=0
 RSI_TrailingStopMethod,2=0

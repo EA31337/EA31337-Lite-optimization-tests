@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -12,14 +12,14 @@
                             Spread          10
                                                                  [Optimization Graph]
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           6   62.46          199          1.04            0.31     249.14       0.25 CCI15_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
-           7   62.46          199          1.04            0.31     249.14       0.25 CCI15_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
-           2   51.56          203          1.04            0.25     249.14       0.25 CCI15_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
-           9  -59.51          128          0.95           -0.46     353.64       0.35 CCI15_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
-          11  -59.51          128          0.95           -0.46     353.64       0.35 CCI15_SignalMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
-           4  -80.18          152          0.93           -0.53     274.28       0.27 CCI15_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
-           5  -80.18          152          0.93           -0.53     274.28       0.27 CCI15_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
-           8  -80.18          152          0.93           -0.53     274.28       0.27 CCI15_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
-          10  -96.72          139          0.92           -0.70     352.67       0.35 CCI15_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
-           1 -107.89          159          0.91           -0.68     310.98       0.31 CCI15_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
-           3 -291.27          246          0.84           -1.18     402.02       0.40 CCI15_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+           9   17.74          210          1.01            0.08     249.26       0.25 CCI15_SignalMethod=-36; MaxOrders=5; MaxOrdersPerType=2;
+           8   17.74          210          1.01            0.08     249.26       0.25 CCI15_SignalMethod=-39; MaxOrders=5; MaxOrdersPerType=2;
+           5  -22.32          248          0.99           -0.09     267.11       0.27 CCI15_SignalMethod=-48; MaxOrders=5; MaxOrdersPerType=2;
+          11  -26.76           27          0.92           -0.99     105.90       0.11 CCI15_SignalMethod=-30; MaxOrders=5; MaxOrdersPerType=2;
+           4  -34.36          216          0.98           -0.16     238.47       0.24 CCI15_SignalMethod=-51; MaxOrders=5; MaxOrdersPerType=2;
+           2 -124.80          185          0.93           -0.67     319.16       0.32 CCI15_SignalMethod=-57; MaxOrders=5; MaxOrdersPerType=2;
+           6 -180.51          149          0.88           -1.21     350.28       0.35 CCI15_SignalMethod=-45; MaxOrders=5; MaxOrdersPerType=2;
+           7 -180.51          149          0.88           -1.21     350.28       0.35 CCI15_SignalMethod=-42; MaxOrders=5; MaxOrdersPerType=2;
+          10 -180.51          149          0.88           -1.21     350.28       0.35 CCI15_SignalMethod=-33; MaxOrders=5; MaxOrdersPerType=2;
+           3 -216.51          197          0.89           -1.10     396.06       0.40 CCI15_SignalMethod=-54; MaxOrders=5; MaxOrdersPerType=2;
+           1 -236.08          236          0.90           -1.00     327.08       0.33 CCI15_SignalMethod=-60; MaxOrders=5; MaxOrdersPerType=2;

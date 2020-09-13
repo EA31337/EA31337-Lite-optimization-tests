@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -12,8 +12,8 @@
                              Spread          10
                                                                  [Optimization Graph]
        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          4 449.75          425          1.12            1.06     592.83       0.59 Alligator_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
-          5 293.26          408          1.08            0.72     766.58       0.76 Alligator_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
-          3 271.56          443          1.07            0.61     693.54       0.69 Alligator_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
-          2 119.64          478          1.03            0.25     795.70       0.79 Alligator_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
-          1 110.50          514          1.03            0.21     935.46       0.93   Alligator_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
+          1   2.80           48          1.01            0.06     271.45       0.27 Alligator_SignalLevel=0.3; MaxOrders=5; MaxOrdersPerType=2;
+          3   5.14           16          1.03            0.32     145.78       0.15 Alligator_SignalLevel=0.5; MaxOrders=5; MaxOrdersPerType=2;
+          2 -89.94           24          0.66           -3.75     224.41       0.22 Alligator_SignalLevel=0.4; MaxOrders=5; MaxOrdersPerType=2;
+          4 -12.44            6          0.77           -2.07      86.70       0.09 Alligator_SignalLevel=0.6; MaxOrders=5; MaxOrdersPerType=2;
+          5   1.30            1          0.00            1.30       4.70       0.00 Alligator_SignalLevel=0.7; MaxOrders=5; MaxOrdersPerType=2;

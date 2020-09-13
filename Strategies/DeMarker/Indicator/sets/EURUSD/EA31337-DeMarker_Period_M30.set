@@ -24,7 +24,7 @@ SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Fixed strategy params.
 DeMarker_Shift=0
-DeMarker_SignalLevel=0.2
+DeMarker_SignalLevel=0.3
 DeMarker1_SignalMethod=0
 DeMarker5_SignalMethod=0
 DeMarker15_SignalMethod=0
@@ -32,7 +32,7 @@ DeMarker30_SignalMethod=0
 DeMarker_TrailingStopMethod=0
 DeMarker_TrailingProfitMethod=0
 # Optimization params.
-DeMarker_Period_M30=24
+DeMarker_Period_M30=14
 DeMarker_Period_M30,F=0
 DeMarker_Period_M30,1=0
 DeMarker_Period_M30,2=0

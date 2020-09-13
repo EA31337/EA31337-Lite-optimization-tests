@@ -2,24 +2,24 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        1 -1208.36          387          0.46           -3.12    1236.45       1.24  RiskRatioDecreaseMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-        2 -1208.36          387          0.46           -3.12    1236.45       1.24  RiskRatioDecreaseMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-        3 -1208.36          387          0.46           -3.12    1236.45       1.24 RiskRatioDecreaseMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-        4 -1208.36          387          0.46           -3.12    1236.45       1.24 RiskRatioDecreaseMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-        5 -1208.36          387          0.46           -3.12    1236.45       1.24 RiskRatioDecreaseMethod=28; MaxOrders=0; MaxOrdersPerType=0;
-        6 -1208.36          387          0.46           -3.12    1236.45       1.24 RiskRatioDecreaseMethod=35; MaxOrders=0; MaxOrdersPerType=0;
-        7 -1208.36          387          0.46           -3.12    1236.45       1.24 RiskRatioDecreaseMethod=42; MaxOrders=0; MaxOrdersPerType=0;
-        8 -1208.36          387          0.46           -3.12    1236.45       1.24 RiskRatioDecreaseMethod=49; MaxOrders=0; MaxOrdersPerType=0;
-        9 -1208.36          387          0.46           -3.12    1236.45       1.24 RiskRatioDecreaseMethod=56; MaxOrders=0; MaxOrdersPerType=0;
-       10 -1208.36          387          0.46           -3.12    1236.45       1.24 RiskRatioDecreaseMethod=63; MaxOrders=0; MaxOrdersPerType=0;
-       11 -1208.36          387          0.46           -3.12    1236.45       1.24 RiskRatioDecreaseMethod=70; MaxOrders=0; MaxOrdersPerType=0;
+      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         1 -270.91         1444          0.97           -0.19     804.12       0.80  RiskRatioDecreaseMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+         2 -270.91         1444          0.97           -0.19     804.12       0.80  RiskRatioDecreaseMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+         3 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioDecreaseMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+         4 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioDecreaseMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+         5 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioDecreaseMethod=28; MaxOrders=0; MaxOrdersPerType=0;
+         6 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioDecreaseMethod=35; MaxOrders=0; MaxOrdersPerType=0;
+         7 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioDecreaseMethod=42; MaxOrders=0; MaxOrdersPerType=0;
+         8 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioDecreaseMethod=49; MaxOrders=0; MaxOrdersPerType=0;
+         9 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioDecreaseMethod=56; MaxOrders=0; MaxOrdersPerType=0;
+        10 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioDecreaseMethod=63; MaxOrders=0; MaxOrdersPerType=0;
+        11 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioDecreaseMethod=70; MaxOrders=0; MaxOrdersPerType=0;

@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -12,12 +12,8 @@
                              Spread          10
                                                                  [Optimization Graph]
           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1  44.40           34          1.24            1.31     104.20       0.10  Force_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
-             2  44.40           34          1.24            1.31     104.20       0.10  Force_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
-             3  44.40           34          1.24            1.31     104.20       0.10 Force_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
-             4  44.40           34          1.24            1.31     104.20       0.10 Force_Period_M1=12; MaxOrders=0; MaxOrdersPerType=0;
-             5  44.40           34          1.24            1.31     104.20       0.10 Force_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
-             6  44.40           34          1.24            1.31     104.20       0.10 Force_Period_M1=16; MaxOrders=0; MaxOrdersPerType=0;
-             7  44.40           34          1.24            1.31     104.20       0.10 Force_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;
-             8  44.40           34          1.24            1.31     104.20       0.10 Force_Period_M1=20; MaxOrders=0; MaxOrdersPerType=0;
-             9  44.40           34          1.24            1.31     104.20       0.10 Force_Period_M1=22; MaxOrders=0; MaxOrdersPerType=0;
+             1   0.00            0          0.00            0.00       0.00       0.00  Force_Period_M1=2; MaxOrders=5; MaxOrdersPerType=2;
+             2   0.00            0          0.00            0.00       0.00       0.00  Force_Period_M1=4; MaxOrders=5; MaxOrdersPerType=2;
+             3   0.00            0          0.00            0.00       0.00       0.00  Force_Period_M1=6; MaxOrders=5; MaxOrdersPerType=2;
+             4   0.00            0          0.00            0.00       0.00       0.00  Force_Period_M1=8; MaxOrders=5; MaxOrdersPerType=2;
+             5   0.00            0          0.00            0.00       0.00       0.00 Force_Period_M1=10; MaxOrders=5; MaxOrdersPerType=2;

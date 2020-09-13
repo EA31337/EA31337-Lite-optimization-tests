@@ -2,18 +2,18 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          5 Minutes (M5) 2019.06.02 21:01 - 2019.12.30 23:55 (2019.06.01 - 2019.12.31)
+                             Period          5 Minutes (M5) 2019.01.02 06:20 - 2019.12.30 23:55 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        4    -3.70            4          0.67           -0.92      15.10       0.02 Envelopes_Deviation_M5=0.3; MaxOrders=0; MaxOrdersPerType=0;
-        5    -3.70            4          0.67           -0.92      15.10       0.02 Envelopes_Deviation_M5=0.4; MaxOrders=0; MaxOrdersPerType=0;
-        3   -18.20            8          0.75           -2.28      89.10       0.09 Envelopes_Deviation_M5=0.2; MaxOrders=0; MaxOrdersPerType=0;
-        2  -160.10           40          0.44           -4.00     231.20       0.23 Envelopes_Deviation_M5=0.1; MaxOrders=0; MaxOrdersPerType=0;
-        1 -1629.43         1605          0.74           -1.02    1831.60       1.83   Envelopes_Deviation_M5=0; MaxOrders=0; MaxOrdersPerType=0;
+      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         3   66.00           10          1.75            6.60      68.70       0.07 Envelopes_Deviation_M5=0.5; MaxOrders=5; MaxOrdersPerType=2;
+         4   11.30            4          1.36            2.82      49.30       0.05 Envelopes_Deviation_M5=0.6; MaxOrders=5; MaxOrdersPerType=2;
+         2   -0.50           21          1.00           -0.02     111.50       0.11 Envelopes_Deviation_M5=0.4; MaxOrders=5; MaxOrdersPerType=2;
+         5    0.00            0          0.00            0.00       0.00       0.00 Envelopes_Deviation_M5=0.7; MaxOrders=5; MaxOrdersPerType=2;
+         1 -213.40           66          0.55           -3.23     257.50       0.26 Envelopes_Deviation_M5=0.3; MaxOrders=5; MaxOrdersPerType=2;

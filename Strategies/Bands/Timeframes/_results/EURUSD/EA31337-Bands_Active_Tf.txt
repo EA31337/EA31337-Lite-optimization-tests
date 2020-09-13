@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,20 +11,20 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            14 442.95          481          1.10            0.92     489.13       0.49 Bands_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
-            16 440.05          486          1.10            0.91     492.73       0.49 Bands_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
-             6 403.46          463          1.09            0.87     455.33       0.45  Bands_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
-             8 400.56          468          1.09            0.86     458.93       0.46  Bands_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
-            10 245.39          198          1.11            1.24     313.35       0.31  Bands_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
-             2 229.38          179          1.11            1.28     346.05       0.34  Bands_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
-            12 209.99          202          1.09            1.04     308.75       0.31 Bands_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
-             4 193.98          183          1.09            1.06     341.45       0.34  Bands_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
-             9 131.00           20          3.49            6.55      83.54       0.08  Bands_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
-            11  95.60           24          2.01            3.98     123.54       0.12 Bands_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
-             1   0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
-            13 -14.01          264          0.99           -0.05     672.71       0.67 Bands_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
-            15 -16.91          269          0.99           -0.06     674.51       0.67 Bands_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
-             3 -35.40            4          0.15           -8.85      52.60       0.05  Bands_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
-             5 -46.24          243          0.98           -0.19     628.03       0.63  Bands_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
-             7 -49.14          248          0.98           -0.20     629.83       0.63  Bands_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1    0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
+             2    0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+             5  -86.98           57          0.83           -1.53     325.38       0.32  Bands_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+             6  -86.98           57          0.83           -1.53     325.38       0.32  Bands_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+             9 -219.32          469          0.90           -0.47     457.27       0.46  Bands_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+            10 -219.32          469          0.90           -0.47     457.27       0.46  Bands_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+             3 -235.34           26          0.42           -9.05     395.07       0.39  Bands_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
+             4 -235.34           26          0.42           -9.05     395.07       0.39  Bands_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+            11 -275.23          490          0.89           -0.56     572.70       0.57 Bands_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+            12 -275.23          490          0.89           -0.56     572.70       0.57 Bands_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+             7 -302.23           83          0.66           -3.64     596.92       0.60  Bands_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+             8 -302.23           83          0.66           -3.64     596.92       0.60  Bands_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
+            13 -460.03          536          0.82           -0.86     686.08       0.69 Bands_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+            14 -460.03          536          0.82           -0.86     686.08       0.69 Bands_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+            15 -585.40          557          0.80           -1.05     925.77       0.92 Bands_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+            16 -585.40          557          0.80           -1.05     925.77       0.92 Bands_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;

@@ -2,18 +2,16 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-             Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                3  -619.27         1091          0.94           -0.57    1316.79       1.32 WPR_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
-                2  -694.82         1032          0.92           -0.67    1273.48       1.27 WPR_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
-                1  -852.52         1035          0.91           -0.82    1385.58       1.39 WPR_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
-                4  -952.96         1142          0.91           -0.83    1506.30       1.51 WPR_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
-                5 -1080.50         1169          0.89           -0.92    1398.69       1.40 WPR_Shift=6; MaxOrders=0; MaxOrdersPerType=0;
+             Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                1 -352.11         1256          0.98           -0.28    1741.89       1.72 WPR_Shift=0; MaxOrders=5; MaxOrdersPerType=2;
+                2 -352.11         1256          0.98           -0.28    1741.89       1.72 WPR_Shift=1; MaxOrders=5; MaxOrdersPerType=2;
+                3 -352.11         1256          0.98           -0.28    1741.89       1.72 WPR_Shift=2; MaxOrders=5; MaxOrdersPerType=2;

@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,20 +11,20 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             10  126.54           46          1.31            2.75     191.12       0.19  SAR_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
-              2  101.97           33          1.34            3.09     198.62       0.20  SAR_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
-              9  100.49           13          1.98            7.73      97.75       0.10  SAR_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
-             12   18.82           58          1.03            0.32     195.92       0.20 SAR_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
-              1    0.00            0          0.00            0.00       0.00       0.00  SAR_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
-              4   -5.75           45          0.99           -0.13     203.42       0.20  SAR_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
-             11   -7.24           25          0.97           -0.29     163.86       0.16 SAR_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
-              3 -107.72           12          0.35           -8.98     129.82       0.13  SAR_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
-              6 -276.15          404          0.93           -0.68     965.50       0.96  SAR_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
-             14 -304.85          418          0.92           -0.73    1098.76       1.10 SAR_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
-              8 -380.58          416          0.91           -0.91    1025.31       1.02  SAR_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
-              5 -397.20          367          0.90           -1.08    1050.73       1.05  SAR_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
-             13 -398.25          381          0.90           -1.05    1188.34       1.19 SAR_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
-             16 -409.27          430          0.90           -0.95    1158.57       1.16 SAR_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
-              7 -501.63          379          0.87           -1.32    1119.74       1.12  SAR_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
-             15 -502.67          393          0.87           -1.28    1257.36       1.25 SAR_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             9    43.09          474          1.01            0.09     569.17       0.57  SAR_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+             1     0.00            0          0.00            0.00       0.00       0.00  SAR_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
+            10  -137.54          755          0.97           -0.18     597.57       0.60  SAR_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+            11  -233.63          903          0.96           -0.26     984.93       0.98 SAR_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+             3  -283.67          366          0.89           -0.78     561.49       0.56  SAR_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
+             2  -294.93          290          0.63           -1.02     300.63       0.30  SAR_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+            12  -401.73         1181          0.95           -0.34    1013.32       1.01 SAR_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+             4  -473.83          644          0.87           -0.74     685.16       0.68  SAR_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+            13 -1173.40         1665          0.87           -0.70    1451.29       1.45 SAR_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+             5 -1220.77          757          0.78           -1.61    1360.19       1.36  SAR_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+            14 -1414.53         1942          0.85           -0.73    1548.93       1.55 SAR_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+             7 -1536.73         1247          0.80           -1.23    1849.49       1.85  SAR_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+             6 -1561.87         1036          0.75           -1.51    1629.19       1.63  SAR_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+            15 -1595.65         2095          0.86           -0.76    1967.60       1.96 SAR_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+             8 -1777.90         1521          0.79           -1.17    1980.58       1.98  SAR_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
+            16 -1825.16         2365          0.85           -0.77    2034.87       2.03 SAR_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;

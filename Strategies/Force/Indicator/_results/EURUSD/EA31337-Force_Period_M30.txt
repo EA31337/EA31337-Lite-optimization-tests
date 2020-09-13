@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -12,12 +12,12 @@
                             Spread          10
                                                                  [Optimization Graph]
           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=10; MaxOrders=0; MaxOrdersPerType=0;
-             2 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=12; MaxOrders=0; MaxOrdersPerType=0;
-             3 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=14; MaxOrders=0; MaxOrdersPerType=0;
-             4 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=16; MaxOrders=0; MaxOrdersPerType=0;
-             5 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=18; MaxOrders=0; MaxOrdersPerType=0;
-             6 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=20; MaxOrders=0; MaxOrdersPerType=0;
-             7 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=22; MaxOrders=0; MaxOrdersPerType=0;
-             8 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=24; MaxOrders=0; MaxOrdersPerType=0;
-             9 133.44            8          7.67           16.68      75.30       0.08 Force_Period_M30=26; MaxOrders=0; MaxOrdersPerType=0;
+             2 566.54          330          1.19            1.72     345.98       0.34 Force_Period_M30=18; MaxOrders=5; MaxOrdersPerType=2;
+             1 438.81          353          1.13            1.24     568.17       0.56 Force_Period_M30=16; MaxOrders=5; MaxOrdersPerType=2;
+             5 427.15          267          1.15            1.60     392.31       0.39 Force_Period_M30=24; MaxOrders=5; MaxOrdersPerType=2;
+             4 346.95          278          1.12            1.25     372.04       0.37 Force_Period_M30=22; MaxOrders=5; MaxOrdersPerType=2;
+             3 328.72          292          1.11            1.13     337.58       0.34 Force_Period_M30=20; MaxOrders=5; MaxOrdersPerType=2;
+             6  57.11          244          1.02            0.23     503.16       0.50 Force_Period_M30=26; MaxOrders=5; MaxOrdersPerType=2;
+             8 -12.69          215          0.99           -0.06     456.49       0.45 Force_Period_M30=30; MaxOrders=5; MaxOrdersPerType=2;
+             7 -52.68          230          0.98           -0.23     422.02       0.42 Force_Period_M30=28; MaxOrders=5; MaxOrdersPerType=2;
+             9 -63.71          206          0.97           -0.31     499.46       0.50 Force_Period_M30=32; MaxOrders=5; MaxOrdersPerType=2;

@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,7 +11,7 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            2 -242.22         1457          0.97           -0.17     565.47       0.56  MFI5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-            3 -306.33          100          0.44           -3.06     326.06       0.33  MFI5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-            1 -484.00          458          0.80           -1.06     525.83       0.53 MFI5_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           3  -148.99          230          0.88           -0.65     277.12       0.28  MFI5_SignalMethod=1; MaxOrders=5; MaxOrdersPerType=2;
+           1  -512.37          651          0.86           -0.79     677.56       0.68 MFI5_SignalMethod=-1; MaxOrders=5; MaxOrdersPerType=2;
+           2 -7924.08         9667          0.56           -0.82    7972.68       7.97  MFI5_SignalMethod=0; MaxOrders=5; MaxOrdersPerType=2;

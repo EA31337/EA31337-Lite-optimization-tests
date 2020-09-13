@@ -2,16 +2,18 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-           Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              3 -1612.60         3166          0.85           -0.51    1685.77       1.69 StopLossMax=40; MaxOrders=0; MaxOrdersPerType=0;
-              1 -2396.81         3302          0.79           -0.73    2401.81       2.40  StopLossMax=0; MaxOrders=0; MaxOrdersPerType=0;
-              2 -2559.26         3446          0.77           -0.74    2627.78       2.63 StopLossMax=20; MaxOrders=0; MaxOrdersPerType=0;
+           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              2  -26.99         1650          1.00           -0.02     787.28       0.78  StopLossMax=40; MaxOrders=0; MaxOrdersPerType=0;
+              3  -35.21         1641          1.00           -0.02     717.94       0.72  StopLossMax=60; MaxOrders=0; MaxOrdersPerType=0;
+              4 -164.69         1626          0.98           -0.10     850.75       0.85  StopLossMax=80; MaxOrders=0; MaxOrdersPerType=0;
+              5 -183.43         1639          0.98           -0.11     999.87       1.00 StopLossMax=100; MaxOrders=0; MaxOrdersPerType=0;
+              1 -522.30         1572          0.94           -0.33    1291.60       1.29  StopLossMax=20; MaxOrders=0; MaxOrdersPerType=0;

@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,13 +11,13 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              7 -235.45          926          0.94           -0.25     426.02       0.43 MFI_Period_M5=28; MaxOrders=0; MaxOrdersPerType=0;
-              9 -282.79          918          0.93           -0.31     472.80       0.47 MFI_Period_M5=32; MaxOrders=0; MaxOrdersPerType=0;
-              4 -302.73          928          0.93           -0.33     525.60       0.52 MFI_Period_M5=22; MaxOrders=0; MaxOrdersPerType=0;
-              8 -372.53          923          0.91           -0.40     508.14       0.51 MFI_Period_M5=30; MaxOrders=0; MaxOrdersPerType=0;
-              6 -585.55          922          0.86           -0.64     646.78       0.65 MFI_Period_M5=26; MaxOrders=0; MaxOrdersPerType=0;
-              2 -620.75          944          0.86           -0.66     724.25       0.72 MFI_Period_M5=18; MaxOrders=0; MaxOrdersPerType=0;
-              3 -698.18          928          0.84           -0.75     751.91       0.75 MFI_Period_M5=20; MaxOrders=0; MaxOrdersPerType=0;
-              5 -780.31          907          0.83           -0.86     850.96       0.85 MFI_Period_M5=24; MaxOrders=0; MaxOrdersPerType=0;
-              1 -817.23          942          0.82           -0.87     893.80       0.89 MFI_Period_M5=16; MaxOrders=0; MaxOrdersPerType=0;
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1 -1063.00         1395          0.80           -0.76    1082.90       1.08 MFI_Period_M5=54; MaxOrders=5; MaxOrdersPerType=2;
+             3 -1083.01         1316          0.79           -0.82    1110.04       1.11 MFI_Period_M5=58; MaxOrders=5; MaxOrdersPerType=2;
+             2 -1128.29         1330          0.79           -0.85    1156.32       1.16 MFI_Period_M5=56; MaxOrders=5; MaxOrdersPerType=2;
+             5 -1198.84         1234          0.77           -0.97    1231.77       1.23 MFI_Period_M5=62; MaxOrders=5; MaxOrdersPerType=2;
+             4 -1250.57         1288          0.76           -0.97    1291.70       1.29 MFI_Period_M5=60; MaxOrders=5; MaxOrdersPerType=2;
+             6 -1262.80         1193          0.75           -1.06    1303.33       1.30 MFI_Period_M5=64; MaxOrders=5; MaxOrdersPerType=2;
+             9 -1273.21         1124          0.74           -1.13    1334.04       1.33 MFI_Period_M5=70; MaxOrders=5; MaxOrdersPerType=2;
+             7 -1307.66         1173          0.75           -1.11    1361.39       1.36 MFI_Period_M5=66; MaxOrders=5; MaxOrdersPerType=2;
+             8 -1425.64         1144          0.72           -1.25    1480.78       1.48 MFI_Period_M5=68; MaxOrders=5; MaxOrdersPerType=2;

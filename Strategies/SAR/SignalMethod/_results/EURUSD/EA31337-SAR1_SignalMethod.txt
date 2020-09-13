@@ -2,22 +2,34 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           7  21.40           22          1.18            0.97     108.40       0.11  SAR1_SignalMethod=-85; MaxOrders=0; MaxOrdersPerType=0;
-           9  21.40           22          1.18            0.97     108.40       0.11  SAR1_SignalMethod=-71; MaxOrders=0; MaxOrdersPerType=0;
-           6   8.60           22          1.06            0.39     108.40       0.11  SAR1_SignalMethod=-92; MaxOrders=0; MaxOrdersPerType=0;
-           8   8.60           22          1.06            0.39     108.40       0.11  SAR1_SignalMethod=-78; MaxOrders=0; MaxOrdersPerType=0;
-           3   4.60           23          1.03            0.20     108.40       0.11 SAR1_SignalMethod=-113; MaxOrders=0; MaxOrdersPerType=0;
-           1   1.00          100          1.00            0.01     137.10       0.14 SAR1_SignalMethod=-127; MaxOrders=0; MaxOrdersPerType=0;
-           5   1.00           48          1.01            0.02     119.00       0.12  SAR1_SignalMethod=-99; MaxOrders=0; MaxOrdersPerType=0;
-           4  -1.10           24          0.99           -0.05     104.20       0.10 SAR1_SignalMethod=-106; MaxOrders=0; MaxOrdersPerType=0;
-           2 -57.60          213          0.92           -0.27     135.40       0.14 SAR1_SignalMethod=-120; MaxOrders=0; MaxOrdersPerType=0;
+       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         12  -324.49          297          0.52           -1.09     334.88       0.33  SAR1_SignalMethod=-88; MaxOrders=5; MaxOrdersPerType=2;
+          9  -346.89          271          0.45           -1.28     361.99       0.36  SAR1_SignalMethod=-97; MaxOrders=5; MaxOrdersPerType=2;
+         15  -348.09          258          0.42           -1.35     356.59       0.36  SAR1_SignalMethod=-79; MaxOrders=5; MaxOrdersPerType=2;
+         17  -348.09          258          0.42           -1.35     356.59       0.36  SAR1_SignalMethod=-73; MaxOrders=5; MaxOrdersPerType=2;
+         13  -351.19          256          0.42           -1.37     359.69       0.36  SAR1_SignalMethod=-85; MaxOrders=5; MaxOrdersPerType=2;
+         19  -351.19          256          0.42           -1.37     359.69       0.36  SAR1_SignalMethod=-67; MaxOrders=5; MaxOrdersPerType=2;
+         11  -352.49          267          0.42           -1.32     360.99       0.36  SAR1_SignalMethod=-91; MaxOrders=5; MaxOrdersPerType=2;
+         14  -359.39          261          0.41           -1.38     367.89       0.37  SAR1_SignalMethod=-82; MaxOrders=5; MaxOrdersPerType=2;
+         21  -363.70          279          0.45           -1.30     400.60       0.40  SAR1_SignalMethod=-61; MaxOrders=5; MaxOrdersPerType=2;
+         18  -364.99          265          0.41           -1.38     373.49       0.37  SAR1_SignalMethod=-70; MaxOrders=5; MaxOrdersPerType=2;
+          2  -369.10          282          0.45           -1.31     406.00       0.41 SAR1_SignalMethod=-121; MaxOrders=5; MaxOrdersPerType=2;
+          5  -400.50          296          0.43           -1.35     437.40       0.44 SAR1_SignalMethod=-109; MaxOrders=5; MaxOrdersPerType=2;
+          3  -488.80          350          0.43           -1.40     504.79       0.50 SAR1_SignalMethod=-118; MaxOrders=5; MaxOrdersPerType=2;
+         16  -607.96          561          0.45           -1.08     615.19       0.62  SAR1_SignalMethod=-76; MaxOrders=5; MaxOrdersPerType=2;
+         10  -621.46          566          0.45           -1.10     628.69       0.63  SAR1_SignalMethod=-94; MaxOrders=5; MaxOrdersPerType=2;
+         20  -755.17          621          0.42           -1.22     786.67       0.79  SAR1_SignalMethod=-64; MaxOrders=5; MaxOrdersPerType=2;
+          6  -768.56          622          0.43           -1.24     800.06       0.80 SAR1_SignalMethod=-106; MaxOrders=5; MaxOrdersPerType=2;
+          4 -3837.22         4196          0.60           -0.91    3921.32       3.92 SAR1_SignalMethod=-115; MaxOrders=5; MaxOrdersPerType=2;
+          8 -3863.02         4201          0.59           -0.92    3947.12       3.94 SAR1_SignalMethod=-100; MaxOrders=5; MaxOrdersPerType=2;
+          7 -3872.92         4256          0.60           -0.91    3957.02       3.95 SAR1_SignalMethod=-103; MaxOrders=5; MaxOrdersPerType=2;
+          1 -4328.43         4678          0.61           -0.93    4409.93       4.41 SAR1_SignalMethod=-127; MaxOrders=5; MaxOrdersPerType=2;

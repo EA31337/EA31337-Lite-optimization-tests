@@ -2,21 +2,19 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          5 Minutes (M5) 2019.06.02 21:01 - 2019.12.30 23:55 (2019.06.01 - 2019.12.31)
+                             Period          5 Minutes (M5) 2019.01.02 06:20 - 2019.12.30 23:55 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              2 -272.29          471          0.89           -0.58     353.08       0.35  WPR_Period_M5=8; MaxOrders=0; MaxOrdersPerType=0;
-              3 -357.90          431          0.85           -0.83     399.78       0.40 WPR_Period_M5=10; MaxOrders=0; MaxOrdersPerType=0;
-              4 -373.69          393          0.84           -0.95     385.78       0.39 WPR_Period_M5=12; MaxOrders=0; MaxOrdersPerType=0;
-              6 -397.60          285          0.76           -1.40     444.25       0.44 WPR_Period_M5=16; MaxOrders=0; MaxOrdersPerType=0;
-              5 -398.66          335          0.80           -1.19     418.95       0.42 WPR_Period_M5=14; MaxOrders=0; MaxOrdersPerType=0;
-              7 -406.59          275          0.75           -1.48     421.24       0.42 WPR_Period_M5=18; MaxOrders=0; MaxOrdersPerType=0;
-              1 -422.70          527          0.85           -0.80     453.44       0.45  WPR_Period_M5=6; MaxOrders=0; MaxOrdersPerType=0;
-              8 -440.65          266          0.72           -1.66     466.64       0.47 WPR_Period_M5=20; MaxOrders=0; MaxOrdersPerType=0;
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1 -1071.45         1269          0.86           -0.84    1270.05       1.27  WPR_Period_M5=2; MaxOrders=5; MaxOrdersPerType=2;
+             2 -1071.45         1269          0.86           -0.84    1270.05       1.27  WPR_Period_M5=4; MaxOrders=5; MaxOrdersPerType=2;
+             3 -1071.45         1269          0.86           -0.84    1270.05       1.27  WPR_Period_M5=6; MaxOrders=5; MaxOrdersPerType=2;
+             4 -1071.45         1269          0.86           -0.84    1270.05       1.27  WPR_Period_M5=8; MaxOrders=5; MaxOrdersPerType=2;
+             5 -1071.45         1269          0.86           -0.84    1270.05       1.27 WPR_Period_M5=10; MaxOrders=5; MaxOrdersPerType=2;
+             6 -1071.45         1269          0.86           -0.84    1270.05       1.27 WPR_Period_M5=12; MaxOrders=5; MaxOrdersPerType=2;

@@ -2,18 +2,18 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.06.02 21:01 - 2019.12.30 23:30 (2019.06.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-           Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              2 -2090.34         3293          0.81           -0.63    2095.34       2.10 TrailingStop=40; MaxOrders=0; MaxOrdersPerType=0;
-              1 -2289.99         3329          0.79           -0.69    2294.99       2.29 TrailingStop=30; MaxOrders=0; MaxOrdersPerType=0;
-              3 -2396.81         3302          0.79           -0.73    2401.81       2.40 TrailingStop=50; MaxOrders=0; MaxOrdersPerType=0;
-              4 -2425.70         3292          0.79           -0.74    2430.70       2.43 TrailingStop=60; MaxOrders=0; MaxOrdersPerType=0;
-              5 -2447.73         3300          0.79           -0.74    2452.73       2.45 TrailingStop=70; MaxOrders=0; MaxOrdersPerType=0;
+           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              5  107.98         1636          1.01            0.07     548.28       0.55 TrailingStop=100; MaxOrders=0; MaxOrdersPerType=0;
+              4  -19.04         1641          1.00           -0.01     670.25       0.67  TrailingStop=90; MaxOrders=0; MaxOrdersPerType=0;
+              2  -23.78         1606          1.00           -0.01     895.09       0.89  TrailingStop=70; MaxOrders=0; MaxOrdersPerType=0;
+              3  -35.21         1641          1.00           -0.02     717.94       0.72  TrailingStop=80; MaxOrders=0; MaxOrdersPerType=0;
+              1 -104.67         1605          0.99           -0.07     860.70       0.86  TrailingStop=60; MaxOrders=0; MaxOrdersPerType=0;

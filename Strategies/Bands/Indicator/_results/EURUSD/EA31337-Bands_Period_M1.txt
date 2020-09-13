@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,13 +11,21 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1  87.57          143          1.23            0.61     142.97       0.14  Bands_Period_M1=2; MaxOrders=0; MaxOrdersPerType=0;
-             4  64.83          184          1.14            0.35     169.73       0.17  Bands_Period_M1=8; MaxOrders=0; MaxOrdersPerType=0;
-             2  59.23          175          1.14            0.34     151.13       0.15  Bands_Period_M1=4; MaxOrders=0; MaxOrdersPerType=0;
-             3  18.03          174          1.04            0.10     165.63       0.17  Bands_Period_M1=6; MaxOrders=0; MaxOrdersPerType=0;
-             5  12.20          220          1.02            0.06     191.47       0.19 Bands_Period_M1=10; MaxOrders=0; MaxOrdersPerType=0;
-             9 -48.84          278          0.93           -0.18     193.30       0.19 Bands_Period_M1=18; MaxOrders=0; MaxOrdersPerType=0;
-             6 -50.50          253          0.92           -0.20     212.73       0.21 Bands_Period_M1=12; MaxOrders=0; MaxOrdersPerType=0;
-             7 -54.47          273          0.92           -0.20     202.24       0.20 Bands_Period_M1=14; MaxOrders=0; MaxOrdersPerType=0;
-             8 -82.64          284          0.88           -0.29     208.00       0.21 Bands_Period_M1=16; MaxOrders=0; MaxOrdersPerType=0;
+         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           17 -1389.20         2014          0.74           -0.69    1439.84       1.44 Bands_Period_M1=48; MaxOrders=5; MaxOrdersPerType=2;
+           11 -1410.84         2183          0.76           -0.65    1526.07       1.53 Bands_Period_M1=36; MaxOrders=5; MaxOrdersPerType=2;
+           16 -1414.77         2041          0.74           -0.69    1469.57       1.47 Bands_Period_M1=46; MaxOrders=5; MaxOrdersPerType=2;
+           15 -1437.24         2062          0.74           -0.70    1500.24       1.50 Bands_Period_M1=44; MaxOrders=5; MaxOrdersPerType=2;
+           12 -1449.58         2150          0.75           -0.67    1519.18       1.52 Bands_Period_M1=38; MaxOrders=5; MaxOrdersPerType=2;
+           10 -1465.37         2201          0.75           -0.67    1567.34       1.57 Bands_Period_M1=34; MaxOrders=5; MaxOrdersPerType=2;
+           13 -1485.28         2114          0.74           -0.70    1558.88       1.56 Bands_Period_M1=40; MaxOrders=5; MaxOrdersPerType=2;
+           14 -1502.84         2092          0.73           -0.72    1563.11       1.56 Bands_Period_M1=42; MaxOrders=5; MaxOrdersPerType=2;
+            9 -1520.17         2220          0.75           -0.68    1643.07       1.64 Bands_Period_M1=32; MaxOrders=5; MaxOrdersPerType=2;
+            6 -1556.34         2301          0.75           -0.68    1654.08       1.65 Bands_Period_M1=26; MaxOrders=5; MaxOrdersPerType=2;
+            5 -1556.24         2325          0.75           -0.67    1720.46       1.72 Bands_Period_M1=24; MaxOrders=5; MaxOrdersPerType=2;
+            7 -1573.97         2270          0.74           -0.69    1672.90       1.67 Bands_Period_M1=28; MaxOrders=5; MaxOrdersPerType=2;
+            8 -1595.27         2239          0.74           -0.71    1727.50       1.73 Bands_Period_M1=30; MaxOrders=5; MaxOrdersPerType=2;
+            4 -1807.25         2345          0.72           -0.77    1982.38       1.98 Bands_Period_M1=22; MaxOrders=5; MaxOrdersPerType=2;
+            3 -1848.71         2391          0.72           -0.77    2016.95       2.01 Bands_Period_M1=20; MaxOrders=5; MaxOrdersPerType=2;
+            2 -1996.81         2427          0.70           -0.82    2120.54       2.12 Bands_Period_M1=18; MaxOrders=5; MaxOrdersPerType=2;
+            1 -2132.97         2448          0.69           -0.87    2247.05       2.25 Bands_Period_M1=16; MaxOrders=5; MaxOrdersPerType=2;

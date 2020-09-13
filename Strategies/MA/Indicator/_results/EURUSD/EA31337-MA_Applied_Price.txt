@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,11 +11,11 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             2  248.16          607          1.05            0.41     508.36       0.50 MA_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-             4   71.13          511          1.02            0.14     515.78       0.51 MA_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-             1 -158.69          622          0.97           -0.26     610.27       0.61 MA_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-             3 -210.47          696          0.96           -0.30     760.98       0.76 MA_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-             7 -300.75          621          0.94           -0.48     843.04       0.84 MA_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-             6 -324.98          613          0.93           -0.53     801.04       0.80 MA_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-             5 -346.44          615          0.93           -0.56     796.41       0.79 MA_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1   0.00            0          0.00            0.00       0.00       0.00 MA_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+             2   0.00            0          0.00            0.00       0.00       0.00 MA_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+             3   0.00            0          0.00            0.00       0.00       0.00 MA_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+             4   0.00            0          0.00            0.00       0.00       0.00 MA_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+             5   0.00            0          0.00            0.00       0.00       0.00 MA_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+             6   0.00            0          0.00            0.00       0.00       0.00 MA_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+             7   0.00            0          0.00            0.00       0.00       0.00 MA_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
