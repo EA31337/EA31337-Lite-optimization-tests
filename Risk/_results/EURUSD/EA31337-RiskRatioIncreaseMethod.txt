@@ -12,14 +12,14 @@
                              Spread          10
                                                                  [Optimization Graph]
       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         1 -281.09         1328          1.00           -0.21    9547.26       8.76  RiskRatioIncreaseMethod=0; MaxOrders=5; MaxOrdersPerType=2;
-         2 -281.09         1328          1.00           -0.21    9547.26       8.76  RiskRatioIncreaseMethod=7; MaxOrders=5; MaxOrdersPerType=2;
-         3 -281.09         1328          1.00           -0.21    9547.26       8.76 RiskRatioIncreaseMethod=14; MaxOrders=5; MaxOrdersPerType=2;
-         4 -281.09         1328          1.00           -0.21    9547.26       8.76 RiskRatioIncreaseMethod=21; MaxOrders=5; MaxOrdersPerType=2;
-         5 -281.09         1328          1.00           -0.21    9547.26       8.76 RiskRatioIncreaseMethod=28; MaxOrders=5; MaxOrdersPerType=2;
-         6 -281.09         1328          1.00           -0.21    9547.26       8.76 RiskRatioIncreaseMethod=35; MaxOrders=5; MaxOrdersPerType=2;
-         7 -281.09         1328          1.00           -0.21    9547.26       8.76 RiskRatioIncreaseMethod=42; MaxOrders=5; MaxOrdersPerType=2;
-         8 -281.09         1328          1.00           -0.21    9547.26       8.76 RiskRatioIncreaseMethod=49; MaxOrders=5; MaxOrdersPerType=2;
-         9 -281.09         1328          1.00           -0.21    9547.26       8.76 RiskRatioIncreaseMethod=56; MaxOrders=5; MaxOrdersPerType=2;
-        10 -281.09         1328          1.00           -0.21    9547.26       8.76 RiskRatioIncreaseMethod=63; MaxOrders=5; MaxOrdersPerType=2;
-        11 -281.09         1328          1.00           -0.21    9547.26       8.76 RiskRatioIncreaseMethod=70; MaxOrders=5; MaxOrdersPerType=2;
+         1 -270.91         1444          0.97           -0.19     804.12       0.80  RiskRatioIncreaseMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+         2 -270.91         1444          0.97           -0.19     804.12       0.80  RiskRatioIncreaseMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+         3 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioIncreaseMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+         4 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioIncreaseMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+         5 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioIncreaseMethod=28; MaxOrders=0; MaxOrdersPerType=0;
+         6 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioIncreaseMethod=35; MaxOrders=0; MaxOrdersPerType=0;
+         7 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioIncreaseMethod=42; MaxOrders=0; MaxOrdersPerType=0;
+         8 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioIncreaseMethod=49; MaxOrders=0; MaxOrdersPerType=0;
+         9 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioIncreaseMethod=56; MaxOrders=0; MaxOrdersPerType=0;
+        10 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioIncreaseMethod=63; MaxOrders=0; MaxOrdersPerType=0;
+        11 -270.91         1444          0.97           -0.19     804.12       0.80 RiskRatioIncreaseMethod=70; MaxOrders=0; MaxOrdersPerType=0;

@@ -12,8 +12,8 @@
                              Spread          10
                                                                  [Optimization Graph]
        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          2 2502.85          879          1.05            2.85    6076.63       5.61  InitNoOfDaysToWarmUp=7; MaxOrders=5; MaxOrdersPerType=2;
-          5 2196.91          911          1.05            2.41    6076.63       5.63 InitNoOfDaysToWarmUp=28; MaxOrders=5; MaxOrdersPerType=2;
-          4 2180.34          916          1.04            2.38    6076.63       5.63 InitNoOfDaysToWarmUp=21; MaxOrders=5; MaxOrdersPerType=2;
-          3 1846.43          913          1.04            2.02    6076.63       5.65 InitNoOfDaysToWarmUp=14; MaxOrders=5; MaxOrdersPerType=2;
-          1 1449.05          781          1.03            1.86    6028.24       5.73  InitNoOfDaysToWarmUp=0; MaxOrders=5; MaxOrdersPerType=2;
+          1 3314.55          466          1.69            7.11    1100.36       1.09  InitNoOfDaysToWarmUp=0; MaxOrders=0; MaxOrdersPerType=0;
+          5 2292.60          357          1.62            6.42     907.79       0.91 InitNoOfDaysToWarmUp=28; MaxOrders=0; MaxOrdersPerType=0;
+          4 2237.73          357          1.60            6.27    1011.29       1.01 InitNoOfDaysToWarmUp=21; MaxOrders=0; MaxOrdersPerType=0;
+          2 2040.03          357          1.52            5.71    1208.99       1.21  InitNoOfDaysToWarmUp=7; MaxOrders=0; MaxOrdersPerType=0;
+          3 2040.03          357          1.52            5.71    1208.99       1.21 InitNoOfDaysToWarmUp=14; MaxOrders=0; MaxOrdersPerType=0;
