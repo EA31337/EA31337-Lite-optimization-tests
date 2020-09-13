@@ -86,7 +86,7 @@ services:
     env_file: ../../../EA-Tester.ini
     environment:
       BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=0.5
       RUN_ON_SET: >
         set_opt_params DeMarker_SignalLevel
         $$(bc <<< "$$(input_get DeMarker_SignalLevel) - 0.1 * 5")

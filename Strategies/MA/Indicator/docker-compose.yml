@@ -19,7 +19,7 @@ services:
         2;
         done
       SETFILE: /opt/sets/EA31337-MA_Periods.set
-      SET_PARAMS: MA_Periods
+      SET_PARAMS: MA_Period_Fast,MA_Period_Medium,MA_Period_Slow
       TEST_REPORT_NAME: EA31337-MA_Periods
   MA_Applied_Price:
     command: run_backtest -v
@@ -65,7 +65,7 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         set_opt_params MA_Shift
-        $$(bc <<< "$$(input_get MA_Shift) - 1 * 2")
+        $$(get_max 0 $$(bc <<< "$$(input_get MA_Shift) - 1 * 2"))
         $$(bc <<< "$$(input_get MA_Shift) + 1 * 2")
       SETFILE: /opt/sets/EA31337-MA_Shift.set
       SET_PARAMS: MA_Shift
@@ -82,7 +82,7 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         set_opt_params MA_Shift_Fast
-        $$(bc <<< "$$(input_get MA_Shift_Fast) - 1 * 2")
+        $$(get_max 0 $$(bc <<< "$$(input_get MA_Shift_Fast) - 1 * 2"))
         $$(bc <<< "$$(input_get MA_Shift_Fast) + 1 * 2")
       SETFILE: /opt/sets/EA31337-MA_Shift_Fast.set
       SET_PARAMS: MA_Shift_Fast
@@ -99,7 +99,7 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         set_opt_params MA_Shift_Medium
-        $$(bc <<< "$$(input_get MA_Shift_Medium) - 1 * 2")
+        $$(get_max 0 $$(bc <<< "$$(input_get MA_Shift_Medium) - 1 * 2"))
         $$(bc <<< "$$(input_get MA_Shift_Medium) + 1 * 2")
       SETFILE: /opt/sets/EA31337-MA_Shift_Medium.set
       SET_PARAMS: MA_Shift_Medium
@@ -116,7 +116,7 @@ services:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: >
         set_opt_params MA_Shift_Slow
-        $$(bc <<< "$$(input_get MA_Shift_Slow) - 1 * 2")
+        $$(get_max 0 $$(bc <<< "$$(input_get MA_Shift_Slow) - 1 * 2"))
         $$(bc <<< "$$(input_get MA_Shift_Slow) + 1 * 2")
       SETFILE: /opt/sets/EA31337-MA_Shift_Slow.set
       SET_PARAMS: MA_Shift_Slow

@@ -85,7 +85,7 @@ services:
       BT_MONTHS: 6-12
       SET_PARAMS: RSI_Applied_Price
       RUN_ON_SET: set_opt_params RSI_Applied_Price 0 6
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=5
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-RSI_Applied_Price.set
       TEST_REPORT_NAME: EA31337-RSI_Applied_Price
   RSI_SignalLevel:
@@ -100,10 +100,10 @@ services:
       SET_PARAMS: RSI_SignalLevel
       RUN_ON_SET: >
         set_opt_params RSI_SignalLevel
-        $$(bc <<< "$$(input_get RSI_SignalLevel) - 2 * 4")
-        $$(bc <<< "$$(input_get RSI_SignalLevel) + 2 * 4")
+        $$(get_max 2 $$(bc <<< "$$(input_get RSI_SignalLevel) - 2 * 4"))
+        $$(get_min 48 $$(bc <<< "$$(input_get RSI_SignalLevel) + 2 * 4"))
         2
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=4
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-RSI_SignalLevel.set
       TEST_REPORT_NAME: EA31337-RSI_SignalLevel
   RSI_Shift:
@@ -119,6 +119,6 @@ services:
         set_opt_params RSI_Shift
         $$(get_max 0 $$(bc <<< "$$(input_get RSI_Shift) - 1 * 2"))
         $$(bc <<< "$$(input_get RSI_Shift) + 1 * 2")
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=3
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-RSI_Shift.set
       TEST_REPORT_NAME: EA31337-RSI_Shift

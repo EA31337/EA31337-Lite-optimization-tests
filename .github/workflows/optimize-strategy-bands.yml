@@ -10,50 +10,11 @@ on:
 
 jobs:
 
-  Deviation:
-    defaults:
-      run:
-        shell: bash
-        working-directory: Strategies/Bands/Indicator
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        test:
-          - Bands_Deviation_M1
-          - Bands_Deviation_M5
-          - Bands_Deviation_M15
-          - Bands_Deviation_M30
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-          # Otherwise, you will failed to push refs to dest repo.
-          fetch-depth: 0
-      - run: docker-compose run $DCA ${{ matrix.test }}
-      - name: Commit files
-        run: |
-          git config --local core.autocrlf false
-          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
-          git config --local user.name "${{ github.actor }}"
-          git add . && git add --renormalize .
-          git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -am "${{ github.workflow }}"
-      - name: Git Diff
-        run: NO_PAGER=1 git --no-pager diff HEAD^
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          branch: ${{ github.ref }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-    env:
-      DCA: "--rm"
-
   Period:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/Bands/Indicator
-    needs: Deviation
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -75,14 +36,71 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git add . && git add --renormalize .
-          git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -am "${{ github.workflow }}"
-      - name: Git Diff
-        run: NO_PAGER=1 git --no-pager diff HEAD^
+          git pull origin ${{ github.ref }} --autostash --rebase -X ours
+          git commit --allow-empty -am "${{ github.workflow }}"
+          NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Re-pull on failure
+        if: ${{ failure() }}
+        run: git pull origin ${{ github.ref }} --autostash --rebase -X ours
+      - name: Re-push on failure
+        if: ${{ failure() }}
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          force: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
+
+  Deviation:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Strategies/Bands/Indicator
+    needs: Period
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - Bands_Deviation_M1
+          - Bands_Deviation_M5
+          - Bands_Deviation_M15
+          - Bands_Deviation_M30
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA ${{ matrix.test }}
+      - name: Commit files
+        run: |
+          git config --local core.autocrlf false
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git add . && git add --renormalize .
+          git pull origin ${{ github.ref }} --autostash --rebase -X ours
+          git commit --allow-empty -am "${{ github.workflow }}"
+          NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Re-pull on failure
+        if: ${{ failure() }}
+        run: git pull origin ${{ github.ref }} --autostash --rebase -X ours
+      - name: Re-push on failure
+        if: ${{ failure() }}
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          force: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
@@ -114,14 +132,23 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git add . && git add --renormalize .
-          git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -am "${{ github.workflow }}"
-      - name: Git Diff
-        run: NO_PAGER=1 git --no-pager diff HEAD^
+          git pull origin ${{ github.ref }} --autostash --rebase -X ours
+          git commit --allow-empty -am "${{ github.workflow }}"
+          NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Re-pull on failure
+        if: ${{ failure() }}
+        run: git pull origin ${{ github.ref }} --autostash --rebase -X ours
+      - name: Re-push on failure
+        if: ${{ failure() }}
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          force: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
@@ -146,14 +173,23 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git add . && git add --renormalize .
-          git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -am "${{ github.workflow }}"
-      - name: Git Diff
-        run: NO_PAGER=1 git --no-pager diff HEAD^
+          git pull origin ${{ github.ref }} --autostash --rebase -X ours
+          git commit --allow-empty -am "${{ github.workflow }}"
+          NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Re-pull on failure
+        if: ${{ failure() }}
+        run: git pull origin ${{ github.ref }} --autostash --rebase -X ours
+      - name: Re-push on failure
+        if: ${{ failure() }}
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          force: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
@@ -184,14 +220,23 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git add . && git add --renormalize .
-          git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -am "${{ github.workflow }}"
-      - name: Git Diff
-        run: NO_PAGER=1 git --no-pager diff HEAD^
+          git pull origin ${{ github.ref }} --autostash --rebase -X ours
+          git commit --allow-empty -am "${{ github.workflow }}"
+          NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Re-pull on failure
+        if: ${{ failure() }}
+        run: git pull origin ${{ github.ref }} --autostash --rebase -X ours
+      - name: Re-push on failure
+        if: ${{ failure() }}
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          force: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
@@ -215,14 +260,23 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
           git add . && git add --renormalize .
-          git pull origin ${{ github.ref }} --autostash --rebase -Xours
-          git commit -am "${{ github.workflow }}"
-      - name: Git Diff
-        run: NO_PAGER=1 git --no-pager diff HEAD^
+          git pull origin ${{ github.ref }} --autostash --rebase -X ours
+          git commit --allow-empty -am "${{ github.workflow }}"
+          NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Re-pull on failure
+        if: ${{ failure() }}
+        run: git pull origin ${{ github.ref }} --autostash --rebase -X ours
+      - name: Re-push on failure
+        if: ${{ failure() }}
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          force: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"

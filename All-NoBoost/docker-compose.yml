@@ -9,8 +9,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      BT_MONTHS: 1-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=40
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 10 * 2"))
@@ -27,7 +27,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=40
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 4"))
@@ -44,8 +44,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      BT_MONTHS: 1-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=40
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 20 * 2"))
@@ -62,8 +62,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      BT_MONTHS: 1-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=40
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 20 * 2"))
@@ -80,8 +80,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      BT_MONTHS: 1-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=40
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 10 * 2"))
@@ -98,8 +98,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      BT_MONTHS: 1-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=40
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 10 * 2"))
@@ -116,8 +116,8 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      BT_MONTHS: 1-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=40
       RUN_ON_SET: >
         set_opt_params TrendPeriod
         5 1440 0

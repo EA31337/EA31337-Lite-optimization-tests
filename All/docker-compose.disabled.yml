@@ -9,7 +9,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
