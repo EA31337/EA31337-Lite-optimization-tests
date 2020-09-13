@@ -12,23 +12,23 @@
                              Spread          10
                                                                  [Optimization Graph]
 Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-   6  4577.97         1996          1.05            2.29   11852.08      10.82                   BestWeeklyStrategyMultiplierFactor=0.5; MaxOrders=0;
+   2 11704.93         1663          1.18            7.04    4387.24       4.06                   BestWeeklyStrategyMultiplierFactor=0.1; MaxOrders=0;
                                                                                                                                   MaxOrdersPerType=0;
-   2  4284.25         1996          1.05            2.15   12846.45      11.66                   BestWeeklyStrategyMultiplierFactor=0.1; MaxOrders=0;
+   3 10988.66         1663          1.17            6.61    4207.08       4.11                   BestWeeklyStrategyMultiplierFactor=0.2; MaxOrders=0;
                                                                                                                                   MaxOrdersPerType=0;
-   5  4235.56         1996          1.05            2.12   10624.67       9.81                   BestWeeklyStrategyMultiplierFactor=0.4; MaxOrders=0;
+   4  9203.17         1663          1.15            5.53    5267.12       5.15                   BestWeeklyStrategyMultiplierFactor=0.3; MaxOrders=0;
                                                                                                                                   MaxOrdersPerType=0;
-   7  4122.64         1996          1.04            2.07   11839.62      10.85                   BestWeeklyStrategyMultiplierFactor=0.6; MaxOrders=0;
+   5  8405.84         1663          1.13            5.05    5261.69       5.15                   BestWeeklyStrategyMultiplierFactor=0.4; MaxOrders=0;
                                                                                                                                   MaxOrdersPerType=0;
-   3  3987.92         1996          1.04            2.00   12845.32      11.69                   BestWeeklyStrategyMultiplierFactor=0.2; MaxOrders=0;
+   7  7836.71         1663          1.11            4.71    5160.38       5.05                   BestWeeklyStrategyMultiplierFactor=0.6; MaxOrders=0;
                                                                                                                                   MaxOrdersPerType=0;
-   8  3139.63         1996          1.03            1.57   12205.29      11.20                   BestWeeklyStrategyMultiplierFactor=0.7; MaxOrders=0;
+   6  7752.29         1663          1.12            4.66    5285.47       5.17                   BestWeeklyStrategyMultiplierFactor=0.5; MaxOrders=0;
                                                                                                                                   MaxOrdersPerType=0;
-   4  3049.39         1996          1.03            1.53   12344.32      11.36                   BestWeeklyStrategyMultiplierFactor=0.3; MaxOrders=0;
+   8  7404.66         1663          1.10            4.45    4754.49       4.65                   BestWeeklyStrategyMultiplierFactor=0.7; MaxOrders=0;
                                                                                                                                   MaxOrdersPerType=0;
-   9  1636.13         1996          1.02            0.82   12444.12      11.46                   BestWeeklyStrategyMultiplierFactor=0.8; MaxOrders=0;
+   9  6820.53         1663          1.09            4.10    4734.55       4.62                   BestWeeklyStrategyMultiplierFactor=0.8; MaxOrders=0;
                                                                                                                                   MaxOrdersPerType=0;
-  10   378.53         1996          1.00            0.19   12661.49      11.71                   BestWeeklyStrategyMultiplierFactor=0.9; MaxOrders=0;
+  10  6386.93         1663          1.08            3.84    4881.51       4.64                   BestWeeklyStrategyMultiplierFactor=0.9; MaxOrders=0;
                                                                                                                                   MaxOrdersPerType=0;
-  11 -1164.17         1996          0.99           -0.58   13426.20      12.44 BestWeeklyStrategyMultiplierFactor=1; MaxOrders=0; MaxOrdersPerType=0;
-   1 -1216.63         1996          0.99           -0.61   13522.81      12.52 BestWeeklyStrategyMultiplierFactor=0; MaxOrders=0; MaxOrdersPerType=0;
+   1  6368.05         1663          1.07            3.83    5076.91       4.80 BestWeeklyStrategyMultiplierFactor=0; MaxOrders=0; MaxOrdersPerType=0;
+  11  6303.53         1663          1.07            3.79    5076.91       4.81 BestWeeklyStrategyMultiplierFactor=1; MaxOrders=0; MaxOrdersPerType=0;

@@ -13,7 +13,7 @@ WorseWeeklyStrategyMultiplierFactor=1.0
 WorseMonthlyStrategyMultiplierFactor=1.0
 BoostTrendFactor=1.0
 # Optimization params.
-ConFactorOrdersLimit=900
+ConFactorOrdersLimit=0
 ConFactorOrdersLimit,F=0
 ConFactorOrdersLimit,1=0
 ConFactorOrdersLimit,2=0
